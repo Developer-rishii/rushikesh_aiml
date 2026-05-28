@@ -1,0 +1,11 @@
+transformers>=4.30.0
+torch
+textstat
+language-tool-python
+nltk
+spacy
+radon
+pylint
+joblib
+numpy
+pandas
