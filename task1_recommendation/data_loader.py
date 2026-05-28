@@ -5,7 +5,8 @@ import os
 from typing import Dict, Any
 
 # Constants
-DEFAULT_CSV_PATH = os.path.join(os.path.dirname(__file__), 'data', 'synthetic_students.csv')
+RAW_CSV_PATH = os.path.join(os.path.dirname(__file__), 'data', 'synthetic_students.csv')
+DEFAULT_CSV_PATH = os.path.join(os.path.dirname(__file__), 'data', 'student_progress.csv')
 NUM_STUDENTS = 1000
 NUM_LEVELS = 50
 
@@ -63,9 +64,20 @@ def load_data(filepath: str = DEFAULT_CSV_PATH) -> pd.DataFrame:
         pd.DataFrame: Raw dataframe containing student level attempts.
     """
     if not os.path.exists(filepath):
-        print(f"File {filepath} not found. Generating synthetic data...")
-        generate_synthetic_data(filepath)
-        
+        print(f"File {filepath} not found.")
+        if filepath == DEFAULT_CSV_PATH:
+            print(f"Generating synthetic raw data at {RAW_CSV_PATH}...")
+            generate_synthetic_data(RAW_CSV_PATH)
+            print("WARNING: You must run 'data_preprocessing.ipynb' to generate the processed data.")
+            # For robustness, we could run the preprocessing here, but we will just return raw data or raise an error.
+            # To ensure the engine works immediately, we will do a basic duplicate drop if the notebook hasn't been run.
+            raw_df = pd.read_csv(RAW_CSV_PATH, parse_dates=['timestamp'])
+            processed_df = raw_df.drop_duplicates()
+            processed_df.to_csv(filepath, index=False)
+            print(f"Automatically preprocessed and saved to {filepath}.")
+        else:
+            generate_synthetic_data(filepath)
+            
     return pd.read_csv(filepath, parse_dates=['timestamp'])
 
 def preprocess(df: pd.DataFrame) -> pd.DataFrame:
