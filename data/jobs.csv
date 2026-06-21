@@ -1,0 +1,201 @@
+job_id,job_title,required_skills,min_experience,education_required,location
+J00001,Machine Learning Engineer,"Data Engineering, PyTorch, GCP, Java",0,Master,San Francisco
+J00002,Backend Developer,"Machine Learning, TypeScript, React, Kubernetes",3,Bachelor,San Francisco
+J00003,Frontend Developer,"AWS, Docker, Python, TensorFlow, Computer Vision, Go",1,High School,Bangalore
+J00004,Software Engineer,"SQL, TensorFlow, AWS, Node.js, TypeScript, Ruby, Machine Learning",1,Master,Singapore
+J00005,Software Engineer,"Ruby, C++, Java, Azure",1,Bachelor,Berlin
+J00006,Data Scientist,"Azure, TypeScript, Java, PyTorch, React, Node.js, Kubernetes",1,Master,New York
+J00007,Frontend Developer,"C++, TypeScript, Kubernetes, Java, Python, Azure, SQL",8,Master,Toronto
+J00008,DevOps Engineer,"Ruby, Java, Data Engineering, AWS, TypeScript",6,Bachelor,Bangalore
+J00009,Product Manager,"Computer Vision, AWS, GCP, Ruby",1,Bachelor,Toronto
+J00010,Product Manager,"Kubernetes, Go, SQL, Docker, GCP",1,Bachelor,Toronto
+J00011,Frontend Developer,"Kubernetes, Data Engineering, React, Computer Vision, TypeScript, PyTorch, C++",1,Master,Toronto
+J00012,Product Manager,"Java, Python, TensorFlow, AWS, NLP",8,Master,San Francisco
+J00013,Full Stack Developer,"Machine Learning, NLP, Ruby",1,Master,London
+J00014,Frontend Developer,"Azure, C++, GCP",9,Master,Seattle
+J00015,Machine Learning Engineer,"React, Computer Vision, TensorFlow",9,Bachelor,Seattle
+J00016,Backend Developer,"TensorFlow, NLP, TypeScript, PyTorch, Node.js",7,Bachelor,Berlin
+J00017,Software Engineer,"TensorFlow, React, Machine Learning, Python, AWS, Azure",1,Bachelor,New York
+J00018,Full Stack Developer,"NLP, GCP, Machine Learning, Kubernetes",9,Bachelor,San Francisco
+J00019,Machine Learning Engineer,"TensorFlow, Data Engineering, C++, Kubernetes, TypeScript, React, Node.js",8,Bachelor,Bangalore
+J00020,Data Engineer,"Python, SQL, Computer Vision, AWS, NLP, React, Java",7,Bachelor,New York
+J00021,Data Engineer,"Go, Kubernetes, Java, TensorFlow",2,Bachelor,Seattle
+J00022,Backend Developer,"AWS, Ruby, TensorFlow, Go, PyTorch, Node.js",8,Bachelor,Berlin
+J00023,Software Engineer,"Ruby, NLP, Azure, Kubernetes, GCP, Python",9,High School,Austin
+J00024,Data Engineer,"Ruby, Python, GCP, NLP, AWS",5,PhD,Seattle
+J00025,Full Stack Developer,"SQL, React, Ruby, Go, Kubernetes",1,PhD,San Francisco
+J00026,Software Engineer,"AWS, GCP, Java, Python, Ruby",7,Master,Seattle
+J00027,DevOps Engineer,"PyTorch, Computer Vision, Node.js, Python, TensorFlow, Kubernetes, TypeScript",6,Bachelor,Austin
+J00028,DevOps Engineer,"AWS, TensorFlow, TypeScript, C++, GCP, React, Node.js",2,Master,Austin
+J00029,Software Engineer,"C++, TensorFlow, Docker, TypeScript, Kubernetes, Machine Learning",4,PhD,Seattle
+J00030,Machine Learning Engineer,"TypeScript, Docker, AWS, GCP",1,Bachelor,Bangalore
+J00031,Machine Learning Engineer,"Computer Vision, C++, Azure, Docker, Kubernetes, Node.js",6,Master,Austin
+J00032,Product Manager,"Computer Vision, NLP, Node.js, PyTorch",10,Master,London
+J00033,Frontend Developer,"PyTorch, Java, TensorFlow",10,PhD,Toronto
+J00034,DevOps Engineer,"Go, Computer Vision, SQL, PyTorch, C++",7,Bachelor,London
+J00035,Data Engineer,"Computer Vision, TypeScript, GCP, Docker, C++",4,Master,London
+J00036,Backend Developer,"TypeScript, React, NLP, Ruby, AWS",3,High School,Berlin
+J00037,Backend Developer,"TensorFlow, Go, Computer Vision, Ruby, SQL, AWS",4,Bachelor,Berlin
+J00038,Software Engineer,"Go, Java, SQL, TensorFlow, Python",1,Bachelor,Berlin
+J00039,Data Engineer,"Computer Vision, Azure, Docker",2,Bachelor,Singapore
+J00040,Frontend Developer,"AWS, PyTorch, Ruby, Node.js, TensorFlow, Data Engineering, SQL",9,Bachelor,Austin
+J00041,Backend Developer,"Ruby, NLP, React, Computer Vision, C++",1,Bachelor,Berlin
+J00042,Data Scientist,"Computer Vision, Node.js, SQL, TensorFlow, Azure, PyTorch",5,Bachelor,Toronto
+J00043,DevOps Engineer,"Node.js, Machine Learning, Azure, TensorFlow",4,High School,Singapore
+J00044,Research Scientist,"SQL, React, Node.js",6,Bachelor,Austin
+J00045,Data Engineer,"Go, React, Data Engineering",0,PhD,Seattle
+J00046,Backend Developer,"Kubernetes, Docker, React, TypeScript, C++",7,Master,Seattle
+J00047,Product Manager,"Node.js, Docker, TensorFlow",6,PhD,Austin
+J00048,Data Engineer,"AWS, Java, Node.js, PyTorch, Docker, Ruby",9,Master,Bangalore
+J00049,Backend Developer,"Data Engineering, Python, SQL, Java, TypeScript",0,Bachelor,Berlin
+J00050,Research Scientist,"Ruby, Docker, AWS, Java, React",10,Master,Singapore
+J00051,Full Stack Developer,"GCP, Data Engineering, TensorFlow, Machine Learning, Node.js, Docker",5,Master,Remote
+J00052,Data Engineer,"Computer Vision, Azure, Java",6,PhD,Singapore
+J00053,Data Scientist,"Python, TypeScript, Go, React",7,Bachelor,London
+J00054,Backend Developer,"NLP, Computer Vision, Node.js",1,PhD,London
+J00055,Product Manager,"AWS, Python, PyTorch, Computer Vision, Data Engineering, Go, GCP",1,Bachelor,Remote
+J00056,Backend Developer,"Node.js, Kubernetes, TensorFlow, NLP",6,Master,Singapore
+J00057,Data Engineer,"Kubernetes, C++, Computer Vision, Java",2,High School,Berlin
+J00058,Full Stack Developer,"TypeScript, Data Engineering, React, Azure",10,Master,San Francisco
+J00059,Data Engineer,"TensorFlow, Machine Learning, GCP",10,Bachelor,Seattle
+J00060,DevOps Engineer,"TypeScript, Node.js, Docker, AWS, SQL, Python",3,Bachelor,Austin
+J00061,DevOps Engineer,"TypeScript, SQL, Python, Node.js, NLP, Machine Learning, C++",2,PhD,Bangalore
+J00062,Backend Developer,"Ruby, Java, Node.js",8,Bachelor,Austin
+J00063,Machine Learning Engineer,"Machine Learning, Docker, GCP, PyTorch, Computer Vision, Ruby",1,Bachelor,London
+J00064,Machine Learning Engineer,"Node.js, Azure, Computer Vision, Kubernetes, TypeScript, PyTorch",8,Bachelor,London
+J00065,Frontend Developer,"TensorFlow, Machine Learning, Go, Data Engineering, SQL",2,Bachelor,London
+J00066,Product Manager,"TensorFlow, Node.js, Java",6,Bachelor,Toronto
+J00067,Product Manager,"Data Engineering, Azure, Go",7,Bachelor,London
+J00068,Machine Learning Engineer,"Azure, Docker, C++",2,Master,Bangalore
+J00069,Data Engineer,"Ruby, TypeScript, C++, Python, Java",1,Bachelor,Toronto
+J00070,Data Scientist,"GCP, Python, Kubernetes",6,Bachelor,San Francisco
+J00071,Product Manager,"Machine Learning, Python, Docker, Data Engineering, TensorFlow",10,PhD,Singapore
+J00072,DevOps Engineer,"GCP, SQL, Data Engineering",9,Bachelor,New York
+J00073,Data Engineer,"GCP, SQL, Docker, NLP, Go",4,Bachelor,Seattle
+J00074,Data Engineer,"Python, C++, Java",6,Bachelor,London
+J00075,Machine Learning Engineer,"Kubernetes, TensorFlow, Computer Vision",10,Master,Austin
+J00076,Product Manager,"Azure, PyTorch, C++",7,Master,Toronto
+J00077,Full Stack Developer,"Ruby, Computer Vision, Docker, TypeScript, Azure",2,Bachelor,Seattle
+J00078,Product Manager,"SQL, PyTorch, GCP",10,Bachelor,London
+J00079,Data Scientist,"PyTorch, TypeScript, Docker, Kubernetes, Data Engineering, C++",7,Bachelor,London
+J00080,Research Scientist,"React, PyTorch, Computer Vision, Kubernetes, SQL",1,PhD,Bangalore
+J00081,Data Scientist,"PyTorch, Computer Vision, Ruby",7,Master,Singapore
+J00082,Data Scientist,"Azure, Node.js, Docker, PyTorch, Python",10,Bachelor,London
+J00083,Product Manager,"SQL, Docker, Computer Vision, Kubernetes, GCP, PyTorch",10,Bachelor,Berlin
+J00084,Data Scientist,"Java, C++, TypeScript, Docker, Node.js",6,Bachelor,New York
+J00085,Data Engineer,"AWS, Python, Java, TensorFlow, Data Engineering, Azure",10,PhD,Singapore
+J00086,Backend Developer,"Kubernetes, Azure, NLP, TypeScript, Docker, TensorFlow",0,Bachelor,New York
+J00087,Frontend Developer,"Python, C++, TensorFlow, Machine Learning",6,Master,Bangalore
+J00088,Product Manager,"Docker, Kubernetes, Data Engineering, Machine Learning",6,High School,London
+J00089,Product Manager,"Data Engineering, TensorFlow, Ruby, Python",9,Bachelor,Berlin
+J00090,Data Engineer,"NLP, SQL, GCP, Python, AWS, Go, Computer Vision",6,Master,Singapore
+J00091,Full Stack Developer,"Go, Kubernetes, SQL, TensorFlow, NLP, React, Node.js",9,PhD,Toronto
+J00092,Full Stack Developer,"SQL, PyTorch, Python, Computer Vision",5,Bachelor,Berlin
+J00093,Data Engineer,"TensorFlow, AWS, TypeScript, Azure, Data Engineering, PyTorch",0,Bachelor,Remote
+J00094,DevOps Engineer,"Azure, Data Engineering, React, PyTorch, Go, Kubernetes",9,Master,Toronto
+J00095,Product Manager,"Kubernetes, NLP, Computer Vision, Azure",2,Master,Berlin
+J00096,Frontend Developer,"TensorFlow, Machine Learning, Java",2,Master,San Francisco
+J00097,DevOps Engineer,"TensorFlow, Kubernetes, React, C++, SQL, Python",4,Bachelor,London
+J00098,Data Engineer,"PyTorch, SQL, Docker, GCP",1,Master,San Francisco
+J00099,Research Scientist,"React, TensorFlow, Node.js, GCP, Azure, NLP, Python",4,Master,Bangalore
+J00100,Full Stack Developer,"AWS, SQL, Data Engineering, Go, TypeScript, Ruby, NLP",9,Master,San Francisco
+J00101,DevOps Engineer,"SQL, PyTorch, AWS, Java, Go, Computer Vision, TensorFlow",2,Master,Toronto
+J00102,Data Scientist,"TensorFlow, AWS, Machine Learning, Azure, GCP, Computer Vision, Docker",3,Bachelor,Seattle
+J00103,Machine Learning Engineer,"React, TensorFlow, GCP",8,Bachelor,Berlin
+J00104,Frontend Developer,"Computer Vision, Azure, React, Machine Learning, TypeScript",2,Master,Seattle
+J00105,Software Engineer,"Data Engineering, PyTorch, Azure, Python, TypeScript, Docker",8,PhD,San Francisco
+J00106,Data Engineer,"GCP, NLP, Java, Computer Vision, SQL",0,Master,London
+J00107,Research Scientist,"SQL, PyTorch, Kubernetes, Computer Vision, NLP, Data Engineering, GCP",4,Master,Austin
+J00108,Product Manager,"Python, Node.js, PyTorch, Machine Learning, NLP",10,Bachelor,Bangalore
+J00109,Data Scientist,"TypeScript, Data Engineering, Azure, NLP, C++, Ruby, Machine Learning",0,Bachelor,Seattle
+J00110,Data Scientist,"PyTorch, Go, Kubernetes, C++",8,Bachelor,Bangalore
+J00111,Machine Learning Engineer,"Java, Python, Ruby, Node.js, React",6,PhD,San Francisco
+J00112,DevOps Engineer,"Azure, Node.js, PyTorch",1,High School,San Francisco
+J00113,Full Stack Developer,"Kubernetes, Ruby, Python, Data Engineering, GCP, AWS",9,Master,Bangalore
+J00114,Research Scientist,"React, Azure, Kubernetes, Go, Machine Learning, Ruby, C++",3,Bachelor,Bangalore
+J00115,Data Engineer,"C++, Azure, Data Engineering, AWS, Machine Learning, Ruby, TypeScript",1,Bachelor,Seattle
+J00116,DevOps Engineer,"TensorFlow, C++, Data Engineering, Docker",10,Bachelor,Singapore
+J00117,Product Manager,"PyTorch, NLP, Node.js, TensorFlow, Computer Vision, React, Azure",6,Master,London
+J00118,Product Manager,"Machine Learning, TensorFlow, Data Engineering, TypeScript, AWS, Azure, Ruby",7,High School,London
+J00119,Machine Learning Engineer,"Azure, AWS, Computer Vision, Ruby, PyTorch, Java, Kubernetes",0,Bachelor,San Francisco
+J00120,Software Engineer,"Kubernetes, Azure, TypeScript, Go, TensorFlow",2,Bachelor,Singapore
+J00121,Product Manager,"SQL, Kubernetes, Ruby, C++, Java, Computer Vision",0,Bachelor,Austin
+J00122,Full Stack Developer,"SQL, Computer Vision, TensorFlow",4,Bachelor,Austin
+J00123,Product Manager,"TensorFlow, Machine Learning, Ruby, PyTorch, Data Engineering, NLP",10,Bachelor,Austin
+J00124,Frontend Developer,"TypeScript, Computer Vision, NLP",6,Bachelor,New York
+J00125,Data Scientist,"Node.js, Docker, Java, Python, Kubernetes, TypeScript",10,Bachelor,Remote
+J00126,Research Scientist,"Go, Ruby, SQL, PyTorch, C++, NLP, React",0,Bachelor,Bangalore
+J00127,Full Stack Developer,"Python, Node.js, C++, React",7,Bachelor,Bangalore
+J00128,Backend Developer,"GCP, NLP, SQL, TensorFlow, Python, Java, C++",6,High School,Bangalore
+J00129,Research Scientist,"NLP, Node.js, Docker, AWS, PyTorch",2,Bachelor,London
+J00130,Software Engineer,"Docker, Machine Learning, Kubernetes, Computer Vision, Java",9,PhD,London
+J00131,Data Scientist,"SQL, Kubernetes, NLP",5,Bachelor,Austin
+J00132,Full Stack Developer,"NLP, AWS, SQL, C++, React",9,Bachelor,Bangalore
+J00133,Data Engineer,"NLP, AWS, Node.js, SQL, GCP, React, Go",1,Bachelor,Seattle
+J00134,Frontend Developer,"Python, Node.js, Go, AWS",8,Master,London
+J00135,Backend Developer,"Ruby, Computer Vision, Data Engineering, Docker, C++",5,Bachelor,London
+J00136,Software Engineer,"Go, Computer Vision, TypeScript, Data Engineering",0,Master,Singapore
+J00137,Full Stack Developer,"Java, Python, SQL, TensorFlow, Node.js",4,Master,Seattle
+J00138,Backend Developer,"C++, Ruby, PyTorch, Kubernetes, SQL",8,Bachelor,Berlin
+J00139,Research Scientist,"NLP, AWS, Machine Learning",4,Master,Remote
+J00140,DevOps Engineer,"PyTorch, GCP, Ruby, Node.js, Data Engineering, Machine Learning, AWS",5,Bachelor,Singapore
+J00141,Software Engineer,"Python, Machine Learning, TypeScript, TensorFlow, Go",10,Bachelor,Bangalore
+J00142,Product Manager,"NLP, Go, Docker, Ruby, Python, Data Engineering",10,Bachelor,Seattle
+J00143,Frontend Developer,"Azure, NLP, Java, Python, AWS, React, Go",7,High School,New York
+J00144,Frontend Developer,"Azure, C++, Docker, Kubernetes, React",7,PhD,New York
+J00145,Data Scientist,"TensorFlow, C++, Python, Ruby, NLP",4,Bachelor,Toronto
+J00146,Full Stack Developer,"Go, C++, Java, Docker",2,Master,London
+J00147,Software Engineer,"Ruby, React, PyTorch, Node.js, C++",10,Bachelor,Berlin
+J00148,Data Engineer,"Data Engineering, Python, Computer Vision, SQL, GCP, C++, Go",4,Bachelor,Bangalore
+J00149,Machine Learning Engineer,"TensorFlow, Azure, PyTorch, SQL, React, Python",6,Bachelor,Austin
+J00150,Data Scientist,"NLP, C++, GCP",9,Master,Remote
+J00151,Data Scientist,"Docker, React, C++, Java, GCP, Machine Learning",10,Master,New York
+J00152,Product Manager,"Computer Vision, Python, GCP, Node.js, React, SQL",3,PhD,New York
+J00153,Product Manager,"PyTorch, React, Docker, Data Engineering, AWS",9,Bachelor,New York
+J00154,Backend Developer,"NLP, GCP, Docker",0,PhD,Toronto
+J00155,Data Scientist,"Kubernetes, Computer Vision, Docker",10,Bachelor,New York
+J00156,Full Stack Developer,"NLP, TypeScript, AWS, Computer Vision, React",10,Master,Toronto
+J00157,Research Scientist,"Data Engineering, Computer Vision, AWS, GCP, Python, React",5,Bachelor,San Francisco
+J00158,Full Stack Developer,"Python, Docker, C++",2,Master,Berlin
+J00159,Backend Developer,"Computer Vision, TensorFlow, Data Engineering, Java, React",0,Bachelor,Berlin
+J00160,Machine Learning Engineer,"Computer Vision, PyTorch, Azure, Kubernetes, Machine Learning, Docker, React",9,Bachelor,Austin
+J00161,Software Engineer,"PyTorch, Ruby, Machine Learning",3,Bachelor,Bangalore
+J00162,Frontend Developer,"Computer Vision, Azure, C++",10,PhD,San Francisco
+J00163,Full Stack Developer,"C++, TensorFlow, Data Engineering, GCP, PyTorch",4,Bachelor,London
+J00164,Frontend Developer,"Data Engineering, SQL, TensorFlow",0,Master,Remote
+J00165,Data Engineer,"TypeScript, C++, React, TensorFlow, GCP, NLP",3,Bachelor,New York
+J00166,Backend Developer,"Python, Docker, Azure, TypeScript, AWS",4,Bachelor,Singapore
+J00167,Backend Developer,"SQL, Python, C++, Go, Kubernetes",3,Master,London
+J00168,Backend Developer,"Go, React, Java, C++, Python",4,PhD,New York
+J00169,Machine Learning Engineer,"NLP, AWS, GCP, C++",7,Bachelor,Austin
+J00170,Backend Developer,"PyTorch, Computer Vision, Docker, AWS",2,Master,Remote
+J00171,Full Stack Developer,"NLP, Azure, GCP, Computer Vision, React, Data Engineering, Python",9,Bachelor,Bangalore
+J00172,Backend Developer,"Machine Learning, GCP, React, SQL, Node.js",8,PhD,Toronto
+J00173,Research Scientist,"Docker, TensorFlow, TypeScript, Java",6,Master,Bangalore
+J00174,DevOps Engineer,"TensorFlow, PyTorch, Data Engineering, Java, GCP",8,Master,Toronto
+J00175,Frontend Developer,"Node.js, Ruby, NLP, SQL, C++, AWS",7,Master,Seattle
+J00176,DevOps Engineer,"Kubernetes, Computer Vision, NLP, Java",4,Bachelor,London
+J00177,DevOps Engineer,"Kubernetes, Data Engineering, PyTorch",3,Bachelor,Toronto
+J00178,DevOps Engineer,"TypeScript, GCP, Computer Vision, Data Engineering, PyTorch, C++, TensorFlow",7,Bachelor,Seattle
+J00179,Machine Learning Engineer,"Java, Data Engineering, React",10,Bachelor,San Francisco
+J00180,Frontend Developer,"PyTorch, TypeScript, Go, Docker, Node.js",1,Bachelor,Austin
+J00181,Frontend Developer,"Go, C++, GCP",10,Bachelor,Berlin
+J00182,Machine Learning Engineer,"C++, Machine Learning, Go, Node.js, Python",4,Master,Seattle
+J00183,Data Engineer,"Ruby, Python, TensorFlow, PyTorch, Machine Learning, Computer Vision",3,Bachelor,Remote
+J00184,Data Scientist,"React, PyTorch, Go, Data Engineering, Ruby, Java",5,Master,Seattle
+J00185,Full Stack Developer,"C++, Data Engineering, Ruby, Python, Azure, Docker",2,Bachelor,New York
+J00186,Data Engineer,"Azure, GCP, React, Computer Vision, PyTorch, Ruby",8,Bachelor,Singapore
+J00187,Backend Developer,"Ruby, SQL, Machine Learning",5,Bachelor,Singapore
+J00188,Data Engineer,"Ruby, NLP, TypeScript, C++, Go, SQL, Node.js",3,Bachelor,Austin
+J00189,Backend Developer,"Data Engineering, Kubernetes, Docker, Java, AWS, GCP, Node.js",0,Master,Singapore
+J00190,Frontend Developer,"Python, Java, C++, Docker, NLP, Machine Learning",3,Bachelor,Bangalore
+J00191,Research Scientist,"Data Engineering, SQL, Azure",0,Bachelor,Seattle
+J00192,Data Scientist,"Java, AWS, Machine Learning, Computer Vision, TensorFlow, Azure",6,PhD,Remote
+J00193,Backend Developer,"C++, Kubernetes, Computer Vision, TensorFlow",9,Bachelor,Berlin
+J00194,Product Manager,"C++, PyTorch, Data Engineering, Node.js, TypeScript, Python, Docker",1,Master,Singapore
+J00195,Product Manager,"PyTorch, GCP, TensorFlow, Data Engineering",9,High School,San Francisco
+J00196,Data Engineer,"Data Engineering, Azure, Kubernetes, NLP, Java",3,Bachelor,Singapore
+J00197,Software Engineer,"Data Engineering, NLP, Java, AWS, Ruby, Azure",3,Master,London
+J00198,Data Engineer,"Go, Kubernetes, Docker, C++, TensorFlow",8,Bachelor,Austin
+J00199,Data Engineer,"AWS, PyTorch, GCP",7,Bachelor,Remote
+J00200,Data Engineer,"SQL, Data Engineering, Python, Docker, Ruby, C++, Java",3,Bachelor,New York

@@ -1,0 +1,1001 @@
+student_id,name,skills,experience_years,education,location
+S00001,Student_1,"Python, Node.js",5,Bachelor,London
+S00002,Student_2,"Go, Docker",3,Bachelor,New York
+S00003,Student_3,"Docker, C++",3,Bachelor,Singapore
+S00004,Student_4,"Go, C++",3,Master,Bangalore
+S00005,Student_5,"React, Data Engineering, Node.js, Python, Java",9,Master,Austin
+S00006,Student_6,"Machine Learning, C++, GCP, AWS",6,High School,San Francisco
+S00007,Student_7,"Azure, Node.js, SQL, Data Engineering",2,Bachelor,Seattle
+S00008,Student_8,"Go, Kubernetes",5,Master,Singapore
+S00009,Student_9,"Ruby, C++, Docker, SQL",4,Master,Berlin
+S00010,Student_10,"React, AWS",0,Bachelor,Toronto
+S00011,Student_11,"Java, Azure, Ruby, C++",1,Master,San Francisco
+S00012,Student_12,"Java, Go, React, TypeScript, Data Engineering, C++",4,Bachelor,Bangalore
+S00013,Student_13,"GCP, SQL, React",9,Master,Austin
+S00014,Student_14,"Node.js, Docker, C++, GCP, Go",3,Master,Seattle
+S00015,Student_15,"Machine Learning, Node.js, TypeScript, React, Ruby",2,Master,Seattle
+S00016,Student_16,"NLP, Azure, React, Machine Learning, TensorFlow, SQL",4,Master,San Francisco
+S00017,Student_17,"Java, Computer Vision, Docker",2,Bachelor,Singapore
+S00018,Student_18,"PyTorch, Node.js, Go, Python, AWS",3,Master,Bangalore
+S00019,Student_19,"GCP, AWS, Kubernetes, Computer Vision",3,Bachelor,New York
+S00020,Student_20,"PyTorch, Java, TypeScript, AWS",1,Master,Berlin
+S00021,Student_21,"TypeScript, C++, Machine Learning, Azure, Java, Node.js",6,PhD,Bangalore
+S00022,Student_22,"TypeScript, GCP",1,Bachelor,San Francisco
+S00023,Student_23,"Kubernetes, React, SQL, Ruby",1,Master,San Francisco
+S00024,Student_24,"TensorFlow, Docker",4,PhD,Bangalore
+S00025,Student_25,"Machine Learning, TensorFlow, Go",6,Bachelor,Bangalore
+S00026,Student_26,"Computer Vision, C++, Go, Ruby, Kubernetes, PyTorch",4,PhD,Austin
+S00027,Student_27,"PyTorch, Data Engineering, AWS, React, TypeScript",3,High School,New York
+S00028,Student_28,"Go, React, Ruby, Python, Docker, Azure",3,Master,Remote
+S00029,Student_29,"SQL, GCP",2,High School,Remote
+S00030,Student_30,"TensorFlow, C++, Go, Machine Learning",7,Master,Singapore
+S00031,Student_31,"TensorFlow, React, TypeScript, Computer Vision, C++, SQL",4,High School,Seattle
+S00032,Student_32,"Computer Vision, TypeScript, Data Engineering, SQL",2,Master,San Francisco
+S00033,Student_33,"NLP, GCP",2,Master,San Francisco
+S00034,Student_34,"C++, TypeScript, Go",5,Bachelor,Seattle
+S00035,Student_35,"Node.js, Data Engineering, React",7,Master,San Francisco
+S00036,Student_36,"Go, AWS, SQL, Python, Docker",6,PhD,Remote
+S00037,Student_37,"Computer Vision, TensorFlow, Ruby",2,Bachelor,Seattle
+S00038,Student_38,"Java, NLP",3,High School,Seattle
+S00039,Student_39,"Data Engineering, Kubernetes, Computer Vision, TensorFlow",2,Bachelor,Berlin
+S00040,Student_40,"SQL, Ruby, Go",3,High School,Austin
+S00041,Student_41,"SQL, Ruby",6,Bachelor,Bangalore
+S00042,Student_42,"SQL, PyTorch, Docker",8,Master,San Francisco
+S00043,Student_43,"Docker, React, NLP, AWS, Ruby, Kubernetes",4,Bachelor,Singapore
+S00044,Student_44,"Computer Vision, Ruby",2,Bachelor,Austin
+S00045,Student_45,"C++, GCP, React, Node.js",3,Bachelor,Berlin
+S00046,Student_46,"GCP, Docker, Python, Data Engineering, AWS",9,High School,Remote
+S00047,Student_47,"Node.js, Machine Learning, Azure, Docker, React, Java",4,Bachelor,Toronto
+S00048,Student_48,"Kubernetes, PyTorch, Python, TypeScript, AWS, Data Engineering",3,Bachelor,San Francisco
+S00049,Student_49,"Go, Machine Learning",3,Bachelor,Singapore
+S00050,Student_50,"GCP, C++, Node.js",4,Bachelor,Berlin
+S00051,Student_51,"Docker, Computer Vision",2,Master,New York
+S00052,Student_52,"GCP, Machine Learning",2,Master,Berlin
+S00053,Student_53,"Data Engineering, Go, Computer Vision",6,Bachelor,San Francisco
+S00054,Student_54,"Machine Learning, Go",4,High School,Austin
+S00055,Student_55,"Go, Machine Learning, Computer Vision, Ruby, SQL, PyTorch",4,Bachelor,New York
+S00056,Student_56,"C++, React, AWS, Azure",7,Master,Seattle
+S00057,Student_57,"Machine Learning, React, Java, Go, Computer Vision, Python",2,Bachelor,Austin
+S00058,Student_58,"React, Node.js, Java, AWS, NLP",3,Master,Toronto
+S00059,Student_59,"C++, Data Engineering, Azure",4,Bachelor,Remote
+S00060,Student_60,"Python, C++, NLP",4,Bachelor,San Francisco
+S00061,Student_61,"Azure, PyTorch, NLP, GCP",1,PhD,San Francisco
+S00062,Student_62,"Java, Ruby, Node.js, SQL",2,Bachelor,Seattle
+S00063,Student_63,"GCP, Computer Vision, PyTorch, AWS",3,Bachelor,Singapore
+S00064,Student_64,"Node.js, SQL, Computer Vision",4,High School,Bangalore
+S00065,Student_65,"Azure, Computer Vision, Docker",4,PhD,Austin
+S00066,Student_66,"GCP, AWS, Kubernetes, PyTorch, Go, TypeScript",3,Bachelor,Seattle
+S00067,Student_67,"Go, Machine Learning, C++, Computer Vision",0,Master,Seattle
+S00068,Student_68,"TypeScript, Ruby, Kubernetes",3,Bachelor,New York
+S00069,Student_69,"Kubernetes, C++, Computer Vision, GCP",3,Bachelor,Toronto
+S00070,Student_70,"PyTorch, TensorFlow, Java",15,Master,Berlin
+S00071,Student_71,"TypeScript, GCP, Docker, React, Kubernetes, AWS",3,Master,London
+S00072,Student_72,"SQL, React",4,PhD,Singapore
+S00073,Student_73,"Data Engineering, Computer Vision",7,Master,Singapore
+S00074,Student_74,"NLP, TensorFlow, TypeScript",6,Bachelor,New York
+S00075,Student_75,"Computer Vision, React",8,Bachelor,Bangalore
+S00076,Student_76,"SQL, Go, React, AWS, Data Engineering",1,Bachelor,Toronto
+S00077,Student_77,"Go, GCP, Data Engineering, PyTorch, Computer Vision, TensorFlow",1,PhD,Toronto
+S00078,Student_78,"TensorFlow, Data Engineering, Node.js",2,Master,Berlin
+S00079,Student_79,"TensorFlow, React, Node.js, Data Engineering, Docker, Azure",1,Bachelor,Berlin
+S00080,Student_80,"GCP, Go, Docker, Machine Learning",4,Bachelor,Seattle
+S00081,Student_81,"C++, Docker, Computer Vision",1,Bachelor,Bangalore
+S00082,Student_82,"Computer Vision, SQL, C++, TypeScript, NLP",9,PhD,Singapore
+S00083,Student_83,"Ruby, NLP",2,Bachelor,Austin
+S00084,Student_84,"NLP, Computer Vision, Go, React",3,Bachelor,Berlin
+S00085,Student_85,"TensorFlow, Python, NLP, GCP, Go",6,Master,Toronto
+S00086,Student_86,"TypeScript, Go, Python",1,PhD,Singapore
+S00087,Student_87,"Python, Docker, Computer Vision, Machine Learning, Data Engineering, Ruby",1,High School,Seattle
+S00088,Student_88,"C++, Data Engineering, GCP, Go",4,Master,Seattle
+S00089,Student_89,"Computer Vision, Node.js, Docker, TensorFlow",4,High School,Bangalore
+S00090,Student_90,"Azure, React",6,Master,New York
+S00091,Student_91,"React, C++",5,Master,Singapore
+S00092,Student_92,"React, Machine Learning, TensorFlow",4,Master,Singapore
+S00093,Student_93,"Data Engineering, Node.js, Azure",2,Bachelor,Singapore
+S00094,Student_94,"Java, Kubernetes",4,Bachelor,New York
+S00095,Student_95,"Ruby, NLP, TypeScript, C++",4,High School,Remote
+S00096,Student_96,"Kubernetes, AWS",2,Master,Singapore
+S00097,Student_97,"Azure, Go",11,Bachelor,Austin
+S00098,Student_98,"PyTorch, GCP",5,High School,Seattle
+S00099,Student_99,"AWS, Computer Vision, Azure, Data Engineering, Machine Learning",1,Bachelor,Bangalore
+S00100,Student_100,"TypeScript, Go, TensorFlow, Data Engineering",6,Bachelor,Singapore
+S00101,Student_101,"GCP, React, Docker, Node.js",6,Master,Remote
+S00102,Student_102,"Ruby, NLP, GCP, Python, TensorFlow",5,Master,London
+S00103,Student_103,"C++, Azure, Node.js, GCP, Go",3,Master,Berlin
+S00104,Student_104,"Python, PyTorch, C++, Docker, React, Azure",2,Bachelor,Bangalore
+S00105,Student_105,"TensorFlow, TypeScript, Data Engineering",3,Master,San Francisco
+S00106,Student_106,"React, NLP, TypeScript, Kubernetes",4,Master,Austin
+S00107,Student_107,"Go, PyTorch, Azure, Computer Vision, GCP",3,Bachelor,Toronto
+S00108,Student_108,"Kubernetes, Node.js, React, AWS",9,Master,Austin
+S00109,Student_109,"Go, Java",5,Bachelor,Toronto
+S00110,Student_110,"Ruby, PyTorch, Kubernetes, AWS",2,Master,Berlin
+S00111,Student_111,"Azure, Java, Kubernetes",1,High School,Bangalore
+S00112,Student_112,"Node.js, SQL, Ruby",5,Bachelor,London
+S00113,Student_113,"AWS, Python, Kubernetes, TensorFlow, PyTorch",3,Bachelor,London
+S00114,Student_114,"Node.js, TensorFlow",6,Bachelor,San Francisco
+S00115,Student_115,"TensorFlow, Docker, SQL, Machine Learning, PyTorch",5,Master,Berlin
+S00116,Student_116,"React, AWS",3,Bachelor,Seattle
+S00117,Student_117,"TypeScript, React, PyTorch, NLP, Data Engineering, TensorFlow",2,Bachelor,Singapore
+S00118,Student_118,"Kubernetes, Ruby, SQL, AWS, C++",1,Master,Berlin
+S00119,Student_119,"Java, React",4,Bachelor,San Francisco
+S00120,Student_120,"Python, Computer Vision, Data Engineering",1,Master,Toronto
+S00121,Student_121,"SQL, React, Kubernetes, Go",2,Master,Toronto
+S00122,Student_122,"React, Node.js",4,Master,Singapore
+S00123,Student_123,"Computer Vision, AWS, Go",3,Bachelor,London
+S00124,Student_124,"Machine Learning, Docker, SQL, Java",1,Master,Singapore
+S00125,Student_125,"Kubernetes, Data Engineering, AWS, Ruby, TypeScript, Azure",7,Bachelor,Berlin
+S00126,Student_126,"Go, TensorFlow, Data Engineering, Docker, SQL, TypeScript",7,Bachelor,Austin
+S00127,Student_127,"Node.js, Python, Docker, React, Ruby, NLP",5,Master,Berlin
+S00128,Student_128,"SQL, Java, TensorFlow, PyTorch, Data Engineering, Go",5,Bachelor,Singapore
+S00129,Student_129,"TensorFlow, Docker, TypeScript, Azure, Computer Vision",5,Bachelor,San Francisco
+S00130,Student_130,"GCP, Computer Vision, TensorFlow",6,Bachelor,Seattle
+S00131,Student_131,"SQL, Data Engineering, Docker, GCP, Node.js, Java",5,Bachelor,Seattle
+S00132,Student_132,"Python, Go, Data Engineering, Computer Vision, SQL, AWS",2,Bachelor,Singapore
+S00133,Student_133,"Data Engineering, SQL, C++, Node.js, Machine Learning",3,PhD,Toronto
+S00134,Student_134,"AWS, Python, React, Java, Kubernetes",14,Bachelor,Bangalore
+S00135,Student_135,"Docker, React, AWS, Data Engineering, Go",0,Master,London
+S00136,Student_136,"Kubernetes, PyTorch, Node.js, Computer Vision, TensorFlow",2,PhD,Remote
+S00137,Student_137,"Go, Machine Learning, NLP, C++, Ruby",7,Master,Berlin
+S00138,Student_138,"GCP, PyTorch, Node.js, Python, Kubernetes",2,Master,Singapore
+S00139,Student_139,"TensorFlow, Machine Learning, Data Engineering, TypeScript, Azure, Java",5,Bachelor,Bangalore
+S00140,Student_140,"Data Engineering, GCP, C++, React, NLP",3,Bachelor,Seattle
+S00141,Student_141,"GCP, TensorFlow",2,Master,Seattle
+S00142,Student_142,"Machine Learning, TensorFlow, SQL, TypeScript, GCP",0,Master,Toronto
+S00143,Student_143,"PyTorch, Data Engineering",4,High School,London
+S00144,Student_144,"Machine Learning, Docker, TensorFlow, Node.js, GCP",2,Master,Seattle
+S00145,Student_145,"GCP, Go",3,Bachelor,Austin
+S00146,Student_146,"Go, SQL, Docker, React, Kubernetes",5,PhD,San Francisco
+S00147,Student_147,"AWS, TypeScript, Data Engineering, Java, Kubernetes",6,PhD,New York
+S00148,Student_148,"SQL, Kubernetes, Azure, Go",2,Bachelor,Remote
+S00149,Student_149,"Computer Vision, Ruby, Java, Go, PyTorch, SQL",2,Master,Seattle
+S00150,Student_150,"React, TensorFlow, Machine Learning, TypeScript, Data Engineering, GCP",1,Bachelor,Berlin
+S00151,Student_151,"Data Engineering, Kubernetes",6,Master,London
+S00152,Student_152,"Data Engineering, Azure",12,PhD,Berlin
+S00153,Student_153,"Node.js, Data Engineering, Kubernetes, C++, NLP",7,Master,San Francisco
+S00154,Student_154,"NLP, Ruby, Azure",8,Bachelor,Berlin
+S00155,Student_155,"NLP, Node.js",2,High School,New York
+S00156,Student_156,"TensorFlow, Kubernetes, React, Azure, Go, GCP",5,Bachelor,Berlin
+S00157,Student_157,"AWS, SQL, Kubernetes",6,Master,New York
+S00158,Student_158,"Azure, Machine Learning, Docker, Kubernetes, GCP, TypeScript",1,Bachelor,Remote
+S00159,Student_159,"Go, Azure, PyTorch",10,Bachelor,Berlin
+S00160,Student_160,"Node.js, TensorFlow, Kubernetes",1,Master,Austin
+S00161,Student_161,"Data Engineering, Docker",9,Bachelor,Remote
+S00162,Student_162,"Go, Azure, Docker, NLP, Python",1,Bachelor,San Francisco
+S00163,Student_163,"Azure, Node.js, NLP, TypeScript, AWS",1,Master,Toronto
+S00164,Student_164,"TypeScript, Go",5,Bachelor,Singapore
+S00165,Student_165,"Docker, Data Engineering, Kubernetes",4,Master,San Francisco
+S00166,Student_166,"SQL, TypeScript, Kubernetes",2,PhD,San Francisco
+S00167,Student_167,"React, Go",9,Bachelor,Toronto
+S00168,Student_168,"Go, Computer Vision, Machine Learning, Ruby",1,Master,Toronto
+S00169,Student_169,"Computer Vision, Node.js, SQL, Azure, C++, React",3,Bachelor,Remote
+S00170,Student_170,"AWS, Azure, Go, Ruby",5,High School,Berlin
+S00171,Student_171,"AWS, Data Engineering, Docker",4,Master,Singapore
+S00172,Student_172,"SQL, GCP",2,Bachelor,London
+S00173,Student_173,"C++, Docker, Go, TypeScript, PyTorch, Computer Vision",2,Master,Austin
+S00174,Student_174,"TypeScript, Python, Node.js",6,Master,London
+S00175,Student_175,"Go, Node.js, Java",6,Bachelor,New York
+S00176,Student_176,"Python, Azure, React",4,Bachelor,New York
+S00177,Student_177,"Node.js, SQL, Machine Learning",2,Master,Bangalore
+S00178,Student_178,"Docker, TensorFlow",2,Bachelor,Austin
+S00179,Student_179,"Ruby, AWS, Data Engineering, PyTorch, React, Kubernetes",3,High School,Bangalore
+S00180,Student_180,"Data Engineering, Python, SQL, TensorFlow",4,Master,Seattle
+S00181,Student_181,"TensorFlow, Data Engineering",5,High School,San Francisco
+S00182,Student_182,"TypeScript, Machine Learning, Docker, Ruby",3,Bachelor,Singapore
+S00183,Student_183,"GCP, NLP, PyTorch, Kubernetes, Data Engineering, Node.js",6,Master,San Francisco
+S00184,Student_184,"Go, C++",6,Bachelor,Remote
+S00185,Student_185,"GCP, Data Engineering, NLP, Computer Vision, AWS",8,Bachelor,Austin
+S00186,Student_186,"Azure, Machine Learning, TensorFlow, Docker",3,High School,San Francisco
+S00187,Student_187,"Computer Vision, AWS",4,Master,Austin
+S00188,Student_188,"Go, SQL, TypeScript",3,Bachelor,San Francisco
+S00189,Student_189,"Azure, Computer Vision, SQL, Kubernetes, PyTorch",2,Bachelor,Singapore
+S00190,Student_190,"C++, Machine Learning, TensorFlow, React, AWS, Java",12,Master,Austin
+S00191,Student_191,"Node.js, Ruby",7,Bachelor,Seattle
+S00192,Student_192,"TypeScript, Go, Python, Node.js, Ruby, Docker",6,Bachelor,Berlin
+S00193,Student_193,"Azure, Python, Java, Machine Learning",3,Bachelor,Seattle
+S00194,Student_194,"Machine Learning, Python",2,High School,Bangalore
+S00195,Student_195,"NLP, Computer Vision, Data Engineering",7,Bachelor,Austin
+S00196,Student_196,"GCP, Ruby, Docker, SQL",3,Bachelor,Singapore
+S00197,Student_197,"Docker, Node.js",5,Bachelor,Seattle
+S00198,Student_198,"TypeScript, Data Engineering, Computer Vision, Node.js, C++",2,Master,San Francisco
+S00199,Student_199,"Computer Vision, AWS, Kubernetes, TensorFlow",4,Bachelor,Berlin
+S00200,Student_200,"React, NLP",2,PhD,New York
+S00201,Student_201,"C++, Kubernetes",2,PhD,London
+S00202,Student_202,"Kubernetes, GCP, AWS, Python",4,Bachelor,Seattle
+S00203,Student_203,"Machine Learning, NLP, Go",1,Master,Bangalore
+S00204,Student_204,"Azure, Docker, NLP, SQL, Computer Vision, Python",1,Bachelor,San Francisco
+S00205,Student_205,"Ruby, Computer Vision, NLP, TypeScript",2,Bachelor,Seattle
+S00206,Student_206,"GCP, Java",3,Master,Singapore
+S00207,Student_207,"Azure, Docker, Computer Vision, AWS, React",6,Bachelor,Seattle
+S00208,Student_208,"Docker, NLP, Kubernetes, GCP, React, Java",3,Master,San Francisco
+S00209,Student_209,"AWS, PyTorch, Ruby, C++, Azure, Java",3,Master,London
+S00210,Student_210,"AWS, Machine Learning, Node.js",3,Bachelor,Singapore
+S00211,Student_211,"Docker, Java, TensorFlow",4,Bachelor,Singapore
+S00212,Student_212,"Data Engineering, Ruby, GCP, Go, Machine Learning, React",2,High School,Toronto
+S00213,Student_213,"Node.js, Ruby, SQL, Azure",3,Bachelor,Berlin
+S00214,Student_214,"Data Engineering, SQL, Ruby, Azure, Kubernetes",4,High School,San Francisco
+S00215,Student_215,"TypeScript, PyTorch, NLP, Data Engineering, SQL, React",4,PhD,Singapore
+S00216,Student_216,"GCP, TensorFlow, PyTorch",3,Bachelor,New York
+S00217,Student_217,"AWS, GCP, Docker, PyTorch, Java",3,High School,Toronto
+S00218,Student_218,"PyTorch, TypeScript, Java, Azure, Ruby",5,PhD,Seattle
+S00219,Student_219,"GCP, SQL, TypeScript, Docker, Go",13,High School,Seattle
+S00220,Student_220,"Node.js, Machine Learning, GCP, Docker",2,Bachelor,London
+S00221,Student_221,"Kubernetes, NLP, Machine Learning, Docker",13,Bachelor,Seattle
+S00222,Student_222,"Machine Learning, PyTorch, Docker, Computer Vision",2,Bachelor,New York
+S00223,Student_223,"Kubernetes, Java, C++, GCP",0,PhD,Toronto
+S00224,Student_224,"React, Machine Learning, Ruby",2,High School,San Francisco
+S00225,Student_225,"Go, PyTorch, SQL, GCP, Machine Learning, Kubernetes",4,Bachelor,London
+S00226,Student_226,"TypeScript, Java, Data Engineering",11,High School,Austin
+S00227,Student_227,"Data Engineering, Kubernetes, TypeScript",2,Bachelor,Remote
+S00228,Student_228,"TensorFlow, C++, Azure, Data Engineering",5,Bachelor,Berlin
+S00229,Student_229,"PyTorch, TypeScript, Computer Vision, Java, C++",1,Master,London
+S00230,Student_230,"SQL, TensorFlow, Azure, AWS",11,Master,Bangalore
+S00231,Student_231,"Kubernetes, Docker",7,Master,Berlin
+S00232,Student_232,"PyTorch, Machine Learning, Computer Vision, Docker, React",2,Master,Austin
+S00233,Student_233,"Computer Vision, SQL",8,Bachelor,Austin
+S00234,Student_234,"NLP, Docker, Azure",3,Bachelor,Austin
+S00235,Student_235,"GCP, Machine Learning",8,Bachelor,Berlin
+S00236,Student_236,"Machine Learning, TensorFlow, Data Engineering, Python, Docker",3,High School,Remote
+S00237,Student_237,"Go, PyTorch, Computer Vision",3,Bachelor,Berlin
+S00238,Student_238,"Kubernetes, AWS, SQL",2,Bachelor,Singapore
+S00239,Student_239,"Docker, AWS, TensorFlow, Python, React",5,Master,Berlin
+S00240,Student_240,"Python, Azure, React, Computer Vision, Java",4,Master,San Francisco
+S00241,Student_241,"Azure, Docker, PyTorch, Go, Python, C++",5,Master,New York
+S00242,Student_242,"Azure, Node.js, Python, TypeScript, Docker",1,Bachelor,San Francisco
+S00243,Student_243,"GCP, Machine Learning, SQL, Azure, TypeScript, Computer Vision",8,Master,Toronto
+S00244,Student_244,"Java, Machine Learning, Docker, Data Engineering, SQL",9,Bachelor,New York
+S00245,Student_245,"SQL, GCP, Kubernetes",4,Bachelor,Bangalore
+S00246,Student_246,"Node.js, SQL, C++, Kubernetes, Azure",12,Master,New York
+S00247,Student_247,"Node.js, AWS, Azure, Computer Vision",10,Master,Toronto
+S00248,Student_248,"GCP, Java, TensorFlow, Go, Azure",5,PhD,Bangalore
+S00249,Student_249,"Docker, Computer Vision, TypeScript, Ruby",8,Master,London
+S00250,Student_250,"Kubernetes, GCP, AWS, Docker, Ruby, TensorFlow",7,Bachelor,Toronto
+S00251,Student_251,"Computer Vision, Java, Data Engineering, Azure, Go, Python",1,Master,Austin
+S00252,Student_252,"Computer Vision, Node.js, SQL, Docker, NLP, Java",3,Bachelor,London
+S00253,Student_253,"Machine Learning, Data Engineering",6,High School,San Francisco
+S00254,Student_254,"Azure, TypeScript, NLP",10,PhD,New York
+S00255,Student_255,"Machine Learning, Data Engineering, Azure, Go, Ruby, NLP",1,High School,London
+S00256,Student_256,"Azure, NLP, GCP, Node.js, React, SQL",1,High School,London
+S00257,Student_257,"PyTorch, NLP, Go, AWS, Node.js",3,Master,Toronto
+S00258,Student_258,"TypeScript, Kubernetes, TensorFlow",0,Bachelor,London
+S00259,Student_259,"Data Engineering, Java",3,Master,Toronto
+S00260,Student_260,"GCP, Azure",4,Master,Bangalore
+S00261,Student_261,"Kubernetes, TypeScript, Java, Go, Azure, Node.js",1,Bachelor,Remote
+S00262,Student_262,"React, TensorFlow, Python",3,Bachelor,Singapore
+S00263,Student_263,"Data Engineering, Go, Machine Learning, Docker",6,High School,Seattle
+S00264,Student_264,"PyTorch, Computer Vision, Ruby, Docker, Machine Learning",2,PhD,San Francisco
+S00265,Student_265,"Data Engineering, PyTorch, Azure, Machine Learning, Java",2,Master,London
+S00266,Student_266,"PyTorch, SQL, AWS, TypeScript, Machine Learning",3,Bachelor,London
+S00267,Student_267,"React, Azure, PyTorch, Kubernetes",1,Master,Berlin
+S00268,Student_268,"Go, Node.js, Machine Learning",11,Master,Singapore
+S00269,Student_269,"Docker, PyTorch, Java, Machine Learning, Go, GCP",3,Master,Singapore
+S00270,Student_270,"Ruby, SQL, Python, Docker",2,High School,Singapore
+S00271,Student_271,"C++, Ruby, Computer Vision, Python",4,Bachelor,Bangalore
+S00272,Student_272,"Kubernetes, TensorFlow, React, NLP",3,Bachelor,San Francisco
+S00273,Student_273,"Java, Data Engineering",3,Bachelor,Toronto
+S00274,Student_274,"GCP, Machine Learning, TypeScript",2,Master,Austin
+S00275,Student_275,"NLP, Machine Learning, Azure, PyTorch",2,Bachelor,Austin
+S00276,Student_276,"Data Engineering, AWS, Node.js",1,Bachelor,London
+S00277,Student_277,"SQL, Kubernetes",8,PhD,Singapore
+S00278,Student_278,"React, Java, GCP, Go, C++",5,Master,Toronto
+S00279,Student_279,"Data Engineering, TensorFlow, Kubernetes, Ruby, Python, SQL",4,PhD,Bangalore
+S00280,Student_280,"React, C++, Azure, SQL, PyTorch",3,Bachelor,Singapore
+S00281,Student_281,"Kubernetes, Go, Python, AWS, Computer Vision",1,Bachelor,Berlin
+S00282,Student_282,"NLP, Azure, SQL, TypeScript",2,High School,Bangalore
+S00283,Student_283,"Azure, Go, Kubernetes",1,High School,Bangalore
+S00284,Student_284,"Go, Node.js, AWS, Machine Learning, TypeScript",2,Bachelor,Austin
+S00285,Student_285,"Azure, Machine Learning, C++, PyTorch, NLP, Node.js",1,High School,New York
+S00286,Student_286,"GCP, TensorFlow, PyTorch",10,Bachelor,Singapore
+S00287,Student_287,"Machine Learning, GCP, Ruby, Java, NLP, Kubernetes",6,Master,Berlin
+S00288,Student_288,"GCP, PyTorch, Ruby, TensorFlow, Kubernetes, React",4,Master,Austin
+S00289,Student_289,"AWS, Computer Vision, Kubernetes, Python",2,Bachelor,Berlin
+S00290,Student_290,"Ruby, React, SQL, TensorFlow, Java, Node.js",1,Master,Singapore
+S00291,Student_291,"Machine Learning, React, SQL, AWS, C++",3,High School,Austin
+S00292,Student_292,"Machine Learning, Computer Vision, C++, Ruby, TensorFlow",6,Master,New York
+S00293,Student_293,"PyTorch, C++, Go",1,Bachelor,Toronto
+S00294,Student_294,"NLP, GCP, Java, Data Engineering, Ruby, Node.js",5,Bachelor,Berlin
+S00295,Student_295,"TensorFlow, C++, React, Node.js, Kubernetes, AWS",2,PhD,Berlin
+S00296,Student_296,"C++, TensorFlow, GCP, Ruby",2,Bachelor,Berlin
+S00297,Student_297,"AWS, Ruby, Go, NLP",3,Master,Seattle
+S00298,Student_298,"Machine Learning, Kubernetes, SQL, Ruby",2,PhD,San Francisco
+S00299,Student_299,"Data Engineering, Node.js, TensorFlow, C++",3,Bachelor,Bangalore
+S00300,Student_300,"Go, Node.js, Machine Learning, AWS",1,Master,Singapore
+S00301,Student_301,"React, SQL, PyTorch",2,Bachelor,Remote
+S00302,Student_302,"AWS, Computer Vision",6,Bachelor,Toronto
+S00303,Student_303,"Machine Learning, Python",4,PhD,London
+S00304,Student_304,"TensorFlow, TypeScript, C++, Kubernetes, GCP",6,Bachelor,New York
+S00305,Student_305,"Ruby, React",2,Bachelor,New York
+S00306,Student_306,"Computer Vision, Java, SQL",5,PhD,Seattle
+S00307,Student_307,"Java, Kubernetes, SQL, Python, Ruby",1,Bachelor,San Francisco
+S00308,Student_308,"Kubernetes, Data Engineering, Go, PyTorch",3,Bachelor,London
+S00309,Student_309,"Data Engineering, Node.js, C++, AWS, GCP, Docker",5,Master,Berlin
+S00310,Student_310,"Python, GCP, Kubernetes",1,Bachelor,Remote
+S00311,Student_311,"TypeScript, NLP, Computer Vision",2,Bachelor,San Francisco
+S00312,Student_312,"AWS, Java, Machine Learning, TensorFlow, GCP",3,PhD,New York
+S00313,Student_313,"NLP, React, Data Engineering, Node.js",7,PhD,Berlin
+S00314,Student_314,"Ruby, Python, Node.js, Azure, React, TypeScript",2,Master,Toronto
+S00315,Student_315,"Java, NLP, PyTorch, Kubernetes",5,Master,Berlin
+S00316,Student_316,"TypeScript, React, Ruby, Machine Learning",9,Bachelor,Toronto
+S00317,Student_317,"Azure, Computer Vision, Go, TensorFlow, C++, NLP",5,Bachelor,Singapore
+S00318,Student_318,"PyTorch, Data Engineering",3,Bachelor,Austin
+S00319,Student_319,"Ruby, AWS",4,High School,Bangalore
+S00320,Student_320,"C++, Ruby, Go, Machine Learning, Java, TensorFlow",2,Master,Toronto
+S00321,Student_321,"C++, Ruby",4,Bachelor,Bangalore
+S00322,Student_322,"SQL, Data Engineering, Machine Learning, PyTorch, Computer Vision",3,Bachelor,New York
+S00323,Student_323,"Data Engineering, Kubernetes, Python, NLP, Node.js, Computer Vision",4,High School,Remote
+S00324,Student_324,"Docker, SQL, Computer Vision, Azure, TypeScript, Node.js",2,PhD,San Francisco
+S00325,Student_325,"SQL, Kubernetes, Computer Vision, Java, Machine Learning",4,Master,Seattle
+S00326,Student_326,"NLP, Data Engineering, TypeScript, Go",2,High School,Bangalore
+S00327,Student_327,"Azure, AWS, Java",6,PhD,Seattle
+S00328,Student_328,"Machine Learning, React, Python, Go, Kubernetes, Ruby",3,Master,Bangalore
+S00329,Student_329,"Go, NLP, React, TypeScript, Data Engineering",0,Bachelor,Berlin
+S00330,Student_330,"AWS, SQL, Computer Vision",1,Master,New York
+S00331,Student_331,"C++, Docker, AWS",3,Bachelor,Toronto
+S00332,Student_332,"SQL, React, TypeScript, NLP, Data Engineering, AWS",10,Bachelor,New York
+S00333,Student_333,"PyTorch, Kubernetes, React",6,Master,Singapore
+S00334,Student_334,"Ruby, GCP, React, Kubernetes",0,Master,Bangalore
+S00335,Student_335,"Computer Vision, Kubernetes, Node.js",1,High School,Singapore
+S00336,Student_336,"Computer Vision, Go, TensorFlow",7,High School,Austin
+S00337,Student_337,"PyTorch, GCP, Computer Vision, Go, Machine Learning",5,Bachelor,London
+S00338,Student_338,"TensorFlow, React, Ruby, Kubernetes, Machine Learning, NLP",13,Bachelor,New York
+S00339,Student_339,"Computer Vision, TypeScript, Go, PyTorch, Machine Learning, C++",2,Bachelor,Remote
+S00340,Student_340,"Docker, Data Engineering, Azure, TypeScript",2,Bachelor,Remote
+S00341,Student_341,"Node.js, NLP",4,Master,Singapore
+S00342,Student_342,"Docker, C++",2,Master,Singapore
+S00343,Student_343,"C++, TensorFlow, TypeScript, GCP, Kubernetes, Data Engineering",7,High School,Remote
+S00344,Student_344,"TensorFlow, React",2,Master,Remote
+S00345,Student_345,"React, Go, GCP, Kubernetes, NLP",3,Bachelor,Austin
+S00346,Student_346,"Node.js, Azure, PyTorch, TensorFlow",1,Bachelor,Toronto
+S00347,Student_347,"C++, Azure, GCP, Computer Vision",6,High School,Remote
+S00348,Student_348,"Python, Node.js, Go",1,PhD,Singapore
+S00349,Student_349,"Kubernetes, Machine Learning, C++, GCP, React",5,Bachelor,Remote
+S00350,Student_350,"Go, GCP, Node.js, TensorFlow, PyTorch",11,Bachelor,Austin
+S00351,Student_351,"Machine Learning, Go, TensorFlow",1,Bachelor,Bangalore
+S00352,Student_352,"PyTorch, SQL",9,Master,San Francisco
+S00353,Student_353,"Python, Computer Vision",4,Bachelor,Remote
+S00354,Student_354,"Machine Learning, Python",1,Bachelor,Toronto
+S00355,Student_355,"SQL, TensorFlow, Ruby, Python",4,High School,Bangalore
+S00356,Student_356,"Python, TypeScript, PyTorch, Node.js, Kubernetes",6,High School,Seattle
+S00357,Student_357,"AWS, TypeScript, PyTorch",2,Bachelor,Remote
+S00358,Student_358,"PyTorch, Node.js, Azure, Ruby, NLP, SQL",5,Bachelor,Seattle
+S00359,Student_359,"Ruby, React, TypeScript, Kubernetes, Docker",9,Master,New York
+S00360,Student_360,"NLP, TypeScript",2,Bachelor,Toronto
+S00361,Student_361,"Python, Java",1,High School,Seattle
+S00362,Student_362,"Ruby, AWS, PyTorch, SQL",3,Bachelor,Singapore
+S00363,Student_363,"Node.js, SQL, Docker, TypeScript, Ruby",3,Bachelor,Austin
+S00364,Student_364,"C++, Ruby",7,Bachelor,Seattle
+S00365,Student_365,"Kubernetes, Java",3,Bachelor,Singapore
+S00366,Student_366,"Go, GCP, NLP, Machine Learning, Docker",2,Bachelor,Austin
+S00367,Student_367,"AWS, Computer Vision",1,Bachelor,San Francisco
+S00368,Student_368,"TypeScript, NLP, GCP, Python",1,Master,Toronto
+S00369,Student_369,"React, Azure, Go, NLP, Computer Vision",1,Bachelor,Singapore
+S00370,Student_370,"Docker, Kubernetes, React, TypeScript, PyTorch",1,Bachelor,Seattle
+S00371,Student_371,"NLP, GCP, Azure",3,Bachelor,New York
+S00372,Student_372,"Data Engineering, Azure, Node.js, AWS",1,Bachelor,London
+S00373,Student_373,"Data Engineering, Go, Ruby, PyTorch, Computer Vision",3,Bachelor,San Francisco
+S00374,Student_374,"Go, Docker, GCP, NLP",11,High School,Seattle
+S00375,Student_375,"Docker, Go, React, PyTorch, Java",7,Master,London
+S00376,Student_376,"Node.js, Kubernetes, TypeScript",3,Bachelor,San Francisco
+S00377,Student_377,"Computer Vision, Node.js, TypeScript",15,Bachelor,San Francisco
+S00378,Student_378,"Node.js, React, TensorFlow, C++",3,Bachelor,London
+S00379,Student_379,"Python, NLP, GCP, Ruby",4,Master,Austin
+S00380,Student_380,"GCP, Computer Vision, Machine Learning, Kubernetes, TypeScript",3,Master,Remote
+S00381,Student_381,"GCP, Java, NLP, TypeScript, Kubernetes",3,Master,Toronto
+S00382,Student_382,"React, GCP, NLP, Node.js, Go, Java",2,Bachelor,Singapore
+S00383,Student_383,"Ruby, Go, Java",3,Master,Bangalore
+S00384,Student_384,"Data Engineering, C++",9,Bachelor,Berlin
+S00385,Student_385,"Computer Vision, TensorFlow",8,Bachelor,Berlin
+S00386,Student_386,"Node.js, Machine Learning, Computer Vision",0,Master,San Francisco
+S00387,Student_387,"TypeScript, TensorFlow, NLP, PyTorch, Computer Vision",1,Bachelor,Austin
+S00388,Student_388,"TypeScript, Docker, AWS, React, Azure, Ruby",2,Master,New York
+S00389,Student_389,"NLP, GCP, Computer Vision, AWS, Python, SQL",6,Bachelor,Bangalore
+S00390,Student_390,"Go, Ruby, React, Data Engineering, Azure, C++",8,Bachelor,Singapore
+S00391,Student_391,"Machine Learning, Azure, Python, TensorFlow, AWS, TypeScript",6,Bachelor,San Francisco
+S00392,Student_392,"Machine Learning, Azure",1,Bachelor,Toronto
+S00393,Student_393,"PyTorch, TensorFlow, Azure",2,Bachelor,Toronto
+S00394,Student_394,"GCP, Docker, Kubernetes, SQL, AWS",5,High School,Austin
+S00395,Student_395,"Java, React",3,Bachelor,Bangalore
+S00396,Student_396,"GCP, Go, Computer Vision",2,PhD,Remote
+S00397,Student_397,"Java, TypeScript, Computer Vision, NLP, Python",2,Master,Remote
+S00398,Student_398,"Ruby, Computer Vision, NLP, Python, C++",7,Bachelor,San Francisco
+S00399,Student_399,"AWS, Go, Java, Azure, GCP, TypeScript",5,Bachelor,Berlin
+S00400,Student_400,"PyTorch, GCP, NLP, Go, AWS",3,Bachelor,Toronto
+S00401,Student_401,"Java, Kubernetes, Docker, Machine Learning, GCP, SQL",4,Bachelor,San Francisco
+S00402,Student_402,"Azure, Machine Learning, PyTorch",1,Bachelor,Singapore
+S00403,Student_403,"Ruby, NLP, Computer Vision",2,Bachelor,Bangalore
+S00404,Student_404,"Go, Java, TensorFlow",7,Bachelor,London
+S00405,Student_405,"Data Engineering, SQL, Azure, Python",1,Bachelor,Remote
+S00406,Student_406,"Go, PyTorch, TensorFlow, Computer Vision, TypeScript",5,Bachelor,Toronto
+S00407,Student_407,"Java, Docker, Python, React, Kubernetes",0,High School,Remote
+S00408,Student_408,"Kubernetes, Java, Data Engineering, TensorFlow, AWS, TypeScript",10,Bachelor,Bangalore
+S00409,Student_409,"Go, SQL, Data Engineering, C++",2,PhD,San Francisco
+S00410,Student_410,"Kubernetes, SQL, Data Engineering",4,Bachelor,San Francisco
+S00411,Student_411,"AWS, React, C++, Azure, Computer Vision",4,Bachelor,London
+S00412,Student_412,"C++, SQL, Azure",4,Bachelor,Singapore
+S00413,Student_413,"Java, GCP, Kubernetes, Go, Node.js, Computer Vision",4,Bachelor,San Francisco
+S00414,Student_414,"Computer Vision, SQL, Node.js",1,Master,London
+S00415,Student_415,"React, Machine Learning, GCP",4,Master,Seattle
+S00416,Student_416,"Machine Learning, Ruby, Node.js, Computer Vision, NLP",3,Bachelor,San Francisco
+S00417,Student_417,"PyTorch, Node.js, Azure, Data Engineering, TensorFlow",2,Bachelor,New York
+S00418,Student_418,"Data Engineering, Azure",2,Master,Bangalore
+S00419,Student_419,"C++, Computer Vision, TypeScript, TensorFlow, Node.js",4,Bachelor,Berlin
+S00420,Student_420,"Go, Ruby, Machine Learning, TensorFlow",1,Master,New York
+S00421,Student_421,"AWS, Data Engineering",7,High School,London
+S00422,Student_422,"Data Engineering, Python, Computer Vision, C++, Machine Learning",5,Master,Berlin
+S00423,Student_423,"Node.js, Docker, Azure",4,Bachelor,Austin
+S00424,Student_424,"SQL, NLP, Kubernetes",7,Master,Remote
+S00425,Student_425,"Docker, AWS, Python, C++, TensorFlow",0,High School,Singapore
+S00426,Student_426,"PyTorch, Data Engineering, Python",1,High School,Austin
+S00427,Student_427,"Computer Vision, Machine Learning",5,Bachelor,Remote
+S00428,Student_428,"Docker, AWS, Ruby, GCP, Azure",2,Master,London
+S00429,Student_429,"Machine Learning, TypeScript, Docker, PyTorch, Python",2,Master,London
+S00430,Student_430,"Azure, C++, Machine Learning, Computer Vision, Data Engineering",1,Master,San Francisco
+S00431,Student_431,"Machine Learning, AWS",1,Bachelor,Seattle
+S00432,Student_432,"Computer Vision, GCP, Machine Learning, React",7,Bachelor,San Francisco
+S00433,Student_433,"Go, Kubernetes, Python",5,Master,Berlin
+S00434,Student_434,"PyTorch, TypeScript, C++",4,Master,Berlin
+S00435,Student_435,"React, TensorFlow",2,Bachelor,Remote
+S00436,Student_436,"TypeScript, Docker, PyTorch, Python, Azure",4,PhD,London
+S00437,Student_437,"Ruby, Computer Vision, Azure, Java, TensorFlow",7,PhD,San Francisco
+S00438,Student_438,"Ruby, Docker",2,High School,Remote
+S00439,Student_439,"SQL, NLP",3,Bachelor,Bangalore
+S00440,Student_440,"Computer Vision, NLP, Docker, Machine Learning, Node.js",10,High School,San Francisco
+S00441,Student_441,"C++, Machine Learning, Go, GCP, NLP, Kubernetes",6,Master,San Francisco
+S00442,Student_442,"Computer Vision, React, SQL, Ruby",2,High School,Seattle
+S00443,Student_443,"Data Engineering, SQL",5,Bachelor,London
+S00444,Student_444,"Python, Machine Learning",1,Master,London
+S00445,Student_445,"Azure, PyTorch, Ruby, Node.js, Java",3,Bachelor,Berlin
+S00446,Student_446,"Python, GCP",5,Master,Berlin
+S00447,Student_447,"Docker, Node.js, TypeScript, TensorFlow, Data Engineering, Ruby",4,Bachelor,Toronto
+S00448,Student_448,"Java, Azure, TypeScript, Node.js, AWS, Data Engineering",5,Bachelor,San Francisco
+S00449,Student_449,"PyTorch, Python, SQL",6,Master,New York
+S00450,Student_450,"SQL, TensorFlow, Azure",5,Bachelor,London
+S00451,Student_451,"SQL, Go, Computer Vision",5,Bachelor,Remote
+S00452,Student_452,"GCP, Node.js, Docker, Azure, AWS",4,Bachelor,New York
+S00453,Student_453,"React, PyTorch, SQL",1,PhD,San Francisco
+S00454,Student_454,"Kubernetes, TypeScript, GCP, Docker, Data Engineering",7,High School,Remote
+S00455,Student_455,"Ruby, Kubernetes, React, Data Engineering",3,Bachelor,Toronto
+S00456,Student_456,"Go, React, Machine Learning",5,High School,Seattle
+S00457,Student_457,"React, Go",6,Bachelor,New York
+S00458,Student_458,"Python, NLP, Kubernetes, AWS",2,Bachelor,Remote
+S00459,Student_459,"TensorFlow, SQL, Machine Learning, Node.js, Docker",2,High School,Remote
+S00460,Student_460,"Computer Vision, Azure, Data Engineering, Docker, AWS, Node.js",3,Bachelor,Seattle
+S00461,Student_461,"Ruby, TypeScript",8,High School,London
+S00462,Student_462,"Kubernetes, Node.js, GCP",2,PhD,Seattle
+S00463,Student_463,"GCP, Data Engineering, Node.js, React",9,High School,Remote
+S00464,Student_464,"Ruby, AWS, Machine Learning",4,Bachelor,Toronto
+S00465,Student_465,"GCP, Computer Vision, AWS, Azure, C++",4,Bachelor,Toronto
+S00466,Student_466,"AWS, Docker, Java, Kubernetes",6,Master,Singapore
+S00467,Student_467,"C++, GCP",4,Bachelor,Remote
+S00468,Student_468,"NLP, PyTorch, SQL, Kubernetes",7,Bachelor,London
+S00469,Student_469,"NLP, Data Engineering",2,Bachelor,Bangalore
+S00470,Student_470,"AWS, Data Engineering, TypeScript",8,Master,London
+S00471,Student_471,"Python, SQL",2,Master,Remote
+S00472,Student_472,"C++, NLP, Azure",9,Master,San Francisco
+S00473,Student_473,"Ruby, Node.js, Docker, Python, Go, AWS",2,PhD,Toronto
+S00474,Student_474,"Docker, GCP, AWS",3,High School,Toronto
+S00475,Student_475,"Java, Ruby",1,Bachelor,Seattle
+S00476,Student_476,"Python, NLP, Computer Vision, Java, Azure",2,Bachelor,London
+S00477,Student_477,"Node.js, Data Engineering, Machine Learning, SQL",3,Master,Singapore
+S00478,Student_478,"Kubernetes, TensorFlow, Computer Vision",4,Master,Toronto
+S00479,Student_479,"Docker, Node.js",7,Bachelor,Seattle
+S00480,Student_480,"PyTorch, React, Go",3,Master,Seattle
+S00481,Student_481,"TensorFlow, Go, TypeScript, Azure",4,PhD,Bangalore
+S00482,Student_482,"NLP, Node.js, Java, Python",4,Bachelor,Remote
+S00483,Student_483,"Node.js, SQL",5,Master,Toronto
+S00484,Student_484,"Azure, Ruby, React, Java, AWS, TensorFlow",2,Master,Berlin
+S00485,Student_485,"SQL, React, NLP, Azure, Java, Docker",2,Bachelor,Austin
+S00486,Student_486,"Ruby, Python, Azure, Machine Learning",2,Bachelor,Remote
+S00487,Student_487,"Go, Kubernetes, Java, TensorFlow, SQL",7,High School,Remote
+S00488,Student_488,"React, Python, PyTorch, TensorFlow, Ruby, Java",9,PhD,Remote
+S00489,Student_489,"GCP, Java, TypeScript",2,High School,London
+S00490,Student_490,"Machine Learning, AWS, PyTorch, Azure, Docker, Java",2,Master,Seattle
+S00491,Student_491,"AWS, GCP, Kubernetes, Ruby, Machine Learning, Docker",5,Master,Seattle
+S00492,Student_492,"GCP, Java, Go, Azure, React",9,Master,London
+S00493,Student_493,"Kubernetes, TypeScript, Machine Learning, Java, Python",10,PhD,Singapore
+S00494,Student_494,"Ruby, SQL, Java, GCP, React",2,Master,San Francisco
+S00495,Student_495,"Machine Learning, GCP, Docker, React, Azure",2,PhD,London
+S00496,Student_496,"GCP, Data Engineering",4,High School,Remote
+S00497,Student_497,"Docker, Azure, Node.js",4,Master,New York
+S00498,Student_498,"NLP, Data Engineering",3,Master,London
+S00499,Student_499,"TensorFlow, NLP, Azure, Ruby, AWS",2,Master,Singapore
+S00500,Student_500,"Java, Data Engineering, Docker",3,Master,New York
+S00501,Student_501,"Python, GCP, Node.js, AWS",10,High School,London
+S00502,Student_502,"Java, Docker, Go, Ruby, GCP",2,Bachelor,Singapore
+S00503,Student_503,"Python, Computer Vision, Java, Ruby, Go",4,High School,Austin
+S00504,Student_504,"C++, Computer Vision, Go",15,Master,Bangalore
+S00505,Student_505,"Kubernetes, TypeScript, React, AWS",2,High School,Singapore
+S00506,Student_506,"TensorFlow, Machine Learning, SQL, Azure, Python, C++",5,High School,Singapore
+S00507,Student_507,"C++, AWS, Python, TypeScript, Java",11,Master,San Francisco
+S00508,Student_508,"AWS, Kubernetes, NLP, TensorFlow, PyTorch",5,Master,Berlin
+S00509,Student_509,"Go, NLP",7,Bachelor,Seattle
+S00510,Student_510,"Java, Data Engineering, SQL, Node.js",6,Bachelor,Berlin
+S00511,Student_511,"Node.js, Ruby, SQL",5,Bachelor,San Francisco
+S00512,Student_512,"Azure, Go",8,Bachelor,Singapore
+S00513,Student_513,"Go, SQL, NLP",5,Master,Seattle
+S00514,Student_514,"TensorFlow, Ruby, React, TypeScript, Kubernetes, SQL",3,Bachelor,New York
+S00515,Student_515,"Ruby, PyTorch, Machine Learning, AWS, Data Engineering, Docker",4,PhD,London
+S00516,Student_516,"C++, Machine Learning, SQL",4,Bachelor,Seattle
+S00517,Student_517,"Machine Learning, Node.js, GCP",2,PhD,San Francisco
+S00518,Student_518,"NLP, Go",4,Bachelor,Austin
+S00519,Student_519,"PyTorch, Data Engineering, Python, TypeScript",3,Master,San Francisco
+S00520,Student_520,"Machine Learning, TypeScript, AWS, Go, PyTorch",5,Master,Bangalore
+S00521,Student_521,"Computer Vision, Node.js, NLP, TensorFlow",13,Bachelor,Toronto
+S00522,Student_522,"Java, Node.js",4,Bachelor,Singapore
+S00523,Student_523,"NLP, SQL, TypeScript, GCP, React, Python",9,Master,Berlin
+S00524,Student_524,"Python, GCP, Kubernetes, Go",5,Bachelor,Toronto
+S00525,Student_525,"React, Machine Learning",4,Bachelor,Toronto
+S00526,Student_526,"Node.js, Computer Vision, Docker, C++",2,Bachelor,Seattle
+S00527,Student_527,"PyTorch, Azure, SQL, TypeScript, Java",4,High School,Bangalore
+S00528,Student_528,"Machine Learning, PyTorch, Python, Java, C++",4,Master,Remote
+S00529,Student_529,"React, SQL",2,Bachelor,Austin
+S00530,Student_530,"Node.js, Azure, Data Engineering",2,Bachelor,San Francisco
+S00531,Student_531,"React, Azure",4,Bachelor,Toronto
+S00532,Student_532,"TensorFlow, Ruby, Go",9,Bachelor,London
+S00533,Student_533,"Docker, Kubernetes, Python, NLP",3,High School,Singapore
+S00534,Student_534,"React, TypeScript, C++",1,Bachelor,Seattle
+S00535,Student_535,"Python, TypeScript, TensorFlow, Machine Learning, Java, Kubernetes",1,Master,Remote
+S00536,Student_536,"TypeScript, Kubernetes, Node.js, Computer Vision",6,Master,Austin
+S00537,Student_537,"Node.js, C++, Data Engineering, Kubernetes, NLP",1,Bachelor,New York
+S00538,Student_538,"Azure, Go, Kubernetes, Ruby, AWS, React",6,High School,Berlin
+S00539,Student_539,"Node.js, TypeScript, Kubernetes, C++",5,Bachelor,Remote
+S00540,Student_540,"TypeScript, NLP",3,Master,London
+S00541,Student_541,"TensorFlow, Kubernetes",2,Bachelor,Seattle
+S00542,Student_542,"NLP, SQL, C++, GCP, React",3,Master,Toronto
+S00543,Student_543,"PyTorch, Kubernetes, Java, Go",4,Bachelor,Toronto
+S00544,Student_544,"Node.js, Go, Java",1,PhD,Austin
+S00545,Student_545,"React, Azure",9,Bachelor,Berlin
+S00546,Student_546,"GCP, Azure, Node.js, Kubernetes, Data Engineering",4,Master,Toronto
+S00547,Student_547,"Ruby, TypeScript",5,PhD,San Francisco
+S00548,Student_548,"C++, PyTorch, AWS, NLP, Kubernetes",5,Bachelor,London
+S00549,Student_549,"C++, GCP, Computer Vision",8,PhD,Toronto
+S00550,Student_550,"GCP, Java, Docker",4,Bachelor,London
+S00551,Student_551,"SQL, Python, Data Engineering, Node.js",6,Bachelor,London
+S00552,Student_552,"Java, TensorFlow, Docker, Machine Learning, Computer Vision, GCP",2,Bachelor,Seattle
+S00553,Student_553,"NLP, Python, SQL, C++, Azure",10,PhD,Austin
+S00554,Student_554,"C++, Python, Ruby, React, PyTorch, Azure",4,Master,Berlin
+S00555,Student_555,"AWS, NLP, PyTorch",2,Bachelor,London
+S00556,Student_556,"SQL, Kubernetes",2,PhD,Toronto
+S00557,Student_557,"TypeScript, PyTorch, GCP, Computer Vision, Machine Learning, Java",0,PhD,Toronto
+S00558,Student_558,"C++, Java, NLP, Python",2,Bachelor,London
+S00559,Student_559,"Python, Ruby, PyTorch",0,Bachelor,Austin
+S00560,Student_560,"NLP, Node.js",6,Master,Singapore
+S00561,Student_561,"TypeScript, SQL",5,Master,New York
+S00562,Student_562,"AWS, Computer Vision",1,Bachelor,San Francisco
+S00563,Student_563,"Node.js, TensorFlow, Machine Learning, C++, Python, Go",3,Bachelor,San Francisco
+S00564,Student_564,"Node.js, Machine Learning, Computer Vision, AWS, PyTorch, Ruby",3,Bachelor,San Francisco
+S00565,Student_565,"C++, TypeScript, Node.js, PyTorch, Ruby",1,Bachelor,Seattle
+S00566,Student_566,"Java, SQL, Go, TensorFlow",3,PhD,Toronto
+S00567,Student_567,"React, Python, Ruby, Docker",3,PhD,Singapore
+S00568,Student_568,"Machine Learning, Docker, PyTorch, Ruby, AWS",3,PhD,Remote
+S00569,Student_569,"Kubernetes, Node.js, Data Engineering, SQL, AWS",2,Master,New York
+S00570,Student_570,"Azure, GCP, Computer Vision, AWS",1,High School,New York
+S00571,Student_571,"Machine Learning, Java",3,Bachelor,Toronto
+S00572,Student_572,"Node.js, Docker, Azure, GCP, Java, SQL",2,Bachelor,Toronto
+S00573,Student_573,"NLP, TensorFlow, Computer Vision, Java",5,Bachelor,New York
+S00574,Student_574,"AWS, Computer Vision, TensorFlow",8,Master,Toronto
+S00575,Student_575,"TypeScript, NLP, Azure",6,Master,London
+S00576,Student_576,"TensorFlow, AWS, Computer Vision, Data Engineering, SQL",3,High School,Austin
+S00577,Student_577,"PyTorch, Ruby",2,Master,Remote
+S00578,Student_578,"PyTorch, TypeScript, AWS, Computer Vision",6,Master,Remote
+S00579,Student_579,"Azure, NLP, Machine Learning, SQL, Python",5,Master,London
+S00580,Student_580,"TensorFlow, TypeScript, Java, Docker, Ruby, Go",8,Bachelor,Berlin
+S00581,Student_581,"PyTorch, React",4,Bachelor,Seattle
+S00582,Student_582,"React, Docker, Data Engineering, Go, PyTorch",10,High School,Toronto
+S00583,Student_583,"GCP, AWS, TensorFlow, Python, Ruby",4,Bachelor,New York
+S00584,Student_584,"Go, Python, Docker, Kubernetes, C++, GCP",2,Master,Austin
+S00585,Student_585,"SQL, React, Data Engineering, GCP",2,Bachelor,Singapore
+S00586,Student_586,"TensorFlow, Azure, Data Engineering, AWS, PyTorch, NLP",5,Master,New York
+S00587,Student_587,"Azure, Kubernetes, Go, PyTorch",2,Bachelor,San Francisco
+S00588,Student_588,"Java, TensorFlow",10,Bachelor,Seattle
+S00589,Student_589,"Node.js, C++",5,Bachelor,Seattle
+S00590,Student_590,"Data Engineering, C++, GCP",3,Bachelor,Seattle
+S00591,Student_591,"Ruby, AWS",4,Master,Toronto
+S00592,Student_592,"Ruby, PyTorch, Machine Learning, TensorFlow, Python",3,Bachelor,New York
+S00593,Student_593,"Computer Vision, Ruby, TensorFlow, PyTorch, Java, Azure",1,Bachelor,London
+S00594,Student_594,"NLP, GCP",2,Bachelor,Seattle
+S00595,Student_595,"TypeScript, React, Node.js, NLP, GCP",9,PhD,Toronto
+S00596,Student_596,"Machine Learning, Computer Vision, PyTorch",4,Bachelor,Bangalore
+S00597,Student_597,"Go, C++, Ruby, TypeScript",7,Master,Berlin
+S00598,Student_598,"Machine Learning, Java, PyTorch, GCP",7,Master,Austin
+S00599,Student_599,"TensorFlow, Ruby, Computer Vision, Kubernetes, Go, NLP",3,High School,San Francisco
+S00600,Student_600,"NLP, Machine Learning",5,High School,New York
+S00601,Student_601,"Node.js, Java, Kubernetes",1,Master,London
+S00602,Student_602,"Kubernetes, C++",9,Master,New York
+S00603,Student_603,"Data Engineering, AWS, Go, React",8,Master,Bangalore
+S00604,Student_604,"React, PyTorch, Kubernetes, SQL, NLP",5,Bachelor,Austin
+S00605,Student_605,"SQL, Python, Node.js, C++, Data Engineering, Computer Vision",4,Bachelor,Austin
+S00606,Student_606,"Go, C++, Ruby, Kubernetes, Data Engineering, Docker",3,PhD,San Francisco
+S00607,Student_607,"Java, PyTorch, AWS",7,Bachelor,Seattle
+S00608,Student_608,"Go, Node.js, Machine Learning, Java",6,Bachelor,Berlin
+S00609,Student_609,"GCP, Data Engineering",2,Master,London
+S00610,Student_610,"Machine Learning, GCP",1,Bachelor,Singapore
+S00611,Student_611,"TensorFlow, Ruby, Go, Azure",1,High School,Austin
+S00612,Student_612,"React, Java, PyTorch, Docker, Ruby, C++",7,Bachelor,Seattle
+S00613,Student_613,"Azure, React",3,Master,Austin
+S00614,Student_614,"Azure, Kubernetes, C++, PyTorch",5,Bachelor,Bangalore
+S00615,Student_615,"AWS, Azure",4,Bachelor,Singapore
+S00616,Student_616,"React, SQL, GCP, NLP, AWS, C++",1,Bachelor,Berlin
+S00617,Student_617,"PyTorch, Azure",1,Bachelor,Bangalore
+S00618,Student_618,"TensorFlow, SQL, Kubernetes, C++, GCP",2,Bachelor,San Francisco
+S00619,Student_619,"Go, TypeScript, Python",3,Master,Remote
+S00620,Student_620,"Computer Vision, AWS, C++",3,Bachelor,Seattle
+S00621,Student_621,"Machine Learning, Python",3,Bachelor,Austin
+S00622,Student_622,"Docker, TypeScript",12,High School,Berlin
+S00623,Student_623,"Docker, Ruby, React, Node.js, Computer Vision, C++",7,Bachelor,Seattle
+S00624,Student_624,"GCP, Python, NLP, AWS, Ruby",4,Master,Singapore
+S00625,Student_625,"Ruby, SQL",3,Master,San Francisco
+S00626,Student_626,"PyTorch, AWS, Kubernetes, Go",3,Master,Berlin
+S00627,Student_627,"NLP, TypeScript, Python, TensorFlow, Java",6,Bachelor,London
+S00628,Student_628,"Go, Kubernetes, Machine Learning, Ruby, Azure",3,PhD,New York
+S00629,Student_629,"Go, Machine Learning, AWS, SQL, Python, Kubernetes",6,Bachelor,Bangalore
+S00630,Student_630,"Docker, Kubernetes, C++, Azure, Go, TensorFlow",4,PhD,Bangalore
+S00631,Student_631,"Java, TypeScript, React",12,Master,Berlin
+S00632,Student_632,"AWS, Java, SQL",3,Master,Bangalore
+S00633,Student_633,"Go, Docker, Kubernetes, Ruby, Node.js",7,High School,Singapore
+S00634,Student_634,"GCP, Azure, Machine Learning, React, AWS",1,Bachelor,San Francisco
+S00635,Student_635,"GCP, TensorFlow, Data Engineering",2,Bachelor,Berlin
+S00636,Student_636,"Machine Learning, Ruby, Azure, GCP, Computer Vision, Docker",11,High School,Remote
+S00637,Student_637,"Computer Vision, Node.js, Azure",6,Bachelor,Austin
+S00638,Student_638,"Data Engineering, TypeScript, Azure, Kubernetes, TensorFlow",5,Bachelor,London
+S00639,Student_639,"Docker, Node.js, Machine Learning, C++, Ruby, Azure",14,Master,San Francisco
+S00640,Student_640,"Python, PyTorch",3,Master,Singapore
+S00641,Student_641,"NLP, Ruby, C++, SQL, Node.js, TensorFlow",7,Master,Bangalore
+S00642,Student_642,"Machine Learning, Azure, NLP, React, Kubernetes",7,Bachelor,Bangalore
+S00643,Student_643,"Docker, NLP, Azure, PyTorch, Python, GCP",10,Bachelor,Singapore
+S00644,Student_644,"PyTorch, Machine Learning, Data Engineering",1,Bachelor,Singapore
+S00645,Student_645,"Machine Learning, TensorFlow, Azure, SQL, React, NLP",3,Bachelor,San Francisco
+S00646,Student_646,"Azure, React, SQL, C++",4,Bachelor,Austin
+S00647,Student_647,"TensorFlow, Data Engineering, SQL, Go, GCP",9,Bachelor,Bangalore
+S00648,Student_648,"Node.js, Ruby, Go, Java",5,Bachelor,Seattle
+S00649,Student_649,"Ruby, Docker, PyTorch, Node.js",7,Bachelor,Remote
+S00650,Student_650,"NLP, Azure, Ruby, TensorFlow, PyTorch, Data Engineering",1,Master,Bangalore
+S00651,Student_651,"Data Engineering, Java, React",3,High School,Berlin
+S00652,Student_652,"Machine Learning, Java, Ruby",8,Bachelor,San Francisco
+S00653,Student_653,"Computer Vision, GCP, AWS",3,Bachelor,Toronto
+S00654,Student_654,"C++, Ruby, Java, Computer Vision, Python",3,Bachelor,London
+S00655,Student_655,"Ruby, Java, Machine Learning, PyTorch, SQL, Data Engineering",9,Bachelor,New York
+S00656,Student_656,"Node.js, Java, PyTorch",2,PhD,Singapore
+S00657,Student_657,"Python, Kubernetes, Docker, C++, Data Engineering, Ruby",2,PhD,Toronto
+S00658,Student_658,"React, Computer Vision, Machine Learning",1,Master,London
+S00659,Student_659,"PyTorch, Node.js, Java, GCP, Data Engineering, Kubernetes",10,Bachelor,Remote
+S00660,Student_660,"NLP, Machine Learning, AWS, Python, C++",7,Bachelor,Bangalore
+S00661,Student_661,"Machine Learning, AWS, Java, TensorFlow, SQL",7,Master,Bangalore
+S00662,Student_662,"AWS, Docker, TensorFlow, Machine Learning, Python, Data Engineering",3,PhD,Seattle
+S00663,Student_663,"Computer Vision, Azure, SQL, PyTorch, TypeScript, AWS",1,PhD,Toronto
+S00664,Student_664,"Azure, Ruby, AWS, Computer Vision, Machine Learning",1,Bachelor,Remote
+S00665,Student_665,"Kubernetes, Go",8,Bachelor,Remote
+S00666,Student_666,"Python, Ruby",5,Bachelor,Bangalore
+S00667,Student_667,"NLP, C++",6,Master,Austin
+S00668,Student_668,"Azure, AWS, Machine Learning, Computer Vision, Node.js",4,Bachelor,Bangalore
+S00669,Student_669,"Ruby, Azure, Node.js, NLP, C++",2,Bachelor,Bangalore
+S00670,Student_670,"Java, Azure, Go, TensorFlow, Node.js",3,PhD,Singapore
+S00671,Student_671,"NLP, Machine Learning, AWS, React",1,Bachelor,London
+S00672,Student_672,"C++, PyTorch",1,Bachelor,Austin
+S00673,Student_673,"TypeScript, SQL, Java, NLP, Python, PyTorch",6,High School,London
+S00674,Student_674,"TypeScript, Computer Vision, Docker, Go, Node.js",1,Bachelor,San Francisco
+S00675,Student_675,"SQL, NLP, Ruby, PyTorch, Kubernetes, Azure",1,PhD,New York
+S00676,Student_676,"TensorFlow, Data Engineering, Python",3,Bachelor,Bangalore
+S00677,Student_677,"C++, SQL, PyTorch, Go",4,Master,Singapore
+S00678,Student_678,"SQL, Azure, React",1,Master,London
+S00679,Student_679,"Node.js, NLP",5,Bachelor,Seattle
+S00680,Student_680,"Ruby, C++, PyTorch, Python, Docker",4,PhD,Bangalore
+S00681,Student_681,"Go, Ruby, Azure, TypeScript",8,PhD,Berlin
+S00682,Student_682,"TypeScript, C++, Data Engineering",4,PhD,Singapore
+S00683,Student_683,"Node.js, Java",5,Bachelor,San Francisco
+S00684,Student_684,"Docker, PyTorch, Kubernetes, GCP, AWS, NLP",2,Bachelor,Berlin
+S00685,Student_685,"Ruby, Node.js, Data Engineering, NLP, TensorFlow, PyTorch",2,Bachelor,Austin
+S00686,Student_686,"Data Engineering, Ruby, Python, TensorFlow, AWS",1,Bachelor,Seattle
+S00687,Student_687,"React, GCP, Computer Vision",2,PhD,Bangalore
+S00688,Student_688,"Python, Node.js, React, Kubernetes, Docker, C++",3,Master,Austin
+S00689,Student_689,"Go, Java",8,Bachelor,Austin
+S00690,Student_690,"Ruby, Node.js, Java",2,PhD,Remote
+S00691,Student_691,"C++, React, Ruby, Node.js, TypeScript",13,Bachelor,Remote
+S00692,Student_692,"Azure, Machine Learning, AWS, Go, Docker, GCP",5,PhD,Toronto
+S00693,Student_693,"Python, Go, SQL, TensorFlow, Azure, Kubernetes",5,Bachelor,Singapore
+S00694,Student_694,"TensorFlow, Java, PyTorch, Node.js",3,Bachelor,Singapore
+S00695,Student_695,"SQL, PyTorch, Computer Vision",3,Bachelor,Bangalore
+S00696,Student_696,"PyTorch, Azure",2,Bachelor,London
+S00697,Student_697,"AWS, PyTorch, Data Engineering, GCP, Python",1,High School,Remote
+S00698,Student_698,"Ruby, AWS, GCP, Azure, Node.js",2,Bachelor,Berlin
+S00699,Student_699,"Node.js, TensorFlow, GCP",10,Bachelor,Toronto
+S00700,Student_700,"C++, Computer Vision, Azure, Go, NLP",5,Bachelor,London
+S00701,Student_701,"Machine Learning, Ruby, React, AWS, Node.js, NLP",10,Bachelor,Seattle
+S00702,Student_702,"C++, Machine Learning, Ruby, TensorFlow, Python",2,Bachelor,Toronto
+S00703,Student_703,"PyTorch, Go, GCP",1,Master,Berlin
+S00704,Student_704,"Go, Ruby, SQL, NLP",3,High School,London
+S00705,Student_705,"C++, Node.js",2,Bachelor,San Francisco
+S00706,Student_706,"GCP, Node.js, Azure, Go, Ruby",4,Bachelor,Seattle
+S00707,Student_707,"Azure, C++",1,Bachelor,Bangalore
+S00708,Student_708,"Kubernetes, Azure, GCP",0,Master,Toronto
+S00709,Student_709,"Docker, NLP, Kubernetes, Data Engineering, Machine Learning",4,Master,Austin
+S00710,Student_710,"TypeScript, Ruby, NLP, Docker, PyTorch",10,Bachelor,Remote
+S00711,Student_711,"GCP, Kubernetes, Node.js, NLP",5,Bachelor,Toronto
+S00712,Student_712,"Ruby, PyTorch, Data Engineering, Computer Vision",5,Bachelor,New York
+S00713,Student_713,"React, Node.js, Docker",4,Bachelor,Seattle
+S00714,Student_714,"AWS, Docker",4,PhD,Toronto
+S00715,Student_715,"SQL, Python, NLP, PyTorch, Docker, TypeScript",1,Bachelor,London
+S00716,Student_716,"NLP, Kubernetes",2,Bachelor,Berlin
+S00717,Student_717,"Machine Learning, TypeScript, PyTorch, Java, Python",8,High School,Austin
+S00718,Student_718,"TensorFlow, Data Engineering, Go, Node.js",3,Bachelor,London
+S00719,Student_719,"Java, Ruby, Data Engineering, Computer Vision, Kubernetes, Go",8,Bachelor,Bangalore
+S00720,Student_720,"Docker, Data Engineering, Kubernetes",4,Bachelor,Berlin
+S00721,Student_721,"Kubernetes, Python, Ruby",4,Bachelor,London
+S00722,Student_722,"Kubernetes, TensorFlow, Go, Python",3,Master,Toronto
+S00723,Student_723,"Kubernetes, Python, Computer Vision, TypeScript, React",6,Master,Bangalore
+S00724,Student_724,"C++, Computer Vision, Go, Ruby",6,Bachelor,London
+S00725,Student_725,"NLP, React, Node.js, Docker, Computer Vision",2,Master,Bangalore
+S00726,Student_726,"Node.js, Kubernetes, Go, TypeScript, Computer Vision, AWS",1,Master,London
+S00727,Student_727,"Kubernetes, AWS, Data Engineering",0,Master,Berlin
+S00728,Student_728,"TensorFlow, C++, GCP, Python, Machine Learning, PyTorch",5,PhD,New York
+S00729,Student_729,"AWS, Kubernetes, Node.js",4,Bachelor,Toronto
+S00730,Student_730,"React, Docker",15,Bachelor,Toronto
+S00731,Student_731,"GCP, Computer Vision, Kubernetes",4,Master,Toronto
+S00732,Student_732,"Data Engineering, SQL, GCP, Docker",3,Master,London
+S00733,Student_733,"Node.js, NLP",4,High School,Toronto
+S00734,Student_734,"C++, Node.js, NLP",4,Master,San Francisco
+S00735,Student_735,"NLP, Data Engineering, React",3,Master,New York
+S00736,Student_736,"Data Engineering, AWS, PyTorch",2,Master,Remote
+S00737,Student_737,"NLP, Kubernetes, GCP, Java, SQL",3,Master,Bangalore
+S00738,Student_738,"AWS, Node.js, TensorFlow, Kubernetes, C++, Java",3,Master,Remote
+S00739,Student_739,"React, Computer Vision",3,Bachelor,London
+S00740,Student_740,"Ruby, AWS, NLP, React",6,High School,New York
+S00741,Student_741,"TensorFlow, Machine Learning, Azure, Docker, React, PyTorch",3,Bachelor,Singapore
+S00742,Student_742,"SQL, TypeScript, Azure, Machine Learning",1,Master,San Francisco
+S00743,Student_743,"TensorFlow, React, GCP",2,PhD,Austin
+S00744,Student_744,"C++, Python, NLP, Azure, Machine Learning",3,Bachelor,New York
+S00745,Student_745,"Data Engineering, Go, Kubernetes, TensorFlow, C++",3,Bachelor,Bangalore
+S00746,Student_746,"GCP, Data Engineering, Node.js, Java",5,High School,London
+S00747,Student_747,"Kubernetes, Node.js, Go, Azure, Data Engineering",4,High School,Bangalore
+S00748,Student_748,"Java, Python, Azure, React, GCP",0,Master,Bangalore
+S00749,Student_749,"C++, PyTorch, TensorFlow, Machine Learning, Kubernetes",1,Bachelor,Austin
+S00750,Student_750,"AWS, PyTorch",5,Master,New York
+S00751,Student_751,"Java, SQL, C++",3,Bachelor,Remote
+S00752,Student_752,"SQL, Ruby",4,Master,Seattle
+S00753,Student_753,"PyTorch, Ruby, Node.js, SQL, Azure",3,Bachelor,San Francisco
+S00754,Student_754,"C++, TensorFlow",2,PhD,San Francisco
+S00755,Student_755,"SQL, Azure, Go, Computer Vision, Ruby",3,Master,New York
+S00756,Student_756,"Node.js, PyTorch, SQL, Docker, Kubernetes, Go",4,PhD,Bangalore
+S00757,Student_757,"AWS, React",3,Bachelor,Remote
+S00758,Student_758,"PyTorch, React, Java",6,Bachelor,Bangalore
+S00759,Student_759,"AWS, Ruby, Azure, Data Engineering, Computer Vision",1,Master,London
+S00760,Student_760,"Go, NLP, PyTorch",1,Bachelor,London
+S00761,Student_761,"TypeScript, Data Engineering, Azure, GCP, PyTorch, Computer Vision",3,Bachelor,Seattle
+S00762,Student_762,"TypeScript, React, Go, C++",5,Bachelor,Bangalore
+S00763,Student_763,"Azure, Data Engineering, Ruby, NLP",6,High School,New York
+S00764,Student_764,"TypeScript, Python, PyTorch, Machine Learning",2,PhD,Berlin
+S00765,Student_765,"Kubernetes, React",0,Bachelor,Austin
+S00766,Student_766,"Node.js, Go",2,Bachelor,Singapore
+S00767,Student_767,"Machine Learning, AWS, SQL, Data Engineering, Azure, Docker",4,Bachelor,Austin
+S00768,Student_768,"React, TypeScript, Node.js, Kubernetes, Docker, PyTorch",3,Bachelor,Remote
+S00769,Student_769,"GCP, TensorFlow",5,Bachelor,Singapore
+S00770,Student_770,"TypeScript, Kubernetes",7,High School,Singapore
+S00771,Student_771,"Docker, SQL, GCP, Azure, Computer Vision",3,Bachelor,San Francisco
+S00772,Student_772,"TypeScript, Python, NLP",2,High School,Bangalore
+S00773,Student_773,"GCP, Go",2,Bachelor,Austin
+S00774,Student_774,"React, Machine Learning, SQL, NLP, Data Engineering, PyTorch",1,Bachelor,Bangalore
+S00775,Student_775,"React, Computer Vision",1,Bachelor,Seattle
+S00776,Student_776,"Machine Learning, GCP, Docker",2,Bachelor,New York
+S00777,Student_777,"NLP, Node.js, Docker, TypeScript, Computer Vision, PyTorch",7,Master,London
+S00778,Student_778,"Go, C++, TensorFlow, NLP, Ruby",5,Bachelor,Bangalore
+S00779,Student_779,"React, Docker, Node.js",2,Master,Austin
+S00780,Student_780,"Docker, AWS, Computer Vision, Go, Azure, Java",13,Bachelor,Austin
+S00781,Student_781,"Python, Kubernetes, Java, Azure, Data Engineering, Ruby",2,Bachelor,New York
+S00782,Student_782,"C++, Azure, Machine Learning",8,Master,San Francisco
+S00783,Student_783,"SQL, React",9,PhD,London
+S00784,Student_784,"Python, GCP, AWS, Kubernetes",5,Bachelor,New York
+S00785,Student_785,"C++, Go, TypeScript, Ruby",2,Bachelor,Berlin
+S00786,Student_786,"TensorFlow, Machine Learning, Python, NLP, SQL, Ruby",2,Bachelor,Berlin
+S00787,Student_787,"TypeScript, Node.js, SQL",4,Bachelor,New York
+S00788,Student_788,"NLP, Node.js",1,Master,Austin
+S00789,Student_789,"Python, Kubernetes",1,Master,Seattle
+S00790,Student_790,"NLP, PyTorch, AWS",1,PhD,Toronto
+S00791,Student_791,"Go, Docker, Java, C++, Data Engineering, Node.js",5,PhD,New York
+S00792,Student_792,"React, PyTorch",7,Bachelor,Toronto
+S00793,Student_793,"Java, Python, Azure, Go, PyTorch",6,Master,Remote
+S00794,Student_794,"Node.js, SQL, TypeScript, NLP, Python, Go",7,PhD,Remote
+S00795,Student_795,"GCP, NLP, Machine Learning",2,High School,Seattle
+S00796,Student_796,"TypeScript, React, Computer Vision, Ruby, Machine Learning, C++",3,PhD,Singapore
+S00797,Student_797,"Data Engineering, Go, Machine Learning, C++",3,Master,Singapore
+S00798,Student_798,"C++, Machine Learning, Kubernetes, PyTorch, Ruby, TypeScript",5,PhD,London
+S00799,Student_799,"Java, GCP, Docker, AWS, TypeScript, TensorFlow",2,Master,London
+S00800,Student_800,"GCP, Computer Vision",6,PhD,Berlin
+S00801,Student_801,"Node.js, Machine Learning, C++, AWS, Ruby",9,Bachelor,Singapore
+S00802,Student_802,"Node.js, Ruby, React, Go, PyTorch, GCP",5,High School,San Francisco
+S00803,Student_803,"Machine Learning, PyTorch, TensorFlow, Azure, Java",2,Master,Toronto
+S00804,Student_804,"Machine Learning, Java, C++, React, SQL",2,Bachelor,New York
+S00805,Student_805,"Computer Vision, React, C++, Go",1,High School,Toronto
+S00806,Student_806,"TensorFlow, GCP, Data Engineering, React, Computer Vision, C++",0,Master,Singapore
+S00807,Student_807,"GCP, NLP, Go, PyTorch, SQL",3,Bachelor,Toronto
+S00808,Student_808,"SQL, React, PyTorch, NLP, TypeScript",3,Bachelor,Bangalore
+S00809,Student_809,"C++, Kubernetes",6,Bachelor,Berlin
+S00810,Student_810,"Data Engineering, Java, Computer Vision, Kubernetes",2,Master,New York
+S00811,Student_811,"Machine Learning, Data Engineering, Ruby, Docker, AWS, PyTorch",3,Master,Bangalore
+S00812,Student_812,"NLP, Computer Vision, GCP",4,Bachelor,London
+S00813,Student_813,"Ruby, C++, Data Engineering, Docker, Node.js",5,Bachelor,London
+S00814,Student_814,"Docker, AWS",6,Master,Austin
+S00815,Student_815,"PyTorch, NLP",4,Master,Bangalore
+S00816,Student_816,"Java, NLP, Go, Ruby, SQL, PyTorch",1,Bachelor,Austin
+S00817,Student_817,"Machine Learning, Java, TypeScript, Ruby, SQL, C++",4,Bachelor,Toronto
+S00818,Student_818,"Java, AWS, Machine Learning, C++",2,High School,Berlin
+S00819,Student_819,"Data Engineering, TensorFlow",8,Master,Bangalore
+S00820,Student_820,"TypeScript, TensorFlow",3,Bachelor,Singapore
+S00821,Student_821,"Data Engineering, Computer Vision, TypeScript, Docker, Python",4,Bachelor,Bangalore
+S00822,Student_822,"TypeScript, Go, C++, SQL",16,Bachelor,New York
+S00823,Student_823,"SQL, Machine Learning, TypeScript, Kubernetes",6,Bachelor,San Francisco
+S00824,Student_824,"AWS, Computer Vision",4,PhD,London
+S00825,Student_825,"TypeScript, Ruby, Go, Java",3,PhD,Singapore
+S00826,Student_826,"SQL, Docker, Kubernetes, GCP",1,Bachelor,Seattle
+S00827,Student_827,"Computer Vision, Go",3,High School,Toronto
+S00828,Student_828,"AWS, Node.js, GCP",2,Bachelor,Bangalore
+S00829,Student_829,"C++, SQL, AWS",10,Bachelor,Bangalore
+S00830,Student_830,"TensorFlow, Kubernetes",4,Bachelor,Austin
+S00831,Student_831,"PyTorch, Ruby, Azure, Machine Learning",7,Master,Toronto
+S00832,Student_832,"TensorFlow, TypeScript, Java, React, Kubernetes, AWS",2,High School,New York
+S00833,Student_833,"AWS, C++, Computer Vision, Go, SQL",2,Bachelor,Bangalore
+S00834,Student_834,"Python, C++, Kubernetes",5,Bachelor,San Francisco
+S00835,Student_835,"Kubernetes, PyTorch, Go, GCP",2,Master,San Francisco
+S00836,Student_836,"GCP, NLP, Python, Java",2,Bachelor,Austin
+S00837,Student_837,"TensorFlow, SQL, Machine Learning, TypeScript, Go",10,Master,Bangalore
+S00838,Student_838,"Data Engineering, Computer Vision, SQL, PyTorch",2,Bachelor,Austin
+S00839,Student_839,"Go, Python, C++, GCP, Azure, SQL",1,PhD,Berlin
+S00840,Student_840,"GCP, NLP",1,Master,London
+S00841,Student_841,"TypeScript, NLP, Java, AWS, Kubernetes, Azure",1,Master,New York
+S00842,Student_842,"Computer Vision, Docker, TensorFlow, React",8,Bachelor,Berlin
+S00843,Student_843,"PyTorch, Kubernetes, Java",2,Bachelor,New York
+S00844,Student_844,"Docker, Data Engineering, PyTorch",15,High School,Toronto
+S00845,Student_845,"Machine Learning, C++, GCP, TensorFlow, Kubernetes, NLP",9,Bachelor,San Francisco
+S00846,Student_846,"Machine Learning, C++, SQL, Data Engineering, NLP, Azure",12,Master,San Francisco
+S00847,Student_847,"Kubernetes, SQL",7,Master,Singapore
+S00848,Student_848,"GCP, Data Engineering",5,Master,San Francisco
+S00849,Student_849,"Kubernetes, Python, TypeScript, C++, GCP, AWS",2,Bachelor,Berlin
+S00850,Student_850,"GCP, Data Engineering, AWS, Node.js, Machine Learning, Docker",3,Bachelor,New York
+S00851,Student_851,"Go, PyTorch, AWS, C++, Azure, Node.js",5,Bachelor,London
+S00852,Student_852,"Ruby, React, Java, Docker",6,Bachelor,Austin
+S00853,Student_853,"Data Engineering, SQL, Machine Learning, Python, TensorFlow, TypeScript",1,Master,San Francisco
+S00854,Student_854,"SQL, Docker, Computer Vision, NLP, Java",3,Master,Singapore
+S00855,Student_855,"TypeScript, Azure, Kubernetes, GCP, C++",3,Master,Bangalore
+S00856,Student_856,"Data Engineering, Ruby",3,Bachelor,Toronto
+S00857,Student_857,"Data Engineering, Kubernetes",1,Master,Toronto
+S00858,Student_858,"React, TypeScript, Machine Learning, Node.js, Azure",11,Bachelor,Austin
+S00859,Student_859,"Data Engineering, TensorFlow, Python, Docker",3,Bachelor,Austin
+S00860,Student_860,"Data Engineering, Java, Kubernetes, Azure, Machine Learning",1,Bachelor,Seattle
+S00861,Student_861,"GCP, Go",11,Master,Berlin
+S00862,Student_862,"Data Engineering, NLP, Computer Vision, React, PyTorch, Node.js",9,Bachelor,Toronto
+S00863,Student_863,"Docker, GCP, C++, Computer Vision, PyTorch",4,Bachelor,Austin
+S00864,Student_864,"React, Java, Docker, TensorFlow, AWS, Kubernetes",2,Bachelor,Austin
+S00865,Student_865,"AWS, Data Engineering, Java, Kubernetes, NLP, SQL",1,Bachelor,Singapore
+S00866,Student_866,"GCP, TensorFlow, SQL, Docker, C++",5,Master,Singapore
+S00867,Student_867,"Machine Learning, TypeScript",2,Bachelor,Berlin
+S00868,Student_868,"TypeScript, Ruby, Data Engineering, C++, PyTorch",3,Master,Austin
+S00869,Student_869,"Ruby, Kubernetes, Computer Vision, Azure",10,PhD,Singapore
+S00870,Student_870,"TypeScript, PyTorch",2,Bachelor,London
+S00871,Student_871,"SQL, Azure, Go, TypeScript",5,High School,Bangalore
+S00872,Student_872,"AWS, Kubernetes, Python, React",6,Bachelor,Singapore
+S00873,Student_873,"GCP, NLP, Ruby, Go, Computer Vision",8,Bachelor,London
+S00874,Student_874,"Machine Learning, C++, Go, NLP, Azure",3,Master,London
+S00875,Student_875,"Machine Learning, TypeScript, Python, Docker",3,Master,London
+S00876,Student_876,"Computer Vision, Machine Learning, Docker, Ruby, TypeScript",3,Master,Singapore
+S00877,Student_877,"TypeScript, Java, Data Engineering, PyTorch, Computer Vision",4,Bachelor,Toronto
+S00878,Student_878,"Azure, React, Java, Computer Vision, Python",9,Bachelor,Remote
+S00879,Student_879,"Node.js, Computer Vision, Go, Azure, SQL, Python",3,Bachelor,Austin
+S00880,Student_880,"Ruby, TensorFlow",0,PhD,San Francisco
+S00881,Student_881,"PyTorch, Node.js, Data Engineering",6,Bachelor,Bangalore
+S00882,Student_882,"Docker, React, TensorFlow, TypeScript, Kubernetes, Go",4,High School,Austin
+S00883,Student_883,"Python, TensorFlow, Data Engineering, PyTorch, Ruby, Kubernetes",5,Master,Seattle
+S00884,Student_884,"Kubernetes, TypeScript, Java, SQL",1,Master,Singapore
+S00885,Student_885,"Ruby, Node.js, SQL, TensorFlow",2,Bachelor,Singapore
+S00886,Student_886,"Kubernetes, Python",6,Bachelor,San Francisco
+S00887,Student_887,"PyTorch, Docker, Node.js",1,Bachelor,Singapore
+S00888,Student_888,"Node.js, TypeScript, Python, AWS",5,Master,Singapore
+S00889,Student_889,"Data Engineering, Azure, Java",3,Bachelor,Remote
+S00890,Student_890,"Java, PyTorch, SQL, GCP, Docker",2,PhD,Singapore
+S00891,Student_891,"TensorFlow, Computer Vision, NLP",2,Bachelor,Toronto
+S00892,Student_892,"C++, Ruby, Azure",1,High School,Berlin
+S00893,Student_893,"SQL, Java",3,Bachelor,Toronto
+S00894,Student_894,"TensorFlow, Go, React, NLP",4,Master,Seattle
+S00895,Student_895,"Node.js, Machine Learning, PyTorch, Computer Vision, Python",2,Bachelor,Toronto
+S00896,Student_896,"GCP, PyTorch, SQL, AWS, Azure",1,PhD,Seattle
+S00897,Student_897,"Node.js, GCP, TypeScript, Go, AWS, Machine Learning",5,Master,Seattle
+S00898,Student_898,"React, Ruby, C++, PyTorch, GCP",6,Master,London
+S00899,Student_899,"Go, Python, Ruby, Docker",5,High School,San Francisco
+S00900,Student_900,"AWS, Data Engineering, Azure, React, Kubernetes, Machine Learning",12,Bachelor,New York
+S00901,Student_901,"Docker, SQL, C++, AWS, PyTorch, Ruby",3,Master,London
+S00902,Student_902,"Ruby, Java, AWS, TypeScript, Node.js",8,Bachelor,San Francisco
+S00903,Student_903,"Node.js, Computer Vision, GCP, TypeScript, Java",2,Master,Berlin
+S00904,Student_904,"NLP, TypeScript",2,Bachelor,New York
+S00905,Student_905,"Node.js, Java, Data Engineering, Docker",4,Bachelor,Remote
+S00906,Student_906,"NLP, Java, TensorFlow, AWS, Machine Learning, Node.js",10,Master,Remote
+S00907,Student_907,"AWS, Data Engineering, Node.js, TypeScript, SQL, TensorFlow",3,High School,Berlin
+S00908,Student_908,"Python, TensorFlow, Machine Learning, TypeScript, SQL",1,Master,Berlin
+S00909,Student_909,"GCP, NLP, Python",6,Bachelor,Toronto
+S00910,Student_910,"Computer Vision, NLP, Docker, React, Python",3,Bachelor,Toronto
+S00911,Student_911,"Ruby, Go",4,PhD,Austin
+S00912,Student_912,"Kubernetes, NLP, SQL, Docker",2,Bachelor,Austin
+S00913,Student_913,"Data Engineering, Kubernetes",4,Master,London
+S00914,Student_914,"SQL, NLP, C++, Kubernetes, Ruby, Data Engineering",1,Bachelor,Austin
+S00915,Student_915,"Docker, Data Engineering, C++, Machine Learning, SQL",11,Bachelor,Singapore
+S00916,Student_916,"TensorFlow, NLP, Docker",7,Master,Berlin
+S00917,Student_917,"Go, Data Engineering, Python, SQL, GCP",4,High School,New York
+S00918,Student_918,"AWS, C++, PyTorch, Data Engineering, Machine Learning",6,Master,Remote
+S00919,Student_919,"SQL, Machine Learning",2,Bachelor,New York
+S00920,Student_920,"TypeScript, SQL, React, Machine Learning, Python",7,Bachelor,New York
+S00921,Student_921,"AWS, Data Engineering, Java, Docker",3,Master,San Francisco
+S00922,Student_922,"TensorFlow, React",2,High School,Remote
+S00923,Student_923,"GCP, NLP, TypeScript, AWS, Machine Learning",1,Bachelor,Remote
+S00924,Student_924,"Ruby, Java",5,Bachelor,San Francisco
+S00925,Student_925,"Machine Learning, Computer Vision, Java, Azure",3,Bachelor,Toronto
+S00926,Student_926,"Ruby, SQL, Machine Learning",8,High School,Singapore
+S00927,Student_927,"Java, Python, TensorFlow, Docker, Ruby",1,High School,San Francisco
+S00928,Student_928,"Kubernetes, Computer Vision, TensorFlow, Machine Learning, C++, Docker",5,Master,Bangalore
+S00929,Student_929,"Computer Vision, React, Java, SQL, Go",7,Master,Singapore
+S00930,Student_930,"Kubernetes, Azure",4,Bachelor,Bangalore
+S00931,Student_931,"C++, AWS, PyTorch",3,PhD,Singapore
+S00932,Student_932,"Go, PyTorch, React, Data Engineering",4,Master,Remote
+S00933,Student_933,"SQL, C++, AWS, Machine Learning",8,Master,Toronto
+S00934,Student_934,"Java, TypeScript, SQL, Go, Azure",8,Bachelor,Seattle
+S00935,Student_935,"GCP, Data Engineering, SQL, AWS",3,Master,Bangalore
+S00936,Student_936,"Java, Python, TensorFlow",8,Bachelor,San Francisco
+S00937,Student_937,"Data Engineering, Ruby, GCP",3,Bachelor,Austin
+S00938,Student_938,"AWS, GCP, React",6,High School,Seattle
+S00939,Student_939,"NLP, React, Docker",5,Bachelor,Toronto
+S00940,Student_940,"Computer Vision, Machine Learning",2,Bachelor,Singapore
+S00941,Student_941,"Java, NLP, Azure, Machine Learning, Data Engineering",1,Master,Austin
+S00942,Student_942,"C++, GCP, Machine Learning, SQL",8,Master,New York
+S00943,Student_943,"Machine Learning, AWS, Data Engineering, Go",9,Bachelor,Austin
+S00944,Student_944,"Kubernetes, Java, Ruby",4,Bachelor,Bangalore
+S00945,Student_945,"Docker, Computer Vision, PyTorch",3,Bachelor,Remote
+S00946,Student_946,"TensorFlow, Data Engineering, Node.js, Python, Computer Vision, Azure",1,Master,Remote
+S00947,Student_947,"Computer Vision, Ruby, React, Machine Learning",7,PhD,New York
+S00948,Student_948,"SQL, TypeScript, TensorFlow, PyTorch, Ruby",4,Bachelor,Seattle
+S00949,Student_949,"AWS, Data Engineering, TensorFlow, React, Docker",3,Bachelor,New York
+S00950,Student_950,"C++, Machine Learning, Azure, Kubernetes, React",6,Master,San Francisco
+S00951,Student_951,"TensorFlow, Kubernetes",1,Bachelor,Toronto
+S00952,Student_952,"Ruby, Python, Data Engineering, Go, Machine Learning, Computer Vision",1,Master,London
+S00953,Student_953,"Data Engineering, Python, Docker, NLP",2,Master,Austin
+S00954,Student_954,"SQL, Kubernetes, Computer Vision, Node.js, C++, NLP",5,Master,Singapore
+S00955,Student_955,"SQL, PyTorch, Azure, TypeScript",4,Bachelor,Austin
+S00956,Student_956,"TypeScript, SQL, Azure, Go, Java",5,Master,San Francisco
+S00957,Student_957,"C++, Machine Learning, GCP, React, AWS, Go",7,Bachelor,Singapore
+S00958,Student_958,"React, GCP, Azure",5,Master,Bangalore
+S00959,Student_959,"Node.js, SQL, Docker, Azure, PyTorch",11,Bachelor,Bangalore
+S00960,Student_960,"AWS, TensorFlow, Go, Kubernetes, Data Engineering, PyTorch",7,Bachelor,San Francisco
+S00961,Student_961,"Data Engineering, Docker, Ruby",3,Bachelor,London
+S00962,Student_962,"Docker, AWS, Java, Node.js",2,Bachelor,London
+S00963,Student_963,"Machine Learning, C++, PyTorch, Python, Kubernetes",3,Bachelor,Bangalore
+S00964,Student_964,"TensorFlow, Azure, Computer Vision",6,Bachelor,New York
+S00965,Student_965,"C++, Docker, Python, React",2,Master,Bangalore
+S00966,Student_966,"Computer Vision, Ruby, GCP, Go",6,Bachelor,Bangalore
+S00967,Student_967,"Data Engineering, TypeScript, Kubernetes, Machine Learning, Go, Docker",5,Master,Remote
+S00968,Student_968,"Azure, Kubernetes, SQL, Machine Learning, TypeScript",1,Bachelor,London
+S00969,Student_969,"Java, Go, Kubernetes, TypeScript, PyTorch, Computer Vision",7,Master,London
+S00970,Student_970,"React, AWS, SQL",4,PhD,Singapore
+S00971,Student_971,"Data Engineering, Node.js, Azure",11,Bachelor,Bangalore
+S00972,Student_972,"GCP, Azure",3,Bachelor,Toronto
+S00973,Student_973,"Java, Go, Kubernetes, AWS, Python, C++",3,PhD,London
+S00974,Student_974,"GCP, Machine Learning, Python, PyTorch, TypeScript",1,Master,Berlin
+S00975,Student_975,"Kubernetes, Ruby, Machine Learning, Data Engineering, GCP",1,Master,Toronto
+S00976,Student_976,"Machine Learning, Go",6,Bachelor,New York
+S00977,Student_977,"TypeScript, React, Data Engineering, Azure, Docker",10,Bachelor,Singapore
+S00978,Student_978,"Ruby, PyTorch, React",3,Master,Berlin
+S00979,Student_979,"Python, Docker, Go",3,Master,San Francisco
+S00980,Student_980,"NLP, C++, TensorFlow, GCP, SQL, Data Engineering",4,Master,Seattle
+S00981,Student_981,"Computer Vision, Azure, NLP",7,Bachelor,Berlin
+S00982,Student_982,"Azure, Kubernetes, Data Engineering, Docker",1,Bachelor,Toronto
+S00983,Student_983,"Data Engineering, Kubernetes, Java, Computer Vision, PyTorch",4,Bachelor,Singapore
+S00984,Student_984,"Docker, Machine Learning, C++, Kubernetes, TensorFlow, Computer Vision",7,Bachelor,Austin
+S00985,Student_985,"Ruby, NLP",5,High School,Seattle
+S00986,Student_986,"Computer Vision, Java, Go, Data Engineering",0,Master,London
+S00987,Student_987,"Java, NLP, Kubernetes",5,Bachelor,New York
+S00988,Student_988,"Ruby, Kubernetes, TensorFlow, Data Engineering",5,Bachelor,New York
+S00989,Student_989,"Node.js, Kubernetes, TensorFlow",8,Bachelor,Berlin
+S00990,Student_990,"Java, TensorFlow, React, Python, AWS",9,Master,Toronto
+S00991,Student_991,"TypeScript, Azure",8,Bachelor,Singapore
+S00992,Student_992,"Node.js, TensorFlow, AWS, Azure, Python",4,Master,London
+S00993,Student_993,"SQL, Machine Learning, GCP, Data Engineering, Ruby, Java",1,Bachelor,Berlin
+S00994,Student_994,"Computer Vision, Azure, SQL, Kubernetes",3,Bachelor,San Francisco
+S00995,Student_995,"C++, Java, AWS, Ruby, GCP, Computer Vision",3,Bachelor,Berlin
+S00996,Student_996,"Azure, AWS, Go, TypeScript",10,Master,New York
+S00997,Student_997,"PyTorch, Kubernetes, Azure",2,Master,Seattle
+S00998,Student_998,"Java, AWS, C++, Machine Learning",1,Bachelor,Remote
+S00999,Student_999,"TypeScript, PyTorch, Go, AWS, Computer Vision, React",2,PhD,San Francisco
+S01000,Student_1000,"Python, TensorFlow, Azure",2,Bachelor,Austin

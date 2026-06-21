@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score,false_positive_rate,confusion_matrix
+LogisticRegression,0.744,0.6268656716417911,0.41042345276872966,0.49606299212598426,0.10822510822510822,"[[618, 75], [181, 126]]"
