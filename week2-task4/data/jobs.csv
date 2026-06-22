@@ -1,0 +1,501 @@
+job_id,required_skills,minimum_score
+501,"Java,Project Management,Statistics,Python,React",54
+502,"AWS,Kubernetes,C++,Git",59
+503,"Communication,C++,Node.js,Project Management",79
+504,"Agile,AWS",62
+505,"SQL,Statistics,Communication,React",82
+506,"Docker,Scrum",84
+507,"SQL,NLP",86
+508,"AWS,Docker,Java",65
+509,"NLP,Java,SQL",88
+510,"Scrum,Docker,Machine Learning,C++",54
+511,"Agile,Kubernetes,SQL",63
+512,"AWS,Project Management,NLP",56
+513,"React,Machine Learning",62
+514,"Communication,NLP,Machine Learning,Project Management,Git",56
+515,"Project Management,Kubernetes,Python",87
+516,"Communication,NLP,C++,Scrum,Python",66
+517,"Docker,Project Management,Java,React,Git",80
+518,"Kubernetes,Docker,AWS,React",67
+519,"NLP,Communication,Java,Project Management",50
+520,"Agile,Project Management,Scrum,Java",61
+521,"Deep Learning,Kubernetes",56
+522,"React,Scrum,Java,C++,Statistics",56
+523,"C++,Kubernetes,Agile",69
+524,"Agile,Project Management,Communication,Kubernetes",89
+525,"Git,Data Analysis,React",60
+526,"Statistics,Java,Scrum",89
+527,"React,Agile,Project Management",88
+528,"Docker,AWS,Git,Project Management,NLP",69
+529,"Data Analysis,Kubernetes,React,Node.js",70
+530,"Kubernetes,Deep Learning,Statistics,Scrum,Python",75
+531,"Deep Learning,Node.js",58
+532,"Docker,Python,C++,Agile,React",66
+533,"Node.js,Python,React,Deep Learning",74
+534,"Scrum,Git,C++,Agile",89
+535,"Docker,Communication,Machine Learning,AWS,Agile",70
+536,"Git,Project Management,SQL,Statistics,Node.js",81
+537,"Docker,Statistics,SQL",56
+538,"React,Docker",84
+539,"NLP,Kubernetes,Communication,Project Management",58
+540,"React,Deep Learning",59
+541,"Git,Kubernetes,C++",85
+542,"NLP,AWS",70
+543,"Scrum,Agile,Kubernetes,Python",58
+544,"React,Node.js",78
+545,"Java,React,NLP",64
+546,"Node.js,React,C++,Docker,Data Analysis",88
+547,"Data Analysis,Communication",76
+548,"Statistics,Project Management,SQL,Agile,NLP",82
+549,"Python,Deep Learning,SQL,React",84
+550,"Kubernetes,React,Machine Learning,Agile,Git",55
+551,"Scrum,Java",82
+552,"Git,NLP",89
+553,"Machine Learning,Deep Learning,Docker",79
+554,"Data Analysis,React,Machine Learning,Java,Scrum",86
+555,"NLP,Agile,Deep Learning,Python",75
+556,"Python,Statistics,Git,Agile",64
+557,"Deep Learning,Data Analysis,Docker,AWS",87
+558,"Scrum,NLP,C++,Node.js",86
+559,"C++,Data Analysis,Git",69
+560,"Communication,Python,SQL",58
+561,"Machine Learning,React,Scrum,AWS",63
+562,"Kubernetes,Java,Deep Learning",67
+563,"C++,Node.js,Python",58
+564,"Communication,Statistics,Python,NLP,Deep Learning",63
+565,"SQL,NLP,Scrum,Statistics,Communication",63
+566,"Git,Communication,Machine Learning,Java,Docker",87
+567,"Java,C++",57
+568,"Node.js,React,Deep Learning,C++,Communication",55
+569,"Project Management,Docker,Agile,Communication",79
+570,"Python,Statistics",76
+571,"Communication,Node.js,Scrum,Kubernetes,Deep Learning",54
+572,"Kubernetes,AWS,Machine Learning,Statistics,NLP",80
+573,"Docker,React",52
+574,"AWS,Java,Python",58
+575,"Data Analysis,Project Management,SQL",53
+576,"Kubernetes,Node.js,Deep Learning",60
+577,"Java,Git,Agile,Data Analysis,Node.js",61
+578,"Communication,Java,Python,Project Management",63
+579,"Statistics,Node.js,Docker,React",51
+580,"React,Python",80
+581,"Data Analysis,Deep Learning",52
+582,"Agile,Java,Scrum,Communication,Python",72
+583,"Machine Learning,Deep Learning,Git",57
+584,"NLP,Deep Learning,Git,Data Analysis,Scrum",88
+585,"Kubernetes,Project Management",80
+586,"Data Analysis,React,Node.js,Communication",80
+587,"Git,C++,Data Analysis,AWS,Docker",58
+588,"AWS,Machine Learning,Communication",75
+589,"Communication,AWS,Scrum,Docker",61
+590,"React,NLP,Agile,Docker",58
+591,"Deep Learning,Node.js,Data Analysis,SQL",74
+592,"C++,Java",50
+593,"SQL,AWS,Java",75
+594,"Python,Project Management,Scrum,Node.js",62
+595,"NLP,C++,Git,Docker,Project Management",78
+596,"Docker,Agile",71
+597,"Java,Docker,React,Project Management",85
+598,"Communication,React,Agile,Docker,SQL",73
+599,"Python,Scrum,Data Analysis,Communication,Project Management",79
+600,"Communication,Scrum",68
+601,"Node.js,Kubernetes,NLP",77
+602,"Agile,Java",75
+603,"Data Analysis,AWS,Python",62
+604,"Agile,Data Analysis,Git,SQL",84
+605,"Scrum,AWS,Agile,Java",73
+606,"Communication,Java,AWS",59
+607,"C++,Docker,SQL,Statistics,Data Analysis",74
+608,"Project Management,NLP,React,Data Analysis,Node.js",69
+609,"Machine Learning,Docker",85
+610,"C++,Machine Learning,SQL,Deep Learning",58
+611,"Project Management,Java,AWS",75
+612,"Deep Learning,Statistics,C++",65
+613,"Machine Learning,AWS,Docker,Data Analysis",75
+614,"Git,Data Analysis",63
+615,"Data Analysis,Docker,React,Python,Agile",57
+616,"Agile,Communication,Project Management,AWS",78
+617,"Communication,Scrum,NLP,Data Analysis",54
+618,"Docker,SQL,Statistics,Git",57
+619,"Deep Learning,Java,Project Management,Kubernetes,Communication",83
+620,"Machine Learning,Node.js",65
+621,"Deep Learning,Git,SQL,Communication,Scrum",67
+622,"Docker,Agile,React,Deep Learning",66
+623,"Machine Learning,Python,Communication,Project Management",65
+624,"AWS,Deep Learning,Docker,Communication,Statistics",81
+625,"Agile,Statistics,SQL,Communication,Kubernetes",56
+626,"Communication,AWS",73
+627,"Statistics,SQL,Node.js,NLP,Deep Learning",79
+628,"Statistics,Deep Learning",51
+629,"Git,Java,Python",90
+630,"Communication,Kubernetes,Deep Learning,Python",79
+631,"Node.js,Git,Scrum,AWS",67
+632,"SQL,React,NLP,Docker,Statistics",60
+633,"Scrum,Git,React",75
+634,"Java,Project Management,Machine Learning,React",72
+635,"React,Kubernetes,Communication",55
+636,"React,Project Management,Java,Statistics,Communication",66
+637,"Node.js,React,NLP,Git,Statistics",60
+638,"React,Python,Communication",62
+639,"Agile,Scrum,Kubernetes,Java",75
+640,"C++,Machine Learning",55
+641,"Docker,Data Analysis,React,Node.js,C++",58
+642,"Communication,Kubernetes,Machine Learning,React,Git",78
+643,"AWS,Scrum",59
+644,"Python,Project Management,AWS,Agile",65
+645,"NLP,C++,Data Analysis",50
+646,"AWS,Python,Project Management,NLP",76
+647,"Deep Learning,Java,Agile",87
+648,"Git,Statistics,Docker,Node.js,Scrum",66
+649,"Node.js,Git,AWS,React,Docker",72
+650,"Data Analysis,React",65
+651,"Communication,Agile,Project Management",84
+652,"Communication,AWS,Node.js,Scrum",79
+653,"Git,SQL,NLP,Agile",81
+654,"Machine Learning,Java,Python,NLP,Docker",53
+655,"Project Management,Data Analysis,Machine Learning,Node.js",54
+656,"Git,Docker,Python,Project Management",77
+657,"Statistics,C++,NLP",69
+658,"React,AWS,Agile,Deep Learning",59
+659,"Python,SQL,Node.js,Communication",54
+660,"Agile,Deep Learning",60
+661,"AWS,Java,Scrum",51
+662,"Communication,React,Machine Learning,Git,C++",86
+663,"Deep Learning,Statistics,Project Management,Data Analysis,Git",71
+664,"Communication,Kubernetes,Node.js",61
+665,"Docker,Project Management,Machine Learning,Java,Data Analysis",75
+666,"AWS,Node.js,Machine Learning",71
+667,"Communication,Agile,Docker,Python,NLP",88
+668,"Scrum,SQL",73
+669,"Java,Python",83
+670,"Python,React",74
+671,"Python,Node.js,Machine Learning,Java",62
+672,"Java,Scrum,C++,Node.js,SQL",59
+673,"Git,Java,NLP,Scrum",82
+674,"NLP,Python,SQL",84
+675,"Kubernetes,Git",56
+676,"Java,Agile,Git,Communication",81
+677,"Data Analysis,React,NLP",85
+678,"NLP,Communication,Machine Learning,React,Scrum",73
+679,"AWS,Project Management,C++",75
+680,"Node.js,SQL",80
+681,"Agile,Machine Learning",70
+682,"Scrum,C++,Kubernetes,React,Machine Learning",78
+683,"Kubernetes,Deep Learning,Statistics",77
+684,"Machine Learning,Project Management,Python,Scrum,SQL",70
+685,"Statistics,Kubernetes,Project Management,Scrum,Git",53
+686,"C++,Machine Learning",69
+687,"React,SQL,Python",53
+688,"Statistics,C++,Node.js,SQL",77
+689,"Agile,Node.js,SQL",63
+690,"NLP,Java",64
+691,"Machine Learning,C++,Project Management,Scrum",86
+692,"SQL,Statistics",63
+693,"Kubernetes,Python",65
+694,"Java,Statistics,AWS,Node.js",75
+695,"Data Analysis,Git",88
+696,"Docker,Deep Learning,Kubernetes",63
+697,"Deep Learning,Python,Git,Agile",74
+698,"C++,Project Management,Docker,Python",90
+699,"SQL,NLP,Data Analysis,AWS,Git",90
+700,"Communication,Java",81
+701,"Java,Scrum",70
+702,"Docker,Statistics,Kubernetes",84
+703,"Kubernetes,Docker,Communication,Agile",75
+704,"Machine Learning,Scrum,Project Management",62
+705,"Agile,SQL,Project Management",80
+706,"Communication,AWS",52
+707,"Java,Machine Learning,Scrum,AWS,C++",89
+708,"NLP,Data Analysis,Git,SQL",82
+709,"C++,React,SQL",86
+710,"Data Analysis,React",66
+711,"Node.js,NLP,C++",53
+712,"Statistics,Data Analysis,Kubernetes,Machine Learning,Communication",61
+713,"React,NLP,Python",78
+714,"AWS,Agile",68
+715,"Data Analysis,Scrum,React",53
+716,"Machine Learning,Deep Learning",83
+717,"Java,React",73
+718,"Data Analysis,Communication",64
+719,"Statistics,Python",86
+720,"Statistics,Communication",64
+721,"Git,Scrum",54
+722,"Project Management,Statistics",68
+723,"NLP,AWS,Project Management,Docker,Java",90
+724,"Project Management,Data Analysis,NLP,Node.js,Communication",59
+725,"Java,Statistics,Docker,Git",73
+726,"Deep Learning,Kubernetes",59
+727,"NLP,Deep Learning",84
+728,"Statistics,Data Analysis,Node.js",63
+729,"Deep Learning,Git,NLP,Agile,AWS",74
+730,"Node.js,React,Scrum,Statistics,Machine Learning",83
+731,"AWS,C++,Scrum",86
+732,"Node.js,NLP,Deep Learning",73
+733,"C++,Statistics,Data Analysis,Project Management",56
+734,"Kubernetes,Deep Learning,SQL,C++,Communication",71
+735,"Statistics,Agile,Deep Learning",61
+736,"Python,C++,Statistics,Java,Data Analysis",86
+737,"Statistics,C++,Data Analysis",76
+738,"NLP,AWS,Data Analysis,Project Management",70
+739,"Communication,Machine Learning",55
+740,"Python,SQL",71
+741,"React,Node.js",62
+742,"C++,Kubernetes,Machine Learning",73
+743,"Git,NLP,Project Management,React",61
+744,"Kubernetes,Communication,Java,Data Analysis",60
+745,"Communication,Scrum,Deep Learning,Java,Docker",85
+746,"Docker,AWS,Communication,Data Analysis,NLP",78
+747,"SQL,Data Analysis",74
+748,"Statistics,Project Management,Java,Python,Kubernetes",73
+749,"Git,Java,NLP,Python,AWS",86
+750,"React,Machine Learning,Node.js,Scrum",61
+751,"Kubernetes,Statistics,Data Analysis",57
+752,"React,Kubernetes,Machine Learning",72
+753,"Python,Deep Learning,Java,Node.js,Scrum",66
+754,"Agile,Docker,Git",51
+755,"React,Java,SQL,AWS,Node.js",69
+756,"NLP,Deep Learning,React,SQL",67
+757,"Machine Learning,React,SQL,Data Analysis,Deep Learning",89
+758,"Git,Python",69
+759,"C++,Project Management,Statistics,Agile,Python",67
+760,"React,Node.js,Agile,Deep Learning,C++",71
+761,"Node.js,Docker,C++",81
+762,"Docker,Machine Learning,NLP,Scrum",70
+763,"Python,Data Analysis",56
+764,"Machine Learning,Java,Node.js",54
+765,"Git,AWS,Machine Learning",54
+766,"Python,React",89
+767,"Data Analysis,NLP",90
+768,"Communication,Git,SQL,Data Analysis",62
+769,"Java,Machine Learning",55
+770,"Deep Learning,AWS",63
+771,"Machine Learning,Statistics",70
+772,"Project Management,C++,Git",88
+773,"Project Management,Kubernetes,SQL",78
+774,"Agile,Python,Machine Learning",61
+775,"Docker,Data Analysis,C++",57
+776,"C++,Java",70
+777,"Java,Statistics,Kubernetes",88
+778,"Agile,Kubernetes,C++,Deep Learning,Data Analysis",72
+779,"Agile,Python,Docker",68
+780,"Machine Learning,SQL,Git",81
+781,"SQL,Deep Learning,Machine Learning,NLP",50
+782,"React,Node.js",88
+783,"Git,Docker",70
+784,"Node.js,Project Management,Git,Scrum,Data Analysis",81
+785,"Scrum,C++,AWS,Java",52
+786,"Deep Learning,NLP,Scrum,React",75
+787,"NLP,Git,Data Analysis,Agile,Node.js",74
+788,"Python,Data Analysis,React,Statistics,Deep Learning",90
+789,"Statistics,Node.js,Python",77
+790,"Data Analysis,Java,C++",56
+791,"Statistics,Project Management",59
+792,"React,C++,Python,Project Management",75
+793,"Kubernetes,Scrum,Docker",64
+794,"Project Management,Git,Deep Learning",77
+795,"Project Management,SQL,Node.js",56
+796,"React,Project Management",88
+797,"Data Analysis,AWS,Agile,Project Management",63
+798,"Project Management,Python,Kubernetes,Java,Git",90
+799,"Deep Learning,Communication,Data Analysis,Kubernetes",71
+800,"Data Analysis,Node.js,Project Management,Machine Learning",51
+801,"Node.js,Deep Learning,AWS,C++,Java",64
+802,"Project Management,Docker,React,Agile",62
+803,"React,AWS,Scrum",65
+804,"Git,Project Management,Python,React,Docker",56
+805,"Data Analysis,React,Machine Learning,Project Management,AWS",88
+806,"Machine Learning,NLP,Statistics,C++",67
+807,"Node.js,SQL,Project Management",65
+808,"Python,React,Node.js",89
+809,"Scrum,Data Analysis,Docker,React,AWS",70
+810,"C++,Communication,Kubernetes",53
+811,"Agile,Git,Kubernetes",65
+812,"Deep Learning,Python,Kubernetes,Docker,Communication",59
+813,"Python,Git,Deep Learning,Machine Learning",73
+814,"Data Analysis,NLP,Statistics,Java,Kubernetes",78
+815,"Communication,Docker,NLP,Scrum",62
+816,"Kubernetes,Java,Data Analysis,React,Python",57
+817,"React,Scrum",80
+818,"Data Analysis,React,Statistics,Python",90
+819,"React,Statistics,Java,Git,Kubernetes",52
+820,"React,SQL,Agile,Scrum",58
+821,"Machine Learning,Git,Data Analysis,Agile,SQL",83
+822,"AWS,Machine Learning,Node.js",72
+823,"Machine Learning,Deep Learning,React,Git",81
+824,"Scrum,SQL,Agile,Deep Learning,React",75
+825,"Scrum,Machine Learning,C++",78
+826,"Communication,Docker,AWS",65
+827,"Scrum,Python",53
+828,"Project Management,SQL,Scrum",64
+829,"Data Analysis,Git,Agile",70
+830,"Statistics,Git,Python,Kubernetes",81
+831,"Deep Learning,Scrum",54
+832,"C++,SQL",63
+833,"Git,Project Management,Python",72
+834,"Git,Node.js",82
+835,"Statistics,C++,Data Analysis",84
+836,"Kubernetes,Docker",85
+837,"Agile,Statistics,Java,C++",88
+838,"React,C++,Git,Docker",75
+839,"Kubernetes,NLP",51
+840,"Agile,Statistics,C++,Java,SQL",52
+841,"Communication,C++,Scrum,Kubernetes,Deep Learning",63
+842,"Node.js,NLP,SQL,AWS",86
+843,"C++,Agile,Python,Kubernetes",50
+844,"Java,React,C++",81
+845,"React,NLP,Statistics,Java,Scrum",81
+846,"Scrum,Kubernetes,AWS,Machine Learning,Git",56
+847,"Python,SQL",50
+848,"Python,Kubernetes,NLP,Statistics",86
+849,"Communication,SQL,Node.js",63
+850,"Deep Learning,Node.js,Machine Learning",67
+851,"Python,Kubernetes,SQL,Communication,Data Analysis",59
+852,"NLP,C++,Communication,Python",80
+853,"Python,Communication,Machine Learning",65
+854,"Git,Scrum,Docker,Agile,Python",86
+855,"Machine Learning,Data Analysis,C++,Git,Agile",74
+856,"SQL,Project Management",77
+857,"Deep Learning,Java,Python,SQL,React",54
+858,"Kubernetes,Project Management,C++,Docker",51
+859,"C++,AWS,NLP,Python",52
+860,"Scrum,Project Management,AWS,SQL,Data Analysis",73
+861,"Node.js,NLP",80
+862,"Node.js,Git,Data Analysis",70
+863,"Deep Learning,Java,Statistics,Node.js",79
+864,"Kubernetes,Data Analysis,Project Management,Deep Learning",73
+865,"Machine Learning,Docker,Data Analysis,React,NLP",72
+866,"NLP,Scrum,Java,SQL,Agile",82
+867,"React,Scrum,Java",86
+868,"C++,Statistics,Machine Learning",76
+869,"Agile,Scrum",52
+870,"Git,Python",66
+871,"AWS,React,Project Management",57
+872,"Node.js,Scrum,Statistics,Agile",64
+873,"Deep Learning,Communication,AWS,NLP",59
+874,"Python,Agile,Communication",81
+875,"Machine Learning,Kubernetes,AWS",75
+876,"C++,Scrum,Communication,Git",51
+877,"Python,Kubernetes",57
+878,"Java,Machine Learning,Scrum",66
+879,"Communication,Deep Learning,Node.js,Statistics,Python",88
+880,"React,Statistics,Node.js,C++",69
+881,"Git,Project Management,SQL,Scrum,Python",81
+882,"Node.js,Python,Docker,Project Management",74
+883,"Deep Learning,Node.js",81
+884,"Statistics,SQL",81
+885,"Project Management,Docker",84
+886,"Machine Learning,AWS",90
+887,"NLP,Statistics",71
+888,"Project Management,SQL,React",69
+889,"C++,Deep Learning,Communication,Python,React",58
+890,"Agile,NLP",54
+891,"NLP,Docker,Statistics",84
+892,"Docker,Communication",83
+893,"Java,NLP,Kubernetes,Git,Python",68
+894,"Deep Learning,Communication,Data Analysis,Machine Learning",62
+895,"Project Management,AWS,Python,Statistics,Git",61
+896,"SQL,Kubernetes,Java,AWS,Agile",87
+897,"AWS,NLP,Communication,Agile,Machine Learning",58
+898,"Git,Python,NLP",81
+899,"Deep Learning,Python,Agile,Node.js",90
+900,"Deep Learning,Project Management",52
+901,"Deep Learning,Scrum,Git,Machine Learning",54
+902,"Docker,Node.js",80
+903,"Agile,AWS,Data Analysis,Communication,Python",60
+904,"Git,Java",62
+905,"Scrum,Node.js,Docker,Project Management,SQL",61
+906,"Communication,Scrum,SQL,AWS,Git",59
+907,"Data Analysis,Statistics,Python,Node.js",53
+908,"Communication,Agile",67
+909,"Kubernetes,Data Analysis",70
+910,"Project Management,C++,Scrum",80
+911,"Project Management,C++,Communication,Java,Scrum",85
+912,"Data Analysis,Git",82
+913,"Machine Learning,Project Management,Agile",54
+914,"AWS,Deep Learning,Node.js",64
+915,"Deep Learning,SQL,Git,Scrum",70
+916,"Python,C++,Node.js,Statistics,AWS",88
+917,"Data Analysis,Project Management,Agile",76
+918,"AWS,Agile,Kubernetes",81
+919,"Deep Learning,Python",76
+920,"Scrum,Machine Learning",59
+921,"Node.js,Docker",75
+922,"NLP,React,Kubernetes,Scrum",69
+923,"Agile,Project Management,Statistics,Data Analysis,AWS",71
+924,"Project Management,React",84
+925,"Docker,Git",67
+926,"Agile,AWS,React,Git",65
+927,"Node.js,Kubernetes,C++",71
+928,"Docker,Git,Deep Learning,C++,Statistics",89
+929,"Kubernetes,C++,Node.js",84
+930,"C++,NLP,Agile,Java",57
+931,"AWS,C++,React,Java",81
+932,"AWS,Statistics,Project Management,Docker",86
+933,"Scrum,React,Data Analysis,Docker,Kubernetes",54
+934,"Communication,Statistics,Scrum,Python",54
+935,"Docker,Project Management,NLP",85
+936,"Agile,Deep Learning,C++,Docker",53
+937,"Project Management,Communication,Git,Deep Learning,C++",70
+938,"Data Analysis,Java",57
+939,"SQL,Git,Machine Learning,Docker",56
+940,"Data Analysis,Communication,Deep Learning,C++",52
+941,"Python,Communication",71
+942,"Kubernetes,Deep Learning,AWS,Agile",64
+943,"Scrum,Node.js,AWS,Data Analysis",51
+944,"AWS,Java,Statistics,C++",84
+945,"Java,Machine Learning",86
+946,"Project Management,Communication,Scrum,AWS",76
+947,"AWS,NLP,Java",61
+948,"Docker,Communication,Python",65
+949,"Deep Learning,Statistics,NLP,C++",64
+950,"Machine Learning,Deep Learning",78
+951,"Data Analysis,Statistics,Scrum,Python,Docker",67
+952,"Project Management,Deep Learning,Agile",71
+953,"Python,Project Management,Agile,Statistics",78
+954,"Node.js,Data Analysis,Machine Learning",88
+955,"Java,Statistics,C++,Agile,Git",72
+956,"Docker,AWS,Kubernetes,Scrum,C++",88
+957,"Python,AWS,Machine Learning,NLP,Node.js",51
+958,"Git,Node.js,Scrum,Statistics,Python",81
+959,"NLP,Deep Learning,Machine Learning,Scrum,Data Analysis",72
+960,"Docker,Node.js,Git",80
+961,"Java,AWS,Agile",88
+962,"SQL,Statistics,Node.js",53
+963,"Machine Learning,Java,Git",89
+964,"Docker,Machine Learning",83
+965,"NLP,Data Analysis,Kubernetes,Scrum",77
+966,"Java,AWS,Deep Learning,Kubernetes",60
+967,"AWS,Machine Learning",89
+968,"Git,Java",68
+969,"Deep Learning,Java,AWS,Python,Statistics",62
+970,"Machine Learning,Communication",67
+971,"Scrum,Communication,NLP",85
+972,"Java,Data Analysis,Git,AWS",50
+973,"Java,Docker,Agile,Python",82
+974,"Statistics,Data Analysis",60
+975,"Project Management,Data Analysis",58
+976,"Node.js,Docker,NLP",65
+977,"Java,Communication,AWS,Git,React",88
+978,"Machine Learning,Statistics",58
+979,"Kubernetes,NLP",83
+980,"Statistics,Scrum,Git,NLP,React",83
+981,"Git,Statistics,Docker,Deep Learning",60
+982,"Data Analysis,SQL,C++,Machine Learning,Kubernetes",73
+983,"Communication,Deep Learning,Statistics,Agile",69
+984,"Python,React,Project Management,C++",51
+985,"Deep Learning,Data Analysis,NLP",87
+986,"Kubernetes,Statistics,AWS",59
+987,"AWS,NLP",66
+988,"Statistics,NLP,Scrum,Node.js,Agile",63
+989,"Data Analysis,Deep Learning,SQL,AWS,Machine Learning",90
+990,"Kubernetes,Node.js",53
+991,"NLP,Statistics,Deep Learning,Machine Learning",88
+992,"Node.js,Agile,Project Management,SQL",80
+993,"Node.js,React",62
+994,"Agile,Java,Python,Communication",59
+995,"SQL,Python,Agile,C++",90
+996,"Python,NLP,Statistics,React",89
+997,"Node.js,React,Kubernetes,Git,Python",83
+998,"NLP,Project Management",77
+999,"Scrum,Agile",54
+1000,"Statistics,React,NLP",90
