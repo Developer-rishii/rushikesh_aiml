@@ -1,0 +1,52 @@
+{
+    "Job ID": "J001",
+    "Job Title": "Machine Learning Engineer",
+    "Required Skills": "Data Engineering, MLOps",
+    "Top 5 Candidates": [
+        {
+            "Rank": 1,
+            "Student ID": "S016",
+            "Match Score": 100.0,
+            "Reasoning": [
+                "\u2713 Data Engineering found",
+                "\u2713 MLOps found"
+            ]
+        },
+        {
+            "Rank": 2,
+            "Student ID": "S028",
+            "Match Score": 100.0,
+            "Reasoning": [
+                "\u2713 Data Engineering found",
+                "\u2713 MLOps found"
+            ]
+        },
+        {
+            "Rank": 3,
+            "Student ID": "S042",
+            "Match Score": 100.0,
+            "Reasoning": [
+                "\u2713 Data Engineering found",
+                "\u2713 MLOps found"
+            ]
+        },
+        {
+            "Rank": 4,
+            "Student ID": "S066",
+            "Match Score": 100.0,
+            "Reasoning": [
+                "\u2713 Data Engineering found",
+                "\u2713 MLOps found"
+            ]
+        },
+        {
+            "Rank": 5,
+            "Student ID": "S079",
+            "Match Score": 100.0,
+            "Reasoning": [
+                "\u2713 Data Engineering found",
+                "\u2713 MLOps found"
+            ]
+        }
+    ]
+}
