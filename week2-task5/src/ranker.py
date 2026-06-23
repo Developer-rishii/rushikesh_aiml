@@ -29,6 +29,9 @@ class CandidateRanker:
         if not shortlist:
             return [] # Return empty shortlist
             
-        # Rank by match score descending
-        shortlist_sorted = sorted(shortlist, key=lambda x: x["match_score"], reverse=True)
+        # Rank by match score descending. 
+        # Tiebreak Rule:
+        # 1. average_verified_skill_score (descending): candidates with higher mastery of matched skills rank higher
+        # 2. experience_gap (descending): candidates with more surplus experience over the requirement rank higher
+        shortlist_sorted = sorted(shortlist, key=lambda x: (x["match_score"], x.get("average_verified_skill_score", 0.0), x.get("experience_gap", 0.0)), reverse=True)
         return shortlist_sorted

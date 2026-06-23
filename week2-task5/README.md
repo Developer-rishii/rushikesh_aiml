@@ -6,11 +6,12 @@ This module contains the baseline matching engine and explainable Machine Learni
 - `data/`: Contains `jobs.csv` and `students.csv` generated realistically.
 - `src/`: 
   - `data_generation.py`: Script to generate sample jobs and students data.
-  - `baseline_matcher.py`: Core logic for match vector generation, scoring, and text explainability.
-  - `ranker.py`: Engine to filter eligible candidates and sort them by score, while handling duplicates.
-  - `ml_model.py`: Feature engineering and Logistic Regression training pipeline.
-  - `edge_cases.py`: Script validating 6 explicit edge cases.
+  - `baseline_matcher.py`: Core logic for match vector generation, scoring, explainability, and the secondary eligibility gate (`minimum_skill_score`).
+  - `ranker.py`: Engine to filter eligible candidates and sort them by score, using `average_verified_skill_score` and experience gap as tiebreakers.
+  - `ml_model.py`: Feature engineering, new noisy label generation, and Logistic Regression training pipeline.
+  - `edge_cases.py`: Script validating 7 explicit edge cases.
   - `generate_evidence.py`: Script generating statistics and plotting match distributions.
+  - `log_experiment.py`: Utility to automatically log experiment runs to `experiments/experiment_log.csv`.
   - `api.py`: FastAPI service providing endpoints for matching and ranking.
 - `docs/demo_evidence/`: Charts and JSON exports proving correct behavior with real data.
 - `notebooks/Task5_Workflow.ipynb`: A step-by-step Jupyter Notebook to explore the matching behavior interactively.
@@ -25,7 +26,7 @@ python src/data_generation.py
 ```
 
 ### 2. Testing Edge Cases
-To prove the system gracefully handles zero skills, missing data, and boundary cases:
+To prove the system gracefully handles zero skills, missing data, boundary cases, and minimum skill score gates:
 ```bash
 python src/edge_cases.py
 ```

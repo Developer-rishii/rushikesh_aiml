@@ -53,18 +53,18 @@ def match_candidate(req: MatchRequest):
         raise HTTPException(status_code=400, detail=res["error"])
         
     # Also run the ML model prediction to satisfy requirements
-    # Compute features inline for ML model
-    job_req = matcher._parse_skills(job_series.get('required_skills', ''))
-    student_skills = matcher._parse_skills(student_series.get('verified_skills', ''))
-    
-    matched_skills = [s.lower() for s in job_req if s.lower() in [st.lower() for st in student_skills]]
-    matched_skill_count = len(matched_skills)
-    missing_skill_count = len(job_req) - matched_skill_count
-    skill_overlap_percentage = (matched_skill_count / len(job_req)) * 100 if len(job_req) > 0 else 0
-    experience_match = 1 if student_series.get('experience', 0) >= job_series.get('experience_required', 0) else 0
-    average_verified_skill_score = 75.0 # hardcoded approximation for inline speed
-    
-    features = [[skill_overlap_percentage, matched_skill_count, missing_skill_count, average_verified_skill_score, experience_match]]
+    from ml_model import feature_engineering
+    temp_df = pd.DataFrame([{
+        "job_id": job_series.get('job_id'),
+        "student_id": student_series.get('student_id'),
+        "required_skills": job_series.get('required_skills', ''),
+        "verified_skills": student_series.get('verified_skills', ''),
+        "skill_scores": student_series.get('skill_scores', '{}'),
+        "experience": student_series.get('experience', 0),
+        "experience_required": job_series.get('experience_required', 0)
+    }])
+    X_feats, _ = feature_engineering(temp_df)
+    features = X_feats.values.tolist()
     ml_pred = ml_model.predict(features)[0]
     
     return {
@@ -96,6 +96,8 @@ def rank_candidates(req: RankRequest):
             "rank": i + 1,
             "student_id": res["student_id"],
             "match_score": round(res["match_score"], 2),
+            "average_verified_skill_score": round(res.get("average_verified_skill_score", 0), 2),
+            "experience_gap": res.get("experience_gap", 0),
             "status": res["status"]
         })
         

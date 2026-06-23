@@ -38,8 +38,8 @@ def generate_evidence():
     print("Calculating baseline matches for distribution...")
     for _, row in apps_df.iterrows():
         # Reconstruct series format
-        job_s = pd.Series({'job_id': row['job_id'], 'required_skills': row['required_skills'], 'experience_required': row['experience_required']})
-        student_s = pd.Series({'student_id': row['student_id'], 'verified_skills': row['verified_skills'], 'experience': row['experience']})
+        job_s = pd.Series({'job_id': row['job_id'], 'required_skills': row['required_skills'], 'experience_required': row['experience_required'], 'minimum_skill_score': row['minimum_skill_score']})
+        student_s = pd.Series({'student_id': row['student_id'], 'verified_skills': row['verified_skills'], 'experience': row['experience'], 'skill_scores': row['skill_scores']})
         
         res = matcher.match(job_s, student_s)
         if "error" not in res:

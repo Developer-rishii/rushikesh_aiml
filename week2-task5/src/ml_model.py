@@ -7,6 +7,16 @@ import ast
 import os
 import joblib
 import json
+import json
+import argparse
+from log_experiment import log_experiment
+
+def simulate_ground_truth(skill_overlap_percentage, average_verified_skill_score, experience_match):
+    score = (0.4 * (skill_overlap_percentage / 100.0)
+             + 0.4 * (average_verified_skill_score / 100.0)
+             + 0.2 * experience_match)
+    score += np.random.normal(0, 0.08) # inject realistic noise
+    return 1 if score >= 0.40 else 0
 
 def load_data():
     jobs_df = pd.read_csv("data/jobs.csv")
@@ -29,7 +39,7 @@ def create_applications_dataset(jobs_df, students_df):
     apps_df = apps_df.merge(jobs_df, on="job_id").merge(students_df, on="student_id")
     return apps_df
 
-def feature_engineering(apps_df):
+def feature_engineering(apps_df, use_leaky_label=False):
     features = []
     targets = []
     
@@ -40,7 +50,8 @@ def feature_engineering(apps_df):
         
         # Skill scores
         try:
-            skill_scores = ast.literal_eval(row['skill_scores'])
+            raw_skill_scores = ast.literal_eval(row['skill_scores'])
+            skill_scores = {str(k).strip().lower(): v for k, v in raw_skill_scores.items()}
         except:
             skill_scores = {}
         
@@ -64,10 +75,11 @@ def feature_engineering(apps_df):
             "experience_match": experience_match
         })
         
-        # Ground truth target: we define 'matched' based on a mix of skill overlap and experience
-        # Let's say if overlap is >= 70% and experience matches, then it's a match.
-        # We will add some noise
-        is_match = 1 if (skill_overlap_percentage >= 70.0 and experience_match == 1) else 0
+        # Ground truth target:
+        if use_leaky_label:
+            is_match = 1 if (skill_overlap_percentage >= 70.0 and experience_match == 1) else 0
+        else:
+            is_match = simulate_ground_truth(skill_overlap_percentage, average_verified_skill_score, experience_match)
         targets.append(is_match)
         
     X = pd.DataFrame(features)
@@ -110,6 +122,10 @@ def train_and_evaluate(X, y):
     return model, metrics
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--leaky", action="store_true", help="Use old leaky label")
+    args = parser.parse_args()
+
     print("Loading data...")
     jobs_df, students_df = load_data()
     print("Creating dataset...")
@@ -117,7 +133,7 @@ if __name__ == "__main__":
     print(f"Total applications generated: {len(apps_df)}")
     
     print("Engineering features...")
-    X, y = feature_engineering(apps_df)
+    X, y = feature_engineering(apps_df, use_leaky_label=args.leaky)
     
     print("Training model...")
     model, metrics = train_and_evaluate(X, y)
@@ -129,9 +145,21 @@ if __name__ == "__main__":
         else:
             print(f"{k} = {v*100:.2f}%")
             
+    # Print coefficients
+    print("\nFeature Coefficients:")
+    features_list = ["skill_overlap_percentage", "matched_skill_count", "missing_skill_count", "average_verified_skill_score", "experience_match"]
+    for f_name, coef in zip(features_list, model.coef_[0]):
+        print(f"  {f_name}: {coef:.4f}")
+    print(f"  Intercept: {model.intercept_[0]:.4f}")
+
     os.makedirs("models", exist_ok=True)
     joblib.dump(model, "models/logistic_regression.pkl")
     
     with open("models/metrics.json", "w") as f:
         json.dump(metrics, f, indent=4)
     print("\nModel saved to models/logistic_regression.pkl")
+
+    # Log experiment
+    notes = "BEFORE - leaky" if args.leaky else "AFTER - fixed"
+    log_experiment(metrics, notes)
+    print(f"Experiment logged: {notes}")

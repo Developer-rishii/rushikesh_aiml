@@ -1,0 +1,5 @@
+timestamp,model,accuracy,precision,recall,f1_score,false_positive_rate,false_negative_rate,notes
+2026-06-23 15:35:20,LogisticRegression,99.73%,92.31%,100.00%,96.00%,0.28%,0.00%,BEFORE - leaky
+2026-06-23 15:35:35,LogisticRegression,99.60%,0.00%,0.00%,0.00%,0.13%,100.00%,AFTER - fixed
+2026-06-23 15:36:19,LogisticRegression,89.73%,79.17%,47.90%,59.69%,2.38%,52.10%,AFTER - fixed
+2026-06-23 15:37:30,LogisticRegression,95.07%,94.31%,96.46%,95.37%,6.48%,3.54%,AFTER - fixed

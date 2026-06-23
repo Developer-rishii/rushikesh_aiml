@@ -1,3 +1,6 @@
+import numpy as np
+import ast
+
 class BaselineMatcher:
     def __init__(self, threshold=70.0):
         self.threshold = threshold
@@ -24,6 +27,7 @@ class BaselineMatcher:
             match_vector = [0] * len(job_req_skills)
             match_score = 0.0
             reasons = [f"✗ {skill} missing" for skill in job_req_skills]
+            average_verified_skill_score = 0.0
         else:
             match_vector = []
             reasons = []
@@ -39,17 +43,38 @@ class BaselineMatcher:
 
             match_score = (sum(match_vector) / len(job_req_skills)) * 100
 
+        # Parse skill scores to compute average
+        try:
+            skill_scores = ast.literal_eval(str(student_series.get('skill_scores', '{}')))
+        except:
+            skill_scores = {}
+            
+        # Calculate average of matched skills
+        if student_skills:
+            matched_skills = [s for s in job_req_skills if s.lower() in [st.lower() for st in student_skills]]
+            scores_for_matched = [skill_scores.get(s, 0) for s in matched_skills]
+            average_verified_skill_score = float(np.mean(scores_for_matched)) if scores_for_matched else 0.0
+
+        min_skill_score = job_series.get('minimum_skill_score', 0)
+
         # Edge Case 4: Threshold boundary -> >= is passing
-        status = "eligible" if match_score >= self.threshold else "rejected"
+        status = "eligible" if (match_score >= self.threshold and average_verified_skill_score >= min_skill_score) else "rejected"
         
         explanation_header = "Candidate matched because:\n" if status == "eligible" else "Candidate rejected because:\n"
-        explanation = explanation_header + "\n".join(reasons) + f"\nOverall Match Score = {match_score:.2f}%"
+        explanation = explanation_header + "\n".join(reasons) + f"\nOverall Match Score = {match_score:.2f}%\nAverage Verified Skill Score = {average_verified_skill_score:.2f}"
+        if average_verified_skill_score < min_skill_score and match_score >= self.threshold:
+            explanation += f"\nRejected: Failed minimum skill score ({average_verified_skill_score:.2f} < {min_skill_score})"
         
+        # Calculate experience gap for tiebreaker
+        exp_gap = float(student_series.get('experience', 0)) - float(job_series.get('experience_required', 0))
+
         return {
             "job_id": job_series.get('job_id'),
             "student_id": student_series.get('student_id'),
             "match_vector": match_vector,
             "match_score": match_score,
+            "average_verified_skill_score": average_verified_skill_score,
+            "experience_gap": exp_gap,
             "threshold": self.threshold,
             "status": status,
             "explanation": explanation,

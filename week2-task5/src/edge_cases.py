@@ -60,6 +60,14 @@ def test_edge_cases():
     print("--- Edge Case 6: Missing candidate data ---")
     res_6 = matcher.match(job_1, None)
     print(res_6)
+    print()
+
+    print("--- Edge Case 7: Fails minimum skill score ---")
+    job_7 = pd.Series({"job_id": "J007", "required_skills": "Python", "minimum_skill_score": 80.0})
+    student_7 = pd.Series({"student_id": "S007", "verified_skills": "Python", "skill_scores": "{'Python': 70}"})
+    res_7 = matcher.match(job_7, student_7)
+    print(res_7["explanation"])
+    print("Status:", res_7["status"], "(Expected rejected)")
     print("------------------------------------------")
 
 if __name__ == "__main__":
