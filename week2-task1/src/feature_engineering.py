@@ -50,11 +50,12 @@ def preprocess_students(students_df: pd.DataFrame) -> pd.DataFrame:
     students_processed = students_df.copy()
     
     def extract_skills(row) -> Dict[str, int]:
-        return {
-            'Python': row.get('Verified Python Score', 0),
-            'SQL': row.get('Verified SQL Score', 0),
-            'ML': row.get('Verified ML Score', 0)
-        }
+        skills = {}
+        for col in row.index:
+            if str(col).startswith('Verified ') and str(col).endswith(' Score'):
+                skill_name = str(col).replace('Verified ', '').replace(' Score', '')
+                skills[skill_name] = int(row[col])
+        return skills
         
     students_processed['Skills'] = students_processed.apply(extract_skills, axis=1)
     return students_processed

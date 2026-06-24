@@ -8,6 +8,9 @@ def calculate_match(student: Dict[str, Any], job: Dict[str, Any]) -> Tuple[int, 
         - match_score: integer from 0 to 100
         - details: dictionary containing score breakdown and raw values for explainability
     """
+    if not student or not job:
+        raise ValueError("Student and job dictionaries must not be empty or malformed.")
+        
     score_details = {}
     total_score = 0.0
     
@@ -23,12 +26,17 @@ def calculate_match(student: Dict[str, Any], job: Dict[str, Any]) -> Tuple[int, 
     skill_reqs = job.get('Skill Requirements', {})
     student_skills = student.get('Skills', {})
     
+    if not skill_reqs:
+        WEIGHTS['skills'] = 0.0
+        WEIGHTS['cgpa'] = 0.40
+        WEIGHTS['experience'] = 0.40
+        WEIGHTS['soft_skills'] = 0.20
+        
     skill_score = 0.0
     skill_details = {}
     
     if not skill_reqs:
-        # If no specific skills required, give full points for this section
-        skill_score = 100.0
+        pass
     else:
         for skill, min_score in skill_reqs.items():
             student_score = student_skills.get(skill, 0)

@@ -59,3 +59,19 @@ The system evaluates all students against a specific job's requirements, calcula
 - `notebooks/`: Interactive walkthrough and exploration.
 - `src/`: Core logic for feature engineering, matching, metrics, and API.
 - `tests/`: Automated tests.
+
+## Evaluation Results
+The initial evaluation logic contained a job-ID mismatch bug that resulted in an all-zero ground truth. This has since been fixed. Using an independent, rule-based ground truth definition, the baseline matcher achieves the following performance on the sample dataset:
+- **Precision:** 17.8%
+- **Recall:** 100.0%
+- **False Positive Rate (FPR):** 72.7%
+- **Accuracy:** 37.2%
+
+## API Demo
+Below are examples of the API in action:
+
+**Single Match Evaluation (`POST /match`)**
+![Match Demo](Outputs/api_match_demo.png)
+
+**Top-N Ranking (`GET /top-candidates/{job_id}`)**
+![Rank Demo](Outputs/api_rank_demo.png)

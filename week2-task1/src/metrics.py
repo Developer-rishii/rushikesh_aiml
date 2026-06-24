@@ -48,20 +48,40 @@ def evaluate_system(y_true: List[int], y_pred_scores: List[int], threshold: int 
         "accuracy": float(accuracy)
     }
 
+def is_true_match(student: Dict[str, Any], job: Dict[str, Any]) -> int:
+    """
+    Principled ground-truth definition checking if student meets ALL job minimums.
+    """
+    # 1. average of their relevant skill scores >= job's average minimum skill score
+    job_skills = job.get('Skill Requirements', {})
+    if job_skills:
+        avg_job_skill = sum(job_skills.values()) / len(job_skills)
+        student_skills = student.get('Skills', {})
+        relevant_student_scores = [student_skills.get(s, 0) for s in job_skills.keys()]
+        avg_student_skill = sum(relevant_student_scores) / len(job_skills)
+        if avg_student_skill < avg_job_skill:
+            return 0
+            
+    # 2. CGPA >= job's minimum CGPA
+    if student.get('CGPA', 0.0) < job.get('Minimum CGPA', 0.0):
+        return 0
+        
+    # 3. experience units >= job's requirement
+    req_exp = job.get('Experience Requirement', 0)
+    projects = student.get('Project Count', 0)
+    internships = student.get('Internship Count', 0)
+    student_exp_units = internships + (projects * 0.5)
+    if student_exp_units < req_exp:
+        return 0
+        
+    return 1
+
 def simulate_ground_truth_and_evaluate(matcher_func, students_df, jobs_df):
     """
     Creates synthetic ground truth for demo purposes, runs evaluation, and logs it.
     """
     y_true = []
     y_pred_scores = []
-    
-    # Simulate some ground truth: We'll just define a naive rule for "true" match
-    # to test the metrics pipeline. E.g. If job 101, student 1 and 3 are true matches.
-    true_matches = {
-        101: [1, 3], # TechCorp Data Scientist -> Alice, Charlie
-        104: [1, 2, 3, 5, 8], # Python Dev -> Many have Python
-        110: [1, 2, 3, 4, 5, 6, 8, 9, 10] # SQL Analyst -> Most have SQL
-    }
     
     for _, job_row in jobs_df.iterrows():
         job_id = job_row['Job ID']
@@ -72,13 +92,16 @@ def simulate_ground_truth_and_evaluate(matcher_func, students_df, jobs_df):
             student_dict = student_row.to_dict()
             
             # Ground truth
-            is_true_match = 1 if student_id in true_matches.get(job_id, []) else 0
-            y_true.append(is_true_match)
+            truth_label = is_true_match(student_dict, job_dict)
+            y_true.append(truth_label)
             
             # Predicted
             score, _ = matcher_func(student_dict, job_dict)
             y_pred_scores.append(score)
             
+    pos_rate = sum(y_true) / len(y_true) if y_true else 0.0
+    print(f"Ground Truth Positive Rate: {pos_rate:.2%} ({sum(y_true)}/{len(y_true)} true matches)")
+    
     metrics = evaluate_system(y_true, y_pred_scores, threshold=75)
     
     tracker = ExperimentTracker()
