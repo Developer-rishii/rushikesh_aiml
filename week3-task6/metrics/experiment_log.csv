@@ -1,0 +1,2 @@
+run_id,timestamp,model,precision,recall,accuracy,f1_score,false_positive_rate
+run_20260624_130319,2026-06-24T13:03:19.234364,LogisticRegression,0.8365,0.6971,0.9599,0.7605,0.0137

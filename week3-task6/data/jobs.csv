@@ -1,0 +1,151 @@
+job_id,title,required_skills,minimum_experience,preferred_education
+1000,Data Scientist,"React,PowerBI",2,Master's
+1001,Data Scientist,"Python,SQL,Machine Learning,GCP,Node.js,Git",0,Bachelor's
+1002,Data Analyst,"Node.js,Python,Kubernetes",2,Master's
+1003,Machine Learning Engineer,"C++,Machine Learning,Java,AWS",1,Bachelor's
+1004,Machine Learning Engineer,"Java,GCP,Node.js,PowerBI,AWS,Azure",4,Master's
+1005,Machine Learning Engineer,"SQL,Java,C++,Machine Learning,Kubernetes,Data Analysis",1,Master's
+1006,Data Scientist,"C#,Docker,Tableau,GCP,Machine Learning",4,Master's
+1007,Data Scientist,"React,Docker,PowerBI,AWS,Data Analysis,C++",3,Master's
+1008,Software Engineer,"C++,Kubernetes,Data Analysis",1,Bachelor's
+1009,Machine Learning Engineer,"Kubernetes,GCP,SQL",4,Bachelor's
+1010,DevOps Engineer,"Kubernetes,C#,Machine Learning,SQL,Node.js,React",1,Master's
+1011,Data Scientist,"Azure,SQL,AWS",6,Bachelor's
+1012,Full Stack Developer,"Python,Machine Learning,C++,Node.js,Kubernetes,Data Analysis",5,Bachelor's
+1013,Data Analyst,"Node.js,Docker,PowerBI",1,Master's
+1014,DevOps Engineer,"Data Analysis,C#,Kubernetes,SQL,Node.js,GCP",0,Bachelor's
+1015,Full Stack Developer,"C#,Git",3,Bachelor's
+1016,Data Scientist,"SQL,Data Analysis",2,Master's
+1017,Backend Developer,"Azure,AWS,GCP,Node.js",3,Master's
+1018,Data Analyst,"PowerBI,GCP,Java,Machine Learning",3,Bachelor's
+1019,Software Engineer,"React,Python,Java,C#,C++,Tableau",3,Bachelor's
+1020,Software Engineer,"React,Node.js,C++,PowerBI",3,Bachelor's
+1021,Full Stack Developer,"Azure,AWS,Java",1,Master's
+1022,Machine Learning Engineer,"Java,Machine Learning,Python,AWS,C#",5,Master's
+1023,Data Scientist,"GCP,Data Analysis,AWS",2,Bachelor's
+1024,Frontend Developer,"Machine Learning,Java",0,None
+1025,Frontend Developer,"Tableau,AWS,Azure",6,PhD
+1026,Backend Developer,"Node.js,GCP,Data Analysis,AWS,C#,Kubernetes,PowerBI,React,SQL,Machine Learning,C++",3,None
+1027,Software Engineer,"Tableau,Docker,Python,Node.js",1,Master's
+1028,Data Scientist,"React,Kubernetes,Java,Git,Machine Learning,Azure",0,Master's
+1029,Data Analyst,"C++,Node.js,Machine Learning,PowerBI,C#,Docker",3,Bachelor's
+1030,Backend Developer,"SQL,Python,React,Git",1,Bachelor's
+1031,Frontend Developer,"C#,SQL,GCP,Machine Learning,Docker,Data Analysis",2,Bachelor's
+1032,DevOps Engineer,"PowerBI,Python,C++,Azure,Node.js,Data Analysis",1,PhD
+1033,Backend Developer,"Machine Learning,Data Analysis,Tableau,GCP",3,Master's
+1034,Frontend Developer,"Node.js,Java,Tableau,C++",6,Master's
+1035,Software Engineer,"Data Analysis,Node.js",2,Master's
+1036,Data Analyst,"Data Analysis,Java,Azure,Docker,Git,Node.js,SQL,AWS",2,Bachelor's
+1037,Machine Learning Engineer,"AWS,React",1,Bachelor's
+1038,Data Analyst,"React,Docker,Kubernetes,GCP,SQL,AWS",0,Bachelor's
+1039,Machine Learning Engineer,"React,Node.js,SQL,Kubernetes,C#",1,Bachelor's
+1040,Software Engineer,"GCP,C#,Data Analysis,Azure,Kubernetes",3,Bachelor's
+1041,Frontend Developer,"SQL,Node.js,Docker,C++,Tableau",6,Master's
+1042,Machine Learning Engineer,"Node.js,Docker",4,Bachelor's
+1043,Data Analyst,"C++,Azure,Git,Node.js",1,Bachelor's
+1044,Frontend Developer,"Python,AWS,Docker,Tableau,Java,C++,GCP,Git,C#,Kubernetes,Node.js",4,Bachelor's
+1045,Data Analyst,"Git,Data Analysis,Machine Learning,AWS",6,Master's
+1046,Backend Developer,"Kubernetes,Python,Data Analysis,GCP,Machine Learning,AWS",5,Bachelor's
+1047,Full Stack Developer,"Docker,SQL,Data Analysis",5,Bachelor's
+1048,Frontend Developer,"AWS,Data Analysis,Python,GCP",3,None
+1049,Data Scientist,"AWS,Kubernetes,React,PowerBI,Machine Learning",2,Master's
+1050,Software Engineer,"React,Docker",7,Bachelor's
+1051,Frontend Developer,"GCP,C++",7,Master's
+1052,Data Analyst,"Docker,Tableau,React,Data Analysis,Kubernetes,Machine Learning",4,Master's
+1053,Full Stack Developer,"SQL,Git,Machine Learning",4,Bachelor's
+1054,Data Scientist,"Kubernetes,Data Analysis,C#",3,Bachelor's
+1055,Data Analyst,"Azure,Java,Machine Learning,PowerBI",6,Bachelor's
+1056,Software Engineer,"Python,C#,Data Analysis,Kubernetes,AWS,Azure",3,Bachelor's
+1057,DevOps Engineer,"Kubernetes,C++,Tableau,GCP,PowerBI",6,Master's
+1058,Full Stack Developer,"Python,Kubernetes,Git",0,Bachelor's
+1059,Data Analyst,"Docker,Java,Data Analysis",6,Bachelor's
+1060,Full Stack Developer,"Kubernetes,Node.js,PowerBI,Azure",6,Bachelor's
+1061,Data Scientist,"Java,C#,Machine Learning,C++,PowerBI,Azure,Python,Tableau,GCP,Node.js,AWS,Git",2,Bachelor's
+1062,Full Stack Developer,"AWS,GCP",4,Master's
+1063,Backend Developer,"Machine Learning,Docker,Data Analysis,Java,Git,Python",4,Bachelor's
+1064,Data Analyst,"AWS,SQL,Git,C#,C++",3,Bachelor's
+1065,DevOps Engineer,"Java,C#,Node.js,AWS,C++,Docker",1,Bachelor's
+1066,Machine Learning Engineer,"Tableau,Machine Learning",6,None
+1067,Full Stack Developer,"PowerBI,Node.js,Git",7,Bachelor's
+1068,DevOps Engineer,"SQL,Node.js,GCP,React",3,Master's
+1069,Data Analyst,"Docker,Tableau,Machine Learning,PowerBI,Kubernetes,Data Analysis,Azure,C#,Git,Python",3,Bachelor's
+1070,Data Analyst,"React,Tableau,C++,C#,PowerBI",7,Master's
+1071,Data Scientist,"React,Git,C++,Tableau",5,Bachelor's
+1072,Machine Learning Engineer,"C++,C#,Tableau,React,Data Analysis",4,Bachelor's
+1073,Data Scientist,"Docker,AWS,Machine Learning",7,Bachelor's
+1074,DevOps Engineer,"Git,React",5,Bachelor's
+1075,Software Engineer,"Java,PowerBI,Node.js,Data Analysis,C#,SQL",7,Bachelor's
+1076,Software Engineer,"Tableau,GCP,Docker,SQL,Python,Data Analysis",7,Bachelor's
+1077,Data Scientist,"Java,Data Analysis,SQL,Kubernetes,Git",4,Bachelor's
+1078,Frontend Developer,"Azure,React",6,Bachelor's
+1079,Full Stack Developer,"Azure,Git,Tableau,GCP",0,Master's
+1080,Data Scientist,"Node.js,SQL,Tableau",3,Bachelor's
+1081,Data Scientist,"Tableau,Git,Python,Machine Learning,Data Analysis,C#,Kubernetes,React,Java,Azure,SQL",3,Bachelor's
+1082,Frontend Developer,"Data Analysis,SQL,Python",2,Master's
+1083,DevOps Engineer,"Git,Kubernetes,Data Analysis,Node.js,Azure",7,Bachelor's
+1084,Software Engineer,"Node.js,Python,Java,Machine Learning,C++",0,None
+1085,DevOps Engineer,"Tableau,GCP,PowerBI,Data Analysis,SQL,Git,AWS,React,Java",7,Bachelor's
+1086,Machine Learning Engineer,"Docker,C++,AWS,C#",7,Bachelor's
+1087,Data Analyst,"C++,Node.js,Docker,Java,Kubernetes,AWS,Tableau,Python",7,Bachelor's
+1088,Frontend Developer,"Tableau,GCP,Kubernetes,Python,Machine Learning,Data Analysis",2,PhD
+1089,Full Stack Developer,"React,Docker,Data Analysis,Node.js,Python",6,Bachelor's
+1090,Data Scientist,"Data Analysis,Tableau,GCP,C#,PowerBI",4,Bachelor's
+1091,Full Stack Developer,"Data Analysis,Kubernetes,Machine Learning,Git,Node.js",2,Master's
+1092,DevOps Engineer,"PowerBI,Node.js,Azure,Python,Data Analysis",4,Master's
+1093,Full Stack Developer,"Tableau,C#,Docker",6,Bachelor's
+1094,Machine Learning Engineer,"React,Kubernetes,Machine Learning",6,Bachelor's
+1095,Full Stack Developer,"Data Analysis,Tableau,Python,SQL,Node.js",5,Master's
+1096,Full Stack Developer,"GCP,Python",2,Bachelor's
+1097,Backend Developer,"Node.js,C++",6,Master's
+1098,Machine Learning Engineer,"C++,Tableau,Azure,Node.js,Python,Git",1,Bachelor's
+1099,DevOps Engineer,"Azure,Machine Learning,Kubernetes",1,Bachelor's
+1100,DevOps Engineer,"Git,C#,Docker,AWS,SQL,Machine Learning,Node.js,Azure",2,Bachelor's
+1101,Data Scientist,"React,Tableau,GCP,Git,SQL,Machine Learning",7,Master's
+1102,Full Stack Developer,"GCP,Git,C++,Node.js",2,Bachelor's
+1103,Machine Learning Engineer,"Azure,Node.js,React,PowerBI,Data Analysis,Machine Learning",6,Master's
+1104,Data Scientist,"C#,Git,PowerBI",4,Bachelor's
+1105,Data Analyst,"Tableau,Git,Kubernetes,GCP,Machine Learning,PowerBI,Docker,Azure",3,Master's
+1106,Backend Developer,"Java,Git",7,Bachelor's
+1107,Machine Learning Engineer,"Git,C++,C#",6,Bachelor's
+1108,Backend Developer,"C#,Node.js,Azure,SQL,Data Analysis,React",4,Master's
+1109,Machine Learning Engineer,"SQL,Data Analysis",3,Master's
+1110,Data Analyst,"Kubernetes,Python,Data Analysis,Node.js,Java,React",5,Master's
+1111,DevOps Engineer,"C#,Machine Learning,C++,Tableau,React,Python",5,PhD
+1112,Frontend Developer,"GCP,Git",6,Bachelor's
+1113,Software Engineer,"Tableau,Machine Learning",1,Bachelor's
+1114,Backend Developer,"Azure,Data Analysis,GCP,AWS,C++",1,Master's
+1115,Data Analyst,"AWS,GCP,React,Machine Learning,Docker,Java,C++,Kubernetes,Node.js,Git",0,Bachelor's
+1116,Frontend Developer,"GCP,SQL",3,Master's
+1117,Software Engineer,"React,Data Analysis",3,Bachelor's
+1118,Frontend Developer,"React,C++,Kubernetes,SQL,GCP,Git",0,Bachelor's
+1119,Backend Developer,"Docker,Machine Learning,C++",0,Bachelor's
+1120,Machine Learning Engineer,"Python,Docker,Data Analysis",0,Bachelor's
+1121,Data Analyst,"SQL,Tableau,React,Kubernetes,Docker,Node.js",1,Bachelor's
+1122,Frontend Developer,"Git,GCP,C++,Python,Azure,React,AWS,Tableau,Java,C#,Docker,Machine Learning",1,Master's
+1123,Machine Learning Engineer,"Data Analysis,Node.js,Git,C++,GCP,Tableau",5,Bachelor's
+1124,DevOps Engineer,"Azure,Machine Learning,Kubernetes,C#,Java",3,Bachelor's
+1125,Frontend Developer,"GCP,Kubernetes,AWS,C#,Java",5,Bachelor's
+1126,DevOps Engineer,"Tableau,SQL,Java,Azure",1,Bachelor's
+1127,Data Scientist,"Java,C++,Tableau,PowerBI",6,Bachelor's
+1128,Data Analyst,"Git,C#",1,Bachelor's
+1129,Frontend Developer,"React,Machine Learning,Docker",5,Bachelor's
+1130,DevOps Engineer,"Azure,Python,Git,C++,C#,Data Analysis",0,Bachelor's
+1131,DevOps Engineer,"Docker,Data Analysis,Git,C++",6,Bachelor's
+1132,Software Engineer,"AWS,Kubernetes",6,Bachelor's
+1133,Backend Developer,"C++,SQL,GCP,Python",2,Bachelor's
+1134,Software Engineer,"Azure,Tableau",7,Bachelor's
+1135,Frontend Developer,"Azure,Machine Learning,Data Analysis,C++,PowerBI,Git",7,Bachelor's
+1136,DevOps Engineer,"Java,Python",3,Bachelor's
+1137,Frontend Developer,"Git,C++,Java",0,Bachelor's
+1138,Data Analyst,"React,C#,Java",6,Master's
+1139,Software Engineer,"C++,Azure,Git,AWS,C#,PowerBI,Tableau,Data Analysis",1,Bachelor's
+1140,Machine Learning Engineer,"GCP,C#,Java",6,Master's
+1141,Frontend Developer,"PowerBI,SQL,AWS,Azure,Data Analysis",5,Bachelor's
+1142,Backend Developer,"Machine Learning,AWS",5,Bachelor's
+1143,Backend Developer,"Node.js,AWS,SQL",2,Master's
+1144,Data Scientist,"Tableau,GCP,Kubernetes",7,Master's
+1145,Machine Learning Engineer,"SQL,Tableau,React,C++",4,Master's
+1146,Software Engineer,"Git,GCP,React,Python",0,Bachelor's
+1147,DevOps Engineer,"SQL,Kubernetes",7,Bachelor's
+1148,Software Engineer,"AWS,C++,Git,React,Node.js",2,None
+1149,Full Stack Developer,"C++,SQL",2,Bachelor's

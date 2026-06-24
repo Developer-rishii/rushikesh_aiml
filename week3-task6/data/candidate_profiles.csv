@@ -1,0 +1,401 @@
+candidate_id,name,skills,years_experience,education,certifications
+10000,Hank 0,"Docker,C#,PowerBI,Data Analysis,AWS,Kubernetes",10.0,Master's,2
+10001,Bob 1,"Kubernetes,Git,Data Analysis,C#,C++",9.0,Bachelor's,1
+10002,Frank 2,"Kubernetes,Data Analysis,Git,C#,Java",6.0,Bachelor's,1
+10003,Ivy 3,"Azure,C#,Python",2.0,Bachelor's,3
+10004,Diana 4,"Data Analysis,SQL,PowerBI,Azure",8.0,Master's,0
+10005,Frank 5,"Kubernetes,Data Analysis,SQL,GCP,C#,Git,Azure",0.0,Master's,1
+10006,Hank 6,"GCP,React,Node.js,Machine Learning,Data Analysis,Tableau,Azure",9.0,Bachelor's,2
+10007,Grace 7,"Docker,AWS,Kubernetes,Git,SQL,Data Analysis,Python",5.0,Bachelor's,0
+10008,Eve 8,"Node.js,GCP,Tableau",6.0,PhD,3
+10009,Frank 9,"Kubernetes,C#,Machine Learning",1.0,Bachelor's,0
+10010,Frank 10,"Git,Tableau,C#,Azure",7.0,Bachelor's,0
+10011,Alice 11,"Data Analysis,Azure,Java,Kubernetes,PowerBI",1.0,Bachelor's,3
+10012,Bob 12,"Tableau,Python,C++",3.0,Bachelor's,0
+10013,Jack 13,"Azure,Docker,C++,GCP,Java",5.0,Bachelor's,0
+10014,Grace 14,"C#,Node.js",5.0,Bachelor's,0
+10015,Jack 15,"Data Analysis,Java,Docker,Node.js,GCP,C++,SQL,React",7.0,Master's,0
+10016,Hank 16,"Java,AWS,GCP",4.0,None,3
+10017,Eve 17,"AWS,Git,Docker",0.0,Bachelor's,0
+10018,Frank 18,"GCP,Kubernetes,Docker,SQL,React,C#",8.0,Bachelor's,3
+10019,Bob 19,"Docker,Git,PowerBI,Java,Azure,GCP",4.0,Master's,1
+10020,Hank 20,"C#,Azure,Data Analysis,C++,Kubernetes",1.0,Bachelor's,1
+10021,Alice 21,"GCP,Java,SQL,Tableau",10.0,Bachelor's,0
+10022,Jack 22,"C#,PowerBI,React,Kubernetes",2.0,Bachelor's,2
+10023,Diana 23,Tableau,8.0,Master's,3
+10024,Diana 24,"Tableau,AWS,Java,SQL,GCP,React,Azure",7.0,Master's,2
+10025,Frank 25,"Git,PowerBI,Azure,SQL,C#,Kubernetes,C++,GCP",8.0,None,1
+10026,Diana 26,"GCP,Data Analysis",1.0,Bachelor's,3
+10027,Ivy 27,"SQL,Data Analysis,Docker,C++,Java,React",8.0,Master's,1
+10028,Charlie 28,"Java,Machine Learning,Node.js,SQL,Data Analysis,Azure",3.0,PhD,2
+10029,Bob 29,"Node.js,Data Analysis,C++,Tableau,Git",8.0,Bachelor's,1
+10030,Charlie 30,"C++,Java,Azure,GCP,Python,Tableau,Kubernetes,Git",3.0,Bachelor's,0
+10031,Hank 31,"Git,Tableau,Machine Learning,Kubernetes,Azure,C++,AWS,Data Analysis",0.0,Bachelor's,3
+10032,Diana 32,"C++,PowerBI,C#,Azure,Docker",2.0,Bachelor's,0
+10033,Frank 33,"Node.js,GCP,Machine Learning,SQL",4.0,Master's,3
+10034,Diana 34,"C++,AWS,Kubernetes,SQL",8.0,Master's,3
+10035,Alice 35,"PowerBI,GCP,Machine Learning",5.0,Bachelor's,3
+10036,Eve 36,Azure,4.0,Master's,2
+10037,Alice 37,"AWS,C#,Node.js,Data Analysis,Java,PowerBI",8.0,None,0
+10038,Charlie 38,"C++,C#,Kubernetes",9.0,Bachelor's,0
+10039,Alice 39,"Tableau,GCP,SQL,Git",2.0,Master's,1
+10040,Grace 40,"Git,C++,Node.js,Azure,GCP,Kubernetes,React",4.0,Bachelor's,2
+10041,Bob 41,"Python,Tableau,Data Analysis,C++,Kubernetes,Git",0.0,Bachelor's,3
+10042,Charlie 42,"Machine Learning,AWS,Python,React,Docker,Tableau,SQL,C#",6.0,Master's,3
+10043,Alice 43,"AWS,C++,Tableau,React,Node.js,PowerBI,Docker,SQL",8.0,Bachelor's,2
+10044,Jack 44,"React,Node.js,Tableau,Data Analysis,Machine Learning,Azure",3.0,Bachelor's,3
+10045,Frank 45,"Node.js,Git,Java,Tableau,C++,PowerBI,AWS",6.0,None,1
+10046,Eve 46,"SQL,C#,GCP",4.0,Bachelor's,2
+10047,Ivy 47,"Machine Learning,React,PowerBI,Python,C++,Node.js,GCP,Kubernetes",6.0,Bachelor's,1
+10048,Alice 48,"Docker,Azure,C++,React,Tableau,GCP,Machine Learning",4.0,Master's,0
+10049,Jack 49,"Java,Docker,AWS,Azure",0.0,Bachelor's,3
+10050,Charlie 50,"Git,Java,Python,Data Analysis,PowerBI,Kubernetes,Tableau,Docker",10.0,Bachelor's,1
+10051,Ivy 51,"Machine Learning,C++,SQL,C#,React,Tableau",,Bachelor's,2
+10052,Jack 52,"Docker,Kubernetes,Azure,AWS,Node.js,PowerBI,Java,GCP",2.0,Bachelor's,1
+10053,Alice 53,"GCP,Node.js,Docker,Data Analysis,Git",0.0,Bachelor's,1
+10054,Alice 54,"Git,Docker,AWS,C++,Node.js,C#,Data Analysis,Java",4.0,Bachelor's,1
+10055,Hank 55,"C#,Azure,PowerBI,Node.js",8.0,Master's,1
+10056,Jack 56,"PowerBI,C#,Java",1.0,Bachelor's,1
+10057,Jack 57,"C++,GCP,Java,PowerBI,Machine Learning,C#,Git",8.0,Bachelor's,1
+10058,Ivy 58,"Java,GCP,C++,Kubernetes,Data Analysis,C#",4.0,Master's,0
+10059,Alice 59,"SQL,Java,GCP,Tableau,React,Python",2.0,Master's,3
+10060,Frank 60,"Kubernetes,PowerBI,Java,C++,Azure,Node.js",5.0,None,3
+10061,Ivy 61,"React,Python,Kubernetes,Tableau",7.0,Bachelor's,3
+10062,Diana 62,"Data Analysis,Node.js,Machine Learning,C#",0.0,Bachelor's,0
+10063,Diana 63,"Java,GCP,Git,C++",0.0,Bachelor's,3
+10064,Diana 64,"Java,Data Analysis,Node.js,Tableau,Machine Learning,C#,Git",9.0,Master's,1
+10065,Eve 65,"PowerBI,React,AWS,Data Analysis",8.0,Master's,1
+10066,Grace 66,"C#,Kubernetes,Tableau,Node.js,Docker,PowerBI,AWS",4.0,Master's,3
+10067,Diana 67,"Data Analysis,GCP,Tableau,Python",6.0,Bachelor's,1
+10068,Eve 68,"SQL,GCP,Azure,Docker",3.0,Bachelor's,0
+10069,Bob 69,"AWS,Tableau,Machine Learning,Azure",4.0,Bachelor's,1
+10070,Bob 70,"Tableau,React,C#,Git,GCP,Machine Learning,AWS,Kubernetes",4.0,Bachelor's,2
+10071,Eve 71,"Tableau,GCP,Java,Kubernetes,C#",5.0,Bachelor's,3
+10072,Alice 72,"Data Analysis,Python,PowerBI,Node.js,Git,Kubernetes,AWS",3.0,Bachelor's,1
+10073,Hank 73,"C++,Node.js,Kubernetes,Azure,React,C#,PowerBI",7.0,Master's,1
+10074,Charlie 74,"Docker,Java,Node.js,Python,Tableau,C++,Azure,C#",10.0,Master's,0
+10075,Diana 75,"Java,Tableau,C++,React,Python,Kubernetes,Node.js",,Master's,2
+10076,Alice 76,"Azure,Docker,Java,GCP,Node.js,SQL,Machine Learning",8.0,Bachelor's,3
+10077,Bob 77,"GCP,React,C#,Machine Learning,Data Analysis",1.0,Master's,0
+10078,Bob 78,"Tableau,Java,C++,Python,C#,SQL",6.0,Bachelor's,0
+10079,Ivy 79,"Tableau,Node.js,Python",10.0,Master's,0
+10080,Charlie 80,Data Analysis,6.0,Bachelor's,1
+10081,Jack 81,"C++,Kubernetes,Tableau,C#,SQL,Azure",8.0,Bachelor's,0
+10082,Grace 82,"C++,Kubernetes,Tableau,Docker",4.0,Bachelor's,1
+10083,Frank 83,"Azure,Docker,C++,Git,GCP,AWS,Java",4.0,Master's,0
+10084,Eve 84,"Data Analysis,Kubernetes,Docker,GCP",0.0,Bachelor's,2
+10085,Bob 85,"Azure,GCP,Node.js,Tableau",1.0,Bachelor's,0
+10086,Jack 86,"Kubernetes,Python,Data Analysis,AWS,Azure,Java,Node.js",3.0,Bachelor's,3
+10087,Charlie 87,"Node.js,Tableau,SQL,Java",4.0,Bachelor's,0
+10088,Frank 88,"Tableau,AWS,React,Java,SQL",6.0,Master's,2
+10089,Hank 89,"Data Analysis,Git,Docker,Tableau,C#",5.0,Bachelor's,2
+10090,Eve 90,"Tableau,React,Docker,AWS,Data Analysis,Azure,GCP,Java",3.0,Bachelor's,0
+10091,Hank 91,"Git,SQL,Azure,GCP,Kubernetes,AWS,C++,React",4.0,Master's,3
+10092,Grace 92,"Tableau,Kubernetes,Node.js",6.0,Master's,2
+10093,Ivy 93,"SQL,Machine Learning,Kubernetes,Tableau,C++,GCP,Docker",9.0,None,3
+10094,Frank 94,"Machine Learning,Node.js,PowerBI,Tableau,C#,Azure",9.0,Bachelor's,3
+10095,Jack 95,"C#,Python,React,Java,Data Analysis,AWS,Azure,C++",2.0,Bachelor's,1
+10096,Ivy 96,"Machine Learning,GCP,C#,Tableau,React,Docker",0.0,Bachelor's,2
+10097,Bob 97,"React,Docker,Node.js,SQL,Tableau,GCP,AWS,PowerBI",6.0,Bachelor's,3
+10098,Grace 98,"AWS,GCP,Git",0.0,Bachelor's,0
+10099,Jack 99,"Docker,C#,PowerBI",1.0,Master's,2
+10100,Jack 100,"Machine Learning,C#,Docker,Azure,React,Git",10.0,Bachelor's,0
+10101,Charlie 101,"Git,Machine Learning,SQL,Docker,C#",6.0,Bachelor's,3
+10102,Grace 102,"Docker,PowerBI,React,Data Analysis",5.0,Master's,2
+10103,Alice 103,"Kubernetes,Tableau,AWS,C++,React,GCP",7.0,Bachelor's,0
+10104,Diana 104,Git,7.0,Master's,3
+10105,Ivy 105,"Machine Learning,Node.js,Kubernetes,Tableau,Docker,Azure,Python",7.0,None,0
+10106,Diana 106,"Java,GCP,Data Analysis,Docker,PowerBI",1.0,Bachelor's,2
+10107,Jack 107,"Data Analysis,AWS,Azure,Machine Learning,Kubernetes,Python,Git,Docker",9.0,Bachelor's,2
+10108,Eve 108,"PowerBI,Machine Learning,SQL,Kubernetes,Azure,AWS,Python",10.0,Master's,1
+10109,Charlie 109,"React,Kubernetes,PowerBI,SQL,Git,C++,Data Analysis,AWS",1.0,Master's,0
+10110,Grace 110,"C#,GCP,React,Docker,Git,Python,Java",7.0,Master's,0
+10111,Ivy 111,"Azure,AWS,React,Data Analysis,Docker,PowerBI",9.0,Master's,2
+10112,Alice 112,"GCP,Python,Java",2.0,Bachelor's,3
+10113,Diana 113,"Git,Docker,Azure,Data Analysis,Java,C++,Tableau,GCP",10.0,Bachelor's,3
+10114,Eve 114,"React,Azure,C++,Java,C#,Tableau,Python,Machine Learning",2.0,Bachelor's,3
+10115,Alice 115,"Machine Learning,Azure,C#",1.0,Bachelor's,0
+10116,Bob 116,"Git,Data Analysis,AWS,Kubernetes,Azure",10.0,Bachelor's,0
+10117,Jack 117,"C#,AWS,C++,PowerBI,SQL,Tableau,Git,React",1.0,Bachelor's,0
+10118,Jack 118,"Azure,C++,Kubernetes,SQL,Machine Learning,Data Analysis,Tableau,Java",9.0,Master's,0
+10119,Eve 119,"PowerBI,AWS,C#,Tableau",0.0,Master's,1
+10120,Hank 120,"Tableau,SQL,Node.js,Python,Docker,Kubernetes",9.0,Bachelor's,1
+10121,Hank 121,Python,0.0,PhD,3
+10122,Ivy 122,"PowerBI,Azure,AWS,C#,GCP",8.0,Bachelor's,0
+10123,Eve 123,"AWS,Data Analysis,Node.js",9.0,Master's,0
+10124,Eve 124,"React,Java,Machine Learning,Tableau,AWS,Azure,PowerBI,Git",4.0,Master's,1
+10125,Bob 125,"Python,Docker,React",8.0,Master's,2
+10126,Charlie 126,"Node.js,Machine Learning,Kubernetes,Python,Docker",4.0,Bachelor's,0
+10127,Hank 127,"Java,Tableau,Azure,Git,SQL,Docker",1.0,Master's,0
+10128,Diana 128,"Java,Python,Machine Learning,Tableau,React,Docker,AWS,SQL",0.0,PhD,3
+10129,Diana 129,"C++,Node.js,Azure,Java,Git",8.0,Bachelor's,1
+10130,Ivy 130,"SQL,GCP,Azure",4.0,Bachelor's,0
+10131,Frank 131,"Git,React,Tableau,Docker",7.0,Master's,1
+10132,Charlie 132,"Python,React,Node.js",0.0,Bachelor's,3
+10133,Eve 133,"React,Azure,PowerBI",2.0,Bachelor's,1
+10134,Ivy 134,"C#,GCP,PowerBI,Java,Git,Azure",10.0,Bachelor's,0
+10135,Grace 135,"React,Git,Data Analysis,Azure,Docker,AWS,Kubernetes,C++",3.0,Bachelor's,0
+10136,Charlie 136,"GCP,C++,AWS",5.0,Bachelor's,2
+10137,Hank 137,"SQL,Docker,Kubernetes,C++,Data Analysis",9.0,Master's,2
+10138,Charlie 138,"C#,Kubernetes,Node.js",4.0,None,0
+10139,Grace 139,"React,Machine Learning,PowerBI,Java,Kubernetes,SQL",0.0,None,1
+10140,Diana 140,"SQL,Node.js,GCP,Azure,Java,Python",3.0,Bachelor's,1
+10141,Bob 141,"GCP,Java,SQL,Git,AWS",6.0,Bachelor's,3
+10142,Charlie 142,"Docker,Node.js,Data Analysis,React,SQL",9.0,Master's,3
+10143,Grace 143,"SQL,Node.js,AWS,PowerBI,GCP,Machine Learning,C++",8.0,None,0
+10144,Grace 144,"Tableau,C#,GCP,Git,Node.js,Docker,AWS,Data Analysis",5.0,Bachelor's,2
+10145,Alice 145,"React,Docker,Java,Machine Learning,C++,Azure",0.0,PhD,3
+10146,Frank 146,"C++,C#,GCP,Git",5.0,Bachelor's,1
+10147,Hank 147,,,PhD,1
+10148,Charlie 148,"C++,Java,Python,SQL,Git",2.0,Master's,2
+10149,Bob 149,"Kubernetes,Machine Learning,Docker,Data Analysis,GCP",2.0,Bachelor's,3
+10150,Frank 150,"C#,React,C++,Git",6.0,Master's,1
+10151,Charlie 151,"Java,Docker",9.0,Bachelor's,3
+10152,Charlie 152,"React,C#,Docker,SQL,C++",1.0,Master's,2
+10153,Hank 153,"React,SQL,Docker",1.0,Bachelor's,3
+10154,Grace 154,"Tableau,Kubernetes,Docker,Node.js",7.0,Bachelor's,1
+10155,Charlie 155,"Java,Git,Python,Docker,Data Analysis,PowerBI",2.0,Bachelor's,0
+10156,Ivy 156,"Tableau,Python,AWS",2.0,Bachelor's,0
+10157,Bob 157,"AWS,Azure,C#,Node.js,GCP",8.0,Bachelor's,1
+10158,Bob 158,"Tableau,Data Analysis,Python",6.0,Master's,3
+10159,Diana 159,Git,7.0,Bachelor's,3
+10160,Hank 160,"Node.js,SQL,C++,PowerBI,AWS,Tableau",6.0,Bachelor's,2
+10161,Hank 161,"Node.js,Java,SQL,Kubernetes,C#,C++",10.0,Bachelor's,1
+10162,Ivy 162,"PowerBI,Azure,Node.js",7.0,Bachelor's,2
+10163,Bob 163,"Java,Data Analysis,PowerBI,Kubernetes,React,SQL",2.0,Master's,1
+10164,Alice 164,"Azure,AWS,PowerBI,C++,SQL,Git",1.0,Bachelor's,2
+10165,Eve 165,"Python,Azure,Java,AWS,SQL,Kubernetes,Git",1.0,Bachelor's,0
+10166,Eve 166,"Azure,Node.js,AWS,C++,React,Git,C#",2.0,Bachelor's,3
+10167,Alice 167,"C++,React,Python,C#,Tableau,Data Analysis",0.0,Master's,2
+10168,Eve 168,"Machine Learning,React,SQL,Data Analysis,C#,Tableau",5.0,Bachelor's,0
+10169,Diana 169,"Azure,Tableau,Kubernetes,Node.js,Docker,Python",2.0,Master's,3
+10170,Charlie 170,"Python,Docker,Machine Learning,Azure,GCP,PowerBI,Kubernetes",0.0,Master's,2
+10171,Frank 171,"Machine Learning,Python,PowerBI,Docker,React,Git",7.0,Bachelor's,1
+10172,Eve 172,"SQL,Git,Python,AWS,GCP,PowerBI,Tableau,Machine Learning",10.0,Bachelor's,3
+10173,Ivy 173,"Python,Tableau,GCP",2.0,Bachelor's,2
+10174,Jack 174,"Node.js,Azure,GCP,AWS,Docker",3.0,Master's,3
+10175,Jack 175,"Git,PowerBI",7.0,None,2
+10176,Eve 176,"Git,AWS,SQL,Node.js,Kubernetes",0.0,Master's,3
+10177,Frank 177,"Python,Tableau,Data Analysis,GCP,AWS,Kubernetes,C#,PowerBI",9.0,Bachelor's,1
+10178,Ivy 178,"C#,Git,Azure,SQL,C++,Node.js,GCP,Data Analysis",2.0,Master's,1
+10179,Frank 179,"C#,React,PowerBI,Azure,Data Analysis,AWS,Docker,C++",4.0,Bachelor's,0
+10180,Jack 180,"SQL,Tableau,GCP,Machine Learning,Node.js,Java,C++",4.0,Master's,1
+10181,Charlie 181,"GCP,Data Analysis,Docker,Azure",1.0,Master's,1
+10182,Frank 182,"GCP,Node.js,Machine Learning,Kubernetes,Azure,SQL,Git,C#",1.0,Bachelor's,3
+10183,Grace 183,"Kubernetes,Python,Tableau,Node.js,Machine Learning,C#",0.0,Master's,1
+10184,Alice 184,React,5.0,Bachelor's,2
+10185,Charlie 185,"Git,PowerBI,React",9.0,Bachelor's,1
+10186,Frank 186,"AWS,Docker,GCP,Kubernetes,PowerBI,Python",2.0,Bachelor's,1
+10187,Bob 187,"Java,Kubernetes,GCP,C++,Data Analysis",9.0,None,0
+10188,Alice 188,"Azure,GCP,AWS",4.0,Bachelor's,0
+10189,Eve 189,"PowerBI,Node.js,Git,GCP,C#,SQL",1.0,Master's,2
+10190,Bob 190,"AWS,Node.js,Azure",3.0,Bachelor's,1
+10191,Alice 191,"AWS,Tableau,Docker,Machine Learning,Python,Kubernetes,C++",1.0,Master's,1
+10192,Bob 192,"Machine Learning,Node.js,C++,PowerBI,React,Data Analysis,C#",1.0,Master's,2
+10193,Frank 193,"Machine Learning,PowerBI,Azure,Kubernetes,Python,GCP,SQL,C++",7.0,Bachelor's,0
+10194,Frank 194,"Kubernetes,PowerBI,React,Data Analysis,AWS",7.0,Master's,1
+10195,Bob 195,"Java,Docker,PowerBI,AWS",7.0,Master's,1
+10196,Jack 196,"Python,Data Analysis,React,GCP,Java,AWS",1.0,Bachelor's,1
+10197,Frank 197,"Machine Learning,Azure,C++,C#,PowerBI,React,Docker",10.0,Master's,0
+10198,Alice 198,"PowerBI,Tableau,Azure,React,SQL,Java,GCP,Docker",4.0,Bachelor's,3
+10199,Grace 199,"GCP,PowerBI,Java,Azure",5.0,Bachelor's,0
+10200,Bob 200,"Python,SQL,Kubernetes,Git,Azure,C++",8.0,Master's,3
+10201,Frank 201,"React,GCP,Docker,Node.js,Kubernetes",7.0,Bachelor's,3
+10202,Bob 202,"React,Python,Docker",10.0,Bachelor's,2
+10203,Bob 203,"Tableau,Data Analysis,Azure",6.0,Master's,1
+10204,Bob 204,"AWS,C++,Java,Kubernetes,PowerBI,Python",10.0,Master's,3
+10205,Hank 205,"PowerBI,Data Analysis,React,Python,Node.js,C#,Azure,Kubernetes",9.0,Bachelor's,1
+10206,Jack 206,"Data Analysis,Machine Learning,AWS,C++",5.0,Bachelor's,1
+10207,Eve 207,"Git,GCP,Kubernetes,SQL,Azure,AWS",8.0,Master's,2
+10208,Ivy 208,"AWS,Git,C++,Docker,GCP,SQL,Kubernetes,C#",10.0,Bachelor's,2
+10209,Ivy 209,"Azure,Git,GCP,PowerBI,AWS,Python",0.0,Bachelor's,0
+10210,Diana 210,"Docker,Git,C++,Data Analysis,SQL",4.0,Bachelor's,2
+10211,Hank 211,"React,Kubernetes,Machine Learning",4.0,Bachelor's,3
+10212,Grace 212,"C++,Java,Python,C#,Data Analysis,Machine Learning",7.0,PhD,2
+10213,Jack 213,"AWS,PowerBI,Data Analysis,React,SQL,C++,Java",2.0,Bachelor's,0
+10214,Grace 214,,7.0,Bachelor's,1
+10215,Frank 215,"Git,Tableau,Kubernetes,PowerBI,Node.js,Docker,Java",5.0,None,0
+10216,Ivy 216,"Kubernetes,SQL,Docker,Machine Learning",10.0,Bachelor's,1
+10217,Jack 217,"Python,Machine Learning,C++,Docker,React,Tableau,GCP",9.0,Bachelor's,2
+10218,Grace 218,"Git,Python,GCP",5.0,Bachelor's,3
+10219,Alice 219,"AWS,C++,Node.js,Java,Azure",8.0,Master's,1
+10220,Diana 220,"Machine Learning,AWS,Node.js,Azure,C#,Kubernetes,Tableau,Java",2.0,Master's,0
+10221,Bob 221,"Node.js,SQL,Git",4.0,Bachelor's,3
+10222,Grace 222,Python,9.0,Master's,0
+10223,Bob 223,"Machine Learning,Git,Kubernetes,C++,Data Analysis",4.0,Bachelor's,3
+10224,Alice 224,"React,Data Analysis,C#,AWS,Kubernetes,Node.js",10.0,Master's,2
+10225,Alice 225,"Data Analysis,Machine Learning,Python,GCP,Git,Kubernetes,AWS",1.0,Master's,2
+10226,Diana 226,"PowerBI,Data Analysis,SQL,GCP,Machine Learning,Git",3.0,Master's,0
+10227,Ivy 227,"SQL,Git,C++,Java,Data Analysis,Azure",9.0,Bachelor's,1
+10228,Diana 228,"SQL,AWS,Docker",5.0,Bachelor's,1
+10229,Jack 229,"C++,Azure,SQL,Python,Docker,Machine Learning,C#",10.0,Master's,1
+10230,Frank 230,"C#,Git,React,Node.js,Java,SQL",1.0,Master's,1
+10231,Ivy 231,"SQL,PowerBI,GCP,Python",10.0,Bachelor's,3
+10232,Jack 232,"Node.js,Tableau,C++,Kubernetes",6.0,Master's,2
+10233,Charlie 233,"SQL,Kubernetes,Docker,Node.js,Python,C++",9.0,Master's,1
+10234,Hank 234,"Data Analysis,Tableau,Docker,Python",7.0,Bachelor's,1
+10235,Alice 235,"C#,Kubernetes,React,GCP,Python,Tableau,C++,Docker",8.0,Bachelor's,2
+10236,Jack 236,"Kubernetes,PowerBI,Docker,Git,C++,Java,Node.js",3.0,Bachelor's,2
+10237,Hank 237,"Python,Data Analysis,React,SQL,Machine Learning,Java",4.0,Bachelor's,2
+10238,Jack 238,"React,Azure,Kubernetes,Docker,C#,Java,PowerBI,C++",9.0,Master's,0
+10239,Diana 239,"Docker,Data Analysis,C++",9.0,Bachelor's,1
+10240,Ivy 240,"Python,Git,Java,Machine Learning,React,Tableau",7.0,Master's,1
+10241,Jack 241,"PowerBI,Node.js,SQL,C#",7.0,Bachelor's,3
+10242,Grace 242,"AWS,Azure,Tableau,SQL",2.0,Master's,0
+10243,Ivy 243,"SQL,Tableau,C++,PowerBI,Git,Node.js,Python",10.0,Bachelor's,2
+10244,Alice 244,"React,Tableau,Kubernetes,GCP,AWS,Docker,Git,C++",2.0,Master's,0
+10245,Eve 245,"Azure,Node.js,Machine Learning,Python,C#,Kubernetes,PowerBI",1.0,Bachelor's,1
+10246,Frank 246,"Data Analysis,Azure,C++,Git,PowerBI,Kubernetes",6.0,Master's,3
+10247,Diana 247,"Tableau,Docker,PowerBI,Node.js,Azure,React",4.0,Master's,3
+10248,Charlie 248,"React,GCP,Kubernetes,C#,SQL,Java,Machine Learning,Node.js",5.0,Master's,0
+10249,Charlie 249,"Python,SQL,Azure,Tableau,React,Git",1.0,Bachelor's,0
+10250,Grace 250,"PowerBI,Git,C#,Tableau,Python,SQL",,Master's,2
+10251,Diana 251,"PowerBI,React,Git",0.0,Master's,1
+10252,Bob 252,"C#,Kubernetes,AWS,Git,Machine Learning",1.0,Bachelor's,2
+10253,Frank 253,,2.0,Bachelor's,0
+10254,Ivy 254,"Machine Learning,Node.js,GCP,Tableau,Kubernetes",7.0,Bachelor's,1
+10255,Frank 255,"Python,Tableau,Java,Data Analysis,GCP,AWS",3.0,Bachelor's,2
+10256,Grace 256,"Python,Node.js,Machine Learning,Data Analysis,Java",5.0,PhD,3
+10257,Frank 257,"Node.js,Docker,C#,C++,Machine Learning",3.0,Bachelor's,2
+10258,Diana 258,"React,C#,SQL,Kubernetes",1.0,Master's,0
+10259,Ivy 259,"C#,C++,React",9.0,Bachelor's,2
+10260,Grace 260,"Data Analysis,Java,Node.js,Kubernetes",8.0,Bachelor's,1
+10261,Hank 261,,10.0,Bachelor's,2
+10262,Frank 262,"Docker,Node.js,Machine Learning,Data Analysis,React,Git,PowerBI",7.0,Bachelor's,2
+10263,Frank 263,"Docker,Data Analysis,Git,C++,Machine Learning,Java",3.0,Master's,1
+10264,Charlie 264,"Python,Docker,AWS,React,SQL,C++,Node.js,C#",7.0,Bachelor's,0
+10265,Grace 265,"Java,AWS,Azure",10.0,Master's,2
+10266,Frank 266,"Node.js,C#,Python,AWS,Java",10.0,Bachelor's,1
+10267,Eve 267,"PowerBI,Tableau,Kubernetes,C#,React",6.0,Bachelor's,1
+10268,Charlie 268,"C++,Azure,PowerBI,Git,Tableau,AWS,Java,GCP",3.0,Master's,2
+10269,Jack 269,"GCP,C#,Tableau,Git,Node.js,React,AWS,SQL",0.0,Bachelor's,2
+10270,Bob 270,"Machine Learning,PowerBI,Java,React",0.0,Bachelor's,0
+10271,Bob 271,"SQL,Kubernetes,Data Analysis,Machine Learning,Azure",7.0,Bachelor's,1
+10272,Alice 272,"C++,Tableau,React",8.0,Bachelor's,1
+10273,Ivy 273,"GCP,Azure,Node.js,C++",4.0,Bachelor's,1
+10274,Bob 274,"Azure,Node.js,SQL,Data Analysis,Python,Kubernetes",2.0,Bachelor's,0
+10275,Hank 275,"Azure,Git,Tableau,Machine Learning,Kubernetes,Python",3.0,Bachelor's,3
+10276,Diana 276,"Kubernetes,PowerBI,Machine Learning,Data Analysis",10.0,Master's,2
+10277,Eve 277,"Node.js,Azure,Machine Learning,Tableau,Java,SQL,C#,Data Analysis",7.0,Bachelor's,3
+10278,Diana 278,Python,1.0,Bachelor's,3
+10279,Alice 279,"Python,Tableau,Machine Learning,Docker",7.0,Bachelor's,0
+10280,Frank 280,"Data Analysis,Java,PowerBI",1.0,Bachelor's,2
+10281,Grace 281,"React,Kubernetes,Tableau",3.0,Bachelor's,3
+10282,Bob 282,"AWS,Tableau,PowerBI,C++,Data Analysis,Docker,SQL",0.0,Bachelor's,0
+10283,Eve 283,"AWS,C#,GCP,Python,C++,Machine Learning",3.0,Bachelor's,1
+10284,Eve 284,"React,Python,Tableau,Git,Kubernetes,C#,PowerBI",2.0,Bachelor's,1
+10285,Hank 285,"C++,Java,Python",2.0,Master's,1
+10286,Hank 286,"C#,GCP,PowerBI,Machine Learning",6.0,Bachelor's,0
+10287,Hank 287,"Git,Tableau,Machine Learning,PowerBI,SQL,Node.js,Docker,C++",4.0,Bachelor's,1
+10288,Bob 288,"Git,Node.js,Tableau,Docker,React,Python,C++",2.0,Master's,2
+10289,Jack 289,"SQL,Kubernetes,Machine Learning,Node.js",8.0,Bachelor's,3
+10290,Frank 290,"SQL,Java,Azure",2.0,Bachelor's,3
+10291,Diana 291,"Tableau,Node.js",3.0,Bachelor's,1
+10292,Hank 292,"Java,C#,Node.js",6.0,Master's,0
+10293,Jack 293,"SQL,Git,Java,Machine Learning,Node.js",3.0,Bachelor's,1
+10294,Jack 294,"Azure,Machine Learning,Kubernetes,C++,Git,Docker,PowerBI,React",6.0,Bachelor's,1
+10295,Ivy 295,"Docker,GCP,Tableau,PowerBI,Azure,Node.js",5.0,Bachelor's,3
+10296,Frank 296,"AWS,Kubernetes,Tableau,Node.js,C#,Data Analysis,Docker",7.0,Bachelor's,0
+10297,Eve 297,,3.0,Bachelor's,2
+10298,Ivy 298,"Data Analysis,Machine Learning,Python,React,Docker,SQL,C#",9.0,Bachelor's,2
+10299,Bob 299,"AWS,SQL,C#,Docker,Kubernetes,React,Tableau",9.0,Bachelor's,2
+10300,Alice 300,"Kubernetes,SQL,PowerBI,Python,GCP,Docker,C#,AWS",1.0,Bachelor's,0
+10301,Grace 301,"Java,C++,Node.js",5.0,Bachelor's,0
+10302,Grace 302,"PowerBI,SQL,Machine Learning,AWS,Data Analysis,Azure",5.0,Bachelor's,0
+10303,Ivy 303,"Kubernetes,Azure,PowerBI,C#,SQL,GCP",3.0,Master's,1
+10304,Ivy 304,"PowerBI,React,Machine Learning,Java,Data Analysis,AWS,Docker",9.0,Master's,3
+10305,Frank 305,"C#,Python,Kubernetes,Data Analysis,SQL",9.0,Master's,1
+10306,Hank 306,"React,AWS,C++",1.0,Bachelor's,1
+10307,Eve 307,"Machine Learning,Git,React",5.0,Bachelor's,1
+10308,Ivy 308,"Tableau,Data Analysis,C#,GCP,C++,Python,AWS",10.0,Bachelor's,0
+10309,Eve 309,"Node.js,Java,React,C++",1.0,Bachelor's,2
+10310,Bob 310,"Kubernetes,React,AWS",1.0,Bachelor's,0
+10311,Charlie 311,"GCP,Python,Tableau,Machine Learning",4.0,Bachelor's,1
+10312,Alice 312,"C#,Git,Machine Learning,Node.js,Data Analysis",10.0,Bachelor's,0
+10313,Ivy 313,"C++,Kubernetes,PowerBI,SQL,Java",8.0,Master's,1
+10314,Grace 314,"Azure,Git,GCP,Tableau",8.0,Master's,1
+10315,Charlie 315,"PowerBI,Data Analysis,AWS,Kubernetes,SQL",9.0,Bachelor's,0
+10316,Charlie 316,"Data Analysis,Python,Kubernetes,Docker,AWS",4.0,PhD,2
+10317,Charlie 317,"Docker,Python,Kubernetes,Git",9.0,Bachelor's,1
+10318,Diana 318,Tableau,9.0,Master's,1
+10319,Grace 319,"Docker,AWS,Machine Learning,Python,Tableau,Azure",6.0,Master's,1
+10320,Diana 320,"GCP,Tableau,C#",7.0,Bachelor's,0
+10321,Jack 321,"C++,Kubernetes,Git,C#,GCP,Tableau,Node.js,PowerBI",0.0,Bachelor's,0
+10322,Diana 322,"Java,Kubernetes,Node.js,Tableau,C++,Python,Machine Learning",6.0,Master's,2
+10323,Hank 323,"Java,Data Analysis,React,Azure",1.0,Bachelor's,1
+10324,Grace 324,"Python,Docker,React,Git,C#,Machine Learning",1.0,Master's,1
+10325,Bob 325,"GCP,C#,Java",6.0,None,1
+10326,Grace 326,"Docker,C++,Git,Azure,Tableau,SQL,C#",2.0,Bachelor's,2
+10327,Eve 327,"GCP,Git,C++,SQL,Java,Azure,Machine Learning,Python",,Bachelor's,3
+10328,Ivy 328,"Tableau,React,Machine Learning",7.0,Bachelor's,0
+10329,Diana 329,"AWS,Java,SQL,GCP,Python,C++,Docker",0.0,Master's,2
+10330,Frank 330,"Docker,PowerBI",9.0,Master's,1
+10331,Hank 331,"Java,SQL,Kubernetes,Data Analysis,Docker,GCP,AWS,PowerBI",8.0,Bachelor's,0
+10332,Eve 332,"PowerBI,AWS,C#,Machine Learning,Git",9.0,Master's,0
+10333,Hank 333,"Git,Azure,PowerBI,Tableau,Docker,Data Analysis,Node.js,GCP",5.0,Master's,3
+10334,Ivy 334,,0.0,Master's,1
+10335,Jack 335,,3.0,Bachelor's,0
+10336,Eve 336,"C++,Python,Java,PowerBI,Docker",9.0,Bachelor's,1
+10337,Diana 337,"Tableau,PowerBI,Kubernetes,Python,C++",2.0,Master's,2
+10338,Hank 338,"Java,Git,Tableau,C#,C++,Docker",0.0,Master's,2
+10339,Bob 339,"Python,C++,AWS,Tableau",2.0,Bachelor's,0
+10340,Eve 340,"Java,Node.js,AWS,PowerBI,React,Machine Learning,Docker,Kubernetes",4.0,Bachelor's,0
+10341,Frank 341,"SQL,GCP,Node.js",7.0,Bachelor's,2
+10342,Hank 342,"Git,C++,SQL,Kubernetes,Java,Node.js,Tableau,GCP",0.0,Master's,0
+10343,Alice 343,"SQL,C++,React,Python,Java",10.0,Bachelor's,2
+10344,Diana 344,"Git,Node.js,Tableau,Docker,Kubernetes",1.0,Bachelor's,0
+10345,Alice 345,"Machine Learning,AWS,Node.js,Docker,GCP,Azure,Data Analysis",4.0,Bachelor's,2
+10346,Jack 346,"Java,Data Analysis,Python,React,C++",6.0,Bachelor's,1
+10347,Jack 347,"GCP,C#,Data Analysis,Docker,Machine Learning,Tableau,C++",1.0,Master's,3
+10348,Jack 348,"GCP,Machine Learning,React,Data Analysis",7.0,PhD,1
+10349,Jack 349,"Kubernetes,Docker,C#,C++,Tableau",5.0,Bachelor's,3
+10350,Bob 350,"Docker,Git,Kubernetes,PowerBI,Tableau",8.0,Master's,0
+10351,Frank 351,"Git,GCP,AWS,PowerBI,Tableau,Machine Learning,Azure",2.0,Bachelor's,2
+10352,Diana 352,"Azure,C++,Node.js,C#,Machine Learning,SQL,Tableau,Java",9.0,Bachelor's,3
+10353,Frank 353,"GCP,Docker,Data Analysis,AWS,Java,Git,Kubernetes",9.0,Bachelor's,3
+10354,Alice 354,"Data Analysis,Python,Kubernetes",2.0,Bachelor's,3
+10355,Diana 355,"C++,Git,Tableau,Kubernetes",4.0,PhD,2
+10356,Bob 356,"Data Analysis,Git",8.0,Bachelor's,2
+10357,Bob 357,"React,Azure,C#,Git,AWS",6.0,Bachelor's,1
+10358,Charlie 358,"Kubernetes,C#,Azure,AWS,SQL,Data Analysis",10.0,Bachelor's,0
+10359,Charlie 359,"Azure,Data Analysis,Java,SQL,C++,AWS,React,Git",9.0,Bachelor's,3
+10360,Grace 360,"Azure,Python,Git,React,C#",8.0,PhD,2
+10361,Alice 361,"C#,Machine Learning,Git",1.0,Master's,2
+10362,Hank 362,"SQL,React,Tableau,C++,C#,Azure,Kubernetes",10.0,Bachelor's,0
+10363,Frank 363,"Tableau,GCP,Node.js,React,Git,C#,Docker",4.0,Bachelor's,2
+10364,Jack 364,"Tableau,Docker,Git,Python,C++",9.0,Bachelor's,1
+10365,Ivy 365,"Node.js,PowerBI,SQL",4.0,Bachelor's,0
+10366,Jack 366,"Data Analysis,GCP,Docker,Kubernetes",3.0,Master's,0
+10367,Frank 367,"Data Analysis,Tableau,Kubernetes",6.0,Bachelor's,1
+10368,Diana 368,"C#,Java,C++,Data Analysis,Kubernetes,Tableau,Python",6.0,Bachelor's,1
+10369,Grace 369,"Tableau,Node.js,SQL,PowerBI,AWS,Python,Data Analysis,React",5.0,Master's,0
+10370,Bob 370,"Azure,Node.js,Docker,Data Analysis,PowerBI,Java,Kubernetes",6.0,Master's,1
+10371,Jack 371,"Docker,C++,Node.js,Python",,Bachelor's,0
+10372,Hank 372,"Git,Node.js,Machine Learning,Python,Azure",0.0,Master's,1
+10373,Jack 373,"Machine Learning,SQL,Azure,Git,Tableau,AWS,C++,GCP",2.0,Master's,2
+10374,Eve 374,"SQL,GCP,Tableau,Data Analysis,Kubernetes,AWS",10.0,Bachelor's,1
+10375,Bob 375,"Kubernetes,PowerBI,Docker,Python,Data Analysis",4.0,Bachelor's,1
+10376,Jack 376,"Tableau,Machine Learning,SQL,Node.js,Kubernetes,AWS",10.0,Bachelor's,2
+10377,Bob 377,"Node.js,GCP,Python",2.0,Bachelor's,0
+10378,Grace 378,"C++,Kubernetes,Git,Python,Node.js",7.0,Bachelor's,0
+10379,Ivy 379,"Machine Learning,C#",4.0,Master's,0
+10380,Frank 380,"C++,SQL,Azure,React,Kubernetes,Data Analysis,PowerBI",8.0,Bachelor's,1
+10381,Eve 381,"Machine Learning,C#,React,Java,C++,GCP,PowerBI,SQL",0.0,Bachelor's,3
+10382,Grace 382,"Git,Tableau,Node.js",7.0,Bachelor's,2
+10383,Alice 383,"Java,Kubernetes,PowerBI,Machine Learning,Tableau",8.0,Master's,1
+10384,Jack 384,,9.0,Master's,1
+10385,Alice 385,"Git,Machine Learning,React,PowerBI",9.0,Master's,0
+10386,Hank 386,"React,SQL,Kubernetes,Machine Learning,AWS,Docker,C++",1.0,Bachelor's,1
+10387,Frank 387,"Docker,C++,Java,GCP",6.0,Bachelor's,1
+10388,Hank 388,"Java,Data Analysis,PowerBI,Kubernetes",9.0,Bachelor's,3
+10389,Bob 389,Git,7.0,Bachelor's,2
+10390,Ivy 390,"Docker,Java,Git,SQL,C#,React",1.0,Master's,2
+10391,Grace 391,"AWS,Machine Learning,Node.js",9.0,Master's,1
+10392,Hank 392,"Node.js,Java,Machine Learning,Tableau,Kubernetes,SQL,C++,React",2.0,Bachelor's,2
+10393,Eve 393,"C++,GCP,Python,Java",8.0,Master's,3
+10394,Ivy 394,"React,GCP,Git",6.0,Master's,2
+10395,Diana 395,"Machine Learning,React,C#",3.0,Bachelor's,3
+10396,Jack 396,"Azure,Data Analysis,Machine Learning,Git,React,SQL",2.0,Bachelor's,2
+10397,Eve 397,"Java,PowerBI,Data Analysis,SQL",7.0,Bachelor's,2
+10398,Diana 398,"Docker,React,Java,AWS,Node.js",3.0,Master's,2
+10399,Alice 399,"React,PowerBI,Docker,AWS,Git,Machine Learning,Kubernetes,SQL",0.0,Bachelor's,3
