@@ -1,0 +1,6 @@
+Metric | Baseline | Tuned
+Accuracy | 0.8551 | 0.8160
+Precision | 0.5307 | 0.4542
+Recall | 0.7737 | 0.7765
+F1 | 0.6295 | 0.5732
+FPR | 0.1295 | 0.1765

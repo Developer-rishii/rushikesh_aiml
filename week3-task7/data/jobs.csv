@@ -1,0 +1,201 @@
+Job ID,Required Skills,Preferred Skills,Experience Requirement,Education Requirement
+J_1,"Git,GCP,Machine Learning,Docker,Agile,Communication",Scrum,0,High School
+J_2,"Node.js,Agile,TypeScript,CI/CD","GCP,Power BI,Deep Learning",2,Master
+J_3,"Deep Learning,Python,Communication,Scrum,Kubernetes,TypeScript",,6,Bachelor
+J_4,"Machine Learning,AWS,GCP","Power BI,Docker",0,Bachelor
+J_5,"GCP,Docker,React,Git,Java,Deep Learning","SQL,C++,Node.js",8,Bachelor
+J_6,"Machine Learning,Kubernetes,GCP,Java,CI/CD,Scrum","Azure,Power BI",7,Bachelor
+J_7,"Azure,Leadership,Machine Learning","AWS,Scrum",4,High School
+J_8,"Python,Leadership,SQL",Excel,8,Master
+J_9,"Python,Kubernetes","C++,GCP,Communication",6,Master
+J_10,"TypeScript,GCP,Machine Learning,Scrum,CI/CD,Node.js",Power BI,4,High School
+J_11,"CI/CD,Scrum,Machine Learning","Kubernetes,Pandas",3,Master
+J_12,"Tableau,Docker,Azure,TypeScript",Agile,8,Bachelor
+J_13,"SQL,Node.js","Machine Learning,Git",8,Bachelor
+J_14,"Agile,CI/CD,Python,AWS,Deep Learning,Communication",,6,Master
+J_15,"Azure,Power BI,Deep Learning",Java,7,Bachelor
+J_16,"Tableau,CI/CD,C++",,0,Bachelor
+J_17,"Git,Java,SQL,Node.js,Azure",React,10,Bachelor
+J_18,"Tableau,Scrum,Java,GCP","AWS,Agile,Power BI",7,Master
+J_19,"Excel,Power BI,GCP,Machine Learning,AWS","Agile,Scrum",6,PhD
+J_20,"Scrum,Node.js,Machine Learning,Java",TypeScript,5,Bachelor
+J_21,"Git,Deep Learning,Power BI,Scrum","Leadership,Node.js,AWS",0,Bachelor
+J_22,"Node.js,SQL,Excel,Docker,Azure,Agile",CI/CD,6,Master
+J_23,"Azure,SQL,CI/CD,Power BI,AWS","Docker,Git,GCP",7,Bachelor
+J_24,"Excel,C++,Agile,Machine Learning,Leadership,Docker",Deep Learning,9,Bachelor
+J_25,"Pandas,Git","Docker,Kubernetes,Excel",1,Bachelor
+J_26,"Kubernetes,Excel,C++,Java,Git,React",AWS,4,Master
+J_27,"Node.js,C++,Excel,AWS","Python,SQL",0,Master
+J_28,"Tableau,React,Power BI,SQL,Java,GCP",,4,High School
+J_29,"Azure,CI/CD,Machine Learning",,6,Bachelor
+J_30,"Pandas,Tableau,CI/CD","Git,Node.js",0,High School
+J_31,"Machine Learning,Communication,React,C++,Leadership,GCP",Docker,6,Bachelor
+J_32,"Azure,TypeScript","C++,Machine Learning",4,PhD
+J_33,"React,GCP,Node.js,Pandas,AWS,Scrum","Excel,Azure,Power BI",4,Master
+J_34,"React,Python,Power BI,CI/CD,Kubernetes,Excel",Machine Learning,7,Bachelor
+J_35,"AWS,TypeScript","Kubernetes,Power BI,Communication",1,Bachelor
+J_36,"Agile,Pandas,Machine Learning,Excel",Java,3,Master
+J_37,"Pandas,Deep Learning,React,Leadership,Power BI",Tableau,9,Master
+J_38,"Azure,Node.js","GCP,CI/CD,Docker",2,High School
+J_39,"Python,Azure,C++,Excel,Power BI,Agile","Leadership,Docker,AWS",5,Bachelor
+J_40,"Machine Learning,Node.js,Git,Pandas,React",,2,Master
+J_41,"Java,C++,TypeScript",,1,High School
+J_42,"Java,Agile,Tableau,Power BI,Deep Learning","Excel,Node.js,React",0,Bachelor
+J_43,"CI/CD,Scrum,Azure,Tableau,Docker","Kubernetes,Java",2,Bachelor
+J_44,"Tableau,Leadership,Azure","Power BI,TypeScript",3,Master
+J_45,"Tableau,Git,Power BI",Python,5,Bachelor
+J_46,"Pandas,Python,GCP","C++,Agile,Machine Learning",8,Bachelor
+J_47,"Leadership,TypeScript",,9,High School
+J_48,"Kubernetes,Agile,Python,C++",Azure,4,Master
+J_49,"Kubernetes,Leadership,React,Azure,Excel","Git,C++",1,Bachelor
+J_50,"Azure,Java",Communication,1,High School
+J_51,"Docker,Communication,Git,Leadership,Azure,Power BI","C++,Java,Python",3,PhD
+J_52,"Deep Learning,Java",Power BI,0,Bachelor
+J_53,"Tableau,TypeScript",Node.js,10,Bachelor
+J_54,"AWS,Excel,React,Git",,7,Bachelor
+J_55,"Tableau,Pandas,Leadership,C++,Java,Azure","Deep Learning,Node.js",8,Bachelor
+J_56,"Excel,Node.js,Agile,Kubernetes",,2,High School
+J_57,"Scrum,Kubernetes,Node.js,C++","Leadership,Excel,Agile",6,Bachelor
+J_58,"TypeScript,Kubernetes",Tableau,3,High School
+J_59,"Machine Learning,Kubernetes,Azure,Tableau","Python,Scrum",0,Bachelor
+J_60,"SQL,Git,Azure,Scrum,CI/CD","Communication,Python,Power BI",9,Bachelor
+J_61,"Power BI,Agile,Excel,Machine Learning,SQL",Kubernetes,0,Bachelor
+J_62,"Deep Learning,Pandas,Node.js",Machine Learning,0,Bachelor
+J_63,"Machine Learning,Excel","Azure,C++",10,Bachelor
+J_64,"Scrum,Docker","Git,Java",9,Master
+J_65,"Scrum,React,Node.js,SQL",,1,High School
+J_66,"CI/CD,Azure,Pandas,Java,TypeScript,SQL",Git,9,High School
+J_67,"Java,Agile,Python,GCP,Azure,Excel","Kubernetes,Machine Learning,Docker",7,Bachelor
+J_68,"Pandas,Machine Learning","Java,CI/CD,Docker",9,Bachelor
+J_69,"Python,C++",Agile,5,Bachelor
+J_70,"Scrum,Agile,C++","CI/CD,Deep Learning",4,High School
+J_71,"Azure,Deep Learning,Communication,Docker",Node.js,3,Master
+J_72,"Java,GCP,Azure,Git",TypeScript,4,High School
+J_73,"Kubernetes,Agile,Tableau,TypeScript","Java,SQL",9,Bachelor
+J_74,"Git,Node.js,Kubernetes,Agile,GCP,C++",Docker,8,Bachelor
+J_75,"Tableau,C++,Azure,TypeScript",,4,High School
+J_76,"Power BI,Deep Learning",TypeScript,9,Bachelor
+J_77,"Scrum,Communication,SQL,Docker,Machine Learning,Kubernetes","Python,Java,Node.js",7,Bachelor
+J_78,"Kubernetes,GCP",Java,7,Bachelor
+J_79,"Leadership,TypeScript","Communication,Git,Node.js",6,Bachelor
+J_80,"CI/CD,Kubernetes,Leadership","Docker,Power BI",10,Bachelor
+J_81,"Tableau,Machine Learning",Node.js,6,Master
+J_82,"Communication,Python,Java,Tableau,Scrum,GCP","Agile,C++,Deep Learning",2,Bachelor
+J_83,"GCP,Deep Learning",,5,Bachelor
+J_84,"Python,Scrum,Deep Learning","C++,Java,GCP",4,High School
+J_85,"Node.js,Pandas,CI/CD",AWS,2,Bachelor
+J_86,"Power BI,Java,Kubernetes,Machine Learning",,7,Bachelor
+J_87,"Power BI,Scrum,React,TypeScript,AWS",Machine Learning,6,High School
+J_88,"Docker,GCP,Scrum","Node.js,Leadership,React",8,High School
+J_89,"AWS,Leadership,Java,Kubernetes,Docker",,8,Master
+J_90,"Pandas,Agile,AWS,Deep Learning,Power BI,C++","SQL,Communication,GCP",6,High School
+J_91,"Node.js,Deep Learning,GCP,Scrum,React",Power BI,0,Bachelor
+J_92,"Java,React,Scrum,Tableau,Machine Learning",TypeScript,1,Bachelor
+J_93,"Python,Java","Docker,Deep Learning,Communication",8,Bachelor
+J_94,"Power BI,Agile,Scrum,React,Node.js",,0,Bachelor
+J_95,"Leadership,TypeScript,Tableau,Kubernetes",,7,Master
+J_96,"Machine Learning,Java,Node.js,Excel,React,Pandas","Deep Learning,Python",5,Master
+J_97,"C++,Tableau,Leadership,TypeScript,Node.js,SQL","Agile,GCP",0,High School
+J_98,"Kubernetes,SQL,Leadership,CI/CD,Azure","Node.js,Docker,GCP",0,Bachelor
+J_99,"Kubernetes,Node.js,Python","TypeScript,Docker",4,Bachelor
+J_100,"Kubernetes,SQL,Excel,React,AWS,Java",,1,Bachelor
+J_101,"Agile,Power BI,Node.js",Azure,5,PhD
+J_102,"CI/CD,Tableau,Communication,TypeScript,SQL,Pandas",Docker,5,High School
+J_103,"React,Tableau,Pandas,Docker,GCP,Node.js",,6,High School
+J_104,"Node.js,Machine Learning,C++,Communication",,4,PhD
+J_105,"Git,SQL,Kubernetes,Communication,Power BI,C++",Node.js,4,Master
+J_106,"Tableau,Scrum,SQL","Leadership,React",2,Bachelor
+J_107,"Node.js,C++,Python,Scrum",,2,Bachelor
+J_108,"Machine Learning,AWS,Git,Python,Docker","Scrum,Pandas",9,Bachelor
+J_109,"Communication,Node.js,Agile,Leadership,Docker,Excel","React,Power BI,Python",5,Bachelor
+J_110,"Deep Learning,TypeScript,Power BI,C++","Excel,Java,React",4,Bachelor
+J_111,"Agile,Power BI,Excel,Kubernetes,Pandas,C++",,8,Bachelor
+J_112,"TypeScript,Scrum,CI/CD,Python","Deep Learning,Communication",2,Bachelor
+J_113,"Node.js,Python,GCP,Excel,Power BI,AWS","React,Deep Learning,Agile",9,Master
+J_114,"React,C++",,3,PhD
+J_115,"Java,CI/CD,React,Excel,Node.js,Kubernetes","C++,Leadership",9,Bachelor
+J_116,"Scrum,Agile,Docker,Tableau",,8,Bachelor
+J_117,"Power BI,TypeScript,GCP","Git,Java,Leadership",6,Bachelor
+J_118,"TypeScript,Agile,Java,Machine Learning,React,Communication","Node.js,Excel",6,High School
+J_119,"Deep Learning,Leadership",Tableau,1,Bachelor
+J_120,"Docker,Leadership,AWS,Java,Communication",,10,Bachelor
+J_121,"Python,CI/CD","Leadership,Agile",6,Bachelor
+J_122,"TypeScript,Kubernetes,CI/CD",AWS,2,Bachelor
+J_123,"Deep Learning,GCP,Pandas","Python,C++",9,Bachelor
+J_124,"AWS,Java,TypeScript","Tableau,Machine Learning,Docker",2,Bachelor
+J_125,"CI/CD,SQL",,10,Bachelor
+J_126,"React,Pandas,Node.js,Azure,Excel,Machine Learning","Leadership,Python,TypeScript",7,Master
+J_127,"React,CI/CD","SQL,Kubernetes",6,Master
+J_128,"Node.js,Machine Learning,Git,Deep Learning,Azure,Communication","Scrum,Java,Kubernetes",6,Bachelor
+J_129,"Power BI,C++,Azure",Machine Learning,5,Bachelor
+J_130,"Git,Power BI","AWS,Azure,Docker",4,Bachelor
+J_131,"Git,Azure,Communication,CI/CD","Leadership,SQL,Deep Learning",2,Bachelor
+J_132,"Kubernetes,Communication",Git,4,Bachelor
+J_133,"Power BI,Git,TypeScript","Scrum,GCP",2,Master
+J_134,"Leadership,GCP,React",Azure,10,Bachelor
+J_135,"Deep Learning,Communication,Python","Azure,Kubernetes",8,Master
+J_136,"Power BI,Leadership,Java,Kubernetes,Deep Learning,Communication","Tableau,Docker,Agile",6,Master
+J_137,"Tableau,Power BI,Java,Git,React",Python,10,Master
+J_138,"GCP,C++,AWS,Deep Learning",Azure,9,Master
+J_139,"Kubernetes,Power BI",TypeScript,9,Master
+J_140,"CI/CD,C++",Kubernetes,10,High School
+J_141,"Tableau,Pandas","Azure,Excel",8,Master
+J_142,"SQL,TypeScript,Communication,Tableau,AWS,Leadership",,4,Master
+J_143,"AWS,Git,TypeScript",Java,0,PhD
+J_144,"Pandas,C++,CI/CD,Deep Learning","Tableau,GCP",0,Bachelor
+J_145,"TypeScript,Machine Learning,Excel","SQL,Docker,Pandas",3,Bachelor
+J_146,"Power BI,C++,Machine Learning,Excel,Communication",,3,Bachelor
+J_147,"Communication,Node.js,Machine Learning,CI/CD",,7,Master
+J_148,"Python,Azure,Node.js","Leadership,Git,Power BI",10,High School
+J_149,"Tableau,GCP,Agile,Git,Azure,Excel","AWS,Docker,Leadership",10,Bachelor
+J_150,"Machine Learning,Java,Power BI,Python","Docker,Tableau,Scrum",7,High School
+J_151,"Scrum,GCP","Machine Learning,TypeScript,Docker",10,Bachelor
+J_152,"Machine Learning,AWS,C++",GCP,8,Bachelor
+J_153,"Machine Learning,Scrum,GCP,Leadership,C++,Communication","Deep Learning,Docker,Java",3,Master
+J_154,"Leadership,Scrum,Java",Docker,8,PhD
+J_155,"CI/CD,Azure,AWS,Git,Power BI,GCP","Kubernetes,Deep Learning,Communication",5,Master
+J_156,"GCP,Node.js,Communication,React","Git,Python,Agile",0,PhD
+J_157,"TypeScript,Azure,Python,Git",C++,3,Bachelor
+J_158,"Kubernetes,Python,Docker,Node.js","React,Scrum",8,Bachelor
+J_159,"Leadership,Tableau,TypeScript",Azure,1,High School
+J_160,"CI/CD,Power BI,Communication","SQL,Scrum",6,Bachelor
+J_161,"Azure,Leadership,Communication,React,SQL",Machine Learning,0,Bachelor
+J_162,"TypeScript,GCP,Machine Learning,Power BI","Deep Learning,Pandas",5,PhD
+J_163,"Deep Learning,Communication,GCP,Git,C++",Excel,1,Bachelor
+J_164,"Excel,Tableau,GCP,Python","Deep Learning,Pandas",5,PhD
+J_165,"CI/CD,C++,Java,Docker","TypeScript,AWS,Leadership",5,Bachelor
+J_166,"Leadership,Python,Deep Learning,Machine Learning","Node.js,CI/CD",6,Master
+J_167,"Tableau,Kubernetes",,0,Bachelor
+J_168,"Excel,Power BI","GCP,Communication",5,Bachelor
+J_169,"Excel,Machine Learning",,8,High School
+J_170,"Communication,TypeScript,Leadership,Agile,C++,Pandas",,10,Bachelor
+J_171,"TypeScript,Deep Learning,Agile,Docker","Pandas,Java,Scrum",7,Bachelor
+J_172,"React,Communication,GCP,Python,Leadership",,6,High School
+J_173,"Node.js,Deep Learning,Azure","AWS,Communication",10,Master
+J_174,"Agile,Scrum,C++,Communication,Kubernetes,CI/CD","Deep Learning,Git,Excel",3,Bachelor
+J_175,"Excel,Leadership",,0,Master
+J_176,"Pandas,Docker,Git,AWS,C++,Leadership","GCP,Java",6,PhD
+J_177,"Kubernetes,Python,Deep Learning",TypeScript,1,Master
+J_178,"TypeScript,CI/CD,C++,React,SQL",,7,Bachelor
+J_179,"React,Communication,Machine Learning",Pandas,2,Bachelor
+J_180,"Java,C++,Machine Learning,Power BI,Leadership,Kubernetes",,5,Bachelor
+J_181,"Tableau,Kubernetes,Power BI",,4,Bachelor
+J_182,"Python,React,Node.js,Machine Learning,Kubernetes",,5,Master
+J_183,"Agile,GCP","AWS,Git,Pandas",10,Bachelor
+J_184,"Python,Azure,Agile,Docker,SQL","Deep Learning,AWS,Java",9,High School
+J_185,"Deep Learning,Git,Power BI,SQL,Agile,C++",GCP,5,Bachelor
+J_186,"Java,CI/CD,Tableau","Deep Learning,Git,Kubernetes",1,Master
+J_187,"C++,GCP","React,Agile,Kubernetes",4,Bachelor
+J_188,"Docker,Python",,7,High School
+J_189,"SQL,Excel,React","Leadership,Tableau,Java",2,High School
+J_190,"Pandas,Node.js,Machine Learning,Power BI",TypeScript,6,Master
+J_191,"Deep Learning,Leadership,Agile,Python,GCP,Power BI","Communication,Azure,CI/CD",5,Bachelor
+J_192,"Power BI,CI/CD,Communication,C++",,2,Bachelor
+J_193,"AWS,Scrum,Pandas",CI/CD,1,Master
+J_194,"AWS,Azure,Java,CI/CD",,10,Bachelor
+J_195,"Deep Learning,Docker,Node.js,Kubernetes,CI/CD","Communication,SQL",6,Bachelor
+J_196,"Python,Deep Learning,Agile",SQL,3,High School
+J_197,"Communication,Power BI,Kubernetes,C++",,10,Master
+J_198,"TypeScript,C++,CI/CD,Leadership,Azure,Excel","Scrum,Machine Learning,Agile",10,Master
+J_199,"Java,Azure,Docker,Power BI","Excel,TypeScript",10,High School
+J_200,"Pandas,Kubernetes,Node.js,Agile","Python,Excel",2,High School

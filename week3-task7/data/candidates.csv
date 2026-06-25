@@ -1,0 +1,1001 @@
+Candidate ID,Skills,Experience Years,Education,Certifications,Projects
+C_1,"Python,CI/CD,Azure",7,Bachelor,,5
+C_2,"Pandas,Communication,Node.js,SQL,Python,CI/CD,C++,AWS,Leadership,Azure",6,Master,"Google Cloud Engineer,Scrum Master,PMP",0
+C_3,"Git,Node.js,Docker,Azure",4,Bachelor,"AWS Solutions Architect,Machine Learning Specialization",3
+C_4,"Kubernetes,Leadership,Azure",1,Master,,3
+C_5,"Excel,GCP,Agile",11,Bachelor,,0
+C_6,"GCP,Pandas,AWS,Machine Learning,React",8,Bachelor,"Google Cloud Engineer,PMP",2
+C_7,"Scrum,Azure,Git,Agile,Pandas",5,Bachelor,Google Cloud Engineer,3
+C_8,"Azure,Agile,Excel,AWS,Docker,SQL,Git,Communication",10,Bachelor,,1
+C_9,"C++,Agile,Power BI,React,TypeScript,Deep Learning,Azure",4,Bachelor,"Machine Learning Specialization,Data Science Professional",3
+C_10,"Kubernetes,AWS,Deep Learning,Tableau,Power BI,Pandas,SQL,Machine Learning",4,Master,"Data Science Professional,AWS Solutions Architect,Scrum Master",3
+C_11,"Tableau,Azure,Excel,Python,Machine Learning,Scrum,Git,Docker,Leadership",9,Bachelor,"AWS Solutions Architect,PMP,Google Cloud Engineer",4
+C_12,"Agile,GCP,Tableau",6,Bachelor,Data Science Professional,4
+C_13,"Leadership,Docker",15,High School,"PMP,Google Cloud Engineer",0
+C_14,"Communication,Pandas,CI/CD,Power BI,Excel",4,Bachelor,"Data Science Professional,Google Cloud Engineer,PMP",4
+C_15,"C++,Excel,CI/CD,GCP,React,Kubernetes,TypeScript,Tableau",14,Bachelor,AWS Solutions Architect,2
+C_16,"Communication,Excel",7,Bachelor,,0
+C_17,"AWS,Pandas",1,Master,,4
+C_18,"Azure,Scrum,Power BI,C++,Excel",4,Master,"Google Cloud Engineer,Scrum Master,Data Science Professional",1
+C_19,"Machine Learning,Scrum,Node.js",11,Bachelor,"Machine Learning Specialization,AWS Solutions Architect,Data Science Professional",0
+C_20,"CI/CD,Docker,Machine Learning,AWS,C++,Leadership,Excel,TypeScript",4,Bachelor,"Scrum Master,Google Cloud Engineer",0
+C_21,"Excel,Machine Learning,SQL,Agile,CI/CD,Python,Pandas,AWS,Java",13,Bachelor,Scrum Master,0
+C_22,"React,Python,Azure,TypeScript",9,Bachelor,"Google Cloud Engineer,Machine Learning Specialization,PMP",1
+C_23,"Communication,CI/CD",1,Master,,0
+C_24,"Tableau,CI/CD,Java,SQL,Git,Pandas,Scrum,Communication,Leadership",7,Bachelor,Data Science Professional,4
+C_25,"Leadership,Pandas",13,Master,"PMP,Google Cloud Engineer",5
+C_26,"AWS,Azure,React,Deep Learning,GCP,TypeScript,Docker",2,High School,,0
+C_27,"C++,Tableau,Azure,Deep Learning,Kubernetes,Pandas,AWS,Leadership,GCP,Communication",14,Master,"Data Science Professional,Machine Learning Specialization",0
+C_28,"GCP,Scrum,Machine Learning,Deep Learning,Azure,Git,Communication,Agile,Leadership,Tableau",6,Master,Machine Learning Specialization,5
+C_29,"Tableau,Power BI,Azure,SQL,Pandas,Node.js",8,High School,"Google Cloud Engineer,PMP",1
+C_30,"Excel,Git,Node.js,CI/CD,Python,Machine Learning,Pandas,Deep Learning,SQL",11,Bachelor,Scrum Master,1
+C_31,"GCP,Kubernetes",1,Master,Machine Learning Specialization,1
+C_32,"Kubernetes,Excel,Node.js",4,PhD,Google Cloud Engineer,1
+C_33,"Python,Java,Docker,Node.js,AWS,Azure,Git,Machine Learning",12,Master,"Google Cloud Engineer,Machine Learning Specialization,Scrum Master",2
+C_34,"AWS,CI/CD,Python,C++,React,Docker",8,Master,"PMP,Data Science Professional",3
+C_35,"Docker,Python,Machine Learning,Azure,Java,Communication,Agile,SQL,Scrum,GCP",13,Bachelor,"Scrum Master,Data Science Professional",4
+C_36,"React,Communication,C++",8,High School,"AWS Solutions Architect,Data Science Professional,Google Cloud Engineer",2
+C_37,"Pandas,Scrum,Docker,Leadership,Git,Machine Learning,GCP,Tableau",9,Master,"Scrum Master,PMP",4
+C_38,"C++,Node.js,Scrum,React",5,Master,"Scrum Master,Data Science Professional",0
+C_39,"GCP,C++,Node.js,Communication,Leadership,Docker",14,Bachelor,Data Science Professional,3
+C_40,"Scrum,Pandas,GCP,Tableau",10,High School,Machine Learning Specialization,2
+C_41,"C++,Deep Learning,Python,SQL,AWS",15,Master,,3
+C_42,"Agile,Communication,C++,React,Power BI,CI/CD,AWS,Deep Learning",0,Master,,3
+C_43,"Java,Git,Tableau,TypeScript,SQL",7,PhD,,3
+C_44,"TypeScript,Scrum,Tableau,Excel",10,PhD,"Data Science Professional,Machine Learning Specialization,Scrum Master",4
+C_45,"Java,Power BI,TypeScript,Azure,AWS,Agile,Tableau,Git,Leadership",8,Bachelor,"Google Cloud Engineer,PMP",2
+C_46,"Excel,Pandas,Deep Learning,Scrum,AWS,React,Agile",6,High School,"PMP,Data Science Professional,Scrum Master",3
+C_47,"C++,Node.js",12,PhD,,4
+C_48,"Power BI,Python,Kubernetes,GCP,React,Node.js,Excel,AWS",15,Bachelor,"Scrum Master,AWS Solutions Architect,Machine Learning Specialization",2
+C_49,"CI/CD,Java,TypeScript,Deep Learning,Leadership,Excel,Python,React",0,High School,"Google Cloud Engineer,Scrum Master,Machine Learning Specialization",0
+C_50,"React,Docker,C++,TypeScript,Git,Leadership",12,Bachelor,"PMP,AWS Solutions Architect,Scrum Master",0
+C_51,"SQL,Kubernetes,AWS,Agile,Pandas,CI/CD,Python,Scrum,C++,Node.js",0,Master,Google Cloud Engineer,3
+C_52,"Communication,C++,TypeScript",8,Master,Data Science Professional,4
+C_53,"Java,GCP,Machine Learning",0,PhD,"Scrum Master,Google Cloud Engineer,AWS Solutions Architect",4
+C_54,"Machine Learning,Git,GCP,Scrum,Leadership",3,Master,,2
+C_55,"Node.js,Scrum,Kubernetes,Pandas,Tableau,Docker,Python,CI/CD,Power BI,SQL",13,PhD,"Machine Learning Specialization,Google Cloud Engineer,Scrum Master",1
+C_56,"Agile,Azure,Leadership,Excel,Power BI,TypeScript,Node.js,Git,Docker,CI/CD",7,Master,,2
+C_57,"AWS,TypeScript,Communication,Leadership,React,Docker,Python,Power BI,Scrum",5,Bachelor,"PMP,Machine Learning Specialization",2
+C_58,"Excel,Python,Tableau,C++,Pandas,AWS",13,Bachelor,Machine Learning Specialization,3
+C_59,"TypeScript,Python,Pandas,GCP,AWS,React,Leadership,Agile,Kubernetes",15,Bachelor,"Scrum Master,Data Science Professional",2
+C_60,"Git,TypeScript,Azure,GCP,Scrum,AWS,Machine Learning",6,Bachelor,Google Cloud Engineer,1
+C_61,"Azure,Communication,Tableau,Leadership,GCP,Machine Learning,C++,Agile,AWS",11,Bachelor,,5
+C_62,"Deep Learning,Azure,SQL,Scrum,Excel,GCP,CI/CD,Power BI,Machine Learning,Node.js",0,Bachelor,"Scrum Master,Machine Learning Specialization,PMP",1
+C_63,"Azure,Power BI",3,Master,"Scrum Master,AWS Solutions Architect,Data Science Professional",1
+C_64,"Communication,GCP,Pandas,AWS",3,Bachelor,"Data Science Professional,Machine Learning Specialization,Google Cloud Engineer",4
+C_65,"TypeScript,CI/CD,GCP,Communication,Node.js,Scrum,SQL,Machine Learning",6,Master,"Machine Learning Specialization,AWS Solutions Architect",1
+C_66,"Java,Excel,Pandas,Python,Node.js",14,Master,"PMP,AWS Solutions Architect,Google Cloud Engineer",2
+C_67,"Git,TypeScript,Pandas,AWS,Azure,Communication",6,Bachelor,Machine Learning Specialization,1
+C_68,"Deep Learning,Pandas,SQL,Java,GCP,Communication",9,Bachelor,"Machine Learning Specialization,PMP,Scrum Master",2
+C_69,"Excel,Power BI,TypeScript,Pandas,Leadership,SQL,Node.js,Docker,Azure,Python",2,Bachelor,,5
+C_70,"Communication,SQL,Java,Power BI,Tableau,TypeScript",8,Bachelor,"Machine Learning Specialization,Scrum Master,AWS Solutions Architect",3
+C_71,"Node.js,Docker,Git,Machine Learning,Java,Scrum,CI/CD",15,Bachelor,"Data Science Professional,AWS Solutions Architect,Scrum Master",0
+C_72,"Azure,Docker,Machine Learning,React,Tableau,Python,Excel",14,Bachelor,Data Science Professional,2
+C_73,"Agile,TypeScript,SQL,C++,Azure,Excel,Deep Learning,GCP,Git",15,Bachelor,Machine Learning Specialization,1
+C_74,"Excel,Python,CI/CD,Node.js,Pandas,AWS",3,Bachelor,,5
+C_75,"Power BI,Git,GCP,Tableau",8,Bachelor,"Scrum Master,Google Cloud Engineer,Machine Learning Specialization",4
+C_76,"React,C++,Leadership,Tableau",4,Master,"Scrum Master,PMP",4
+C_77,"Python,GCP,Git,Communication,Agile,Power BI",4,Bachelor,"PMP,Machine Learning Specialization,Scrum Master",3
+C_78,"C++,Git,AWS,Communication,React,Scrum,Node.js",1,Bachelor,"Machine Learning Specialization,Scrum Master,Data Science Professional",5
+C_79,"Power BI,SQL,Deep Learning,Tableau",10,Master,"AWS Solutions Architect,Data Science Professional,Scrum Master",0
+C_80,"Node.js,Agile,Deep Learning,Pandas",15,Master,"PMP,Data Science Professional",5
+C_81,"Agile,Pandas,Docker,Excel,React,Scrum,Power BI,SQL",2,Bachelor,"Google Cloud Engineer,AWS Solutions Architect",3
+C_82,"Agile,Git,Machine Learning",14,Bachelor,"AWS Solutions Architect,Machine Learning Specialization",2
+C_83,"GCP,Kubernetes",11,Bachelor,Data Science Professional,3
+C_84,"Java,Pandas,Leadership,React",7,Bachelor,Google Cloud Engineer,3
+C_85,"TypeScript,Azure,Scrum,Python,CI/CD,GCP",5,High School,"Data Science Professional,PMP",5
+C_86,"Git,Azure,TypeScript,GCP,C++,React,Power BI,Machine Learning",7,Bachelor,"Data Science Professional,PMP",5
+C_87,"Python,Scrum,React,Azure,CI/CD,Communication",1,PhD,"PMP,Google Cloud Engineer,Machine Learning Specialization",1
+C_88,"Leadership,Azure,Scrum,CI/CD,Deep Learning",3,PhD,,2
+C_89,"SQL,Communication,Kubernetes,Deep Learning,Pandas,GCP,Docker,Node.js,Java",6,Bachelor,"Data Science Professional,Machine Learning Specialization",2
+C_90,"Azure,Power BI,GCP,CI/CD",10,Master,"AWS Solutions Architect,Google Cloud Engineer,Data Science Professional",5
+C_91,"Excel,Kubernetes,Pandas,React,Python,Azure,CI/CD,Machine Learning",14,Bachelor,"Data Science Professional,Scrum Master",5
+C_92,"Machine Learning,Scrum,AWS,Power BI,Python,Excel,Docker",7,Master,"Machine Learning Specialization,PMP,Scrum Master",0
+C_93,"SQL,GCP,Power BI,Machine Learning",3,Bachelor,Scrum Master,3
+C_94,"Scrum,Git,Excel,Node.js,Communication,Deep Learning,Agile",3,Master,"PMP,AWS Solutions Architect,Machine Learning Specialization",1
+C_95,"TypeScript,AWS,Kubernetes,Machine Learning,Scrum,Excel,Leadership,SQL,React",8,Bachelor,,3
+C_96,"Scrum,C++,Agile",0,High School,"Google Cloud Engineer,Machine Learning Specialization",4
+C_97,"Pandas,Excel,C++,Communication,AWS",10,Master,,2
+C_98,"Deep Learning,Excel,Azure,Java",3,Master,,1
+C_99,"Kubernetes,AWS",10,High School,"AWS Solutions Architect,Google Cloud Engineer",5
+C_100,"Tableau,Machine Learning,Pandas,Power BI,TypeScript,Kubernetes,CI/CD,Git",14,Bachelor,,5
+C_101,"GCP,TypeScript,Agile,Python,SQL,Power BI,React,Node.js,Machine Learning,AWS",14,High School,,2
+C_102,"Pandas,Deep Learning,Azure,Leadership",10,Bachelor,"Scrum Master,Data Science Professional",4
+C_103,"Machine Learning,Git,CI/CD,Agile,Excel,C++,Node.js,TypeScript",7,Bachelor,"Scrum Master,Machine Learning Specialization,AWS Solutions Architect",2
+C_104,"Docker,Scrum,Azure,Kubernetes,Deep Learning,Power BI,Pandas,Excel",2,High School,,5
+C_105,"Deep Learning,Excel,SQL,Communication,Git,Leadership,Docker",3,Bachelor,"Machine Learning Specialization,AWS Solutions Architect,PMP",4
+C_106,"Kubernetes,Machine Learning,Communication,Tableau,C++,Deep Learning",15,Bachelor,,2
+C_107,"Kubernetes,Machine Learning,Azure,Communication,AWS,Node.js,Excel,Python,Scrum,Tableau",5,Bachelor,"PMP,Machine Learning Specialization",0
+C_108,"Deep Learning,Communication,Scrum,React",2,Bachelor,,0
+C_109,"C++,React,Node.js,TypeScript,Docker,Java,Kubernetes,GCP,Leadership,Git",2,Master,Google Cloud Engineer,4
+C_110,"Scrum,Pandas",8,Bachelor,"Scrum Master,Data Science Professional,Machine Learning Specialization",3
+C_111,"C++,Tableau,Machine Learning,Kubernetes,Node.js,Scrum",9,Master,"Data Science Professional,PMP,AWS Solutions Architect",1
+C_112,"Leadership,SQL,Python,C++,GCP,Agile,Deep Learning,Azure",9,Bachelor,,3
+C_113,"Java,Deep Learning,React,Excel,AWS,Tableau,Agile,Kubernetes",2,Bachelor,,3
+C_114,"TypeScript,Pandas",10,Bachelor,"Machine Learning Specialization,Scrum Master,PMP",0
+C_115,"Python,Docker,Java,Leadership,TypeScript,Kubernetes,Pandas,Node.js",3,Bachelor,"Data Science Professional,AWS Solutions Architect,Scrum Master",2
+C_116,"AWS,Docker,Java,Pandas,Tableau,Machine Learning,Leadership",6,PhD,"PMP,Google Cloud Engineer",1
+C_117,"Deep Learning,Azure,C++",5,Master,,1
+C_118,"TypeScript,Communication,Git,CI/CD,Scrum,Docker,Leadership,Deep Learning,Agile",2,Bachelor,"PMP,Data Science Professional",0
+C_119,"Tableau,Pandas,GCP,TypeScript,Agile,SQL,Communication",11,Master,,5
+C_120,"Leadership,Tableau,React",14,Bachelor,,3
+C_121,"Docker,Leadership,Power BI,Tableau,Deep Learning",1,Bachelor,"Machine Learning Specialization,AWS Solutions Architect",4
+C_122,"SQL,AWS,Git,TypeScript",14,Bachelor,PMP,2
+C_123,"React,Node.js,Docker,Leadership,SQL,Scrum",2,Bachelor,"PMP,Machine Learning Specialization,Google Cloud Engineer",2
+C_124,"Communication,Scrum,Deep Learning",11,Bachelor,"Google Cloud Engineer,Data Science Professional,AWS Solutions Architect",2
+C_125,"React,Agile,Docker,Deep Learning,Tableau,Pandas,Node.js,Leadership,Kubernetes,Python",11,Bachelor,PMP,3
+C_126,"AWS,Deep Learning,Pandas,GCP,Machine Learning",1,Master,Data Science Professional,3
+C_127,"Java,Git,Leadership,CI/CD",14,High School,"Machine Learning Specialization,Google Cloud Engineer",3
+C_128,"CI/CD,TypeScript,AWS,Excel,Scrum,GCP",15,PhD,PMP,5
+C_129,"TypeScript,GCP,React,Tableau,Agile,Node.js,Java,C++,Deep Learning",8,High School,"PMP,Data Science Professional,AWS Solutions Architect",5
+C_130,"Machine Learning,GCP,Pandas,Java,Azure,TypeScript,Tableau,Deep Learning,Node.js,SQL",7,Master,"AWS Solutions Architect,Scrum Master",0
+C_131,"Tableau,Kubernetes,AWS,React,Pandas,Git,Scrum,Python",10,PhD,"Google Cloud Engineer,Machine Learning Specialization",0
+C_132,"Power BI,Git,Deep Learning,CI/CD,TypeScript,Python",2,High School,Google Cloud Engineer,4
+C_133,"Node.js,Machine Learning,GCP,AWS,Scrum,Git,SQL,Agile,CI/CD,Docker",14,High School,"Data Science Professional,Machine Learning Specialization,AWS Solutions Architect",5
+C_134,"Communication,AWS,Deep Learning,GCP,Node.js,Python,Kubernetes,Git,Leadership,Pandas",2,Bachelor,"AWS Solutions Architect,Data Science Professional",4
+C_135,"Tableau,Excel,Python,React,Power BI,SQL,Agile,Kubernetes,Azure,CI/CD",0,Bachelor,,2
+C_136,"CI/CD,Scrum,Agile,Machine Learning,Communication",10,Bachelor,"Data Science Professional,PMP",5
+C_137,"Scrum,TypeScript,Git,Power BI",5,Master,,5
+C_138,"SQL,GCP,C++,CI/CD,Scrum,Agile,Docker,Git,React",15,Bachelor,PMP,2
+C_139,"Agile,Docker",8,Bachelor,"Scrum Master,Machine Learning Specialization",5
+C_140,"React,Docker,Java,Power BI,Agile,Kubernetes,Tableau,Azure,Pandas",13,High School,Data Science Professional,2
+C_141,"Machine Learning,Pandas,Docker,GCP,Agile,TypeScript,Node.js",5,Master,"Scrum Master,AWS Solutions Architect",5
+C_142,"Leadership,Node.js,Azure,Agile,SQL,Pandas,React",11,Bachelor,AWS Solutions Architect,1
+C_143,"SQL,Deep Learning,Pandas,AWS,Kubernetes,Leadership,React,CI/CD,Git",14,PhD,"Scrum Master,AWS Solutions Architect",4
+C_144,"Tableau,Kubernetes,React,Docker",8,Bachelor,,0
+C_145,"Power BI,Tableau,React,Excel",3,Bachelor,"Machine Learning Specialization,Scrum Master",1
+C_146,"Git,Power BI,C++,Machine Learning,Deep Learning,Pandas",14,Bachelor,"AWS Solutions Architect,PMP,Data Science Professional",5
+C_147,"Excel,GCP,Java",5,Master,AWS Solutions Architect,1
+C_148,"AWS,Power BI,Python,Kubernetes",11,Bachelor,Data Science Professional,0
+C_149,"GCP,React,Git",15,Bachelor,"Data Science Professional,AWS Solutions Architect,Google Cloud Engineer",2
+C_150,"TypeScript,Scrum,Tableau",11,Bachelor,Google Cloud Engineer,3
+C_151,"SQL,Machine Learning,Tableau,Deep Learning,GCP,Java,Communication,Docker,AWS,Excel",9,Master,"Google Cloud Engineer,Data Science Professional",2
+C_152,"Agile,GCP,Leadership,Excel",2,Bachelor,Data Science Professional,4
+C_153,"Java,Scrum,Leadership,CI/CD",10,Master,,0
+C_154,"SQL,Agile,Communication",8,Master,"Data Science Professional,AWS Solutions Architect,Scrum Master",5
+C_155,"GCP,Agile,CI/CD,Power BI,AWS,React,Scrum,TypeScript,Pandas,Kubernetes",1,Bachelor,"Scrum Master,Machine Learning Specialization,Google Cloud Engineer",2
+C_156,"Docker,Git,CI/CD,Kubernetes",12,Bachelor,"Data Science Professional,Machine Learning Specialization",0
+C_157,"AWS,TypeScript,Machine Learning,Azure,Git,CI/CD,Deep Learning",3,High School,"Data Science Professional,Scrum Master,Google Cloud Engineer",1
+C_158,"Communication,Docker,C++,Java,Power BI,Tableau,TypeScript",15,Master,"AWS Solutions Architect,Machine Learning Specialization,Scrum Master",4
+C_159,"AWS,C++,Communication,Kubernetes,SQL,Leadership,GCP,Power BI,Tableau",9,Bachelor,,3
+C_160,"Azure,CI/CD,Kubernetes,React",11,High School,,4
+C_161,"C++,Kubernetes,Excel,GCP,Pandas,React,Tableau,TypeScript,Azure,Node.js",3,Bachelor,,3
+C_162,"Docker,Excel,Kubernetes,Deep Learning,C++,Tableau,React",1,High School,Machine Learning Specialization,2
+C_163,"Tableau,TypeScript,Deep Learning,Leadership,CI/CD,Scrum,Docker,Excel,Java",12,PhD,"Data Science Professional,PMP",4
+C_164,"Excel,Power BI,Communication,GCP,Git,Python,Kubernetes,Docker,Machine Learning,C++",9,Master,,4
+C_165,"Azure,Agile,Communication,Scrum,AWS,SQL,Power BI,Java,React",4,Master,AWS Solutions Architect,4
+C_166,"C++,Python,TypeScript",10,Bachelor,"Machine Learning Specialization,Google Cloud Engineer,Scrum Master",4
+C_167,"CI/CD,SQL,Deep Learning,Tableau,C++,Excel,Docker,Power BI,React",10,PhD,"Data Science Professional,PMP,Machine Learning Specialization",5
+C_168,"Leadership,Power BI,C++,AWS,Azure,Excel",9,Bachelor,"PMP,Google Cloud Engineer",5
+C_169,"Docker,Power BI,Kubernetes,Excel,Azure,GCP,Machine Learning,React,Tableau",11,PhD,PMP,0
+C_170,"Git,Pandas,Kubernetes,TypeScript,Azure,Power BI",6,Bachelor,"Data Science Professional,PMP",1
+C_171,"Leadership,CI/CD,Communication",7,Bachelor,Machine Learning Specialization,1
+C_172,"Machine Learning,Node.js",10,Master,,5
+C_173,"Python,Excel,Java,Node.js",15,Bachelor,PMP,2
+C_174,"Agile,SQL,Pandas,CI/CD,Communication,AWS",1,PhD,Scrum Master,1
+C_175,"React,Power BI",5,PhD,"AWS Solutions Architect,Machine Learning Specialization",2
+C_176,"Docker,GCP,TypeScript",15,Master,Data Science Professional,3
+C_177,"C++,Machine Learning,Docker,Java,TypeScript,Azure",5,High School,"PMP,Data Science Professional",5
+C_178,"Java,Leadership,Agile,React,Node.js",10,High School,,1
+C_179,"Power BI,Docker,AWS,Python",8,Bachelor,"PMP,Machine Learning Specialization,Data Science Professional",4
+C_180,"Azure,Agile",11,Master,,5
+C_181,"TypeScript,GCP,Java",12,Master,"Machine Learning Specialization,AWS Solutions Architect",5
+C_182,"Kubernetes,Leadership,AWS,Scrum,Deep Learning,Power BI",4,Bachelor,"Scrum Master,Data Science Professional",3
+C_183,"Scrum,C++,AWS,Leadership,Pandas,Tableau,TypeScript,Communication,Kubernetes,SQL",3,High School,Data Science Professional,4
+C_184,"Java,Docker,Tableau,TypeScript",3,Master,"AWS Solutions Architect,Data Science Professional,Scrum Master",0
+C_185,"Deep Learning,Tableau,Node.js,TypeScript,Communication,SQL,Excel,Agile,GCP",0,Bachelor,,5
+C_186,"Communication,Pandas,SQL,Node.js,Kubernetes",2,Bachelor,,0
+C_187,"SQL,GCP,Node.js,Java,Deep Learning,Scrum,Kubernetes,React,TypeScript",12,Bachelor,Machine Learning Specialization,2
+C_188,"Java,Excel,React",4,Master,AWS Solutions Architect,0
+C_189,"TypeScript,Scrum,Excel,Node.js,Git,React",7,Bachelor,"Google Cloud Engineer,PMP",1
+C_190,"SQL,Scrum,Node.js",0,Bachelor,,0
+C_191,"TypeScript,Leadership",1,Bachelor,,3
+C_192,"AWS,Excel,C++,SQL,Deep Learning,Tableau,GCP,CI/CD,Docker",10,Bachelor,Machine Learning Specialization,4
+C_193,"Node.js,GCP,Azure,SQL,Excel",5,Master,"Data Science Professional,Scrum Master,AWS Solutions Architect",2
+C_194,"Tableau,Docker,Node.js,Scrum,Deep Learning,GCP,React,Java",15,Bachelor,PMP,5
+C_195,"TypeScript,SQL,Excel,Node.js",13,Bachelor,Scrum Master,1
+C_196,"C++,Docker,Agile,Pandas,TypeScript,Kubernetes",2,Bachelor,AWS Solutions Architect,2
+C_197,"Scrum,Leadership,Git,SQL,Pandas,C++,Excel,Communication",15,Bachelor,"PMP,AWS Solutions Architect",1
+C_198,"CI/CD,Machine Learning,Power BI,AWS,Git",6,Bachelor,Data Science Professional,2
+C_199,"React,TypeScript,Excel,Agile,Kubernetes,GCP",8,Bachelor,"Scrum Master,AWS Solutions Architect,Machine Learning Specialization",2
+C_200,"Kubernetes,Docker,Node.js,SQL,Communication",7,Master,,2
+C_201,"Communication,CI/CD,Node.js,GCP,Deep Learning,C++,Docker,AWS,React,Agile",7,Bachelor,"PMP,Scrum Master",5
+C_202,"TypeScript,Java,Kubernetes,Git,Deep Learning,Excel,Power BI,Agile,SQL",1,Master,,5
+C_203,"Python,Node.js",4,Master,AWS Solutions Architect,5
+C_204,"Python,C++,Tableau,TypeScript",11,High School,"Machine Learning Specialization,Scrum Master,AWS Solutions Architect",0
+C_205,"Excel,Node.js,Python,Scrum,Tableau,Azure,CI/CD,GCP,Agile,Communication",13,Master,AWS Solutions Architect,0
+C_206,"Deep Learning,AWS,C++,Leadership,Tableau,Azure,Kubernetes,Communication,React,SQL",11,PhD,"Data Science Professional,Google Cloud Engineer,Machine Learning Specialization",2
+C_207,"Agile,SQL,Pandas",12,Bachelor,"AWS Solutions Architect,Machine Learning Specialization,Google Cloud Engineer",0
+C_208,"Node.js,Agile,Docker,Communication,Machine Learning,Tableau,SQL,AWS,C++",15,Bachelor,,5
+C_209,"Excel,Communication,Scrum,SQL,Java,Docker",0,PhD,Machine Learning Specialization,3
+C_210,"GCP,Java,Communication",7,Bachelor,"Machine Learning Specialization,Data Science Professional,PMP",3
+C_211,"Git,CI/CD,Pandas,Tableau",11,High School,"Google Cloud Engineer,AWS Solutions Architect,PMP",4
+C_212,"Docker,Python,Agile,Azure,TypeScript,Power BI,AWS,Kubernetes",12,Bachelor,"AWS Solutions Architect,Data Science Professional,PMP",1
+C_213,"Pandas,Azure,Deep Learning",12,Master,Machine Learning Specialization,3
+C_214,"Kubernetes,Machine Learning,Pandas,Python,GCP,TypeScript,CI/CD",8,Bachelor,,1
+C_215,"TypeScript,Excel,Git,Tableau,Node.js,Machine Learning,Python,Pandas",11,Bachelor,"Scrum Master,AWS Solutions Architect",2
+C_216,"React,Pandas,Excel,AWS,Communication,Tableau,Java,CI/CD",5,Bachelor,"PMP,Scrum Master",1
+C_217,"Java,Node.js,Azure",13,Bachelor,,2
+C_218,"AWS,Agile,Power BI,Leadership,Git,C++",14,Bachelor,"AWS Solutions Architect,Scrum Master",2
+C_219,"Docker,TypeScript,CI/CD,Node.js,Leadership,Deep Learning,GCP,Scrum",6,Bachelor,Scrum Master,2
+C_220,"CI/CD,Git,Agile,Power BI,Communication,AWS",10,Bachelor,"PMP,AWS Solutions Architect,Google Cloud Engineer",4
+C_221,"Java,Scrum,Excel,Python,TypeScript,C++,Leadership,GCP,Pandas,Node.js",13,Master,Machine Learning Specialization,2
+C_222,"Azure,Scrum,Deep Learning,Git,Node.js",12,High School,"Data Science Professional,Scrum Master,Machine Learning Specialization",4
+C_223,"Kubernetes,Git",2,Bachelor,Machine Learning Specialization,5
+C_224,"Java,Agile,Leadership,SQL,Communication,React,Docker",13,Bachelor,,2
+C_225,"Tableau,CI/CD,Excel,Communication,Git",7,Bachelor,"Scrum Master,Data Science Professional,Google Cloud Engineer",2
+C_226,"Power BI,Machine Learning",9,Bachelor,,0
+C_227,"Kubernetes,GCP,Docker,TypeScript",6,Bachelor,"Scrum Master,AWS Solutions Architect",3
+C_228,"Docker,Pandas,GCP,SQL,Machine Learning,Python,CI/CD,Leadership,Java",7,Bachelor,PMP,4
+C_229,"TypeScript,AWS,React,Agile,Java,Leadership,Node.js,Scrum",0,Master,Scrum Master,4
+C_230,"React,Python,C++,Scrum,Azure,Pandas,Machine Learning,Java",11,Bachelor,"AWS Solutions Architect,PMP,Scrum Master",4
+C_231,"Leadership,React,CI/CD,Git,Communication,Machine Learning,Kubernetes",11,Master,Machine Learning Specialization,5
+C_232,"Leadership,Communication,Pandas,Deep Learning,Docker,Machine Learning",7,Bachelor,PMP,5
+C_233,"Tableau,React,Node.js,Leadership",4,Bachelor,"Google Cloud Engineer,Scrum Master,Machine Learning Specialization",4
+C_234,"Power BI,GCP,Deep Learning,Java",10,Master,,2
+C_235,"Power BI,Deep Learning",6,Master,"Scrum Master,Machine Learning Specialization,Data Science Professional",5
+C_236,"Power BI,Java,Pandas,Communication,Python,AWS,GCP,SQL,Azure",7,Bachelor,Scrum Master,4
+C_237,"Excel,Tableau,Machine Learning,Communication,Scrum,Azure,CI/CD,Kubernetes,SQL",14,Bachelor,"AWS Solutions Architect,Google Cloud Engineer,PMP",0
+C_238,"Azure,Kubernetes,Pandas,TypeScript,Machine Learning,AWS,C++,Git,Node.js",5,Master,Google Cloud Engineer,0
+C_239,"Excel,Azure,Leadership,CI/CD,Java,Docker,GCP",9,Bachelor,,1
+C_240,"SQL,Azure,Agile,Deep Learning,Scrum,AWS,Leadership,Docker",7,Master,"Scrum Master,Google Cloud Engineer,PMP",5
+C_241,"React,TypeScript,Pandas,Agile,Scrum,CI/CD,Tableau,Azure",11,Bachelor,"PMP,Data Science Professional,AWS Solutions Architect",5
+C_242,"CI/CD,TypeScript,Agile",11,Master,"Google Cloud Engineer,Scrum Master,Machine Learning Specialization",3
+C_243,"Docker,GCP,CI/CD,Excel,Communication,Deep Learning",15,Master,,0
+C_244,"Agile,TypeScript,Python",3,PhD,Scrum Master,3
+C_245,"Node.js,C++",4,Master,"Google Cloud Engineer,PMP",0
+C_246,"Azure,Pandas,Kubernetes,Agile,Java,SQL,React",9,Master,Scrum Master,5
+C_247,"Git,Machine Learning,Python",6,Bachelor,Data Science Professional,1
+C_248,"Scrum,TypeScript,Python,CI/CD,Docker,Machine Learning,Node.js,Deep Learning,Power BI,SQL",7,Bachelor,,0
+C_249,"Kubernetes,GCP,Deep Learning,React,Scrum,Leadership,Pandas",0,Master,Scrum Master,2
+C_250,"Agile,CI/CD,Deep Learning,Node.js,Leadership",14,Master,,0
+C_251,"Machine Learning,Communication,CI/CD,React",11,PhD,"Google Cloud Engineer,Machine Learning Specialization",2
+C_252,"AWS,Excel,Leadership",9,Master,,5
+C_253,"C++,Tableau,Leadership,Git,CI/CD,React",9,Master,Scrum Master,3
+C_254,"AWS,Power BI,Agile",2,Bachelor,,2
+C_255,"Deep Learning,React,Communication,Node.js,Kubernetes,Excel,Java",15,PhD,,0
+C_256,"Python,Azure,C++",1,PhD,"Data Science Professional,PMP,Scrum Master",3
+C_257,"Pandas,Agile,Excel,Scrum,Leadership,Deep Learning,Azure,CI/CD",9,High School,Google Cloud Engineer,4
+C_258,"React,Communication,Agile,Scrum,Pandas,GCP,Node.js",7,High School,,3
+C_259,"TypeScript,Leadership,SQL",9,Master,AWS Solutions Architect,0
+C_260,"Git,Python,Java,Power BI",11,Bachelor,"Google Cloud Engineer,PMP",1
+C_261,"CI/CD,Machine Learning,Python,Docker,Node.js,Azure",2,Bachelor,,3
+C_262,"Tableau,Kubernetes,SQL,Power BI,Communication,Java,Git,Leadership,Azure",3,Master,,1
+C_263,"Python,SQL,CI/CD,AWS,Git,Power BI,Kubernetes,React,Deep Learning,Pandas",1,Bachelor,"Google Cloud Engineer,PMP,Machine Learning Specialization",3
+C_264,"Azure,Pandas,Communication,Kubernetes,Machine Learning,Tableau,SQL",5,Bachelor,,3
+C_265,"TypeScript,GCP,Docker",2,Bachelor,,2
+C_266,"GCP,Communication,CI/CD,Leadership,AWS",14,Bachelor,"Google Cloud Engineer,Data Science Professional,Machine Learning Specialization",1
+C_267,"Node.js,Python",7,Bachelor,,2
+C_268,"Scrum,React",9,Bachelor,Scrum Master,3
+C_269,"Deep Learning,Git",8,High School,Data Science Professional,3
+C_270,"TypeScript,Pandas,Communication,Machine Learning,Tableau,Deep Learning,React",2,Bachelor,,3
+C_271,"AWS,GCP,Azure,Docker",12,Master,"PMP,Scrum Master",2
+C_272,"Pandas,C++,Deep Learning,Communication,Machine Learning",4,Bachelor,"Scrum Master,PMP,Machine Learning Specialization",0
+C_273,"Kubernetes,C++,TypeScript,GCP,Scrum,Azure,Machine Learning,Pandas,Java,React",9,Master,,1
+C_274,"Deep Learning,Pandas,AWS,Kubernetes,React,Tableau,SQL",9,Bachelor,AWS Solutions Architect,3
+C_275,"Excel,CI/CD,AWS,Machine Learning,TypeScript,Agile,Deep Learning,Communication,Python",1,Master,Google Cloud Engineer,1
+C_276,"Kubernetes,Scrum,Agile,Git,Pandas,Communication,Azure,Leadership",0,PhD,Machine Learning Specialization,3
+C_277,"Pandas,Docker,Machine Learning,SQL",14,High School,"Machine Learning Specialization,Scrum Master,Data Science Professional",0
+C_278,"Scrum,Node.js,Java,Kubernetes,C++,CI/CD,Azure,Excel",14,Master,,4
+C_279,"Agile,GCP,Power BI,Node.js,Excel",15,High School,"Scrum Master,Google Cloud Engineer",3
+C_280,"Agile,Tableau,AWS,Excel,Python",12,Master,"Scrum Master,Data Science Professional",3
+C_281,"Communication,Tableau,Docker,React,Azure,Java,Python",10,Bachelor,,2
+C_282,"Power BI,Tableau",11,Master,Google Cloud Engineer,0
+C_283,"Scrum,AWS,Azure,Excel,CI/CD",1,Master,Data Science Professional,3
+C_284,"Java,CI/CD,AWS,Communication,Docker,Kubernetes,Python",11,PhD,Data Science Professional,1
+C_285,"Excel,GCP,Java,Power BI,SQL,Pandas,Leadership,AWS,Tableau",0,Bachelor,,2
+C_286,"Deep Learning,Docker,Git,Java,SQL",0,Bachelor,AWS Solutions Architect,4
+C_287,"Pandas,Kubernetes,Scrum,React,Communication,Machine Learning,Docker",9,Bachelor,Machine Learning Specialization,3
+C_288,"Agile,Docker,Java,Excel,Leadership,Kubernetes,AWS,Scrum,React",9,Master,"Google Cloud Engineer,Machine Learning Specialization",5
+C_289,"Git,Communication",12,Master,,1
+C_290,"Leadership,AWS,Agile,Communication,Machine Learning,Power BI,Deep Learning",10,Master,PMP,2
+C_291,"Agile,Pandas,Git,Scrum",10,Bachelor,"Google Cloud Engineer,Machine Learning Specialization",5
+C_292,"Kubernetes,Azure,Machine Learning",0,High School,"Machine Learning Specialization,Scrum Master,Google Cloud Engineer",3
+C_293,"React,Kubernetes,Excel,CI/CD,Machine Learning,Power BI,AWS,Java,TypeScript",2,Master,,2
+C_294,"Docker,Azure",3,High School,Scrum Master,1
+C_295,"Excel,Pandas,Docker",15,Master,"Machine Learning Specialization,Google Cloud Engineer,Scrum Master",1
+C_296,"Machine Learning,Docker",6,PhD,"Machine Learning Specialization,Data Science Professional,PMP",5
+C_297,"GCP,AWS,Machine Learning,SQL,React,Communication",15,Bachelor,"AWS Solutions Architect,Scrum Master",0
+C_298,"Scrum,Agile,Leadership,Power BI,C++,Machine Learning",0,Bachelor,"AWS Solutions Architect,Scrum Master",0
+C_299,"React,Power BI,Git,Azure,Pandas,Excel",12,Bachelor,"PMP,Google Cloud Engineer,Scrum Master",0
+C_300,"TypeScript,CI/CD,Azure,AWS,Scrum,Communication",1,Bachelor,,0
+C_301,"Excel,Node.js,Communication,AWS,CI/CD,SQL,React",13,PhD,"Data Science Professional,Google Cloud Engineer,Scrum Master",2
+C_302,"React,Git,SQL",4,Bachelor,"Google Cloud Engineer,Machine Learning Specialization,Data Science Professional",1
+C_303,"SQL,Node.js,Pandas,Scrum",13,Bachelor,Data Science Professional,2
+C_304,"CI/CD,Pandas,Git,React,Excel,Agile,Leadership",10,Master,"AWS Solutions Architect,Data Science Professional,Scrum Master",0
+C_305,"Deep Learning,CI/CD,Communication,Scrum,Agile,Machine Learning,Leadership,Excel",9,Master,"Scrum Master,PMP",3
+C_306,"Communication,Leadership,Power BI,SQL,Java,Azure,React,Deep Learning,Excel",1,Bachelor,"Machine Learning Specialization,Google Cloud Engineer",0
+C_307,"Azure,Kubernetes,Python,Docker,GCP,Leadership,CI/CD,Power BI,Machine Learning",7,Bachelor,"PMP,Machine Learning Specialization,Scrum Master",4
+C_308,"C++,TypeScript,Node.js",15,Master,"AWS Solutions Architect,Data Science Professional",1
+C_309,"GCP,Git,Tableau",12,Bachelor,,1
+C_310,"C++,SQL,AWS,TypeScript,Kubernetes",6,Bachelor,"Data Science Professional,Scrum Master,AWS Solutions Architect",5
+C_311,"AWS,Kubernetes",15,Bachelor,Scrum Master,4
+C_312,"Kubernetes,CI/CD,Java,Azure,Pandas,GCP,Python,React,SQL,Leadership",6,Master,Machine Learning Specialization,1
+C_313,"Agile,Node.js,Tableau,Python,CI/CD,Power BI",4,Master,,1
+C_314,"Leadership,GCP,Agile,Azure,Node.js,React",11,Bachelor,Scrum Master,2
+C_315,"Leadership,React,Communication,Machine Learning,Python,Tableau,Kubernetes,GCP,Scrum,Docker",3,Bachelor,"PMP,Machine Learning Specialization",2
+C_316,"Agile,Git,CI/CD,GCP,C++,Deep Learning",7,Master,"Machine Learning Specialization,PMP,Google Cloud Engineer",5
+C_317,"Agile,Power BI",9,Bachelor,"Scrum Master,Machine Learning Specialization,AWS Solutions Architect",4
+C_318,"Docker,CI/CD,Git,AWS,Scrum",15,PhD,"Data Science Professional,PMP",1
+C_319,"Java,GCP,Machine Learning,Power BI,Deep Learning,Azure,Excel,CI/CD,Docker,Agile",2,Bachelor,Machine Learning Specialization,2
+C_320,"Docker,Kubernetes,Azure,Communication,GCP,TypeScript,Machine Learning,Power BI",1,Master,,3
+C_321,"Tableau,Machine Learning,Scrum,React,GCP",13,High School,Google Cloud Engineer,1
+C_322,"Node.js,Communication,TypeScript,Deep Learning,Docker,Java,Pandas",15,Bachelor,PMP,5
+C_323,"Python,TypeScript",8,Bachelor,Data Science Professional,1
+C_324,"Pandas,Deep Learning,Leadership,Node.js,Agile,React,Scrum,Power BI,Communication",0,High School,Machine Learning Specialization,2
+C_325,"Docker,Tableau",6,High School,,5
+C_326,"AWS,Git,Kubernetes,GCP,Deep Learning",3,Bachelor,"Google Cloud Engineer,AWS Solutions Architect",0
+C_327,"GCP,TypeScript,Tableau,Leadership,Scrum,Docker",13,Master,PMP,3
+C_328,"C++,Java,React,Python,AWS,Leadership,Deep Learning",6,Master,AWS Solutions Architect,2
+C_329,"React,Agile",8,Master,,4
+C_330,"Scrum,Machine Learning",0,High School,,3
+C_331,"React,Machine Learning,Excel,Azure,Power BI,Deep Learning,C++,Python,GCP",13,Master,"Data Science Professional,Machine Learning Specialization",5
+C_332,"Node.js,Machine Learning,Tableau,CI/CD",3,Bachelor,,3
+C_333,"Leadership,C++,Azure,Tableau,Kubernetes",13,Bachelor,,4
+C_334,"C++,Git,Power BI,Docker,AWS,Python,Communication,Pandas,Machine Learning",15,Bachelor,,4
+C_335,"CI/CD,Machine Learning,Azure",7,Bachelor,"PMP,Scrum Master",0
+C_336,"Java,SQL,GCP",11,Master,"Scrum Master,AWS Solutions Architect",0
+C_337,"Python,Deep Learning",5,Bachelor,"Data Science Professional,PMP,AWS Solutions Architect",2
+C_338,"Java,Machine Learning,React,Scrum,TypeScript,Azure,Agile",15,Master,AWS Solutions Architect,1
+C_339,"Java,Machine Learning",13,PhD,"Data Science Professional,Scrum Master,Google Cloud Engineer",4
+C_340,"Kubernetes,Leadership,Python,Deep Learning,Power BI,Git,Machine Learning,Node.js",14,High School,"Machine Learning Specialization,PMP",0
+C_341,"CI/CD,Communication,Git,AWS,Docker,Tableau,Scrum,Machine Learning,Node.js,Leadership",7,Bachelor,"Google Cloud Engineer,Data Science Professional,AWS Solutions Architect",0
+C_342,"Tableau,Power BI,Java,Pandas",15,Bachelor,"PMP,AWS Solutions Architect",4
+C_343,"Excel,Agile,React,AWS,Pandas",14,Bachelor,"AWS Solutions Architect,Scrum Master,Data Science Professional",2
+C_344,"Power BI,CI/CD,Agile",0,Bachelor,"AWS Solutions Architect,Data Science Professional,Machine Learning Specialization",0
+C_345,"Tableau,Excel,C++,Agile,TypeScript,Docker",11,Master,Scrum Master,2
+C_346,"Leadership,CI/CD,Power BI,Kubernetes,TypeScript,Machine Learning,Communication,AWS,Python,Java",11,Master,"Data Science Professional,Machine Learning Specialization",2
+C_347,"SQL,Java,Power BI",4,Master,"AWS Solutions Architect,PMP,Google Cloud Engineer",1
+C_348,"React,C++,TypeScript",6,Master,,3
+C_349,"Agile,Scrum",3,Master,"Scrum Master,Data Science Professional,Google Cloud Engineer",3
+C_350,"Tableau,CI/CD",1,Bachelor,"Data Science Professional,Scrum Master,Google Cloud Engineer",5
+C_351,"CI/CD,Deep Learning,Machine Learning,React",10,Bachelor,"Scrum Master,Data Science Professional,Google Cloud Engineer",2
+C_352,"Docker,GCP,TypeScript,Deep Learning,Agile,Node.js,Tableau,Git",10,Master,Google Cloud Engineer,1
+C_353,"Scrum,Kubernetes,CI/CD,Deep Learning,Java,Tableau",10,Master,"Data Science Professional,Scrum Master",4
+C_354,"Scrum,Excel,GCP,Node.js,Python,Tableau,Machine Learning,Leadership",12,Bachelor,,1
+C_355,"Java,GCP,Scrum,Azure,Deep Learning,SQL",9,Bachelor,,2
+C_356,"Machine Learning,Leadership,Scrum,Excel,AWS,Agile,React,Git,GCP",1,PhD,"Scrum Master,PMP,AWS Solutions Architect",0
+C_357,"C++,Leadership,TypeScript,AWS,Kubernetes,Communication",6,Master,PMP,3
+C_358,"Scrum,Pandas,Java,CI/CD",3,Bachelor,"PMP,Data Science Professional,Machine Learning Specialization",1
+C_359,"Communication,Azure,Python,Docker",14,Master,AWS Solutions Architect,1
+C_360,"Leadership,SQL,Agile,CI/CD,GCP,Power BI,Excel",11,High School,"Data Science Professional,Google Cloud Engineer",1
+C_361,"Pandas,Tableau,Java,Node.js,Excel,Leadership,React,CI/CD,Kubernetes,Machine Learning",6,Master,"PMP,Machine Learning Specialization",1
+C_362,"Power BI,Excel,Agile,Python,Machine Learning,Kubernetes,TypeScript,AWS,Tableau,Scrum",10,Bachelor,,3
+C_363,"Excel,GCP,Python,Tableau,Kubernetes,Agile",14,Bachelor,"Machine Learning Specialization,Google Cloud Engineer",2
+C_364,"Pandas,Machine Learning,Java,Excel,Agile,Python,CI/CD,C++,Tableau,Node.js",13,Master,Data Science Professional,5
+C_365,"Agile,Pandas,Scrum,Deep Learning,Python,TypeScript,Docker,SQL",2,High School,PMP,4
+C_366,"Communication,AWS,Azure",13,Bachelor,"Scrum Master,PMP,AWS Solutions Architect",3
+C_367,"Excel,Python,Agile",2,Master,,5
+C_368,"Kubernetes,Tableau,Machine Learning",9,Master,"Data Science Professional,AWS Solutions Architect",2
+C_369,"React,CI/CD,Scrum,Python,Power BI,Java,Excel,AWS,Deep Learning",12,Master,"Machine Learning Specialization,Google Cloud Engineer",2
+C_370,"Python,Excel,Git,Deep Learning,Machine Learning,SQL,CI/CD",12,Bachelor,,2
+C_371,"CI/CD,Kubernetes,C++,Node.js,Agile",4,Bachelor,Data Science Professional,2
+C_372,"Machine Learning,Java,Scrum,Communication,SQL",14,Master,,2
+C_373,"Azure,Machine Learning,C++",15,PhD,"Google Cloud Engineer,Machine Learning Specialization",0
+C_374,"Leadership,Pandas,C++,Docker,Power BI,TypeScript",10,Master,"Machine Learning Specialization,Data Science Professional",1
+C_375,"Docker,Node.js,Java,Python,CI/CD,AWS,Communication",13,Bachelor,"Google Cloud Engineer,PMP",3
+C_376,"TypeScript,Kubernetes,GCP,Power BI,Excel,Machine Learning,Java,Pandas,Azure",4,Master,PMP,5
+C_377,"CI/CD,Pandas,Python",0,Master,"Data Science Professional,Google Cloud Engineer,AWS Solutions Architect",4
+C_378,"Excel,CI/CD,Power BI,Agile,Deep Learning,Kubernetes",12,Bachelor,"Google Cloud Engineer,Scrum Master",4
+C_379,"Pandas,React,Kubernetes,Tableau,Python,AWS,Java,Agile,Deep Learning,Communication",5,Bachelor,Machine Learning Specialization,5
+C_380,"Kubernetes,SQL,AWS,Power BI,Scrum,Pandas,Azure,CI/CD,Leadership",1,Master,"Scrum Master,Machine Learning Specialization",3
+C_381,"SQL,Agile",10,Bachelor,"Machine Learning Specialization,PMP",4
+C_382,"Communication,Java,React,Agile,Scrum,Kubernetes,Pandas,Tableau,Azure,C++",7,Bachelor,"PMP,Scrum Master",3
+C_383,"Tableau,Deep Learning",14,Bachelor,,4
+C_384,"C++,Deep Learning,Java,Scrum,Kubernetes,Machine Learning",7,Bachelor,"Machine Learning Specialization,AWS Solutions Architect",3
+C_385,"Power BI,C++,Communication,Java,Node.js,Python,AWS,SQL,Deep Learning",5,Bachelor,,4
+C_386,"SQL,Java,Azure,Tableau",12,Bachelor,,5
+C_387,"Pandas,C++,TypeScript,Leadership,Power BI,Agile",5,Bachelor,"Data Science Professional,Google Cloud Engineer,Machine Learning Specialization",4
+C_388,"Azure,Java,Scrum,Docker,TypeScript,Communication,Pandas,AWS,React,C++",4,Bachelor,Data Science Professional,4
+C_389,"Deep Learning,Leadership,Machine Learning,Java,Power BI,SQL,Excel,Tableau",3,High School,Data Science Professional,4
+C_390,"Scrum,Agile",13,Bachelor,"AWS Solutions Architect,Data Science Professional",3
+C_391,"Power BI,React,Kubernetes,Communication,CI/CD",3,Bachelor,"Scrum Master,Google Cloud Engineer",0
+C_392,"Leadership,Excel,Node.js,Azure,C++,Python",0,Bachelor,,4
+C_393,"React,Agile",6,Master,"Scrum Master,PMP",0
+C_394,"Node.js,Agile,Communication,Azure",8,Master,"Data Science Professional,PMP,Machine Learning Specialization",5
+C_395,"C++,Node.js,Excel,Scrum,Power BI,Java,Kubernetes,Leadership",8,PhD,"Machine Learning Specialization,Scrum Master",5
+C_396,"Scrum,Machine Learning,CI/CD,AWS",14,Master,AWS Solutions Architect,1
+C_397,"React,Docker,Excel,Leadership,SQL,Java,CI/CD,Python,Pandas,Node.js",4,Bachelor,"AWS Solutions Architect,Machine Learning Specialization,PMP",1
+C_398,"Pandas,Leadership,SQL,React,Agile,Tableau,GCP",1,PhD,Machine Learning Specialization,3
+C_399,"Python,C++,Scrum,Tableau,GCP,Git,SQL,Agile,AWS",5,Master,"Google Cloud Engineer,AWS Solutions Architect",1
+C_400,"Azure,React,Kubernetes",12,Bachelor,Data Science Professional,0
+C_401,"Pandas,Excel,GCP",11,Bachelor,"Google Cloud Engineer,Data Science Professional",1
+C_402,"React,Communication,Python,Azure,Java,Node.js,Tableau,Machine Learning,Pandas",9,Bachelor,,4
+C_403,"Excel,Communication,Azure,TypeScript,React,Git",15,Master,"Scrum Master,Machine Learning Specialization",4
+C_404,"Power BI,Machine Learning",8,High School,Machine Learning Specialization,5
+C_405,"Docker,Node.js,Kubernetes,Tableau,Excel",0,Master,"Google Cloud Engineer,PMP",0
+C_406,"Scrum,Docker,Pandas,Excel,Java,Power BI,Git,Kubernetes",6,Master,"Google Cloud Engineer,Machine Learning Specialization",3
+C_407,"AWS,CI/CD,Azure,C++,Leadership",11,Bachelor,,0
+C_408,"Scrum,Power BI,Leadership",0,Master,,3
+C_409,"Leadership,Docker,Power BI,Communication,Azure,Scrum,Java",8,Bachelor,AWS Solutions Architect,4
+C_410,"Power BI,Excel,SQL,Tableau,Kubernetes,React,Java,TypeScript",3,Master,"PMP,AWS Solutions Architect,Data Science Professional",5
+C_411,"React,Communication,Machine Learning,Docker,Kubernetes",8,Bachelor,"Google Cloud Engineer,PMP",3
+C_412,"Kubernetes,Java,Power BI,Node.js,C++,Agile,CI/CD",11,Master,"Scrum Master,Google Cloud Engineer",4
+C_413,"Communication,Scrum,AWS,Machine Learning",8,Master,"Scrum Master,Google Cloud Engineer,Data Science Professional",5
+C_414,"Power BI,Python,Java,Node.js",15,Bachelor,"Scrum Master,PMP",2
+C_415,"Communication,SQL,React,Machine Learning,Java,Git,C++,Azure,Power BI,Node.js",3,Bachelor,"PMP,Machine Learning Specialization",2
+C_416,"Excel,Azure,Kubernetes,Python,Node.js,Machine Learning,Scrum,C++,Java,React",9,Bachelor,"Machine Learning Specialization,Scrum Master,AWS Solutions Architect",3
+C_417,"TypeScript,Agile,Deep Learning,Java,Docker,Node.js",12,Master,,0
+C_418,"Docker,AWS,Agile,GCP",8,Master,"PMP,Scrum Master,Machine Learning Specialization",5
+C_419,"TypeScript,Node.js,Java,Scrum,Python,Deep Learning,AWS,Azure,Pandas,Machine Learning",5,Bachelor,,0
+C_420,"Excel,SQL,Python,React,Tableau,Pandas,Machine Learning,Azure,Deep Learning",2,Master,"PMP,Google Cloud Engineer,Data Science Professional",5
+C_421,"TypeScript,Agile,Deep Learning,Scrum,Tableau,Java",0,High School,"PMP,Scrum Master",3
+C_422,"Azure,Excel,TypeScript,Deep Learning,Git,Java,Scrum,Node.js,GCP,Leadership",11,Bachelor,AWS Solutions Architect,3
+C_423,"Kubernetes,Node.js,Azure,Deep Learning,GCP,Python",0,Bachelor,PMP,2
+C_424,"Excel,Python,Power BI,Scrum,GCP,Git,Node.js,Leadership,AWS",0,Bachelor,Scrum Master,4
+C_425,"React,AWS,Java,Agile,CI/CD,Leadership,Git,Azure",2,Bachelor,Data Science Professional,4
+C_426,"GCP,Agile,Excel,Azure,Node.js,C++",2,Bachelor,"AWS Solutions Architect,Scrum Master",4
+C_427,"Azure,Git,Leadership,Power BI,C++,Docker,Python,Deep Learning,SQL",0,Bachelor,,2
+C_428,"Deep Learning,Git,TypeScript,Python,AWS,Pandas",4,High School,PMP,3
+C_429,"Power BI,Kubernetes,TypeScript,SQL,Docker,Pandas",4,High School,"AWS Solutions Architect,Data Science Professional,Scrum Master",1
+C_430,"Azure,React,Python,Machine Learning,Git",7,Bachelor,"Google Cloud Engineer,AWS Solutions Architect,Machine Learning Specialization",3
+C_431,"Tableau,Scrum,C++",15,Bachelor,"PMP,Google Cloud Engineer",5
+C_432,"CI/CD,Excel",3,Bachelor,"Google Cloud Engineer,PMP",0
+C_433,"Machine Learning,AWS,Agile,Node.js,Docker",0,Bachelor,"Data Science Professional,AWS Solutions Architect",3
+C_434,"Python,SQL,Communication,Git,Power BI",4,Bachelor,,1
+C_435,"Power BI,Pandas,Scrum,Leadership",10,PhD,,0
+C_436,"Agile,Deep Learning,Excel,Machine Learning,Git,Power BI,AWS",10,PhD,"Scrum Master,Google Cloud Engineer",0
+C_437,"Kubernetes,Deep Learning,Azure,SQL,Power BI,TypeScript,Excel,GCP",15,Bachelor,Data Science Professional,2
+C_438,"CI/CD,TypeScript,Azure,Leadership,Excel,Java,Pandas",4,Bachelor,"Data Science Professional,PMP",3
+C_439,"Agile,Tableau",12,Master,,4
+C_440,"Leadership,AWS,Docker,Pandas,Excel,React,C++",15,Master,Data Science Professional,2
+C_441,"Node.js,Agile,Docker,Machine Learning,Git,Tableau,Pandas",1,Master,Google Cloud Engineer,0
+C_442,"Machine Learning,Power BI,C++,SQL,Communication",12,Master,"AWS Solutions Architect,PMP",1
+C_443,"Python,C++,Agile",15,PhD,,3
+C_444,"Kubernetes,Excel",13,Master,,4
+C_445,"Tableau,SQL,Pandas,GCP,Scrum,C++",3,Bachelor,Data Science Professional,3
+C_446,"C++,Tableau,Scrum,AWS,Communication",5,Bachelor,"Machine Learning Specialization,AWS Solutions Architect,PMP",5
+C_447,"Git,Scrum,Node.js,Machine Learning,Java,Leadership,Excel,React,Docker",5,Bachelor,"PMP,Machine Learning Specialization,Data Science Professional",2
+C_448,"Agile,Node.js,Docker,Leadership,AWS,Communication,Excel,C++",12,Master,"PMP,Scrum Master",3
+C_449,"Python,SQL,GCP,Leadership,CI/CD,Tableau,Deep Learning,Scrum",0,Bachelor,Google Cloud Engineer,2
+C_450,"Git,Azure",4,High School,"PMP,Google Cloud Engineer,Data Science Professional",2
+C_451,"Communication,AWS,Git,Azure,GCP,Pandas,React",6,Master,"Scrum Master,Google Cloud Engineer",3
+C_452,"Leadership,Agile,GCP",1,Master,"AWS Solutions Architect,Machine Learning Specialization,PMP",2
+C_453,"Node.js,Machine Learning,AWS,Agile,Leadership,Python,React,SQL",9,Bachelor,"Data Science Professional,Machine Learning Specialization",1
+C_454,"Tableau,Git,AWS,Deep Learning,SQL,React,TypeScript",2,Bachelor,"Scrum Master,Google Cloud Engineer",1
+C_455,"Pandas,Power BI,Communication,SQL,Excel,React,Azure",2,Bachelor,"Machine Learning Specialization,Google Cloud Engineer,Data Science Professional",3
+C_456,"C++,Power BI,React,Agile,Communication,CI/CD,Excel,Tableau,AWS,Machine Learning",2,Bachelor,"PMP,Data Science Professional,AWS Solutions Architect",0
+C_457,"Node.js,Kubernetes,Git,C++,Docker,Scrum,Python,GCP",5,PhD,"Data Science Professional,Google Cloud Engineer,Scrum Master",0
+C_458,"C++,Scrum,Kubernetes,Deep Learning,CI/CD",2,Bachelor,,1
+C_459,"GCP,Python,Docker,Git",3,Bachelor,"AWS Solutions Architect,PMP,Google Cloud Engineer",5
+C_460,"C++,CI/CD,Excel,Tableau,Azure,Scrum,Power BI,Deep Learning,Python,Git",1,Bachelor,,2
+C_461,"Git,Leadership,Azure,SQL,TypeScript",0,High School,"Machine Learning Specialization,PMP",0
+C_462,"GCP,Agile",12,Bachelor,"Data Science Professional,AWS Solutions Architect,PMP",3
+C_463,"Pandas,Java,C++,Tableau,TypeScript,Excel,Python,SQL,AWS,Leadership",9,Bachelor,"Machine Learning Specialization,Google Cloud Engineer,AWS Solutions Architect",2
+C_464,"Kubernetes,Agile,GCP,AWS,Tableau,Azure,SQL",8,Master,,4
+C_465,"AWS,Deep Learning,Docker,React,Git,Pandas",12,Bachelor,Scrum Master,1
+C_466,"Node.js,GCP,Leadership,Docker",14,Bachelor,Machine Learning Specialization,1
+C_467,"Scrum,C++,Deep Learning,GCP,Tableau,CI/CD,Node.js,Communication,Java,Power BI",2,Bachelor,,1
+C_468,"Deep Learning,Python,Docker,Node.js,Agile,GCP,TypeScript",8,Bachelor,AWS Solutions Architect,1
+C_469,"Python,Leadership,Azure,Communication",7,Bachelor,Machine Learning Specialization,0
+C_470,"Pandas,Git,Power BI,Deep Learning,Tableau,Scrum,Kubernetes",5,Master,"Scrum Master,Google Cloud Engineer,Data Science Professional",1
+C_471,"SQL,Node.js,Python,Azure,AWS",6,Master,,1
+C_472,"Leadership,Power BI,Docker,TypeScript,AWS,Node.js,React,SQL,Excel",10,Bachelor,,4
+C_473,"TypeScript,SQL,AWS",12,PhD,,4
+C_474,"Tableau,Agile,SQL,C++,GCP,TypeScript,React,Leadership",9,Bachelor,"PMP,Data Science Professional,AWS Solutions Architect",5
+C_475,"Deep Learning,TypeScript,Agile,Git,Pandas,Tableau,Machine Learning,Java,CI/CD,C++",13,Bachelor,,1
+C_476,"Communication,Git,C++,TypeScript,Pandas,Azure,Docker,Java,Machine Learning",2,Bachelor,"Machine Learning Specialization,PMP,AWS Solutions Architect",4
+C_477,"CI/CD,Tableau,Leadership,Java,React,Excel,Scrum,SQL",5,PhD,Google Cloud Engineer,1
+C_478,"Git,SQL,Node.js,GCP",9,Master,"PMP,Google Cloud Engineer,AWS Solutions Architect",1
+C_479,"Python,Leadership,Azure,TypeScript,Power BI",15,Bachelor,,4
+C_480,"AWS,C++,Communication,Power BI,TypeScript,Node.js,Leadership,Pandas,Python",7,Master,"Data Science Professional,Machine Learning Specialization",1
+C_481,"Java,Deep Learning",1,Master,,1
+C_482,"Scrum,Communication",9,Bachelor,,0
+C_483,"Node.js,Java,Scrum",9,Master,Scrum Master,5
+C_484,"SQL,Pandas,GCP,Docker,Kubernetes,React,Git",13,Master,,2
+C_485,"Deep Learning,Machine Learning,Azure,Docker,Tableau,Node.js,Leadership,C++,Excel",1,Bachelor,,3
+C_486,"Node.js,Leadership,Docker,Azure,Tableau,Communication",11,PhD,"Data Science Professional,Scrum Master,Machine Learning Specialization",1
+C_487,"Git,GCP,C++,Python,Machine Learning",0,Bachelor,,5
+C_488,"Leadership,Node.js,SQL,Docker,Kubernetes",6,High School,Machine Learning Specialization,2
+C_489,"Pandas,GCP,Git,Tableau,Excel,Docker",0,Bachelor,"PMP,Scrum Master",5
+C_490,"Java,C++",10,Master,"Scrum Master,AWS Solutions Architect,Google Cloud Engineer",3
+C_491,"Agile,TypeScript,Excel,Docker",14,Master,"Machine Learning Specialization,AWS Solutions Architect,PMP",4
+C_492,"Excel,CI/CD,Python,C++,Communication,Docker,Kubernetes",2,PhD,"AWS Solutions Architect,PMP",3
+C_493,"Java,Communication,Leadership,React,CI/CD,Machine Learning,GCP,Docker,SQL,Deep Learning",13,High School,PMP,3
+C_494,"C++,Tableau,GCP,Java,Machine Learning,Kubernetes",1,Master,,3
+C_495,"Python,Power BI,Tableau,Deep Learning,C++,Docker,Git,Scrum,GCP,React",10,Bachelor,,4
+C_496,"C++,CI/CD,SQL,TypeScript",12,Master,,0
+C_497,"SQL,Scrum,Leadership,Pandas,Docker,TypeScript",1,Bachelor,"AWS Solutions Architect,Data Science Professional",2
+C_498,"Docker,C++,GCP,Azure,Excel",10,Master,,2
+C_499,"Java,Azure,Machine Learning,Python",3,Bachelor,"Data Science Professional,PMP",2
+C_500,"Git,GCP,Communication,AWS",5,High School,"Data Science Professional,Scrum Master",0
+C_501,"Python,Power BI,Scrum,SQL",3,Bachelor,,3
+C_502,"Java,Git,Leadership,Communication,TypeScript,Kubernetes,GCP,Docker",6,Master,,3
+C_503,"Pandas,Git,TypeScript,Machine Learning",14,Bachelor,"Scrum Master,Google Cloud Engineer,Data Science Professional",1
+C_504,"Kubernetes,React,Java,Docker,Agile,TypeScript",15,High School,"AWS Solutions Architect,PMP,Scrum Master",3
+C_505,"GCP,Kubernetes,Leadership,Communication",4,Bachelor,"Machine Learning Specialization,AWS Solutions Architect,PMP",4
+C_506,"GCP,Excel,TypeScript",12,Bachelor,Data Science Professional,1
+C_507,"Java,Power BI,React,Pandas,Docker,C++,Node.js,Excel,Leadership,Azure",7,Bachelor,,5
+C_508,"Machine Learning,Communication,Leadership,TypeScript,Docker,Excel,CI/CD,Agile,Java",9,PhD,,4
+C_509,"Scrum,Leadership,React",10,Bachelor,,0
+C_510,"Deep Learning,Communication,Agile,Python,Scrum",4,Bachelor,"Scrum Master,Data Science Professional",4
+C_511,"C++,CI/CD,Scrum,Docker,GCP,Communication,Leadership,Node.js,Kubernetes",2,Bachelor,"Google Cloud Engineer,PMP,AWS Solutions Architect",2
+C_512,"SQL,Python,Excel,Kubernetes,Machine Learning,GCP,Git,AWS,Node.js,Agile",12,Master,"Scrum Master,Machine Learning Specialization,Data Science Professional",4
+C_513,"Scrum,Java,Power BI,Deep Learning,C++",12,Master,"Scrum Master,Google Cloud Engineer",2
+C_514,"Deep Learning,Python,Pandas,Agile",0,Bachelor,"Machine Learning Specialization,Scrum Master,Google Cloud Engineer",0
+C_515,"Agile,Node.js,TypeScript,Git",13,Master,"Data Science Professional,Scrum Master,Machine Learning Specialization",3
+C_516,"AWS,Java,Node.js,Leadership,Python,Communication,Power BI",7,Master,"Scrum Master,Data Science Professional",4
+C_517,"SQL,CI/CD,Communication,Power BI,Kubernetes,Machine Learning,Agile",2,Bachelor,"Scrum Master,Data Science Professional",0
+C_518,"Leadership,Pandas,AWS,Power BI,Git,Excel,GCP,SQL,Docker,Azure",0,Bachelor,"Data Science Professional,PMP,Scrum Master",2
+C_519,"GCP,Java,SQL,Leadership,CI/CD,Communication",8,High School,"Data Science Professional,Google Cloud Engineer,AWS Solutions Architect",5
+C_520,"CI/CD,Leadership,Python,GCP,Power BI,Pandas",4,Bachelor,"PMP,Google Cloud Engineer",4
+C_521,"Azure,CI/CD,Python,Machine Learning,Leadership,Java",4,Master,"Google Cloud Engineer,PMP",5
+C_522,"Power BI,Java,Tableau,SQL,Docker",2,PhD,Scrum Master,3
+C_523,"AWS,Scrum,TypeScript,Agile,Java,C++,Kubernetes,SQL",8,Master,,0
+C_524,"TypeScript,React,Power BI,GCP",15,Master,Scrum Master,5
+C_525,"Power BI,Azure,Deep Learning,Tableau,Node.js,Python,GCP,TypeScript",12,Master,,0
+C_526,"Agile,Kubernetes,Node.js,Leadership,Azure,Docker,CI/CD,Excel,Machine Learning,Deep Learning",12,Bachelor,Machine Learning Specialization,5
+C_527,"Tableau,Docker,Scrum,Git,Java",10,Bachelor,,0
+C_528,"Node.js,Machine Learning",3,Master,"Google Cloud Engineer,PMP",2
+C_529,"SQL,Python,Leadership,Pandas,Scrum",6,PhD,,5
+C_530,"Pandas,Leadership,Deep Learning",12,Master,AWS Solutions Architect,5
+C_531,"Azure,GCP,TypeScript,Scrum",2,Master,"Scrum Master,PMP",2
+C_532,"Pandas,Azure,SQL,React",12,Bachelor,,2
+C_533,"Java,TypeScript,Pandas,Power BI,C++,React",5,Master,,1
+C_534,"Node.js,C++,Leadership,Agile,Machine Learning,TypeScript,Azure,Scrum,SQL,Power BI",2,Bachelor,"Scrum Master,AWS Solutions Architect",3
+C_535,"Agile,Python,SQL,Scrum",12,Bachelor,"Scrum Master,Data Science Professional",0
+C_536,"Git,Power BI,CI/CD,Node.js,React,Pandas,Excel,AWS,Python,C++",15,Bachelor,"PMP,Machine Learning Specialization",3
+C_537,"Agile,Pandas",11,Bachelor,"AWS Solutions Architect,Scrum Master",2
+C_538,"Java,Excel,SQL,React,Scrum",6,Bachelor,"AWS Solutions Architect,PMP,Scrum Master",0
+C_539,"CI/CD,C++,Deep Learning,SQL,Git,Python,AWS,Power BI,React",2,Master,"Scrum Master,Data Science Professional",3
+C_540,"SQL,Docker",1,Bachelor,,3
+C_541,"C++,Agile,Scrum",14,PhD,Machine Learning Specialization,4
+C_542,"Pandas,SQL,CI/CD,Deep Learning,Power BI",0,Bachelor,,1
+C_543,"Python,Java,Agile,SQL",9,Master,,3
+C_544,"Communication,Pandas,Machine Learning,Power BI",7,High School,Scrum Master,2
+C_545,"Docker,Machine Learning,Scrum,Communication,Excel,Deep Learning,CI/CD,C++",1,Bachelor,"AWS Solutions Architect,Machine Learning Specialization",2
+C_546,"Node.js,Java,Git,Kubernetes",5,Bachelor,,1
+C_547,"Agile,Leadership,React",5,High School,"AWS Solutions Architect,Machine Learning Specialization,Data Science Professional",1
+C_548,"Git,Agile,Communication",9,Bachelor,"Machine Learning Specialization,Google Cloud Engineer,Data Science Professional",1
+C_549,"Tableau,TypeScript,Node.js,AWS,Java,SQL",5,Master,,5
+C_550,"Kubernetes,Node.js,Python,Excel,AWS,C++",3,PhD,,4
+C_551,"Excel,Tableau,AWS,TypeScript,C++,Azure,SQL",6,Bachelor,Machine Learning Specialization,3
+C_552,"Java,CI/CD,Scrum,SQL,Agile,Kubernetes,GCP,C++,Node.js",8,Bachelor,"AWS Solutions Architect,Machine Learning Specialization,Data Science Professional",4
+C_553,"Java,Python,Power BI,Tableau",3,High School,Machine Learning Specialization,3
+C_554,"Node.js,C++,Scrum,Docker,AWS,Machine Learning,Agile",7,High School,"Google Cloud Engineer,Scrum Master,Machine Learning Specialization",0
+C_555,"Communication,Power BI,SQL,Node.js,Deep Learning,C++,TypeScript,Java,React",11,Bachelor,Machine Learning Specialization,2
+C_556,"C++,Docker,Deep Learning,SQL,Communication,Agile",8,Bachelor,"Scrum Master,Machine Learning Specialization,Google Cloud Engineer",2
+C_557,"GCP,Leadership,Java,Agile,Communication",7,High School,"Google Cloud Engineer,Data Science Professional,Scrum Master",3
+C_558,"Python,Node.js,AWS,Scrum,Docker,Git",7,Master,Data Science Professional,0
+C_559,"SQL,CI/CD,Power BI,Tableau,Git,Node.js,Agile,React",15,Master,,3
+C_560,"AWS,Pandas,Excel,Python,Node.js,C++,Deep Learning,Kubernetes,GCP",7,Master,,0
+C_561,"Scrum,GCP,Java,TypeScript,Communication,Leadership,Python,Agile,Tableau",4,Master,"Google Cloud Engineer,PMP,Scrum Master",5
+C_562,"Agile,Pandas",12,Master,"Data Science Professional,AWS Solutions Architect",2
+C_563,"Azure,Git,Leadership,Excel,Communication,C++,Pandas,Docker",1,Bachelor,"AWS Solutions Architect,Machine Learning Specialization",3
+C_564,"TypeScript,Leadership,SQL,Kubernetes,Agile,Java,Excel",2,Bachelor,Google Cloud Engineer,2
+C_565,"Excel,Machine Learning,Agile,Power BI,CI/CD",6,Master,PMP,2
+C_566,"Tableau,Scrum,Node.js,Azure,SQL,Pandas",11,Bachelor,"Data Science Professional,Machine Learning Specialization,AWS Solutions Architect",3
+C_567,"Scrum,Excel,GCP,TypeScript,Leadership,Kubernetes,Pandas,C++,Agile,SQL",2,Bachelor,PMP,0
+C_568,"Java,Azure,Machine Learning",4,Bachelor,Data Science Professional,5
+C_569,"GCP,Node.js",4,Bachelor,"Scrum Master,AWS Solutions Architect,PMP",1
+C_570,"Python,AWS,Tableau",10,Bachelor,"Machine Learning Specialization,PMP",3
+C_571,"Excel,TypeScript,Git,GCP,Communication,Deep Learning,Agile,Java,Azure,Machine Learning",15,Bachelor,"AWS Solutions Architect,Google Cloud Engineer",2
+C_572,"TypeScript,Java,Leadership,Git,Excel,GCP",5,PhD,Google Cloud Engineer,1
+C_573,"SQL,Docker,Communication",4,Bachelor,"Google Cloud Engineer,Machine Learning Specialization",4
+C_574,"Scrum,Docker",11,Bachelor,"Data Science Professional,Google Cloud Engineer,PMP",0
+C_575,"React,Power BI",4,PhD,"Google Cloud Engineer,AWS Solutions Architect",5
+C_576,"Tableau,Docker,Agile,GCP,Power BI,Scrum,Deep Learning,TypeScript,Git,Kubernetes",3,Master,,1
+C_577,"Machine Learning,GCP,Python,React,Leadership,AWS,TypeScript,Kubernetes,Pandas,Java",1,Master,Data Science Professional,4
+C_578,"Azure,C++,Python,Pandas,Excel",14,Master,,4
+C_579,"C++,Power BI,Docker,Leadership,Agile,Tableau,SQL,Kubernetes",12,Bachelor,"PMP,Scrum Master,Machine Learning Specialization",0
+C_580,"Kubernetes,CI/CD,GCP,TypeScript,Excel,Pandas",6,Master,"Machine Learning Specialization,Scrum Master,Data Science Professional",2
+C_581,"CI/CD,Node.js,Deep Learning,Communication",2,Bachelor,"Scrum Master,Data Science Professional",2
+C_582,"Communication,React,Pandas",0,Bachelor,"Scrum Master,Google Cloud Engineer",4
+C_583,"Git,Communication,Deep Learning,C++,Java,React,GCP,Power BI,SQL",9,Master,"Scrum Master,Data Science Professional",5
+C_584,"AWS,Python,Git,Deep Learning,Azure,GCP,Power BI,Machine Learning,Communication",13,Bachelor,AWS Solutions Architect,0
+C_585,"Power BI,Pandas,Leadership,Kubernetes,Communication,CI/CD",13,Master,"Machine Learning Specialization,AWS Solutions Architect,PMP",4
+C_586,"Azure,Java",1,Bachelor,"Machine Learning Specialization,Google Cloud Engineer,PMP",1
+C_587,"Azure,Kubernetes",13,Master,"AWS Solutions Architect,PMP",2
+C_588,"Agile,Pandas,Tableau,C++,Java,Machine Learning,Leadership,Docker,Scrum,Node.js",9,Bachelor,"AWS Solutions Architect,Data Science Professional",4
+C_589,"Deep Learning,Python,CI/CD,Tableau,GCP,Kubernetes,Power BI",13,Bachelor,AWS Solutions Architect,1
+C_590,"Tableau,AWS,C++,Excel",3,Bachelor,,0
+C_591,"Python,Power BI,Kubernetes,GCP",11,Bachelor,"Data Science Professional,Machine Learning Specialization,PMP",1
+C_592,"Python,Machine Learning,AWS,Deep Learning,Agile,Scrum",9,Bachelor,AWS Solutions Architect,3
+C_593,"Pandas,Python,Power BI",13,High School,,0
+C_594,"Communication,SQL,Power BI,Machine Learning,Azure,Git,Pandas,GCP,Python,React",3,Master,Data Science Professional,1
+C_595,"Scrum,Kubernetes,Python,Pandas",4,Master,"Data Science Professional,PMP",2
+C_596,"Tableau,CI/CD,Leadership,AWS",2,High School,,4
+C_597,"Git,C++,GCP,Java,Excel",0,PhD,,1
+C_598,"Git,Power BI,Kubernetes,Communication,Java,TypeScript,Machine Learning,Leadership,Scrum,C++",13,Bachelor,Scrum Master,0
+C_599,"Machine Learning,TypeScript,CI/CD,Tableau,Deep Learning,Power BI,Kubernetes",9,Bachelor,,0
+C_600,"Power BI,Machine Learning,React,GCP,TypeScript,Agile,Leadership",7,Bachelor,"Scrum Master,Google Cloud Engineer",0
+C_601,"Scrum,Kubernetes,Java,Python,Power BI,Machine Learning,React,TypeScript,Pandas",3,Bachelor,"Machine Learning Specialization,Data Science Professional,AWS Solutions Architect",5
+C_602,"Pandas,Kubernetes,C++,Docker",6,Bachelor,"AWS Solutions Architect,Google Cloud Engineer,Scrum Master",5
+C_603,"Azure,Git,Communication,Scrum,CI/CD,React,Kubernetes,Power BI,Agile",15,Bachelor,Scrum Master,0
+C_604,"Azure,Power BI,AWS",4,High School,,0
+C_605,"Scrum,Python,Java,React,Leadership,Docker,Deep Learning,GCP,Machine Learning",2,Master,"Scrum Master,Google Cloud Engineer,PMP",5
+C_606,"Power BI,Tableau,Azure,Excel,Docker,Agile,Communication,Python,SQL",13,Master,,3
+C_607,"Docker,React,TypeScript,Scrum,SQL,Leadership,Java,GCP,Excel",15,Bachelor,"Machine Learning Specialization,Scrum Master",3
+C_608,"Communication,Scrum,Power BI",15,Bachelor,Data Science Professional,0
+C_609,"Azure,Power BI,Communication,React,Leadership,Kubernetes,GCP,Docker",1,High School,,1
+C_610,"Kubernetes,Communication,Python,Agile,Docker,React,Machine Learning",13,Bachelor,"Scrum Master,PMP",0
+C_611,"AWS,Agile,GCP,Communication,Pandas",2,Master,,2
+C_612,"Python,Excel,Docker,SQL",14,Master,"Data Science Professional,Machine Learning Specialization,Scrum Master",2
+C_613,"Git,Power BI",0,PhD,"Data Science Professional,Scrum Master,PMP",4
+C_614,"Power BI,Machine Learning,Git",6,Bachelor,"Google Cloud Engineer,Data Science Professional",2
+C_615,"Node.js,C++,Power BI,Agile,Pandas,Excel,Git",9,Bachelor,"Data Science Professional,Scrum Master",1
+C_616,"Git,Communication,Machine Learning",10,Bachelor,"Scrum Master,Google Cloud Engineer,PMP",0
+C_617,"Tableau,GCP,Node.js,Excel,Docker,C++",13,Bachelor,"Machine Learning Specialization,Data Science Professional,Google Cloud Engineer",0
+C_618,"Java,Communication,Power BI,C++,TypeScript,Azure,Excel,Node.js,SQL,Git",6,Bachelor,Google Cloud Engineer,1
+C_619,"Node.js,CI/CD,Docker,Pandas,C++,Git",8,Master,PMP,5
+C_620,"React,AWS,Machine Learning,Deep Learning,C++",0,Bachelor,"Scrum Master,Machine Learning Specialization",4
+C_621,"Node.js,Agile,SQL,C++,Java,Azure,Deep Learning,Python",8,Master,"Machine Learning Specialization,Data Science Professional",1
+C_622,"CI/CD,Power BI",0,High School,,2
+C_623,"Pandas,Node.js,Kubernetes,CI/CD,React,Deep Learning",7,Bachelor,,4
+C_624,"Azure,Power BI,Pandas,AWS,Leadership,Machine Learning,Docker,Excel,React,Git",7,PhD,Google Cloud Engineer,0
+C_625,"C++,Azure,TypeScript,Node.js",8,Master,,3
+C_626,"Kubernetes,Git,Machine Learning,Docker,Excel,Node.js,Power BI,AWS,Azure,TypeScript",4,Bachelor,"PMP,AWS Solutions Architect",5
+C_627,"CI/CD,Scrum",1,Master,PMP,4
+C_628,"GCP,Agile,Kubernetes,Machine Learning,Excel,AWS,TypeScript,React",0,PhD,"PMP,Machine Learning Specialization,AWS Solutions Architect",1
+C_629,"C++,Java,TypeScript,Agile,Docker,Node.js",1,Bachelor,,3
+C_630,"CI/CD,Node.js,Docker,Git,Machine Learning,Java,Azure,Tableau,Pandas",11,Bachelor,"Scrum Master,AWS Solutions Architect",0
+C_631,"Agile,TypeScript,Deep Learning,Python",12,Bachelor,"PMP,Data Science Professional",0
+C_632,"Java,AWS,Tableau",4,Master,"PMP,Scrum Master,Data Science Professional",5
+C_633,"Azure,Java,Scrum,Communication",10,Master,AWS Solutions Architect,3
+C_634,"Java,React,Git,Communication,AWS,Python,Agile",7,PhD,"Google Cloud Engineer,PMP,Machine Learning Specialization",0
+C_635,"Leadership,Node.js,CI/CD,Azure,Deep Learning,Pandas,Kubernetes,Java",3,High School,"Scrum Master,Machine Learning Specialization,AWS Solutions Architect",1
+C_636,"C++,Azure,GCP,CI/CD,Power BI",12,Bachelor,Data Science Professional,1
+C_637,"CI/CD,Scrum,C++,Node.js,Java,Agile",4,High School,"Google Cloud Engineer,Data Science Professional",3
+C_638,"Kubernetes,Communication,Scrum,Agile,TypeScript",2,High School,PMP,5
+C_639,"Scrum,C++,React,Node.js,Leadership,Azure,Pandas,Machine Learning",1,High School,Scrum Master,2
+C_640,"Python,Azure",12,Bachelor,"Machine Learning Specialization,PMP,Google Cloud Engineer",4
+C_641,"Communication,Java",8,Bachelor,"PMP,Scrum Master,Google Cloud Engineer",0
+C_642,"Git,Tableau,Node.js,Deep Learning,Azure,Machine Learning,Docker",1,PhD,"PMP,Machine Learning Specialization,Scrum Master",2
+C_643,"Leadership,Azure,Tableau,Docker,Node.js,Java",10,Master,"Google Cloud Engineer,Data Science Professional,Scrum Master",0
+C_644,"Deep Learning,SQL,AWS,Java,Power BI",8,Bachelor,"Scrum Master,AWS Solutions Architect,Machine Learning Specialization",0
+C_645,"Kubernetes,Git,Excel,Power BI,TypeScript,Agile,Machine Learning,Deep Learning,Scrum",11,High School,"Google Cloud Engineer,Machine Learning Specialization",5
+C_646,"Azure,Communication,Scrum,Git,C++,Agile,Python,Tableau,Java,Leadership",2,Bachelor,"Machine Learning Specialization,AWS Solutions Architect,PMP",0
+C_647,"Scrum,CI/CD,Machine Learning,React,Kubernetes,Communication",3,Master,AWS Solutions Architect,0
+C_648,"Git,Scrum,Power BI,TypeScript,Azure,Python,Docker,SQL,Agile",10,PhD,Google Cloud Engineer,0
+C_649,"Docker,SQL,Pandas,Excel,Leadership,React",2,Bachelor,Google Cloud Engineer,3
+C_650,"Python,C++,Java",12,Master,"Machine Learning Specialization,Google Cloud Engineer",0
+C_651,"Power BI,Node.js,GCP,Leadership,Deep Learning,Kubernetes",3,Master,Scrum Master,3
+C_652,"Power BI,Azure,Communication,Leadership,Node.js,Pandas,Agile,Kubernetes",5,Bachelor,"AWS Solutions Architect,Machine Learning Specialization,PMP",3
+C_653,"Agile,Scrum,Git,Deep Learning,Power BI",2,Bachelor,"AWS Solutions Architect,Scrum Master,PMP",1
+C_654,"Scrum,GCP,AWS,Tableau",13,Bachelor,,4
+C_655,"SQL,Tableau,Machine Learning",13,Bachelor,"Machine Learning Specialization,Data Science Professional,PMP",2
+C_656,"Communication,Pandas,Tableau,Python,Machine Learning,TypeScript",5,Master,"AWS Solutions Architect,Machine Learning Specialization,Scrum Master",5
+C_657,"Docker,Communication,TypeScript,Scrum,Leadership,Azure",10,PhD,Google Cloud Engineer,1
+C_658,"CI/CD,Leadership,Azure",3,Bachelor,,0
+C_659,"Machine Learning,Python,Java,Agile,Power BI,TypeScript,React,Leadership",9,Master,"Machine Learning Specialization,Scrum Master",2
+C_660,"Deep Learning,Python,C++",3,Master,AWS Solutions Architect,1
+C_661,"Agile,Deep Learning,CI/CD,AWS,Node.js,Excel,C++,Pandas,GCP",14,Bachelor,"AWS Solutions Architect,Machine Learning Specialization,Google Cloud Engineer",1
+C_662,"Power BI,CI/CD,Python,TypeScript,Communication,AWS,C++,GCP,React",1,Bachelor,,5
+C_663,"Node.js,Power BI,Communication,Leadership,Excel,GCP,SQL,Git",12,Bachelor,"Google Cloud Engineer,AWS Solutions Architect,Data Science Professional",3
+C_664,"Excel,Pandas,Azure,Agile,Node.js,Power BI,Machine Learning",15,Master,"Scrum Master,Machine Learning Specialization",0
+C_665,"GCP,CI/CD,C++,Power BI",11,Bachelor,Data Science Professional,5
+C_666,"Leadership,Git,Scrum,TypeScript,Deep Learning,GCP,React",13,Master,"Scrum Master,Google Cloud Engineer",4
+C_667,"GCP,Git,CI/CD,Pandas,Scrum",15,Bachelor,Google Cloud Engineer,4
+C_668,"Machine Learning,Node.js,Power BI,GCP,AWS,C++,Excel,SQL,Python",11,Master,"Machine Learning Specialization,Google Cloud Engineer",1
+C_669,"SQL,Pandas,Docker,Node.js,Machine Learning,AWS,Leadership,Communication,Power BI,Deep Learning",10,Master,,4
+C_670,"Deep Learning,Git,Tableau,Leadership,Machine Learning,SQL",14,Master,,0
+C_671,"Excel,SQL,Tableau",3,Bachelor,,1
+C_672,"Java,GCP,TypeScript,Tableau,Power BI,Machine Learning,Deep Learning",11,Bachelor,AWS Solutions Architect,1
+C_673,"Node.js,Python,AWS,Power BI,Docker,GCP,Tableau,Java,Pandas",8,Bachelor,"PMP,Google Cloud Engineer,Data Science Professional",4
+C_674,"AWS,Deep Learning,Node.js,Scrum,Agile,TypeScript,Tableau,Kubernetes",0,Bachelor,,5
+C_675,"Pandas,CI/CD,Docker,Scrum,React,Java,Node.js,SQL,Leadership,Power BI",1,Master,Data Science Professional,0
+C_676,"GCP,Node.js,React,Excel,CI/CD,Docker,Kubernetes,Python,Azure,TypeScript",4,Master,"Machine Learning Specialization,Google Cloud Engineer,Scrum Master",5
+C_677,"Agile,React,C++,GCP,Pandas,SQL,Excel",10,Bachelor,Data Science Professional,4
+C_678,"C++,Pandas,Tableau,Excel,GCP,Scrum",10,Master,AWS Solutions Architect,0
+C_679,"Communication,Azure,AWS,GCP,Node.js,Tableau,Machine Learning,SQL,Kubernetes,Deep Learning",11,Bachelor,,3
+C_680,"Communication,Python,TypeScript,Docker,AWS,CI/CD",7,Bachelor,"Machine Learning Specialization,Data Science Professional",5
+C_681,"Git,React,Tableau,CI/CD",7,Bachelor,PMP,3
+C_682,"Deep Learning,Git,Node.js",13,High School,,3
+C_683,"Power BI,C++,TypeScript,Pandas",11,Master,"Data Science Professional,Machine Learning Specialization,Scrum Master",2
+C_684,"Agile,Node.js,TypeScript,Power BI,Git,Java,Deep Learning,Tableau,Excel",15,Master,Machine Learning Specialization,4
+C_685,"Machine Learning,Git,C++,TypeScript,Power BI,SQL,Java,Kubernetes,CI/CD,GCP",13,Bachelor,"Data Science Professional,PMP",0
+C_686,"Deep Learning,Machine Learning,Kubernetes,GCP,Scrum,Agile,Communication,Power BI,Python,React",4,Bachelor,"AWS Solutions Architect,PMP,Data Science Professional",1
+C_687,"CI/CD,Power BI,Python,Machine Learning",11,High School,,3
+C_688,"Communication,GCP,CI/CD,TypeScript,Docker,React,Power BI,Deep Learning,Tableau",14,Master,"Google Cloud Engineer,PMP,AWS Solutions Architect",4
+C_689,"React,AWS,CI/CD,Docker,Excel,SQL,TypeScript,Azure",2,Master,,4
+C_690,"Excel,Agile,Machine Learning,Git,CI/CD,Pandas",6,PhD,,4
+C_691,"C++,Power BI,Tableau,Python,Machine Learning,Excel,Java,Agile,Azure,React",6,Bachelor,"AWS Solutions Architect,Data Science Professional,PMP",3
+C_692,"Power BI,Python",10,Bachelor,"AWS Solutions Architect,Data Science Professional,PMP",3
+C_693,"Pandas,Machine Learning,Git,Excel,Java,GCP",4,Bachelor,,1
+C_694,"Node.js,Scrum,Java,SQL,Leadership,Docker",5,High School,,2
+C_695,"Machine Learning,Docker,Deep Learning,Node.js,Git,Azure,React,CI/CD",1,Bachelor,Scrum Master,4
+C_696,"React,Machine Learning,Azure,SQL,Docker,TypeScript,Excel,Node.js,Pandas,AWS",0,Bachelor,AWS Solutions Architect,2
+C_697,"Communication,Scrum,Machine Learning,AWS,Excel,Deep Learning,GCP,Node.js,TypeScript,SQL",6,Master,PMP,4
+C_698,"AWS,Excel,Node.js,TypeScript",1,High School,"Data Science Professional,PMP,Google Cloud Engineer",0
+C_699,"Power BI,Azure",8,Master,"PMP,Google Cloud Engineer,Machine Learning Specialization",0
+C_700,"CI/CD,Excel,Communication,Pandas",9,High School,,1
+C_701,"Azure,Node.js,C++,Leadership,Tableau,Docker,Communication,CI/CD,TypeScript,Deep Learning",7,Master,"PMP,Google Cloud Engineer",3
+C_702,"Python,Git,Deep Learning,Agile,CI/CD,Power BI,Leadership",0,Master,"Data Science Professional,Scrum Master,Machine Learning Specialization",4
+C_703,"Agile,Pandas,Excel",0,Master,"Machine Learning Specialization,AWS Solutions Architect,PMP",3
+C_704,"React,Java,Python,Machine Learning,TypeScript,Kubernetes,C++",14,High School,,2
+C_705,"C++,Pandas,Leadership,Agile,GCP,AWS,Communication",15,PhD,,2
+C_706,"Git,CI/CD,Leadership,C++,Python,Agile,React,Machine Learning,Azure",15,Bachelor,Machine Learning Specialization,5
+C_707,"Pandas,Communication,Deep Learning,CI/CD",2,Bachelor,Data Science Professional,5
+C_708,"C++,Scrum,Python,Excel,Leadership,Azure",14,High School,"Machine Learning Specialization,AWS Solutions Architect,PMP",3
+C_709,"Azure,Machine Learning,Scrum,Tableau,TypeScript,Power BI,Kubernetes,Agile",1,Master,AWS Solutions Architect,2
+C_710,"Excel,TypeScript,Docker,Python,React,C++,Scrum,Pandas",0,PhD,Machine Learning Specialization,3
+C_711,"AWS,C++,Java",10,Bachelor,,0
+C_712,"Node.js,Python,Communication,Agile,Docker,Azure,AWS,Machine Learning,Power BI",7,PhD,,2
+C_713,"AWS,Pandas,Leadership,Scrum,TypeScript,Machine Learning,Agile,Communication,Git,Python",1,Bachelor,,1
+C_714,"TypeScript,SQL",9,Master,"AWS Solutions Architect,Machine Learning Specialization,Data Science Professional",4
+C_715,"GCP,React",12,High School,"Google Cloud Engineer,Data Science Professional,AWS Solutions Architect",3
+C_716,"TypeScript,Node.js,Leadership,Scrum,Machine Learning,Docker,Python,CI/CD",10,Bachelor,,0
+C_717,"Leadership,Git",2,Bachelor,Data Science Professional,1
+C_718,"Azure,Kubernetes,Node.js,Power BI,Leadership,TypeScript,Java,AWS,Deep Learning,React",1,High School,"Data Science Professional,Scrum Master",4
+C_719,"GCP,Communication,Excel,Deep Learning,Agile,Power BI,CI/CD",10,Bachelor,,4
+C_720,"SQL,AWS,Tableau,Excel",1,Bachelor,Google Cloud Engineer,5
+C_721,"Pandas,Docker,C++,Scrum,Power BI",14,Bachelor,"Data Science Professional,Machine Learning Specialization",2
+C_722,"Node.js,Docker,Java,Machine Learning,TypeScript,SQL",15,Bachelor,,5
+C_723,"Git,AWS,TypeScript,Leadership,C++",7,Bachelor,"Machine Learning Specialization,Scrum Master",1
+C_724,"Java,Python,Kubernetes,Git,Pandas,Scrum,Agile,Machine Learning",4,Bachelor,Machine Learning Specialization,4
+C_725,"SQL,Python,C++,Scrum,GCP,Java,AWS",8,Master,"Data Science Professional,Google Cloud Engineer",1
+C_726,"Python,Java,Azure,Machine Learning,Scrum",4,Bachelor,,2
+C_727,"GCP,TypeScript,AWS,Kubernetes,Scrum",5,PhD,"Machine Learning Specialization,AWS Solutions Architect,Data Science Professional",1
+C_728,"C++,Excel,React,Git",11,Bachelor,"Machine Learning Specialization,Google Cloud Engineer,AWS Solutions Architect",4
+C_729,"Excel,GCP,Deep Learning,Docker,AWS",1,Master,"Google Cloud Engineer,Data Science Professional",4
+C_730,"C++,Pandas,Power BI,Leadership,Git,Java,Tableau,React,Kubernetes",15,Bachelor,PMP,5
+C_731,"Tableau,Git,Power BI,Scrum,Agile,Azure,React",1,Bachelor,Scrum Master,1
+C_732,"C++,GCP,Node.js,React,Communication,Java,Kubernetes,Azure",2,Bachelor,,2
+C_733,"Tableau,Kubernetes,AWS,Communication,SQL,TypeScript,CI/CD,Docker,Node.js",14,Bachelor,"PMP,Scrum Master,Machine Learning Specialization",2
+C_734,"Python,Java,TypeScript,AWS,Azure,Pandas,Kubernetes,Communication",9,Master,,2
+C_735,"Machine Learning,Pandas,Kubernetes,SQL,Excel",6,Bachelor,"PMP,Machine Learning Specialization",5
+C_736,"C++,Git,Leadership,Deep Learning,Excel,Azure",0,Master,"PMP,Scrum Master",3
+C_737,"Power BI,Agile",4,Master,Google Cloud Engineer,5
+C_738,"Power BI,AWS,Tableau,Communication,Excel",14,Master,"PMP,AWS Solutions Architect,Machine Learning Specialization",1
+C_739,"Git,Node.js,C++,TypeScript,Agile,Excel,Python,Kubernetes",4,Bachelor,PMP,5
+C_740,"Power BI,Scrum",11,Bachelor,"Scrum Master,Machine Learning Specialization,PMP",2
+C_741,"Communication,SQL",4,Bachelor,"Data Science Professional,Machine Learning Specialization",4
+C_742,"React,C++,CI/CD,Pandas,Excel,Scrum,Git,Power BI",3,Bachelor,"Machine Learning Specialization,PMP,AWS Solutions Architect",1
+C_743,"Scrum,Excel,Java",1,Master,"AWS Solutions Architect,Google Cloud Engineer,Data Science Professional",0
+C_744,"GCP,C++,AWS,CI/CD,Tableau,Pandas,TypeScript,SQL",11,Bachelor,PMP,3
+C_745,"Java,Machine Learning,Deep Learning,Excel,Node.js,Power BI,Pandas,React",6,Bachelor,PMP,3
+C_746,"Java,Leadership,Communication,GCP,Scrum,C++,Tableau,TypeScript,Azure",6,High School,Scrum Master,0
+C_747,"Leadership,AWS,Tableau,Docker,Communication,Power BI,TypeScript,Excel",1,Master,"Machine Learning Specialization,Scrum Master",2
+C_748,"React,Leadership,Java,Node.js,AWS,Scrum",13,Bachelor,Machine Learning Specialization,4
+C_749,"React,Git,SQL",7,Master,PMP,5
+C_750,"GCP,Scrum,Pandas,C++,Power BI,Node.js,Excel,Machine Learning,Kubernetes,SQL",3,Bachelor,"Scrum Master,Machine Learning Specialization",1
+C_751,"C++,Tableau,SQL,TypeScript,Python,Pandas",14,Bachelor,"Google Cloud Engineer,Scrum Master,AWS Solutions Architect",0
+C_752,"Machine Learning,Git,Deep Learning,Docker,TypeScript,Power BI",14,High School,Machine Learning Specialization,3
+C_753,"Power BI,Azure,Java,Python",3,Bachelor,,4
+C_754,"Java,Pandas,Scrum,Python,Azure,Deep Learning,TypeScript,Kubernetes",5,Bachelor,,5
+C_755,"C++,TypeScript,SQL,Agile,Tableau,Machine Learning,React,GCP,Git,Python",0,High School,"Google Cloud Engineer,Machine Learning Specialization,PMP",1
+C_756,"Pandas,Python,Node.js,Docker,C++",2,Bachelor,,5
+C_757,"CI/CD,Java,SQL,Node.js",3,Master,"Data Science Professional,Google Cloud Engineer",4
+C_758,"Excel,React,Node.js,Machine Learning,AWS",6,Bachelor,"Google Cloud Engineer,AWS Solutions Architect",3
+C_759,"Python,React,C++,TypeScript,AWS,Pandas,Azure",11,High School,Scrum Master,2
+C_760,"Machine Learning,Git,Excel,Communication,Java,Azure,CI/CD,Docker,React",4,Bachelor,"Machine Learning Specialization,Scrum Master",0
+C_761,"Python,Leadership,Communication,TypeScript,React,Tableau,AWS",0,Bachelor,,2
+C_762,"CI/CD,Node.js,AWS,Leadership,Pandas",1,Bachelor,"PMP,Google Cloud Engineer,Data Science Professional",3
+C_763,"Agile,SQL,AWS,CI/CD,Leadership",14,Master,"Google Cloud Engineer,PMP",2
+C_764,"Tableau,Node.js",9,Master,Machine Learning Specialization,2
+C_765,"AWS,C++,Excel,SQL,CI/CD,Leadership,React",10,Bachelor,,0
+C_766,"Pandas,C++,SQL,Agile,Deep Learning,Git,Leadership,CI/CD,Java",6,Bachelor,,3
+C_767,"GCP,Java,C++,AWS,Node.js,Git,Agile,CI/CD,Tableau",14,PhD,PMP,3
+C_768,"Kubernetes,React,Java",15,Bachelor,"Google Cloud Engineer,Scrum Master,AWS Solutions Architect",3
+C_769,"Pandas,GCP,Leadership,Excel,Deep Learning,Agile,Java,Azure",12,Bachelor,"PMP,Scrum Master,Data Science Professional",0
+C_770,"Deep Learning,Git,Power BI,C++,CI/CD,Agile,Python",0,Master,"Scrum Master,Machine Learning Specialization",3
+C_771,"CI/CD,Kubernetes,React,Power BI,GCP,Communication,Pandas,Node.js",1,PhD,,3
+C_772,"C++,Node.js,Azure,CI/CD",11,Bachelor,"Machine Learning Specialization,PMP,AWS Solutions Architect",5
+C_773,"Node.js,AWS,Git,Power BI,SQL,Kubernetes,Python,Deep Learning",8,Master,PMP,1
+C_774,"Python,Machine Learning,Pandas,Agile",12,Bachelor,,4
+C_775,"Node.js,Java,Azure,Git,GCP",12,Bachelor,"Machine Learning Specialization,AWS Solutions Architect,Data Science Professional",5
+C_776,"Deep Learning,Azure,C++,React,GCP,Python,Java",15,High School,,5
+C_777,"Tableau,Node.js,Agile,GCP,Git,Java,Communication,Kubernetes",5,Master,Scrum Master,1
+C_778,"Machine Learning,TypeScript,Communication,C++,Java,Agile,SQL,Leadership,Scrum,Deep Learning",13,Bachelor,,5
+C_779,"Pandas,GCP,React,Machine Learning",8,High School,,4
+C_780,"Power BI,Scrum,Machine Learning,Python,SQL",8,Master,,5
+C_781,"Machine Learning,C++",0,Bachelor,"Scrum Master,Machine Learning Specialization",2
+C_782,"Docker,Kubernetes,Scrum,CI/CD,Agile,AWS,Git,React",12,Master,"PMP,AWS Solutions Architect",0
+C_783,"Git,React,Deep Learning,Python,Leadership,Machine Learning,Tableau,Azure,AWS",11,Bachelor,"Data Science Professional,Scrum Master,Google Cloud Engineer",0
+C_784,"Python,Agile,Kubernetes,SQL,Docker,TypeScript,AWS",15,Bachelor,,2
+C_785,"Power BI,Scrum,Machine Learning,React,GCP,C++,Deep Learning,Tableau",1,Bachelor,,2
+C_786,"TypeScript,Java,CI/CD,Machine Learning,Power BI,Excel,AWS,Communication,C++,Pandas",2,Bachelor,,1
+C_787,"React,Azure,AWS,Git,Power BI,Machine Learning,Deep Learning",15,High School,"Google Cloud Engineer,Data Science Professional",4
+C_788,"Agile,Docker,React",12,Master,"Google Cloud Engineer,Machine Learning Specialization,PMP",0
+C_789,"Pandas,Machine Learning,CI/CD,Docker,Communication,C++",3,Bachelor,PMP,3
+C_790,"GCP,SQL",6,Master,"PMP,Machine Learning Specialization,Google Cloud Engineer",4
+C_791,"Machine Learning,React,Python,Excel,TypeScript",10,Bachelor,"Google Cloud Engineer,Scrum Master",5
+C_792,"Deep Learning,Leadership,GCP,CI/CD,SQL,Docker,Scrum,Tableau,Machine Learning",8,PhD,"Machine Learning Specialization,Google Cloud Engineer,Scrum Master",2
+C_793,"SQL,Docker,Deep Learning,C++,AWS,CI/CD,Java,Power BI",12,Bachelor,AWS Solutions Architect,4
+C_794,"Docker,Node.js,Scrum,Power BI,Kubernetes,React,Communication,Pandas",9,Bachelor,Machine Learning Specialization,4
+C_795,"Machine Learning,Deep Learning,Docker,Communication,SQL,GCP,TypeScript,Java",4,Bachelor,"PMP,Google Cloud Engineer,Data Science Professional",1
+C_796,"CI/CD,Agile,Python,Kubernetes,Communication",3,Master,Scrum Master,3
+C_797,"SQL,Machine Learning,Kubernetes,Power BI",5,PhD,,4
+C_798,"Communication,Node.js,Deep Learning,Agile,React,AWS,SQL",3,Bachelor,"PMP,Data Science Professional,Google Cloud Engineer",5
+C_799,"Git,Scrum,CI/CD,Pandas,TypeScript,React,Azure,Leadership",11,High School,,0
+C_800,"Power BI,Agile,Scrum",7,High School,"PMP,AWS Solutions Architect,Google Cloud Engineer",3
+C_801,"Agile,Git,Node.js,GCP,Communication,Deep Learning,Machine Learning,Docker,Pandas",5,Bachelor,,3
+C_802,"Excel,Tableau,Power BI,Pandas,Git,Communication,CI/CD,Machine Learning,C++,Docker",3,Bachelor,AWS Solutions Architect,4
+C_803,"Docker,Machine Learning,SQL,Deep Learning,Communication,C++,Java,Pandas,Azure",1,High School,,4
+C_804,"Kubernetes,Excel,Java,Node.js,Python,AWS",9,High School,"Machine Learning Specialization,Data Science Professional",3
+C_805,"Communication,Power BI,Git,Docker",11,Master,Machine Learning Specialization,0
+C_806,"AWS,SQL",6,Bachelor,Google Cloud Engineer,4
+C_807,"C++,Communication,Kubernetes,Azure,Deep Learning,Node.js,Pandas,Agile,Tableau,CI/CD",5,Bachelor,,2
+C_808,"Git,Deep Learning,Excel,C++,Pandas,Azure,Agile,Kubernetes",5,Bachelor,PMP,3
+C_809,"Python,Leadership,AWS,Pandas,Azure,Machine Learning,Excel,Communication",13,High School,,2
+C_810,"Azure,Deep Learning,AWS,CI/CD,Python,Machine Learning,React",7,Bachelor,,0
+C_811,"Tableau,CI/CD,GCP,Communication",15,High School,"Machine Learning Specialization,Data Science Professional",2
+C_812,"Azure,Leadership,Machine Learning,SQL,Java,Docker,React,Git,Kubernetes,Excel",12,Bachelor,PMP,0
+C_813,"Git,Deep Learning,Scrum,CI/CD,Agile,React,Azure,SQL,Kubernetes,Power BI",7,Master,"Machine Learning Specialization,Scrum Master,Google Cloud Engineer",3
+C_814,"TypeScript,Tableau,GCP,Azure,Node.js,Git,AWS",9,Master,,2
+C_815,"Docker,Pandas,Agile,Git,Scrum,AWS,Leadership,Java",1,High School,"Data Science Professional,Scrum Master",0
+C_816,"Scrum,Tableau,Deep Learning,Power BI,Agile,Git,Excel,Machine Learning",12,High School,Machine Learning Specialization,0
+C_817,"Git,Excel,Kubernetes,AWS,Tableau,SQL,TypeScript,Java",7,Bachelor,"Google Cloud Engineer,Data Science Professional",2
+C_818,"Node.js,Power BI",12,Bachelor,,2
+C_819,"Excel,Machine Learning,GCP,Power BI,Azure",6,High School,"Google Cloud Engineer,PMP,AWS Solutions Architect",3
+C_820,"SQL,Kubernetes,Python,Leadership,TypeScript,Docker,GCP,Git,Machine Learning",0,Bachelor,Scrum Master,2
+C_821,"Machine Learning,Node.js",15,Bachelor,Scrum Master,0
+C_822,"Python,Deep Learning,Scrum,Azure,AWS,Power BI,React,Kubernetes,GCP",11,Bachelor,Data Science Professional,2
+C_823,"TypeScript,Scrum,Java",4,Bachelor,"AWS Solutions Architect,PMP,Google Cloud Engineer",0
+C_824,"GCP,SQL,Deep Learning,React,Node.js",10,PhD,Machine Learning Specialization,1
+C_825,"Scrum,Azure,Machine Learning,Node.js,Power BI,Excel,Leadership,Deep Learning,Docker",12,Bachelor,"Google Cloud Engineer,AWS Solutions Architect,Data Science Professional",0
+C_826,"Deep Learning,Kubernetes,Tableau,Python",7,High School,"Scrum Master,Data Science Professional",5
+C_827,"Node.js,Power BI",9,Bachelor,,3
+C_828,"Leadership,Deep Learning,CI/CD,Tableau,Java",7,Bachelor,,2
+C_829,"Scrum,Node.js,C++,Power BI,Git",3,Master,Google Cloud Engineer,4
+C_830,"AWS,Machine Learning,Deep Learning,React",1,Bachelor,Google Cloud Engineer,3
+C_831,"Leadership,C++",2,Master,"Scrum Master,Data Science Professional,PMP",5
+C_832,"AWS,Docker,Node.js,Power BI,SQL",13,Master,"AWS Solutions Architect,PMP",2
+C_833,"Kubernetes,Git,Node.js,AWS,Docker,SQL",5,High School,,5
+C_834,"C++,GCP,Power BI,Azure,Leadership,Machine Learning,Node.js",5,Bachelor,"PMP,Machine Learning Specialization,Data Science Professional",0
+C_835,"Scrum,Python,Excel",4,Bachelor,"Machine Learning Specialization,Data Science Professional",4
+C_836,"AWS,Agile,Azure,C++,Communication,React,Pandas",3,Bachelor,,0
+C_837,"C++,Git,TypeScript,Machine Learning,Pandas",10,Bachelor,"Google Cloud Engineer,Data Science Professional,Machine Learning Specialization",0
+C_838,"C++,Node.js,Excel,Git",8,Master,"PMP,Scrum Master",5
+C_839,"Node.js,Pandas,Power BI",13,Bachelor,,1
+C_840,"Git,Deep Learning,GCP,SQL,Communication,Agile",6,Master,"Scrum Master,Data Science Professional,AWS Solutions Architect",1
+C_841,"Tableau,React,Excel,Git,Agile,Azure,C++,Java,Python",5,Bachelor,,4
+C_842,"Tableau,Git,CI/CD,Azure,GCP,AWS,Leadership,Agile,Machine Learning",5,Bachelor,PMP,0
+C_843,"Azure,Deep Learning,SQL,Agile",7,PhD,Data Science Professional,0
+C_844,"Agile,Kubernetes",11,Bachelor,"Machine Learning Specialization,Google Cloud Engineer",3
+C_845,"Docker,SQL,Agile,Python,Kubernetes,AWS",8,Bachelor,,4
+C_846,"CI/CD,Git,React",8,Master,Scrum Master,1
+C_847,"Azure,C++,Communication,Agile,React,Deep Learning,TypeScript",7,Master,"PMP,Google Cloud Engineer,Scrum Master",0
+C_848,"Java,TypeScript,CI/CD,Scrum,C++,Communication,Power BI,Agile,GCP",0,Bachelor,Scrum Master,5
+C_849,"Pandas,Deep Learning,Node.js,AWS,TypeScript",12,Bachelor,Machine Learning Specialization,0
+C_850,"React,Python,Machine Learning",0,Master,,1
+C_851,"Pandas,Azure,Deep Learning,Agile,Leadership",0,Master,,0
+C_852,"CI/CD,Docker,Pandas,C++,Deep Learning,Power BI,TypeScript,Java,GCP,Tableau",15,Bachelor,,4
+C_853,"Agile,Excel,Machine Learning,Python,SQL,Scrum",9,Bachelor,"Google Cloud Engineer,AWS Solutions Architect,Machine Learning Specialization",0
+C_854,"Node.js,React,Deep Learning,Kubernetes,Agile",9,Bachelor,"Machine Learning Specialization,AWS Solutions Architect,Scrum Master",1
+C_855,"AWS,Machine Learning,GCP",11,High School,"AWS Solutions Architect,PMP",0
+C_856,"Leadership,Deep Learning",5,Bachelor,"Data Science Professional,Google Cloud Engineer",5
+C_857,"Deep Learning,Scrum,Git,GCP,Leadership,Agile,Kubernetes,Machine Learning",8,PhD,"PMP,AWS Solutions Architect",0
+C_858,"Agile,Deep Learning,Docker,React",14,Master,"AWS Solutions Architect,Machine Learning Specialization,Scrum Master",5
+C_859,"Deep Learning,Pandas,Docker,CI/CD,Java,React",11,Bachelor,"Scrum Master,Machine Learning Specialization,PMP",1
+C_860,"React,Node.js,Excel,Power BI,AWS",12,High School,"Data Science Professional,Machine Learning Specialization,Google Cloud Engineer",5
+C_861,"AWS,Kubernetes,Python",6,PhD,,2
+C_862,"Power BI,Deep Learning,Machine Learning,SQL,Kubernetes,Leadership,Git,GCP,TypeScript,Pandas",13,Bachelor,AWS Solutions Architect,5
+C_863,"Machine Learning,Git,Deep Learning,React",0,Master,"PMP,AWS Solutions Architect,Data Science Professional",5
+C_864,"Power BI,Leadership,Java",0,Bachelor,AWS Solutions Architect,1
+C_865,"Python,Communication,Node.js",4,Master,"Machine Learning Specialization,Google Cloud Engineer,PMP",3
+C_866,"CI/CD,Docker,TypeScript,Agile,Python,GCP,Machine Learning,Deep Learning",1,Master,,4
+C_867,"Tableau,Java,Python,React",13,Master,"Data Science Professional,PMP,Machine Learning Specialization",5
+C_868,"Node.js,Java,Azure,Pandas,Tableau",12,PhD,Machine Learning Specialization,1
+C_869,"Leadership,SQL,AWS,React,Java,Excel,Pandas,TypeScript",15,Bachelor,"Scrum Master,Google Cloud Engineer,AWS Solutions Architect",2
+C_870,"C++,Azure,Machine Learning,Scrum,Pandas,Kubernetes,Docker,Python",7,Bachelor,,0
+C_871,"Leadership,Python,GCP,C++,Excel",6,Master,,1
+C_872,"Pandas,Communication,Git,SQL,Scrum,Power BI",1,High School,,2
+C_873,"Kubernetes,GCP",12,Bachelor,"Scrum Master,PMP",1
+C_874,"Docker,Node.js,CI/CD",3,Bachelor,AWS Solutions Architect,4
+C_875,"Power BI,Communication,SQL,GCP,Java,Deep Learning,TypeScript,Pandas",2,PhD,Google Cloud Engineer,5
+C_876,"Git,Java,Tableau,CI/CD",10,Bachelor,PMP,2
+C_877,"Leadership,Node.js,SQL,React,AWS,C++,Pandas",4,Bachelor,"AWS Solutions Architect,Machine Learning Specialization,Google Cloud Engineer",2
+C_878,"Pandas,Power BI,Machine Learning,TypeScript,Docker,Java,GCP,Communication,CI/CD,Deep Learning",11,Bachelor,,1
+C_879,"Azure,Power BI,CI/CD,TypeScript,Deep Learning,Machine Learning,Git,SQL,Kubernetes",9,Bachelor,Scrum Master,2
+C_880,"Leadership,Docker,Kubernetes,Pandas,Node.js,Tableau,TypeScript,Azure,SQL,GCP",1,Master,Machine Learning Specialization,4
+C_881,"Deep Learning,Machine Learning",9,Bachelor,"AWS Solutions Architect,Google Cloud Engineer,Scrum Master",3
+C_882,"Kubernetes,TypeScript,Agile",14,Bachelor,Machine Learning Specialization,0
+C_883,"Node.js,C++,React,Docker,Pandas,Agile,Communication,Power BI",6,Master,"AWS Solutions Architect,PMP,Scrum Master",0
+C_884,"Deep Learning,Power BI,CI/CD,Agile,C++,Docker,SQL,React,Excel,TypeScript",11,Master,"Google Cloud Engineer,AWS Solutions Architect,Machine Learning Specialization",0
+C_885,"Azure,CI/CD,Agile,Java,Pandas,Deep Learning,Leadership,Git",12,High School,"Scrum Master,Data Science Professional,Google Cloud Engineer",5
+C_886,"Java,SQL,Pandas,Node.js,Docker,GCP",5,Bachelor,"Scrum Master,Machine Learning Specialization,Google Cloud Engineer",5
+C_887,"Kubernetes,Git,Communication,React,Python,Excel,C++,Pandas",4,Bachelor,"AWS Solutions Architect,Google Cloud Engineer",3
+C_888,"Power BI,Docker,Machine Learning,Scrum",13,Bachelor,,3
+C_889,"Agile,TypeScript,Communication,Machine Learning",1,Bachelor,Scrum Master,5
+C_890,"Java,Leadership,React,C++,Kubernetes,Agile,Communication,Python,Git,Node.js",11,High School,"Data Science Professional,AWS Solutions Architect",5
+C_891,"Agile,TypeScript,Node.js,Scrum,Kubernetes,Leadership,Excel,CI/CD,Docker",3,PhD,"Scrum Master,PMP,Google Cloud Engineer",4
+C_892,"Excel,Node.js,React,GCP",13,Master,,0
+C_893,"Pandas,Agile,Python",13,Bachelor,,5
+C_894,"Tableau,Communication,SQL,GCP,Node.js,C++,AWS,TypeScript,React",3,Bachelor,"AWS Solutions Architect,PMP,Scrum Master",3
+C_895,"Python,Kubernetes,AWS,Tableau,GCP,Azure,Communication,Leadership",13,Master,,3
+C_896,"Python,Deep Learning",11,Master,"PMP,Google Cloud Engineer",4
+C_897,"AWS,Excel,React,C++,Leadership,Scrum,SQL,Node.js",4,PhD,"Machine Learning Specialization,Google Cloud Engineer,Scrum Master",2
+C_898,"Java,Node.js,AWS,Machine Learning,Deep Learning,Tableau,Agile,React,Azure,Git",5,PhD,AWS Solutions Architect,0
+C_899,"Node.js,Python",4,High School,,4
+C_900,"Python,Deep Learning,TypeScript,Agile,Kubernetes,Java,AWS,Excel",9,Bachelor,Machine Learning Specialization,3
+C_901,"Scrum,SQL,Azure,Pandas,Deep Learning,Python",3,Bachelor,,0
+C_902,"GCP,Azure,Java,Pandas",2,Bachelor,"Google Cloud Engineer,Scrum Master",0
+C_903,"Python,Node.js,Pandas,Power BI,Scrum,C++,Git,React,Docker",14,Master,PMP,0
+C_904,"Scrum,Communication,Agile,Leadership",1,Bachelor,"PMP,Scrum Master",4
+C_905,"Python,Java,Tableau,Azure,Machine Learning,C++,CI/CD,Excel,Deep Learning,Leadership",11,Bachelor,AWS Solutions Architect,2
+C_906,"AWS,Pandas,CI/CD,Git",4,Bachelor,"Google Cloud Engineer,AWS Solutions Architect,PMP",5
+C_907,"Agile,GCP,TypeScript,Power BI,Node.js,Tableau,React,C++,Azure,Pandas",6,Master,"Scrum Master,AWS Solutions Architect",4
+C_908,"Java,C++,Power BI,Node.js,TypeScript,Agile",8,Master,,4
+C_909,"Node.js,C++,Communication,Kubernetes,Agile,Pandas,TypeScript,Java",1,PhD,"Data Science Professional,Scrum Master",2
+C_910,"Kubernetes,React,Python,Machine Learning,Java,Docker,Node.js,Leadership,CI/CD,Agile",2,Bachelor,"PMP,Google Cloud Engineer",2
+C_911,"Python,Docker,Git",0,Master,Scrum Master,4
+C_912,"AWS,Excel,Pandas,React,GCP,C++,Tableau",6,Bachelor,"Machine Learning Specialization,Data Science Professional",5
+C_913,"Communication,Agile,Node.js",13,Bachelor,"Google Cloud Engineer,Machine Learning Specialization",0
+C_914,"Power BI,SQL,Azure,Node.js,Machine Learning,Leadership,TypeScript,Java,Docker",12,Bachelor,,2
+C_915,"Agile,Communication",0,PhD,"Google Cloud Engineer,Scrum Master",0
+C_916,"Tableau,SQL,Docker,Agile,Python,Pandas,Power BI,Machine Learning,Node.js,Kubernetes",9,Bachelor,"Scrum Master,AWS Solutions Architect",4
+C_917,"Power BI,Leadership,SQL,React,GCP,TypeScript,CI/CD",3,Master,,0
+C_918,"SQL,Python,Deep Learning,Machine Learning,Docker",13,Bachelor,,1
+C_919,"Excel,Python,SQL,Azure,Scrum,Machine Learning,Leadership",9,High School,"Machine Learning Specialization,Data Science Professional",3
+C_920,"Git,Java,Deep Learning,Communication,TypeScript,Machine Learning",4,Bachelor,Data Science Professional,3
+C_921,"Scrum,Machine Learning,Tableau,CI/CD,AWS,Communication,Power BI,Excel,Azure",10,Master,"Google Cloud Engineer,AWS Solutions Architect,PMP",2
+C_922,"Kubernetes,Excel,AWS",6,Master,,3
+C_923,"C++,Python",6,Bachelor,"Google Cloud Engineer,Scrum Master,AWS Solutions Architect",2
+C_924,"Communication,Tableau,Docker,GCP,Git",14,Master,,1
+C_925,"Kubernetes,React,TypeScript,Leadership,Tableau",6,Master,AWS Solutions Architect,2
+C_926,"Java,Scrum,GCP,Communication,Machine Learning,Deep Learning,TypeScript,Leadership",3,Bachelor,"Google Cloud Engineer,PMP,AWS Solutions Architect",3
+C_927,"TypeScript,Kubernetes,Azure,Machine Learning,Excel,Pandas,Git,Node.js,C++,Communication",12,Bachelor,"AWS Solutions Architect,Scrum Master",2
+C_928,"Machine Learning,SQL,Agile,React,Node.js,C++,GCP",6,Bachelor,"Data Science Professional,Machine Learning Specialization",3
+C_929,"Node.js,Machine Learning,Scrum,SQL,AWS,Git,Leadership,Communication,Agile,TypeScript",1,Bachelor,AWS Solutions Architect,4
+C_930,"Azure,AWS,Leadership",12,Bachelor,,1
+C_931,"Power BI,C++,Java,Git,Kubernetes,GCP",9,Master,,1
+C_932,"Git,Leadership,Power BI,GCP,AWS,Java,Docker,Pandas,Communication,Tableau",10,Master,AWS Solutions Architect,5
+C_933,"Node.js,Docker,Python,Java,Azure,Pandas,Agile,Scrum,Kubernetes",15,Bachelor,"Google Cloud Engineer,Scrum Master,AWS Solutions Architect",0
+C_934,"Communication,Scrum",9,Master,Google Cloud Engineer,0
+C_935,"GCP,CI/CD,Docker",14,Bachelor,"Data Science Professional,PMP",5
+C_936,"Azure,Kubernetes,TypeScript,Python,Git,GCP,Docker,Tableau,Power BI",3,Bachelor,,1
+C_937,"AWS,Scrum,Deep Learning,Kubernetes,Power BI,Python,CI/CD,Node.js",11,Bachelor,,1
+C_938,"Agile,Machine Learning,Azure,CI/CD,Excel,TypeScript,Tableau,Java",8,PhD,"PMP,Scrum Master",4
+C_939,"Azure,GCP,C++,SQL,Communication,Tableau,Docker,Machine Learning",13,Master,"PMP,AWS Solutions Architect",0
+C_940,"Scrum,Deep Learning,TypeScript,Git,Tableau,GCP,Excel,Java,Communication",15,Bachelor,"AWS Solutions Architect,Scrum Master",0
+C_941,"GCP,Communication,Machine Learning,SQL,Power BI",9,High School,"Machine Learning Specialization,AWS Solutions Architect",0
+C_942,"Deep Learning,Kubernetes,GCP,Tableau,Excel,CI/CD",2,Master,Machine Learning Specialization,1
+C_943,"Communication,Pandas,GCP,AWS,SQL,Power BI,Kubernetes,Agile",12,Bachelor,,2
+C_944,"Leadership,GCP,Java,Communication,Node.js,Docker",4,Master,PMP,1
+C_945,"Excel,C++,GCP,Scrum,Pandas,Agile,TypeScript,Java",12,Master,"AWS Solutions Architect,Google Cloud Engineer,Scrum Master",5
+C_946,"Tableau,Scrum,Kubernetes,TypeScript,Git,Node.js,Agile",13,PhD,"AWS Solutions Architect,Data Science Professional,Machine Learning Specialization",3
+C_947,"Deep Learning,Leadership,GCP",7,Bachelor,"Google Cloud Engineer,Data Science Professional",4
+C_948,"SQL,React,Deep Learning,Git,Python,TypeScript",14,Master,,0
+C_949,"Agile,Machine Learning,Docker,Leadership,Git,GCP",15,Master,,0
+C_950,"CI/CD,Git,SQL,C++,Tableau,Deep Learning,Excel,Power BI,Communication,Machine Learning",4,Bachelor,"Machine Learning Specialization,AWS Solutions Architect",3
+C_951,"Machine Learning,Pandas,Python,Deep Learning,Leadership",3,Bachelor,Google Cloud Engineer,0
+C_952,"Python,Tableau,TypeScript,React,SQL,Machine Learning,GCP,Agile,Power BI",5,Master,"Data Science Professional,Scrum Master",5
+C_953,"Node.js,Deep Learning,Agile",0,Bachelor,Google Cloud Engineer,4
+C_954,"C++,Power BI,Git,GCP,Agile,Machine Learning,Scrum,Kubernetes,Azure,CI/CD",12,Master,,3
+C_955,"Node.js,Deep Learning,Python,GCP,TypeScript,Machine Learning,React,Scrum",9,High School,"AWS Solutions Architect,PMP,Google Cloud Engineer",3
+C_956,"Azure,Python,Java,Kubernetes,Tableau,Leadership,C++,Agile,React",2,Bachelor,PMP,5
+C_957,"TypeScript,Git,Deep Learning,Azure,GCP,React,Pandas",15,Bachelor,"Data Science Professional,Google Cloud Engineer,PMP",1
+C_958,"Communication,CI/CD,Kubernetes,Git,Leadership,React,Pandas",1,High School,Google Cloud Engineer,0
+C_959,"Power BI,Scrum,Docker",7,PhD,AWS Solutions Architect,1
+C_960,"Node.js,Pandas,SQL,Leadership,Azure,Machine Learning,Scrum,Git",14,Master,,1
+C_961,"Machine Learning,Git,TypeScript,React,Deep Learning,Communication,Excel",6,Bachelor,"Scrum Master,PMP,Google Cloud Engineer",1
+C_962,"Node.js,Tableau,C++,Pandas",0,Master,,1
+C_963,"Deep Learning,Python",11,Master,,2
+C_964,"Scrum,CI/CD,Agile,Tableau",15,Bachelor,Data Science Professional,3
+C_965,"Kubernetes,CI/CD,Leadership,Excel,Deep Learning,Pandas,TypeScript,Node.js,React,Tableau",2,Bachelor,Data Science Professional,2
+C_966,"Machine Learning,Power BI,AWS",1,Master,"AWS Solutions Architect,Google Cloud Engineer",2
+C_967,"React,Git,Kubernetes,Pandas,Java,GCP",2,Bachelor,Data Science Professional,4
+C_968,"GCP,React,Leadership,SQL,Excel,Machine Learning,Power BI,Azure,Python,Scrum",10,Bachelor,PMP,0
+C_969,"C++,Excel,CI/CD,Docker",1,Bachelor,,4
+C_970,"Kubernetes,Pandas",13,Bachelor,,4
+C_971,"Deep Learning,Azure,SQL,Machine Learning,Scrum,Power BI,Tableau,AWS,Kubernetes",13,Bachelor,AWS Solutions Architect,0
+C_972,"C++,Excel",12,Master,,4
+C_973,"SQL,React,Git,Deep Learning,Node.js,Leadership,Excel,Agile,Machine Learning",14,Bachelor,"PMP,Google Cloud Engineer",2
+C_974,"SQL,AWS,Git,Pandas,Communication,Python,Scrum,Node.js",1,PhD,,5
+C_975,"SQL,Pandas,Deep Learning,TypeScript,Java",9,High School,"Data Science Professional,Google Cloud Engineer",2
+C_976,"Leadership,React,Power BI,Scrum",3,Master,,2
+C_977,"C++,Power BI,Kubernetes,AWS,TypeScript,GCP,Scrum,Communication,Agile,Azure",8,Bachelor,,0
+C_978,"Node.js,Git,Leadership,Power BI,Azure,Pandas,C++",4,Master,PMP,5
+C_979,"C++,Machine Learning,Kubernetes,Deep Learning,SQL,AWS,TypeScript,Excel,Git,Python",15,Master,"PMP,Data Science Professional",3
+C_980,"Pandas,SQL,Azure,Leadership,React,Power BI",0,Master,"Scrum Master,AWS Solutions Architect,Google Cloud Engineer",1
+C_981,"Java,Scrum,Node.js,Excel,SQL,GCP,Leadership,Kubernetes",0,PhD,"PMP,Data Science Professional",1
+C_982,"Docker,CI/CD",13,Master,,0
+C_983,"React,Scrum,GCP,Excel,TypeScript,Node.js,Tableau,Azure,Java,C++",14,Master,Google Cloud Engineer,0
+C_984,"Scrum,Azure,Pandas,AWS,Excel,GCP",10,Bachelor,,4
+C_985,"Kubernetes,Azure,Scrum,Git,Leadership,Python",3,Bachelor,"PMP,Google Cloud Engineer",3
+C_986,"Python,TypeScript,CI/CD,Git,SQL,Kubernetes,Power BI,C++,Node.js",1,Bachelor,,2
+C_987,"Docker,Pandas,TypeScript,Java,Azure,Leadership,Communication,Power BI,Deep Learning,Machine Learning",5,Bachelor,,1
+C_988,"Agile,SQL,Java",14,Bachelor,,4
+C_989,"SQL,Git,Azure,Python,Scrum",11,Bachelor,,4
+C_990,"Kubernetes,Machine Learning,Pandas,Tableau,TypeScript",3,Bachelor,Google Cloud Engineer,2
+C_991,"Scrum,Node.js,Pandas,Agile,Git,GCP,Deep Learning",0,Bachelor,"PMP,Scrum Master",5
+C_992,"Power BI,GCP,Leadership,Python,Java,Kubernetes,SQL",9,PhD,,0
+C_993,"Docker,Tableau,Git,CI/CD,Communication",11,PhD,"Data Science Professional,AWS Solutions Architect,Google Cloud Engineer",3
+C_994,"Pandas,AWS,Communication",13,Bachelor,,4
+C_995,"Leadership,Power BI",14,Bachelor,Data Science Professional,2
+C_996,"Docker,AWS,Kubernetes,TypeScript,CI/CD",3,Master,"Machine Learning Specialization,Scrum Master,PMP",0
+C_997,"Excel,Tableau,Pandas,Kubernetes,Power BI,AWS,TypeScript",13,Bachelor,Data Science Professional,1
+C_998,"Scrum,Communication,CI/CD,Deep Learning,Leadership,Azure,GCP,Docker",10,Bachelor,"Scrum Master,Data Science Professional,Google Cloud Engineer",4
+C_999,"Agile,C++,Java,TypeScript,Python,Scrum,Machine Learning,Node.js,Azure",15,Master,AWS Solutions Architect,3
+C_1000,"Git,Java",2,Bachelor,"Scrum Master,PMP,Google Cloud Engineer",3
