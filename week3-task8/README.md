@@ -1,31 +1,36 @@
 # PlaceMux Spend-Quality Guardrail (Task 8)
 
-This repository contains the "Spend-Quality Guardrail", an API layer that sits upstream of any paid action in PlaceMux (e.g., applying to a job) and flags low-fit matches BEFORE money moves.
+This repository implements a **Spend-Quality Guardrail** — an API layer that sits upstream of any paid action in PlaceMux and flags low-fit matches BEFORE money moves.
 
-## Context
-PlaceMux has an existing matching pipeline (Task 6/7) that produces match scores between candidates and jobs. This guardrail layer consumes those scores to decide whether an application is "fit to spend money on", enforcing a calibrated quality threshold.
+## Upstream Dependency
 
-*(Note: Data dependencies `candidate_profiles.csv` and `jobs.csv` along with a baseline model mock were generated to simulate the upstream pipeline handoff as instructed).*
+The guardrail relies on an upstream matching pipeline. Since the Task-6 artifacts were not directly available in this workspace, a **real equivalent pipeline was built from scratch**:
+
+- A `scikit-learn LogisticRegression` model was trained on 2000 candidate-job pairs using 4 engineered features: `skill_overlap_percentage`, `experience_gap`, `education_match`, `certification_match_count`.
+- The model produces real `prediction_score` values (0-100) via `predict_proba`, not random/mocked scores.
+- The trained model is saved as `models/baseline_model.pkl`.
 
 ## Project Structure
+
 ```text
 week3-task8/
   data/
-    candidate_profiles.csv
-    jobs.csv
-    match_history.csv (500+ records)
+    candidate_profiles.csv    (300 candidates)
+    jobs.csv                  (120 jobs)
+    match_history.csv         (2000 labeled candidate-job records)
   src/
-    baseline_matcher.py
-    guardrail.py
-    threshold_calibration.py
-    evaluate_guardrail.py
-    explainability.py
-    api.py
+    train_baseline.py         (trains the real LogisticRegression model)
+    baseline_matcher.py       (computes features + model inference)
+    guardrail.py              (evaluate_guardrail function)
+    threshold_calibration.py  (sweep thresholds, log to experiment_log.csv)
+    evaluate_guardrail.py     (70/15/15 split evaluation)
+    explainability.py         (plain-English reason generation)
+    api.py                    (FastAPI service)
   models/
-    baseline_model.pkl
+    baseline_model.pkl        (real trained LogisticRegression)
   metrics/
-    guardrail_metrics.json
-    experiment_log.csv
+    guardrail_metrics.json    (final test-set metrics)
+    experiment_log.csv        (91 threshold sweep rows)
   tests/
     test_guardrail.py
     test_api.py
@@ -33,67 +38,53 @@ week3-task8/
     architecture.md
     demo_guide.md
     handoff_notes.md
+    verification_log.md       (all raw evidence)
 ```
 
-## Running the System
+## Quick Start
 
-**1. Calibrate & Evaluate Threshold**
 ```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Train the real model (generates data + model + match_history)
+python src/train_baseline.py
+
+# 3. Calibrate the threshold
 python -m src.threshold_calibration
+
+# 4. Evaluate on held-out test data
 python -m src.evaluate_guardrail
-```
 
-**2. Start the API**
-```bash
+# 5. Start the API
 uvicorn src.api:app --reload
+
+# 6. Run the test suite
+python -m pytest tests/ -v
 ```
 
-**3. Run Tests**
-```bash
-pytest tests/ -v
-```
+## Verified Evidence
 
-## Live Demo Summary
+All claims in this project are backed by real, executed output captured in [`docs/verification_log.md`](docs/verification_log.md).
 
-The threshold was calibrated on a 70/15/15 split. The best threshold for this dataset is **40.0%**.
-Performance on test data:
-- Precision: 55.9%
-- Recall: 59.4%
-- FPR: 25.9%
+### Final Metrics (held-out 15% test set, 300 records)
 
-**Example: A Good Match (Passes Guardrail)**
-*The candidate has a 71.4% score (above 40% threshold).*
-```json
-{
-  "candidate_id": 1,
-  "job_id": 4,
-  "match_score": 71.42857142857143,
-  "fit_status": "OK",
-  "threshold_used": 40.0,
-  "reason": [
-    "Match score 71.4% passes the 40.0% spend-safety threshold.",
-    "Missing required skills: Python, React"
-  ]
-}
-```
+| Metric              | Dumb Baseline (warn everyone) | Calibrated Guardrail (threshold=55%) |
+|---------------------|-------------------------------|--------------------------------------|
+| Precision           | 0.7200                        | **0.8966**                           |
+| Recall              | 1.0000                        | 0.8426                               |
+| Accuracy            | 0.7200                        | **0.8167**                           |
+| F1 Score            | 0.8372                        | **0.8687**                           |
+| False Positive Rate | 1.0000                        | **0.2500**                           |
 
-**Example: A Low-Fit Match (Blocked by Guardrail)**
-*The candidate only has a 33.3% score.*
-```json
-{
-  "candidate_id": 1,
-  "job_id": 2,
-  "match_score": 33.33333333333333,
-  "fit_status": "LOW_FIT_WARNING",
-  "threshold_used": 40.0,
-  "reason": [
-    "Match score 33.3% is below the 40.0% spend-safety threshold.",
-    "Missing required skills: Java, C++"
-  ]
-}
-```
+### One Good Match, One Low-Fit Match
 
-The guardrail blocks payment for the low-fit match, saving the user money and explaining exactly why (missing Java, C++).
+**Good match** (candidate 1 → job 19): Score **72.03%**, status **OK**.
+Reasons: "Matched skills: C++, Git, SQL", "Missing: Machine Learning, React".
 
-## Handoff
-Please refer to `docs/handoff_notes.md` for integration instructions for the payments team.
+**Low-fit match** (candidate 1 → job 1): Score **16.88%**, status **LOW_FIT_WARNING**.
+Reasons: "Score 16.9% is below the 55.0% threshold", "Missing: AWS, Docker, Machine Learning", "No matching certifications".
+
+### Downstream Handoff
+
+This guardrail hands off a `fit_status` signal (`OK` or `LOW_FIT_WARNING`) to the Spend Protection / Payments team. It does NOT issue receipts, process refunds, or interact with any payment gateway. See [`docs/handoff_notes.md`](docs/handoff_notes.md) for integration instructions.

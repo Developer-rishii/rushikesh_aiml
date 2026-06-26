@@ -1,121 +1,121 @@
-job_id,title,required_skills,min_experience
-1,Job_1,"Node.js,AWS,SQL,Git,React,Python,Docker",2.2
-2,Job_2,"C++,SQL,React,AWS,Node.js,Docker",0.7
-3,Job_3,"React,Node.js,Java,SQL,Docker,Python,Machine Learning",4.9
-4,Job_4,"Machine Learning,C++,Java,AWS,React,Docker,Node.js",4.7
-5,Job_5,"Python,Java,Docker,Node.js,Machine Learning",4.2
-6,Job_6,"Node.js,React,SQL,Machine Learning,C++",3.1
-7,Job_7,"Docker,Java,SQL,Python,React",4.4
-8,Job_8,"C++,SQL,Java",0.7
-9,Job_9,"SQL,Node.js,Machine Learning,Java,Docker,React",3.7
-10,Job_10,"Python,Node.js,Docker,Machine Learning,C++",4.1
-11,Job_11,"Machine Learning,C++,SQL,Docker,Node.js",3.0
-12,Job_12,"React,SQL,AWS,Python",0.6
-13,Job_13,"C++,Python,Java,Machine Learning",0.9
-14,Job_14,"Node.js,Java,Machine Learning",2.0
-15,Job_15,"Git,Machine Learning,Docker,Python,C++,Node.js,AWS",1.0
-16,Job_16,"Machine Learning,AWS,Python,SQL,Git,C++,Java",0.6
-17,Job_17,"Docker,React,Machine Learning,AWS",4.8
-18,Job_18,"AWS,Git,Machine Learning",1.5
-19,Job_19,"Machine Learning,Java,AWS",1.9
-20,Job_20,"AWS,Java,Git,SQL,C++,Machine Learning",4.0
-21,Job_21,"C++,Docker,Git,Node.js,Machine Learning",4.5
-22,Job_22,"Python,Docker,C++,Java,Machine Learning,React,Git",0.3
-23,Job_23,"React,Java,SQL",4.4
-24,Job_24,"Python,React,Java",0.3
-25,Job_25,"Git,Machine Learning,Python,Node.js,AWS,Java,Docker",4.1
-26,Job_26,"C++,SQL,Machine Learning,React",2.9
-27,Job_27,"Machine Learning,AWS,Java,Docker,SQL",2.0
-28,Job_28,"Java,Docker,React,Machine Learning,Git,SQL,C++",1.2
-29,Job_29,"Node.js,Docker,C++,Git,SQL",4.1
-30,Job_30,"Java,C++,Node.js,Python",0.7
-31,Job_31,"SQL,Java,Node.js,Git,Machine Learning,Python",1.9
-32,Job_32,"Java,SQL,Machine Learning",0.7
-33,Job_33,"React,C++,SQL,Git,AWS,Docker",3.7
-34,Job_34,"SQL,Node.js,Docker,React",2.8
-35,Job_35,"Python,C++,SQL,Docker,Java,React",0.4
-36,Job_36,"Node.js,AWS,Machine Learning",0.2
-37,Job_37,"Git,Node.js,React",0.6
-38,Job_38,"Node.js,C++,Git,React,Machine Learning,Python",3.3
-39,Job_39,"Docker,Machine Learning,AWS,C++,Node.js",0.5
-40,Job_40,"AWS,Git,Node.js",2.2
-41,Job_41,"Node.js,Java,AWS,SQL,Git,Machine Learning,C++",2.7
-42,Job_42,"AWS,React,Python,Machine Learning,C++,Docker,Java",0.9
-43,Job_43,"Machine Learning,AWS,Python,Java,React,Docker,SQL",2.3
-44,Job_44,"Machine Learning,Docker,Python",2.9
-45,Job_45,"Node.js,React,Java,SQL,Python,Docker",2.2
-46,Job_46,"Git,C++,AWS,Docker,Node.js,React,Machine Learning",2.1
-47,Job_47,"SQL,Java,Node.js,Python,Machine Learning,C++",2.9
-48,Job_48,"Machine Learning,Python,React,Docker,Java,C++",4.7
-49,Job_49,"Machine Learning,SQL,React,Java,Docker,Git,C++",2.9
-50,Job_50,"AWS,React,Docker,Node.js,C++",3.7
-51,Job_51,"Machine Learning,Node.js,C++,Java,Git",4.6
-52,Job_52,"Docker,Machine Learning,Git,Python,React,Java",1.6
-53,Job_53,"Git,Machine Learning,Node.js,SQL",4.2
-54,Job_54,"Docker,Python,SQL",0.5
-55,Job_55,"Java,Git,Machine Learning,Python,Node.js,AWS,C++",2.9
-56,Job_56,"Node.js,Git,React",4.1
-57,Job_57,"AWS,Docker,Git,Node.js",2.9
-58,Job_58,"Machine Learning,Python,Docker",2.0
-59,Job_59,"SQL,AWS,Machine Learning",1.5
-60,Job_60,"SQL,C++,Machine Learning,React,Python",1.2
-61,Job_61,"Machine Learning,Java,AWS,SQL,Git,C++",4.5
-62,Job_62,"Docker,Python,Java,C++,SQL",3.4
-63,Job_63,"React,Node.js,AWS",4.1
-64,Job_64,"Node.js,Python,SQL,Git,Java,React",2.4
-65,Job_65,"AWS,SQL,Machine Learning,Node.js,C++,Java,Python",3.8
-66,Job_66,"AWS,React,C++",0.9
-67,Job_67,"C++,Node.js,Docker,React,SQL,Java",3.9
-68,Job_68,"Node.js,Java,Git,AWS,Docker",1.5
-69,Job_69,"Git,SQL,Python,Machine Learning,C++,Java",0.7
-70,Job_70,"Docker,Python,Git,Node.js,AWS,Java,Machine Learning",4.0
-71,Job_71,"Machine Learning,AWS,Java,Docker,Git,Node.js,Python",5.0
-72,Job_72,"Machine Learning,Docker,Java",4.6
-73,Job_73,"Machine Learning,Java,SQL,Node.js,Git",3.3
-74,Job_74,"SQL,Git,Python",4.7
-75,Job_75,"Python,Docker,Git,Machine Learning",3.2
-76,Job_76,"SQL,C++,Python,Git,Node.js,Java,Machine Learning",4.9
-77,Job_77,"C++,SQL,AWS",1.5
-78,Job_78,"Java,React,AWS,Python,Git,Machine Learning,SQL",0.1
-79,Job_79,"Java,Python,C++,Machine Learning,Git",3.4
-80,Job_80,"Java,Python,React",0.1
-81,Job_81,"Git,Node.js,C++,React,Docker",2.7
-82,Job_82,"Java,Docker,AWS,C++,Python,SQL,Machine Learning",2.6
-83,Job_83,"Docker,AWS,Java,Node.js,Python,React,Machine Learning",4.3
-84,Job_84,"Java,Git,Machine Learning,SQL,Docker,AWS",3.9
-85,Job_85,"Git,React,Python,Java,SQL,AWS",0.8
-86,Job_86,"Python,Git,Node.js,SQL,Docker,Java,React",2.1
-87,Job_87,"Docker,SQL,Machine Learning,Git,React,Java",2.3
-88,Job_88,"Java,Node.js,React,C++",3.8
-89,Job_89,"Docker,Java,Git,Node.js",1.0
-90,Job_90,"Node.js,Machine Learning,Python,SQL,Git,AWS",2.7
-91,Job_91,"Git,SQL,Java,Node.js",1.5
-92,Job_92,"AWS,Python,C++,Docker,Java",3.4
-93,Job_93,"Machine Learning,C++,AWS",0.4
-94,Job_94,"Git,Python,React,Node.js,Docker",4.9
-95,Job_95,"Java,Git,Python,React,C++,Machine Learning",0.2
-96,Job_96,"SQL,Machine Learning,Node.js,AWS,Java,C++",4.4
-97,Job_97,"Java,Git,React",0.9
-98,Job_98,"C++,Node.js,AWS,SQL,React,Docker,Git",4.5
-99,Job_99,"AWS,Machine Learning,SQL,Java,React,C++",4.9
-100,Job_100,"Node.js,Python,SQL",0.3
-101,Job_101,"Python,SQL,AWS,C++,Machine Learning,React,Java",2.3
-102,Job_102,"SQL,AWS,React",3.1
-103,Job_103,"Java,Python,C++",3.3
-104,Job_104,"Node.js,C++,Machine Learning,AWS,SQL",3.3
-105,Job_105,"AWS,Java,Machine Learning",4.6
-106,Job_106,"SQL,Git,Java,Python",4.5
-107,Job_107,"SQL,Git,C++",1.5
-108,Job_108,"React,Git,Java,C++,AWS,Python",0.2
-109,Job_109,"C++,Git,Machine Learning,Java,AWS",2.3
-110,Job_110,"Docker,AWS,Git,Machine Learning,Python",3.6
-111,Job_111,"AWS,Node.js,Java,Docker,Machine Learning,Git",1.3
-112,Job_112,"Machine Learning,Java,AWS,SQL",0.1
-113,Job_113,"Docker,AWS,Python,Machine Learning,SQL,Java,React",3.3
-114,Job_114,"AWS,Docker,Java,Machine Learning,Node.js",4.0
-115,Job_115,"Node.js,React,Docker,Machine Learning,Git",2.7
-116,Job_116,"React,Git,Java,SQL,Docker,Machine Learning",2.4
-117,Job_117,"Python,Machine Learning,C++,AWS",4.0
-118,Job_118,"SQL,Machine Learning,Git,Docker,React",2.0
-119,Job_119,"Java,Machine Learning,Docker,React,Python,Git",3.0
-120,Job_120,"Git,SQL,Python,C++,Java,AWS,React",3.2
+job_id,title,required_skills,min_experience,required_education,required_certifications
+1,Job_1,"AWS,Machine Learning,Docker,C++",1.8,PhD,
+2,Job_2,"Node.js,Docker,Git,React,Python,C++,Java",3.2,Masters,Scrum Master
+3,Job_3,"C++,Machine Learning,SQL,AWS,Node.js,Docker,Python",3.9,Masters,Scrum Master
+4,Job_4,"Docker,Git,Node.js,AWS,Python",1.8,Masters,PMP
+5,Job_5,"AWS,Git,Docker,Python,SQL",2.2,PhD,
+6,Job_6,"Python,Git,Machine Learning,C++,Docker",4.9,Masters,"CompTIA,Google Cloud"
+7,Job_7,"C++,Machine Learning,Python,Git,Node.js,Java",0.9,PhD,PMP
+8,Job_8,"C++,AWS,Machine Learning,React,Java",4.5,Masters,
+9,Job_9,"Python,C++,Java,Node.js,SQL,AWS,Git",0.5,Masters,Scrum Master
+10,Job_10,"Python,Docker,Java",1.4,Bachelors,"CompTIA,AWS Certified"
+11,Job_11,"Python,AWS,React,Machine Learning,Java,SQL,Node.js",0.1,PhD,Scrum Master
+12,Job_12,"Docker,AWS,C++",5.0,PhD,
+13,Job_13,"Machine Learning,AWS,C++,Node.js",1.9,PhD,AWS Certified
+14,Job_14,"Git,C++,React,Docker,Node.js",1.0,PhD,Scrum Master
+15,Job_15,"Node.js,C++,Docker,Java,React,AWS,Git",1.0,Bachelors,
+16,Job_16,"AWS,SQL,React,Docker,Python,Java",0.0,Bachelors,
+17,Job_17,"Machine Learning,Docker,AWS,Git",1.3,Masters,Google Cloud
+18,Job_18,"AWS,Docker,Java,SQL",3.7,Bachelors,
+19,Job_19,"C++,Machine Learning,SQL,Git,React",0.5,Masters,"Cisco,CompTIA"
+20,Job_20,"SQL,Java,AWS,Python",2.8,Masters,CompTIA
+21,Job_21,"Python,Java,React",1.3,Bachelors,CompTIA
+22,Job_22,"Git,C++,SQL,React",4.4,Masters,AWS Certified
+23,Job_23,"Node.js,React,Git",4.0,Masters,
+24,Job_24,"Docker,Python,Machine Learning,C++,SQL,React,AWS",4.1,Bachelors,"Cisco,CompTIA"
+25,Job_25,"Java,Node.js,Git,SQL,C++,Machine Learning",1.2,PhD,
+26,Job_26,"Java,Machine Learning,SQL,Docker,AWS,C++,Python",1.3,Bachelors,AWS Certified
+27,Job_27,"Node.js,Java,Docker,Machine Learning,Python,C++,React",4.4,Bachelors,
+28,Job_28,"Python,Git,SQL,Java,Docker,AWS,Node.js",3.4,Masters,"PMP,Google Cloud"
+29,Job_29,"Machine Learning,React,Python,SQL,C++,Java",3.8,Masters,AWS Certified
+30,Job_30,"AWS,Git,Python,Java",2.1,Bachelors,
+31,Job_31,"Java,SQL,Node.js,Python",2.2,PhD,"Scrum Master,AWS Certified"
+32,Job_32,"SQL,Docker,Node.js",1.0,Masters,"CompTIA,Cisco"
+33,Job_33,"Git,AWS,Python,Docker,Node.js,SQL,Java",0.5,PhD,"Google Cloud,AWS Certified"
+34,Job_34,"React,Node.js,SQL,Java,Git,AWS,Machine Learning",0.6,PhD,
+35,Job_35,"C++,Machine Learning,React",0.6,PhD,
+36,Job_36,"Git,SQL,C++",4.1,PhD,"AWS Certified,Google Cloud"
+37,Job_37,"AWS,React,C++,Git,Node.js,SQL,Machine Learning",3.8,Masters,Google Cloud
+38,Job_38,"SQL,Node.js,C++,Python,Java",1.4,PhD,"Cisco,PMP"
+39,Job_39,"Docker,Machine Learning,SQL,Java,Git",4.1,PhD,"CompTIA,Scrum Master"
+40,Job_40,"C++,AWS,Git,Docker,Machine Learning,React",3.0,PhD,
+41,Job_41,"Machine Learning,Git,React,C++,Python",0.8,Masters,CompTIA
+42,Job_42,"Git,Node.js,Docker,React,SQL,AWS,Python",3.6,Bachelors,
+43,Job_43,"Git,Node.js,Python,AWS",4.2,PhD,Google Cloud
+44,Job_44,"Java,SQL,Node.js",2.1,Bachelors,Cisco
+45,Job_45,"AWS,React,Git,SQL,Python,C++",1.3,Masters,Google Cloud
+46,Job_46,"Machine Learning,React,Java,AWS",1.8,Bachelors,
+47,Job_47,"React,Node.js,Git,Docker,AWS",0.6,Masters,"Cisco,CompTIA"
+48,Job_48,"C++,Machine Learning,Python,Java,Git",3.7,PhD,"AWS Certified,Scrum Master"
+49,Job_49,"Machine Learning,C++,Git,SQL,Java,AWS,React",0.5,PhD,AWS Certified
+50,Job_50,"Docker,Java,Machine Learning,Git",0.1,Bachelors,"PMP,Scrum Master"
+51,Job_51,"AWS,Python,Node.js,Machine Learning",4.1,PhD,
+52,Job_52,"Python,C++,React,Node.js,AWS",0.4,PhD,
+53,Job_53,"Docker,SQL,Java,AWS,Machine Learning",4.7,Bachelors,"Google Cloud,CompTIA"
+54,Job_54,"Python,SQL,C++,React,Node.js,AWS,Java",3.5,Bachelors,
+55,Job_55,"Node.js,AWS,Python,SQL",3.4,PhD,
+56,Job_56,"Java,Python,Machine Learning,Node.js",4.6,Masters,
+57,Job_57,"SQL,Docker,React",4.5,PhD,"AWS Certified,Cisco"
+58,Job_58,"Docker,Git,C++",0.7,Masters,"AWS Certified,Cisco"
+59,Job_59,"Node.js,React,Git,C++,Docker,SQL,AWS",1.4,Bachelors,
+60,Job_60,"React,SQL,Machine Learning,AWS,Java,Node.js",2.5,Masters,"AWS Certified,Cisco"
+61,Job_61,"Java,Machine Learning,Docker",1.8,Masters,"PMP,Scrum Master"
+62,Job_62,"Node.js,Machine Learning,Git,Docker",4.3,Bachelors,
+63,Job_63,"React,Node.js,Docker,C++,Git,Machine Learning",3.9,Bachelors,
+64,Job_64,"AWS,Machine Learning,Java",2.2,PhD,"PMP,Cisco"
+65,Job_65,"Docker,C++,AWS",4.5,PhD,Cisco
+66,Job_66,"AWS,Python,React,Machine Learning,Node.js,Git,Java",0.5,Bachelors,
+67,Job_67,"React,C++,Machine Learning",1.9,Bachelors,"CompTIA,PMP"
+68,Job_68,"Python,Docker,Machine Learning,SQL,Git,Java",3.6,Bachelors,Google Cloud
+69,Job_69,"Docker,SQL,Python,C++",0.7,Bachelors,"Scrum Master,PMP"
+70,Job_70,"Java,Node.js,Python,Git,React",0.8,Bachelors,"CompTIA,Cisco"
+71,Job_71,"Docker,Python,React,Node.js,Java",2.5,Bachelors,PMP
+72,Job_72,"AWS,Node.js,SQL,Java,Python,Machine Learning,React",1.7,PhD,"CompTIA,PMP"
+73,Job_73,"React,Java,AWS,SQL",2.9,Masters,
+74,Job_74,"Java,Node.js,Git,SQL,Docker",2.7,Masters,"CompTIA,Scrum Master"
+75,Job_75,"Java,Machine Learning,C++,Python,Node.js",4.0,Bachelors,
+76,Job_76,"Python,Java,C++,Docker,SQL",4.2,PhD,"AWS Certified,CompTIA"
+77,Job_77,"Docker,SQL,React,Python,Git,Node.js,AWS",1.2,Masters,AWS Certified
+78,Job_78,"Docker,AWS,SQL,Python,Node.js,Java,Git",1.3,Masters,
+79,Job_79,"React,C++,Java,Git",3.0,Bachelors,"CompTIA,PMP"
+80,Job_80,"AWS,Machine Learning,Java",2.5,Masters,
+81,Job_81,"Python,Node.js,React,Git,Java,C++,AWS",2.7,PhD,"Google Cloud,Cisco"
+82,Job_82,"Java,Docker,SQL,Machine Learning,Node.js",2.5,Masters,"Google Cloud,AWS Certified"
+83,Job_83,"Machine Learning,AWS,Java,C++,Node.js",1.9,Masters,
+84,Job_84,"C++,Python,Git,Java,Machine Learning",3.6,Bachelors,Google Cloud
+85,Job_85,"React,SQL,Node.js",4.4,PhD,"Cisco,AWS Certified"
+86,Job_86,"Docker,React,Machine Learning,Java",1.2,Bachelors,"Cisco,CompTIA"
+87,Job_87,"AWS,Python,Git,Docker",3.6,Masters,"CompTIA,Google Cloud"
+88,Job_88,"React,AWS,Machine Learning,Git,Java",0.6,Masters,
+89,Job_89,"Docker,React,Java",1.6,Bachelors,PMP
+90,Job_90,"Git,React,SQL,Java,Docker",1.6,Masters,"AWS Certified,CompTIA"
+91,Job_91,"Node.js,Machine Learning,C++,Python,Java",2.2,Masters,"Google Cloud,AWS Certified"
+92,Job_92,"Python,Machine Learning,C++",3.5,Masters,Cisco
+93,Job_93,"Node.js,C++,Docker,React,AWS,Python",3.2,PhD,
+94,Job_94,"SQL,Node.js,React,Python,Java",3.9,Bachelors,"Scrum Master,CompTIA"
+95,Job_95,"Machine Learning,React,C++,Node.js,Python,Git",0.5,Masters,
+96,Job_96,"Git,Node.js,Java,React,Docker,Python",1.2,Bachelors,
+97,Job_97,"Git,SQL,AWS,Node.js",1.9,PhD,Cisco
+98,Job_98,"Node.js,Java,Machine Learning,C++,Git,Docker",1.3,Bachelors,AWS Certified
+99,Job_99,"Git,SQL,Machine Learning,C++",4.6,Bachelors,
+100,Job_100,"SQL,React,AWS,Machine Learning,Git,Docker",4.3,Bachelors,"PMP,Google Cloud"
+101,Job_101,"Python,C++,SQL,Machine Learning,Git,Docker,Node.js",3.7,Bachelors,CompTIA
+102,Job_102,"Docker,C++,Java,AWS",0.8,Masters,Google Cloud
+103,Job_103,"C++,Python,Docker,Node.js,Machine Learning",1.8,Masters,Cisco
+104,Job_104,"Docker,Java,Node.js,Git,Machine Learning",3.6,Bachelors,
+105,Job_105,"Machine Learning,C++,Docker,SQL,Java,Git",2.6,Masters,CompTIA
+106,Job_106,"Git,Python,Java,Docker",0.7,Masters,
+107,Job_107,"Machine Learning,Docker,SQL,C++,AWS,React",3.3,PhD,"Google Cloud,Scrum Master"
+108,Job_108,"Java,Python,Machine Learning,Node.js,Docker",4.4,Bachelors,
+109,Job_109,"C++,Git,Docker,Machine Learning,Python,React",3.0,Masters,"CompTIA,PMP"
+110,Job_110,"Java,React,Git,Machine Learning",2.8,Masters,"PMP,AWS Certified"
+111,Job_111,"SQL,Python,Docker,Machine Learning,AWS",4.6,Masters,
+112,Job_112,"Git,Java,C++,Node.js",4.0,Masters,
+113,Job_113,"Java,Python,Docker,C++,Machine Learning,SQL",3.0,Bachelors,
+114,Job_114,"Machine Learning,SQL,Node.js,C++,Java,AWS,Docker",2.9,Masters,"AWS Certified,Google Cloud"
+115,Job_115,"AWS,Docker,Machine Learning,C++,Python,Java",2.2,PhD,"Scrum Master,PMP"
+116,Job_116,"SQL,Git,Docker,Java,Machine Learning,Python,C++",1.2,Bachelors,
+117,Job_117,"Docker,AWS,Git,Machine Learning,SQL",1.7,PhD,
+118,Job_118,"Java,React,Git,SQL",4.4,Bachelors,"Cisco,Scrum Master"
+119,Job_119,"Git,SQL,Docker,React,Python,Machine Learning",1.7,Masters,
+120,Job_120,"AWS,SQL,Machine Learning,Git",4.6,Bachelors,"Scrum Master,PMP"
