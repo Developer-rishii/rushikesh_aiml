@@ -1,0 +1,301 @@
+candidate_id,name,skills,experience_years
+1,Candidate_1,"Docker,AWS,Git,Node.js,SQL",7.7
+2,Candidate_2,"Docker,Node.js,SQL",7.5
+3,Candidate_3,"Python,C++",8.6
+4,Candidate_4,"Node.js,C++,Machine Learning,Docker",2.1
+5,Candidate_5,"Git,C++,Python,Java,React,Docker",5.1
+6,Candidate_6,"Git,React,Python,SQL",9.5
+7,Candidate_7,"AWS,Machine Learning,Node.js,C++",9.4
+8,Candidate_8,"C++,Node.js,Python,Git,Java,SQL",8.3
+9,Candidate_9,"C++,AWS",8.7
+10,Candidate_10,"Git,Node.js",8.4
+11,Candidate_11,"React,Node.js,SQL,C++",5.0
+12,Candidate_12,"Node.js,AWS,Machine Learning,React",7.7
+13,Candidate_13,"Python,Git",2.5
+14,Candidate_14,"Docker,Git,SQL,React,C++,Java",4.8
+15,Candidate_15,"Node.js,React,C++",7.5
+16,Candidate_16,"Node.js,Python,C++,Docker",2.2
+17,Candidate_17,"Machine Learning,SQL,Git,Python,Docker,Node.js",1.9
+18,Candidate_18,"C++,Java",3.7
+19,Candidate_19,"Java,AWS,Node.js,Machine Learning,Docker",8.7
+20,Candidate_20,"Git,Docker,SQL,Python,Node.js,AWS",9.6
+21,Candidate_21,"SQL,AWS,React,Machine Learning,Docker",1.8
+22,Candidate_22,"Docker,Java",0.6
+23,Candidate_23,"Java,Docker,Node.js,Machine Learning,C++,Python",7.8
+24,Candidate_24,"Git,C++,AWS",6.3
+25,Candidate_25,"SQL,Docker,Machine Learning",2.6
+26,Candidate_26,"AWS,React,C++,Machine Learning,Java",0.3
+27,Candidate_27,"Docker,AWS,SQL,Git,Node.js,Machine Learning",3.4
+28,Candidate_28,"AWS,C++,Node.js,Docker,SQL,Machine Learning",6.8
+29,Candidate_29,"Node.js,Java",4.3
+30,Candidate_30,"Docker,AWS,Java",7.3
+31,Candidate_31,"Node.js,Python",9.4
+32,Candidate_32,"React,SQL",4.2
+33,Candidate_33,"C++,SQL,AWS,Java,Docker,Python",1.3
+34,Candidate_34,"SQL,Node.js,AWS,Docker,C++,Java",4.0
+35,Candidate_35,"React,Python,C++,Machine Learning,Node.js",3.6
+36,Candidate_36,"Machine Learning,C++,Docker",3.2
+37,Candidate_37,"React,Machine Learning",2.9
+38,Candidate_38,"Node.js,C++,Docker",9.4
+39,Candidate_39,"Python,SQL,AWS,Machine Learning,Git",0.4
+40,Candidate_40,"Machine Learning,React",2.9
+41,Candidate_41,"C++,Java,Machine Learning,AWS,Node.js,Docker",9.4
+42,Candidate_42,"Machine Learning,Python,Node.js,React,Docker,SQL",8.1
+43,Candidate_43,"AWS,Python,Machine Learning,Java,SQL",2.7
+44,Candidate_44,"AWS,Docker,Java,SQL",0.6
+45,Candidate_45,"Docker,React,Node.js",3.2
+46,Candidate_46,"AWS,Python,Git",5.8
+47,Candidate_47,"Machine Learning,React,C++,Docker,Git,SQL",4.2
+48,Candidate_48,"Git,SQL,Machine Learning,React,Python",4.0
+49,Candidate_49,"AWS,SQL,Python",1.4
+50,Candidate_50,"React,Docker,SQL,C++",5.9
+51,Candidate_51,"Python,AWS,Java,React,C++",4.0
+52,Candidate_52,"Machine Learning,React,AWS,Node.js",3.1
+53,Candidate_53,"C++,Node.js,React",2.1
+54,Candidate_54,"SQL,Node.js",9.4
+55,Candidate_55,"Machine Learning,Node.js,SQL,Git,React",6.0
+56,Candidate_56,"Machine Learning,Git,Docker,AWS",3.7
+57,Candidate_57,"Docker,Python,SQL",1.0
+58,Candidate_58,"Python,Java,Git,React,SQL",7.8
+59,Candidate_59,"React,Node.js,Git,Python",5.9
+60,Candidate_60,"Python,SQL,Git,Machine Learning,Node.js,React",0.1
+61,Candidate_61,"Machine Learning,Git,C++,React",2.0
+62,Candidate_62,"AWS,Python,SQL,C++,Docker,Node.js",5.1
+63,Candidate_63,"React,C++,Node.js,Python,Git,Docker",4.9
+64,Candidate_64,"SQL,C++",2.5
+65,Candidate_65,"React,Docker,SQL,Java,Machine Learning,C++",7.1
+66,Candidate_66,"SQL,Python,Node.js,Git,Machine Learning,Java",6.6
+67,Candidate_67,"Java,Python,C++",8.2
+68,Candidate_68,"Python,Machine Learning",4.5
+69,Candidate_69,"Git,Java,Docker,Machine Learning,SQL",0.2
+70,Candidate_70,"React,Machine Learning,Docker",0.6
+71,Candidate_71,"AWS,Git",10.0
+72,Candidate_72,"C++,Python,Git,SQL,React,Docker",0.6
+73,Candidate_73,"SQL,Machine Learning,AWS,Java,React",7.6
+74,Candidate_74,"Python,Java",7.4
+75,Candidate_75,"Node.js,Machine Learning,Docker,Python,SQL,Java",1.0
+76,Candidate_76,"Node.js,React",0.6
+77,Candidate_77,"C++,Node.js,Python",1.4
+78,Candidate_78,"AWS,Git,C++,Docker,React",2.7
+79,Candidate_79,"SQL,AWS,Python,React,C++,Java",5.1
+80,Candidate_80,"Python,Machine Learning,SQL,C++",5.6
+81,Candidate_81,"Git,React,AWS,Java",6.9
+82,Candidate_82,"Python,Git,React,Node.js",7.3
+83,Candidate_83,"AWS,React,Java,Git,Machine Learning,Docker",7.1
+84,Candidate_84,"Python,Node.js,C++,React,SQL",2.7
+85,Candidate_85,"SQL,Python,Docker,Machine Learning,Git",1.9
+86,Candidate_86,"Machine Learning,Docker,C++,Node.js,SQL",7.5
+87,Candidate_87,"Node.js,Git,Java,Machine Learning",5.6
+88,Candidate_88,"C++,Node.js,Java,Docker,Python,AWS",7.8
+89,Candidate_89,"AWS,SQL,Git,React,Docker,Node.js",8.5
+90,Candidate_90,"AWS,Java",4.0
+91,Candidate_91,"SQL,AWS,Docker,React,Node.js,Machine Learning",9.0
+92,Candidate_92,"Docker,Node.js,AWS,Git,Python,SQL",3.9
+93,Candidate_93,"Java,C++,Git,AWS,React",5.2
+94,Candidate_94,"C++,Docker,AWS",1.7
+95,Candidate_95,"C++,AWS,Machine Learning,Python,Node.js,Git",1.4
+96,Candidate_96,"SQL,C++,Docker,Java,Node.js",2.5
+97,Candidate_97,"React,Git",2.8
+98,Candidate_98,"Node.js,C++,Docker,Python",4.7
+99,Candidate_99,"AWS,SQL,Docker",8.7
+100,Candidate_100,"Git,Machine Learning,Node.js,Docker,Python",2.9
+101,Candidate_101,"React,SQL,Docker,C++",9.8
+102,Candidate_102,"Git,Docker",1.7
+103,Candidate_103,"Git,Node.js,Machine Learning,C++,AWS,React",7.6
+104,Candidate_104,"Node.js,SQL,Machine Learning",2.0
+105,Candidate_105,"Docker,C++,React",8.9
+106,Candidate_106,"Machine Learning,Docker,Node.js,AWS,React",3.2
+107,Candidate_107,"SQL,Node.js,Docker",9.0
+108,Candidate_108,"Python,Git,C++,AWS,Machine Learning,SQL",0.6
+109,Candidate_109,"Python,C++,Git",5.4
+110,Candidate_110,"SQL,Node.js",9.2
+111,Candidate_111,"React,Git,Machine Learning,C++",0.2
+112,Candidate_112,"Node.js,React,C++,Docker,Machine Learning,AWS",8.7
+113,Candidate_113,"Git,Machine Learning,C++,Java",4.7
+114,Candidate_114,"Git,Node.js",1.9
+115,Candidate_115,"Java,AWS,Python",4.4
+116,Candidate_116,"Machine Learning,Python,Docker,SQL",1.3
+117,Candidate_117,"Python,Node.js,Java",9.1
+118,Candidate_118,"Java,Python,React,SQL,C++",6.2
+119,Candidate_119,"SQL,Git",9.3
+120,Candidate_120,"Machine Learning,Python",7.7
+121,Candidate_121,"Node.js,Python",6.3
+122,Candidate_122,"Docker,Java",1.6
+123,Candidate_123,"Machine Learning,Node.js,SQL,Java",6.6
+124,Candidate_124,"Java,AWS,Docker,Machine Learning",4.6
+125,Candidate_125,"Python,SQL,C++,Docker",7.5
+126,Candidate_126,"Docker,Java,SQL,React,Machine Learning,Python",5.2
+127,Candidate_127,"Python,Machine Learning,Git,C++",1.4
+128,Candidate_128,"Machine Learning,Python",6.0
+129,Candidate_129,"AWS,Node.js,C++,Git,Docker,Machine Learning",7.3
+130,Candidate_130,"C++,Git,SQL,Java,Python",5.8
+131,Candidate_131,"Node.js,Machine Learning,React,Docker",8.7
+132,Candidate_132,"SQL,Java",8.5
+133,Candidate_133,"Node.js,Git,SQL,Docker,C++",4.7
+134,Candidate_134,"Python,React,Java,SQL,Node.js,Machine Learning",0.1
+135,Candidate_135,"Docker,Java,C++,Git,Python,SQL",10.0
+136,Candidate_136,"Docker,Git,Java,Node.js,SQL,Machine Learning",7.1
+137,Candidate_137,"Node.js,Git,React,AWS,SQL,Machine Learning",1.1
+138,Candidate_138,"Docker,Machine Learning,React",6.6
+139,Candidate_139,"Node.js,Java",1.4
+140,Candidate_140,"Python,Machine Learning,Git",0.0
+141,Candidate_141,"Python,Java,Machine Learning",5.7
+142,Candidate_142,"Node.js,React",7.8
+143,Candidate_143,"Machine Learning,AWS,Node.js,Docker,SQL,Git",5.6
+144,Candidate_144,"Java,C++,SQL,AWS",1.7
+145,Candidate_145,"C++,Python,Machine Learning",2.9
+146,Candidate_146,"AWS,Machine Learning,Docker",5.9
+147,Candidate_147,"AWS,Node.js",2.0
+148,Candidate_148,"Python,C++,Java,Machine Learning",0.3
+149,Candidate_149,"Python,Git,Machine Learning,Node.js,C++",2.8
+150,Candidate_150,"AWS,Node.js,Git,Docker",0.4
+151,Candidate_151,"Python,Machine Learning,Node.js",2.0
+152,Candidate_152,"Machine Learning,C++,Docker,Git",2.4
+153,Candidate_153,"Docker,Node.js,AWS",4.6
+154,Candidate_154,"Node.js,Java,React,Python,Docker,SQL",0.9
+155,Candidate_155,"C++,AWS",1.2
+156,Candidate_156,"Node.js,React,Machine Learning,Docker,Git,C++",1.2
+157,Candidate_157,"AWS,React,Node.js,Docker,SQL,Python",4.6
+158,Candidate_158,"React,Git",1.2
+159,Candidate_159,"Machine Learning,Python,React,Docker,Node.js",1.7
+160,Candidate_160,"Git,Java,Machine Learning,AWS",0.3
+161,Candidate_161,"C++,Git,Docker,Python,Node.js",2.1
+162,Candidate_162,"AWS,SQL,Python",7.6
+163,Candidate_163,"Java,Python,Docker,SQL,Node.js",2.4
+164,Candidate_164,"Machine Learning,React,Java,C++,SQL",6.0
+165,Candidate_165,"Node.js,SQL,Java,Python,React,C++",7.9
+166,Candidate_166,"Python,Machine Learning",2.8
+167,Candidate_167,"C++,Python,SQL,Machine Learning,AWS",7.2
+168,Candidate_168,"C++,Docker,React,Python",9.5
+169,Candidate_169,"Python,Machine Learning,AWS,Docker,Git",9.5
+170,Candidate_170,"SQL,Machine Learning,Java,AWS,React",5.7
+171,Candidate_171,"React,C++,Docker",9.7
+172,Candidate_172,"C++,SQL,Machine Learning",9.4
+173,Candidate_173,"Git,C++,SQL,Machine Learning",5.2
+174,Candidate_174,"Node.js,Git,SQL",8.7
+175,Candidate_175,"Docker,SQL,Git",1.3
+176,Candidate_176,"C++,Git",1.5
+177,Candidate_177,"Machine Learning,SQL,Docker",9.6
+178,Candidate_178,"React,SQL,Machine Learning",7.5
+179,Candidate_179,"Java,SQL,Docker",7.2
+180,Candidate_180,"Java,SQL,Docker",4.1
+181,Candidate_181,"SQL,C++,Machine Learning,Docker,Node.js",3.3
+182,Candidate_182,"Java,AWS,Docker,React,Git",8.6
+183,Candidate_183,"Node.js,Git,C++,Java,AWS",6.6
+184,Candidate_184,"C++,Docker,React",1.6
+185,Candidate_185,"Git,Node.js,SQL",1.2
+186,Candidate_186,"Node.js,React",4.2
+187,Candidate_187,"Git,C++",9.3
+188,Candidate_188,"Git,Java",8.6
+189,Candidate_189,"Node.js,Git,Java",2.2
+190,Candidate_190,"Python,Java,AWS",2.3
+191,Candidate_191,"Python,Git",2.8
+192,Candidate_192,"Python,Git,AWS",8.6
+193,Candidate_193,"C++,Node.js,Python,React,Git,Machine Learning",7.8
+194,Candidate_194,"Machine Learning,Node.js,Docker,SQL,React,Git",4.1
+195,Candidate_195,"Java,React,SQL,Python,Machine Learning,Node.js",4.6
+196,Candidate_196,"Java,Node.js,Machine Learning,React",3.8
+197,Candidate_197,"Java,Machine Learning,SQL,React,Python,Git",5.1
+198,Candidate_198,"Java,Git,SQL,Docker,Machine Learning",5.8
+199,Candidate_199,"Java,AWS,Node.js,C++,Machine Learning,Git",9.4
+200,Candidate_200,"Node.js,React,C++",3.9
+201,Candidate_201,"Git,Node.js,Machine Learning,Java",1.5
+202,Candidate_202,"Python,Machine Learning,SQL,React",1.8
+203,Candidate_203,"React,Machine Learning,Python,C++,SQL,Git",1.3
+204,Candidate_204,"React,SQL,Docker",1.7
+205,Candidate_205,"SQL,AWS,Machine Learning,Node.js",5.7
+206,Candidate_206,"Machine Learning,AWS,Java,SQL,React,Node.js",3.0
+207,Candidate_207,"SQL,Docker",5.8
+208,Candidate_208,"React,SQL",5.8
+209,Candidate_209,"Docker,Machine Learning,Node.js,C++,React",7.6
+210,Candidate_210,"Python,SQL,Node.js,C++,Machine Learning,Docker",9.8
+211,Candidate_211,"SQL,Docker",1.2
+212,Candidate_212,"Machine Learning,C++",9.8
+213,Candidate_213,"Python,Machine Learning,React,C++,AWS",7.3
+214,Candidate_214,"SQL,React,Docker,Git,AWS",1.2
+215,Candidate_215,"Node.js,SQL,Java,Git,Docker",9.6
+216,Candidate_216,"React,Docker,Python,AWS",5.1
+217,Candidate_217,"Java,React",9.8
+218,Candidate_218,"Java,React",7.1
+219,Candidate_219,"SQL,React,Git,AWS",2.7
+220,Candidate_220,"SQL,Machine Learning,Docker,Python,Node.js,React",8.1
+221,Candidate_221,"Machine Learning,C++,AWS,Python",6.6
+222,Candidate_222,"React,AWS,Docker,Python,C++,Machine Learning",7.5
+223,Candidate_223,"Python,AWS",5.0
+224,Candidate_224,"AWS,React,Docker,Python",1.5
+225,Candidate_225,"Java,Git,AWS,Node.js,C++",9.1
+226,Candidate_226,"Java,Git",6.2
+227,Candidate_227,"Machine Learning,AWS,Git,React,Docker",2.8
+228,Candidate_228,"React,Node.js,AWS,C++,Java",2.2
+229,Candidate_229,"Git,React,C++,Machine Learning,SQL,Node.js",9.5
+230,Candidate_230,"SQL,Machine Learning,Git,Docker,C++,Python",8.4
+231,Candidate_231,"Git,Node.js,Python,Docker,Machine Learning",1.5
+232,Candidate_232,"SQL,React,Node.js,Git",2.2
+233,Candidate_233,"Docker,SQL,React",0.3
+234,Candidate_234,"Node.js,Machine Learning,Python",0.3
+235,Candidate_235,"Java,Git,React,Docker,C++",2.3
+236,Candidate_236,"Machine Learning,Java,Git,Node.js,SQL,React",3.9
+237,Candidate_237,"Docker,Python,Node.js",9.9
+238,Candidate_238,"React,Node.js,Git,AWS,C++,Java",8.9
+239,Candidate_239,"Machine Learning,Python,Node.js,Java",5.3
+240,Candidate_240,"Python,Docker,AWS",1.8
+241,Candidate_241,"Machine Learning,Python,React,C++,AWS,Docker",3.1
+242,Candidate_242,"AWS,React,C++,Python",3.4
+243,Candidate_243,"SQL,Java,Machine Learning,Node.js",1.9
+244,Candidate_244,"Docker,React",2.7
+245,Candidate_245,"AWS,Machine Learning,Docker,SQL,Node.js,Git",0.9
+246,Candidate_246,"SQL,Node.js,Machine Learning,Python,C++",2.1
+247,Candidate_247,"Git,Node.js,AWS,C++,Python,Java",8.4
+248,Candidate_248,"Java,Git",4.5
+249,Candidate_249,"Python,Node.js,Java,SQL",9.3
+250,Candidate_250,"React,Machine Learning,AWS,Node.js,Docker,Git",5.1
+251,Candidate_251,"C++,Git,AWS,Python",9.9
+252,Candidate_252,"AWS,Git,Node.js",1.2
+253,Candidate_253,"Git,Node.js,Docker,SQL,Python",8.3
+254,Candidate_254,"Node.js,Java,AWS",1.6
+255,Candidate_255,"React,AWS,Python,Docker",3.4
+256,Candidate_256,"AWS,SQL,Git,Docker,C++,Python",4.4
+257,Candidate_257,"Machine Learning,React",8.4
+258,Candidate_258,"Machine Learning,React,C++,Java,AWS",8.8
+259,Candidate_259,"Java,Python,Machine Learning,AWS,React",3.4
+260,Candidate_260,"SQL,Git,Node.js",5.5
+261,Candidate_261,"Machine Learning,AWS,Docker",0.7
+262,Candidate_262,"React,Python,Node.js,Git",1.1
+263,Candidate_263,"Java,SQL,React,AWS,C++,Python",1.6
+264,Candidate_264,"SQL,Machine Learning,Node.js,Java",0.1
+265,Candidate_265,"React,Java,SQL,Docker",2.0
+266,Candidate_266,"Python,Git,Node.js,SQL,React,Docker",2.2
+267,Candidate_267,"SQL,Java,Node.js,Machine Learning,React",5.9
+268,Candidate_268,"Machine Learning,SQL,React,C++,Docker,Node.js",0.1
+269,Candidate_269,"React,Machine Learning,Python,C++",3.0
+270,Candidate_270,"C++,Git,Java,React,Docker,AWS",6.7
+271,Candidate_271,"Machine Learning,AWS,React,Git,Docker",6.6
+272,Candidate_272,"C++,Java,Git,Python,Machine Learning",6.0
+273,Candidate_273,"Git,SQL,Node.js,Java",7.1
+274,Candidate_274,"Java,Docker,C++,React,Git",4.7
+275,Candidate_275,"C++,Java,SQL,Node.js",1.9
+276,Candidate_276,"AWS,Docker,SQL",2.2
+277,Candidate_277,"React,Docker,Git",0.5
+278,Candidate_278,"SQL,Git,AWS,Docker,C++,Python",7.3
+279,Candidate_279,"Machine Learning,Git,SQL,Node.js",8.1
+280,Candidate_280,"React,Machine Learning,AWS,C++,Git",4.3
+281,Candidate_281,"Python,Machine Learning",6.9
+282,Candidate_282,"C++,Python",6.2
+283,Candidate_283,"C++,Node.js,Python,Git,Java,SQL",3.6
+284,Candidate_284,"Node.js,Python",7.6
+285,Candidate_285,"Python,C++,Git,Java",0.6
+286,Candidate_286,"React,Docker,Node.js,Java,Python",7.4
+287,Candidate_287,"Python,Machine Learning,SQL",4.7
+288,Candidate_288,"Node.js,Git,AWS,Docker",9.9
+289,Candidate_289,"React,Docker,SQL,Node.js,C++",3.1
+290,Candidate_290,"Docker,C++,Python,Java,Machine Learning,React",0.2
+291,Candidate_291,"Docker,Python,Node.js,SQL,Java,Machine Learning",1.5
+292,Candidate_292,"SQL,Machine Learning,React",7.3
+293,Candidate_293,"Python,Docker",0.4
+294,Candidate_294,"Python,SQL,Git",3.4
+295,Candidate_295,"Git,C++",0.3
+296,Candidate_296,"Python,C++",8.8
+297,Candidate_297,"Machine Learning,SQL,C++,Git,AWS,Java",1.7
+298,Candidate_298,"Python,React,SQL,AWS,C++,Machine Learning",2.7
+299,Candidate_299,"Java,AWS,Machine Learning",3.8
+300,Candidate_300,"Machine Learning,AWS,Node.js,SQL,Java",1.5
