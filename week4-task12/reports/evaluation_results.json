@@ -1,0 +1,543 @@
+{
+  "baseline": {
+    "resume": {
+      "total_tp": 476,
+      "total_fp": 4,
+      "total_fn": 66,
+      "precision": 0.9917,
+      "recall": 0.8782,
+      "fpr": 0.0083,
+      "num_docs": 199
+    },
+    "jd": {
+      "total_tp": 193,
+      "total_fp": 0,
+      "total_fn": 24,
+      "precision": 1.0,
+      "recall": 0.8894,
+      "fpr": 0.0,
+      "num_docs": 80
+    },
+    "overall": {
+      "total_tp": 669,
+      "total_fp": 4,
+      "total_fn": 90,
+      "precision": 0.9941,
+      "recall": 0.8814,
+      "fpr": 0.0059,
+      "num_docs": 279
+    },
+    "hard_cases": {
+      "junk": {
+        "total_tp": 0,
+        "total_fp": 0,
+        "total_fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "extracted": [],
+            "ground_truth": [],
+            "false_positives": [],
+            "misses": [],
+            "doc_id": "res_junk_01"
+          }
+        ]
+      },
+      "alias_only": {
+        "total_tp": 1,
+        "total_fp": 0,
+        "total_fn": 6,
+        "precision": 1.0,
+        "recall": 0.1429,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 1,
+            "fp": 0,
+            "fn": 6,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "extracted": [
+              "R"
+            ],
+            "ground_truth": [
+              "TensorFlow",
+              "JavaScript",
+              "Machine Learning",
+              "Deep Learning",
+              "Kubernetes",
+              "DevOps",
+              "R"
+            ],
+            "false_positives": [],
+            "misses": [
+              "TensorFlow",
+              "JavaScript",
+              "Machine Learning",
+              "Deep Learning",
+              "Kubernetes",
+              "DevOps"
+            ],
+            "doc_id": "res_alias_01"
+          }
+        ]
+      },
+      "negation": {
+        "total_tp": 1,
+        "total_fp": 3,
+        "total_fn": 0,
+        "precision": 0.25,
+        "recall": 1.0,
+        "fpr": 0.75,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 1,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.25,
+            "recall": 1.0,
+            "extracted": [
+              "Docker",
+              "Kubernetes",
+              "AWS",
+              "Python"
+            ],
+            "ground_truth": [
+              "Python"
+            ],
+            "false_positives": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "misses": [],
+            "doc_id": "res_negation_01"
+          }
+        ]
+      },
+      "empty": {
+        "total_tp": 0,
+        "total_fp": 0,
+        "total_fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "extracted": [],
+            "ground_truth": [],
+            "false_positives": [],
+            "misses": [],
+            "doc_id": "jd_empty_01"
+          }
+        ]
+      },
+      "substring_trap": {
+        "total_tp": 1,
+        "total_fp": 1,
+        "total_fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "fpr": 0.5,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.5,
+            "recall": 1.0,
+            "extracted": [
+              "R",
+              "Python"
+            ],
+            "ground_truth": [
+              "Python"
+            ],
+            "false_positives": [
+              "R"
+            ],
+            "misses": [],
+            "doc_id": "res_substring_01"
+          }
+        ]
+      }
+    }
+  },
+  "rules_only": {
+    "resume": {
+      "total_tp": 541,
+      "total_fp": 126,
+      "total_fn": 1,
+      "precision": 0.8111,
+      "recall": 0.9982,
+      "fpr": 0.1889,
+      "num_docs": 199
+    },
+    "jd": {
+      "total_tp": 217,
+      "total_fp": 40,
+      "total_fn": 0,
+      "precision": 0.8444,
+      "recall": 1.0,
+      "fpr": 0.1556,
+      "num_docs": 80
+    },
+    "overall": {
+      "total_tp": 758,
+      "total_fp": 166,
+      "total_fn": 1,
+      "precision": 0.8203,
+      "recall": 0.9987,
+      "fpr": 0.1797,
+      "num_docs": 279
+    },
+    "hard_cases": {
+      "junk": {
+        "total_tp": 0,
+        "total_fp": 1,
+        "total_fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 1.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 1.0,
+            "extracted": [
+              "Leadership"
+            ],
+            "ground_truth": [],
+            "false_positives": [
+              "Leadership"
+            ],
+            "misses": [],
+            "doc_id": "res_junk_01"
+          }
+        ]
+      },
+      "alias_only": {
+        "total_tp": 6,
+        "total_fp": 1,
+        "total_fn": 1,
+        "precision": 0.8571,
+        "recall": 0.8571,
+        "fpr": 0.1429,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 6,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "extracted": [
+              "Kubernetes",
+              "JavaScript",
+              "Machine Learning",
+              "Deep Learning",
+              "Terraform",
+              "DevOps",
+              "R"
+            ],
+            "ground_truth": [
+              "TensorFlow",
+              "JavaScript",
+              "Machine Learning",
+              "Deep Learning",
+              "Kubernetes",
+              "DevOps",
+              "R"
+            ],
+            "false_positives": [
+              "Terraform"
+            ],
+            "misses": [
+              "TensorFlow"
+            ],
+            "doc_id": "res_alias_01"
+          }
+        ]
+      },
+      "negation": {
+        "total_tp": 1,
+        "total_fp": 1,
+        "total_fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "fpr": 0.5,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.5,
+            "recall": 1.0,
+            "extracted": [
+              "Leadership",
+              "Python"
+            ],
+            "ground_truth": [
+              "Python"
+            ],
+            "false_positives": [
+              "Leadership"
+            ],
+            "misses": [],
+            "doc_id": "res_negation_01"
+          }
+        ]
+      },
+      "empty": {
+        "total_tp": 0,
+        "total_fp": 0,
+        "total_fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "extracted": [],
+            "ground_truth": [],
+            "false_positives": [],
+            "misses": [],
+            "doc_id": "jd_empty_01"
+          }
+        ]
+      },
+      "substring_trap": {
+        "total_tp": 1,
+        "total_fp": 2,
+        "total_fn": 0,
+        "precision": 0.3333,
+        "recall": 1.0,
+        "fpr": 0.6667,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 1,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "extracted": [
+              "Data Engineering",
+              "R",
+              "Python"
+            ],
+            "ground_truth": [
+              "Python"
+            ],
+            "false_positives": [
+              "Data Engineering",
+              "R"
+            ],
+            "misses": [],
+            "doc_id": "res_substring_01"
+          }
+        ]
+      }
+    }
+  },
+  "full_pipeline": {
+    "resume": {
+      "total_tp": 540,
+      "total_fp": 1,
+      "total_fn": 2,
+      "precision": 0.9982,
+      "recall": 0.9963,
+      "fpr": 0.0018,
+      "num_docs": 199
+    },
+    "jd": {
+      "total_tp": 217,
+      "total_fp": 0,
+      "total_fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0,
+      "num_docs": 80
+    },
+    "overall": {
+      "total_tp": 757,
+      "total_fp": 1,
+      "total_fn": 2,
+      "precision": 0.9987,
+      "recall": 0.9974,
+      "fpr": 0.0013,
+      "num_docs": 279
+    },
+    "hard_cases": {
+      "junk": {
+        "total_tp": 0,
+        "total_fp": 0,
+        "total_fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "extracted": [],
+            "ground_truth": [],
+            "false_positives": [],
+            "misses": [],
+            "doc_id": "res_junk_01"
+          }
+        ]
+      },
+      "alias_only": {
+        "total_tp": 5,
+        "total_fp": 1,
+        "total_fn": 2,
+        "precision": 0.8333,
+        "recall": 0.7143,
+        "fpr": 0.1667,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 5,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.8333333333333334,
+            "recall": 0.7142857142857143,
+            "extracted": [
+              "Kubernetes",
+              "JavaScript",
+              "Machine Learning",
+              "Deep Learning",
+              "Terraform",
+              "DevOps"
+            ],
+            "ground_truth": [
+              "TensorFlow",
+              "JavaScript",
+              "Machine Learning",
+              "Deep Learning",
+              "Kubernetes",
+              "DevOps",
+              "R"
+            ],
+            "false_positives": [
+              "Terraform"
+            ],
+            "misses": [
+              "TensorFlow",
+              "R"
+            ],
+            "doc_id": "res_alias_01"
+          }
+        ]
+      },
+      "negation": {
+        "total_tp": 1,
+        "total_fp": 0,
+        "total_fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "extracted": [
+              "Python"
+            ],
+            "ground_truth": [
+              "Python"
+            ],
+            "false_positives": [],
+            "misses": [],
+            "doc_id": "res_negation_01"
+          }
+        ]
+      },
+      "empty": {
+        "total_tp": 0,
+        "total_fp": 0,
+        "total_fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "extracted": [],
+            "ground_truth": [],
+            "false_positives": [],
+            "misses": [],
+            "doc_id": "jd_empty_01"
+          }
+        ]
+      },
+      "substring_trap": {
+        "total_tp": 1,
+        "total_fp": 0,
+        "total_fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": 0.0,
+        "num_docs": 1,
+        "details": [
+          {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "extracted": [
+              "Python"
+            ],
+            "ground_truth": [
+              "Python"
+            ],
+            "false_positives": [],
+            "misses": [],
+            "doc_id": "res_substring_01"
+          }
+        ]
+      }
+    }
+  }
+}

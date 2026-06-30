@@ -1,0 +1,55 @@
+{
+  "doc_type": "resume",
+  "status": "ok",
+  "skills": [
+    {
+      "canonical_name": "React",
+      "match_type": "exact",
+      "matched_text": "React",
+      "offset_start": 76,
+      "offset_end": 81,
+      "fuzzy_score": 100,
+      "confidence": 0.9858,
+      "is_negated": false,
+      "context": " experience. I really love working with React.js and Spring Boot. Currently playing a",
+      "explanation": "Extracted 'React': matched canonical name 'React' at offset 76; model confidence 0.99, driven mainly by match_type=not fuzzy and fuzzy_score=1.00"
+    },
+    {
+      "canonical_name": "Spring Boot",
+      "match_type": "exact",
+      "matched_text": "Spring Boot",
+      "offset_start": 89,
+      "offset_end": 100,
+      "fuzzy_score": 100,
+      "confidence": 0.99,
+      "is_negated": false,
+      "context": "I really love working with React.js and Spring Boot. Currently playing around with some Mac",
+      "explanation": "Extracted 'Spring Boot': matched canonical name 'Spring Boot' at offset 89; model confidence 0.99, driven mainly by match_type=not fuzzy and fuzzy_score=1.00"
+    },
+    {
+      "canonical_name": "Machine Learning",
+      "match_type": "exact",
+      "matched_text": "Machine Learning",
+      "offset_start": 137,
+      "offset_end": 153,
+      "fuzzy_score": 100,
+      "confidence": 1,
+      "is_negated": false,
+      "context": "oot. Currently playing around with some Machine Learning prototypes.",
+      "explanation": "Extracted 'Machine Learning': matched canonical name 'Machine Learning' at offset 137; model confidence 1.00, driven mainly by match_type=not fuzzy and fuzzy_score=1.00"
+    },
+    {
+      "canonical_name": "JavaScript",
+      "match_type": "alias",
+      "matched_text": "js",
+      "offset_start": 82,
+      "offset_end": 84,
+      "fuzzy_score": 100,
+      "confidence": 0.7001,
+      "is_negated": false,
+      "context": "ience. I really love working with React.js and Spring Boot. Currently playing arou",
+      "explanation": "Extracted 'JavaScript': matched alias 'js' at offset 82; model confidence 0.70, driven mainly by match_type=not fuzzy and fuzzy_score=1.00"
+    }
+  ],
+  "num_skills_extracted": 4
+}

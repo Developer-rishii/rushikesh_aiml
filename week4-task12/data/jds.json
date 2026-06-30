@@ -1,0 +1,698 @@
+[
+  {
+    "doc_id": "jd_empty_01",
+    "text": "",
+    "ground_truth": []
+  },
+  {
+    "doc_id": "jd_001",
+    "text": "Looking for a software engineer with experience in Leadership. Must know Golang.",
+    "ground_truth": [
+      "Leadership",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "jd_002",
+    "text": "Requirements: Leadership, Go, and Python. Nice to have: Data Science.",
+    "ground_truth": [
+      "Leadership",
+      "Go",
+      "Python",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "jd_003",
+    "text": "Looking for a software engineer with experience in Postgres. Must know Communication.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_004",
+    "text": "We need an expert in Docker. Background in k8s is a plus.",
+    "ground_truth": [
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_005",
+    "text": "Looking for a software engineer with experience in AWS. Must know Machine Learning.",
+    "ground_truth": [
+      "AWS",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "jd_006",
+    "text": "Requirements: Data Science, Python, and C++. Nice to have: Java.",
+    "ground_truth": [
+      "Data Science",
+      "Python",
+      "C++",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "jd_007",
+    "text": "Join our team! We use AWS and JavaScript. You should have good Leadership.",
+    "ground_truth": [
+      "AWS",
+      "JavaScript",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "jd_008",
+    "text": "Requirements: Angular, Golang, and React. Nice to have: Communication.",
+    "ground_truth": [
+      "Angular",
+      "Go",
+      "React",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_009",
+    "text": "We need an expert in MongoDB. Background in Communication is a plus.",
+    "ground_truth": [
+      "MongoDB",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_010",
+    "text": "Join our team! We use React and AWS. You should have good k8s.",
+    "ground_truth": [
+      "React",
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_011",
+    "text": "Looking for a software engineer with experience in Docker. Must know React.",
+    "ground_truth": [
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_012",
+    "text": "We need an expert in Kubernetes. Background in Go is a plus.",
+    "ground_truth": [
+      "Kubernetes",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "jd_013",
+    "text": "Join our team! We use React and Machine Learning. You should have good C++.",
+    "ground_truth": [
+      "React",
+      "Machine Learning",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "jd_014",
+    "text": "We need an expert in Postgres. Background in MongoDB is a plus.",
+    "ground_truth": [
+      "PostgreSQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_015",
+    "text": "Looking for a software engineer with experience in React. Must know Data Science.",
+    "ground_truth": [
+      "React",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "jd_016",
+    "text": "Requirements: Communication, C++, and SQL. Nice to have: Python.",
+    "ground_truth": [
+      "Communication",
+      "C++",
+      "SQL",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "jd_017",
+    "text": "Requirements: PostgreSQL, Data Science, and JS. Nice to have: Leadership.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Data Science",
+      "JavaScript",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "jd_018",
+    "text": "We need an expert in Leadership. Background in Machine Learning is a plus.",
+    "ground_truth": [
+      "Leadership",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "jd_019",
+    "text": "Looking for a software engineer with experience in Docker. Must know AWS.",
+    "ground_truth": [
+      "Docker",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "jd_020",
+    "text": "Looking for a software engineer with experience in Machine Learning. Must know SQL.",
+    "ground_truth": [
+      "Machine Learning",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "jd_021",
+    "text": "Requirements: Communication, React, and Leadership. Nice to have: AWS.",
+    "ground_truth": [
+      "Communication",
+      "React",
+      "Leadership",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "jd_022",
+    "text": "Looking for a software engineer with experience in Java. Must know k8s.",
+    "ground_truth": [
+      "Java",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_023",
+    "text": "Requirements: JavaScript, Machine Learning, and Python. Nice to have: AWS.",
+    "ground_truth": [
+      "JavaScript",
+      "Machine Learning",
+      "Python",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "jd_024",
+    "text": "Requirements: Java, Angular, and C++. Nice to have: Leadership.",
+    "ground_truth": [
+      "Java",
+      "Angular",
+      "C++",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "jd_025",
+    "text": "Looking for a software engineer with experience in Postgres. Must know MongoDB.",
+    "ground_truth": [
+      "PostgreSQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_026",
+    "text": "We need an expert in Golang. Background in React is a plus.",
+    "ground_truth": [
+      "Go",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_027",
+    "text": "Requirements: Angular, C++, and Data Science. Nice to have: Python.",
+    "ground_truth": [
+      "Angular",
+      "C++",
+      "Data Science",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "jd_028",
+    "text": "Looking for a software engineer with experience in MongoDB. Must know Communication.",
+    "ground_truth": [
+      "MongoDB",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_029",
+    "text": "Join our team! We use Golang and SQL. You should have good Data Science.",
+    "ground_truth": [
+      "Go",
+      "SQL",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "jd_030",
+    "text": "Requirements: Python, PostgreSQL, and MongoDB. Nice to have: JS.",
+    "ground_truth": [
+      "Python",
+      "PostgreSQL",
+      "MongoDB",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "jd_031",
+    "text": "Looking for a software engineer with experience in C++. Must know Kubernetes.",
+    "ground_truth": [
+      "C++",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_032",
+    "text": "We need an expert in Python. Background in React is a plus.",
+    "ground_truth": [
+      "Python",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_033",
+    "text": "Requirements: Communication, Leadership, and Docker. Nice to have: React.",
+    "ground_truth": [
+      "Communication",
+      "Leadership",
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_034",
+    "text": "Join our team! We use Python and React. You should have good Communication.",
+    "ground_truth": [
+      "Python",
+      "React",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_035",
+    "text": "Requirements: MongoDB, C++, and AWS. Nice to have: JavaScript.",
+    "ground_truth": [
+      "MongoDB",
+      "C++",
+      "AWS",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "jd_036",
+    "text": "We need an expert in k8s. Background in JS is a plus.",
+    "ground_truth": [
+      "Kubernetes",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "jd_037",
+    "text": "Requirements: SQL, k8s, and Go. Nice to have: Java.",
+    "ground_truth": [
+      "SQL",
+      "Kubernetes",
+      "Go",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "jd_038",
+    "text": "Looking for a software engineer with experience in Kubernetes. Must know AWS.",
+    "ground_truth": [
+      "Kubernetes",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "jd_039",
+    "text": "Requirements: C++, SQL, and JavaScript. Nice to have: Python.",
+    "ground_truth": [
+      "C++",
+      "SQL",
+      "JavaScript",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "jd_040",
+    "text": "We need an expert in Golang. Background in Communication is a plus.",
+    "ground_truth": [
+      "Go",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_041",
+    "text": "Join our team! We use Angular and Machine Learning. You should have good Kubernetes.",
+    "ground_truth": [
+      "Angular",
+      "Machine Learning",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_042",
+    "text": "Join our team! We use Machine Learning and Docker. You should have good React.",
+    "ground_truth": [
+      "Machine Learning",
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_043",
+    "text": "We need an expert in Golang. Background in Docker is a plus.",
+    "ground_truth": [
+      "Go",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "jd_044",
+    "text": "Looking for a software engineer with experience in Angular. Must know MongoDB.",
+    "ground_truth": [
+      "Angular",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_045",
+    "text": "Looking for a software engineer with experience in Data Science. Must know Machine Learning.",
+    "ground_truth": [
+      "Data Science",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "jd_046",
+    "text": "We need an expert in AWS. Background in Communication is a plus.",
+    "ground_truth": [
+      "AWS",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_047",
+    "text": "Join our team! We use MongoDB and React. You should have good Golang.",
+    "ground_truth": [
+      "MongoDB",
+      "React",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "jd_048",
+    "text": "Looking for a software engineer with experience in Machine Learning. Must know Docker.",
+    "ground_truth": [
+      "Machine Learning",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "jd_049",
+    "text": "We need an expert in Leadership. Background in Communication is a plus.",
+    "ground_truth": [
+      "Leadership",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_050",
+    "text": "We need an expert in Java. Background in React is a plus.",
+    "ground_truth": [
+      "Java",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_051",
+    "text": "Requirements: Machine Learning, MongoDB, and PostgreSQL. Nice to have: Kubernetes.",
+    "ground_truth": [
+      "Machine Learning",
+      "MongoDB",
+      "PostgreSQL",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_052",
+    "text": "Looking for a software engineer with experience in SQL. Must know MongoDB.",
+    "ground_truth": [
+      "SQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_053",
+    "text": "Join our team! We use SQL and Python. You should have good Kubernetes.",
+    "ground_truth": [
+      "SQL",
+      "Python",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_054",
+    "text": "We need an expert in MongoDB. Background in React is a plus.",
+    "ground_truth": [
+      "MongoDB",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_055",
+    "text": "Join our team! We use Docker and C++. You should have good JavaScript.",
+    "ground_truth": [
+      "Docker",
+      "C++",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "jd_056",
+    "text": "Requirements: JavaScript, k8s, and Machine Learning. Nice to have: Communication.",
+    "ground_truth": [
+      "JavaScript",
+      "Kubernetes",
+      "Machine Learning",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_057",
+    "text": "We need an expert in AWS. Background in k8s is a plus.",
+    "ground_truth": [
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "jd_058",
+    "text": "Requirements: MongoDB, Angular, and Kubernetes. Nice to have: Communication.",
+    "ground_truth": [
+      "MongoDB",
+      "Angular",
+      "Kubernetes",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "jd_059",
+    "text": "Join our team! We use Communication and C++. You should have good Machine Learning.",
+    "ground_truth": [
+      "Communication",
+      "C++",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "jd_060",
+    "text": "We need an expert in MongoDB. Background in Java is a plus.",
+    "ground_truth": [
+      "MongoDB",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "jd_061",
+    "text": "Requirements: JavaScript, Docker, and Machine Learning. Nice to have: SQL.",
+    "ground_truth": [
+      "JavaScript",
+      "Docker",
+      "Machine Learning",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "jd_062",
+    "text": "We need an expert in Angular. Background in Data Science is a plus.",
+    "ground_truth": [
+      "Angular",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "jd_063",
+    "text": "We need an expert in C++. Background in Java is a plus.",
+    "ground_truth": [
+      "C++",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "jd_064",
+    "text": "We need an expert in Docker. Background in MongoDB is a plus.",
+    "ground_truth": [
+      "Docker",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_065",
+    "text": "Looking for a software engineer with experience in Kubernetes. Must know MongoDB.",
+    "ground_truth": [
+      "Kubernetes",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_066",
+    "text": "Looking for a software engineer with experience in Postgres. Must know Java.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "jd_067",
+    "text": "Looking for a software engineer with experience in Go. Must know MongoDB.",
+    "ground_truth": [
+      "Go",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_068",
+    "text": "We need an expert in Python. Background in Go is a plus.",
+    "ground_truth": [
+      "Python",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "jd_069",
+    "text": "We need an expert in Machine Learning. Background in Leadership is a plus.",
+    "ground_truth": [
+      "Machine Learning",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "jd_070",
+    "text": "We need an expert in JavaScript. Background in Machine Learning is a plus.",
+    "ground_truth": [
+      "JavaScript",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "jd_071",
+    "text": "Requirements: Python, React, and Data Science. Nice to have: Leadership.",
+    "ground_truth": [
+      "Python",
+      "React",
+      "Data Science",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "jd_072",
+    "text": "Requirements: Data Science, JavaScript, and Machine Learning. Nice to have: Leadership.",
+    "ground_truth": [
+      "Data Science",
+      "JavaScript",
+      "Machine Learning",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "jd_073",
+    "text": "Join our team! We use JavaScript and Data Science. You should have good C++.",
+    "ground_truth": [
+      "JavaScript",
+      "Data Science",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "jd_074",
+    "text": "Join our team! We use Angular and Postgres. You should have good MongoDB.",
+    "ground_truth": [
+      "Angular",
+      "PostgreSQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_075",
+    "text": "Join our team! We use Communication and Golang. You should have good MongoDB.",
+    "ground_truth": [
+      "Communication",
+      "Go",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "jd_076",
+    "text": "Requirements: Java, AWS, and Communication. Nice to have: React.",
+    "ground_truth": [
+      "Java",
+      "AWS",
+      "Communication",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_077",
+    "text": "Requirements: Python, Leadership, and Communication. Nice to have: SQL.",
+    "ground_truth": [
+      "Python",
+      "Leadership",
+      "Communication",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "jd_078",
+    "text": "We need an expert in Postgres. Background in React is a plus.",
+    "ground_truth": [
+      "PostgreSQL",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "jd_079",
+    "text": "Join our team! We use Docker and Angular. You should have good React.",
+    "ground_truth": [
+      "Docker",
+      "Angular",
+      "React"
+    ]
+  }
+]

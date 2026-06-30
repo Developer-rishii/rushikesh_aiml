@@ -1,0 +1,1737 @@
+[
+  {
+    "doc_id": "res_junk_01",
+    "text": "I am a very hard worker. I love taking my dog for walks and cooking pasta. My favorite color is blue and I enjoy reading fiction novels on the weekends.",
+    "ground_truth": []
+  },
+  {
+    "doc_id": "res_alias_01",
+    "text": "Senior Engineer with 5 years in ML and DL. Proficient in tf and k8s. I also use r-script and js for quick prototypes. I love working in a dev-ops culture.",
+    "ground_truth": [
+      "Machine Learning",
+      "Deep Learning",
+      "TensorFlow",
+      "Kubernetes",
+      "R",
+      "JavaScript",
+      "DevOps"
+    ]
+  },
+  {
+    "doc_id": "res_negation_01",
+    "text": "Experienced Python developer. I have no experience with Docker or Kubernetes. I am not familiar with AWS, but I am learning.",
+    "ground_truth": [
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_substring_01",
+    "text": "I was a Director of Engineering at R&D corp. Currently working on a project with Python. I am not a fan of the letter R, but I love programming.",
+    "ground_truth": [
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_001",
+    "text": "Worked extensively with SQL and Java. Great Machine Learning skills.",
+    "ground_truth": [
+      "SQL",
+      "Java",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_002",
+    "text": "Senior developer: React | Docker | Postgres",
+    "ground_truth": [
+      "React",
+      "Docker",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_003",
+    "text": "Experienced in SQL, with a strong background in Machine Learning. Familiar with Python.",
+    "ground_truth": [
+      "SQL",
+      "Machine Learning",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_004",
+    "text": "Worked extensively with Data Science and MongoDB. Great Kubernetes skills.",
+    "ground_truth": [
+      "Data Science",
+      "MongoDB",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_005",
+    "text": "Worked extensively with Kubernetes and MongoDB. Great Java skills.",
+    "ground_truth": [
+      "Kubernetes",
+      "MongoDB",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "res_006",
+    "text": "I am a software engineer skilled in SQL. I also use AWS.",
+    "ground_truth": [
+      "SQL",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_007",
+    "text": "Java, JavaScript, AWS are my main strengths.",
+    "ground_truth": [
+      "Java",
+      "JavaScript",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_008",
+    "text": "Senior developer: Go | k8s | Docker",
+    "ground_truth": [
+      "Go",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_009",
+    "text": "Experienced in React, with a strong background in Angular. Familiar with Leadership.",
+    "ground_truth": [
+      "React",
+      "Angular",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_010",
+    "text": "Leadership, MongoDB, Postgres are my main strengths.",
+    "ground_truth": [
+      "Leadership",
+      "MongoDB",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_011",
+    "text": "Data Science, Postgres, Angular are my main strengths.",
+    "ground_truth": [
+      "Data Science",
+      "PostgreSQL",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_012",
+    "text": "Experienced in Python, with a strong background in k8s. Familiar with Docker.",
+    "ground_truth": [
+      "Python",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_013",
+    "text": "Experienced in Docker, with a strong background in Communication. Familiar with AWS.",
+    "ground_truth": [
+      "Docker",
+      "Communication",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_014",
+    "text": "AWS, SQL, JavaScript are my main strengths.",
+    "ground_truth": [
+      "AWS",
+      "SQL",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_015",
+    "text": "Worked extensively with Machine Learning and Kubernetes. Great JavaScript skills.",
+    "ground_truth": [
+      "Machine Learning",
+      "Kubernetes",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_016",
+    "text": "Proficient in Go. Used React in my last project.",
+    "ground_truth": [
+      "Go",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_017",
+    "text": "Proficient in MongoDB. Used React in my last project.",
+    "ground_truth": [
+      "MongoDB",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_018",
+    "text": "Worked extensively with Golang and React. Great Python skills.",
+    "ground_truth": [
+      "Go",
+      "React",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_019",
+    "text": "Worked extensively with Python and Go. Great Leadership skills.",
+    "ground_truth": [
+      "Python",
+      "Go",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_020",
+    "text": "Worked extensively with Communication and Golang. Great JS skills.",
+    "ground_truth": [
+      "Communication",
+      "Go",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_021",
+    "text": "Experienced in C++, with a strong background in SQL. Familiar with Data Science.",
+    "ground_truth": [
+      "C++",
+      "SQL",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_022",
+    "text": "Python, Kubernetes, C++ are my main strengths.",
+    "ground_truth": [
+      "Python",
+      "Kubernetes",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_023",
+    "text": "Proficient in SQL. Used Python in my last project.",
+    "ground_truth": [
+      "SQL",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_024",
+    "text": "My tech stack includes PostgreSQL, Golang, and MongoDB. I am looking for a new role.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Go",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "res_025",
+    "text": "Java, Leadership, SQL are my main strengths.",
+    "ground_truth": [
+      "Java",
+      "Leadership",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_026",
+    "text": "My tech stack includes Python, Communication, and Machine Learning. I am looking for a new role.",
+    "ground_truth": [
+      "Python",
+      "Communication",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_027",
+    "text": "Proficient in AWS. Used Postgres in my last project.",
+    "ground_truth": [
+      "AWS",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_028",
+    "text": "Python, Leadership, Kubernetes are my main strengths.",
+    "ground_truth": [
+      "Python",
+      "Leadership",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_029",
+    "text": "My tech stack includes SQL, JavaScript, and AWS. I am looking for a new role.",
+    "ground_truth": [
+      "SQL",
+      "JavaScript",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_030",
+    "text": "Experienced in AWS, with a strong background in Communication. Familiar with Machine Learning.",
+    "ground_truth": [
+      "AWS",
+      "Communication",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_031",
+    "text": "Senior developer: Leadership | C++ | Docker",
+    "ground_truth": [
+      "Leadership",
+      "C++",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_032",
+    "text": "Experienced in Python, with a strong background in Communication. Familiar with AWS.",
+    "ground_truth": [
+      "Python",
+      "Communication",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_033",
+    "text": "Worked extensively with SQL and Java. Great Communication skills.",
+    "ground_truth": [
+      "SQL",
+      "Java",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_034",
+    "text": "Worked extensively with C++ and Angular. Great SQL skills.",
+    "ground_truth": [
+      "C++",
+      "Angular",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_035",
+    "text": "Worked extensively with Communication and PostgreSQL. Great Machine Learning skills.",
+    "ground_truth": [
+      "Communication",
+      "PostgreSQL",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_036",
+    "text": "Senior developer: C++ | SQL | Java",
+    "ground_truth": [
+      "C++",
+      "SQL",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "res_037",
+    "text": "Proficient in MongoDB. Used Communication in my last project.",
+    "ground_truth": [
+      "MongoDB",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_038",
+    "text": "Leadership, Postgres, Python are my main strengths.",
+    "ground_truth": [
+      "Leadership",
+      "PostgreSQL",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_039",
+    "text": "Proficient in Golang. Used Docker in my last project.",
+    "ground_truth": [
+      "Go",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_040",
+    "text": "I am a software engineer skilled in SQL. I also use JavaScript.",
+    "ground_truth": [
+      "SQL",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_041",
+    "text": "Worked extensively with k8s and SQL. Great Data Science skills.",
+    "ground_truth": [
+      "Kubernetes",
+      "SQL",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_042",
+    "text": "Worked extensively with Leadership and Postgres. Great Java skills.",
+    "ground_truth": [
+      "Leadership",
+      "PostgreSQL",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "res_043",
+    "text": "Senior developer: Leadership | React | Docker",
+    "ground_truth": [
+      "Leadership",
+      "React",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_044",
+    "text": "I am a software engineer skilled in Postgres. I also use SQL.",
+    "ground_truth": [
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_045",
+    "text": "Senior developer: AWS | Communication | Data Science",
+    "ground_truth": [
+      "AWS",
+      "Communication",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_046",
+    "text": "SQL, Docker, JavaScript are my main strengths.",
+    "ground_truth": [
+      "SQL",
+      "Docker",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_047",
+    "text": "My tech stack includes AWS, Golang, and C++. I am looking for a new role.",
+    "ground_truth": [
+      "AWS",
+      "Go",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_048",
+    "text": "Senior developer: Java | JavaScript | AWS",
+    "ground_truth": [
+      "Java",
+      "JavaScript",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_049",
+    "text": "Proficient in SQL. Used Angular in my last project.",
+    "ground_truth": [
+      "SQL",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_050",
+    "text": "My tech stack includes Data Science, Communication, and SQL. I am looking for a new role.",
+    "ground_truth": [
+      "Data Science",
+      "Communication",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_051",
+    "text": "I am a software engineer skilled in Communication. I also use JavaScript.",
+    "ground_truth": [
+      "Communication",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_052",
+    "text": "Worked extensively with Golang and SQL. Great Python skills.",
+    "ground_truth": [
+      "Go",
+      "SQL",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_053",
+    "text": "Proficient in MongoDB. Used Go in my last project.",
+    "ground_truth": [
+      "MongoDB",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_054",
+    "text": "Experienced in Machine Learning, with a strong background in SQL. Familiar with React.",
+    "ground_truth": [
+      "Machine Learning",
+      "SQL",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_055",
+    "text": "Proficient in React. Used Python in my last project.",
+    "ground_truth": [
+      "React",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_056",
+    "text": "Communication, Python, Angular are my main strengths.",
+    "ground_truth": [
+      "Communication",
+      "Python",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_057",
+    "text": "Worked extensively with Data Science and Leadership. Great Postgres skills.",
+    "ground_truth": [
+      "Data Science",
+      "Leadership",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_058",
+    "text": "I am a software engineer skilled in Communication. I also use Docker.",
+    "ground_truth": [
+      "Communication",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_059",
+    "text": "Proficient in Leadership. Used Python in my last project.",
+    "ground_truth": [
+      "Leadership",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_060",
+    "text": "Senior developer: React | Leadership | PostgreSQL",
+    "ground_truth": [
+      "React",
+      "Leadership",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_061",
+    "text": "Worked extensively with SQL and Data Science. Great Docker skills.",
+    "ground_truth": [
+      "SQL",
+      "Data Science",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_062",
+    "text": "I am a software engineer skilled in Postgres. I also use Python.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_063",
+    "text": "Proficient in Communication. Used Data Science in my last project.",
+    "ground_truth": [
+      "Communication",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_064",
+    "text": "Proficient in Golang. Used AWS in my last project.",
+    "ground_truth": [
+      "Go",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_065",
+    "text": "Proficient in MongoDB. Used Postgres in my last project.",
+    "ground_truth": [
+      "MongoDB",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_066",
+    "text": "Experienced in Java, with a strong background in Communication. Familiar with Machine Learning.",
+    "ground_truth": [
+      "Java",
+      "Communication",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_067",
+    "text": "Senior developer: React | Java | Angular",
+    "ground_truth": [
+      "React",
+      "Java",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_068",
+    "text": "Worked extensively with Communication and C++. Great Docker skills.",
+    "ground_truth": [
+      "Communication",
+      "C++",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_069",
+    "text": "Experienced in Angular, with a strong background in C++. Familiar with Kubernetes.",
+    "ground_truth": [
+      "Angular",
+      "C++",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_070",
+    "text": "Experienced in Postgres, with a strong background in MongoDB. Familiar with Leadership.",
+    "ground_truth": [
+      "PostgreSQL",
+      "MongoDB",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_071",
+    "text": "My tech stack includes Postgres, Docker, and Machine Learning. I am looking for a new role.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Docker",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_072",
+    "text": "React, Java, Leadership are my main strengths.",
+    "ground_truth": [
+      "React",
+      "Java",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_073",
+    "text": "Experienced in Python, with a strong background in PostgreSQL. Familiar with React.",
+    "ground_truth": [
+      "Python",
+      "PostgreSQL",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_074",
+    "text": "Proficient in k8s. Used Angular in my last project.",
+    "ground_truth": [
+      "Kubernetes",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_075",
+    "text": "My tech stack includes MongoDB, Machine Learning, and Communication. I am looking for a new role.",
+    "ground_truth": [
+      "MongoDB",
+      "Machine Learning",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_076",
+    "text": "Senior developer: Go | Python | Leadership",
+    "ground_truth": [
+      "Go",
+      "Python",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_077",
+    "text": "Leadership, MongoDB, Golang are my main strengths.",
+    "ground_truth": [
+      "Leadership",
+      "MongoDB",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_078",
+    "text": "Experienced in AWS, with a strong background in JS. Familiar with Go.",
+    "ground_truth": [
+      "AWS",
+      "JavaScript",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_079",
+    "text": "Experienced in Postgres, with a strong background in Leadership. Familiar with Python.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Leadership",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_080",
+    "text": "Worked extensively with SQL and Kubernetes. Great Leadership skills.",
+    "ground_truth": [
+      "SQL",
+      "Kubernetes",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_081",
+    "text": "Experienced in AWS, with a strong background in JS. Familiar with Data Science.",
+    "ground_truth": [
+      "AWS",
+      "JavaScript",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_082",
+    "text": "My tech stack includes Angular, PostgreSQL, and Communication. I am looking for a new role.",
+    "ground_truth": [
+      "Angular",
+      "PostgreSQL",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_083",
+    "text": "I am a software engineer skilled in Communication. I also use Java.",
+    "ground_truth": [
+      "Communication",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "res_084",
+    "text": "Proficient in Java. Used Docker in my last project.",
+    "ground_truth": [
+      "Java",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_085",
+    "text": "Worked extensively with k8s and Machine Learning. Great SQL skills.",
+    "ground_truth": [
+      "Kubernetes",
+      "Machine Learning",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_086",
+    "text": "Experienced in PostgreSQL, with a strong background in AWS. Familiar with k8s.",
+    "ground_truth": [
+      "PostgreSQL",
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_087",
+    "text": "MongoDB, PostgreSQL, AWS are my main strengths.",
+    "ground_truth": [
+      "MongoDB",
+      "PostgreSQL",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_088",
+    "text": "I am a software engineer skilled in Leadership. I also use SQL.",
+    "ground_truth": [
+      "Leadership",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_089",
+    "text": "Proficient in Kubernetes. Used AWS in my last project.",
+    "ground_truth": [
+      "Kubernetes",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_090",
+    "text": "Experienced in PostgreSQL, with a strong background in Leadership. Familiar with Golang.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Leadership",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_091",
+    "text": "I am a software engineer skilled in SQL. I also use Leadership.",
+    "ground_truth": [
+      "SQL",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_092",
+    "text": "Proficient in Data Science. Used Machine Learning in my last project.",
+    "ground_truth": [
+      "Data Science",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_093",
+    "text": "Angular, AWS, C++ are my main strengths.",
+    "ground_truth": [
+      "Angular",
+      "AWS",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_094",
+    "text": "Worked extensively with Python and MongoDB. Great Machine Learning skills.",
+    "ground_truth": [
+      "Python",
+      "MongoDB",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_095",
+    "text": "Senior developer: MongoDB | C++ | Leadership",
+    "ground_truth": [
+      "MongoDB",
+      "C++",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_096",
+    "text": "MongoDB, PostgreSQL, AWS are my main strengths.",
+    "ground_truth": [
+      "MongoDB",
+      "PostgreSQL",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_097",
+    "text": "Worked extensively with Angular and Java. Great MongoDB skills.",
+    "ground_truth": [
+      "Angular",
+      "Java",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "res_098",
+    "text": "My tech stack includes Docker, AWS, and k8s. I am looking for a new role.",
+    "ground_truth": [
+      "Docker",
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_099",
+    "text": "I am a software engineer skilled in React. I also use Data Science.",
+    "ground_truth": [
+      "React",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_100",
+    "text": "Experienced in C++, with a strong background in AWS. Familiar with Python.",
+    "ground_truth": [
+      "C++",
+      "AWS",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_101",
+    "text": "I am a software engineer skilled in C++. I also use Docker.",
+    "ground_truth": [
+      "C++",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_102",
+    "text": "MongoDB, Leadership, Go are my main strengths.",
+    "ground_truth": [
+      "MongoDB",
+      "Leadership",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_103",
+    "text": "React, MongoDB, k8s are my main strengths.",
+    "ground_truth": [
+      "React",
+      "MongoDB",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_104",
+    "text": "Worked extensively with SQL and AWS. Great PostgreSQL skills.",
+    "ground_truth": [
+      "SQL",
+      "AWS",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_105",
+    "text": "Experienced in Data Science, with a strong background in Machine Learning. Familiar with Docker.",
+    "ground_truth": [
+      "Data Science",
+      "Machine Learning",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_106",
+    "text": "I am a software engineer skilled in JavaScript. I also use Java.",
+    "ground_truth": [
+      "JavaScript",
+      "Java"
+    ]
+  },
+  {
+    "doc_id": "res_107",
+    "text": "My tech stack includes Go, PostgreSQL, and Kubernetes. I am looking for a new role.",
+    "ground_truth": [
+      "Go",
+      "PostgreSQL",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_108",
+    "text": "Worked extensively with Python and Java. Great Machine Learning skills.",
+    "ground_truth": [
+      "Python",
+      "Java",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_109",
+    "text": "Senior developer: Python | Leadership | React",
+    "ground_truth": [
+      "Python",
+      "Leadership",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_110",
+    "text": "I am a software engineer skilled in Python. I also use JavaScript.",
+    "ground_truth": [
+      "Python",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_111",
+    "text": "I am a software engineer skilled in MongoDB. I also use SQL.",
+    "ground_truth": [
+      "MongoDB",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_112",
+    "text": "My tech stack includes Leadership, Angular, and Data Science. I am looking for a new role.",
+    "ground_truth": [
+      "Leadership",
+      "Angular",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_113",
+    "text": "Proficient in Data Science. Used Angular in my last project.",
+    "ground_truth": [
+      "Data Science",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_114",
+    "text": "I am a software engineer skilled in SQL. I also use Python.",
+    "ground_truth": [
+      "SQL",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_115",
+    "text": "Proficient in Data Science. Used Kubernetes in my last project.",
+    "ground_truth": [
+      "Data Science",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_116",
+    "text": "Java, Python, PostgreSQL are my main strengths.",
+    "ground_truth": [
+      "Java",
+      "Python",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_117",
+    "text": "My tech stack includes Kubernetes, Postgres, and Machine Learning. I am looking for a new role.",
+    "ground_truth": [
+      "Kubernetes",
+      "PostgreSQL",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_118",
+    "text": "I am a software engineer skilled in Postgres. I also use MongoDB.",
+    "ground_truth": [
+      "PostgreSQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "res_119",
+    "text": "Senior developer: MongoDB | Leadership | Kubernetes",
+    "ground_truth": [
+      "MongoDB",
+      "Leadership",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_120",
+    "text": "Worked extensively with Python and React. Great Go skills.",
+    "ground_truth": [
+      "Python",
+      "React",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_121",
+    "text": "Java, AWS, C++ are my main strengths.",
+    "ground_truth": [
+      "Java",
+      "AWS",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_122",
+    "text": "Worked extensively with Java and Leadership. Great Communication skills.",
+    "ground_truth": [
+      "Java",
+      "Leadership",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_123",
+    "text": "Java, Angular, PostgreSQL are my main strengths.",
+    "ground_truth": [
+      "Java",
+      "Angular",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_124",
+    "text": "Senior developer: React | Java | Machine Learning",
+    "ground_truth": [
+      "React",
+      "Java",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_125",
+    "text": "Experienced in AWS, with a strong background in Machine Learning. Familiar with SQL.",
+    "ground_truth": [
+      "AWS",
+      "Machine Learning",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_126",
+    "text": "My tech stack includes Machine Learning, Golang, and SQL. I am looking for a new role.",
+    "ground_truth": [
+      "Machine Learning",
+      "Go",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_127",
+    "text": "Docker, Communication, C++ are my main strengths.",
+    "ground_truth": [
+      "Docker",
+      "Communication",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_128",
+    "text": "Experienced in Communication, with a strong background in SQL. Familiar with Python.",
+    "ground_truth": [
+      "Communication",
+      "SQL",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_129",
+    "text": "Senior developer: Leadership | AWS | MongoDB",
+    "ground_truth": [
+      "Leadership",
+      "AWS",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "res_130",
+    "text": "Experienced in Docker, with a strong background in Python. Familiar with AWS.",
+    "ground_truth": [
+      "Docker",
+      "Python",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_131",
+    "text": "Proficient in Postgres. Used Docker in my last project.",
+    "ground_truth": [
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_132",
+    "text": "Proficient in AWS. Used React in my last project.",
+    "ground_truth": [
+      "AWS",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_133",
+    "text": "Machine Learning, Golang, JavaScript are my main strengths.",
+    "ground_truth": [
+      "Machine Learning",
+      "Go",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_134",
+    "text": "Worked extensively with Java and React. Great MongoDB skills.",
+    "ground_truth": [
+      "Java",
+      "React",
+      "MongoDB"
+    ]
+  },
+  {
+    "doc_id": "res_135",
+    "text": "Senior developer: k8s | SQL | Angular",
+    "ground_truth": [
+      "Kubernetes",
+      "SQL",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_136",
+    "text": "Experienced in React, with a strong background in MongoDB. Familiar with JavaScript.",
+    "ground_truth": [
+      "React",
+      "MongoDB",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_137",
+    "text": "Proficient in AWS. Used Postgres in my last project.",
+    "ground_truth": [
+      "AWS",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_138",
+    "text": "Java, JS, React are my main strengths.",
+    "ground_truth": [
+      "Java",
+      "JavaScript",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_139",
+    "text": "Senior developer: Docker | C++ | Go",
+    "ground_truth": [
+      "Docker",
+      "C++",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_140",
+    "text": "My tech stack includes Python, Java, and C++. I am looking for a new role.",
+    "ground_truth": [
+      "Python",
+      "Java",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_141",
+    "text": "Python, Angular, Machine Learning are my main strengths.",
+    "ground_truth": [
+      "Python",
+      "Angular",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_142",
+    "text": "My tech stack includes Python, AWS, and React. I am looking for a new role.",
+    "ground_truth": [
+      "Python",
+      "AWS",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_143",
+    "text": "Proficient in React. Used Leadership in my last project.",
+    "ground_truth": [
+      "React",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_144",
+    "text": "I am a software engineer skilled in Leadership. I also use Communication.",
+    "ground_truth": [
+      "Leadership",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_145",
+    "text": "Senior developer: Python | JavaScript | Go",
+    "ground_truth": [
+      "Python",
+      "JavaScript",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_146",
+    "text": "Experienced in Data Science, with a strong background in Docker. Familiar with Angular.",
+    "ground_truth": [
+      "Data Science",
+      "Docker",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_147",
+    "text": "Worked extensively with Leadership and Machine Learning. Great Data Science skills.",
+    "ground_truth": [
+      "Leadership",
+      "Machine Learning",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_148",
+    "text": "Docker, Kubernetes, Machine Learning are my main strengths.",
+    "ground_truth": [
+      "Docker",
+      "Kubernetes",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_149",
+    "text": "MongoDB, Leadership, Python are my main strengths.",
+    "ground_truth": [
+      "MongoDB",
+      "Leadership",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_150",
+    "text": "Worked extensively with Docker and Data Science. Great AWS skills.",
+    "ground_truth": [
+      "Docker",
+      "Data Science",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_151",
+    "text": "Senior developer: Leadership | JavaScript | AWS",
+    "ground_truth": [
+      "Leadership",
+      "JavaScript",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_152",
+    "text": "My tech stack includes JavaScript, Python, and SQL. I am looking for a new role.",
+    "ground_truth": [
+      "JavaScript",
+      "Python",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_153",
+    "text": "My tech stack includes PostgreSQL, JS, and Kubernetes. I am looking for a new role.",
+    "ground_truth": [
+      "PostgreSQL",
+      "JavaScript",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_154",
+    "text": "My tech stack includes C++, JS, and Golang. I am looking for a new role.",
+    "ground_truth": [
+      "C++",
+      "JavaScript",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_155",
+    "text": "Senior developer: Communication | Data Science | Leadership",
+    "ground_truth": [
+      "Communication",
+      "Data Science",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_156",
+    "text": "Angular, AWS, React are my main strengths.",
+    "ground_truth": [
+      "Angular",
+      "AWS",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_157",
+    "text": "Worked extensively with Communication and Golang. Great PostgreSQL skills.",
+    "ground_truth": [
+      "Communication",
+      "Go",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_158",
+    "text": "Worked extensively with Docker and React. Great Go skills.",
+    "ground_truth": [
+      "Docker",
+      "React",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_159",
+    "text": "Senior developer: Communication | React | Kubernetes",
+    "ground_truth": [
+      "Communication",
+      "React",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_160",
+    "text": "My tech stack includes SQL, JS, and Docker. I am looking for a new role.",
+    "ground_truth": [
+      "SQL",
+      "JavaScript",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_161",
+    "text": "Worked extensively with JavaScript and Machine Learning. Great React skills.",
+    "ground_truth": [
+      "JavaScript",
+      "Machine Learning",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_162",
+    "text": "I am a software engineer skilled in Communication. I also use JS.",
+    "ground_truth": [
+      "Communication",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_163",
+    "text": "Senior developer: SQL | JS | Python",
+    "ground_truth": [
+      "SQL",
+      "JavaScript",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_164",
+    "text": "Worked extensively with MongoDB and C++. Great Data Science skills.",
+    "ground_truth": [
+      "MongoDB",
+      "C++",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_165",
+    "text": "My tech stack includes PostgreSQL, MongoDB, and SQL. I am looking for a new role.",
+    "ground_truth": [
+      "PostgreSQL",
+      "MongoDB",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_166",
+    "text": "Proficient in JS. Used Postgres in my last project.",
+    "ground_truth": [
+      "JavaScript",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "doc_id": "res_167",
+    "text": "I am a software engineer skilled in Leadership. I also use AWS.",
+    "ground_truth": [
+      "Leadership",
+      "AWS"
+    ]
+  },
+  {
+    "doc_id": "res_168",
+    "text": "I am a software engineer skilled in Go. I also use Machine Learning.",
+    "ground_truth": [
+      "Go",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_169",
+    "text": "Proficient in C++. Used SQL in my last project.",
+    "ground_truth": [
+      "C++",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_170",
+    "text": "Proficient in Angular. Used Python in my last project.",
+    "ground_truth": [
+      "Angular",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_171",
+    "text": "I am a software engineer skilled in Machine Learning. I also use Communication.",
+    "ground_truth": [
+      "Machine Learning",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_172",
+    "text": "My tech stack includes JS, AWS, and Leadership. I am looking for a new role.",
+    "ground_truth": [
+      "JavaScript",
+      "AWS",
+      "Leadership"
+    ]
+  },
+  {
+    "doc_id": "res_173",
+    "text": "Worked extensively with Golang and JavaScript. Great React skills.",
+    "ground_truth": [
+      "Go",
+      "JavaScript",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_174",
+    "text": "C++, SQL, React are my main strengths.",
+    "ground_truth": [
+      "C++",
+      "SQL",
+      "React"
+    ]
+  },
+  {
+    "doc_id": "res_175",
+    "text": "Experienced in React, with a strong background in Data Science. Familiar with C++.",
+    "ground_truth": [
+      "React",
+      "Data Science",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_176",
+    "text": "Proficient in SQL. Used Go in my last project.",
+    "ground_truth": [
+      "SQL",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_177",
+    "text": "My tech stack includes Angular, Leadership, and Python. I am looking for a new role.",
+    "ground_truth": [
+      "Angular",
+      "Leadership",
+      "Python"
+    ]
+  },
+  {
+    "doc_id": "res_178",
+    "text": "I am a software engineer skilled in Docker. I also use C++.",
+    "ground_truth": [
+      "Docker",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_179",
+    "text": "Senior developer: AWS | Angular | C++",
+    "ground_truth": [
+      "AWS",
+      "Angular",
+      "C++"
+    ]
+  },
+  {
+    "doc_id": "res_180",
+    "text": "My tech stack includes Kubernetes, C++, and Angular. I am looking for a new role.",
+    "ground_truth": [
+      "Kubernetes",
+      "C++",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_181",
+    "text": "My tech stack includes Postgres, React, and Data Science. I am looking for a new role.",
+    "ground_truth": [
+      "PostgreSQL",
+      "React",
+      "Data Science"
+    ]
+  },
+  {
+    "doc_id": "res_182",
+    "text": "I am a software engineer skilled in Golang. I also use Docker.",
+    "ground_truth": [
+      "Go",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_183",
+    "text": "AWS, Machine Learning, Angular are my main strengths.",
+    "ground_truth": [
+      "AWS",
+      "Machine Learning",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_184",
+    "text": "Senior developer: C++ | MongoDB | SQL",
+    "ground_truth": [
+      "C++",
+      "MongoDB",
+      "SQL"
+    ]
+  },
+  {
+    "doc_id": "res_185",
+    "text": "Senior developer: React | AWS | Communication",
+    "ground_truth": [
+      "React",
+      "AWS",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_186",
+    "text": "Senior developer: JS | Angular | Docker",
+    "ground_truth": [
+      "JavaScript",
+      "Angular",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_187",
+    "text": "Proficient in AWS. Used Kubernetes in my last project.",
+    "ground_truth": [
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "doc_id": "res_188",
+    "text": "Senior developer: React | Golang | Docker",
+    "ground_truth": [
+      "React",
+      "Go",
+      "Docker"
+    ]
+  },
+  {
+    "doc_id": "res_189",
+    "text": "I am a software engineer skilled in C++. I also use Machine Learning.",
+    "ground_truth": [
+      "C++",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_190",
+    "text": "C++, JS, Machine Learning are my main strengths.",
+    "ground_truth": [
+      "C++",
+      "JavaScript",
+      "Machine Learning"
+    ]
+  },
+  {
+    "doc_id": "res_191",
+    "text": "Experienced in Kubernetes, with a strong background in React. Familiar with JavaScript.",
+    "ground_truth": [
+      "Kubernetes",
+      "React",
+      "JavaScript"
+    ]
+  },
+  {
+    "doc_id": "res_192",
+    "text": "MongoDB, k8s, Communication are my main strengths.",
+    "ground_truth": [
+      "MongoDB",
+      "Kubernetes",
+      "Communication"
+    ]
+  },
+  {
+    "doc_id": "res_193",
+    "text": "Senior developer: Golang | Machine Learning | Angular",
+    "ground_truth": [
+      "Go",
+      "Machine Learning",
+      "Angular"
+    ]
+  },
+  {
+    "doc_id": "res_194",
+    "text": "My tech stack includes AWS, Angular, and Golang. I am looking for a new role.",
+    "ground_truth": [
+      "AWS",
+      "Angular",
+      "Go"
+    ]
+  },
+  {
+    "doc_id": "res_195",
+    "text": "Experienced in Go, with a strong background in PostgreSQL. Familiar with Java.",
+    "ground_truth": [
+      "Go",
+      "PostgreSQL",
+      "Java"
+    ]
+  }
+]
