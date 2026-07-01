@@ -1,0 +1,8 @@
+{
+  "session_id": "demo_001",
+  "baseline_label": "True Violation",
+  "label": "False Positive",
+  "confidence": 0.0006,
+  "reason": "Flagged as False Positive (confidence: 0.00). Reason: Audio Anomaly Score (0.1) lowers the risk score, and Tab Switch Count (4.0) raises the risk score, and Eye Gaze Offscreen Pct (12.0) lowers the risk score.",
+  "fp_reduction_vs_baseline": "Yes (Overturned baseline flag)"
+}
