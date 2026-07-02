@@ -1,0 +1,92 @@
+{
+  "student_id": "stu_001",
+  "raw_skills": [
+    "Python (3 yrs)",
+    "ReactJS",
+    "Sr. Java Developer",
+    "machine learning",
+    "K8s",
+    "postgress",
+    "agile",
+    "Docker Compose",
+    "TensorFlow",
+    "skills:",
+    "flutter"
+  ],
+  "ontology_tagged": [
+    {
+      "canonical_id": "skill_python",
+      "display_name": "Python",
+      "confidence": 1,
+      "source_raw": "Python (3 yrs)",
+      "reason": "Mapped 'Python (3 yrs)' → Python: exact synonym match (exact match on 'python'), confidence 100%."
+    },
+    {
+      "canonical_id": "skill_react",
+      "display_name": "React",
+      "confidence": 1,
+      "source_raw": "ReactJS",
+      "reason": "Mapped 'ReactJS' → React: exact synonym match (exact match on 'reactjs'), confidence 100%."
+    },
+    {
+      "canonical_id": "skill_java",
+      "display_name": "Java",
+      "confidence": 0.833,
+      "source_raw": "Sr. Java Developer",
+      "reason": "Mapped 'Sr. Java Developer' → Java: semantic similarity (TF-IDF cosine=0.925), confidence 83%."
+    },
+    {
+      "canonical_id": "skill_machine_learning",
+      "display_name": "Machine Learning",
+      "confidence": 1,
+      "source_raw": "machine learning",
+      "reason": "Mapped 'machine learning' → Machine Learning: exact synonym match (exact match on 'machine learning'), confidence 100%."
+    },
+    {
+      "canonical_id": "skill_kubernetes",
+      "display_name": "Kubernetes",
+      "confidence": 1,
+      "source_raw": "K8s",
+      "reason": "Mapped 'K8s' → Kubernetes: exact synonym match (exact match on 'k8s'), confidence 100%."
+    },
+    {
+      "canonical_id": "skill_postgresql",
+      "display_name": "PostgreSQL",
+      "confidence": 0.744,
+      "source_raw": "postgress",
+      "reason": "Mapped 'postgress' → PostgreSQL: semantic similarity (TF-IDF cosine=0.827), confidence 74%."
+    },
+    {
+      "canonical_id": "skill_agile",
+      "display_name": "Agile Methodology",
+      "confidence": 1,
+      "source_raw": "agile",
+      "reason": "Mapped 'agile' → Agile Methodology: exact synonym match (exact match on 'agile'), confidence 100%."
+    },
+    {
+      "canonical_id": "skill_docker",
+      "display_name": "Docker",
+      "confidence": 1,
+      "source_raw": "Docker Compose",
+      "reason": "Mapped 'Docker Compose' → Docker: exact synonym match (exact match on 'docker compose'), confidence 100%."
+    },
+    {
+      "canonical_id": "skill_tensorflow",
+      "display_name": "TensorFlow",
+      "confidence": 1,
+      "source_raw": "TensorFlow",
+      "reason": "Mapped 'TensorFlow' → TensorFlow: exact synonym match (exact match on 'tensorflow'), confidence 100%."
+    },
+    {
+      "canonical_id": "skill_flutter",
+      "display_name": "Flutter",
+      "confidence": 1,
+      "source_raw": "flutter",
+      "reason": "Mapped 'flutter' → Flutter: exact synonym match (exact match on 'flutter'), confidence 100%."
+    }
+  ],
+  "unmapped_terms": [
+    "skills:"
+  ],
+  "summary": "Student 'Aarav Sharma' (stu_001): 11 raw terms -> 10 unique canonical skills, 1 unmapped. These 10 clean skills feed the matching engine."
+}

@@ -1,0 +1,677 @@
+[
+  {
+    "raw_term": "DJANGO REST FRAMEWORK",
+    "expected_canonical_id": "skill_django",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "c plusoplus",
+    "expected_canonical_id": "skill_cpp",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "VUE JS",
+    "expected_canonical_id": "skill_vue",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "aspnet",
+    "expected_canonical_id": "skill_aspnet",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "DOCKERFILE",
+    "expected_canonical_id": "skill_docker",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Curriculum Vitae",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "df",
+    "expected_canonical_id": "skill_django",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Sr. Jenkins Developer",
+    "expected_canonical_id": "skill_jenkins",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "MATLAB (3 yrs)",
+    "expected_canonical_id": "skill_matlab",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "\u2014",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "Travis CI",
+    "expected_canonical_id": "skill_travisci",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "PROJECT MANAGEMENT",
+    "expected_canonical_id": "skill_project_management",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "centos",
+    "expected_canonical_id": "skill_linux",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Sr. maven Developer",
+    "expected_canonical_id": "skill_maven",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "system design",
+    "expected_canonical_id": "skill_system_design",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "KANBAN",
+    "expected_canonical_id": "skill_agile",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Angularjs",
+    "expected_canonical_id": "skill_angular",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "C Sharp",
+    "expected_canonical_id": "skill_csharp",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "fast api",
+    "expected_canonical_id": "skill_fastapi",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "devvops",
+    "expected_canonical_id": "skill_devops",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "strong knowledge of",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "baebl",
+    "expected_canonical_id": "skill_babel",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "objc",
+    "expected_canonical_id": "skill_objectivec",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Git",
+    "expected_canonical_id": "skill_git",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "csharp 2+ years experience",
+    "expected_canonical_id": "skill_csharp",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Jan 2020 - Dec 2022",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "tensorfljow",
+    "expected_canonical_id": "skill_tensorflow",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "circleci 2+ years experience",
+    "expected_canonical_id": "skill_circleci",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Contact Information",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "!@#$%",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "cqss3",
+    "expected_canonical_id": "skill_css",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Lead rest Dev",
+    "expected_canonical_id": "skill_rest_api",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Splunk (intermediate)",
+    "expected_canonical_id": "skill_splunk",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "User Interface",
+    "expected_canonical_id": "skill_ui_ux",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "sccala",
+    "expected_canonical_id": "skill_scala",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "WEBPACK",
+    "expected_canonical_id": "skill_webpack",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "elasticsearoch",
+    "expected_canonical_id": "skill_elasticsearch",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "zzz123",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "Terraform",
+    "expected_canonical_id": "skill_terraform",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Tsql",
+    "expected_canonical_id": "skill_tsql",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Junior T-SQL Developer",
+    "expected_canonical_id": "skill_tsql",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Lead redis Dev",
+    "expected_canonical_id": "skill_redis",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "NP",
+    "expected_canonical_id": "skill_numpy",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "github actions",
+    "expected_canonical_id": "skill_github_actions",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "GCP",
+    "expected_canonical_id": "skill_gcp",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Scrum",
+    "expected_canonical_id": "skill_agile",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Tailwind Css",
+    "expected_canonical_id": "skill_tailwind",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "docker compse",
+    "expected_canonical_id": "skill_docker",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "written communicattion",
+    "expected_canonical_id": "skill_communication",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Objective-C",
+    "expected_canonical_id": "skill_objectivec",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Structured Query Language",
+    "expected_canonical_id": "skill_sql",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Shell",
+    "expected_canonical_id": "skill_bash",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "TBD",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "Kotlin - 5 years",
+    "expected_canonical_id": "skill_kotlin",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "gh actions",
+    "expected_canonical_id": "skill_github_actions",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "team player",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "bash - 5 years",
+    "expected_canonical_id": "skill_bash",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "summary:",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "new relci",
+    "expected_canonical_id": "skill_new_relic",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "cyberusecurity",
+    "expected_canonical_id": "skill_cybersecurity",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "dl",
+    "expected_canonical_id": "skill_deep_learning",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "ATLASSIAN JIRA",
+    "expected_canonical_id": "skill_jira",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "2019",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "Junior PL/SQL Developer",
+    "expected_canonical_id": "skill_plsql",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "es",
+    "expected_canonical_id": "skill_elasticsearch",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Python",
+    "expected_canonical_id": "skill_python",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Amazon Web Services",
+    "expected_canonical_id": "skill_aws",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Kafka",
+    "expected_canonical_id": "skill_kafka",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Lead expressjs Dev",
+    "expected_canonical_id": "skill_express",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "flask Engineer",
+    "expected_canonical_id": "skill_flask",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Perl",
+    "expected_canonical_id": "skill_perl",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "new relic",
+    "expected_canonical_id": "skill_new_relic",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Lead pytorch Dev",
+    "expected_canonical_id": "skill_pytorch",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "SWIFTUI",
+    "expected_canonical_id": "skill_swift",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "pytrch",
+    "expected_canonical_id": "skill_pytorch",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Awards:",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "see resume",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "CLOUD COMPUTING",
+    "expected_canonical_id": "skill_cloud_computing",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Deep Learning - 5 years",
+    "expected_canonical_id": "skill_deep_learning",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "CSHARP",
+    "expected_canonical_id": "skill_csharp",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Ecmascript",
+    "expected_canonical_id": "skill_javascript",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Yarn",
+    "expected_canonical_id": "skill_yarn",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "hatkell",
+    "expected_canonical_id": "skill_haskell",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "rustlang (intermediate)",
+    "expected_canonical_id": "skill_rust",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "TS",
+    "expected_canonical_id": "skill_typescript",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Cybersecurity",
+    "expected_canonical_id": "skill_cybersecurity",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "rdust",
+    "expected_canonical_id": "skill_rust",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "F#",
+    "expected_canonical_id": "skill_fsharp",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "travis ci 2+ years experience",
+    "expected_canonical_id": "skill_travisci",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "evs6",
+    "expected_canonical_id": "skill_javascript",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Sr. spring Developer",
+    "expected_canonical_id": "skill_spring_boot",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Azure",
+    "expected_canonical_id": "skill_azure",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "team leading, expert level",
+    "expected_canonical_id": "skill_leadership",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "CRYPTO",
+    "expected_canonical_id": "skill_blockchain",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Google Cloud Platform",
+    "expected_canonical_id": "skill_gcp",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "information security",
+    "expected_canonical_id": "skill_cybersecurity",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "COBOL",
+    "expected_canonical_id": "skill_cobol",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "scurm",
+    "expected_canonical_id": "skill_agile",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Lead groovy Dev",
+    "expected_canonical_id": "skill_groovy",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Professional Experience",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "M.S. in CS",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": ":",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "jenikns",
+    "expected_canonical_id": "skill_jenkins",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "travisci",
+    "expected_canonical_id": "skill_travisci",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "shell scriptig",
+    "expected_canonical_id": "skill_bash",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "TypeScript Engineer",
+    "expected_canonical_id": "skill_typescript",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Blockchain",
+    "expected_canonical_id": "skill_blockchain",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "C#",
+    "expected_canonical_id": "skill_csharp",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Terraform (intermediate)",
+    "expected_canonical_id": "skill_terraform",
+    "segment": "multi_word"
+  },
+  {
+    "raw_term": "Bitbucket",
+    "expected_canonical_id": "skill_git",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Dart",
+    "expected_canonical_id": "skill_dart",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Django",
+    "expected_canonical_id": "skill_django",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "rlang",
+    "expected_canonical_id": "skill_r",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "ph7p",
+    "expected_canonical_id": "skill_php",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Haskell",
+    "expected_canonical_id": "skill_haskell",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "familiar with",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "Scikit-Learn",
+    "expected_canonical_id": "skill_scikit_learn",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "MySQL",
+    "expected_canonical_id": "skill_mysql",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "rustlang",
+    "expected_canonical_id": "skill_rust",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Ansible",
+    "expected_canonical_id": "skill_ansible",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "TBD",
+    "expected_canonical_id": "unmapped",
+    "segment": "unmappable"
+  },
+  {
+    "raw_term": "Php8",
+    "expected_canonical_id": "skill_php",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Prometheus",
+    "expected_canonical_id": "skill_prometheus",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "manogement",
+    "expected_canonical_id": "skill_leadership",
+    "segment": "typo"
+  },
+  {
+    "raw_term": "Babel",
+    "expected_canonical_id": "skill_babel",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Visual Basic For Applications",
+    "expected_canonical_id": "skill_vba",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "js",
+    "expected_canonical_id": "skill_javascript",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "OBJ-C",
+    "expected_canonical_id": "skill_objectivec",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Next.js",
+    "expected_canonical_id": "skill_nextjs",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "PHP",
+    "expected_canonical_id": "skill_php",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "powershell",
+    "expected_canonical_id": "skill_powershell",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "scala",
+    "expected_canonical_id": "skill_scala",
+    "segment": "exact_match"
+  },
+  {
+    "raw_term": "Kt",
+    "expected_canonical_id": "skill_kotlin",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "Mvn",
+    "expected_canonical_id": "skill_maven",
+    "segment": "abbreviation"
+  },
+  {
+    "raw_term": "LEADERSHIP",
+    "expected_canonical_id": "skill_leadership",
+    "segment": "exact_match"
+  }
+]

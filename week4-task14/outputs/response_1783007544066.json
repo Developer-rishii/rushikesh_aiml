@@ -1,0 +1,16 @@
+{
+  "mapped": [],
+  "unmapped": [
+    {
+      "raw": "string",
+      "canonical_id": "unmapped",
+      "display_name": null,
+      "confidence": 0,
+      "reason": "Not mapped: 'string' — no layer exceeded confidence threshold (fuzzy>0.72, tfidf>0.45).",
+      "method": "no_confident_match"
+    }
+  ],
+  "total_input": 1,
+  "total_mapped": 0,
+  "total_unmapped": 1
+}
