@@ -1,0 +1,3 @@
+session_id,timestamp,tab_switch_count,student_id,assessment_id,face_count_anomalies,copy_paste_events,time_per_question_zscore,network_latency_flag,webcam_dropout_seconds,flagged_by_v0
+sid_1,2023-01-01T10:00:00,1,0,0,0,0,0,0,0,0
+sid_1,2023-01-01T11:00:00,2,0,0,0,0,0,0,0,0

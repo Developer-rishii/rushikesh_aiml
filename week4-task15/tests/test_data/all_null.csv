@@ -1,0 +1,2 @@
+session_id,student_id,assessment_id,tab_switch_count,face_count_anomalies,copy_paste_events,time_per_question_zscore,network_latency_flag,webcam_dropout_seconds,flagged_by_v0,timestamp
+123,,,,,,,,,,2026-07-03 21:29:44.045157
