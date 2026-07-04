@@ -1,0 +1,60 @@
+{
+  "student_id": "student_A_0",
+  "college_id": "college_A",
+  "baseline_ranking": [
+    {
+      "rank": 1,
+      "job_id": "job_27",
+      "match_score": 0.956
+    },
+    {
+      "rank": 2,
+      "job_id": "job_7",
+      "match_score": 0.949
+    },
+    {
+      "rank": 3,
+      "job_id": "job_40",
+      "match_score": 0.932
+    },
+    {
+      "rank": 4,
+      "job_id": "job_47",
+      "match_score": 0.914
+    },
+    {
+      "rank": 5,
+      "job_id": "job_34",
+      "match_score": 0.88
+    }
+  ],
+  "model_ranking": [
+    {
+      "rank": 1,
+      "job_id": "job_40",
+      "relevance_score": 0.8987
+    },
+    {
+      "rank": 2,
+      "job_id": "job_47",
+      "relevance_score": 0.7627
+    },
+    {
+      "rank": 3,
+      "job_id": "job_6",
+      "relevance_score": 0.6036
+    },
+    {
+      "rank": 4,
+      "job_id": "job_7",
+      "relevance_score": 0.5898
+    },
+    {
+      "rank": 5,
+      "job_id": "job_5",
+      "relevance_score": 0.4624
+    }
+  ],
+  "rankings_differ": true,
+  "delta_explanation": "The model re-ranks candidates by incorporating trust_weighted_score, seniority_match, and skill_gap_ratio on top of raw match_score. Jobs with better seniority alignment and lower skill gaps may be promoted above higher raw-score jobs with poor alignment."
+}

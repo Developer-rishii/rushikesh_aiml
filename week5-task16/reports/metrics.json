@@ -1,0 +1,250 @@
+{
+  "baseline": {
+    "precision_at_5": 0.4148,
+    "recall_at_5": 0.684,
+    "mrr": 0.7543,
+    "fpr_at_5": 0.7101,
+    "num_students_evaluated": 27
+  },
+  "model": {
+    "precision_at_5": 0.4741,
+    "recall_at_5": 0.7943,
+    "mrr": 0.7377,
+    "fpr_at_5": 0.6264,
+    "num_students_evaluated": 27
+  },
+  "segments": {
+    "college_A": {
+      "baseline": {
+        "precision_at_5": 0.5778,
+        "recall_at_5": 0.6183,
+        "mrr": 0.7593,
+        "fpr_at_5": 0.6815,
+        "num_students_evaluated": 9
+      },
+      "model": {
+        "precision_at_5": 0.6667,
+        "recall_at_5": 0.7201,
+        "mrr": 0.6667,
+        "fpr_at_5": 0.5389,
+        "num_students_evaluated": 9
+      }
+    },
+    "college_B": {
+      "baseline": {
+        "precision_at_5": 0.4,
+        "recall_at_5": 0.7619,
+        "mrr": 0.6714,
+        "fpr_at_5": 0.7429,
+        "num_students_evaluated": 7
+      },
+      "model": {
+        "precision_at_5": 0.4286,
+        "recall_at_5": 0.8214,
+        "mrr": 0.7619,
+        "fpr_at_5": 0.6952,
+        "num_students_evaluated": 7
+      }
+    },
+    "college_C": {
+      "baseline": {
+        "precision_at_5": 0.2909,
+        "recall_at_5": 0.6883,
+        "mrr": 0.803,
+        "fpr_at_5": 0.7127,
+        "num_students_evaluated": 11
+      },
+      "model": {
+        "precision_at_5": 0.3455,
+        "recall_at_5": 0.8377,
+        "mrr": 0.7803,
+        "fpr_at_5": 0.6542,
+        "num_students_evaluated": 11
+      }
+    },
+    "high_trust": {
+      "baseline": {
+        "precision_at_5": 0.46,
+        "recall_at_5": 0.8833,
+        "mrr": 0.7833,
+        "fpr_at_5": 0.9216,
+        "num_students_evaluated": 20
+      },
+      "model": {
+        "precision_at_5": 0.5,
+        "recall_at_5": 0.925,
+        "mrr": 0.7667,
+        "fpr_at_5": 0.7843,
+        "num_students_evaluated": 20
+      }
+    },
+    "low_trust": {
+      "baseline": {
+        "precision_at_5": 0.2737,
+        "recall_at_5": 0.9,
+        "mrr": 0.8509,
+        "fpr_at_5": 0.9164,
+        "num_students_evaluated": 19
+      },
+      "model": {
+        "precision_at_5": 0.3158,
+        "recall_at_5": 0.9649,
+        "mrr": 0.8465,
+        "fpr_at_5": 0.834,
+        "num_students_evaluated": 19
+      }
+    }
+  },
+  "feature_importances": [
+    [
+      "match_score",
+      0.24914
+    ],
+    [
+      "trust_weighted_score",
+      0.16234
+    ],
+    [
+      "ai_trust_score",
+      0.15452
+    ],
+    [
+      "years_exposure_avg",
+      0.14539
+    ],
+    [
+      "seniority_match",
+      0.1162
+    ],
+    [
+      "college_avg_match_score",
+      0.04069
+    ],
+    [
+      "verified_skill_count",
+      0.03383
+    ],
+    [
+      "jd_seniority_level",
+      0.02996
+    ],
+    [
+      "skill_gap_count",
+      0.0286
+    ],
+    [
+      "skill_gap_ratio",
+      0.02123
+    ],
+    [
+      "skill_overlap_count",
+      0.01813
+    ]
+  ],
+  "proof_of_ranking_quality": {
+    "student_id": "student_A_0",
+    "baseline_ranking": [
+      {
+        "job_id": "job_7",
+        "match_score": 0.949,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_40",
+        "match_score": 0.932,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_47",
+        "match_score": 0.914,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_5",
+        "match_score": 0.799,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_8",
+        "match_score": 0.672,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_48",
+        "match_score": 0.601,
+        "outcome": 0
+      },
+      {
+        "job_id": "job_2",
+        "match_score": 0.591,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_17",
+        "match_score": 0.559,
+        "outcome": 1
+      }
+    ],
+    "model_ranking": [
+      {
+        "job_id": "job_40",
+        "predicted_relevance": 0.898749102070499,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_47",
+        "predicted_relevance": 0.7627438566040204,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_7",
+        "predicted_relevance": 0.5898386802425416,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_5",
+        "predicted_relevance": 0.4624101645206383,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_2",
+        "predicted_relevance": 0.2130938584196425,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_17",
+        "predicted_relevance": 0.20475565705228238,
+        "outcome": 1
+      },
+      {
+        "job_id": "job_48",
+        "predicted_relevance": 0.19888822324846522,
+        "outcome": 0
+      },
+      {
+        "job_id": "job_8",
+        "predicted_relevance": 0.1408323047161933,
+        "outcome": 1
+      }
+    ]
+  },
+  "experiment_log": {
+    "timestamp": "2026-07-04T17:12:02.892545",
+    "model_type": "GradientBoostingClassifier",
+    "params": {
+      "n_estimators": 150,
+      "max_depth": 4,
+      "learning_rate": 0.1,
+      "subsample": 0.8
+    },
+    "train_size": 445,
+    "test_size": 197,
+    "train_accuracy": 0.8787,
+    "test_accuracy": 0.5685
+  },
+  "matching_v1_stats": {
+    "total_rows": 1078,
+    "total_students": 88,
+    "total_colleges": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "college_id": "college_A",
+  "metrics": {
+    "enrolled_students": 26,
+    "avg_match_score": 0.7407,
+    "top_3_recommended_jobs": [
+      "job_26",
+      "job_32",
+      "job_45"
+    ],
+    "students_with_high_confidence_recommendation": 23,
+    "students_with_zero_candidates": 0
+  },
+  "actionability": {
+    "enrolled_students": "Track total cohort size to plan placement-drive capacity and employer meeting schedules.",
+    "avg_match_score": "Compare against the university benchmark (e.g. 0.65). If below, launch upskilling workshops before the next placement cycle.",
+    "top_3_recommended_jobs": "Focus employer outreach on these roles — they have the highest predicted fit across your student body.",
+    "students_with_high_confidence_recommendation": "These students are 'placement-ready'. Prioritise scheduling their interviews before slots fill.",
+    "students_with_zero_candidates": "These students need urgent attention: either upskilling, resume improvement, or relaxed matching thresholds."
+  }
+}
