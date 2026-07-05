@@ -35,7 +35,7 @@ def run_demo():
     print_header("3. Live Walkthrough & Explainability")
     
     with TestClient(app) as client:
-        # Pick a random valid student
+        # Pick a deterministic valid student for reproducible README examples (seed=42 ensures consistent IDs)
         sample_student = students.iloc[100]
         s_id = sample_student["student_id"]
         c_id = sample_student["college_id"]

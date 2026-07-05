@@ -37,5 +37,18 @@ def generate_explanation(features_row):
         reasons.append("Your experience level is close to the expected seniority.")
     else:
         reasons.append("Your experience level differs significantly from the expected seniority.")
+    # 4. College Hire Prior
+    prior = features_row.get("college_hire_prior", 0)
+    global_prior = features_row.get("global_hire_rate", 0)
+    
+    if prior > global_prior + 0.05:
+        if overlap <= 0.5:
+            reasons.append("Despite a partial skill match, your college has strong historical placement outcomes for similar roles.")
+        else:
+            reasons.append("Students from your college have historically had an above-average hire rate for similar roles, which strongly boosts your match.")
+    elif prior < global_prior - 0.05:
+        reasons.append("Students from your college have historically had a below-average hire rate for similar roles.")
+    else:
+        reasons.append("Students from your college have historically had an average hire rate for similar roles.")
         
     return " ".join(reasons)

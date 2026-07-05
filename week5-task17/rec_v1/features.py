@@ -84,7 +84,7 @@ class FeatureEngineer:
                         gap_sum += min_prof # Missing skill is a big gap
                 
                 overlap_ratio = matched_count / len(j_skills)
-                prof_gap = gap_sum / len(j_skills) # Average proficiency gap per required skill
+                prof_gap = (gap_sum / len(j_skills)) / 100.0 # Normalized proficiency gap per required skill
                 
             # 2. Experience Fit
             exp_diff = s_meta["years_of_experience"] - j_meta["seniority_level"]
@@ -99,6 +99,7 @@ class FeatureEngineer:
                 "proficiency_gap": prof_gap,
                 "experience_fit": exp_fit,
                 "college_hire_prior": college_prior,
+                "global_hire_rate": self.priors.get("global_hire_rate", 0.0), # for explainability
                 "college_id": college_id, # for segmentation
                 "seniority_level": j_meta["seniority_level"] # for segmentation
             })

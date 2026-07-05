@@ -73,3 +73,47 @@ def test_unknown_job_reverse_recommend(client, students_df):
         headers={"x-college-id": college_id}
     )
     assert response.status_code == 404
+
+def test_explanation_consistency(client, students_df):
+    """Test that if a worse-featured job outranks a better-featured job, the explanation explicitly accounts for it."""
+    valid_student = students_df.iloc[0]["student_id"]
+    college_id = students_df.iloc[0]["college_id"]
+    
+    response = client.post(
+        "/recommend",
+        json={"student_id": valid_student},
+        headers={"x-college-id": college_id}
+    )
+    assert response.status_code == 200
+    recs = response.json().get("recommendations", [])
+    if len(recs) < 2:
+        pytest.skip("Not enough recommendations to test consistency.")
+        
+    from features import FeatureEngineer
+    import joblib
+    fe = FeatureEngineer()
+    fe.load_context()
+    artifact = joblib.load("model.pkl")
+    fe.priors = artifact["college_priors"]
+    
+    job_ids = [r["job_id"] for r in recs]
+    pairs = pd.DataFrame({"student_id": [valid_student]*len(job_ids), "job_id": job_ids})
+    features_df = fe.transform(pairs)
+    features_df["job_id"] = job_ids
+    
+    for i in range(len(recs)):
+        for j in range(i + 1, len(recs)):
+            rec_high = recs[i]
+            rec_low = recs[j]
+            feat_high = features_df[features_df["job_id"] == rec_high["job_id"]].iloc[0]
+            feat_low = features_df[features_df["job_id"] == rec_low["job_id"]].iloc[0]
+            
+            worse_skill = feat_high["skill_overlap_ratio"] < feat_low["skill_overlap_ratio"]
+            worse_gap = feat_high["proficiency_gap"] > feat_low["proficiency_gap"]
+            worse_exp = feat_high["experience_fit"] < feat_low["experience_fit"]
+            
+            if worse_skill and worse_gap and worse_exp:
+                # If strictly worse but outranks, it MUST explicitly say why (e.g. college prior)
+                expl = rec_high["explanation"].lower()
+                assert "strong historical placement outcomes" in expl or "above-average hire rate" in expl, \
+                    f"Contradiction found! {rec_high['job_id']} outranks {rec_low['job_id']} despite worse core features, but explanation does not explicitly state the college prior pull-up. Explanation: {expl}"
