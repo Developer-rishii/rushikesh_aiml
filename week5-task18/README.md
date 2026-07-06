@@ -42,6 +42,8 @@ We evaluate explanation quality across multiple dimensions. All metrics are eval
 - **ML Quality Score:** Our trained RandomForest model shows a massive jump in high-quality explanations (scores > 0.7) compared to the baseline.
 - **Counterfactual Fraction:** Over 60% of explanations now include a proven counterfactual.
 
+*Evaluation Note:* The ML Quality Scorer was trained on a dynamically generated, 250-row labeled dataset (`explanation_quality_labels.csv`) containing varied phrasing and ground truth verification features to prevent simple keyword memorization.
+
 *View the exact numbers and segmentations in `reports/metrics.json` or `reports/sign_off_report.md`.*
 
 ## 4. Dependency, Failure & Edge-Case Handling

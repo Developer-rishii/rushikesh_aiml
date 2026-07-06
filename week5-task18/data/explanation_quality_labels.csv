@@ -1,201 +1,251 @@
-student_id,job_id,explanation_text,quality_label,quality_reason
-S0103,J020,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0093,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0107,J008,Good match overall,0,too generic
-S0189,J007,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0122,J019,You are rank #4. Keep studying.,0,missing counterfactual
-S0075,J011,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0088,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0104,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0150,J002,Good match overall,0,too generic
-S0088,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0158,J006,You are rank #4. Keep studying.,0,missing counterfactual
-S0130,J001,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0058,J012,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0089,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0059,J010,Good match overall,0,too generic
-S0188,J016,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0015,J015,You are rank #4. Keep studying.,0,missing counterfactual
-S0190,J019,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0108,J020,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0064,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0051,J007,Good match overall,0,too generic
-S0021,J009,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0167,J018,You are rank #4. Keep studying.,0,missing counterfactual
-S0132,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0009,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0084,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0188,J007,Good match overall,0,too generic
-S0172,J008,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0175,J003,You are rank #4. Keep studying.,0,missing counterfactual
-S0081,J004,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0050,J008,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0132,J002,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0134,J010,Good match overall,0,too generic
-S0004,J018,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0044,J002,You are rank #4. Keep studying.,0,missing counterfactual
-S0190,J004,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0014,J016,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0015,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0190,J008,Good match overall,0,too generic
-S0082,J015,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0053,J013,You are rank #4. Keep studying.,0,missing counterfactual
-S0041,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0045,J001,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0089,J007,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0009,J001,Good match overall,0,too generic
-S0136,J011,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0081,J008,You are rank #4. Keep studying.,0,missing counterfactual
-S0163,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0033,J005,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0041,J007,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0072,J012,Good match overall,0,too generic
-S0162,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0048,J005,You are rank #4. Keep studying.,0,missing counterfactual
-S0099,J012,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0104,J003,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0193,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0101,J015,Good match overall,0,too generic
-S0131,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0005,J014,You are rank #4. Keep studying.,0,missing counterfactual
-S0103,J009,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0015,J010,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0124,J013,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0179,J007,Good match overall,0,too generic
-S0052,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0151,J007,You are rank #4. Keep studying.,0,missing counterfactual
-S0143,J011,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0029,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0013,J007,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0187,J019,Good match overall,0,too generic
-S0086,J002,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0170,J013,You are rank #4. Keep studying.,0,missing counterfactual
-S0062,J006,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0028,J012,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0044,J020,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0030,J011,Good match overall,0,too generic
-S0128,J007,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0190,J001,You are rank #4. Keep studying.,0,missing counterfactual
-S0129,J020,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0003,J007,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0198,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0155,J009,Good match overall,0,too generic
-S0062,J005,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0051,J010,You are rank #4. Keep studying.,0,missing counterfactual
-S0172,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0059,J009,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0180,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0062,J017,Good match overall,0,too generic
-S0186,J020,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0012,J007,You are rank #4. Keep studying.,0,missing counterfactual
-S0130,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0113,J005,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0113,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0187,J017,Good match overall,0,too generic
-S0002,J002,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0054,J005,You are rank #4. Keep studying.,0,missing counterfactual
-S0129,J019,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0126,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0053,J012,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0160,J006,Good match overall,0,too generic
-S0160,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0183,J011,You are rank #4. Keep studying.,0,missing counterfactual
-S0184,J017,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0038,J005,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0116,J002,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0198,J011,Good match overall,0,too generic
-S0144,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0124,J006,You are rank #4. Keep studying.,0,missing counterfactual
-S0093,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0148,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0147,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0147,J020,Good match overall,0,too generic
-S0096,J007,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0052,J009,You are rank #4. Keep studying.,0,missing counterfactual
-S0161,J008,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0128,J007,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0082,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0129,J011,Good match overall,0,too generic
-S0185,J018,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0151,J010,You are rank #4. Keep studying.,0,missing counterfactual
-S0099,J007,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0144,J016,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0060,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0002,J001,Good match overall,0,too generic
-S0048,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0197,J005,You are rank #4. Keep studying.,0,missing counterfactual
-S0160,J009,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0099,J019,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0048,J016,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0131,J020,Good match overall,0,too generic
-S0152,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0152,J020,You are rank #4. Keep studying.,0,missing counterfactual
-S0075,J017,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0200,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0166,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0084,J003,Good match overall,0,too generic
-S0112,J003,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0153,J018,You are rank #4. Keep studying.,0,missing counterfactual
-S0128,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0082,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0054,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0189,J009,Good match overall,0,too generic
-S0161,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0033,J014,You are rank #4. Keep studying.,0,missing counterfactual
-S0021,J016,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0148,J008,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0135,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0145,J001,Good match overall,0,too generic
-S0176,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0187,J019,You are rank #4. Keep studying.,0,missing counterfactual
-S0119,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0158,J006,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0109,J019,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0182,J008,Good match overall,0,too generic
-S0027,J002,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0021,J001,You are rank #4. Keep studying.,0,missing counterfactual
-S0028,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0192,J001,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0197,J016,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0147,J004,Good match overall,0,too generic
-S0035,J017,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0017,J012,You are rank #4. Keep studying.,0,missing counterfactual
-S0158,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0117,J006,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0099,J009,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0037,J017,Good match overall,0,too generic
-S0046,J003,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0188,J001,You are rank #4. Keep studying.,0,missing counterfactual
-S0116,J001,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0067,J018,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0025,J010,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0054,J003,Good match overall,0,too generic
-S0104,J014,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0024,J018,You are rank #4. Keep studying.,0,missing counterfactual
-S0032,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0086,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0127,J010,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0130,J017,Good match overall,0,too generic
-S0104,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0137,J011,You are rank #4. Keep studying.,0,missing counterfactual
-S0176,J007,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0170,J003,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0050,J013,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0060,J007,Good match overall,0,too generic
-S0057,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0173,J020,You are rank #4. Keep studying.,0,missing counterfactual
-S0065,J008,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0144,J014,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0115,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0092,J002,Good match overall,0,too generic
-S0066,J019,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0153,J017,You are rank #4. Keep studying.,0,missing counterfactual
-S0180,J010,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0070,J015,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0054,J011,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
-S0188,J005,Good match overall,0,too generic
-S0008,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
-S0108,J005,You are rank #4. Keep studying.,0,missing counterfactual
-S0103,J004,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
-S0006,J013,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
-S0116,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+student_id,job_id,explanation_text,quality_label,quality_reason,skill_gap_list,rank_position,audience
+S0103,J020,You're ranked #4 for this role. Missing: Ruby.,0,states incorrect rank,Ruby,2,officer
+S0053,J002,"Your current position is #5. Gaps identified: K8s. If you learn K8s, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank","K8s,Docker",5,officer
+S0188,J016,Rank: 4. Ruby is required. Adding it could shift you up to 3.,1,"actionable, specific, mentions correct skills and rank","Ruby,SQL",4,officer
+S0009,J002,Top features: match_score (0.41). Missing Go. Rank change if Go added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank","Go,C++",5,officer
+S0191,J018,"Your current position is #3. Gaps identified: Docker. If you learn Docker, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank","Docker,C++",3,student
+S0024,J013,You're ranked #2 for this role. Missing: React. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank",React,2,admin
+S0005,J010,"Your current position is #4. Gaps identified: Ruby. If you learn Ruby, you might jump to #3.",1,"actionable, specific, mentions correct skills and rank","Ruby,React",4,student
+S0175,J014,Good match overall. Student is recommended.,0,too generic,Azure,4,student
+S0096,J004,You are rank #3. You are missing C++. There is no way to improve.,0,correct features but unhelpful and negative tone,C++,3,officer
+S0028,J012,You are rank #5. You are missing AWS. There is no way to improve.,0,correct features but unhelpful and negative tone,"AWS,SQL",5,student
+S0003,J007,Good match overall. Student is recommended.,0,too generic,"Ruby,React",3,officer
+S0052,J012,You are rank #3. You are missing C++. There is no way to improve.,0,correct features but unhelpful and negative tone,C++,3,student
+S0129,J019,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #3.,0,"correct but not actionable for student, no counterfactual","Git,SQL",3,officer
+S0198,J011,Rank: 4. Java is required. Adding it could shift you up to 3.,1,"actionable, specific, mentions correct skills and rank","Java,Azure",4,admin
+S0052,J009,"Your current position is #2. Gaps identified: Azure. If you learn Azure, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank","Azure,Java",2,admin
+S0144,J016,You're ranked #4 for this role. Missing: Ruby.,0,states incorrect rank,"Ruby,K8s",2,admin
+S0048,J016,"Your current position is #4. Gaps identified: Java. If you learn Java, you might jump to #3.",1,"actionable, specific, mentions correct skills and rank","Java,Go",4,officer
+S0099,J018,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #5.,0,"correct but not actionable for student, no counterfactual","C++,Go",5,admin
+S0195,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",Python,5,student
+S0030,J001,You're ranked #7 for this role. Missing: Git.,0,states incorrect rank,Git,5,student
+S0037,J017,You are rank #3. Missing: Docker. Add it to improve.,0,hallucinated skill not in gap list,C++,3,officer
+S0024,J018,Top features: match_score (0.41). Missing Java. Rank change if Java added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",Java,5,admin
+S0026,J003,You're ranked #5 for this role. Missing: Go.,0,states incorrect rank,Go,3,admin
+S0143,J002,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #3.,0,"correct but not actionable for student, no counterfactual","Python,Ruby",3,officer
+S0070,J015,Rank: 3. C++ is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank",C++,3,officer
+S0047,J003,You are rank #4. You are missing Git. There is no way to improve.,0,correct features but unhelpful and negative tone,"Git,Java",4,officer
+S0023,J009,You're ranked #5 for this role. Missing: Git. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank",Git,5,admin
+S0192,J005,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #3.,0,"correct but not actionable for student, no counterfactual",AWS,3,student
+S0144,J016,You are rank #2. Missing: Docker. Add it to improve.,0,hallucinated skill not in gap list,Go,2,officer
+S0096,J001,You're ranked #5 for this role. Missing: React. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank",React,5,student
+S0179,J011,You're ranked #4 for this role. Missing: React.,0,states incorrect rank,"React,C++",2,officer
+S0035,J017,Rank: 3. Git is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank","Git,React",3,student
+S0021,J004,Rank: 3. Java is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank",Java,3,student
+S0183,J013,You are rank #4. You are missing SQL. There is no way to improve.,0,correct features but unhelpful and negative tone,SQL,4,student
+S0147,J012,"Your current position is #2. Gaps identified: SQL. If you learn SQL, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank",SQL,2,student
+S0039,J013,You are rank #2. Missing: Azure. Add it to improve.,0,hallucinated skill not in gap list,"AWS,Python",2,student
+S0007,J014,You're ranked #2 for this role. Missing: Go. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank","Go,React",2,admin
+S0071,J013,You are rank #5. Missing: Azure. Add it to improve.,0,hallucinated skill not in gap list,"AWS,Python",5,student
+S0127,J009,You're ranked #4 for this role. Missing: K8s. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank",K8s,4,student
+S0047,J016,"Your current position is #3. Gaps identified: Azure. If you learn Azure, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank",Azure,3,student
+S0117,J003,Rank: 5. Python is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank",Python,5,officer
+S0060,J018,You are rank #5. You are missing Docker. There is no way to improve.,0,correct features but unhelpful and negative tone,"Docker,SQL",5,officer
+S0035,J006,Good match overall. Student is recommended.,0,too generic,AWS,3,officer
+S0177,J011,You're ranked #2 for this role. Missing: AWS. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank","AWS,Git",2,admin
+S0133,J006,You're ranked #6 for this role. Missing: React.,0,states incorrect rank,React,4,student
+S0004,J001,Top features: match_score (0.41). Missing Java. Rank change if Java added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank","Java,AWS",2,officer
+S0057,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",Python,5,admin
+S0091,J019,Top features: match_score (0.41). Missing Java. Rank change if Java added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank","Java,Ruby",4,student
+S0074,J017,"Your current position is #5. Gaps identified: K8s. If you learn K8s, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank","K8s,Python",5,admin
+S0080,J011,You are rank #3. Missing: AWS. Add it to improve.,0,hallucinated skill not in gap list,"C++,SQL",3,admin
+S0021,J005,You are rank #3. Missing: Go. Add it to improve.,0,hallucinated skill not in gap list,"C++,Docker",3,officer
+S0047,J015,You are rank #5. Missing: C++. Add it to improve.,0,hallucinated skill not in gap list,"SQL,K8s",5,officer
+S0130,J013,"Your current position is #3. Gaps identified: AWS. If you learn AWS, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank","AWS,SQL",3,admin
+S0015,J005,Rank: 5. Go is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank","Go,Docker",5,officer
+S0067,J009,You are rank #2. Missing: SQL. Add it to improve.,0,hallucinated skill not in gap list,"Go,Java",2,admin
+S0184,J013,Good match overall. Student is recommended.,0,too generic,Go,3,admin
+S0131,J019,Top features: match_score (0.41). Missing Python. Rank change if Python added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank","Python,Ruby",4,officer
+S0179,J002,Good match overall. Student is recommended.,0,too generic,C++,4,officer
+S0142,J006,You are rank #2. Missing: AWS. Add it to improve.,0,hallucinated skill not in gap list,"C++,Azure",2,student
+S0063,J005,Top features: match_score (0.41). Missing AWS. Rank change if AWS added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",AWS,2,student
+S0120,J011,Rank: 2. SQL is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank","SQL,C++",2,officer
+S0035,J005,You're ranked #4 for this role. Missing: React.,0,states incorrect rank,React,2,student
+S0166,J001,You're ranked #6 for this role. Missing: React.,0,states incorrect rank,React,4,admin
+S0179,J008,You're ranked #3 for this role. Missing: SQL. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank","SQL,Git",3,officer
+S0196,J002,You're ranked #3 for this role. Missing: SQL. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank",SQL,3,admin
+S0068,J012,Top features: match_score (0.41). Missing Git. Rank change if Git added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank","Git,K8s",2,officer
+S0200,J015,You are rank #3. Missing: Python. Add it to improve.,0,hallucinated skill not in gap list,"Java,C++",3,admin
+S0122,J009,Good match overall. Student is recommended.,0,too generic,Azure,3,student
+S0063,J019,Good match overall. Student is recommended.,0,too generic,K8s,5,officer
+S0075,J006,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #3.,0,"correct but not actionable for student, no counterfactual",C++,3,officer
+S0088,J001,Rank: 2. Docker is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank",Docker,2,admin
+S0189,J008,Rank: 2. SQL is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank",SQL,2,admin
+S0018,J001,"Your current position is #3. Gaps identified: AWS. If you learn AWS, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank",AWS,3,admin
+S0032,J010,You're ranked #5 for this role. Missing: C++.,0,states incorrect rank,C++,3,admin
+S0072,J015,You are rank #2. Missing: Git. Add it to improve.,0,hallucinated skill not in gap list,Java,2,officer
+S0007,J001,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #4.,0,"correct but not actionable for student, no counterfactual",React,4,student
+S0037,J006,"Your current position is #5. Gaps identified: Azure. If you learn Azure, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank","Azure,K8s",5,officer
+S0128,J017,Top features: match_score (0.41). Missing React. Rank change if React added: #3 -> #2.,1,"actionable, specific, mentions correct skills and rank",React,3,admin
+S0037,J011,You're ranked #3 for this role. Missing: Go. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank","Go,Docker",3,officer
+S0086,J006,Top features: match_score (0.41). Missing AWS. Rank change if AWS added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank","AWS,Docker",4,officer
+S0107,J001,Top features: match_score (0.41). Missing C++. Rank change if C++ added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank",C++,4,admin
+S0111,J005,Good match overall. Student is recommended.,0,too generic,K8s,5,officer
+S0194,J009,Top features: match_score (0.41). Missing Java. Rank change if Java added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank","Java,AWS",2,officer
+S0098,J012,You're ranked #4 for this role. Missing: React. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank",React,4,admin
+S0118,J016,"Your current position is #3. Gaps identified: AWS. If you learn AWS, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank","AWS,Git",3,officer
+S0079,J007,Top features: match_score (0.41). Missing Python. Rank change if Python added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",Python,2,admin
+S0152,J003,You are rank #5. Missing: Python. Add it to improve.,0,hallucinated skill not in gap list,"Go,C++",5,student
+S0170,J012,Rank: 3. AWS is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank","AWS,Python",3,student
+S0190,J017,You are rank #2. You are missing Docker. There is no way to improve.,0,correct features but unhelpful and negative tone,"Docker,Ruby",2,officer
+S0120,J018,You're ranked #5 for this role. Missing: AWS. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank","AWS,SQL",5,admin
+S0124,J006,You're ranked #6 for this role. Missing: Ruby.,0,states incorrect rank,"Ruby,Java",4,student
+S0110,J010,Good match overall. Student is recommended.,0,too generic,"K8s,AWS",4,admin
+S0020,J017,You're ranked #2 for this role. Missing: Java. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank",Java,2,student
+S0068,J014,You're ranked #2 for this role. Missing: K8s. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank","K8s,SQL",2,admin
+S0040,J005,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #4.,0,"correct but not actionable for student, no counterfactual",C++,4,student
+S0081,J018,Rank: 5. React is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank",React,5,student
+S0059,J016,You're ranked #2 for this role. Missing: SQL. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank",SQL,2,admin
+S0031,J010,You're ranked #5 for this role. Missing: Git.,0,states incorrect rank,"Git,Ruby",3,student
+S0017,J008,You are rank #4. You are missing Go. There is no way to improve.,0,correct features but unhelpful and negative tone,"Go,Java",4,student
+S0022,J004,"Your current position is #5. Gaps identified: Docker. If you learn Docker, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank","Docker,Git",5,officer
+S0050,J014,"Your current position is #5. Gaps identified: React. If you learn React, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank",React,5,admin
+S0058,J002,Top features: match_score (0.41). Missing Azure. Rank change if Azure added: #3 -> #2.,1,"actionable, specific, mentions correct skills and rank","Azure,Go",3,admin
+S0027,J003,You are rank #2. Missing: K8s. Add it to improve.,0,hallucinated skill not in gap list,"SQL,C++",2,admin
+S0162,J003,Top features: match_score (0.41). Missing Docker. Rank change if Docker added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",Docker,5,officer
+S0199,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,"correct but not actionable for student, no counterfactual","C++,Ruby",2,admin
+S0117,J002,You're ranked #5 for this role. Missing: K8s. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank","K8s,C++",5,admin
+S0179,J009,You are rank #2. You are missing Docker. There is no way to improve.,0,correct features but unhelpful and negative tone,"Docker,Java",2,officer
+S0161,J013,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #5.,0,"correct but not actionable for student, no counterfactual","Python,AWS",5,student
+S0104,J011,Top features: match_score (0.41). Missing Ruby. Rank change if Ruby added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",Ruby,2,admin
+S0127,J007,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #4.,0,"correct but not actionable for student, no counterfactual","Java,C++",4,admin
+S0012,J013,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,"correct but not actionable for student, no counterfactual",SQL,2,officer
+S0198,J018,Good match overall. Student is recommended.,0,too generic,"Azure,K8s",4,admin
+S0076,J017,You're ranked #3 for this role. Missing: Docker. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank",Docker,3,officer
+S0117,J002,You are rank #5. You are missing Java. There is no way to improve.,0,correct features but unhelpful and negative tone,"Java,Python",5,officer
+S0040,J015,Good match overall. Student is recommended.,0,too generic,Java,2,officer
+S0060,J015,You are rank #3. You are missing Java. There is no way to improve.,0,correct features but unhelpful and negative tone,"Java,Go",3,student
+S0193,J008,Rank: 5. C++ is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank","C++,Python",5,admin
+S0001,J020,You are rank #5. You are missing K8s. There is no way to improve.,0,correct features but unhelpful and negative tone,K8s,5,officer
+S0078,J002,You're ranked #4 for this role. Missing: SQL.,0,states incorrect rank,SQL,2,officer
+S0012,J010,"Your current position is #5. Gaps identified: React. If you learn React, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank",React,5,officer
+S0045,J020,"Your current position is #5. Gaps identified: AWS. If you learn AWS, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank","AWS,Go",5,admin
+S0171,J010,You're ranked #3 for this role. Missing: Java. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank","Java,Azure",3,admin
+S0031,J016,You're ranked #3 for this role. Missing: Docker. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank",Docker,3,student
+S0159,J009,"Your current position is #4. Gaps identified: Java. If you learn Java, you might jump to #3.",1,"actionable, specific, mentions correct skills and rank","Java,Git",4,student
+S0088,J007,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,"correct but not actionable for student, no counterfactual",Git,2,officer
+S0011,J003,You are rank #5. You are missing Azure. There is no way to improve.,0,correct features but unhelpful and negative tone,"Azure,React",5,officer
+S0048,J005,You are rank #4. You are missing Ruby. There is no way to improve.,0,correct features but unhelpful and negative tone,"Ruby,Git",4,admin
+S0025,J004,You're ranked #4 for this role. Missing: C++. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank",C++,4,admin
+S0156,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #5.,0,"correct but not actionable for student, no counterfactual","Docker,React",5,officer
+S0039,J013,You are rank #4. You are missing Docker. There is no way to improve.,0,correct features but unhelpful and negative tone,Docker,4,admin
+S0150,J009,You're ranked #5 for this role. Missing: AWS.,0,states incorrect rank,AWS,3,admin
+S0089,J018,Good match overall. Student is recommended.,0,too generic,"Git,React",4,officer
+S0176,J005,You are rank #4. You are missing Docker. There is no way to improve.,0,correct features but unhelpful and negative tone,Docker,4,officer
+S0067,J010,"Your current position is #3. Gaps identified: Ruby. If you learn Ruby, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank",Ruby,3,student
+S0036,J008,Rank: 2. SQL is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank",SQL,2,student
+S0172,J008,"Your current position is #3. Gaps identified: C++. If you learn C++, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank","C++,Python",3,officer
+S0116,J008,Rank: 3. Go is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank","Go,Git",3,admin
+S0144,J013,Top features: match_score (0.41). Missing Azure. Rank change if Azure added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank","Azure,K8s",4,admin
+S0032,J001,You are rank #2. You are missing K8s. There is no way to improve.,0,correct features but unhelpful and negative tone,"K8s,Git",2,officer
+S0193,J011,Top features: match_score (0.41). Missing Python. Rank change if Python added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank","Python,Go",4,admin
+S0049,J010,You are rank #3. Missing: AWS. Add it to improve.,0,hallucinated skill not in gap list,"SQL,C++",3,officer
+S0020,J018,You're ranked #7 for this role. Missing: Java.,0,states incorrect rank,"Java,Docker",5,admin
+S0169,J006,Top features: match_score (0.41). Missing Ruby. Rank change if Ruby added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",Ruby,2,student
+S0060,J006,You're ranked #7 for this role. Missing: React.,0,states incorrect rank,React,5,officer
+S0159,J015,Rank: 2. K8s is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank",K8s,2,student
+S0101,J007,You're ranked #7 for this role. Missing: Python.,0,states incorrect rank,"Python,Ruby",5,officer
+S0014,J007,You are rank #2. You are missing Python. There is no way to improve.,0,correct features but unhelpful and negative tone,Python,2,student
+S0013,J018,"Your current position is #2. Gaps identified: Go. If you learn Go, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank",Go,2,student
+S0026,J004,You're ranked #3 for this role. Missing: C++. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank","C++,Ruby",3,student
+S0192,J017,Top features: match_score (0.41). Missing Docker. Rank change if Docker added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",Docker,5,admin
+S0200,J017,You're ranked #6 for this role. Missing: C++.,0,states incorrect rank,C++,4,student
+S0109,J019,Rank: 5. K8s is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank",K8s,5,admin
+S0186,J005,Good match overall. Student is recommended.,0,too generic,"Docker,Go",2,officer
+S0068,J014,Rank: 2. Python is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank",Python,2,admin
+S0144,J002,Top features: match_score (0.41). Missing React. Rank change if React added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank","React,Java",4,student
+S0172,J019,You're ranked #3 for this role. Missing: React. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank",React,3,officer
+S0136,J014,You are rank #5. You are missing Git. There is no way to improve.,0,correct features but unhelpful and negative tone,"Git,SQL",5,admin
+S0180,J018,You are rank #4. You are missing SQL. There is no way to improve.,0,correct features but unhelpful and negative tone,SQL,4,officer
+S0039,J012,Top features: match_score (0.41). Missing K8s. Rank change if K8s added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank",K8s,4,admin
+S0010,J014,Top features: match_score (0.41). Missing Python. Rank change if Python added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank",Python,4,officer
+S0121,J002,Top features: match_score (0.41). Missing Git. Rank change if Git added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",Git,2,officer
+S0154,J005,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #3.,0,"correct but not actionable for student, no counterfactual",Go,3,student
+S0014,J003,You're ranked #5 for this role. Missing: Python. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank",Python,5,admin
+S0110,J019,You're ranked #3 for this role. Missing: Go. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank","Go,Python",3,officer
+S0063,J020,"Your current position is #2. Gaps identified: SQL. If you learn SQL, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank",SQL,2,officer
+S0124,J011,Top features: match_score (0.41). Missing React. Rank change if React added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank",React,4,student
+S0198,J017,Top features: match_score (0.41). Missing Git. Rank change if Git added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank",Git,4,student
+S0100,J006,Good match overall. Student is recommended.,0,too generic,"Java,C++",3,admin
+S0084,J004,You're ranked #2 for this role. Missing: Azure. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank","Azure,Python",2,officer
+S0044,J009,Top features: match_score (0.41). Missing K8s. Rank change if K8s added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank","K8s,React",2,admin
+S0143,J018,You're ranked #5 for this role. Missing: Docker. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank","Docker,Python",5,officer
+S0069,J003,You are rank #4. You are missing SQL. There is no way to improve.,0,correct features but unhelpful and negative tone,"SQL,Go",4,admin
+S0071,J001,Top features: match_score (0.41). Missing Git. Rank change if Git added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank","Git,Docker",2,student
+S0005,J002,You're ranked #5 for this role. Missing: Python.,0,states incorrect rank,"Python,Azure",3,officer
+S0099,J019,"Your current position is #4. Gaps identified: Python. If you learn Python, you might jump to #3.",1,"actionable, specific, mentions correct skills and rank",Python,4,student
+S0168,J017,You're ranked #4 for this role. Missing: Java. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank","Java,K8s",4,admin
+S0178,J011,Good match overall. Student is recommended.,0,too generic,SQL,4,admin
+S0143,J016,Good match overall. Student is recommended.,0,too generic,"Python,K8s",3,student
+S0008,J005,Good match overall. Student is recommended.,0,too generic,"Azure,SQL",5,admin
+S0109,J013,Top features: match_score (0.41). Missing AWS. Rank change if AWS added: #3 -> #2.,1,"actionable, specific, mentions correct skills and rank","AWS,SQL",3,officer
+S0126,J005,Rank: 4. Git is required. Adding it could shift you up to 3.,1,"actionable, specific, mentions correct skills and rank",Git,4,student
+S0131,J012,You're ranked #7 for this role. Missing: Azure.,0,states incorrect rank,"Azure,React",5,student
+S0023,J016,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #5.,0,"correct but not actionable for student, no counterfactual","K8s,C++",5,student
+S0200,J003,Rank: 5. Go is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank","Go,Azure",5,student
+S0115,J001,"Your current position is #3. Gaps identified: Docker. If you learn Docker, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank",Docker,3,officer
+S0084,J017,Rank: 2. AWS is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank","AWS,C++",2,student
+S0071,J014,Good match overall. Student is recommended.,0,too generic,Ruby,4,student
+S0142,J011,You are rank #2. You are missing Git. There is no way to improve.,0,correct features but unhelpful and negative tone,Git,2,officer
+S0113,J016,You are rank #3. You are missing React. There is no way to improve.,0,correct features but unhelpful and negative tone,"React,Ruby",3,student
+S0189,J009,Top features: match_score (0.41). Missing K8s. Rank change if K8s added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",K8s,5,student
+S0150,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",Python,2,officer
+S0162,J009,"Your current position is #2. Gaps identified: C++. If you learn C++, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank","C++,Docker",2,officer
+S0193,J013,Rank: 2. Go is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank",Go,2,student
+S0090,J007,"Your current position is #2. Gaps identified: SQL. If you learn SQL, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank",SQL,2,student
+S0039,J013,You're ranked #5 for this role. Missing: K8s. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank",K8s,5,student
+S0090,J007,You're ranked #5 for this role. Missing: Go. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank","Go,Docker",5,admin
+S0164,J018,You're ranked #2 for this role. Missing: React. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank",React,2,student
+S0194,J019,You're ranked #4 for this role. Missing: Java. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank",Java,4,officer
+S0131,J016,"Your current position is #3. Gaps identified: Git. If you learn Git, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank","Git,React",3,student
+S0023,J006,Top features: match_score (0.41). Missing Azure. Rank change if Azure added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",Azure,5,admin
+S0195,J012,You are rank #4. You are missing Java. There is no way to improve.,0,correct features but unhelpful and negative tone,Java,4,admin
+S0196,J005,You are rank #5. You are missing Git. There is no way to improve.,0,correct features but unhelpful and negative tone,Git,5,officer
+S0176,J020,You're ranked #7 for this role. Missing: K8s.,0,states incorrect rank,"K8s,C++",5,officer
+S0107,J010,Rank: 4. Azure is required. Adding it could shift you up to 3.,1,"actionable, specific, mentions correct skills and rank","Azure,Docker",4,officer
+S0113,J013,"Your current position is #4. Gaps identified: Docker. If you learn Docker, you might jump to #3.",1,"actionable, specific, mentions correct skills and rank",Docker,4,admin
+S0179,J003,You're ranked #3 for this role. Missing: SQL. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank","SQL,Go",3,admin
+S0024,J003,"Your current position is #2. Gaps identified: React. If you learn React, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank",React,2,student
+S0085,J008,Rank: 5. Azure is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank",Azure,5,officer
+S0149,J011,Rank: 4. Azure is required. Adding it could shift you up to 3.,1,"actionable, specific, mentions correct skills and rank","Azure,Docker",4,officer
+S0183,J004,"Your current position is #3. Gaps identified: Java. If you learn Java, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank",Java,3,admin
+S0004,J007,You're ranked #2 for this role. Missing: Ruby. Acquiring this skill could move you to #1.,1,"actionable, specific, mentions correct skills and rank",Ruby,2,admin
+S0189,J016,Good match overall. Student is recommended.,0,too generic,"Ruby,Python",3,officer
+S0047,J003,You're ranked #4 for this role. Missing: SQL. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank","SQL,C++",4,student
+S0136,J005,"Your current position is #5. Gaps identified: React. If you learn React, you might jump to #4.",1,"actionable, specific, mentions correct skills and rank","React,Azure",5,officer
+S0075,J003,You are rank #5. Missing: Git. Add it to improve.,0,hallucinated skill not in gap list,C++,5,admin
+S0159,J002,You're ranked #4 for this role. Missing: SQL. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank",SQL,4,student
+S0021,J019,Top features: match_score (0.41). Missing Go. Rank change if Go added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",Go,2,officer
+S0178,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #5.,0,"correct but not actionable for student, no counterfactual",Docker,5,student
+S0079,J017,You're ranked #3 for this role. Missing: Docker. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank",Docker,3,admin
+S0121,J001,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #4.,0,"correct but not actionable for student, no counterfactual",Git,4,admin
+S0165,J017,Rank: 3. Azure is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank",Azure,3,admin
+S0017,J004,Rank: 4. Git is required. Adding it could shift you up to 3.,1,"actionable, specific, mentions correct skills and rank",Git,4,student
+S0099,J015,Good match overall. Student is recommended.,0,too generic,"Python,Ruby",5,officer
+S0054,J001,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #5.,0,"correct but not actionable for student, no counterfactual",Python,5,officer
+S0182,J001,You're ranked #5 for this role. Missing: Java. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank",Java,5,student
+S0102,J002,You're ranked #5 for this role. Missing: Java.,0,states incorrect rank,Java,3,student
+S0122,J006,Rank: 2. C++ is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank","C++,AWS",2,student
+S0153,J001,You're ranked #4 for this role. Missing: React. Acquiring this skill could move you to #3.,1,"actionable, specific, mentions correct skills and rank","React,SQL",4,student
+S0059,J004,Rank: 5. Java is required. Adding it could shift you up to 4.,1,"actionable, specific, mentions correct skills and rank",Java,5,officer
+S0075,J015,You are rank #5. You are missing AWS. There is no way to improve.,0,correct features but unhelpful and negative tone,"AWS,Java",5,student
+S0200,J008,Top features: match_score (0.41). Missing SQL. Rank change if SQL added: #5 -> #4.,1,"actionable, specific, mentions correct skills and rank",SQL,5,officer
+S0114,J005,You're ranked #5 for this role. Missing: Ruby. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank","Ruby,AWS",5,officer
+S0197,J006,Rank: 3. K8s is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank","K8s,Go",3,admin
+S0077,J018,Good match overall. Student is recommended.,0,too generic,Go,4,officer
+S0019,J006,Top features: match_score (0.41). Missing Go. Rank change if Go added: #3 -> #2.,1,"actionable, specific, mentions correct skills and rank","Go,Azure",3,officer
+S0008,J013,You are rank #3. You are missing Ruby. There is no way to improve.,0,correct features but unhelpful and negative tone,"Ruby,Git",3,officer
+S0171,J010,Good match overall. Student is recommended.,0,too generic,"Azure,AWS",5,officer
+S0155,J002,Top features: match_score (0.41). Missing SQL. Rank change if SQL added: #4 -> #3.,1,"actionable, specific, mentions correct skills and rank",SQL,4,student
+S0018,J013,You are rank #5. Missing: Azure. Add it to improve.,0,hallucinated skill not in gap list,Docker,5,admin
+S0041,J009,"Your current position is #2. Gaps identified: Docker. If you learn Docker, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank","Docker,C++",2,student
+S0099,J012,Rank: 3. Python is required. Adding it could shift you up to 2.,1,"actionable, specific, mentions correct skills and rank",Python,3,student
+S0136,J009,You're ranked #5 for this role. Missing: SQL. Acquiring this skill could move you to #4.,1,"actionable, specific, mentions correct skills and rank",SQL,5,officer
+S0004,J003,You're ranked #3 for this role. Missing: C++. Acquiring this skill could move you to #2.,1,"actionable, specific, mentions correct skills and rank",C++,3,student
+S0188,J006,Rank: 2. Python is required. Adding it could shift you up to 1.,1,"actionable, specific, mentions correct skills and rank",Python,2,officer
+S0164,J015,"Your current position is #2. Gaps identified: AWS. If you learn AWS, you might jump to #1.",1,"actionable, specific, mentions correct skills and rank",AWS,2,officer
+S0054,J008,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,"correct but not actionable for student, no counterfactual","Java,AWS",2,admin
+S0153,J005,"Your current position is #3. Gaps identified: Go. If you learn Go, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank",Go,3,student
+S0126,J017,"Your current position is #3. Gaps identified: SQL. If you learn SQL, you might jump to #2.",1,"actionable, specific, mentions correct skills and rank",SQL,3,student
+S0183,J001,Top features: match_score (0.41). Missing Git. Rank change if Git added: #2 -> #1.,1,"actionable, specific, mentions correct skills and rank",Git,2,student
+S0132,J019,You're ranked #5 for this role. Missing: K8s.,0,states incorrect rank,K8s,3,admin

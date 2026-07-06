@@ -1,12 +1,12 @@
 import pandas as pd
 import numpy as np
 import json
-import joblib
-from sklearn.linear_model import LinearRegression
 import os
+import random
 
 def generate_rec_v1_output():
     np.random.seed(42)
+    random.seed(42)
     n_rows = 500
     
     colleges = [f"C{i:03d}" for i in range(1, 6)]
@@ -25,17 +25,17 @@ def generate_rec_v1_output():
         skill_overlap_count = np.random.randint(2, 6)
         skill_gap_count = np.random.randint(0, 4)
         
-        # Rank 1 often has 0 skill gaps
         if rank_position == 1 and np.random.rand() > 0.3:
             skill_gap_count = 0
             
         gap_skills = np.random.choice(skills, size=skill_gap_count, replace=False).tolist() if skill_gap_count > 0 else []
         skill_gap_list = ",".join(gap_skills)
         years_exposure_avg = np.round(np.random.uniform(0, 5), 1)
-        jd_seniority_level = np.random.choice(["Junior", "Mid", "Senior"])
-        ai_trust_score = np.round(np.random.uniform(0.7, 0.99), 2)
+        jd_seniority_num = np.random.choice([1, 2, 3, 4, 5])
         
-        # We need realistic feature weights matching what we describe
+        ai_trust_score = np.round(np.random.uniform(0.7, 0.99), 2)
+        verified_skill_count = np.random.randint(2, 10)
+        
         feature_importances = {
             "match_score": 0.41,
             "skill_overlap_count": 0.28,
@@ -44,27 +44,25 @@ def generate_rec_v1_output():
         }
         feature_importances_json = json.dumps(feature_importances)
         
-        # Task 16 baseline explanation (can be generic or lack specifics)
         if np.random.rand() > 0.5:
             task16_explanation = "Good match overall for this role based on profile."
         else:
             task16_explanation = f"Student matches well. Rank {rank_position}."
             
-        # Add edge case: missing feature_importances_json
         if np.random.rand() < 0.02:
             feature_importances_json = None
             
         data.append([
             student_id, college_id, job_id, rank_position, match_score, 
             predicted_relevance_score, skill_overlap_count, skill_gap_count, 
-            skill_gap_list, years_exposure_avg, jd_seniority_level, 
-            ai_trust_score, feature_importances_json, task16_explanation
+            skill_gap_list, years_exposure_avg, jd_seniority_num, 
+            ai_trust_score, verified_skill_count, feature_importances_json, task16_explanation
         ])
         
     cols = ["student_id", "college_id", "job_id", "rank_position", "match_score", 
             "predicted_relevance_score", "skill_overlap_count", "skill_gap_count", 
             "skill_gap_list", "years_exposure_avg", "jd_seniority_level", 
-            "ai_trust_score", "feature_importances_json", "task16_explanation"]
+            "ai_trust_score", "verified_skill_count", "feature_importances_json", "task16_explanation"]
             
     df = pd.DataFrame(data, columns=cols)
     os.makedirs("data", exist_ok=True)
@@ -73,42 +71,64 @@ def generate_rec_v1_output():
 
 def generate_explanation_quality_labels():
     np.random.seed(42)
+    random.seed(42)
     data = []
     students = [f"S{i:04d}" for i in range(1, 201)]
     jobs = [f"J{i:03d}" for i in range(1, 21)]
+    skills_list = ["Python", "SQL", "Docker", "AWS", "Java", "React", "K8s", "Git", "C++", "Ruby", "Go", "Azure"]
     
-    examples = [
-        # Good examples
-        ("You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.", 1, "actionable and specific"),
-        ("Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.", 1, "actionable and specific"),
-        # Poor examples
-        ("Good match overall", 0, "too generic"),
-        ("Says skill X matters but model weighted Y highest", 0, "contradicts feature importances"),
-        ("You are rank #4. Keep studying.", 0, "missing counterfactual"),
-        ("Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.", 0, "correct but not actionable for student")
-    ]
-    
-    for i in range(200):
+    # Generate 250 distinct rows
+    for i in range(250):
         student = np.random.choice(students)
         job = np.random.choice(jobs)
-        ex = examples[i % len(examples)]
-        data.append([student, job, ex[0], ex[1], ex[2]])
         
-    df = pd.DataFrame(data, columns=["student_id", "job_id", "explanation_text", "quality_label", "quality_reason"])
+        true_rank = np.random.randint(2, 6)
+        true_gaps = np.random.choice(skills_list, size=np.random.randint(1, 3), replace=False).tolist()
+        skill_gap_list = ",".join(true_gaps)
+        
+        is_good = np.random.rand() > 0.4
+        
+        if is_good:
+            struct_type = np.random.randint(0, 4)
+            if struct_type == 0:
+                text = f"You're ranked #{true_rank} for this role. Missing: {true_gaps[0]}. Acquiring this skill could move you to #{true_rank - 1}."
+            elif struct_type == 1:
+                text = f"Top features: match_score (0.41). Missing {true_gaps[0]}. Rank change if {true_gaps[0]} added: #{true_rank} -> #{true_rank - 1}."
+            elif struct_type == 2:
+                text = f"Your current position is #{true_rank}. Gaps identified: {true_gaps[0]}. If you learn {true_gaps[0]}, you might jump to #{true_rank - 1}."
+            else:
+                text = f"Rank: {true_rank}. {true_gaps[0]} is required. Adding it could shift you up to {true_rank - 1}."
+            label = 1
+            reason = "actionable, specific, mentions correct skills and rank"
+        else:
+            err_type = np.random.randint(0, 5)
+            if err_type == 0:
+                text = "Good match overall. Student is recommended."
+                reason = "too generic"
+            elif err_type == 1:
+                wrong_skill = np.random.choice([s for s in skills_list if s not in true_gaps])
+                text = f"You are rank #{true_rank}. Missing: {wrong_skill}. Add it to improve."
+                reason = "hallucinated skill not in gap list"
+            elif err_type == 2:
+                wrong_rank = true_rank + 2
+                text = f"You're ranked #{wrong_rank} for this role. Missing: {true_gaps[0]}."
+                reason = "states incorrect rank"
+            elif err_type == 3:
+                text = f"Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #{true_rank}."
+                reason = "correct but not actionable for student, no counterfactual"
+            else:
+                text = f"You are rank #{true_rank}. You are missing {true_gaps[0]}. There is no way to improve."
+                reason = "correct features but unhelpful and negative tone"
+            label = 0
+            
+        audience = np.random.choice(['student', 'officer', 'admin'])
+        
+        data.append([student, job, text, label, reason, skill_gap_list, true_rank, audience])
+        
+    df = pd.DataFrame(data, columns=["student_id", "job_id", "explanation_text", "quality_label", "quality_reason", "skill_gap_list", "rank_position", "audience"])
     df.to_csv("data/explanation_quality_labels.csv", index=False)
     print("Created data/explanation_quality_labels.csv")
-
-def generate_dummy_model():
-    # We need a dummy model that takes something like [skill_gap_count, skill_overlap_count] and returns a score
-    # So we can "re-score" counterfactuals
-    X = np.random.rand(100, 2) * 5
-    y = X[:, 1] * 0.1 - X[:, 0] * 0.15 + 0.8  # score = 0.8 + 0.1*overlap - 0.15*gap
-    model = LinearRegression().fit(X, y)
-    os.makedirs("src/models", exist_ok=True)
-    joblib.dump(model, "src/models/rec_v1_model.joblib")
-    print("Created src/models/rec_v1_model.joblib")
 
 if __name__ == "__main__":
     generate_rec_v1_output()
     generate_explanation_quality_labels()
-    generate_dummy_model()

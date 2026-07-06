@@ -2,36 +2,41 @@ import pandas as pd
 import numpy as np
 import json
 import os
-from metrics import evaluate_baseline, calculate_completeness, calculate_actionability, calculate_specificity
-from quality_model import score_explanations, train_model, extract_features
+import re
+from metrics import evaluate_baseline
+from quality_model import score_explanations, train_model
 from explanations import generate_all_explanations, compute_counterfactual
 import joblib
-
 
 def run_pipeline():
     print("=" * 60)
     print("TASK 18 — Explainability Pipeline")
     print("=" * 60)
 
-    # ── 1. Train ML quality scorer ──────────────────────────────
     print("\n[1/7] Training ML quality scorer...")
     train_model()
 
-    # ── 2. Load & validate Rec v1 data ──────────────────────────
     print("\n[2/7] Loading & validating Rec v1 output...")
     df = pd.read_csv("data/rec_v1_output.csv")
     required_cols = [
         'student_id', 'college_id', 'job_id', 'rank_position',
         'match_score', 'predicted_relevance_score', 'skill_overlap_count',
         'skill_gap_count', 'skill_gap_list', 'feature_importances_json',
-        'task16_explanation'
+        'task16_explanation', 'years_exposure_avg', 'jd_seniority_level',
+        'ai_trust_score', 'verified_skill_count'
     ]
     missing = [c for c in required_cols if c not in df.columns]
     if missing:
         raise ValueError(f"Missing required columns in rec_v1_output.csv: {missing}")
-    print(f"  ✓ Loaded {len(df)} recommendations, all columns present.")
+        
+    df["skill_gap_ratio"] = df["skill_gap_count"] / (df["skill_overlap_count"] + 1e-5)
+    df["seniority_match"] = (abs(df["jd_seniority_level"] - df["years_exposure_avg"].round()) <= 1).astype(int)
+    df["trust_weighted_score"] = df["match_score"] * df["ai_trust_score"]
+    college_avg = df.groupby("college_id")["match_score"].mean().reset_index().rename(columns={"match_score": "college_avg_match_score"})
+    df = df.merge(college_avg, on="college_id", how="left")
+    
+    print(f"  ✓ Loaded {len(df)} recommendations and added derived features.")
 
-    # ── 3. Evaluate Task 16 baseline ────────────────────────────
     print("\n[3/7] Evaluating Task 16 baseline explanations...")
     baseline_metrics = evaluate_baseline(df)
     b_comp = baseline_metrics['completeness_score'].mean()
@@ -48,36 +53,30 @@ def run_pipeline():
     print(f"  Baseline — comp={b_comp:.2f}, act={b_act:.2f}, spec={b_spec:.2f}, "
           f"ML={b_ml:.2f}, CF={b_cf:.2f}")
 
-    # ── 4. Generate three-level explanations ────────────────────
     print("\n[4/7] Generating three-audience-level explanations...")
     new_expl_df = generate_all_explanations(df)
     print(f"  ✓ Generated {len(new_expl_df)} × 3 explanations.")
 
-    # ── 5. Score new explanations ───────────────────────────────
     print("\n[5/7] Scoring new explanations...")
 
-    # Student
     df_s = df.copy().reset_index(drop=True)
     df_s['task16_explanation'] = new_expl_df['student_explanation'].values
     df_s['audience'] = 'student'
     s_metrics = evaluate_baseline(df_s)
     s_ml = score_explanations(df_s, text_col='task16_explanation')
 
-    # Officer
     df_o = df.copy().reset_index(drop=True)
     df_o['task16_explanation'] = new_expl_df['officer_explanation'].values
     df_o['audience'] = 'officer'
     o_metrics = evaluate_baseline(df_o)
     o_ml = score_explanations(df_o, text_col='task16_explanation')
 
-    # Admin
     df_a = df.copy().reset_index(drop=True)
     df_a['task16_explanation'] = new_expl_df['admin_explanation'].values
     df_a['audience'] = 'admin'
     a_metrics = evaluate_baseline(df_a)
     a_ml = score_explanations(df_a, text_col='task16_explanation')
 
-    # Aggregate new scores
     n_comp = s_metrics['completeness_score'].mean()
     n_act = s_metrics['actionability_score'].mean()
     n_spec = s_metrics['specificity_score'].mean()
@@ -90,7 +89,6 @@ def run_pipeline():
     print(f"  New — comp={n_comp:.2f}, act={n_act:.2f}, spec={n_spec:.2f}, "
           f"ML={n_ml:.2f}, CF={n_cf:.2f}")
 
-    # ── 6. Save processed output ────────────────────────────────
     print("\n[6/7] Saving processed data for API...")
     os.makedirs("data/processed", exist_ok=True)
     df_full = df.copy().reset_index(drop=True)
@@ -103,12 +101,10 @@ def run_pipeline():
     df_full.to_csv("data/processed/explanations_output.csv", index=False)
     print(f"  ✓ Saved {len(df_full)} rows → data/processed/explanations_output.csv")
 
-    # ── Segment breakdowns ──────────────────────────────────────
     df_full['rank_bucket'] = df_full['rank_position'].apply(
         lambda r: '1' if r == 1 else ('2-3' if r <= 3 else '4-5')
     )
 
-    # By audience
     aud_rows = []
     for label, scores, metrics_df in [
         ('Student', s_ml, s_metrics), ('Officer', o_ml, o_metrics), ('Admin', a_ml, a_metrics)
@@ -122,7 +118,6 @@ def run_pipeline():
             'Above 0.7': f"{(scores > 0.7).mean():.2f}",
         })
 
-    # By rank
     rank_rows = []
     for bucket in ['1', '2-3', '4-5']:
         mask = df_full['rank_bucket'] == bucket
@@ -136,7 +131,6 @@ def run_pipeline():
             'CF Present': f"{cf_present:.2f}",
         })
 
-    # By college
     college_rows = []
     for cid in sorted(df_full['college_id'].unique()):
         mask = df_full['college_id'] == cid
@@ -147,26 +141,38 @@ def run_pipeline():
             'Avg Officer Quality': f"{df_full.loc[mask, 'officer_explanation_quality'].mean():.2f}",
             'Avg Admin Quality': f"{df_full.loc[mask, 'admin_explanation_quality'].mean():.2f}",
         })
+        
+    cf_claims = df_full[df_full['student_explanation'].str.contains('move you to #', na=False)].copy()
+    match_count = 0
+    total_checked = 0
+    sample_claims = cf_claims.sample(min(50, len(cf_claims)), random_state=42) if len(cf_claims) > 0 else pd.DataFrame()
+    
+    for _, row in sample_claims.iterrows():
+        match = re.search(r'move you to #(\d+)', row['student_explanation'])
+        if match:
+            claimed_rank = int(match.group(1))
+            true_new_rank, _ = compute_counterfactual(row, df)
+            if true_new_rank == claimed_rank:
+                match_count += 1
+            total_checked += 1
+            
+    cf_match_rate = (match_count / total_checked) if total_checked > 0 else 0.0
 
-    # ── Counterfactual proof ────────────────────────────────────
     proof_df = df[df['rank_position'] > 2]
     proof_row = proof_df.iloc[0] if len(proof_df) > 0 else df.iloc[0]
     proof_sid = proof_row['student_id']
     proof_gap = str(proof_row['skill_gap_list']).split(',')[0] if pd.notna(proof_row['skill_gap_list']) else 'None'
-    proof_new_rank, proof_delta = compute_counterfactual(proof_row)
+    proof_new_rank, proof_delta = compute_counterfactual(proof_row, df)
 
-    # ── ML model details ────────────────────────────────────────
     model = joblib.load("src/models/explanation_quality_scorer.joblib")
     feature_names = [
-        'has_specific_skill_named', 'has_counterfactual', 'has_numeric_score',
-        'completeness_score', 'specificity_score', 'audience_alignment_score',
-        'explanation_length_tokens', 'rank_position'
+        'explanation_length_tokens', 'num_distinct_skills_mentioned',
+        'rank_matches_true_rank', 'has_numeric', 'audience_alignment'
     ]
     importances = model.feature_importances_
     top3_idx = np.argsort(importances)[-3:][::-1]
     top3 = [(feature_names[i], round(importances[i], 3)) for i in top3_idx]
 
-    # ── 7. Generate report ──────────────────────────────────────
     print("\n[7/7] Generating sign-off report...")
 
     def md_table(rows):
@@ -227,7 +233,6 @@ fairness concern.
 
 - **Training data**: `data/explanation_quality_labels.csv` ({pd.read_csv("data/explanation_quality_labels.csv").shape[0]} labeled rows)
 - **Model**: RandomForestClassifier (n_estimators=50)
-- **Validation accuracy**: 1.00
 - **Features**: {', '.join(feature_names)}
 - **Top 3 most influential features**: {', '.join(f'{n} ({w})' for n, w in top3)}
 - **Model artifact**: `src/models/explanation_quality_scorer.joblib`
@@ -237,9 +242,10 @@ fairness concern.
 - **Student ID**: {proof_sid}
 - **Rank**: #{proof_row['rank_position']}
 - **Gap skill**: {proof_gap}
-- **Re-scored rank**: #{proof_new_rank}
-- **Score Δ**: +{proof_delta}
-- **Method**: Loaded `src/models/rec_v1_model.joblib`, re-predicted with `skill_gap_count - 1`.
+- **Re-scored rank**: #{proof_new_rank if proof_new_rank else 'No change'}
+- **Score Δ**: {proof_delta if proof_delta else 0}
+- **Method**: Loaded `src/models/ranker.joblib`, re-predicted with `skill_gap_count - 1`.
+- **Counterfactual Match Rate**: {cf_match_rate*100:.1f}% (Claims correctly verified against full cohort re-ranking)
 
 ## Edge Cases Tested
 
@@ -257,45 +263,12 @@ fairness concern.
 ## Data Isolation
 `test_cross_college_isolation` — **PASSES**. A request for student data with the
 wrong `college_id` returns 404. Explanations are college-scoped.
-
-## Self-Check: Study Guide Questions
-
-### 1. Can "Explainability" be shown working live?
-**Yes.** Start server: `uvicorn api.main:app --reload`
-- Student: `curl http://127.0.0.1:8000/explain/C001/S0001/J001/student`
-- Officer: `curl http://127.0.0.1:8000/explain/C001/S0001/J001/officer`
-- Admin:   `curl http://127.0.0.1:8000/explain/C001/S0001/J001/admin`
-- Report:  `curl http://127.0.0.1:8000/explain/report`
-
-### 2. What does a college placement officer see when they log in?
-The officer sees a population-contextual explanation:
-> "This student is in the top X% of your college's candidates for this role.
->  AI trust score: 0.88 — recommendation is reliable. 1 skill gap (Docker).
->  Recommended action: shortlist for interview; suggest upskilling on Docker."
-
-Plus the dashboard: `curl http://127.0.0.1:8000/portal/C001/dashboard`
-
-### 3. Can one college see another college's data?
-**No.** `test_cross_college_isolation` proves this by requesting data with the wrong
-college_id and asserting 404.
-
-### 4. What real decision does each explanation level help someone make?
-- **Student** → upskilling decision: "I need Docker to improve my rank."
-- **Officer** → shortlisting decision: "This student is top 10%, 1 addressable gap — shortlist."
-- **Admin** → model audit/review: "match_score weighted 0.41, trust 0.19 — model logic verified."
-
-## Hand-off
-- **Schema**: Each recommendation produces `student_explanation`, `officer_explanation`, `admin_explanation`.
-- **Model artifact**: `src/models/explanation_quality_scorer.joblib`
-- **Guardrail**: Re-evaluate mean explanation quality monthly; alert if ML quality
-  score drops below the current baseline score ({b_ml:.2f}).
 """
 
     os.makedirs("reports", exist_ok=True)
     with open("reports/sign_off_report.md", "w", encoding="utf-8") as f:
         f.write(report)
 
-    # Metrics JSON for API
     metrics_dict = {
         "baseline": {
             "completeness": round(b_comp, 3),
@@ -313,6 +286,7 @@ college_id and asserting 404.
             "ml_above_07": round(n_ml_above07, 3),
             "cf_fraction": round(n_cf, 3),
         },
+        "cf_match_rate": round(cf_match_rate, 3),
         "segment_by_audience": aud_rows,
         "segment_by_rank": rank_rows,
         "segment_by_college": college_rows,
@@ -332,7 +306,6 @@ college_id and asserting 404.
     print("\n" + "=" * 60)
     print("Pipeline complete. All outputs ready.")
     print("=" * 60)
-
 
 if __name__ == "__main__":
     run_pipeline()
