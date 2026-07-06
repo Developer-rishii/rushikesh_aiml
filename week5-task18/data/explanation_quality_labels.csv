@@ -1,0 +1,201 @@
+student_id,job_id,explanation_text,quality_label,quality_reason
+S0103,J020,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0093,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0107,J008,Good match overall,0,too generic
+S0189,J007,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0122,J019,You are rank #4. Keep studying.,0,missing counterfactual
+S0075,J011,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0088,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0104,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0150,J002,Good match overall,0,too generic
+S0088,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0158,J006,You are rank #4. Keep studying.,0,missing counterfactual
+S0130,J001,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0058,J012,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0089,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0059,J010,Good match overall,0,too generic
+S0188,J016,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0015,J015,You are rank #4. Keep studying.,0,missing counterfactual
+S0190,J019,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0108,J020,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0064,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0051,J007,Good match overall,0,too generic
+S0021,J009,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0167,J018,You are rank #4. Keep studying.,0,missing counterfactual
+S0132,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0009,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0084,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0188,J007,Good match overall,0,too generic
+S0172,J008,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0175,J003,You are rank #4. Keep studying.,0,missing counterfactual
+S0081,J004,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0050,J008,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0132,J002,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0134,J010,Good match overall,0,too generic
+S0004,J018,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0044,J002,You are rank #4. Keep studying.,0,missing counterfactual
+S0190,J004,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0014,J016,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0015,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0190,J008,Good match overall,0,too generic
+S0082,J015,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0053,J013,You are rank #4. Keep studying.,0,missing counterfactual
+S0041,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0045,J001,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0089,J007,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0009,J001,Good match overall,0,too generic
+S0136,J011,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0081,J008,You are rank #4. Keep studying.,0,missing counterfactual
+S0163,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0033,J005,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0041,J007,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0072,J012,Good match overall,0,too generic
+S0162,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0048,J005,You are rank #4. Keep studying.,0,missing counterfactual
+S0099,J012,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0104,J003,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0193,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0101,J015,Good match overall,0,too generic
+S0131,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0005,J014,You are rank #4. Keep studying.,0,missing counterfactual
+S0103,J009,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0015,J010,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0124,J013,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0179,J007,Good match overall,0,too generic
+S0052,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0151,J007,You are rank #4. Keep studying.,0,missing counterfactual
+S0143,J011,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0029,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0013,J007,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0187,J019,Good match overall,0,too generic
+S0086,J002,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0170,J013,You are rank #4. Keep studying.,0,missing counterfactual
+S0062,J006,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0028,J012,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0044,J020,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0030,J011,Good match overall,0,too generic
+S0128,J007,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0190,J001,You are rank #4. Keep studying.,0,missing counterfactual
+S0129,J020,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0003,J007,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0198,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0155,J009,Good match overall,0,too generic
+S0062,J005,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0051,J010,You are rank #4. Keep studying.,0,missing counterfactual
+S0172,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0059,J009,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0180,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0062,J017,Good match overall,0,too generic
+S0186,J020,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0012,J007,You are rank #4. Keep studying.,0,missing counterfactual
+S0130,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0113,J005,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0113,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0187,J017,Good match overall,0,too generic
+S0002,J002,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0054,J005,You are rank #4. Keep studying.,0,missing counterfactual
+S0129,J019,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0126,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0053,J012,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0160,J006,Good match overall,0,too generic
+S0160,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0183,J011,You are rank #4. Keep studying.,0,missing counterfactual
+S0184,J017,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0038,J005,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0116,J002,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0198,J011,Good match overall,0,too generic
+S0144,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0124,J006,You are rank #4. Keep studying.,0,missing counterfactual
+S0093,J003,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0148,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0147,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0147,J020,Good match overall,0,too generic
+S0096,J007,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0052,J009,You are rank #4. Keep studying.,0,missing counterfactual
+S0161,J008,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0128,J007,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0082,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0129,J011,Good match overall,0,too generic
+S0185,J018,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0151,J010,You are rank #4. Keep studying.,0,missing counterfactual
+S0099,J007,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0144,J016,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0060,J017,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0002,J001,Good match overall,0,too generic
+S0048,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0197,J005,You are rank #4. Keep studying.,0,missing counterfactual
+S0160,J009,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0099,J019,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0048,J016,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0131,J020,Good match overall,0,too generic
+S0152,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0152,J020,You are rank #4. Keep studying.,0,missing counterfactual
+S0075,J017,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0200,J004,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0166,J008,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0084,J003,Good match overall,0,too generic
+S0112,J003,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0153,J018,You are rank #4. Keep studying.,0,missing counterfactual
+S0128,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0082,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0054,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0189,J009,Good match overall,0,too generic
+S0161,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0033,J014,You are rank #4. Keep studying.,0,missing counterfactual
+S0021,J016,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0148,J008,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0135,J003,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0145,J001,Good match overall,0,too generic
+S0176,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0187,J019,You are rank #4. Keep studying.,0,missing counterfactual
+S0119,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0158,J006,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0109,J019,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0182,J008,Good match overall,0,too generic
+S0027,J002,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0021,J001,You are rank #4. Keep studying.,0,missing counterfactual
+S0028,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0192,J001,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0197,J016,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0147,J004,Good match overall,0,too generic
+S0035,J017,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0017,J012,You are rank #4. Keep studying.,0,missing counterfactual
+S0158,J014,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0117,J006,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0099,J009,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0037,J017,Good match overall,0,too generic
+S0046,J003,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0188,J001,You are rank #4. Keep studying.,0,missing counterfactual
+S0116,J001,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0067,J018,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0025,J010,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0054,J003,Good match overall,0,too generic
+S0104,J014,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0024,J018,You are rank #4. Keep studying.,0,missing counterfactual
+S0032,J015,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0086,J002,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0127,J010,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0130,J017,Good match overall,0,too generic
+S0104,J001,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0137,J011,You are rank #4. Keep studying.,0,missing counterfactual
+S0176,J007,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0170,J003,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0050,J013,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0060,J007,Good match overall,0,too generic
+S0057,J004,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0173,J020,You are rank #4. Keep studying.,0,missing counterfactual
+S0065,J008,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0144,J014,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0115,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0092,J002,Good match overall,0,too generic
+S0066,J019,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0153,J017,You are rank #4. Keep studying.,0,missing counterfactual
+S0180,J010,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0070,J015,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0054,J011,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific
+S0188,J005,Good match overall,0,too generic
+S0008,J012,Says skill X matters but model weighted Y highest,0,contradicts feature importances
+S0108,J005,You are rank #4. Keep studying.,0,missing counterfactual
+S0103,J004,Student has match_score weight 0.41 and ai_trust_score 0.99. Rank #2.,0,correct but not actionable for student
+S0006,J013,You're ranked #2 for this role. Missing: Docker. Adding this skill could move you to #1.,1,actionable and specific
+S0116,J015,Top features: match_score (0.41). Missing Python. Rank change if Python added: #3 -> #2.,1,actionable and specific

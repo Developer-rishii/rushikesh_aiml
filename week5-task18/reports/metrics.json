@@ -1,0 +1,108 @@
+{
+  "baseline": {
+    "completeness": 0.509,
+    "actionability": 0.0,
+    "specificity": 0.526,
+    "ml_quality": 0.021,
+    "ml_above_07": 0.0,
+    "cf_fraction": 0.0
+  },
+  "new": {
+    "completeness": 0.835,
+    "actionability": 0.602,
+    "specificity": 1.0,
+    "ml_quality": 0.679,
+    "ml_above_07": 0.401,
+    "cf_fraction": 0.602
+  },
+  "segment_by_audience": [
+    {
+      "Audience": "Student",
+      "Completeness": "0.83",
+      "Actionability": "0.60",
+      "Specificity": "1.00",
+      "ML Quality": "0.75",
+      "Above 0.7": "0.60"
+    },
+    {
+      "Audience": "Officer",
+      "Completeness": "0.21",
+      "Actionability": "0.00",
+      "Specificity": "1.00",
+      "ML Quality": "0.47",
+      "Above 0.7": "0.00"
+    },
+    {
+      "Audience": "Admin",
+      "Completeness": "0.87",
+      "Actionability": "0.99",
+      "Specificity": "1.00",
+      "ML Quality": "0.81",
+      "Above 0.7": "0.60"
+    }
+  ],
+  "segment_by_rank": [
+    {
+      "Rank Bucket": "1",
+      "Count": 97,
+      "ML Quality (student)": "0.37",
+      "CF Present": "0.00"
+    },
+    {
+      "Rank Bucket": "2-3",
+      "Count": 203,
+      "ML Quality (student)": "0.82",
+      "CF Present": "0.70"
+    },
+    {
+      "Rank Bucket": "4-5",
+      "Count": 200,
+      "ML Quality (student)": "0.87",
+      "CF Present": "0.79"
+    }
+  ],
+  "segment_by_college": [
+    {
+      "College": "C001",
+      "Count": 100,
+      "Avg Student Quality": "0.74",
+      "Avg Officer Quality": "0.46",
+      "Avg Admin Quality": "0.80"
+    },
+    {
+      "College": "C002",
+      "Count": 103,
+      "Avg Student Quality": "0.77",
+      "Avg Officer Quality": "0.48",
+      "Avg Admin Quality": "0.82"
+    },
+    {
+      "College": "C003",
+      "Count": 91,
+      "Avg Student Quality": "0.78",
+      "Avg Officer Quality": "0.49",
+      "Avg Admin Quality": "0.84"
+    },
+    {
+      "College": "C004",
+      "Count": 95,
+      "Avg Student Quality": "0.76",
+      "Avg Officer Quality": "0.48",
+      "Avg Admin Quality": "0.82"
+    },
+    {
+      "College": "C005",
+      "Count": 111,
+      "Avg Student Quality": "0.72",
+      "Avg Officer Quality": "0.45",
+      "Avg Admin Quality": "0.79"
+    }
+  ],
+  "counterfactual_proof": {
+    "student_id": "S0093",
+    "rank": 3,
+    "gap_skill": "Python",
+    "new_rank": 2,
+    "score_delta": 0.175
+  }
+}
