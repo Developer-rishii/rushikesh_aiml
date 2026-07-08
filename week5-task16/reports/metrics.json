@@ -98,23 +98,23 @@
   "feature_importances": [
     [
       "match_score",
-      0.24914
+      0.24911
     ],
     [
       "trust_weighted_score",
-      0.16234
+      0.16237
     ],
     [
       "ai_trust_score",
-      0.15452
+      0.15451
     ],
     [
       "years_exposure_avg",
-      0.14539
+      0.14541
     ],
     [
       "seniority_match",
-      0.1162
+      0.11618
     ],
     [
       "college_avg_match_score",
@@ -126,19 +126,19 @@
     ],
     [
       "jd_seniority_level",
-      0.02996
+      0.02995
     ],
     [
       "skill_gap_count",
-      0.0286
+      0.02716
     ],
     [
       "skill_gap_ratio",
-      0.02123
+      0.02414
     ],
     [
       "skill_overlap_count",
-      0.01813
+      0.01664
     ]
   ],
   "proof_of_ranking_quality": {
@@ -188,48 +188,48 @@
     "model_ranking": [
       {
         "job_id": "job_40",
-        "predicted_relevance": 0.898749102070499,
+        "predicted_relevance": 0.8906342260354259,
         "outcome": 1
       },
       {
         "job_id": "job_47",
-        "predicted_relevance": 0.7627438566040204,
+        "predicted_relevance": 0.7626563271759645,
         "outcome": 1
       },
       {
         "job_id": "job_7",
-        "predicted_relevance": 0.5898386802425416,
+        "predicted_relevance": 0.5896766194448724,
         "outcome": 1
       },
       {
         "job_id": "job_5",
-        "predicted_relevance": 0.4624101645206383,
+        "predicted_relevance": 0.46239075582643596,
         "outcome": 1
       },
       {
         "job_id": "job_2",
-        "predicted_relevance": 0.2130938584196425,
+        "predicted_relevance": 0.21308896239826486,
         "outcome": 1
       },
       {
         "job_id": "job_17",
-        "predicted_relevance": 0.20475565705228238,
+        "predicted_relevance": 0.20477184701583115,
         "outcome": 1
       },
       {
         "job_id": "job_48",
-        "predicted_relevance": 0.19888822324846522,
+        "predicted_relevance": 0.19886195426316006,
         "outcome": 0
       },
       {
         "job_id": "job_8",
-        "predicted_relevance": 0.1408323047161933,
+        "predicted_relevance": 0.14082552708347326,
         "outcome": 1
       }
     ]
   },
   "experiment_log": {
-    "timestamp": "2026-07-04T17:12:02.892545",
+    "timestamp": "2026-07-08T20:09:51.467636",
     "model_type": "GradientBoostingClassifier",
     "params": {
       "n_estimators": 150,

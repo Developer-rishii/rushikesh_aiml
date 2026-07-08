@@ -1,0 +1,263 @@
+{
+  "fresh_data_model": {
+    "precision_at_5": 0.5003,
+    "recall_at_5": 0.7016,
+    "mrr": 0.7239,
+    "fpr_at_5": 0.5803,
+    "num_students_evaluated": 291
+  },
+  "fresh_data_baseline": {
+    "precision_at_5": 0.4784,
+    "recall_at_5": 0.6722,
+    "mrr": 0.7052,
+    "fpr_at_5": 0.5987,
+    "num_students_evaluated": 291
+  },
+  "original_training_model": {
+    "precision_at_5": 0.4741,
+    "recall_at_5": 0.7943,
+    "mrr": 0.7377,
+    "fpr_at_5": 0.6264,
+    "num_students_evaluated": 27
+  },
+  "original_training_baseline": {
+    "precision_at_5": 0.4148,
+    "recall_at_5": 0.684,
+    "mrr": 0.7543,
+    "fpr_at_5": 0.7101,
+    "num_students_evaluated": 27
+  },
+  "segments": {
+    "college_A": {
+      "baseline": {
+        "precision_at_5": 0.5133,
+        "recall_at_5": 0.6849,
+        "mrr": 0.6933,
+        "fpr_at_5": 0.6032,
+        "num_students_evaluated": 60
+      },
+      "model": {
+        "precision_at_5": 0.53,
+        "recall_at_5": 0.7075,
+        "mrr": 0.6983,
+        "fpr_at_5": 0.6059,
+        "num_students_evaluated": 60
+      }
+    },
+    "college_B": {
+      "baseline": {
+        "precision_at_5": 0.4604,
+        "recall_at_5": 0.663,
+        "mrr": 0.6906,
+        "fpr_at_5": 0.6512,
+        "num_students_evaluated": 53
+      },
+      "model": {
+        "precision_at_5": 0.5245,
+        "recall_at_5": 0.757,
+        "mrr": 0.7151,
+        "fpr_at_5": 0.5776,
+        "num_students_evaluated": 53
+      }
+    },
+    "college_C": {
+      "baseline": {
+        "precision_at_5": 0.4095,
+        "recall_at_5": 0.7548,
+        "mrr": 0.6667,
+        "fpr_at_5": 0.5813,
+        "num_students_evaluated": 42
+      },
+      "model": {
+        "precision_at_5": 0.3952,
+        "recall_at_5": 0.6786,
+        "mrr": 0.6471,
+        "fpr_at_5": 0.5835,
+        "num_students_evaluated": 42
+      }
+    },
+    "college_D": {
+      "baseline": {
+        "precision_at_5": 0.475,
+        "recall_at_5": 0.4932,
+        "mrr": 0.625,
+        "fpr_at_5": 0.5373,
+        "num_students_evaluated": 8
+      },
+      "model": {
+        "precision_at_5": 0.575,
+        "recall_at_5": 0.5943,
+        "mrr": 0.875,
+        "fpr_at_5": 0.3871,
+        "num_students_evaluated": 8
+      }
+    },
+    "college_E": {
+      "baseline": {
+        "precision_at_5": 0.556,
+        "recall_at_5": 0.6347,
+        "mrr": 0.7373,
+        "fpr_at_5": 0.5354,
+        "num_students_evaluated": 50
+      },
+      "model": {
+        "precision_at_5": 0.556,
+        "recall_at_5": 0.6465,
+        "mrr": 0.7612,
+        "fpr_at_5": 0.5487,
+        "num_students_evaluated": 50
+      }
+    },
+    "college_F": {
+      "baseline": {
+        "precision_at_5": 0.4615,
+        "recall_at_5": 0.6912,
+        "mrr": 0.7267,
+        "fpr_at_5": 0.585,
+        "num_students_evaluated": 39
+      },
+      "model": {
+        "precision_at_5": 0.4615,
+        "recall_at_5": 0.7083,
+        "mrr": 0.7936,
+        "fpr_at_5": 0.5909,
+        "num_students_evaluated": 39
+      }
+    },
+    "college_G": {
+      "baseline": {
+        "precision_at_5": 0.4343,
+        "recall_at_5": 0.6471,
+        "mrr": 0.7471,
+        "fpr_at_5": 0.6423,
+        "num_students_evaluated": 35
+      },
+      "model": {
+        "precision_at_5": 0.4743,
+        "recall_at_5": 0.7262,
+        "mrr": 0.7238,
+        "fpr_at_5": 0.6094,
+        "num_students_evaluated": 35
+      }
+    },
+    "college_H": {
+      "baseline": {
+        "precision_at_5": 0.5,
+        "recall_at_5": 0.5958,
+        "mrr": 0.6667,
+        "fpr_at_5": 0.6875,
+        "num_students_evaluated": 4
+      },
+      "model": {
+        "precision_at_5": 0.6,
+        "recall_at_5": 0.7438,
+        "mrr": 0.5833,
+        "fpr_at_5": 0.625,
+        "num_students_evaluated": 4
+      }
+    },
+    "seniority_junior": {
+      "baseline": {
+        "precision_at_5": 0.4759,
+        "recall_at_5": 0.6699,
+        "mrr": 0.7292,
+        "fpr_at_5": 0.5652,
+        "num_students_evaluated": 79
+      },
+      "model": {
+        "precision_at_5": 0.4962,
+        "recall_at_5": 0.706,
+        "mrr": 0.7438,
+        "fpr_at_5": 0.5544,
+        "num_students_evaluated": 79
+      }
+    },
+    "seniority_mid": {
+      "baseline": {
+        "precision_at_5": 0.4811,
+        "recall_at_5": 0.6896,
+        "mrr": 0.6645,
+        "fpr_at_5": 0.5816,
+        "num_students_evaluated": 106
+      },
+      "model": {
+        "precision_at_5": 0.4925,
+        "recall_at_5": 0.7001,
+        "mrr": 0.6813,
+        "fpr_at_5": 0.5717,
+        "num_students_evaluated": 106
+      }
+    },
+    "seniority_senior": {
+      "baseline": {
+        "precision_at_5": 0.4774,
+        "recall_at_5": 0.6565,
+        "mrr": 0.7281,
+        "fpr_at_5": 0.6409,
+        "num_students_evaluated": 106
+      },
+      "model": {
+        "precision_at_5": 0.5113,
+        "recall_at_5": 0.6999,
+        "mrr": 0.7517,
+        "fpr_at_5": 0.6083,
+        "num_students_evaluated": 106
+      }
+    },
+    "college_size_large": {
+      "baseline": {
+        "precision_at_5": 0.5092,
+        "recall_at_5": 0.6624,
+        "mrr": 0.7059,
+        "fpr_at_5": 0.598,
+        "num_students_evaluated": 163
+      },
+      "model": {
+        "precision_at_5": 0.5362,
+        "recall_at_5": 0.7049,
+        "mrr": 0.7231,
+        "fpr_at_5": 0.5792,
+        "num_students_evaluated": 163
+      }
+    },
+    "college_size_medium": {
+      "baseline": {
+        "precision_at_5": 0.4345,
+        "recall_at_5": 0.7009,
+        "mrr": 0.7111,
+        "fpr_at_5": 0.6009,
+        "num_students_evaluated": 116
+      },
+      "model": {
+        "precision_at_5": 0.4414,
+        "recall_at_5": 0.7029,
+        "mrr": 0.7195,
+        "fpr_at_5": 0.5938,
+        "num_students_evaluated": 116
+      }
+    },
+    "college_size_small": {
+      "baseline": {
+        "precision_at_5": 0.4833,
+        "recall_at_5": 0.5274,
+        "mrr": 0.6389,
+        "fpr_at_5": 0.5874,
+        "num_students_evaluated": 12
+      },
+      "model": {
+        "precision_at_5": 0.5833,
+        "recall_at_5": 0.6441,
+        "mrr": 0.7778,
+        "fpr_at_5": 0.4664,
+        "num_students_evaluated": 12
+      }
+    }
+  },
+  "fresh_data_stats": {
+    "matching_rows": 4108,
+    "outcome_rows": 2511,
+    "joined_rows": 2511,
+    "students": 299,
+    "colleges": 8
+  }
+}

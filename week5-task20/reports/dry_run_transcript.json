@@ -1,0 +1,1396 @@
+{
+  "run_timestamp": "2026-07-08T20:12:24.102960",
+  "total_steps": 15,
+  "passed": 15,
+  "failed": 0,
+  "isolation_checks": "3/3",
+  "deliberate_failures_handled": "3/3",
+  "all_passed": true,
+  "transcript": [
+    {
+      "step": 1,
+      "timestamp": "2026-07-08T20:12:24.025516",
+      "journey": "college_college_A",
+      "description": "Fetch recommendations dashboard",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_A/recommendations"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "college_id": "college_A",
+        "students": [
+          {
+            "student_id": "fresh_college_A_0",
+            "recommendations": [
+              {
+                "job_id": "job_82",
+                "match_score": 0.956,
+                "ai_trust_score": 0.699
+              },
+              {
+                "job_id": "job_23",
+                "match_score": 0.945,
+                "ai_trust_score": 0.753
+              },
+              {
+                "job_id": "job_11",
+                "match_score": 0.938,
+                "ai_trust_score": 0.66
+              },
+              {
+                "job_id": "job_12",
+                "match_score": 0.933,
+                "ai_trust_score": 0.834
+              },
+              {
+                "job_id": "job_29",
+                "match_score": 0.926,
+                "ai_trust_score": 0.666
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_1",
+            "recommendations": [
+              {
+                "job_id": "job_40",
+                "match_score": 0.969,
+                "ai_trust_score": 0.86
+              },
+              {
+                "job_id": "job_74",
+                "match_score": 0.933,
+                "ai_trust_score": 0.706
+              },
+              {
+                "job_id": "job_25",
+                "match_score": 0.866,
+                "ai_trust_score": 0.742
+              },
+              {
+                "job_id": "job_71",
+                "match_score": 0.861,
+                "ai_trust_score": 0.952
+              },
+              {
+                "job_id": "job_38",
+                "match_score": 0.824,
+                "ai_trust_score": 0.979
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_2",
+            "recommendations": [
+              {
+                "job_id": "job_31",
+                "match_score": 0.955,
+                "ai_trust_score": 0.886
+              },
+              {
+                "job_id": "job_28",
+                "match_score": 0.941,
+                "ai_trust_score": 0.75
+              },
+              {
+                "job_id": "job_80",
+                "match_score": 0.908,
+                "ai_trust_score": 0.681
+              },
+              {
+                "job_id": "job_65",
+                "match_score": 0.818,
+                "ai_trust_score": 0.869
+              },
+              {
+                "job_id": "job_7",
+                "match_score": 0.807,
+                "ai_trust_score": 0.944
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_3",
+            "recommendations": [
+              {
+                "job_id": "job_18",
+                "match_score": 0.943,
+                "ai_trust_score": 0.88
+              },
+              {
+                "job_id": "job_49",
+                "match_score": 0.923,
+                "ai_trust_score": 0.931
+              },
+              {
+                "job_id": "job_33",
+                "match_score": 0.88,
+                "ai_trust_score": 0.84
+              },
+              {
+                "job_id": "job_39",
+                "match_score": 0.834,
+                "ai_trust_score": 0.747
+              },
+              {
+                "job_id": "job_84",
+                "match_score": 0.823,
+                "ai_trust_score": 0.861
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_4",
+            "recommendations": [
+              {
+                "job_id": "job_44",
+                "match_score": 0.96,
+                "ai_trust_score": 0.702
+              },
+              {
+                "job_id": "job_87",
+                "match_score": 0.957,
+                "ai_trust_score": 0.89
+              },
+              {
+                "job_id": "job_8",
+                "match_score": 0.957,
+                "ai_trust_score": 0.7
+              },
+              {
+                "job_id": "job_10",
+                "match_score": 0.92,
+                "ai_trust_score": 0.938
+              },
+              {
+                "job_id": "job_58",
+                "match_score": 0.911,
+                "ai_trust_score": 0.698
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_5",
+            "recommendations": [
+              {
+                "job_id": "job_73",
+                "match_score": 0.967,
+                "ai_trust_score": 0.683
+              },
+              {
+                "job_id": "job_42",
+                "match_score": 0.928,
+                "ai_trust_score": 0.927
+              },
+              {
+                "job_id": "job_81",
+                "match_score": 0.908,
+                "ai_trust_score": 0.719
+              },
+              {
+                "job_id": "job_86",
+                "match_score": 0.885,
+                "ai_trust_score": 0.937
+              },
+              {
+                "job_id": "job_63",
+                "match_score": 0.832,
+                "ai_trust_score": 0.729
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_6",
+            "recommendations": [
+              {
+                "job_id": "job_43",
+                "match_score": 0.882,
+                "ai_trust_score": 0.674
+              },
+              {
+                "job_id": "job_40",
+                "match_score": 0.864,
+                "ai_trust_score": 0.929
+              },
+              {
+                "job_id": "job_84",
+                "match_score": 0.8,
+                "ai_trust_score": 0.762
+              },
+              {
+                "job_id": "job_70",
+                "match_score": 0.781,
+                "ai_trust_score": 0.888
+              },
+              {
+                "job_id": "job_65",
+                "match_score": 0.777,
+                "ai_trust_score": 0.654
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_7",
+            "recommendations": [
+              {
+                "job_id": "job_59",
+                "match_score": 0.938,
+                "ai_trust_score": 0.658
+              },
+              {
+                "job_id": "job_16",
+                "match_score": 0.938,
+                "ai_trust_score": 0.749
+              },
+              {
+                "job_id": "job_67",
+                "match_score": 0.913,
+                "ai_trust_score": 0.921
+              },
+              {
+                "job_id": "job_49",
+                "match_score": 0.894,
+                "ai_trust_score": 0.847
+              },
+              {
+                "job_id": "job_62",
+                "match_score": 0.865,
+                "ai_trust_score": 0.882
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_8",
+            "recommendations": [
+              {
+                "job_id": "job_77",
+                "match_score": 0.954,
+                "ai_trust_score": 0.728
+              },
+              {
+                "job_id": "job_11",
+                "match_score": 0.947,
+                "ai_trust_score": 0.844
+              },
+              {
+                "job_id": "job_56",
+                "match_score": 0.915,
+                "ai_trust_score": 0.866
+              },
+              {
+                "job_id": "job_58",
+                "match_score": 0.906,
+                "ai_trust_score": 0.836
+              },
+              {
+                "job_id": "job_94",
+                "match_score": 0.836,
+                "ai_trust_score": 0.792
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_A_9",
+            "recommendations": [
+              {
+                "job_id": "job_66",
+                "match_score": 0.895,
+                "ai_trust_score": 0.845
+              },
+              {
+                "job_id": "job_91",
+                "match_score": 0.885,
+                "ai_trust_score": 0.926
+              },
+              {
+                "job_id": "job_15",
+                "match_score": 0.797,
+                "ai_trust_score": 0.667
+              },
+              {
+                "job_id": "job_95",
+                "match_score": 0.742,
+                "ai_trust_score": 0.923
+              },
+              {
+                "job_id": "job_9",
+                "match_score": 0.74,
+                "ai_trust_score": 0.655
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-07-08T20:12:24.038516",
+      "journey": "college_college_A",
+      "description": "Drill into student=fresh_college_A_0, job=job_82",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_A/student/fresh_college_A_0/job/job_82"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "student_id": "fresh_college_A_0",
+        "college_id": "college_A",
+        "job_id": "job_82",
+        "match_score": 0.956,
+        "ai_trust_score": 0.699,
+        "skill_overlap_count": 6,
+        "skill_gap_count": 5,
+        "explanation": {
+          "student_view": "Your match score for this role is 96%. You have 6 overlapping skills and 5 gaps to work on.",
+          "officer_view": "Student fresh_college_A_0 has a 96% match with trust score 0.70. Skill gaps: 5."
+        }
+      }
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-07-08T20:12:24.039516",
+      "journey": "college_college_A",
+      "description": "Cross-college access: college_A tries to access fresh_college_B_0",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_A/student/fresh_college_B_0/job/job_0"
+      },
+      "expected_status": 403,
+      "actual_status": 403,
+      "passed": true,
+      "response_body": {
+        "detail": "Access denied: student 'fresh_college_B_0' belongs to 'college_B', not 'college_A'"
+      }
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-07-08T20:12:24.051531",
+      "journey": "college_college_B",
+      "description": "Fetch recommendations dashboard",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_B/recommendations"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "college_id": "college_B",
+        "students": [
+          {
+            "student_id": "fresh_college_B_0",
+            "recommendations": [
+              {
+                "job_id": "job_24",
+                "match_score": 0.84,
+                "ai_trust_score": 0.641
+              },
+              {
+                "job_id": "job_59",
+                "match_score": 0.807,
+                "ai_trust_score": 0.838
+              },
+              {
+                "job_id": "job_18",
+                "match_score": 0.774,
+                "ai_trust_score": 0.747
+              },
+              {
+                "job_id": "job_60",
+                "match_score": 0.714,
+                "ai_trust_score": 0.6
+              },
+              {
+                "job_id": "job_75",
+                "match_score": 0.659,
+                "ai_trust_score": 0.494
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_1",
+            "recommendations": [
+              {
+                "job_id": "job_62",
+                "match_score": 0.845,
+                "ai_trust_score": 0.558
+              },
+              {
+                "job_id": "job_77",
+                "match_score": 0.83,
+                "ai_trust_score": 0.831
+              },
+              {
+                "job_id": "job_6",
+                "match_score": 0.775,
+                "ai_trust_score": 0.92
+              },
+              {
+                "job_id": "job_24",
+                "match_score": 0.764,
+                "ai_trust_score": 0.801
+              },
+              {
+                "job_id": "job_3",
+                "match_score": 0.695,
+                "ai_trust_score": 0.817
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_2",
+            "recommendations": [
+              {
+                "job_id": "job_4",
+                "match_score": 0.871,
+                "ai_trust_score": 0.574
+              },
+              {
+                "job_id": "job_98",
+                "match_score": 0.794,
+                "ai_trust_score": 0.517
+              },
+              {
+                "job_id": "job_17",
+                "match_score": 0.777,
+                "ai_trust_score": 0.491
+              },
+              {
+                "job_id": "job_81",
+                "match_score": 0.77,
+                "ai_trust_score": 0.657
+              },
+              {
+                "job_id": "job_36",
+                "match_score": 0.716,
+                "ai_trust_score": 0.911
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_3",
+            "recommendations": [
+              {
+                "job_id": "job_35",
+                "match_score": 0.851,
+                "ai_trust_score": 0.749
+              },
+              {
+                "job_id": "job_83",
+                "match_score": 0.797,
+                "ai_trust_score": 0.624
+              },
+              {
+                "job_id": "job_31",
+                "match_score": 0.75,
+                "ai_trust_score": 0.886
+              },
+              {
+                "job_id": "job_77",
+                "match_score": 0.674,
+                "ai_trust_score": 0.752
+              },
+              {
+                "job_id": "job_38",
+                "match_score": 0.671,
+                "ai_trust_score": 0.526
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_4",
+            "recommendations": [
+              {
+                "job_id": "job_55",
+                "match_score": 0.805,
+                "ai_trust_score": 0.815
+              },
+              {
+                "job_id": "job_58",
+                "match_score": 0.75,
+                "ai_trust_score": 0.767
+              },
+              {
+                "job_id": "job_82",
+                "match_score": 0.723,
+                "ai_trust_score": 0.693
+              },
+              {
+                "job_id": "job_45",
+                "match_score": 0.711,
+                "ai_trust_score": 0.574
+              },
+              {
+                "job_id": "job_99",
+                "match_score": 0.71,
+                "ai_trust_score": 0.762
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_5",
+            "recommendations": [
+              {
+                "job_id": "job_98",
+                "match_score": 0.784,
+                "ai_trust_score": 0.548
+              },
+              {
+                "job_id": "job_93",
+                "match_score": 0.669,
+                "ai_trust_score": 0.729
+              },
+              {
+                "job_id": "job_43",
+                "match_score": 0.667,
+                "ai_trust_score": 0.917
+              },
+              {
+                "job_id": "job_40",
+                "match_score": 0.659,
+                "ai_trust_score": 0.777
+              },
+              {
+                "job_id": "job_54",
+                "match_score": 0.641,
+                "ai_trust_score": 0.766
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_6",
+            "recommendations": [
+              {
+                "job_id": "job_60",
+                "match_score": 0.765,
+                "ai_trust_score": 0.678
+              },
+              {
+                "job_id": "job_92",
+                "match_score": 0.762,
+                "ai_trust_score": 0.607
+              },
+              {
+                "job_id": "job_53",
+                "match_score": 0.7,
+                "ai_trust_score": 0.545
+              },
+              {
+                "job_id": "job_14",
+                "match_score": 0.696,
+                "ai_trust_score": 0.715
+              },
+              {
+                "job_id": "job_46",
+                "match_score": 0.69,
+                "ai_trust_score": 0.731
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_7",
+            "recommendations": [
+              {
+                "job_id": "job_17",
+                "match_score": 0.811,
+                "ai_trust_score": 0.665
+              },
+              {
+                "job_id": "job_74",
+                "match_score": 0.789,
+                "ai_trust_score": 0.896
+              },
+              {
+                "job_id": "job_23",
+                "match_score": 0.765,
+                "ai_trust_score": 0.806
+              },
+              {
+                "job_id": "job_33",
+                "match_score": 0.745,
+                "ai_trust_score": 0.911
+              },
+              {
+                "job_id": "job_18",
+                "match_score": 0.73,
+                "ai_trust_score": 0.9
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_8",
+            "recommendations": [
+              {
+                "job_id": "job_51",
+                "match_score": 0.788,
+                "ai_trust_score": 0.584
+              },
+              {
+                "job_id": "job_12",
+                "match_score": 0.76,
+                "ai_trust_score": 0.883
+              },
+              {
+                "job_id": "job_92",
+                "match_score": 0.711,
+                "ai_trust_score": 0.725
+              },
+              {
+                "job_id": "job_46",
+                "match_score": 0.667,
+                "ai_trust_score": 0.546
+              },
+              {
+                "job_id": "job_21",
+                "match_score": 0.666,
+                "ai_trust_score": 0.58
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_B_9",
+            "recommendations": [
+              {
+                "job_id": "job_94",
+                "match_score": 0.875,
+                "ai_trust_score": 0.609
+              },
+              {
+                "job_id": "job_77",
+                "match_score": 0.845,
+                "ai_trust_score": 0.615
+              },
+              {
+                "job_id": "job_1",
+                "match_score": 0.806,
+                "ai_trust_score": 0.639
+              },
+              {
+                "job_id": "job_62",
+                "match_score": 0.773,
+                "ai_trust_score": 0.527
+              },
+              {
+                "job_id": "job_16",
+                "match_score": 0.75,
+                "ai_trust_score": 0.771
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-07-08T20:12:24.064531",
+      "journey": "college_college_B",
+      "description": "Drill into student=fresh_college_B_0, job=job_24",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_B/student/fresh_college_B_0/job/job_24"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "student_id": "fresh_college_B_0",
+        "college_id": "college_B",
+        "job_id": "job_24",
+        "match_score": 0.84,
+        "ai_trust_score": 0.641,
+        "skill_overlap_count": 6,
+        "skill_gap_count": 2,
+        "explanation": {
+          "student_view": "Your match score for this role is 84%. You have 6 overlapping skills and 2 gaps to work on.",
+          "officer_view": "Student fresh_college_B_0 has a 84% match with trust score 0.64. Skill gaps: 2."
+        }
+      }
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-07-08T20:12:24.065531",
+      "journey": "college_college_B",
+      "description": "Cross-college access: college_B tries to access fresh_college_C_0",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_B/student/fresh_college_C_0/job/job_0"
+      },
+      "expected_status": 403,
+      "actual_status": 403,
+      "passed": true,
+      "response_body": {
+        "detail": "Access denied: student 'fresh_college_C_0' belongs to 'college_C', not 'college_B'"
+      }
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-07-08T20:12:24.076531",
+      "journey": "college_college_C",
+      "description": "Fetch recommendations dashboard",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_C/recommendations"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "college_id": "college_C",
+        "students": [
+          {
+            "student_id": "fresh_college_C_0",
+            "recommendations": [
+              {
+                "job_id": "job_16",
+                "match_score": 0.7,
+                "ai_trust_score": 0.431
+              },
+              {
+                "job_id": "job_56",
+                "match_score": 0.69,
+                "ai_trust_score": 0.37
+              },
+              {
+                "job_id": "job_71",
+                "match_score": 0.657,
+                "ai_trust_score": 0.466
+              },
+              {
+                "job_id": "job_93",
+                "match_score": 0.622,
+                "ai_trust_score": 0.434
+              },
+              {
+                "job_id": "job_55",
+                "match_score": 0.539,
+                "ai_trust_score": 0.685
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_1",
+            "recommendations": [
+              {
+                "job_id": "job_22",
+                "match_score": 0.709,
+                "ai_trust_score": 0.453
+              },
+              {
+                "job_id": "job_6",
+                "match_score": 0.675,
+                "ai_trust_score": 0.563
+              },
+              {
+                "job_id": "job_23",
+                "match_score": 0.652,
+                "ai_trust_score": 0.758
+              },
+              {
+                "job_id": "job_35",
+                "match_score": 0.651,
+                "ai_trust_score": 0.736
+              },
+              {
+                "job_id": "job_80",
+                "match_score": 0.644,
+                "ai_trust_score": 0.526
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_2",
+            "recommendations": [
+              {
+                "job_id": "job_61",
+                "match_score": 0.632,
+                "ai_trust_score": 0.764
+              },
+              {
+                "job_id": "job_5",
+                "match_score": 0.613,
+                "ai_trust_score": 0.755
+              },
+              {
+                "job_id": "job_62",
+                "match_score": 0.611,
+                "ai_trust_score": 0.652
+              },
+              {
+                "job_id": "job_77",
+                "match_score": 0.592,
+                "ai_trust_score": 0.687
+              },
+              {
+                "job_id": "job_38",
+                "match_score": 0.534,
+                "ai_trust_score": 0.437
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_3",
+            "recommendations": [
+              {
+                "job_id": "job_70",
+                "match_score": 0.657,
+                "ai_trust_score": 0.745
+              },
+              {
+                "job_id": "job_85",
+                "match_score": 0.569,
+                "ai_trust_score": 0.509
+              },
+              {
+                "job_id": "job_95",
+                "match_score": 0.554,
+                "ai_trust_score": 0.72
+              },
+              {
+                "job_id": "job_79",
+                "match_score": 0.467,
+                "ai_trust_score": 0.428
+              },
+              {
+                "job_id": "job_20",
+                "match_score": 0.465,
+                "ai_trust_score": 0.399
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_4",
+            "recommendations": [
+              {
+                "job_id": "job_13",
+                "match_score": 0.703,
+                "ai_trust_score": 0.495
+              },
+              {
+                "job_id": "job_7",
+                "match_score": 0.652,
+                "ai_trust_score": 0.789
+              },
+              {
+                "job_id": "job_78",
+                "match_score": 0.633,
+                "ai_trust_score": 0.475
+              },
+              {
+                "job_id": "job_22",
+                "match_score": 0.627,
+                "ai_trust_score": 0.56
+              },
+              {
+                "job_id": "job_80",
+                "match_score": 0.59,
+                "ai_trust_score": 0.388
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_5",
+            "recommendations": [
+              {
+                "job_id": "job_47",
+                "match_score": 0.63,
+                "ai_trust_score": 0.49
+              },
+              {
+                "job_id": "job_78",
+                "match_score": 0.625,
+                "ai_trust_score": 0.679
+              },
+              {
+                "job_id": "job_37",
+                "match_score": 0.616,
+                "ai_trust_score": 0.757
+              },
+              {
+                "job_id": "job_75",
+                "match_score": 0.518,
+                "ai_trust_score": 0.527
+              },
+              {
+                "job_id": "job_61",
+                "match_score": 0.49,
+                "ai_trust_score": 0.418
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_6",
+            "recommendations": [
+              {
+                "job_id": "job_14",
+                "match_score": 0.662,
+                "ai_trust_score": 0.387
+              },
+              {
+                "job_id": "job_71",
+                "match_score": 0.526,
+                "ai_trust_score": 0.358
+              },
+              {
+                "job_id": "job_26",
+                "match_score": 0.51,
+                "ai_trust_score": 0.677
+              },
+              {
+                "job_id": "job_60",
+                "match_score": 0.501,
+                "ai_trust_score": 0.616
+              },
+              {
+                "job_id": "job_97",
+                "match_score": 0.482,
+                "ai_trust_score": 0.446
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_7",
+            "recommendations": [
+              {
+                "job_id": "job_55",
+                "match_score": 0.706,
+                "ai_trust_score": 0.726
+              },
+              {
+                "job_id": "job_66",
+                "match_score": 0.683,
+                "ai_trust_score": 0.505
+              },
+              {
+                "job_id": "job_22",
+                "match_score": 0.669,
+                "ai_trust_score": 0.747
+              },
+              {
+                "job_id": "job_33",
+                "match_score": 0.615,
+                "ai_trust_score": 0.509
+              },
+              {
+                "job_id": "job_46",
+                "match_score": 0.576,
+                "ai_trust_score": 0.459
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_8",
+            "recommendations": [
+              {
+                "job_id": "job_26",
+                "match_score": 0.608,
+                "ai_trust_score": 0.787
+              },
+              {
+                "job_id": "job_95",
+                "match_score": 0.607,
+                "ai_trust_score": 0.665
+              },
+              {
+                "job_id": "job_99",
+                "match_score": 0.603,
+                "ai_trust_score": 0.623
+              },
+              {
+                "job_id": "job_63",
+                "match_score": 0.597,
+                "ai_trust_score": 0.714
+              },
+              {
+                "job_id": "job_82",
+                "match_score": 0.594,
+                "ai_trust_score": 0.633
+              }
+            ]
+          },
+          {
+            "student_id": "fresh_college_C_9",
+            "recommendations": [
+              {
+                "job_id": "job_8",
+                "match_score": 0.669,
+                "ai_trust_score": 0.538
+              },
+              {
+                "job_id": "job_76",
+                "match_score": 0.582,
+                "ai_trust_score": 0.555
+              },
+              {
+                "job_id": "job_28",
+                "match_score": 0.478,
+                "ai_trust_score": 0.774
+              },
+              {
+                "job_id": "job_2",
+                "match_score": 0.447,
+                "ai_trust_score": 0.727
+              },
+              {
+                "job_id": "job_34",
+                "match_score": 0.41,
+                "ai_trust_score": 0.577
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-07-08T20:12:24.089961",
+      "journey": "college_college_C",
+      "description": "Drill into student=fresh_college_C_0, job=job_16",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_C/student/fresh_college_C_0/job/job_16"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "student_id": "fresh_college_C_0",
+        "college_id": "college_C",
+        "job_id": "job_16",
+        "match_score": 0.7,
+        "ai_trust_score": 0.431,
+        "skill_overlap_count": 4,
+        "skill_gap_count": 6,
+        "explanation": {
+          "student_view": "Your match score for this role is 70%. You have 4 overlapping skills and 6 gaps to work on.",
+          "officer_view": "Student fresh_college_C_0 has a 70% match with trust score 0.43. Skill gaps: 6."
+        }
+      }
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-07-08T20:12:24.090978",
+      "journey": "college_college_C",
+      "description": "Cross-college access: college_C tries to access fresh_college_B_0",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_C/student/fresh_college_B_0/job/job_0"
+      },
+      "expected_status": 403,
+      "actual_status": 403,
+      "passed": true,
+      "response_body": {
+        "detail": "Access denied: student 'fresh_college_B_0' belongs to 'college_B', not 'college_C'"
+      }
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-07-08T20:12:24.095962",
+      "journey": "admin",
+      "description": "Fetch aggregated cross-college report",
+      "request": {
+        "method": "GET",
+        "url": "/admin/report"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "colleges": [
+          {
+            "college_id": "college_A",
+            "student_count": 61,
+            "avg_match_score": 0.7621,
+            "avg_trust_score": 0.8101
+          },
+          {
+            "college_id": "college_B",
+            "student_count": 55,
+            "avg_match_score": 0.6181,
+            "avg_trust_score": 0.6915
+          },
+          {
+            "college_id": "college_C",
+            "student_count": 45,
+            "avg_match_score": 0.4857,
+            "avg_trust_score": 0.5767
+          },
+          {
+            "college_id": "college_D",
+            "student_count": 8,
+            "avg_match_score": 0.6271,
+            "avg_trust_score": 0.7092
+          },
+          {
+            "college_id": "college_E",
+            "student_count": 50,
+            "avg_match_score": 0.6726,
+            "avg_trust_score": 0.739
+          },
+          {
+            "college_id": "college_F",
+            "student_count": 40,
+            "avg_match_score": 0.5444,
+            "avg_trust_score": 0.6244
+          },
+          {
+            "college_id": "college_G",
+            "student_count": 35,
+            "avg_match_score": 0.5865,
+            "avg_trust_score": 0.6841
+          },
+          {
+            "college_id": "college_H",
+            "student_count": 5,
+            "avg_match_score": 0.6578,
+            "avg_trust_score": 0.7106
+          }
+        ],
+        "total_rows": 4108
+      }
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-07-08T20:12:24.097963",
+      "journey": "admin",
+      "description": "Fetch drift-detection result",
+      "request": {
+        "method": "GET",
+        "url": "/validation/drift"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "drift_auc": 0.5554,
+        "drift_severity": "minor",
+        "interpretation": "Minor distribution drift detected (AUC=0.5554). The classifier can weakly distinguish old from new data. This is expected when scaling up; model performance should be monitored but is likely still valid.",
+        "ks_test_results": {
+          "match_score": {
+            "ks_statistic": 0.0691,
+            "p_value": 0.0005,
+            "drifted": true
+          },
+          "skill_overlap_count": {
+            "ks_statistic": 0.0436,
+            "p_value": 0.0752,
+            "drifted": false
+          },
+          "skill_gap_count": {
+            "ks_statistic": 0.0545,
+            "p_value": 0.0121,
+            "drifted": true
+          },
+          "years_exposure_avg": {
+            "ks_statistic": 0.0229,
+            "p_value": 0.75,
+            "drifted": false
+          },
+          "jd_seniority_level": {
+            "ks_statistic": 0.0255,
+            "p_value": 0.6237,
+            "drifted": false
+          },
+          "verified_skill_count": {
+            "ks_statistic": 0.0665,
+            "p_value": 0.001,
+            "drifted": true
+          },
+          "ai_trust_score": {
+            "ks_statistic": 0.072,
+            "p_value": 0.0003,
+            "drifted": true
+          },
+          "skill_gap_ratio": {
+            "ks_statistic": 0.0589,
+            "p_value": 0.0051,
+            "drifted": true
+          },
+          "seniority_match": {
+            "ks_statistic": 0.0037,
+            "p_value": 1.0,
+            "drifted": false
+          },
+          "trust_weighted_score": {
+            "ks_statistic": 0.0952,
+            "p_value": 0.0,
+            "drifted": true
+          },
+          "college_avg_match_score": {
+            "ks_statistic": 0.3027,
+            "p_value": 0.0,
+            "drifted": true
+          }
+        },
+        "drifted_features": [
+          "match_score",
+          "skill_gap_count",
+          "verified_skill_count",
+          "ai_trust_score",
+          "skill_gap_ratio",
+          "trust_weighted_score",
+          "college_avg_match_score"
+        ],
+        "stable_features": [
+          "skill_overlap_count",
+          "years_exposure_avg",
+          "jd_seniority_level",
+          "seniority_match"
+        ],
+        "drift_feature_importances": [
+          [
+            "match_score",
+            0.3004
+          ],
+          [
+            "trust_weighted_score",
+            0.23906
+          ],
+          [
+            "ai_trust_score",
+            0.22648
+          ],
+          [
+            "years_exposure_avg",
+            0.07372
+          ],
+          [
+            "verified_skill_count",
+            0.05787
+          ],
+          [
+            "jd_seniority_level",
+            0.03958
+          ],
+          [
+            "skill_gap_count",
+            0.02707
+          ],
+          [
+            "skill_gap_ratio",
+            0.02316
+          ],
+          [
+            "skill_overlap_count",
+            0.00665
+          ],
+          [
+            "seniority_match",
+            0.006
+          ]
+        ],
+        "train_size": 4148,
+        "test_size": 1038
+      }
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-07-08T20:12:24.097963",
+      "journey": "admin",
+      "description": "Fetch Go/No-Go verdict",
+      "request": {
+        "method": "GET",
+        "url": "/validation/go-no-go"
+      },
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "response_body": {
+        "verdict": "NO-GO",
+        "thresholds": {
+          "model_beats_baseline": "fresh precision (0.5003) >= baseline (0.4784)",
+          "drift_acceptable": "drift AUC (1.0) < 0.75",
+          "dry_run_passed": "all dry-run steps passed: False"
+        },
+        "conditions_met": {
+          "model_beats_baseline": true,
+          "drift_acceptable": false,
+          "dry_run_passed": false
+        },
+        "metrics_summary": {
+          "fresh_model_precision_at_5": 0.5003,
+          "fresh_baseline_precision_at_5": 0.4784,
+          "original_model_precision_at_5": 0.4741,
+          "precision_delta_vs_baseline": 0.0219,
+          "precision_delta_vs_original": 0.0262,
+          "fresh_model_recall_at_5": 0.7016,
+          "fresh_model_mrr": 0.7239,
+          "fresh_model_fpr_at_5": 0.5803
+        },
+        "drift_summary": {
+          "auc": 1.0,
+          "severity": "significant",
+          "interpretation": "Significant distribution drift detected (AUC=1.0). The fresh data is substantially different from training data. Rec v1 model predictions may be unreliable \u2014 retraining recommended.",
+          "drifted_features": [
+            "match_score",
+            "skill_gap_count",
+            "verified_skill_count",
+            "ai_trust_score",
+            "skill_gap_ratio",
+            "trust_weighted_score",
+            "college_avg_match_score"
+          ]
+        },
+        "dry_run_summary": {
+          "total_steps": 12,
+          "passed": 1,
+          "failed": 11,
+          "isolation_checks": "0/3",
+          "deliberate_failures_handled": "0/3"
+        }
+      }
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-07-08T20:12:24.099994",
+      "journey": "admin",
+      "description": "Deliberate failure: unknown college",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_NONEXISTENT/recommendations"
+      },
+      "expected_status": 404,
+      "actual_status": 404,
+      "passed": true,
+      "response_body": {
+        "detail": "College 'college_NONEXISTENT' not found or has no data"
+      }
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-07-08T20:12:24.100961",
+      "journey": "admin",
+      "description": "Deliberate failure: unknown student",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_A/student/UNKNOWN_STUDENT/job/job_0"
+      },
+      "expected_status": 404,
+      "actual_status": 404,
+      "passed": true,
+      "response_body": {
+        "detail": "Student 'UNKNOWN_STUDENT' not found"
+      }
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-07-08T20:12:24.101961",
+      "journey": "admin",
+      "description": "Deliberate failure: college with zero data",
+      "request": {
+        "method": "GET",
+        "url": "/college/college_EMPTY/recommendations"
+      },
+      "expected_status": 404,
+      "actual_status": 404,
+      "passed": true,
+      "response_body": {
+        "detail": "College 'college_EMPTY' not found or has no data"
+      }
+    }
+  ]
+}

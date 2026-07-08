@@ -1,0 +1,121 @@
+{
+  "drift_auc": 0.5554,
+  "drift_severity": "minor",
+  "interpretation": "Minor distribution drift detected (AUC=0.5554). The classifier can weakly distinguish old from new data. This is expected when scaling up; model performance should be monitored but is likely still valid.",
+  "ks_test_results": {
+    "match_score": {
+      "ks_statistic": 0.0691,
+      "p_value": 0.0005,
+      "drifted": true
+    },
+    "skill_overlap_count": {
+      "ks_statistic": 0.0436,
+      "p_value": 0.0752,
+      "drifted": false
+    },
+    "skill_gap_count": {
+      "ks_statistic": 0.0545,
+      "p_value": 0.0121,
+      "drifted": true
+    },
+    "years_exposure_avg": {
+      "ks_statistic": 0.0229,
+      "p_value": 0.75,
+      "drifted": false
+    },
+    "jd_seniority_level": {
+      "ks_statistic": 0.0255,
+      "p_value": 0.6237,
+      "drifted": false
+    },
+    "verified_skill_count": {
+      "ks_statistic": 0.0665,
+      "p_value": 0.001,
+      "drifted": true
+    },
+    "ai_trust_score": {
+      "ks_statistic": 0.072,
+      "p_value": 0.0003,
+      "drifted": true
+    },
+    "skill_gap_ratio": {
+      "ks_statistic": 0.0589,
+      "p_value": 0.0051,
+      "drifted": true
+    },
+    "seniority_match": {
+      "ks_statistic": 0.0037,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "trust_weighted_score": {
+      "ks_statistic": 0.0952,
+      "p_value": 0.0,
+      "drifted": true
+    },
+    "college_avg_match_score": {
+      "ks_statistic": 0.3027,
+      "p_value": 0.0,
+      "drifted": true
+    }
+  },
+  "drifted_features": [
+    "match_score",
+    "skill_gap_count",
+    "verified_skill_count",
+    "ai_trust_score",
+    "skill_gap_ratio",
+    "trust_weighted_score",
+    "college_avg_match_score"
+  ],
+  "stable_features": [
+    "skill_overlap_count",
+    "years_exposure_avg",
+    "jd_seniority_level",
+    "seniority_match"
+  ],
+  "drift_feature_importances": [
+    [
+      "match_score",
+      0.3004
+    ],
+    [
+      "trust_weighted_score",
+      0.23906
+    ],
+    [
+      "ai_trust_score",
+      0.22648
+    ],
+    [
+      "years_exposure_avg",
+      0.07372
+    ],
+    [
+      "verified_skill_count",
+      0.05787
+    ],
+    [
+      "jd_seniority_level",
+      0.03958
+    ],
+    [
+      "skill_gap_count",
+      0.02707
+    ],
+    [
+      "skill_gap_ratio",
+      0.02316
+    ],
+    [
+      "skill_overlap_count",
+      0.00665
+    ],
+    [
+      "seniority_match",
+      0.006
+    ]
+  ],
+  "train_size": 4148,
+  "test_size": 1038
+}

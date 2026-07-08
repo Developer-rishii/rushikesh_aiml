@@ -1,0 +1,44 @@
+{
+  "verdict": "GO",
+  "thresholds": {
+    "model_beats_baseline": "fresh precision (0.5003) >= baseline (0.4784)",
+    "drift_acceptable": "drift AUC (0.5554) < 0.75",
+    "dry_run_passed": "all dry-run steps passed: True"
+  },
+  "conditions_met": {
+    "model_beats_baseline": true,
+    "drift_acceptable": true,
+    "dry_run_passed": true
+  },
+  "metrics_summary": {
+    "fresh_model_precision_at_5": 0.5003,
+    "fresh_baseline_precision_at_5": 0.4784,
+    "original_model_precision_at_5": 0.4741,
+    "precision_delta_vs_baseline": 0.0219,
+    "precision_delta_vs_original": 0.0262,
+    "fresh_model_recall_at_5": 0.7016,
+    "fresh_model_mrr": 0.7239,
+    "fresh_model_fpr_at_5": 0.5803
+  },
+  "drift_summary": {
+    "auc": 0.5554,
+    "severity": "minor",
+    "interpretation": "Minor distribution drift detected (AUC=0.5554). The classifier can weakly distinguish old from new data. This is expected when scaling up; model performance should be monitored but is likely still valid.",
+    "drifted_features": [
+      "match_score",
+      "skill_gap_count",
+      "verified_skill_count",
+      "ai_trust_score",
+      "skill_gap_ratio",
+      "trust_weighted_score",
+      "college_avg_match_score"
+    ]
+  },
+  "dry_run_summary": {
+    "total_steps": 15,
+    "passed": 15,
+    "failed": 0,
+    "isolation_checks": "3/3",
+    "deliberate_failures_handled": "3/3"
+  }
+}
