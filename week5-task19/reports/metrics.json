@@ -1,0 +1,86 @@
+{
+    "model": {
+        "precision": 0.8667,
+        "recall": 0.7647,
+        "fpr": 0.0392,
+        "auc": 0.9746
+    },
+    "baseline": {
+        "precision": 0.3333,
+        "recall": 0.1176,
+        "fpr": 0.0784,
+        "auc": 0.5196
+    },
+    "segments": {
+        "subject": {
+            "Chemistry": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "fpr": 0.0,
+                "auc": 1.0
+            },
+            "Math": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "fpr": 0.0,
+                "auc": 1.0
+            },
+            "CS": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "fpr": 0.0,
+                "auc": 1.0
+            },
+            "Physics": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "fpr": 0.0,
+                "auc": null
+            },
+            "English": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "fpr": 0.0,
+                "auc": null
+            },
+            "Biology": {
+                "precision": 1.0,
+                "recall": 0.6,
+                "fpr": 0.0,
+                "auc": 1.0
+            },
+            "Economics": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "fpr": 0.0,
+                "auc": 1.0
+            },
+            "History": {
+                "precision": 0.5,
+                "recall": 0.6667,
+                "fpr": 0.2,
+                "auc": 0.9333
+            }
+        },
+        "response_count": {
+            "20-50": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "fpr": 0.0,
+                "auc": 1.0
+            },
+            "51-150": {
+                "precision": 1.0,
+                "recall": 0.8571,
+                "fpr": 0.0,
+                "auc": 0.985
+            },
+            "151+": {
+                "precision": 0.75,
+                "recall": 0.6667,
+                "fpr": 0.087,
+                "auc": 0.9565
+            }
+        }
+    }
+}
