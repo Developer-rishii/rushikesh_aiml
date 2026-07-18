@@ -1,0 +1,306 @@
+{
+  "baseline_metrics_holdout": {
+    "precision": 0.3239,
+    "recall": 0.7404,
+    "false_positive_rate": 0.4513,
+    "tp": 251,
+    "fp": 524,
+    "fn": 88,
+    "tn": 637,
+    "n": 1500,
+    "roc_auc": 0.7083,
+    "threshold": 0.5
+  },
+  "trained_model_metrics_holdout": {
+    "precision": 0.4441,
+    "recall": 0.41,
+    "false_positive_rate": 0.1499,
+    "tp": 139,
+    "fp": 174,
+    "fn": 200,
+    "tn": 987,
+    "n": 1500,
+    "roc_auc": 0.7707,
+    "threshold": 0.39999999999999997,
+    "model_version": "probe"
+  },
+  "lift_over_baseline": {
+    "precision_lift": 0.1202,
+    "recall_lift": -0.3304,
+    "fpr_reduction": 0.3014
+  },
+  "segment_breakdown_holdout": {
+    "meets_or_exceeds": {
+      "precision": 0.4384,
+      "recall": 0.4723,
+      "false_positive_rate": 0.25,
+      "tp": 128,
+      "fp": 164,
+      "fn": 143,
+      "tn": 492,
+      "n": 927
+    },
+    "underqualified": {
+      "precision": 0.5238,
+      "recall": 0.1618,
+      "false_positive_rate": 0.0198,
+      "tp": 11,
+      "fp": 10,
+      "fn": 57,
+      "tn": 495,
+      "n": 573
+    }
+  },
+  "drift_monitoring_history": [
+    {
+      "month": "2026-01+2026-02+2026-03",
+      "event": "initial_train",
+      "model_version": "v1",
+      "metrics": {
+        "precision": 0.641,
+        "recall": 0.3266,
+        "false_positive_rate": 0.0553,
+        "tp": 341,
+        "fp": 191,
+        "fn": 703,
+        "tn": 3265,
+        "n": 4500,
+        "roc_auc": 0.8161,
+        "threshold": 0.44999999999999996,
+        "model_version": "v1"
+      },
+      "drift": null
+    },
+    {
+      "month": "2026-04",
+      "event": "monitor_only",
+      "model_version": "v1",
+      "drift": {
+        "per_feature_psi": {
+          "overlap_count": 0.0145,
+          "overlap_ratio": 0.1247,
+          "weighted_skill_score": 0.0435,
+          "years_gap": 0.0312,
+          "missing_top_skill": 0.0029,
+          "jd_breadth": 0.2462,
+          "student_breadth": 0.0515
+        },
+        "max_feature_psi": 0.2462,
+        "trigger_retrain": false,
+        "most_drifted_feature": "jd_breadth",
+        "prediction_psi": 0.0043,
+        "status": "MODERATE_DRIFT"
+      },
+      "metrics_before_action": {
+        "precision": 0.4379,
+        "recall": 0.2087,
+        "false_positive_rate": 0.0729,
+        "tp": 67,
+        "fp": 86,
+        "fn": 254,
+        "tn": 1093,
+        "n": 1500,
+        "roc_auc": 0.7544,
+        "threshold": 0.44999999999999996,
+        "model_version": "v1"
+      },
+      "metrics_after_action": {
+        "precision": 0.4379,
+        "recall": 0.2087,
+        "false_positive_rate": 0.0729,
+        "tp": 67,
+        "fp": 86,
+        "fn": 254,
+        "tn": 1093,
+        "n": 1500,
+        "roc_auc": 0.7544,
+        "threshold": 0.44999999999999996,
+        "model_version": "v1"
+      }
+    },
+    {
+      "month": "2026-05",
+      "event": "monitor_only",
+      "model_version": "v1",
+      "drift": {
+        "per_feature_psi": {
+          "overlap_count": 0.0601,
+          "overlap_ratio": 0.0889,
+          "weighted_skill_score": 0.0316,
+          "years_gap": 0.019,
+          "missing_top_skill": 0.0025,
+          "jd_breadth": 0.2487,
+          "student_breadth": 0.1777
+        },
+        "max_feature_psi": 0.2487,
+        "trigger_retrain": false,
+        "most_drifted_feature": "jd_breadth",
+        "prediction_psi": 0.0179,
+        "status": "MODERATE_DRIFT"
+      },
+      "metrics_before_action": {
+        "precision": 0.4601,
+        "recall": 0.2259,
+        "false_positive_rate": 0.0753,
+        "tp": 75,
+        "fp": 88,
+        "fn": 257,
+        "tn": 1080,
+        "n": 1500,
+        "roc_auc": 0.7424,
+        "threshold": 0.44999999999999996,
+        "model_version": "v1"
+      },
+      "metrics_after_action": {
+        "precision": 0.4601,
+        "recall": 0.2259,
+        "false_positive_rate": 0.0753,
+        "tp": 75,
+        "fp": 88,
+        "fn": 257,
+        "tn": 1080,
+        "n": 1500,
+        "roc_auc": 0.7424,
+        "threshold": 0.44999999999999996,
+        "model_version": "v1"
+      }
+    },
+    {
+      "month": "2026-06",
+      "event": "drift_triggered_retrain",
+      "model_version": "v2",
+      "drift": {
+        "per_feature_psi": {
+          "overlap_count": 0.0258,
+          "overlap_ratio": 0.098,
+          "weighted_skill_score": 0.0177,
+          "years_gap": 0.0131,
+          "missing_top_skill": 0.0005,
+          "jd_breadth": 0.4753,
+          "student_breadth": 0.0593
+        },
+        "max_feature_psi": 0.4753,
+        "trigger_retrain": true,
+        "most_drifted_feature": "jd_breadth",
+        "prediction_psi": 0.0096,
+        "status": "SIGNIFICANT_DRIFT"
+      },
+      "metrics_before_action": {
+        "precision": 0.4813,
+        "recall": 0.2391,
+        "false_positive_rate": 0.0705,
+        "tp": 77,
+        "fp": 83,
+        "fn": 245,
+        "tn": 1095,
+        "n": 1500,
+        "roc_auc": 0.7516,
+        "threshold": 0.44999999999999996,
+        "model_version": "v1"
+      },
+      "metrics_after_action": {
+        "precision": 0.6489,
+        "recall": 0.5683,
+        "false_positive_rate": 0.084,
+        "tp": 183,
+        "fp": 99,
+        "fn": 139,
+        "tn": 1079,
+        "n": 1500,
+        "roc_auc": 0.8763,
+        "threshold": 0.37499999999999994,
+        "model_version": "v2"
+      }
+    }
+  ],
+  "final_model_version": "v2",
+  "final_model_all_months": {
+    "2026-01": {
+      "precision": 0.45,
+      "recall": 0.3709,
+      "false_positive_rate": 0.1452,
+      "tp": 135,
+      "fp": 165,
+      "fn": 229,
+      "tn": 971,
+      "n": 1500,
+      "roc_auc": 0.7303,
+      "threshold": 0.37499999999999994,
+      "model_version": "v2"
+    },
+    "2026-02": {
+      "precision": 0.4844,
+      "recall": 0.4545,
+      "false_positive_rate": 0.1424,
+      "tp": 155,
+      "fp": 165,
+      "fn": 186,
+      "tn": 994,
+      "n": 1500,
+      "roc_auc": 0.7689,
+      "threshold": 0.37499999999999994,
+      "model_version": "v2"
+    },
+    "2026-03": {
+      "precision": 0.439,
+      "recall": 0.4454,
+      "false_positive_rate": 0.1662,
+      "tp": 151,
+      "fp": 193,
+      "fn": 188,
+      "tn": 968,
+      "n": 1500,
+      "roc_auc": 0.7557,
+      "threshold": 0.37499999999999994,
+      "model_version": "v2"
+    },
+    "2026-04": {
+      "precision": 0.4027,
+      "recall": 0.3676,
+      "false_positive_rate": 0.1484,
+      "tp": 118,
+      "fp": 175,
+      "fn": 203,
+      "tn": 1004,
+      "n": 1500,
+      "roc_auc": 0.7372,
+      "threshold": 0.37499999999999994,
+      "model_version": "v2"
+    },
+    "2026-05": {
+      "precision": 0.4169,
+      "recall": 0.4006,
+      "false_positive_rate": 0.1592,
+      "tp": 133,
+      "fp": 186,
+      "fn": 199,
+      "tn": 982,
+      "n": 1500,
+      "roc_auc": 0.7435,
+      "threshold": 0.37499999999999994,
+      "model_version": "v2"
+    },
+    "2026-06": {
+      "precision": 0.6489,
+      "recall": 0.5683,
+      "false_positive_rate": 0.084,
+      "tp": 183,
+      "fp": 99,
+      "fn": 139,
+      "tn": 1079,
+      "n": 1500,
+      "roc_auc": 0.8763,
+      "threshold": 0.37499999999999994,
+      "model_version": "v2"
+    }
+  },
+  "feature_importance_final_model": {
+    "overlap_count": 0.0227,
+    "overlap_ratio": 0.0585,
+    "weighted_skill_score": 0.6616,
+    "years_gap": 0.1947,
+    "missing_top_skill": 0.0064,
+    "jd_breadth": 0.0125,
+    "student_breadth": 0.0436
+  }
+}
