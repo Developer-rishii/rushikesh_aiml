@@ -6,7 +6,7 @@ This task implements the intelligence layer of PlaceMux for the team-wide DPDP C
 
 ---
 
-## 🚀 How to Run the Pipeline
+## How to Run the Pipeline
 
 ### 1. Prerequisites
 Ensure you have the required dependencies installed:
@@ -49,7 +49,7 @@ python -m uvicorn api.app:app --reload --port 8002
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 Once the API is running at `http://127.0.0.1:8002`, the following endpoints are available:
 
@@ -62,7 +62,7 @@ Once the API is running at `http://127.0.0.1:8002`, the following endpoints are 
 
 ---
 
-## 🧪 Edge Cases Covered
+## Edge Cases Covered
 The system is tested extensively against edge cases (see `tests/test_fairness.py`):
 1. **Malformed Input**: Validates missing required columns or empty dataframes (throws `ValueError`).
 2. **Small Samples**: Requires ≥ 10 students for robust group-level metrics.
@@ -73,7 +73,7 @@ The system is tested extensively against edge cases (see `tests/test_fairness.py
 
 ---
 
-## 📊 Deliverable Scorecard / Definition of Done
+## Deliverable Scorecard / Definition of Done
 
 - **Core Deliverable**: "Fairness audit (start)" built, working, and exposed via FastAPI.
 - **Real-data Standard**: Handles 12,000 synthetic pairs; capable of absorbing real production DB outputs.
@@ -84,7 +84,7 @@ The system is tested extensively against edge cases (see `tests/test_fairness.py
 
 ---
 
-## 🤝 Hand-off & Next Steps
+## Hand-off & Next Steps
 - **Hand-off**: Bias findings are stored in `reports/fairness_report.json` and available via the `/audit/report` endpoint. 
 - **Guardrail**: Pipeline should be re-run on a cron-schedule or after every 1,000 new students are onboarded.
 - **Before Launch**: 
