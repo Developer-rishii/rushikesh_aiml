@@ -1,0 +1,122 @@
+{
+  "baseline": {
+    "college_tier": {
+      "group_stats": [
+        {
+          "group": "1",
+          "n_pairs": 3630,
+          "rec_rate": 0.3705,
+          "skill_rec_rate": 0.4096,
+          "recall": 0.9045,
+          "mean_match_score": 0.5733
+        },
+        {
+          "group": "2",
+          "n_pairs": 4860,
+          "rec_rate": 0.1481,
+          "skill_rec_rate": 0.1652,
+          "recall": 0.8966,
+          "mean_match_score": 0.4536
+        },
+        {
+          "group": "3",
+          "n_pairs": 3510,
+          "rec_rate": 0.0037,
+          "skill_rec_rate": 0.0601,
+          "recall": 0.0616,
+          "mean_match_score": 0.1806
+        }
+      ],
+      "disparate_impact": 0.01,
+      "max_parity_gap": 0.3668,
+      "equal_opportunity_gap": 0.8429,
+      "mean_score_gap": 0.3927,
+      "fails_4_5ths_rule": true,
+      "verdict": "\u26a0\ufe0f BIAS DETECTED"
+    },
+    "region": {
+      "group_stats": [
+        {
+          "group": "rural",
+          "n_pairs": 2370,
+          "rec_rate": 0.1198,
+          "skill_rec_rate": 0.2342,
+          "recall": 0.5117,
+          "mean_match_score": 0.3647
+        },
+        {
+          "group": "semi_urban",
+          "n_pairs": 3540,
+          "rec_rate": 0.1548,
+          "skill_rec_rate": 0.1672,
+          "recall": 0.9257,
+          "mean_match_score": 0.393
+        },
+        {
+          "group": "urban",
+          "n_pairs": 6090,
+          "rec_rate": 0.2046,
+          "skill_rec_rate": 0.2223,
+          "recall": 0.9202,
+          "mean_match_score": 0.4374
+        }
+      ],
+      "disparate_impact": 0.5855,
+      "max_parity_gap": 0.0848,
+      "equal_opportunity_gap": 0.414,
+      "mean_score_gap": 0.0727,
+      "fails_4_5ths_rule": true,
+      "verdict": "\u26a0\ufe0f BIAS DETECTED"
+    }
+  },
+  "ml_classifier": {
+    "n_labeled": 2380,
+    "n_biased_in_labels": 84,
+    "threshold": 0.3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fpr": 0.0,
+    "segment_by_tier": {
+      "tier_1": {
+        "n": 711,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "tier_2": {
+        "n": 945,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "tier_3": {
+        "n": 724,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "segment_by_region": {
+      "rural": {
+        "n": 471,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "semi_urban": {
+        "n": 684,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "urban": {
+        "n": 1225,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "run_timestamp": "2026-07-18T16:04:01.600482"
+}
