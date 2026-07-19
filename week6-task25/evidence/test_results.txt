@@ -1,0 +1,25 @@
+test_degradation_alert_fires_on_precision_drop (test_pipeline.TestAlerts.test_degradation_alert_fires_on_precision_drop) ... ok
+test_insufficient_data_alert_type (test_pipeline.TestAlerts.test_insufficient_data_alert_type) ... ok
+test_no_alert_when_metrics_within_tolerance (test_pipeline.TestAlerts.test_no_alert_when_metrics_within_tolerance) ... ok
+test_baseline_beats_random_guess_precision (test_pipeline.TestDataAndBaseline.test_baseline_beats_random_guess_precision) ... ok
+test_historical_hire_rate_is_realistic (test_pipeline.TestDataAndBaseline.test_historical_hire_rate_is_realistic) ... ok
+test_psi_band_thresholds (test_pipeline.TestDrift.test_psi_band_thresholds) ... ok
+test_psi_high_for_shifted_distribution (test_pipeline.TestDrift.test_psi_high_for_shifted_distribution) ... ok
+test_psi_zero_for_identical_distribution (test_pipeline.TestDrift.test_psi_zero_for_identical_distribution) ... ok
+test_explanation_has_plain_english_summary_and_top_features (test_pipeline.TestInference.test_explanation_has_plain_english_summary_and_top_features) ... ok
+test_missing_feature_raises_clear_error_not_stack_trace (test_pipeline.TestInference.test_missing_feature_raises_clear_error_not_stack_trace) ... ok
+test_nan_feature_raises_clear_error (test_pipeline.TestInference.test_nan_feature_raises_clear_error) ... ok
+test_non_numeric_feature_raises_clear_error (test_pipeline.TestInference.test_non_numeric_feature_raises_clear_error) ... ok
+test_predict_one_returns_valid_schema (test_pipeline.TestInference.test_predict_one_returns_valid_schema) ... ok
+test_insufficient_labeled_data_is_flagged_not_faked (test_pipeline.TestMonitoringMetrics.test_insufficient_labeled_data_is_flagged_not_faked) ... ok
+test_metrics_computed_correctly_on_known_case (test_pipeline.TestMonitoringMetrics.test_metrics_computed_correctly_on_known_case) ... ok
+test_pending_labels_are_excluded_but_counted (test_pipeline.TestMonitoringMetrics.test_pending_labels_are_excluded_but_counted) ... ok
+test_relative_change_handles_zero_baseline (test_pipeline.TestMonitoringMetrics.test_relative_change_handles_zero_baseline) ... ok
+test_empty_batch_is_handled_without_crashing (test_pipeline.TestMonitoringServiceIntegration.test_empty_batch_is_handled_without_crashing) ... ok
+test_malformed_rows_are_quarantined_not_crashed_on (test_pipeline.TestMonitoringServiceIntegration.test_malformed_rows_are_quarantined_not_crashed_on) ... ok
+test_process_normal_batch_returns_metrics_and_persists (test_pipeline.TestMonitoringServiceIntegration.test_process_normal_batch_returns_metrics_and_persists) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.876s
+
+OK
