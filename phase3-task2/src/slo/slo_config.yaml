@@ -1,0 +1,47 @@
+slo:
+  name: "PlaceMux Candidate-Job Ranking Service"
+  owner: "AI/ML Platform On-call (ml-oncall@altrodav.example)"
+  window_days: 30
+
+  # Inference latency SLO
+  latency:
+    metric: "p95"
+    target_ms: 150
+    hard_ceiling_ms: 400          # p99 ceiling, breach = page immediately
+
+  # Availability SLO (service responds successfully, not in degraded/fallback mode)
+  availability:
+    target_pct: 99.5              # -> 216 min/30d error budget
+
+  # Prediction-quality floor (offline, tracked per retrain + online proxy)
+  quality:
+    metric: "ndcg@10"
+    min_offline: 0.60
+    min_online_ctr_uplift_vs_baseline_pct: 5.0
+
+  # Score-distribution / silent-failure monitoring
+  score_distribution:
+    rolling_window_requests: 200
+    min_std_dev: 0.03             # below this -> degenerate/constant-score alert
+    reference_ks_alert_threshold: 0.25   # KS statistic vs reference distribution
+
+alerting:
+  channels:
+    page: "ml-oncall@altrodav.example (PagerDuty: placemux-ml-service)"
+    ticket: "#ml-platform-alerts (Slack)"
+  rules:
+    - id: LATENCY_P95_BREACH
+      condition: "rolling_p95_latency_ms > latency.target_ms"
+      severity: warning
+    - id: LATENCY_P99_HARD_BREACH
+      condition: "rolling_p99_latency_ms > latency.hard_ceiling_ms"
+      severity: page
+    - id: SCORE_DEGENERATE
+      condition: "rolling_score_std < score_distribution.min_std_dev"
+      severity: page
+    - id: SCORE_DRIFT
+      condition: "ks_stat_vs_reference > score_distribution.reference_ks_alert_threshold"
+      severity: warning
+    - id: AVAILABILITY_BREACH
+      condition: "rolling_success_rate_pct < availability.target_pct"
+      severity: page

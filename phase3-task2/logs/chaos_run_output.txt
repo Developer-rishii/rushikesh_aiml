@@ -1,0 +1,38 @@
+=== Stage E: integrate, break it, then demo ===
+Service health: {'status': 'ok', 'model_version': 'model_v20260719_140957', 'feature_pipeline_version': 'fp_v1.0.0'}
+
+--- Sending 80 requests: HEALTHY baseline traffic ---
+  snapshot: {"n_requests_in_window": 80, "p50_latency_ms": 1.09, "p95_latency_ms": 1.49, "p99_latency_ms": 1.78, "success_rate_pct": 100.0, "score_mean": 0.4935, "score_std": 0.2588, "ks_stat_vs_reference": 0.0}
+  (no alerts fired on this check)
+
+[reference distribution frozen for drift comparison]
+[chaos] applied: {'action': 'inject_latency', 'ms': 350}
+
+--- Sending 30 requests: LATENCY SPIKE injected (350ms/request) ---
+  snapshot: {"n_requests_in_window": 110, "p50_latency_ms": 1.16, "p95_latency_ms": 352.34, "p99_latency_ms": 352.5, "success_rate_pct": 100.0, "score_mean": 0.4966, "score_std": 0.2397, "ks_stat_vs_reference": 0.0295}
+[chaos] applied: {'action': 'clear'}
+[chaos] applied: {'action': 'force_degenerate'}
+
+--- Sending 220 requests: DEGENERATE MODEL OUTPUT injected (near-constant scores, sustained) ---
+  snapshot: {"n_requests_in_window": 200, "p50_latency_ms": 0.03, "p95_latency_ms": 0.04, "p99_latency_ms": 0.11, "success_rate_pct": 100.0, "score_mean": 0.5, "score_std": 0.0011, "ks_stat_vs_reference": 0.5875}
+[chaos] applied: {'action': 'clear'}
+[chaos] applied: {'action': 'force_unavailable'}
+
+--- Sending 20 requests: MODEL UNAVAILABLE injected (expect graceful fallback, not 5xx) ---
+  snapshot: {"n_requests_in_window": 200, "p50_latency_ms": 0.03, "p95_latency_ms": 0.04, "p99_latency_ms": 0.11, "success_rate_pct": 100.0, "score_mean": 0.6326, "score_std": 0.5879, "ks_stat_vs_reference": 0.5875}
+
+Sample response while model unavailable (fallback in effect): {
+  "score": 1.87884077125792,
+  "explanation": "FALLBACK (popularity baseline) used -- primary model unavailable: chaos: model process forced unavailable",
+  "model_version": "model_v20260719_140957",
+  "feature_pipeline_version": "fp_v1.0.0",
+  "latency_ms": 0.025,
+  "degraded": true,
+  "success": true
+}
+[chaos] applied: {'action': 'clear'}
+
+--- Sending 40 requests: RECOVERY -- chaos cleared, expect healthy metrics again ---
+  snapshot: {"n_requests_in_window": 200, "p50_latency_ms": 0.03, "p95_latency_ms": 1.36, "p99_latency_ms": 1.55, "success_rate_pct": 100.0, "score_mean": 0.6364, "score_std": 0.6076, "ks_stat_vs_reference": 0.4725}
+
+=== Chaos run complete. See logs/alerts.log and logs/predictions.jsonl for full evidence. ===

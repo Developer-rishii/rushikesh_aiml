@@ -1,0 +1,11 @@
+Top-20%-of-score selection rate by region (proxy group, NOT a protected attribute):
+cand_region
+Central    0.2131
+East       0.1997
+North      0.1993
+South      0.1895
+West       0.1988
+Name: in_top_k, dtype: float64
+
+Max-min gap across groups: 0.0236
+Fairness gap threshold: 0.1 -> PASS

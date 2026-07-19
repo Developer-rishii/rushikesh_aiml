@@ -1,0 +1,6 @@
+PlaceMux model service listening on http://127.0.0.1:8899 (model_version=model_v20260719_141846)
+[⚠️  WARN] LATENCY_P95_BREACH: p95 latency 352.48ms > SLO target 150ms  -> #ml-platform-alerts (Slack)
+[🚨 PAGE] SCORE_DEGENERATE: rolling score std 0.0011 < min 0.03 -- model may be returning near-constant scores (silent failure)  -> ml-oncall@altrodav.example (PagerDuty: placemux-ml-service)
+[⚠️  WARN] SCORE_DRIFT: KS stat vs reference 0.5625 > 0.25 -- score distribution has shifted  -> #ml-platform-alerts (Slack)
+[⚠️  WARN] SCORE_DRIFT: KS stat vs reference 0.4625 > 0.25 -- score distribution has shifted  -> #ml-platform-alerts (Slack)
+[⚠️  WARN] SCORE_DRIFT: KS stat vs reference 0.3625 > 0.25 -- score distribution has shifted  -> #ml-platform-alerts (Slack)

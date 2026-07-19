@@ -1,0 +1,36 @@
+INPUT (candidate/job pair):
+{
+  "candidate_id": "C00135",
+  "job_id": "J0769",
+  "cand_experience_yrs": 7.291982521608602,
+  "cand_expected_salary": 11.965127067940086,
+  "cand_region": "East",
+  "cand_skills": "react|sap|tally",
+  "job_min_exp": 3.397026426330936,
+  "job_salary_offered": 6.761005361055648,
+  "job_region": "East",
+  "job_req_skills": "accounting|java|seo",
+  "job_popularity": 5.942285937296805
+}
+
+OUTPUT:
+{
+  "score": 0.5808258409349591,
+  "explanation": "Score was mainly raised by 'exp_gap' (value=3.895, feature_importance=0.333).",
+  "model_version": "model_v20260719_140957",
+  "feature_pipeline_version": "fp_v1.0.0",
+  "latency_ms": 1.927,
+  "degraded": false,
+  "success": true
+}
+
+OUTPUT WHEN MODEL FORCED UNAVAILABLE (graceful fallback):
+{
+  "score": 1.9376311060607647,
+  "explanation": "FALLBACK (popularity baseline) used -- primary model unavailable: chaos: model process forced unavailable",
+  "model_version": "model_v20260719_140957",
+  "feature_pipeline_version": "fp_v1.0.0",
+  "latency_ms": 0.011,
+  "degraded": true,
+  "success": true
+}
