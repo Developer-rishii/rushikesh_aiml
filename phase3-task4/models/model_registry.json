@@ -1,0 +1,38 @@
+[
+  {
+    "version": "v1",
+    "trained_at_utc": "2026-07-19T16:11:55.393324+00:00",
+    "n_train_rows": 18000,
+    "n_train_jobs": 300,
+    "n_test_rows": 6000,
+    "n_test_jobs": 100,
+    "features": [
+      "exp_years",
+      "skill_match",
+      "education_score",
+      "location_match",
+      "past_response_rate",
+      "job_seniority",
+      "job_urgency_score",
+      "job_num_applicants_so_far"
+    ],
+    "model_type": "GradientBoostingRegressor(pointwise LTR proxy)",
+    "held_out_metrics": {
+      "nDCG@10": 0.27420423299578145,
+      "MAP@10": 0.4036888227513228,
+      "precision@10": 0.262
+    },
+    "baseline_metrics": {
+      "nDCG@10": 0.24155063429596754,
+      "MAP@10": 0.39793154761904764,
+      "precision@10": 0.21700000000000003
+    },
+    "gap_vs_baseline": {
+      "nDCG@10": 0.0327,
+      "MAP@10": 0.0058,
+      "precision@10": 0.045
+    },
+    "train_seconds": 3.715,
+    "artifact_path": "models/ranker_model.joblib"
+  }
+]
