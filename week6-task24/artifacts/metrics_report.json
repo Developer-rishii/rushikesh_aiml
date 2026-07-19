@@ -1,0 +1,84 @@
+{
+  "baseline_quality": {
+    "accuracy": 0.5248,
+    "precision": 0.3532294546368434,
+    "recall": 0.70275,
+    "false_positive_rate": 0.5514642857142857,
+    "n": 40000,
+    "positive_rate": 0.59685
+  },
+  "mitigated_quality_vs_historical_biased_label": {
+    "overall": {
+      "accuracy": 0.64275,
+      "precision": 0.404344193817878,
+      "recall": 0.4033333333333333,
+      "false_positive_rate": 0.2546428571428571,
+      "n": 12000,
+      "positive_rate": 0.29925
+    },
+    "tier_1": {
+      "accuracy": 0.40591023139113463,
+      "precision": 0.9990732159406858,
+      "recall": 0.3360349127182045,
+      "false_positive_rate": 0.002638522427440633,
+      "n": 3587,
+      "positive_rate": 0.30080847504878727
+    },
+    "tier_2": {
+      "accuracy": 0.7752692626346314,
+      "precision": 0.2595419847328244,
+      "recall": 0.9540816326530612,
+      "false_positive_rate": 0.24053201082055906,
+      "n": 4828,
+      "positive_rate": 0.2984672742336371
+    },
+    "tier_3": {
+      "accuracy": 0.701255230125523,
+      "precision": 0.0,
+      "recall": 0.0,
+      "false_positive_rate": 0.298744769874477,
+      "n": 3585,
+      "positive_rate": 0.298744769874477
+    }
+  },
+  "mitigated_quality_vs_merit_ground_truth": {
+    "overall": {
+      "accuracy": 0.8611666666666666,
+      "precision": 0.7702589807852965,
+      "recall": 0.7668422511782644,
+      "false_positive_rate": 0.0982961992136304,
+      "n": 12000,
+      "positive_rate": 0.29925
+    },
+    "tier_1": {
+      "accuracy": 0.8639531642040702,
+      "precision": 0.7692307692307693,
+      "recall": 0.7764265668849392,
+      "false_positive_rate": 0.09888800635424941,
+      "n": 3587,
+      "positive_rate": 0.30080847504878727
+    },
+    "tier_2": {
+      "accuracy": 0.8589478044739023,
+      "precision": 0.7522553782095767,
+      "recall": 0.7698863636363636,
+      "false_positive_rate": 0.10438596491228071,
+      "n": 4828,
+      "positive_rate": 0.2984672742336371
+    },
+    "tier_3": {
+      "accuracy": 0.8613668061366806,
+      "precision": 0.7955182072829131,
+      "recall": 0.7539823008849558,
+      "false_positive_rate": 0.08920570264765784,
+      "n": 3585,
+      "positive_rate": 0.298744769874477
+    }
+  },
+  "disparate_impact": {
+    "task21_baseline": 0.0,
+    "rule_based_baseline": 0.9785941345734441,
+    "mitigated": 0.9922169718962525,
+    "fairness_ceiling": 0.9779052145760143
+  }
+}

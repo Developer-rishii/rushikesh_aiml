@@ -1,0 +1,146 @@
+{
+  "artifact": "ML_GO_AHEAD",
+  "task": "Task 24 - Fairness close + sign-off",
+  "generated_at_utc": "2026-07-19T08:53:33.883179+00:00",
+  "model_version": "placemux-rec-v3-mitigated-cbbbb5f85bf982dc",
+  "protected_attribute": "college_tier",
+  "di_target": 0.8,
+  "upstream_dependency": {
+    "source": "task21_audit_results.json",
+    "task21_finding": "FAIL",
+    "task21_disparate_impact": 0.0
+  },
+  "data_quality": {
+    "n_rows_raw": 40400,
+    "n_rows_after_cleaning": 40000,
+    "duplicates_removed": 400,
+    "missing_values_imputed": {
+      "jd_match": 1205,
+      "portfolio_score": 1218
+    },
+    "outliers_capped": {
+      "cap_value": 30.020586277329425,
+      "rows_capped": 400
+    }
+  },
+  "baseline": {
+    "description": "dumb rule: recommend if 0.6*skill_score + 0.4*jd_match >= 60",
+    "disparate_impact": 0.9785941345734441,
+    "quality": {
+      "accuracy": 0.5248,
+      "precision": 0.3532294546368434,
+      "recall": 0.70275,
+      "false_positive_rate": 0.5514642857142857,
+      "n": 40000,
+      "positive_rate": 0.59685
+    }
+  },
+  "audit_trail": {
+    "task21_baseline_disparate_impact": 0.0,
+    "task21_baseline_group_rates": {
+      "1": 0.9314190131028715,
+      "2": 0.04743164871582436,
+      "3": 0.0
+    },
+    "fairness_ceiling_disparate_impact": 0.9779052145760143,
+    "fairness_ceiling_group_rates": {
+      "1": 0.2926829268292683,
+      "2": 0.2862161603637115,
+      "3": 0.2863823933975241
+    },
+    "mitigated_disparate_impact": 0.9922169718962525,
+    "mitigated_group_rates": {
+      "1": 0.30080847504878727,
+      "2": 0.2984672742336371,
+      "3": 0.298744769874477
+    }
+  },
+  "mitigated_model_quality": {
+    "note": "Quality vs the historical label is expected to look worse for tier 1 (previously over-recommended) and tier 3 (previously under-recommended) -- that gap is the bias correction working as intended, not a defect. Quality vs the merit ground truth (fair_recommended, a synthetic-data-only reference not available in real deployments) is the number that reflects actual correctness.",
+    "vs_historical_biased_label": {
+      "overall": {
+        "accuracy": 0.64275,
+        "precision": 0.404344193817878,
+        "recall": 0.4033333333333333,
+        "false_positive_rate": 0.2546428571428571,
+        "n": 12000,
+        "positive_rate": 0.29925
+      },
+      "tier_1": {
+        "accuracy": 0.40591023139113463,
+        "precision": 0.9990732159406858,
+        "recall": 0.3360349127182045,
+        "false_positive_rate": 0.002638522427440633,
+        "n": 3587,
+        "positive_rate": 0.30080847504878727
+      },
+      "tier_2": {
+        "accuracy": 0.7752692626346314,
+        "precision": 0.2595419847328244,
+        "recall": 0.9540816326530612,
+        "false_positive_rate": 0.24053201082055906,
+        "n": 4828,
+        "positive_rate": 0.2984672742336371
+      },
+      "tier_3": {
+        "accuracy": 0.701255230125523,
+        "precision": 0.0,
+        "recall": 0.0,
+        "false_positive_rate": 0.298744769874477,
+        "n": 3585,
+        "positive_rate": 0.298744769874477
+      }
+    },
+    "vs_merit_ground_truth": {
+      "overall": {
+        "accuracy": 0.8611666666666666,
+        "precision": 0.7702589807852965,
+        "recall": 0.7668422511782644,
+        "false_positive_rate": 0.0982961992136304,
+        "n": 12000,
+        "positive_rate": 0.29925
+      },
+      "tier_1": {
+        "accuracy": 0.8639531642040702,
+        "precision": 0.7692307692307693,
+        "recall": 0.7764265668849392,
+        "false_positive_rate": 0.09888800635424941,
+        "n": 3587,
+        "positive_rate": 0.30080847504878727
+      },
+      "tier_2": {
+        "accuracy": 0.8589478044739023,
+        "precision": 0.7522553782095767,
+        "recall": 0.7698863636363636,
+        "false_positive_rate": 0.10438596491228071,
+        "n": 4828,
+        "positive_rate": 0.2984672742336371
+      },
+      "tier_3": {
+        "accuracy": 0.8613668061366806,
+        "precision": 0.7955182072829131,
+        "recall": 0.7539823008849558,
+        "false_positive_rate": 0.08920570264765784,
+        "n": 3585,
+        "positive_rate": 0.298744769874477
+      }
+    }
+  },
+  "mitigation_method": [
+    "Kamiran-Calders reweighing on training samples (group x label independence)",
+    "GradientBoostingClassifier (150 trees, depth 3) replacing plain logistic regression",
+    "Protected attribute (college_tier) dropped from model features",
+    "Per-group decision-threshold post-processing to equalise positive rates"
+  ],
+  "per_group_thresholds": {
+    "1": 0.25999999999999995,
+    "2": 0.25999999999999995,
+    "3": 0.26999999999999996
+  },
+  "decision": "SIGNED_OFF",
+  "rationale": "Mitigated disparate impact 0.992 meets the 4/5ths rule threshold of 0.80.",
+  "open_items": [
+    "Re-audit quarterly once real production outcome data replaces synthetic data.",
+    "This sign-off covers the AI/ML recommendation model only; data-deletion (security) and load-test (backend) items are owned by other tracks."
+  ]
+}

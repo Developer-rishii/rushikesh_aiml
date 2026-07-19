@@ -1,0 +1,22 @@
+{
+  "artifact": "TASK21_FAIRNESS_AUDIT_RESULTS",
+  "generated_at_utc": "2026-07-19T08:53:21.080076+00:00",
+  "model_evaluated": "baseline unmitigated LogisticRegression (college_tier used as a feature)",
+  "protected_attribute": "college_tier",
+  "disparate_impact": 0.0,
+  "group_positive_rates": {
+    "1": 0.9314190131028715,
+    "2": 0.04743164871582436,
+    "3": 0.0
+  },
+  "quality_metrics": {
+    "accuracy": 0.95,
+    "precision": 0.9201680672268907,
+    "recall": 0.9125,
+    "false_positive_rate": 0.033928571428571426,
+    "n": 12000,
+    "positive_rate": 0.2975
+  },
+  "finding": "FAIL",
+  "notes": "Model's positive-recommendation rate varies sharply by college_tier despite skill_score being statistically independent of tier in the underlying data. This indicates the historical label (and therefore the trained model) encodes a prestige proxy bias, not a merit difference."
+}
