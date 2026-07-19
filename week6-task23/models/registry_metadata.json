@@ -1,0 +1,49 @@
+{
+  "models": {
+    "v1": {
+      "timestamp": "2026-07-19T06:53:08.862789",
+      "metrics": {
+        "precision": 0.641,
+        "recall": 0.3266,
+        "false_positive_rate": 0.0553,
+        "tp": 341,
+        "fp": 191,
+        "fn": 703,
+        "tn": 3265,
+        "n": 4500,
+        "roc_auc": 0.8161,
+        "threshold": 0.44999999999999996,
+        "model_version": "v1"
+      },
+      "path": "D:\\Placemux-aiml\\week6-task23\\src\\..\\models\\model_v1.joblib",
+      "status": "Archived"
+    },
+    "v2": {
+      "timestamp": "2026-07-19T06:53:09.502139",
+      "metrics": {
+        "precision": 0.6489,
+        "recall": 0.5683,
+        "false_positive_rate": 0.084,
+        "tp": 183,
+        "fp": 99,
+        "fn": 139,
+        "tn": 1079,
+        "n": 1500,
+        "roc_auc": 0.8763,
+        "threshold": 0.37499999999999994,
+        "model_version": "v2"
+      },
+      "path": "D:\\Placemux-aiml\\week6-task23\\src\\..\\models\\model_v2.joblib",
+      "status": "Archived"
+    },
+    "v99": {
+      "timestamp": "2026-07-19T07:01:12.530317",
+      "metrics": {
+        "precision": 0.99
+      },
+      "path": "D:\\Placemux-aiml\\week6-task23\\tests\\..\\src\\..\\models\\model_v99.joblib",
+      "status": "Production"
+    }
+  },
+  "production_version": "v99"
+}
