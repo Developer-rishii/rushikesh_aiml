@@ -18,8 +18,6 @@ fairness check, starts the live HTTP service, drives real traffic through it, de
 breaks it three different ways, shows alerts fire, lets it recover, and computes the error
 budget from the run's own logs. Total runtime: under a minute.
 
-For a guided walkthrough, see **[`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md)**.
-
 ## What's actually here vs. what a real production version would add
 - **Model**: scikit-learn `GradientBoostingRegressor` (pointwise LTR), not LightGBM/XGBoost
   LambdaMART — this sandbox has no network egress to install them. The model class is isolated
