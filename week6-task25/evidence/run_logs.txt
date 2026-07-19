@@ -76,3 +76,42 @@
 2026-07-19 16:15:37,181 | INFO     | simulate_and_monitor | Saved D:\Placemux-aiml\week6-task25\evidence\plots\metrics_over_time.png
 2026-07-19 16:15:37,337 | INFO     | simulate_and_monitor | Saved D:\Placemux-aiml\week6-task25\evidence\plots\drift_over_time.png
 2026-07-19 16:15:37,337 | INFO     | simulate_and_monitor | Run complete.
+2026-07-19 16:57:46,228 | INFO     | simulate_and_monitor | Loaded 2400 production events across 12 time-ordered batches.
+2026-07-19 16:57:46,229 | INFO     | simulate_and_monitor | Validated baseline (from training): {'precision': 0.295, 'recall': 0.6814, 'false_positive_rate': 0.4755, 'accuracy': 0.56, 'f1': 0.4118, 'tp': 231, 'fp': 552, 'tn': 609, 'fn': 108, 'n': 1500, 'model': 'logistic_regression_v1', 'decision_threshold': 0.48, 'roc_auc': 0.6458}
+2026-07-19 16:57:46,240 | INFO     | simulate_and_monitor | Batch  0 | n=200 labeled=98 pending=102 | precision=0.26 recall=0.8125 FPR=0.4512 | drift=warning
+2026-07-19 16:57:46,240 | WARNING  | simulate_and_monitor |   ALERT[warning/feature_drift] Moderate distribution shift (0.10<=PSI<0.25) on: skill_overlap_score. Watch closely.
+2026-07-19 16:57:46,252 | INFO     | simulate_and_monitor | Batch  1 | n=200 labeled=108 pending=92 | precision=0.4138 recall=0.7742 FPR=0.4416 | drift=stable
+2026-07-19 16:57:46,260 | INFO     | simulate_and_monitor | Batch  2 | n=200 labeled=106 pending=94 | precision=0.3966 recall=0.697 FPR=0.4795 | drift=stable
+2026-07-19 16:57:46,269 | INFO     | simulate_and_monitor | Batch  3 | n=200 labeled=119 pending=81 | precision=0.3529 recall=0.7742 FPR=0.5 | drift=stable
+2026-07-19 16:57:46,278 | INFO     | simulate_and_monitor | Batch  4 | n=200 labeled=104 pending=96 | precision=0.4237 recall=0.7576 FPR=0.4789 | drift=warning
+2026-07-19 16:57:46,278 | WARNING  | simulate_and_monitor |   ALERT[warning/feature_drift] Moderate distribution shift (0.10<=PSI<0.25) on: experience_gap. Watch closely.
+2026-07-19 16:57:46,289 | INFO     | simulate_and_monitor | Batch  5 | n=200 labeled=111 pending=89 | precision=0.2679 recall=0.6 FPR=0.4767 | drift=stable
+2026-07-19 16:57:46,301 | INFO     | simulate_and_monitor | Batch  6 | n=200 labeled=107 pending=93 | precision=0.2364 recall=0.7222 FPR=0.4719 | drift=stable
+2026-07-19 16:57:46,302 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live precision is 0.236 vs validated baseline 0.295 (-19.9%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,311 | INFO     | simulate_and_monitor | Batch  7 | n=200 labeled=114 pending=86 | precision=0.25 recall=0.3333 FPR=0.1875 | drift=critical
+2026-07-19 16:57:46,311 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live precision is 0.250 vs validated baseline 0.295 (-15.3%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,311 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live recall is 0.333 vs validated baseline 0.681 (-51.1%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,311 | WARNING  | simulate_and_monitor |   ALERT[critical/feature_drift] Critical distribution shift (PSI >= 0.25) on: skill_overlap_score. Investigate upstream data source before trusting live scores.
+2026-07-19 16:57:46,326 | INFO     | simulate_and_monitor | Batch  8 | n=200 labeled=105 pending=95 | precision=0.4286 recall=0.3333 FPR=0.0417 | drift=critical
+2026-07-19 16:57:46,326 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live recall is 0.333 vs validated baseline 0.681 (-51.1%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,327 | WARNING  | simulate_and_monitor |   ALERT[critical/feature_drift] Critical distribution shift (PSI >= 0.25) on: skill_overlap_score, resume_parse_confidence, interview_eval_score, role_historical_hire_rate. Investigate upstream data source before trusting live scores.
+2026-07-19 16:57:46,338 | INFO     | simulate_and_monitor | Batch  9 | n=200 labeled=122 pending=78 | precision=0.0 recall=0.0 FPR=0.0 | drift=critical
+2026-07-19 16:57:46,338 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live precision is 0.000 vs validated baseline 0.295 (-100.0%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,338 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live recall is 0.000 vs validated baseline 0.681 (-100.0%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,338 | WARNING  | simulate_and_monitor |   ALERT[critical/feature_drift] Critical distribution shift (PSI >= 0.25) on: skill_overlap_score, years_experience, experience_gap, resume_parse_confidence, interview_eval_score, communication_score, role_historical_hire_rate. Investigate upstream data source before trusting live scores.
+2026-07-19 16:57:46,350 | INFO     | simulate_and_monitor | Batch 10 | n=200 labeled=110 pending=90 | precision=0.0 recall=0.0 FPR=0.0 | drift=critical
+2026-07-19 16:57:46,350 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live precision is 0.000 vs validated baseline 0.295 (-100.0%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,350 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live recall is 0.000 vs validated baseline 0.681 (-100.0%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,351 | WARNING  | simulate_and_monitor |   ALERT[critical/feature_drift] Critical distribution shift (PSI >= 0.25) on: skill_overlap_score, years_experience, experience_gap, resume_parse_confidence, interview_eval_score, communication_score, role_historical_hire_rate. Investigate upstream data source before trusting live scores.
+2026-07-19 16:57:46,361 | INFO     | simulate_and_monitor | Batch 11 | n=200 labeled=109 pending=91 | precision=0.0 recall=0.0 FPR=0.0 | drift=critical
+2026-07-19 16:57:46,361 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live precision is 0.000 vs validated baseline 0.295 (-100.0%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,362 | WARNING  | simulate_and_monitor |   ALERT[critical/metric_degradation] Live recall is 0.000 vs validated baseline 0.681 (-100.0%) - exceeds the 15% degradation threshold.
+2026-07-19 16:57:46,362 | WARNING  | simulate_and_monitor |   ALERT[critical/feature_drift] Critical distribution shift (PSI >= 0.25) on: skill_overlap_score, years_experience, experience_gap, resume_parse_confidence, interview_eval_score, communication_score, role_historical_hire_rate. Investigate upstream data source before trusting live scores.
+2026-07-19 16:57:46,362 | INFO     | simulate_and_monitor | === One real example, end-to-end ===
+2026-07-19 16:57:46,362 | INFO     | simulate_and_monitor | match_id=P002200 -> probability=0.0662 label=0
+2026-07-19 16:57:46,363 | INFO     | simulate_and_monitor | Why: Scored 7% probability -> classified as an unlikely match. Main driver: weak verified skill overlap with the JD (0.01); secondary factor: interview evaluation score (0.20, against match).
+2026-07-19 16:57:46,366 | INFO     | simulate_and_monitor | Full metrics report written to D:\Placemux-aiml\week6-task25\evidence\metrics_report.json
+2026-07-19 16:57:46,367 | INFO     | simulate_and_monitor | Demo walkthrough written to D:\Placemux-aiml\week6-task25\evidence\demo_walkthrough.md
+2026-07-19 16:57:46,592 | INFO     | simulate_and_monitor | Saved D:\Placemux-aiml\week6-task25\evidence\plots\metrics_over_time.png
+2026-07-19 16:57:46,744 | INFO     | simulate_and_monitor | Saved D:\Placemux-aiml\week6-task25\evidence\plots\drift_over_time.png
+2026-07-19 16:57:46,744 | INFO     | simulate_and_monitor | Run complete.
