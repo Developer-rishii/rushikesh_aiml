@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-07-19T18:56:20.440963+00:00",
+  "sprint": "Phase 3 Sprint A \u2014 Scale & Reliability",
+  "total_items": 7,
+  "p0_count": 3,
+  "p1_count": 4,
+  "key_metrics": {
+    "ndcg_at_5": 0.7454,
+    "ctr": 0.2535,
+    "online_offline_gap": -0.2885,
+    "skew_features": [
+      "skill_score_feature",
+      "verified_skills",
+      "skill_gap",
+      "years_exp",
+      "model_score"
+    ],
+    "total_defects": 2367
+  },
+  "items": [
+    {
+      "backlog_id": "B-002",
+      "title": "Investigate online/offline metric gap \u2014 model over-confident",
+      "priority": "P0",
+      "evidence": "nDCG@5 offline = 0.7454, CTR online = 0.2535, gap = -0.2885 (model over-confident). Model scores are systematically biased vs actual user behaviour.",
+      "metric_to_move": "CTR from 0.254 toward 0.542",
+      "affected_users": 8000,
+      "owner": "AI/ML Engineer",
+      "effort_days": 8,
+      "rank": 1
+    },
+    {
+      "backlog_id": "B-007",
+      "title": "Ensure 100% prediction logging with model version + feature snapshot",
+      "priority": "P0",
+      "evidence": "Without complete prediction logging, debugging online/offline gaps in future sprints is impossible. Currently logging all scored pairs but feature snapshots at serving time need to be persisted separately to enable reproducible skew detection.",
+      "metric_to_move": "Prediction log completeness \u2192 100%",
+      "affected_users": 8000,
+      "owner": "AI/ML + Backend",
+      "effort_days": 3,
+      "rank": 2
+    },
+    {
+      "backlog_id": "B-001",
+      "title": "Fix train/serve skew in features: skill_score_feature, verified_skills, skill_gap, years_exp, model_score",
+      "priority": "P0",
+      "evidence": "KS test detects distribution shift in 5 features. Worst affected model version: v1.2 (mean_skew=0.081). Skew accounts for a portion of the 0.288 online/offline gap.",
+      "metric_to_move": "online_offline_gap \u2192 0",
+      "affected_users": 300,
+      "owner": "AI/ML + Data Engineering",
+      "effort_days": 5,
+      "rank": 3
+    },
+    {
+      "backlog_id": "B-006",
+      "title": "Improve matching quality for college_tier=2 (lowest CTR segment)",
+      "priority": "P1",
+      "evidence": "college_tier=2 has CTR=0.2455 \u2014 the worst-performing segment. This may reflect fairness issues carried from the bias audit (Task 21/24).",
+      "metric_to_move": "Tier 2 CTR \u2192 segment average",
+      "affected_users": 3353,
+      "owner": "AI/ML Engineer",
+      "effort_days": 10,
+      "rank": 4
+    },
+    {
+      "backlog_id": "B-004",
+      "title": "Remediate 'false_positive' defects in recommendation ranking",
+      "priority": "P1",
+      "evidence": "1087 'false_positive' defects detected, mean user impact = 0.476. Mean defect rank = 1070 (lower = hurts more users).",
+      "metric_to_move": "Defect count \u2192 0 for false_positive",
+      "affected_users": 1087,
+      "owner": "AI/ML Engineer",
+      "effort_days": 6,
+      "rank": 5
+    },
+    {
+      "backlog_id": "B-003",
+      "title": "Remediate 'skew_induced' defects in recommendation ranking",
+      "priority": "P1",
+      "evidence": "642 'skew_induced' defects detected, mean user impact = 0.500. Mean defect rank = 1061 (lower = hurts more users).",
+      "metric_to_move": "Defect count \u2192 0 for skew_induced",
+      "affected_users": 642,
+      "owner": "AI/ML Engineer",
+      "effort_days": 6,
+      "rank": 6
+    },
+    {
+      "backlog_id": "B-005",
+      "title": "Remediate 'false_negative' defects in recommendation ranking",
+      "priority": "P1",
+      "evidence": "120 'false_negative' defects detected, mean user impact = 0.431. Mean defect rank = 1396 (lower = hurts more users).",
+      "metric_to_move": "Defect count \u2192 0 for false_negative",
+      "affected_users": 120,
+      "owner": "AI/ML Engineer",
+      "effort_days": 6,
+      "rank": 7
+    }
+  ]
+}

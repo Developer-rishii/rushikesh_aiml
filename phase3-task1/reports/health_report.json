@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "ndcg_at_5_offline": 0.7454,
+    "ctr_online": 0.2535,
+    "apply_rate_online": 0.0742,
+    "shortlist_rate": 0.0171,
+    "expected_ctr_from_score": 0.542,
+    "online_offline_gap": -0.2885,
+    "gap_direction": "model over-confident",
+    "total_impressions": 8000
+  },
+  "by_model_version": {
+    "v1.0": {
+      "n": 1589,
+      "ndcg_at_5": 0.7925,
+      "ctr": 0.2813,
+      "apply_rate": 0.0818,
+      "mean_skew": 0.0,
+      "online_offline_gap": -0.1952
+    },
+    "v1.1": {
+      "n": 2811,
+      "ndcg_at_5": 0.7517,
+      "ctr": 0.2565,
+      "apply_rate": 0.0747,
+      "mean_skew": 0.0795,
+      "online_offline_gap": -0.2977
+    },
+    "v1.2": {
+      "n": 3600,
+      "ndcg_at_5": 0.725,
+      "ctr": 0.2389,
+      "apply_rate": 0.0706,
+      "mean_skew": 0.0808,
+      "online_offline_gap": -0.3226
+    }
+  },
+  "train_serve_skew": {
+    "skill_score_feature": {
+      "ks_statistic": 0.1057,
+      "p_value": 0.0,
+      "skew_detected": "True"
+    },
+    "verified_skills": {
+      "ks_statistic": 0.0,
+      "p_value": 1.0,
+      "skew_detected": "False"
+    },
+    "skill_gap": {
+      "ks_statistic": 0.0,
+      "p_value": 1.0,
+      "skew_detected": "False"
+    },
+    "years_exp": {
+      "ks_statistic": 0.0,
+      "p_value": 1.0,
+      "skew_detected": "False"
+    },
+    "model_score": {
+      "ks_statistic": 0.1283,
+      "p_value": 0.0,
+      "skew_detected": "True"
+    }
+  },
+  "by_segment": {
+    "college_tier": {
+      "1": {
+        "n": 2294,
+        "ctr": 0.2533,
+        "apply_rate": 0.0676,
+        "ndcg_at_5": 0.7419
+      },
+      "2": {
+        "n": 3353,
+        "ctr": 0.2455,
+        "apply_rate": 0.0758,
+        "ndcg_at_5": 0.7454
+      },
+      "3": {
+        "n": 2353,
+        "ctr": 0.2652,
+        "apply_rate": 0.0786,
+        "ndcg_at_5": 0.7489
+      }
+    },
+    "region": {
+      "rural": {
+        "n": 1536,
+        "ctr": 0.235,
+        "apply_rate": 0.0677,
+        "ndcg_at_5": 0.7065
+      },
+      "semi_urban": {
+        "n": 2573,
+        "ctr": 0.2569,
+        "apply_rate": 0.0777,
+        "ndcg_at_5": 0.7597
+      },
+      "urban": {
+        "n": 3891,
+        "ctr": 0.2585,
+        "apply_rate": 0.0745,
+        "ndcg_at_5": 0.7483
+      }
+    }
+  }
+}
