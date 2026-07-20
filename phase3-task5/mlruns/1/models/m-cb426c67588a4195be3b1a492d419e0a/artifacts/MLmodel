@@ -1,0 +1,27 @@
+artifact_path: file:///D:/Placemux-aiml/phase3-task5/mlruns/1/models/m-cb426c67588a4195be3b1a492d419e0a/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.lgb
+    lgb_version: 4.7.0
+    model_class: lightgbm.basic.Booster
+    serialization_format: skops
+    skops_trusted_types:
+    - lightgbm.sklearn.LGBMClassifier
+    - lightgbm.sklearn.LGBMRegressor
+    - lightgbm.basic.Booster
+    - collections.OrderedDict
+  python_function:
+    data: model.lgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.11.9
+mlflow_version: 3.14.0
+model_id: m-cb426c67588a4195be3b1a492d419e0a
+model_size_bytes: 338947
+model_uuid: m-cb426c67588a4195be3b1a492d419e0a
+prompts: null
+run_id: 492aa03f15d146e283619cf64507c280
+utc_time_created: '2026-07-20 15:56:52.486995'
