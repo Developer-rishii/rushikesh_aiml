@@ -11,12 +11,24 @@ Gap            : online_metric - expected_from_offline_score
 import json
 import numpy as np
 import pandas as pd
+from datetime import datetime, timezone
 from pathlib import Path
 from scipy.stats import ks_2samp
 
 ROOT    = Path(__file__).parent.parent
 REPORTS = ROOT / "reports"
 REPORTS.mkdir(exist_ok=True)
+
+# Explicit mapping of logically equivalent features across train/serve pipelines.
+# Using a blind set-intersection would silently miss columns with different names.
+TRAIN_SERVE_COLUMN_MAP = {
+    "match_score_train":  "match_score_served",  # same model score, different pipeline stage
+    "skill_gap":          "skill_gap",            # unchanged -- sanity check
+    "verified_skills":    "verified_skills",      # unchanged -- sanity check
+    "years_exp":          "years_exp",            # unchanged -- sanity check
+}
+
+HEALTH_REPORT_MAX_AGE_HOURS = 24
 
 
 # ── nDCG helpers ───────────────────────────────────────────────────────────────
@@ -57,6 +69,41 @@ def _validate_inputs(pred: pd.DataFrame, inter: pd.DataFrame,
             raise ValueError(f"{name} missing columns: {missing}")
     if pred.empty or inter.empty:
         raise ValueError("prediction_logs or interaction_logs is empty")
+
+
+def _check_report_freshness() -> dict:
+    """Returns a freshness status dict. If the report is >24h old, health is 'stale'."""
+    p = REPORTS / "health_report.json"
+    if not p.exists():
+        return {"status": "missing", "age_hours": None}
+    mtime = datetime.fromtimestamp(p.stat().st_mtime, tz=timezone.utc)
+    age_hours = (datetime.now(timezone.utc) - mtime).total_seconds() / 3600
+    if age_hours > HEALTH_REPORT_MAX_AGE_HOURS:
+        return {"status": "stale", "age_hours": round(age_hours, 1),
+                "warning": f"health_report.json is {age_hours:.1f}h old — treat health as unknown, do not reuse stale numbers."}
+    return {"status": "fresh", "age_hours": round(age_hours, 1)}
+
+
+def _compute_fairness_gap(merged: pd.DataFrame) -> dict:
+    """Demographic-parity style disparity across college_tier (non-sensitive proxy)."""
+    if "college_tier" not in merged.columns:
+        return {"available": False}
+    tier_ctrs = merged.groupby("college_tier")["clicked"].mean()
+    best  = float(tier_ctrs.max())
+    worst = float(tier_ctrs.min())
+    disparity = round(best - worst, 4)
+    return {
+        "available": True,
+        "metric": "CTR disparity across college_tier (demographic-parity proxy)",
+        "best_tier":  int(tier_ctrs.idxmax()),
+        "worst_tier": int(tier_ctrs.idxmin()),
+        "best_ctr":   round(best, 4),
+        "worst_ctr":  round(worst, 4),
+        "disparity":  disparity,
+        "flagged":    disparity > 0.05,
+        "per_tier":   {str(k): round(float(v), 4) for k, v in tier_ctrs.items()},
+    }
+
 
 
 def compute_health_report(pred_path: Path = None, inter_path: Path = None,
@@ -103,20 +150,29 @@ def compute_health_report(pred_path: Path = None, inter_path: Path = None,
                                          - grp["served_score"].mean(), 4),
         }
 
-    # ── 4. Train/serve skew detection ─────────────────────────────────────────
+    # -- 4. Train/serve skew detection (explicit column mapping) -----------------
+    # We use an explicit train<->serve column map instead of a blind set intersection.
+    # A blind intersection would silently exclude columns with different names across
+    # pipelines (e.g. match_score_train vs match_score_served), masking real skew.
     skew_results = {}
-    common_feats = list(set(train.columns) & set(serve.columns)
-                         - {"log_id", "student_id", "job_id",
-                             "match_score_train", "match_score_served",
-                             "skill_score_served", "skew"})
-    for feat in common_feats:
-        if train[feat].dtype in [np.float64, np.int64, float, int]:
-            stat, pval = ks_2samp(train[feat].dropna(), serve[feat].dropna())
-            skew_results[feat] = {
-                "ks_statistic": round(float(stat), 4),
-                "p_value":      round(float(pval), 6),
-                "skew_detected": pval < 0.05,
-            }
+    for train_col, serve_col in TRAIN_SERVE_COLUMN_MAP.items():
+        if train_col not in train.columns or serve_col not in serve.columns:
+            skew_results[f"{train_col}-->{serve_col}"] = {"skipped": "column not found"}
+            continue
+        t_vals = pd.to_numeric(train[train_col], errors="coerce").dropna()
+        s_vals = pd.to_numeric(serve[serve_col],  errors="coerce").dropna()
+        if t_vals.empty or s_vals.empty:
+            continue
+        stat, pval = ks_2samp(t_vals, s_vals)
+        skew_results[f"{train_col}-->{serve_col}"] = {
+            "train_col":      train_col,
+            "serve_col":      serve_col,
+            "ks_statistic":   round(float(stat), 4),
+            "p_value":        round(float(pval), 6),
+            # Explicit bool() cast -- avoids numpy bool serializing as the string "False"
+            # which would evaluate as truthy in downstream if-checks.
+            "skew_detected":  bool(pval < 0.05),
+        }
 
     # ── 5. Per-segment CTR gap ────────────────────────────────────────────────
     segment_gap = {}
@@ -134,6 +190,8 @@ def compute_health_report(pred_path: Path = None, inter_path: Path = None,
         segment_gap[attr] = seg
 
     report = {
+        "generated_at":      datetime.now(timezone.utc).isoformat(),
+        "freshness":         _check_report_freshness(),
         "summary": {
             "ndcg_at_5_offline":    round(ndcg_overall, 4),
             "ctr_online":           round(ctr, 4),
@@ -148,27 +206,39 @@ def compute_health_report(pred_path: Path = None, inter_path: Path = None,
         "by_model_version":  version_stats,
         "train_serve_skew":  skew_results,
         "by_segment":        segment_gap,
+        "fairness":          _compute_fairness_gap(merged),
     }
 
     with open(REPORTS / "health_report.json", "w") as f:
-        json.dump(report, f, indent=2, default=str)
+        # No default=str -- all values are native Python types to avoid bool->string bug
+        json.dump(report, f, indent=2)
     return report
 
 
 if __name__ == "__main__":
     report = compute_health_report()
     s = report["summary"]
-    print("── Health Report ──")
+    print("=== Health Report ===")
     print(f"  nDCG@5 (offline):            {s['ndcg_at_5_offline']}")
     print(f"  CTR (online):                {s['ctr_online']}")
     print(f"  Expected CTR from score:     {s['expected_ctr_from_score']}")
     print(f"  Online/offline gap:          {s['online_offline_gap']}  ({s['gap_direction']})")
     print(f"  Apply rate:                  {s['apply_rate_online']}")
-    print(f"\n── Per-version ──")
+    print("\n--- Per-version ---")
     for v, vs in report["by_model_version"].items():
         print(f"  {v}: nDCG={vs['ndcg_at_5']}, CTR={vs['ctr']}, "
               f"skew={vs['mean_skew']}, gap={vs['online_offline_gap']}")
-    print(f"\n── Train/serve skew ──")
-    for feat, res in report["train_serve_skew"].items():
-        flag = "⚠️ SKEW" if res["skew_detected"] else "✅ OK"
-        print(f"  {feat}: KS={res['ks_statistic']}, p={res['p_value']}  {flag}")
+    print("\n--- Train/serve skew ---")
+    for key, res in report["train_serve_skew"].items():
+        if "skipped" in res:
+            print(f"  {key}: SKIPPED ({res['skipped']})")
+            continue
+        flag = "[SKEW DETECTED]" if res["skew_detected"] else "[OK]"
+        print(f"  {key}: KS={res['ks_statistic']}, p={res['p_value']}  {flag}")
+    f_gap = report.get("fairness", {})
+    if f_gap.get("available"):
+        flagged = "[FLAGGED]" if f_gap["flagged"] else "[OK]"
+        print(f"\n--- Fairness ---")
+        print(f"  CTR disparity across college_tier: {f_gap['disparity']} {flagged}")
+        print(f"  Best tier {f_gap['best_tier']}: {f_gap['best_ctr']}  |  "
+              f"Worst tier {f_gap['worst_tier']}: {f_gap['worst_ctr']}")

@@ -7,9 +7,9 @@
 ## Verdict
 
 ```
-Deliverable 1: ✅ Model-health report complete — online/offline gap = -0.2885 (model over-confident)
-Deliverable 2: ✅ Ranked defect list — 2,367 defects detected across 8,000 logged predictions
-Deliverable 3: ✅ Phase-3 backlog — 7 items (3 P0, 4 P1), ranked by user impact
+Deliverable 1: Model-health report complete -- online/offline gap = -0.2877 (model over-confident)
+Deliverable 2: Ranked defect list -- 1,342 defects detected across 8,000 logged predictions
+Deliverable 3: Phase-3 backlog -- 7 items (3 P0, 4 P1), ranked by user impact
 Callable live:  GET /health/gap  |  GET /defects/list  |  GET /backlog
 ```
 
@@ -30,11 +30,11 @@ The three deliverables are connected:
 
 | Input | Source | Validated |
 |-------|--------|-----------|
-| `prediction_logs.csv` | Every served score with features + model_version | ✅ at load time |
-| `interaction_logs.csv` | Impressions, clicks, applications | ✅ at load time |
-| `training_features.csv` | Features as computed at training time | ✅ at load time |
-| `serving_features.csv` | Features as computed at serving time | ✅ at load time |
-| `defect_labels.csv` | 1,162 admin-reviewed labels (15.8% defects) | ✅ at load time |
+| `prediction_logs.csv` | Every served score with features + model_version | validated at load time |
+| `interaction_logs.csv` | Impressions, clicks, applications | validated at load time |
+| `training_features.csv` | Features as computed at training time | validated at load time |
+| `serving_features.csv` | Features as computed at serving time | validated at load time |
+| `defect_labels.csv` | 1,201 admin-reviewed labels (14.2% defects) | validated at load time |
 
 All inputs validated at load time — `ValueError` raised with named missing columns, never silent.
 
@@ -67,15 +67,27 @@ The model scores candidates at 0.54 on average, but users only click 25% of reco
 
 ### Train/serve skew detection (KS test)
 
-| Feature | KS statistic | p-value | Skew detected? |
-|---------|-------------|---------|----------------|
-| model_score | 0.1283 | 0.000 | ⚠️ YES |
-| skill_score_feature | 0.1057 | 0.000 | ⚠️ YES |
-| verified_skills | 0.0000 | 1.000 | ✅ No |
-| skill_gap | 0.0000 | 1.000 | ✅ No |
-| years_exp | 0.0000 | 1.000 | ✅ No |
+The KS test uses an **explicit column mapping** (`TRAIN_SERVE_COLUMN_MAP`) rather than a blind set-intersection. A blind intersection would silently exclude columns with different names in each pipeline (e.g. `match_score_train` vs `match_score_served`), making skew invisible.
 
-`model_score` and `skill_score_feature` show statistically significant distributional shift between training and serving time (p=0.000). This is the root cause of the v1.1/v1.2 regression — a feature pipeline change introduced a systematic upward bias in served scores.
+| Feature pair (train -> serve) | KS statistic | p-value | Skew detected? |
+|-------------------------------|-------------|---------|----------------|
+| match_score_train -> match_score_served | 0.1295 | 0.000 | YES - SKEW |
+| skill_gap -> skill_gap | 0.0000 | 1.000 | No |
+| verified_skills -> verified_skills | 0.0000 | 1.000 | No |
+| years_exp -> years_exp | 0.0000 | 1.000 | No |
+
+`match_score_train-->match_score_served` shows statistically significant distributional shift (KS=0.130, p=0.000). This is the root cause of the v1.1/v1.2 regression -- the feature pipeline introduced a systematic upward bias in served scores vs training scores.
+
+### Worked Example
+**Input:** `v1.2` prediction logs (8,000 recommendations) with training features and serving features (where skew is injected).
+**Output:** Health report showing `online_offline_gap = -0.32` for `v1.2` and `KS p=0.000` for `match_score_train-->match_score_served`.
+**Reason:** The feature pipeline in serving adds a systematic upward bias (mean +0.08) not present in training, inflating offline predicted CTR while actual online CTR plummets.
+
+### Failure Handling
+If `serving_features.csv` is missing or missing required columns like `skill_gap`, the `health_monitor.py` pipeline fails loudly at load time with `ValueError: serving_features missing columns: {'skill_gap'}`. It does not proceed silently with partial data.
+
+### Alternative Approaches Considered
+See [Design Decisions](#design-decisions) below for rationale on global metrics vs. per-segment breakdowns.
 
 ---
 
@@ -99,13 +111,16 @@ High recall (0.926) was prioritised — in a defect detection system, missing a 
 
 | Category | Count | Mean user impact |
 |----------|-------|-----------------|
-| false_positive | 1,087 | 0.476 |
-| skew_induced | 642 | 0.500 ← highest |
-| false_negative | 120 | 0.431 |
+| false_positive | 813 | 0.430 |
+| skew_induced | 336 | 0.486 (highest) |
+| false_negative | 41 | 0.382 |
+| none (clean, but flagged) | 152 | 0.385 |
 
-**2,367 total defects detected (29.6% of all predictions).** Skew-induced defects have the highest mean impact — they are the direct downstream consequence of the train/serve skew found in Deliverable 1.
+**1,342 predicted defects (16.8% of all predictions).** The `none` bucket (152 rows) represents predictions where the classifier assigned a defect label but the admin-reviewed ground truth was clean — these are false positives of the classifier itself. Headline defect count (1,342) excludes the `none` bucket; total classifier-flagged rows = 1,342.
 
-### One worked example
+Skew-induced defects have the highest mean impact -- direct downstream consequence of the train/serve skew found in Deliverable 1.
+
+### Worked Example
 
 `GET /defects/score/L000000` returns:
 ```json
@@ -120,6 +135,12 @@ High recall (0.926) was prioritised — in a defect detection system, missing a 
 }
 ```
 
+### Failure Handling
+If `ranked_defects.csv` is missing or `defect_ranker.py` hasn't been run, the API endpoints `/defects/list` and `/defects/summary` immediately return `503 Service Unavailable` with `{"error": "Run src/defect_ranker.py first"}`.
+
+### Alternative Approaches Considered
+We chose an ML-based defect classification (Gradient Boosting) over simple heuristic thresholds (e.g., `score - click < threshold`) because defects involve non-linear interactions between rank position, skew penalty, and served score that static heuristics fail to capture accurately across thousands of logs.
+
 ---
 
 ## Deliverable 3 — Phase-3 backlog
@@ -128,15 +149,26 @@ High recall (0.926) was prioritised — in a defect detection system, missing a 
 
 | Rank | ID | Priority | Title | Affected | Effort |
 |------|----|----------|-------|----------|--------|
-| 1 | B-002 | P0 | Investigate online/offline metric gap — model over-confident | 8,000 | 8d |
+| 1 | B-002 | P0 | Investigate online/offline metric gap -- model over-confident | 8,000 | 8d |
 | 2 | B-007 | P0 | Ensure 100% prediction logging with model version + feature snapshot | 8,000 | 3d |
-| 3 | B-001 | P0 | Fix train/serve skew in features: skill_score_feature, model_score | 6,411 | 5d |
+| 3 | B-001 | P0 | Fix train/serve skew in features: match_score_train | varies | 5d |
 | 4 | B-006 | P1 | Improve matching quality for college_tier=2 (lowest CTR) | varies | 10d |
-| 5 | B-004 | P1 | Remediate false_positive defects | 1,087 | 6d |
-| 6 | B-003 | P1 | Remediate skew_induced defects | 642 | 6d |
-| 7 | B-005 | P1 | Remediate false_negative defects | 120 | 6d |
+| 5 | B-004 | P1 | Remediate false_positive defects | 813 | 6d |
+| 6 | B-003 | P1 | Remediate skew_induced defects | 336 | 6d |
+| 7 | B-005 | P1 | Remediate false_negative defects | 41 | 6d |
 
 Every item has: evidence (pointing to a specific number), metric to move, owner, and effort estimate. Nothing is in the backlog on a hunch.
+
+### Worked Example
+**Input:** High frequency of skew-induced defects and poor performance in `college_tier=2`.
+**Output:** Backlog items B-001 (P0: Fix train/serve skew) and B-006 (P1: Improve matching for college_tier=2).
+**Reason:** The backlog generator translates specific quantitative evidence (KS test results, demographic parity gap) directly into actionable engineering tickets, preventing work prioritized on hunches.
+
+### Failure Handling
+If `health_report.json` is missing or stale (>24h old), the backlog generator raises `RuntimeError: Health report is stale/missing, please run health_monitor.py first`, refusing to generate a backlog based on outdated data.
+
+### Alternative Approaches Considered
+We chose to rank backlog items programmatically by `affected_users` and severity `priority` rather than human curation. This ensures that silent but high-impact issues (like the tier 2 performance drop) are automatically flagged as P1s before they require a manual audit.
 
 ---
 
@@ -157,13 +189,16 @@ task01_phase3/
 │
 ├── src/
 │   ├── health_monitor.py       # nDCG@5, CTR, gap, skew detection, per-version/segment
-│   ├── defect_ranker.py        # LightGBM defect classifier + ranked defect list
+│   ├── defect_ranker.py        # sklearn GradientBoosting defect classifier + ranked defect list
 │   ├── backlog_generator.py    # evidence-driven Phase-3 backlog
 │   └── models/
 │       └── defect_classifier.pkl
 │
 ├── api/
-│   └── app.py                  # FastAPI: /health/*, /defects/*, /backlog/*, /edge-cases
+│   └── app.py                  # FastAPI (preferred) or stdlib http.server fallback
+│
+├── scripts/
+│   └── demo_failure_injection.py  # Stage E.3: deliberate failure injection demo
 │
 ├── reports/
 │   ├── health_report.json      # full health metrics

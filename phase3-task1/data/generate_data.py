@@ -46,8 +46,8 @@ jobs = pd.DataFrame({
 base_date = datetime(2026, 4, 1)
 rows = []
 for _ in range(N_IMPRESSIONS):
-    stu   = students.sample(1, random_state=None).iloc[0]
-    job   = jobs.sample(1, random_state=None).iloc[0]
+    stu   = students.sample(1, random_state=int(RNG.integers(0, 2**31))).iloc[0]
+    job   = jobs.sample(1, random_state=int(RNG.integers(0, 2**31))).iloc[0]
     mv    = RNG.choice(MODEL_VERSIONS, p=[0.20, 0.35, 0.45])
     ts    = base_date + timedelta(
                 days=int(RNG.integers(0, 90)),

@@ -89,18 +89,12 @@ def train(labels_path: Path = None, pred_path: Path = None) -> dict:
     X_tr, y_tr = X[tr], y[tr]
     X_te, y_te = X[te], y[te]
 
-    # ── Train ──────────────────────────────────────────────────────────────────
-    try:
-        import lightgbm as lgb
-        clf = lgb.LGBMClassifier(
-            n_estimators=200, max_depth=5, learning_rate=0.05,
-            class_weight="balanced", random_state=42, verbose=-1
-        )
-    except ImportError:
-        clf = GradientBoostingClassifier(
-            n_estimators=150, max_depth=4, learning_rate=0.08,
-            random_state=42
-        )
+    # Always use sklearn GradientBoostingClassifier so the saved .pkl is portable
+    # and can be loaded in any environment without requiring lightgbm.
+    clf = GradientBoostingClassifier(
+        n_estimators=150, max_depth=4, learning_rate=0.08,
+        random_state=42
+    )
 
     clf.fit(X_tr, y_tr)
 

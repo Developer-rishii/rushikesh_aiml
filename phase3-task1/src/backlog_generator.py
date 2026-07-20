@@ -45,8 +45,12 @@ def generate_backlog() -> dict:
     ranked    = _load_ranked_defects()
 
     s         = health["summary"]
-    skew_feats = [f for f, v in health["train_serve_skew"].items()
-                   if v["skew_detected"]]
+    # skew dict keys are now "train_col-->serve_col" with a nested skew_detected bool.
+    # We extract the train_col name when skew is detected for human-readable backlog items.
+    skew_feats = []
+    for key, v in health["train_serve_skew"].items():
+        if isinstance(v, dict) and v.get("skew_detected") is True:
+            skew_feats.append(v.get("train_col", key))
 
     # ── Build backlog items from evidence ─────────────────────────────────────
     items = []
@@ -68,7 +72,7 @@ def generate_backlog() -> dict:
                 f"Skew accounts for a portion of the "
                 f"{abs(s['online_offline_gap']):.3f} online/offline gap."
             ),
-            "metric_to_move": "online_offline_gap → 0",
+            "metric_to_move": "online_offline_gap -> 0",
             "affected_users": int(
                 ranked[ranked["model_version"].isin(
                     [v for v, vs in health["by_model_version"].items()
@@ -115,7 +119,7 @@ def generate_backlog() -> dict:
                 f"mean user impact = {stats['mean_impact']:.3f}. "
                 f"Mean defect rank = {stats['mean_rank']:.0f} (lower = hurts more users)."
             ),
-            "metric_to_move": f"Defect count → 0 for {cat}",
+            "metric_to_move": f"Defect count -> 0 for {cat}",
             "affected_users": int(stats["count"]),
             "owner":          "AI/ML Engineer",
             "effort_days":    6,
@@ -139,7 +143,7 @@ def generate_backlog() -> dict:
                 f"the worst-performing segment. This may reflect fairness issues "
                 f"carried from the bias audit (Task 21/24)."
             ),
-            "metric_to_move": f"Tier {worst_tier} CTR → segment average",
+            "metric_to_move": f"Tier {worst_tier} CTR -> segment average",
             "affected_users": health["by_segment"]["college_tier"][worst_tier]["n"],
             "owner":          "AI/ML Engineer",
             "effort_days":    10,
@@ -156,7 +160,7 @@ def generate_backlog() -> dict:
             "but feature snapshots at serving time need to be persisted separately "
             "to enable reproducible skew detection."
         ),
-        "metric_to_move": "Prediction log completeness → 100%",
+        "metric_to_move": "Prediction log completeness -> 100%",
         "affected_users": s["total_impressions"],
         "owner":          "AI/ML + Backend",
         "effort_days":    3,
@@ -233,7 +237,7 @@ def _write_markdown(backlog: dict) -> None:
             f"**Metric to move:** {item['metric_to_move']}",
             f"",
         ]
-    with open(REPORTS / "phase3_backlog.md", "w") as f:
+    with open(REPORTS / "phase3_backlog.md", "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
 
