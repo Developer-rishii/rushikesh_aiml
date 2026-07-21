@@ -1,0 +1,104 @@
+{
+  "baseline_metrics": {
+    "nDCG@10": 0.5629480738822911,
+    "P@10": 0.7291666666666666,
+    "MAP@10": 0.8345895927815571,
+    "n_queries": 120
+  },
+  "optimized_metrics": {
+    "nDCG@10": 0.5815455095745249,
+    "P@10": 0.7608333333333335,
+    "MAP@10": 0.8439605864722431,
+    "n_queries": 120
+  },
+  "quality_delta": {
+    "nDCG@10": 0.0186,
+    "P@10": 0.0317,
+    "MAP@10": 0.0094
+  },
+  "before_latency": {
+    "n_requests": 120,
+    "p50_ms": 109.38424999949348,
+    "p95_ms": 124.23663500003386,
+    "p99_ms": 145.5260980007006,
+    "mean_ms": 111.31906666669238,
+    "max_ms": 149.30879999883473
+  },
+  "after_latency_cold": {
+    "n_requests": 120,
+    "p50_ms": 17.931799999132636,
+    "p95_ms": 21.384234999914042,
+    "p99_ms": 22.95473199999833,
+    "mean_ms": 18.479045833282726,
+    "max_ms": 54.945399999269284
+  },
+  "after_latency_warm": {
+    "n_requests": 120,
+    "p50_ms": 1.635800000258314,
+    "p95_ms": 1.8223299997771392,
+    "p99_ms": 1.9859590003216,
+    "mean_ms": 1.6368950000014593,
+    "max_ms": 2.0399000004545087
+  },
+  "before_meets_slo": false,
+  "after_meets_slo": true,
+  "slo_ms": 40.0,
+  "p95_speedup_x": 68.17,
+  "cost_before": {
+    "requests_per_day_assumed": 2000000,
+    "p50_ms": 109.38424999949348,
+    "p95_ms": 124.23663500003386,
+    "estimated_daily_cost_usd": 196.89
+  },
+  "cost_after": {
+    "requests_per_day_assumed": 2000000,
+    "p50_ms": 1.635800000258314,
+    "p95_ms": 1.8223299997771392,
+    "estimated_daily_cost_usd": 2.94
+  },
+  "daily_cost_savings_usd": 193.95,
+  "model_size_reduction_pct": 99.9,
+  "fairness_baseline": {
+    "group_means": {
+      "A": 0.8675171167744389,
+      "B": 0.8621142330723169
+    },
+    "abs_gap": 0.005402883702121941,
+    "relative_gap": 0.0062,
+    "threshold": 0.15,
+    "flagged": false
+  },
+  "fairness_optimized": {
+    "group_means": {
+      "A": 0.857163028171962,
+      "B": 0.8568301358489759
+    },
+    "abs_gap": 0.00033289232298605587,
+    "relative_gap": 0.0004,
+    "threshold": 0.15,
+    "flagged": false
+  },
+  "failure_injection_demo": {
+    "forced_unavailable": true,
+    "path_used": "fallback",
+    "n_scores_returned": 40,
+    "request_failed": false
+  },
+  "worked_example": {
+    "job_id": "job_00001",
+    "top_candidate": "job_00001_c036",
+    "predicted_score": 1.3216077085609836,
+    "true_relevance_label": 1,
+    "plain_english_reason": "Ranked #1 mainly due to 'skill_overlap' (value=0.92, global feature importance=0.70), combined with skill_overlap=0.92 and years_experience=13.6.",
+    "feature_importances_optimized_model": {
+      "skill_overlap": 0.7029,
+      "years_experience": 0.0684,
+      "distance_km": 0.0622,
+      "salary_gap_pct": 0.0204,
+      "candidate_activity_score": 0.0851,
+      "candidate_past_response_rate": 0.0271,
+      "job_fill_urgency": 0.0225,
+      "recruiter_rating": 0.0114
+    }
+  }
+}

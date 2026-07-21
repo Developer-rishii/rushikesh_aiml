@@ -13,3 +13,11 @@ ENV/
 # Testing and Coverage
 .pytest_cache/
 .cache
+
+# Large model files (GitHub limit is 100MB)
+**/experiments/models/ranker_baseline_*.joblib
+*.onnx
+
+# MLflow
+mlruns/
+mlruns.db

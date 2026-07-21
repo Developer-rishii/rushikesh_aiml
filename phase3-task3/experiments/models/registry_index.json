@@ -1,0 +1,119 @@
+[
+  {
+    "name": "ranker_baseline",
+    "version": 1,
+    "file": "ranker_baseline_v1.joblib",
+    "metrics": {
+      "nDCG@10": 0.5642847767980438,
+      "P@10": 0.7308333333333333,
+      "MAP@10": 0.8347705393885949,
+      "n_queries": 120
+    },
+    "params": {
+      "n_estimators": 400,
+      "max_depth": "None (unbounded)",
+      "total_nodes": 3957504,
+      "train_time_s": 62.93
+    },
+    "size_bytes": 285066433,
+    "created_at": "2026-07-21T07:56:06.942586+00:00"
+  },
+  {
+    "name": "ranker_optimized",
+    "version": 1,
+    "file": "ranker_optimized_v1.joblib",
+    "metrics": {
+      "nDCG@10": 0.5815829809559857,
+      "P@10": 0.7608333333333335,
+      "MAP@10": 0.8439605864722431,
+      "n_queries": 120
+    },
+    "params": {
+      "n_estimators": 25,
+      "max_depth": 6,
+      "total_nodes": 2969,
+      "train_time_s": 1.58,
+      "distilled_from": "ranker_baseline v1"
+    },
+    "size_bytes": 222897,
+    "created_at": "2026-07-21T07:56:23.312754+00:00"
+  },
+  {
+    "name": "ranker_baseline",
+    "version": 2,
+    "file": "ranker_baseline_v2.joblib",
+    "metrics": {
+      "nDCG@10": 0.5629480738822911,
+      "P@10": 0.7291666666666666,
+      "MAP@10": 0.8345895927815571,
+      "n_queries": 120
+    },
+    "params": {
+      "n_estimators": 400,
+      "max_depth": "None (unbounded)",
+      "total_nodes": 3957504,
+      "train_time_s": 6.69
+    },
+    "size_bytes": 285066401,
+    "created_at": "2026-07-21T08:42:29.319578+00:00"
+  },
+  {
+    "name": "ranker_optimized",
+    "version": 2,
+    "file": "ranker_optimized_v2.joblib",
+    "metrics": {
+      "nDCG@10": 0.5815455095745249,
+      "P@10": 0.7608333333333335,
+      "MAP@10": 0.8439605864722431,
+      "n_queries": 120
+    },
+    "params": {
+      "n_estimators": 25,
+      "max_depth": 6,
+      "total_nodes": 2969,
+      "train_time_s": 0.18,
+      "distilled_from": "ranker_baseline v2"
+    },
+    "size_bytes": 222881,
+    "created_at": "2026-07-21T08:42:43.315465+00:00"
+  },
+  {
+    "name": "ranker_baseline",
+    "version": 3,
+    "file": "ranker_baseline_v3.joblib",
+    "metrics": {
+      "nDCG@10": 0.5629480738822911,
+      "P@10": 0.7291666666666666,
+      "MAP@10": 0.8345895927815571,
+      "n_queries": 120
+    },
+    "params": {
+      "n_estimators": 400,
+      "max_depth": "None (unbounded)",
+      "total_nodes": 3957504,
+      "train_time_s": 7.76
+    },
+    "size_bytes": 285066401,
+    "created_at": "2026-07-21T09:28:26.503743+00:00"
+  },
+  {
+    "name": "ranker_optimized",
+    "version": 3,
+    "file": "ranker_optimized_v3.joblib",
+    "metrics": {
+      "nDCG@10": 0.5815455095745249,
+      "P@10": 0.7608333333333335,
+      "MAP@10": 0.8439605864722431,
+      "n_queries": 120
+    },
+    "params": {
+      "n_estimators": 25,
+      "max_depth": 6,
+      "total_nodes": 2969,
+      "train_time_s": 0.23,
+      "distilled_from": "ranker_baseline v3"
+    },
+    "size_bytes": 222881,
+    "created_at": "2026-07-21T09:28:42.456356+00:00"
+  }
+]

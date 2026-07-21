@@ -1,0 +1,18 @@
+{
+  "mode": "BEFORE (baseline)",
+  "stage_breakdown_ms": {
+    "feature_fetch_ms": 49.641499999779626,
+    "full_request_ms": 123.36680000043998,
+    "inference_and_overhead_ms": 73.72530000066035
+  },
+  "latency": {
+    "n_requests": 120,
+    "p50_ms": 109.38424999949348,
+    "p95_ms": 124.23663500003386,
+    "p99_ms": 145.5260980007006,
+    "mean_ms": 111.31906666669238,
+    "max_ms": 149.30879999883473
+  },
+  "slo_ms": 40.0,
+  "meets_slo": false
+}
