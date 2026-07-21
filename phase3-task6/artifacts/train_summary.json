@@ -1,0 +1,8 @@
+{
+  "join_rate_outcomes_to_impressions": 1.0,
+  "n_train_rows": 30804,
+  "n_test_rows": 11196,
+  "test_click_auc": 0.5953954467348362,
+  "positive_rate_train": 0.3462212699649396,
+  "positive_rate_test": 0.3478921043229725
+}

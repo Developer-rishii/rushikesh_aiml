@@ -1,0 +1,40 @@
+{
+  "one_traced_impression": {
+    "reconstructed_ranked_list_position": 7,
+    "model_name": "ltr_ranker",
+    "model_version": "mv-2026.07.01",
+    "query_id": "f8927812-b09c-4551-815a-cc1191c43a1a",
+    "session_id": "4de62ebe-18a2-4cde-9962-b15261e64d11",
+    "item_id": "cand_661",
+    "full_event_chain": [
+      {
+        "event_type": "impression",
+        "event_id": "e45a3553-3d8c-4e22-bf7d-f4cc07221e15",
+        "position": 7,
+        "model_version": "mv-2026.07.01",
+        "ts": 1784645017.6573217
+      },
+      {
+        "event_type": "click",
+        "event_id": "496ecc6e-632b-4977-a833-4f0794303781",
+        "position": 7,
+        "model_version": "mv-2026.07.01",
+        "ts": 1784645017.6594489
+      },
+      {
+        "event_type": "apply",
+        "event_id": "59a7e0fe-349a-4701-a07d-6aee3d949395",
+        "position": 7,
+        "model_version": "mv-2026.07.01",
+        "ts": 1784645017.660448
+      }
+    ]
+  },
+  "aggregate_join_stats": {
+    "total_impressions": 42000,
+    "total_outcome_events": 20903,
+    "outcome_to_impression_joinable_rate": 1.0,
+    "impressions_missing_position": 0.0,
+    "impressions_missing_model_version": 0.0
+  }
+}

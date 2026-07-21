@@ -1,0 +1,21 @@
+{
+  "offline_model_vs_random_baseline": {
+    "trained_ranker": {
+      "nDCG@5": 0.5305089077160144,
+      "MAP@5": 0.672843567251462,
+      "Precision@5": 0.5263157894736842
+    },
+    "random_baseline": {
+      "nDCG@5": 0.4129785179704631,
+      "MAP@5": 0.6089546783625731,
+      "Precision@5": 0.4052631578947368
+    },
+    "beats_baseline": true
+  },
+  "online_ctr_by_model_version": {
+    "mv-2026.07.01": 0.34118570867687475,
+    "mv-2026.07.15": 0.3512994683992912,
+    "v0-static": 0.36009174311926606
+  },
+  "offline_online_gap_note": "Offline nDCG is computed on noisy implicit click labels (not true relevance), so it is itself a lower bound. The online CTR-by-version split is only possible because Stage C stamps model_version on every impression -- this is the concrete artifact that lets us connect offline wins to online effect per the Core Concepts section."
+}

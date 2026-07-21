@@ -1,0 +1,23 @@
+{
+  "input": {
+    "skill_match": 0.929,
+    "experience_gap": 0.856,
+    "salary_fit": 0.902,
+    "location_match": 1.0,
+    "recency": 4.275
+  },
+  "output": {
+    "predicted_click_probability": 0.719,
+    "position_it_was_shown_at": 5,
+    "model_version": "mv-2026.07.01"
+  },
+  "plain_english_reason": "This candidate-job pair scored highly mainly because of 'skill_match' (the single most influential feature learned by the model, importance=0.441), combined with the other logged features. It was shown at position 5 by model mv-2026.07.01, and that exact model identity was stamped on the impression event so this explanation stays valid even if the model is retrained tomorrow.",
+  "what_happens_if_model_is_unavailable": "Serving falls back to the heuristic_fallback_ranker (see eval/failure_injection_test.py) instead of failing to serve a list. The fallback's identity is logged truthfully (model_name='heuristic_fallback_ranker'), so this worked example's explanation would never be silently attributed to a fallback decision, or vice versa.",
+  "feature_importances": {
+    "skill_match": 0.441,
+    "experience_gap": 0.157,
+    "salary_fit": 0.163,
+    "location_match": 0.14,
+    "recency": 0.1
+  }
+}
