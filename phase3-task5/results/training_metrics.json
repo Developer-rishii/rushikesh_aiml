@@ -1,0 +1,18 @@
+{
+  "train_size": 15649,
+  "test_size": 3963,
+  "baseline_ndcg_10": 0.6392,
+  "model_ndcg_10": 0.9183,
+  "improvement": 0.2791,
+  "params": {
+    "objective": "lambdarank",
+    "metric": "ndcg",
+    "ndcg_eval_at": [
+      10
+    ],
+    "learning_rate": 0.1,
+    "num_leaves": 31,
+    "min_data_in_leaf": 20,
+    "random_state": 42
+  }
+}
