@@ -1,0 +1,29 @@
+{
+  "audit_timestamp": "2026-07-23T06:26:56.407412",
+  "note": "fairness_group is a SIMULATED stand-in attribute, not fed to the model as a feature",
+  "stage_1_baseline_rule_audit": {
+    "flag_rate_by_group": {
+      "group_A": 0.2795491763799249,
+      "group_B": 0.2750172532781228
+    },
+    "demographic_parity_diff": 0.00453192310180206,
+    "tpr_by_group_among_actual_churners": {
+      "group_A": 0.5538836925579503,
+      "group_B": 0.5503222607833416
+    },
+    "equal_opportunity_diff": 0.00356143177460877
+  },
+  "stage_2_trained_model_audit": {
+    "flag_rate_by_group": {
+      "group_A": 0.09941238801656874,
+      "group_B": 0.1007591442374051
+    },
+    "demographic_parity_diff": 0.0013467562208363676,
+    "tpr_by_group_among_actual_churners": {
+      "group_A": 0.30784871899145994,
+      "group_B": 0.31234506693108577
+    },
+    "equal_opportunity_diff": 0.004496347939625833
+  },
+  "recommendation": "Re-run this exact audit on every retrain (wire into the CI/experiment_log step), not just once at project end. Flag for manual review if demographic_parity_diff or equal_opportunity_diff exceeds 0.10."
+}

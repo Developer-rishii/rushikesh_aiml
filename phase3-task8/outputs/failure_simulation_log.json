@@ -1,0 +1,13 @@
+{
+  "normal": {
+    "timestamp": "2026-07-23T06:27:15.544388",
+    "forced_failure": false,
+    "outcome": "model scored successfully, no degradation"
+  },
+  "degraded": {
+    "timestamp": "2026-07-23T06:27:32.197846",
+    "forced_failure": true,
+    "outcome": "DEGRADED MODE ENGAGED: Simulated: model service returned 503 / artifact failed to load.. Fell back to 14-day-inactivity rule. At-risk list still produced -- growth pipeline did not go silent."
+  },
+  "verification_passed": true
+}

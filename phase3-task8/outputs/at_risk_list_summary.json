@@ -1,0 +1,10 @@
+{
+  "as_of_date": "2026-01-10",
+  "n_scored_total": 8030,
+  "n_handed_to_growth": 500,
+  "mean_risk_score_top_list": 0.9258156000000001,
+  "lever_breakdown": {
+    "Re-engagement push notification / email": 490,
+    "Send curated job digest (browsing but not applying)": 10
+  }
+}

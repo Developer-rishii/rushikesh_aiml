@@ -1,0 +1,37 @@
+{
+  "pr_and_lift_by_model": {
+    "model_v1 (HistGBM)": {
+      "pr_auc": 0.609478689705877,
+      "lift@5%": 3.295710502650489,
+      "lift@10%": 3.097326626468591,
+      "lift@20%": 2.645218945487042,
+      "lift@30%": 2.3028523869898065
+    },
+    "baseline: 14-day-inactivity rule": {
+      "pr_auc": 0.47842923368295054,
+      "lift@5%": 2.7814544540686623,
+      "lift@10%": 2.5721666284742772,
+      "lift@20%": 2.2285522788203753,
+      "lift@30%": 1.935677022570022
+    },
+    "secondary baseline: RFM rule": {
+      "pr_auc": 0.5038101882446155,
+      "lift@5%": 2.7680390788882665,
+      "lift@10%": 2.574401351869998,
+      "lift@20%": 2.3033958891867736,
+      "lift@30%": 2.0392011111183996
+    }
+  },
+  "operating_point": {
+    "operating_threshold_percentile": 90,
+    "model_score_threshold": 0.8776172974820433,
+    "model_precision_at_threshold": 0.7269392033542977,
+    "model_recall_at_threshold": 0.3098748882931189,
+    "model_f1_at_threshold": 0.43452380952380953,
+    "baseline14_precision": 0.467031928962781,
+    "baseline14_recall": 0.5522788203753352,
+    "baseline14_f1": 0.5060906950557887,
+    "holdout_base_churn_rate": 0.2346526867627785,
+    "holdout_n": 19075
+  }
+}

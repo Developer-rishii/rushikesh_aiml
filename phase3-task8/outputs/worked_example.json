@@ -1,0 +1,29 @@
+{
+  "candidate_id": "C105970",
+  "as_of_date": "2025-11-01",
+  "input_features": {
+    "days_since_signup": 165.0,
+    "days_since_last_event": 53.0,
+    "events_7d": 0.0,
+    "events_14d": 0.0,
+    "events_30d": 0.0,
+    "events_90d": 1.0,
+    "apply_30d": 0.0,
+    "apply_90d": 1.0,
+    "login_30d": 0.0,
+    "distinct_event_types_30d": 0.0,
+    "recency_trend_ratio": 1.0,
+    "seniority_enc": 0.0,
+    "city_tier_enc": 2.0,
+    "channel_enc": 1.0,
+    "device_enc": 2.0
+  },
+  "model_output_risk_score": 0.9280215383904736,
+  "actual_outcome_next_21_days": "churned (no activity)",
+  "plain_english_reasons": [
+    "activity in the last 90 days is lower than typical (z=-1.2)",
+    "activity in the last 30 days is lower than typical (z=-1.2)",
+    "account age is higher than typical (z=1.1)"
+  ],
+  "model_unavailable_fallback": "If the model service is down, this candidate would instead be scored by the 14-day-inactivity rule using days_since_last_event only -- degraded but never silent (see failure_simulation.py)."
+}
