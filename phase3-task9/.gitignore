@@ -1,0 +1,5 @@
+data/interaction_logs.csv
+reports/*.csv
+reports/*.json
+reports/*.md
+reports/model_registry/*
