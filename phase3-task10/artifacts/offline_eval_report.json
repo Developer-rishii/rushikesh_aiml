@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "nDCG@10": 0.7312730374363887,
+    "MAP": 0.6883846844368613,
+    "precision@5": 0.68875,
+    "n_queries": 160
+  },
+  "treatment": {
+    "nDCG@10": 0.8206534686807292,
+    "MAP": 0.7838916160908822,
+    "precision@5": 0.78125,
+    "n_queries": 160
+  },
+  "gap_treatment_minus_baseline": {
+    "nDCG@10": 0.08938043124434047,
+    "MAP": 0.09550693165402091,
+    "precision@5": 0.09250000000000003
+  },
+  "note": "Offline win here is necessary but not sufficient: nDCG/MAP/precision improve on held-out relevance labels, but relevance labels are a proxy for what recruiters actually do (click/apply/shortlist). The A/B test (ab_simulation.py + readout.py) is what determines whether this offline gap survives contact with real behavior."
+}

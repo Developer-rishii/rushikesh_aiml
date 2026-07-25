@@ -1,0 +1,45 @@
+{
+  "generated_at_check": "computed strictly from data/online_ab_events.csv; see no-peeking guard above",
+  "pre_registration_reference": "2026-07-25T04:44:24Z",
+  "test_duration_days_observed": 14,
+  "sample_size": {
+    "required_per_arm": 46402,
+    "observed_control": 4580,
+    "observed_treatment": 4420,
+    "requirement_met": false
+  },
+  "primary_metric": {
+    "name": "application_rate",
+    "control": 0.038646288209606985,
+    "treatment": 0.03642533936651584,
+    "absolute_diff": -0.002220948843091146,
+    "relative_lift_pct": -5.74686197816805,
+    "p_value": 0.5795557287616864,
+    "significant_at_alpha_0.05": false,
+    "ci95_absolute_diff": [
+      -0.010073874071178792,
+      0.0056319763849965
+    ]
+  },
+  "secondary_metric_click_rate": {
+    "control": 0.12816593886462882,
+    "treatment": 0.133710407239819,
+    "relative_lift_pct": 4.32600769307854,
+    "p_value": 0.43560346491368707,
+    "note": "Reported so a 'wins on clicks but not shortlists' scenario is visible, not hidden."
+  },
+  "guardrails": {
+    "shortlist_rate": {
+      "control": 0.2711864406779661,
+      "treatment": 0.30434782608695654,
+      "relative_change": 0.12228260869565225,
+      "pass": true
+    },
+    "fairness_parity_gap": {
+      "control_gap": 0.0002975282270369223,
+      "treatment_gap": 0.0024602462211797405,
+      "pass": true
+    }
+  },
+  "practical_significance_note": "Relative lift is -5.75%. Pre-registered MDE was 8.0% relative \u2014 a statistically significant but sub-MDE lift is flagged as 'real but not worth the added serving cost' per the study guide's 'practical significance' concept, independent of the p-value."
+}

@@ -1,0 +1,40 @@
+{
+  "query_id": 2,
+  "top_model_feature_overall": "skill match to the job",
+  "feature_importances": {
+    "skill match to the job": 0.588,
+    "years of experience": 0.096,
+    "distance from job location": 0.09,
+    "past engagement rate": 0.001,
+    "profile/job semantic similarity": 0.224,
+    "how recently the job was posted": 0.001
+  },
+  "top_5_ranked_candidates": [
+    {
+      "candidate_id": "2_6",
+      "model_score": 2.0446211160220966,
+      "plain_english_reason": "Ranked highly mainly because of lower-than-average distance from job location (this candidate: 1.83 vs query average: 17.90), and less of this trait raises relevance for this feature."
+    },
+    {
+      "candidate_id": "2_31",
+      "model_score": 1.9629363049033968,
+      "plain_english_reason": "Ranked highly mainly because of higher-than-average skill match to the job (this candidate: 0.88 vs query average: 0.53), and more of this trait raises relevance for this feature."
+    },
+    {
+      "candidate_id": "2_17",
+      "model_score": 1.9241470405406036,
+      "plain_english_reason": "Ranked highly mainly because of lower-than-average distance from job location (this candidate: 8.53 vs query average: 17.90), and less of this trait raises relevance for this feature."
+    },
+    {
+      "candidate_id": "2_20",
+      "model_score": 1.7438318725770057,
+      "plain_english_reason": "Ranked highly mainly because of lower-than-average distance from job location (this candidate: 7.83 vs query average: 17.90), and less of this trait raises relevance for this feature."
+    },
+    {
+      "candidate_id": "2_22",
+      "model_score": 1.6664685243761574,
+      "plain_english_reason": "Ranked highly mainly because of higher-than-average years of experience (this candidate: 7.45 vs query average: 4.27), and more of this trait raises relevance for this feature."
+    }
+  ],
+  "model_unavailable_behavior": "If the treatment model is unavailable, this endpoint serves the baseline heuristic ranking instead (see failure_test.py) rather than failing the request."
+}

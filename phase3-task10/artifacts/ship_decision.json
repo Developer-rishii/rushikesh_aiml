@@ -1,0 +1,16 @@
+{
+  "decision": "DO NOT SHIP \u2014 revert to baseline heuristic ranker",
+  "decision_rule_applied": "SHIP if primary metric lift is statistically significant (p<0.05) AND positive AND both guardrails pass. DO NOT SHIP AND REVERT to the baseline heuristic if the primary metric is flat/not significant, or negative, or any guardrail fails \u2014 'ship on a neutral result' was considered and rejected: the treatment model adds permanent serving cost and complexity (Stage E / brainstorming Q2: 'is the lift worth the complexity you are adding forever?'), so a neutral result does not clear that bar.",
+  "reasoning": [
+    "Required sample size per the pre-registered power analysis was not met \u2014 result is inconclusive, not a null result.",
+    "Primary metric (application_rate) lift of -5.75% is not statistically significant (p=0.5796 >= 0.05)."
+  ],
+  "inputs": {
+    "primary_metric_relative_lift_pct": -5.74686197816805,
+    "p_value": 0.5795557287616864,
+    "sample_size_requirement_met": false,
+    "shortlist_guardrail_pass": true,
+    "fairness_guardrail_pass": true
+  },
+  "rollback_plan": "If DO NOT SHIP: traffic already defaults to control at the router level (see failure_test.py) \u2014 no rollback deploy needed, treatment is simply never promoted to 100%. Model version stays in the registry for postmortem."
+}

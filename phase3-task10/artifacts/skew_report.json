@@ -1,0 +1,44 @@
+{
+  "as_of_day": 59,
+  "n_rows_compared": 32000,
+  "columns": {
+    "skill_match": {
+      "mismatched_rows": 0,
+      "pct_mismatched": 0.0,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0
+    },
+    "experience_years": {
+      "mismatched_rows": 0,
+      "pct_mismatched": 0.0,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0
+    },
+    "distance_km": {
+      "mismatched_rows": 0,
+      "pct_mismatched": 0.0,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0
+    },
+    "past_ctr": {
+      "mismatched_rows": 0,
+      "pct_mismatched": 0.0,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0
+    },
+    "embedding_sim": {
+      "mismatched_rows": 0,
+      "pct_mismatched": 0.0,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0
+    },
+    "recency_days": {
+      "mismatched_rows": 31480,
+      "pct_mismatched": 98.38,
+      "max_abs_diff": 1.0,
+      "mean_abs_diff": 0.98375
+    }
+  },
+  "skew_detected": true,
+  "verdict": "FAIL: train/serve skew detected in one or more features. Root-caused to 'recency_days' \u2014 the serving path applies a +1 day offset the training path does not (see features.py comment). This must be fixed before shipping treatment; a model trained on correct recency but served with skewed recency will silently degrade in production."
+}

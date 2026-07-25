@@ -1,0 +1,7 @@
+{
+  "n_requests_simulated": 500,
+  "injected_failure_rate": 0.3,
+  "observed_fallback_rate": 0.32,
+  "zero_dropped_requests": true,
+  "verdict": "PASS: every simulated treatment-model failure was caught and served from the baseline heuristic ranker instead (observed fallback rate 32.0% vs injected failure rate 30% \u2014 consistent within sampling noise). No request was dropped or errored out to the caller."
+}

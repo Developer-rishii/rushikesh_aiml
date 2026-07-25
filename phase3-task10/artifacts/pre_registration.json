@@ -1,0 +1,31 @@
+{
+  "locked_at": "2026-07-25T04:44:24Z",
+  "hypothesis": "Ranking candidates with the treatment model (learned relevance ranker) increases the application rate (applications per impression, top-10 shown) for job postings, relative to the current production heuristic ranker, without degrading the shortlist rate or widening the fairness gap between candidate segments.",
+  "primary_metric": "application_rate",
+  "primary_metric_definition": "sum(applications) / sum(impressions), computed per arm over the full test window",
+  "baseline_rate_estimate": 0.052,
+  "minimum_detectable_effect_relative": 0.08,
+  "alpha": 0.05,
+  "power": 0.8,
+  "required_sample_size_per_arm_impressions": 46402,
+  "test_type": "fixed_horizon_two_proportion_z_test",
+  "test_duration_days": 14,
+  "randomization_unit": "job_posting (query_id), 50/50 control/treatment",
+  "single_look_rule": "Results are read out exactly once, after the full 14-day window closes and the required sample size is met. No interim peeking. If the window closes before the required sample size is reached, the test is extended, not stopped early, and this is logged as a deviation.",
+  "guardrail_metrics": [
+    {
+      "name": "shortlist_rate",
+      "definition": "shortlists / applications",
+      "rule": "must not drop by more than 5% relative vs control (non-inferiority guardrail)"
+    },
+    {
+      "name": "fairness_parity_gap",
+      "definition": "abs(application_rate[segment_A] - application_rate[segment_B]) within the treatment arm",
+      "rule": "must not exceed the control arm's parity gap by more than 2 percentage points"
+    }
+  ],
+  "alternative_approaches_considered": {
+    "fixed_horizon_vs_sequential": "Chose fixed-horizon (single look at a pre-computed sample size) over sequential/always-valid testing. Rejected sequential testing because it needs an always-valid inference library and more engineering time than this sprint has; fixed-horizon is simpler to defend to a non-statistician stakeholder and its false-positive control is easy to verify by hand. Tradeoff accepted: fixed-horizon cannot stop early even if the effect is obviously huge or obviously null, so it costs more calendar time in unambiguous cases."
+  },
+  "decision_rule_committed_in_advance": "SHIP if primary metric lift is statistically significant (p<0.05) AND positive AND both guardrails pass. DO NOT SHIP AND REVERT to the baseline heuristic if the primary metric is flat/not significant, or negative, or any guardrail fails \u2014 'ship on a neutral result' was considered and rejected: the treatment model adds permanent serving cost and complexity (Stage E / brainstorming Q2: 'is the lift worth the complexity you are adding forever?'), so a neutral result does not clear that bar."
+}
