@@ -1,0 +1,14 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+
+# Production recommendation (not installable in this offline sandbox --
+# see reports/design_decision.md section 2): re-fit the chosen model with
+# one of these once infra allows network access.
+# lightgbm>=4.0
+# xgboost>=2.0
+
+# Optional, only needed if you want tests/ to run under pytest instead of
+# its built-in plain-Python runner:
+# pytest>=7.0

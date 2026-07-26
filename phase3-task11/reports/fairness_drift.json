@@ -1,0 +1,40 @@
+{
+  "selection_rate_parity_top5": {
+    "heuristic": {
+      "A": {
+        "population_share": 0.504,
+        "top5_selection_share": 0.504
+      },
+      "C": {
+        "population_share": 0.192,
+        "top5_selection_share": 0.207
+      },
+      "B": {
+        "population_share": 0.304,
+        "top5_selection_share": 0.289
+      }
+    },
+    "chosen_model": {
+      "C": {
+        "population_share": 0.192,
+        "top5_selection_share": 0.191
+      },
+      "A": {
+        "population_share": 0.504,
+        "top5_selection_share": 0.489
+      },
+      "B": {
+        "population_share": 0.304,
+        "top5_selection_share": 0.32
+      }
+    }
+  },
+  "feature_drift_psi_train_vs_test": {
+    "skill_match": 0.0013,
+    "experience_match": 0.0029,
+    "embedding_sim": 0.0011,
+    "recency": 0.0059,
+    "past_response_rate": 0.0036,
+    "profile_completeness": 0.0045
+  }
+}

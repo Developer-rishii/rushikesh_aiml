@@ -1,0 +1,86 @@
+{
+  "n_train_jobs": 840,
+  "n_val_jobs": 180,
+  "n_test_jobs": 180,
+  "fitted_position_bias_eta": 1.3058230933963908,
+  "true_position_bias_eta": 1.4,
+  "propensities_by_position": {
+    "1": 1.0,
+    "2": 0.404490270672773,
+    "3": 0.23821222588802468,
+    "4": 0.16361237906893314,
+    "5": 0.12225561839472711,
+    "6": 0.09635452772701084,
+    "7": 0.07878643746570879,
+    "8": 0.0661796154950091,
+    "9": 0.05674506456252729,
+    "10": 0.04945120817575042,
+    "11": 0.04366418741720639,
+    "12": 0.038974469000845814,
+    "13": 0.035106460543977175,
+    "14": 0.03186834741584805,
+    "15": 0.02912278298512488,
+    "16": 0.026769010584596273,
+    "17": 0.024731552703526366,
+    "18": 0.022952826524240636,
+    "19": 0.021388189194884603,
+    "20": 0.02000253258010493
+  },
+  "metrics": {
+    "heuristic (current production)": {
+      "nDCG@10": 0.9137162536435347,
+      "MAP@10": 0.7680017636684302,
+      "Precision@5": 0.6344444444444444
+    },
+    "pairwise_raw (no bias correction)": {
+      "nDCG@10": 0.923803818937958,
+      "MAP@10": 0.7903301366843032,
+      "Precision@5": 0.6666666666666665
+    },
+    "pairwise_corrected (CHOSEN model)": {
+      "nDCG@10": 0.9452402100862924,
+      "MAP@10": 0.8352705761316871,
+      "Precision@5": 0.742222222222222
+    },
+    "listwise_corrected (alternative considered)": {
+      "nDCG@10": 0.9315636473185575,
+      "MAP@10": 0.8082010214579659,
+      "Precision@5": 0.6977777777777777
+    }
+  },
+  "ndcg_lift_pct_vs_heuristic": 3.4500816108997467,
+  "learned_weights": {
+    "pairwise_raw": {
+      "skill_match": 3.3372,
+      "experience_match": 1.8006,
+      "embedding_sim": 2.3953,
+      "recency": 3.755,
+      "past_response_rate": 0.4268,
+      "profile_completeness": 3.1269
+    },
+    "pairwise_corrected": {
+      "skill_match": 2.5074,
+      "experience_match": 1.0663,
+      "embedding_sim": 1.6916,
+      "recency": 1.5962,
+      "past_response_rate": 0.3111,
+      "profile_completeness": 1.8545
+    },
+    "listwise_corrected": {
+      "skill_match": 0.5018,
+      "experience_match": 0.3015,
+      "embedding_sim": 0.3484,
+      "recency": 0.5421,
+      "past_response_rate": 0.0165,
+      "profile_completeness": 0.3679
+    },
+    "true_relevance_generating_weights (simulator ground truth, NOT seen by any model)": {
+      "skill_match": 0.4,
+      "experience_match": 0.3,
+      "embedding_sim": 0.2,
+      "recency": 0.0,
+      "past_response_rate": 0.1,
+      "profile_completeness": 0.0
+    }
+  }
+}

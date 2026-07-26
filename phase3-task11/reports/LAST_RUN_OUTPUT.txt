@@ -1,0 +1,79 @@
+== Stage 1/5: generating logged impressions (simulated marketplace logs) ==
+Generated 24000 logged impressions across 1200 jobs.
+Randomized-order slice: 10.0% of impressions.
+Overall CTR: 0.044 | Apply rate: 0.019 | Shortlist rate: 0.008
+
+== Stage 2/5: estimating position-bias propensities (intervention harvesting) ==
+Fitted PBM eta = 1.365 (ground truth simulator eta = 1.4)
+  position  1: propensity=1.000  ips_weight=1.00
+  position  2: propensity=0.388  ips_weight=2.58
+  position  5: propensity=0.111  ips_weight=9.00
+  position 10: propensity=0.043  ips_weight=10.00
+  position 15: propensity=0.025  ips_weight=10.00
+  position 20: propensity=0.017  ips_weight=10.00
+
+== Stage 3/5: training LTR models + offline evaluation vs heuristic ==
+Train jobs=840  Val jobs=180  Test jobs=180  (held out, never trained on)
+Fitted position-bias eta=1.306 from randomized-slice intervention harvesting.
+
+heuristic (current production)                nDCG@10=0.9137  MAP@10=0.7680  P@5=0.6344
+pairwise_raw (no bias correction)             nDCG@10=0.9238  MAP@10=0.7903  P@5=0.6667
+pairwise_corrected (CHOSEN model)             nDCG@10=0.9452  MAP@10=0.8353  P@5=0.7422
+listwise_corrected (alternative considered)   nDCG@10=0.9316  MAP@10=0.8082  P@5=0.6978
+
+nDCG@10 lift of chosen model vs heuristic: +3.5%
+
+== Stage 4/5: fairness parity + drift monitoring ==
+{
+  "selection_rate_parity_top5": {
+    "heuristic": {
+      "A": {
+        "population_share": 0.504,
+        "top5_selection_share": 0.504
+      },
+      "C": {
+        "population_share": 0.192,
+        "top5_selection_share": 0.207
+      },
+      "B": {
+        "population_share": 0.304,
+        "top5_selection_share": 0.289
+      }
+    },
+    "chosen_model": {
+      "C": {
+        "population_share": 0.192,
+        "top5_selection_share": 0.191
+      },
+      "A": {
+        "population_share": 0.504,
+        "top5_selection_share": 0.489
+      },
+      "B": {
+        "population_share": 0.304,
+        "top5_selection_share": 0.32
+      }
+    }
+  },
+  "feature_drift_psi_train_vs_test": {
+    "skill_match": 0.0013,
+    "experience_match": 0.0029,
+    "embedding_sim": 0.0011,
+    "recency": 0.0059,
+    "past_response_rate": 0.0036,
+    "profile_completeness": 0.0045
+  }
+}
+
+== Stage 5/5: failure-mode + regression tests (deliberately induced failures) ==
+WARNING serve: LTR scoring failed (ValueError("Missing required feature columns: ['embedding_sim']")) -- falling back to heuristic baseline.
+WARNING serve: LTR scoring failed (FileNotFoundError(2, 'No such file or directory')) -- falling back to heuristic baseline.
+PASS  test_leakage_guard_trips_on_position_column
+PASS  test_missing_feature_column_falls_back_to_heuristic
+PASS  test_missing_model_file_falls_back_to_heuristic
+PASS  test_model_beats_heuristic_offline
+PASS  test_normal_serving_uses_ltr_model
+
+5 passed, 0 failed out of 5
+
+Done. See reports/metrics.json, reports/fairness_drift.json, reports/*.md
