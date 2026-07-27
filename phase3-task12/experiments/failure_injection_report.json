@@ -1,0 +1,20 @@
+{
+  "test": "model_unavailability_failure_injection",
+  "result": "PASS",
+  "before_failure_mode": "personalized",
+  "during_failure_mode": "fallback (RuntimeError)",
+  "during_failure_sample_recs": [
+    "J0041",
+    "J0089",
+    "J0122",
+    "J0211",
+    "J0006",
+    "J0015",
+    "J0002",
+    "J0157",
+    "J0074",
+    "J0259"
+  ],
+  "after_recovery_mode": "personalized",
+  "degraded_latency_ms": 0.0
+}

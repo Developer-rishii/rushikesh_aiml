@@ -1,0 +1,50 @@
+[
+  {
+    "version": "20260727T161250Z",
+    "model_path": "/home/claude/placemux_task12/src/../experiments/model_registry/model_20260727T161250Z.joblib",
+    "model_sha256_16": "fad8f508470cfaab",
+    "algorithm": "GradientBoostingClassifier (lightgbm unavailable in sandbox; documented substitution)",
+    "features": [
+      "skill_overlap",
+      "skill_overlap_norm",
+      "same_city",
+      "level_dist",
+      "years_exp",
+      "popularity_prior",
+      "company_pref_weight"
+    ],
+    "n_train_rows": 29969,
+    "n_test_rows": 10017,
+    "train_accuracy": 0.8105041876605826,
+    "test_accuracy": 0.8098233003893381,
+    "rejected_alternatives": [
+      "Pure collaborative filtering (matrix factorization only) -- rejected: 800 candidates x 300 jobs is too sparse (20k logged impressions, ~8%% density) for CF alone to generalize to unseen candidates/jobs (cold start).",
+      "LightGBM listwise LambdaMART -- preferred in production, but unavailable offline here; pointwise GBDT substituted and logged as a known gap for hand-off."
+    ],
+    "decision_rationale": "Hybrid content-based (skill/city/level overlap features) + learned pointwise ranker chosen because cold-start candidates/jobs are common in a marketplace and pure CF fails on those; content features generalize immediately."
+  },
+  {
+    "version": "20260727T161949Z",
+    "model_path": "D:\\Placemux-aiml\\phase3-task12\\src\\..\\experiments\\model_registry\\model_20260727T161949Z.joblib",
+    "model_sha256_16": "af083600ab00a938",
+    "algorithm": "GradientBoostingClassifier (lightgbm unavailable in sandbox; documented substitution)",
+    "features": [
+      "skill_overlap",
+      "skill_overlap_norm",
+      "same_city",
+      "level_dist",
+      "years_exp",
+      "popularity_prior",
+      "company_pref_weight"
+    ],
+    "n_train_rows": 29969,
+    "n_test_rows": 10017,
+    "train_accuracy": 0.8105041876605826,
+    "test_accuracy": 0.8098233003893381,
+    "rejected_alternatives": [
+      "Pure collaborative filtering (matrix factorization only) -- rejected: 800 candidates x 300 jobs is too sparse (20k logged impressions, ~8%% density) for CF alone to generalize to unseen candidates/jobs (cold start).",
+      "LightGBM listwise LambdaMART -- preferred in production, but unavailable offline here; pointwise GBDT substituted and logged as a known gap for hand-off."
+    ],
+    "decision_rationale": "Hybrid content-based (skill/city/level overlap features) + learned pointwise ranker chosen because cold-start candidates/jobs are common in a marketplace and pure CF fails on those; content features generalize immediately."
+  }
+]

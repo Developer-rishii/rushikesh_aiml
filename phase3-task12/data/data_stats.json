@@ -1,0 +1,7 @@
+{
+  "n_candidates": 800,
+  "n_jobs": 300,
+  "n_impressions": 20000,
+  "click_rate": 0.6416,
+  "application_rate": 0.3976
+}

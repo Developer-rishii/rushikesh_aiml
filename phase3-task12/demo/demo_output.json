@@ -1,0 +1,98 @@
+{
+  "model_version": "20260727T161949Z",
+  "candidate_to_jobs_example": {
+    "candidate_id": "C0003",
+    "top_5_recommendations": [
+      {
+        "job_id": "J0089",
+        "relevance_score": 0.8026788573172937,
+        "two_sided_score": 0.7962289401885596,
+        "reason": "Recommended because candidate matches 2 of the job's required skills; seniority (mid) fits the mid role."
+      },
+      {
+        "job_id": "J0249",
+        "relevance_score": 0.6559203034511019,
+        "two_sided_score": 0.6884611437897902,
+        "reason": "Recommended because candidate matches 2 of the job's required skills; is in Remote (or job is remote); seniority (mid) fits the mid role."
+      },
+      {
+        "job_id": "J0006",
+        "relevance_score": 0.638181644365898,
+        "two_sided_score": 0.6297120570886295,
+        "reason": "Recommended because candidate matches 2 of the job's required skills; seniority (mid) fits the mid role."
+      },
+      {
+        "job_id": "J0188",
+        "relevance_score": 0.5767953193752511,
+        "two_sided_score": 0.5674037320504812,
+        "reason": "Recommended because candidate matches 3 of the job's required skills; seniority (mid) fits the mid role."
+      },
+      {
+        "job_id": "J0090",
+        "relevance_score": 0.6233986332202007,
+        "two_sided_score": 0.660162576619943,
+        "reason": "Recommended because candidate matches 3 of the job's required skills; is in Delhi-NCR (or job is remote); seniority (mid) fits the mid role."
+      }
+    ]
+  },
+  "job_to_candidates_example": {
+    "job_id": "J0007",
+    "top_5_candidates": [
+      {
+        "candidate_id": "C0122",
+        "relevance_score": 0.4322033429514836,
+        "reason": "Recommended because candidate matches 3 of the job's required skills."
+      },
+      {
+        "candidate_id": "C0211",
+        "relevance_score": 0.4216871629242161,
+        "reason": "Recommended because candidate matches 3 of the job's required skills; seniority (junior) fits the junior role."
+      },
+      {
+        "candidate_id": "C0216",
+        "relevance_score": 0.41877902222474434,
+        "reason": "Recommended because candidate matches 3 of the job's required skills; seniority (junior) fits the junior role."
+      },
+      {
+        "candidate_id": "C0117",
+        "relevance_score": 0.40802219934744904,
+        "reason": "Recommended because candidate matches 3 of the job's required skills."
+      },
+      {
+        "candidate_id": "C0727",
+        "relevance_score": 0.40173691101356124,
+        "reason": "Recommended because candidate matches 3 of the job's required skills."
+      }
+    ]
+  },
+  "offline_eval_vs_baseline": {
+    "n_eval_candidates": 150,
+    "k": 10,
+    "model": {
+      "precision_at_k": 0.12266666666666666,
+      "ndcg_at_k": 0.1442946986021685,
+      "diversity_at_k": 0.7729372073016297,
+      "catalog_coverage": 0.54
+    },
+    "baseline_popularity": {
+      "precision_at_k": 0.11066666666666665,
+      "ndcg_at_k": 0.1321403523240882,
+      "diversity_at_k": 0.9045498470636297,
+      "catalog_coverage": 0.03333333333333333
+    },
+    "model_beats_baseline": {
+      "precision_at_k": true,
+      "ndcg_at_k": true,
+      "coverage": true
+    }
+  },
+  "serving_latency_slo": {
+    "n_requests": 100,
+    "p50_ms": 6.0600000000000005,
+    "p95_ms": 10.814999999999996,
+    "p99_ms": 18.561500000000073,
+    "max_ms": 32.57,
+    "slo_ms": 150,
+    "within_slo_p95": true
+  }
+}

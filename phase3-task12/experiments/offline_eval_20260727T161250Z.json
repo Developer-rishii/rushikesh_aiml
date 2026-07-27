@@ -1,0 +1,21 @@
+{
+  "n_eval_candidates": 150,
+  "k": 10,
+  "model": {
+    "precision_at_k": 0.12266666666666666,
+    "ndcg_at_k": 0.1442946986021685,
+    "diversity_at_k": 0.7729372073016297,
+    "catalog_coverage": 0.54
+  },
+  "baseline_popularity": {
+    "precision_at_k": 0.11066666666666665,
+    "ndcg_at_k": 0.1321403523240882,
+    "diversity_at_k": 0.9045498470636297,
+    "catalog_coverage": 0.03333333333333333
+  },
+  "model_beats_baseline": {
+    "precision_at_k": true,
+    "ndcg_at_k": true,
+    "coverage": true
+  }
+}
