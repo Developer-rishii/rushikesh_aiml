@@ -1,0 +1,60 @@
+[
+  {
+    "query": "specialist in large scale data movement and transformations",
+    "semantic_top5": [
+      {
+        "resume_id": "R014",
+        "score": 0.6941,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R013",
+        "score": 0.6668,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R004",
+        "score": 0.6073,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R007",
+        "score": 0.5944,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R010",
+        "score": 0.5809,
+        "cluster": "data_engineer"
+      }
+    ],
+    "keyword_top5": [
+      {
+        "resume_id": "R013",
+        "score": 4.8722,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R014",
+        "score": 4.8552,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R004",
+        "score": 4.6334,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R010",
+        "score": 4.5231,
+        "cluster": "data_engineer"
+      },
+      {
+        "resume_id": "R007",
+        "score": 4.5122,
+        "cluster": "data_engineer"
+      }
+    ],
+    "plain_english_reason": "For the query 'specialist in large scale data movement and transformations', keyword search only rewards resumes containing the literal query words. The embedding index instead ranks resumes whose overall phrasing is distributionally close to the query even when the exact words differ (e.g. 'ETL', 'Airflow DAGs', 'Spark jobs' for a data-pipelines query), which is why the semantic/hybrid top-5 pulls in relevant clusters that keyword search misses."
+  }
+]

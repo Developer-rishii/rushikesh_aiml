@@ -1,0 +1,285 @@
+{
+  "stage": {
+    "B_embedding_index": {
+      "n_resumes": 103,
+      "embedding_dim": 48,
+      "note": "TF-IDF(1,2-gram)+TruncatedSVD, L2-normalized; brute-force cosine index"
+    },
+    "D_hybrid_tuning": {
+      "dev_queries": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10"
+      ],
+      "best_alpha": 0.6,
+      "best_dev_nDCG@10": 0.8492,
+      "grid_trace": [
+        {
+          "alpha": 0.0,
+          "nDCG@10": 0.8434175480667921,
+          "MAP": 0.3733076923076923,
+          "precision@10": 0.8300000000000001,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.05,
+          "nDCG@10": 0.8370554692468971,
+          "MAP": 0.36946153846153845,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.1,
+          "nDCG@10": 0.8394054486504817,
+          "MAP": 0.37236141636141634,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.15,
+          "nDCG@10": 0.8405833682047078,
+          "MAP": 0.3741196581196581,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.2,
+          "nDCG@10": 0.8405833682047078,
+          "MAP": 0.3741196581196581,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.25,
+          "nDCG@10": 0.8405833682047078,
+          "MAP": 0.3741196581196581,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.3,
+          "nDCG@10": 0.8466821034990591,
+          "MAP": 0.3776102564102564,
+          "precision@10": 0.8300000000000001,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.35,
+          "nDCG@10": 0.841845776557113,
+          "MAP": 0.37633333333333335,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.4,
+          "nDCG@10": 0.841845776557113,
+          "MAP": 0.37633333333333335,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.45,
+          "nDCG@10": 0.8421091200826567,
+          "MAP": 0.3767606837606838,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.5,
+          "nDCG@10": 0.8487888987507907,
+          "MAP": 0.3819102564102564,
+          "precision@10": 0.8300000000000001,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.55,
+          "nDCG@10": 0.8487888987507907,
+          "MAP": 0.3819102564102564,
+          "precision@10": 0.8300000000000001,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.6,
+          "nDCG@10": 0.8491821687670489,
+          "MAP": 0.38259706959706963,
+          "precision@10": 0.8300000000000001,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.65,
+          "nDCG@10": 0.8428200899471537,
+          "MAP": 0.377981684981685,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.7,
+          "nDCG@10": 0.8433235246350854,
+          "MAP": 0.3788974358974359,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.75,
+          "nDCG@10": 0.8433235246350854,
+          "MAP": 0.3788974358974359,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.8,
+          "nDCG@10": 0.8433235246350854,
+          "MAP": 0.3788974358974359,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.85,
+          "nDCG@10": 0.8433235246350854,
+          "MAP": 0.3788974358974359,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.9,
+          "nDCG@10": 0.8433235246350854,
+          "MAP": 0.3788974358974359,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 0.95,
+          "nDCG@10": 0.8433235246350854,
+          "MAP": 0.3788974358974359,
+          "precision@10": 0.82,
+          "n_queries": 10
+        },
+        {
+          "alpha": 1.0,
+          "nDCG@10": 0.8433235246350854,
+          "MAP": 0.3788974358974359,
+          "precision@10": 0.82,
+          "n_queries": 10
+        }
+      ]
+    },
+    "C_offline_eval_test_holdout": {
+      "test_queries": [
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20"
+      ],
+      "results": {
+        "keyword": {
+          "nDCG@10": 0.6582623986465476,
+          "MAP": 0.27811410256410257,
+          "precision@10": 0.6599999999999999,
+          "n_queries": 10,
+          "example_ranking_Q_first_test_query": [
+            "R013",
+            "R014",
+            "R004",
+            "R010",
+            "R007",
+            "R011",
+            "R009",
+            "R039",
+            "R003",
+            "R008"
+          ]
+        },
+        "semantic": {
+          "nDCG@10": 0.6689494743830261,
+          "MAP": 0.2884594017094017,
+          "precision@10": 0.6599999999999999,
+          "n_queries": 10,
+          "example_ranking_Q_first_test_query": [
+            "R014",
+            "R013",
+            "R004",
+            "R007",
+            "R010",
+            "R011",
+            "R009",
+            "R039",
+            "R008",
+            "R003"
+          ]
+        },
+        "hybrid": {
+          "nDCG@10": 0.6748081185149898,
+          "MAP": 0.29215903540903543,
+          "precision@10": 0.6699999999999999,
+          "n_queries": 10,
+          "example_ranking_Q_first_test_query": [
+            "R014",
+            "R013",
+            "R004",
+            "R007",
+            "R010",
+            "R011",
+            "R009",
+            "R039",
+            "R003",
+            "R008"
+          ]
+        }
+      }
+    },
+    "semantic_vs_keyword_lift": {
+      "nDCG@10_semantic_minus_keyword": 0.0107,
+      "nDCG@10_hybrid_minus_keyword": 0.0165,
+      "nDCG@10_hybrid_minus_semantic": 0.0059
+    },
+    "fairness_sanity_check": {
+      "avg_semantic_score_by_experience_bucket": {
+        "junior(<=4y)": 0.129,
+        "senior(>4y)": 0.1297
+      },
+      "avg_semantic_score_by_cluster": {
+        "data_engineer": 0.1049,
+        "frontend": 0.1569,
+        "data_analyst": 0.2448,
+        "data_science": 0.2316,
+        "devops": 0.1195,
+        "security": 0.0319,
+        "backend_ml": 0.1245,
+        "mobile": 0.0151
+      },
+      "max_pairwise_gap": 0.2297,
+      "note": "avg cosine score should not differ sharply by experience bucket alone; large gaps would indicate the embedding is keying off tenure-correlated phrasing rather than skill match, and would need a deeper fairness audit."
+    },
+    "E_failure_injection": {
+      "query": "specialist in large scale data movement and transformations",
+      "normal_mode": "HYBRID",
+      "degraded_mode": "DEGRADED_KEYWORD_ONLY",
+      "degraded_warning": "embedding service unavailable - served BM25-only fallback",
+      "degradation_confirmed": true
+    }
+  },
+  "timings_sec": {
+    "build_embedding_index": 0.028,
+    "tune_alpha": 0.016
+  },
+  "definition_of_done": {
+    "embedding_index_built_and_demoable": true,
+    "semantic_beats_keyword_on_held_out_eval": true,
+    "hybrid_tuned_and_beats_both": true,
+    "live_verification_run": true,
+    "failure_mode_demonstrated": true
+  }
+}

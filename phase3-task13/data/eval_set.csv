@@ -1,0 +1,2061 @@
+query_id,query_text,resume_id,relevance
+Q1,someone who can build data pipelines,R027,1
+Q1,someone who can build data pipelines,R058,0
+Q1,someone who can build data pipelines,R061,0
+Q1,someone who can build data pipelines,R060,0
+Q1,someone who can build data pipelines,R091,0
+Q1,someone who can build data pipelines,R069,0
+Q1,someone who can build data pipelines,R043,0
+Q1,someone who can build data pipelines,R074,0
+Q1,someone who can build data pipelines,R009,2
+Q1,someone who can build data pipelines,R028,1
+Q1,someone who can build data pipelines,R101,1
+Q1,someone who can build data pipelines,R031,0
+Q1,someone who can build data pipelines,R084,0
+Q1,someone who can build data pipelines,R103,1
+Q1,someone who can build data pipelines,R077,0
+Q1,someone who can build data pipelines,R002,2
+Q1,someone who can build data pipelines,R094,1
+Q1,someone who can build data pipelines,R004,2
+Q1,someone who can build data pipelines,R014,2
+Q1,someone who can build data pipelines,R053,0
+Q1,someone who can build data pipelines,R032,0
+Q1,someone who can build data pipelines,R034,0
+Q1,someone who can build data pipelines,R003,2
+Q1,someone who can build data pipelines,R021,1
+Q1,someone who can build data pipelines,R039,0
+Q1,someone who can build data pipelines,R099,1
+Q1,someone who can build data pipelines,R011,2
+Q1,someone who can build data pipelines,R090,0
+Q1,someone who can build data pipelines,R020,1
+Q1,someone who can build data pipelines,R076,0
+Q1,someone who can build data pipelines,R016,1
+Q1,someone who can build data pipelines,R051,0
+Q1,someone who can build data pipelines,R007,2
+Q1,someone who can build data pipelines,R037,0
+Q1,someone who can build data pipelines,R097,1
+Q1,someone who can build data pipelines,R041,0
+Q1,someone who can build data pipelines,R045,0
+Q1,someone who can build data pipelines,R055,0
+Q1,someone who can build data pipelines,R059,0
+Q1,someone who can build data pipelines,R067,0
+Q1,someone who can build data pipelines,R072,0
+Q1,someone who can build data pipelines,R001,2
+Q1,someone who can build data pipelines,R086,0
+Q1,someone who can build data pipelines,R092,1
+Q1,someone who can build data pipelines,R024,1
+Q1,someone who can build data pipelines,R036,0
+Q1,someone who can build data pipelines,R073,0
+Q1,someone who can build data pipelines,R050,0
+Q1,someone who can build data pipelines,R071,0
+Q1,someone who can build data pipelines,R044,0
+Q1,someone who can build data pipelines,R015,1
+Q1,someone who can build data pipelines,R049,0
+Q1,someone who can build data pipelines,R010,2
+Q1,someone who can build data pipelines,R098,1
+Q1,someone who can build data pipelines,R102,1
+Q1,someone who can build data pipelines,R008,2
+Q1,someone who can build data pipelines,R063,0
+Q1,someone who can build data pipelines,R066,0
+Q1,someone who can build data pipelines,R056,0
+Q1,someone who can build data pipelines,R048,0
+Q1,someone who can build data pipelines,R019,1
+Q1,someone who can build data pipelines,R052,0
+Q1,someone who can build data pipelines,R064,0
+Q1,someone who can build data pipelines,R062,0
+Q1,someone who can build data pipelines,R095,1
+Q1,someone who can build data pipelines,R022,1
+Q1,someone who can build data pipelines,R035,0
+Q1,someone who can build data pipelines,R065,0
+Q1,someone who can build data pipelines,R068,0
+Q1,someone who can build data pipelines,R096,1
+Q1,someone who can build data pipelines,R070,0
+Q1,someone who can build data pipelines,R079,0
+Q1,someone who can build data pipelines,R026,1
+Q1,someone who can build data pipelines,R023,1
+Q1,someone who can build data pipelines,R054,0
+Q1,someone who can build data pipelines,R042,0
+Q1,someone who can build data pipelines,R038,0
+Q1,someone who can build data pipelines,R012,2
+Q1,someone who can build data pipelines,R017,1
+Q1,someone who can build data pipelines,R047,0
+Q1,someone who can build data pipelines,R075,0
+Q1,someone who can build data pipelines,R005,2
+Q1,someone who can build data pipelines,R057,0
+Q1,someone who can build data pipelines,R040,0
+Q1,someone who can build data pipelines,R006,2
+Q1,someone who can build data pipelines,R083,0
+Q1,someone who can build data pipelines,R089,0
+Q1,someone who can build data pipelines,R013,2
+Q1,someone who can build data pipelines,R081,0
+Q1,someone who can build data pipelines,R018,1
+Q1,someone who can build data pipelines,R088,0
+Q1,someone who can build data pipelines,R085,0
+Q1,someone who can build data pipelines,R093,1
+Q1,someone who can build data pipelines,R087,0
+Q1,someone who can build data pipelines,R033,0
+Q1,someone who can build data pipelines,R080,0
+Q1,someone who can build data pipelines,R025,1
+Q1,someone who can build data pipelines,R082,0
+Q1,someone who can build data pipelines,R029,0
+Q1,someone who can build data pipelines,R046,0
+Q1,someone who can build data pipelines,R078,0
+Q1,someone who can build data pipelines,R030,0
+Q1,someone who can build data pipelines,R100,1
+Q2,person who has shipped a recommendation or ranking model to production,R027,2
+Q2,person who has shipped a recommendation or ranking model to production,R058,0
+Q2,person who has shipped a recommendation or ranking model to production,R061,0
+Q2,person who has shipped a recommendation or ranking model to production,R060,0
+Q2,person who has shipped a recommendation or ranking model to production,R091,0
+Q2,person who has shipped a recommendation or ranking model to production,R069,0
+Q2,person who has shipped a recommendation or ranking model to production,R043,0
+Q2,person who has shipped a recommendation or ranking model to production,R074,0
+Q2,person who has shipped a recommendation or ranking model to production,R009,1
+Q2,person who has shipped a recommendation or ranking model to production,R028,2
+Q2,person who has shipped a recommendation or ranking model to production,R101,1
+Q2,person who has shipped a recommendation or ranking model to production,R031,0
+Q2,person who has shipped a recommendation or ranking model to production,R084,0
+Q2,person who has shipped a recommendation or ranking model to production,R103,1
+Q2,person who has shipped a recommendation or ranking model to production,R077,0
+Q2,person who has shipped a recommendation or ranking model to production,R002,1
+Q2,person who has shipped a recommendation or ranking model to production,R094,1
+Q2,person who has shipped a recommendation or ranking model to production,R004,1
+Q2,person who has shipped a recommendation or ranking model to production,R014,1
+Q2,person who has shipped a recommendation or ranking model to production,R053,0
+Q2,person who has shipped a recommendation or ranking model to production,R032,0
+Q2,person who has shipped a recommendation or ranking model to production,R034,0
+Q2,person who has shipped a recommendation or ranking model to production,R003,1
+Q2,person who has shipped a recommendation or ranking model to production,R021,2
+Q2,person who has shipped a recommendation or ranking model to production,R039,0
+Q2,person who has shipped a recommendation or ranking model to production,R099,1
+Q2,person who has shipped a recommendation or ranking model to production,R011,1
+Q2,person who has shipped a recommendation or ranking model to production,R090,0
+Q2,person who has shipped a recommendation or ranking model to production,R020,2
+Q2,person who has shipped a recommendation or ranking model to production,R076,0
+Q2,person who has shipped a recommendation or ranking model to production,R016,2
+Q2,person who has shipped a recommendation or ranking model to production,R051,0
+Q2,person who has shipped a recommendation or ranking model to production,R007,1
+Q2,person who has shipped a recommendation or ranking model to production,R037,0
+Q2,person who has shipped a recommendation or ranking model to production,R097,1
+Q2,person who has shipped a recommendation or ranking model to production,R041,0
+Q2,person who has shipped a recommendation or ranking model to production,R045,0
+Q2,person who has shipped a recommendation or ranking model to production,R055,0
+Q2,person who has shipped a recommendation or ranking model to production,R059,0
+Q2,person who has shipped a recommendation or ranking model to production,R067,0
+Q2,person who has shipped a recommendation or ranking model to production,R072,0
+Q2,person who has shipped a recommendation or ranking model to production,R001,1
+Q2,person who has shipped a recommendation or ranking model to production,R086,0
+Q2,person who has shipped a recommendation or ranking model to production,R092,1
+Q2,person who has shipped a recommendation or ranking model to production,R024,2
+Q2,person who has shipped a recommendation or ranking model to production,R036,0
+Q2,person who has shipped a recommendation or ranking model to production,R073,0
+Q2,person who has shipped a recommendation or ranking model to production,R050,0
+Q2,person who has shipped a recommendation or ranking model to production,R071,0
+Q2,person who has shipped a recommendation or ranking model to production,R044,0
+Q2,person who has shipped a recommendation or ranking model to production,R015,2
+Q2,person who has shipped a recommendation or ranking model to production,R049,0
+Q2,person who has shipped a recommendation or ranking model to production,R010,1
+Q2,person who has shipped a recommendation or ranking model to production,R098,1
+Q2,person who has shipped a recommendation or ranking model to production,R102,1
+Q2,person who has shipped a recommendation or ranking model to production,R008,1
+Q2,person who has shipped a recommendation or ranking model to production,R063,0
+Q2,person who has shipped a recommendation or ranking model to production,R066,0
+Q2,person who has shipped a recommendation or ranking model to production,R056,0
+Q2,person who has shipped a recommendation or ranking model to production,R048,0
+Q2,person who has shipped a recommendation or ranking model to production,R019,2
+Q2,person who has shipped a recommendation or ranking model to production,R052,0
+Q2,person who has shipped a recommendation or ranking model to production,R064,0
+Q2,person who has shipped a recommendation or ranking model to production,R062,0
+Q2,person who has shipped a recommendation or ranking model to production,R095,1
+Q2,person who has shipped a recommendation or ranking model to production,R022,2
+Q2,person who has shipped a recommendation or ranking model to production,R035,0
+Q2,person who has shipped a recommendation or ranking model to production,R065,0
+Q2,person who has shipped a recommendation or ranking model to production,R068,0
+Q2,person who has shipped a recommendation or ranking model to production,R096,1
+Q2,person who has shipped a recommendation or ranking model to production,R070,0
+Q2,person who has shipped a recommendation or ranking model to production,R079,0
+Q2,person who has shipped a recommendation or ranking model to production,R026,2
+Q2,person who has shipped a recommendation or ranking model to production,R023,2
+Q2,person who has shipped a recommendation or ranking model to production,R054,0
+Q2,person who has shipped a recommendation or ranking model to production,R042,0
+Q2,person who has shipped a recommendation or ranking model to production,R038,0
+Q2,person who has shipped a recommendation or ranking model to production,R012,1
+Q2,person who has shipped a recommendation or ranking model to production,R017,2
+Q2,person who has shipped a recommendation or ranking model to production,R047,0
+Q2,person who has shipped a recommendation or ranking model to production,R075,0
+Q2,person who has shipped a recommendation or ranking model to production,R005,1
+Q2,person who has shipped a recommendation or ranking model to production,R057,0
+Q2,person who has shipped a recommendation or ranking model to production,R040,0
+Q2,person who has shipped a recommendation or ranking model to production,R006,1
+Q2,person who has shipped a recommendation or ranking model to production,R083,0
+Q2,person who has shipped a recommendation or ranking model to production,R089,0
+Q2,person who has shipped a recommendation or ranking model to production,R013,1
+Q2,person who has shipped a recommendation or ranking model to production,R081,0
+Q2,person who has shipped a recommendation or ranking model to production,R018,2
+Q2,person who has shipped a recommendation or ranking model to production,R088,0
+Q2,person who has shipped a recommendation or ranking model to production,R085,0
+Q2,person who has shipped a recommendation or ranking model to production,R093,1
+Q2,person who has shipped a recommendation or ranking model to production,R087,0
+Q2,person who has shipped a recommendation or ranking model to production,R033,0
+Q2,person who has shipped a recommendation or ranking model to production,R080,0
+Q2,person who has shipped a recommendation or ranking model to production,R025,2
+Q2,person who has shipped a recommendation or ranking model to production,R082,0
+Q2,person who has shipped a recommendation or ranking model to production,R029,0
+Q2,person who has shipped a recommendation or ranking model to production,R046,0
+Q2,person who has shipped a recommendation or ranking model to production,R078,0
+Q2,person who has shipped a recommendation or ranking model to production,R030,0
+Q2,person who has shipped a recommendation or ranking model to production,R100,1
+Q3,engineer comfortable making product UI faster and more accessible,R027,0
+Q3,engineer comfortable making product UI faster and more accessible,R058,0
+Q3,engineer comfortable making product UI faster and more accessible,R061,0
+Q3,engineer comfortable making product UI faster and more accessible,R060,0
+Q3,engineer comfortable making product UI faster and more accessible,R091,0
+Q3,engineer comfortable making product UI faster and more accessible,R069,0
+Q3,engineer comfortable making product UI faster and more accessible,R043,0
+Q3,engineer comfortable making product UI faster and more accessible,R074,0
+Q3,engineer comfortable making product UI faster and more accessible,R009,0
+Q3,engineer comfortable making product UI faster and more accessible,R028,0
+Q3,engineer comfortable making product UI faster and more accessible,R101,0
+Q3,engineer comfortable making product UI faster and more accessible,R031,2
+Q3,engineer comfortable making product UI faster and more accessible,R084,0
+Q3,engineer comfortable making product UI faster and more accessible,R103,0
+Q3,engineer comfortable making product UI faster and more accessible,R077,0
+Q3,engineer comfortable making product UI faster and more accessible,R002,0
+Q3,engineer comfortable making product UI faster and more accessible,R094,0
+Q3,engineer comfortable making product UI faster and more accessible,R004,0
+Q3,engineer comfortable making product UI faster and more accessible,R014,0
+Q3,engineer comfortable making product UI faster and more accessible,R053,0
+Q3,engineer comfortable making product UI faster and more accessible,R032,2
+Q3,engineer comfortable making product UI faster and more accessible,R034,2
+Q3,engineer comfortable making product UI faster and more accessible,R003,0
+Q3,engineer comfortable making product UI faster and more accessible,R021,0
+Q3,engineer comfortable making product UI faster and more accessible,R039,2
+Q3,engineer comfortable making product UI faster and more accessible,R099,0
+Q3,engineer comfortable making product UI faster and more accessible,R011,0
+Q3,engineer comfortable making product UI faster and more accessible,R090,0
+Q3,engineer comfortable making product UI faster and more accessible,R020,0
+Q3,engineer comfortable making product UI faster and more accessible,R076,0
+Q3,engineer comfortable making product UI faster and more accessible,R016,0
+Q3,engineer comfortable making product UI faster and more accessible,R051,0
+Q3,engineer comfortable making product UI faster and more accessible,R007,0
+Q3,engineer comfortable making product UI faster and more accessible,R037,2
+Q3,engineer comfortable making product UI faster and more accessible,R097,0
+Q3,engineer comfortable making product UI faster and more accessible,R041,2
+Q3,engineer comfortable making product UI faster and more accessible,R045,0
+Q3,engineer comfortable making product UI faster and more accessible,R055,0
+Q3,engineer comfortable making product UI faster and more accessible,R059,0
+Q3,engineer comfortable making product UI faster and more accessible,R067,0
+Q3,engineer comfortable making product UI faster and more accessible,R072,0
+Q3,engineer comfortable making product UI faster and more accessible,R001,0
+Q3,engineer comfortable making product UI faster and more accessible,R086,0
+Q3,engineer comfortable making product UI faster and more accessible,R092,0
+Q3,engineer comfortable making product UI faster and more accessible,R024,0
+Q3,engineer comfortable making product UI faster and more accessible,R036,2
+Q3,engineer comfortable making product UI faster and more accessible,R073,0
+Q3,engineer comfortable making product UI faster and more accessible,R050,0
+Q3,engineer comfortable making product UI faster and more accessible,R071,0
+Q3,engineer comfortable making product UI faster and more accessible,R044,0
+Q3,engineer comfortable making product UI faster and more accessible,R015,0
+Q3,engineer comfortable making product UI faster and more accessible,R049,0
+Q3,engineer comfortable making product UI faster and more accessible,R010,0
+Q3,engineer comfortable making product UI faster and more accessible,R098,0
+Q3,engineer comfortable making product UI faster and more accessible,R102,0
+Q3,engineer comfortable making product UI faster and more accessible,R008,0
+Q3,engineer comfortable making product UI faster and more accessible,R063,0
+Q3,engineer comfortable making product UI faster and more accessible,R066,0
+Q3,engineer comfortable making product UI faster and more accessible,R056,0
+Q3,engineer comfortable making product UI faster and more accessible,R048,0
+Q3,engineer comfortable making product UI faster and more accessible,R019,0
+Q3,engineer comfortable making product UI faster and more accessible,R052,0
+Q3,engineer comfortable making product UI faster and more accessible,R064,0
+Q3,engineer comfortable making product UI faster and more accessible,R062,0
+Q3,engineer comfortable making product UI faster and more accessible,R095,0
+Q3,engineer comfortable making product UI faster and more accessible,R022,0
+Q3,engineer comfortable making product UI faster and more accessible,R035,2
+Q3,engineer comfortable making product UI faster and more accessible,R065,0
+Q3,engineer comfortable making product UI faster and more accessible,R068,0
+Q3,engineer comfortable making product UI faster and more accessible,R096,0
+Q3,engineer comfortable making product UI faster and more accessible,R070,0
+Q3,engineer comfortable making product UI faster and more accessible,R079,0
+Q3,engineer comfortable making product UI faster and more accessible,R026,0
+Q3,engineer comfortable making product UI faster and more accessible,R023,0
+Q3,engineer comfortable making product UI faster and more accessible,R054,0
+Q3,engineer comfortable making product UI faster and more accessible,R042,0
+Q3,engineer comfortable making product UI faster and more accessible,R038,2
+Q3,engineer comfortable making product UI faster and more accessible,R012,0
+Q3,engineer comfortable making product UI faster and more accessible,R017,0
+Q3,engineer comfortable making product UI faster and more accessible,R047,0
+Q3,engineer comfortable making product UI faster and more accessible,R075,0
+Q3,engineer comfortable making product UI faster and more accessible,R005,0
+Q3,engineer comfortable making product UI faster and more accessible,R057,0
+Q3,engineer comfortable making product UI faster and more accessible,R040,2
+Q3,engineer comfortable making product UI faster and more accessible,R006,0
+Q3,engineer comfortable making product UI faster and more accessible,R083,0
+Q3,engineer comfortable making product UI faster and more accessible,R089,0
+Q3,engineer comfortable making product UI faster and more accessible,R013,0
+Q3,engineer comfortable making product UI faster and more accessible,R081,0
+Q3,engineer comfortable making product UI faster and more accessible,R018,0
+Q3,engineer comfortable making product UI faster and more accessible,R088,0
+Q3,engineer comfortable making product UI faster and more accessible,R085,0
+Q3,engineer comfortable making product UI faster and more accessible,R093,0
+Q3,engineer comfortable making product UI faster and more accessible,R087,0
+Q3,engineer comfortable making product UI faster and more accessible,R033,2
+Q3,engineer comfortable making product UI faster and more accessible,R080,0
+Q3,engineer comfortable making product UI faster and more accessible,R025,0
+Q3,engineer comfortable making product UI faster and more accessible,R082,0
+Q3,engineer comfortable making product UI faster and more accessible,R029,2
+Q3,engineer comfortable making product UI faster and more accessible,R046,0
+Q3,engineer comfortable making product UI faster and more accessible,R078,0
+Q3,engineer comfortable making product UI faster and more accessible,R030,2
+Q3,engineer comfortable making product UI faster and more accessible,R100,0
+Q4,candidate who can run our Kubernetes infrastructure,R027,0
+Q4,candidate who can run our Kubernetes infrastructure,R058,0
+Q4,candidate who can run our Kubernetes infrastructure,R061,0
+Q4,candidate who can run our Kubernetes infrastructure,R060,0
+Q4,candidate who can run our Kubernetes infrastructure,R091,0
+Q4,candidate who can run our Kubernetes infrastructure,R069,1
+Q4,candidate who can run our Kubernetes infrastructure,R043,2
+Q4,candidate who can run our Kubernetes infrastructure,R074,1
+Q4,candidate who can run our Kubernetes infrastructure,R009,0
+Q4,candidate who can run our Kubernetes infrastructure,R028,0
+Q4,candidate who can run our Kubernetes infrastructure,R101,0
+Q4,candidate who can run our Kubernetes infrastructure,R031,0
+Q4,candidate who can run our Kubernetes infrastructure,R084,0
+Q4,candidate who can run our Kubernetes infrastructure,R103,0
+Q4,candidate who can run our Kubernetes infrastructure,R077,1
+Q4,candidate who can run our Kubernetes infrastructure,R002,0
+Q4,candidate who can run our Kubernetes infrastructure,R094,0
+Q4,candidate who can run our Kubernetes infrastructure,R004,0
+Q4,candidate who can run our Kubernetes infrastructure,R014,0
+Q4,candidate who can run our Kubernetes infrastructure,R053,2
+Q4,candidate who can run our Kubernetes infrastructure,R032,0
+Q4,candidate who can run our Kubernetes infrastructure,R034,0
+Q4,candidate who can run our Kubernetes infrastructure,R003,0
+Q4,candidate who can run our Kubernetes infrastructure,R021,0
+Q4,candidate who can run our Kubernetes infrastructure,R039,0
+Q4,candidate who can run our Kubernetes infrastructure,R099,0
+Q4,candidate who can run our Kubernetes infrastructure,R011,0
+Q4,candidate who can run our Kubernetes infrastructure,R090,0
+Q4,candidate who can run our Kubernetes infrastructure,R020,0
+Q4,candidate who can run our Kubernetes infrastructure,R076,1
+Q4,candidate who can run our Kubernetes infrastructure,R016,0
+Q4,candidate who can run our Kubernetes infrastructure,R051,2
+Q4,candidate who can run our Kubernetes infrastructure,R007,0
+Q4,candidate who can run our Kubernetes infrastructure,R037,0
+Q4,candidate who can run our Kubernetes infrastructure,R097,0
+Q4,candidate who can run our Kubernetes infrastructure,R041,0
+Q4,candidate who can run our Kubernetes infrastructure,R045,2
+Q4,candidate who can run our Kubernetes infrastructure,R055,0
+Q4,candidate who can run our Kubernetes infrastructure,R059,0
+Q4,candidate who can run our Kubernetes infrastructure,R067,0
+Q4,candidate who can run our Kubernetes infrastructure,R072,1
+Q4,candidate who can run our Kubernetes infrastructure,R001,0
+Q4,candidate who can run our Kubernetes infrastructure,R086,0
+Q4,candidate who can run our Kubernetes infrastructure,R092,0
+Q4,candidate who can run our Kubernetes infrastructure,R024,0
+Q4,candidate who can run our Kubernetes infrastructure,R036,0
+Q4,candidate who can run our Kubernetes infrastructure,R073,1
+Q4,candidate who can run our Kubernetes infrastructure,R050,2
+Q4,candidate who can run our Kubernetes infrastructure,R071,1
+Q4,candidate who can run our Kubernetes infrastructure,R044,2
+Q4,candidate who can run our Kubernetes infrastructure,R015,0
+Q4,candidate who can run our Kubernetes infrastructure,R049,2
+Q4,candidate who can run our Kubernetes infrastructure,R010,0
+Q4,candidate who can run our Kubernetes infrastructure,R098,0
+Q4,candidate who can run our Kubernetes infrastructure,R102,0
+Q4,candidate who can run our Kubernetes infrastructure,R008,0
+Q4,candidate who can run our Kubernetes infrastructure,R063,0
+Q4,candidate who can run our Kubernetes infrastructure,R066,0
+Q4,candidate who can run our Kubernetes infrastructure,R056,0
+Q4,candidate who can run our Kubernetes infrastructure,R048,2
+Q4,candidate who can run our Kubernetes infrastructure,R019,0
+Q4,candidate who can run our Kubernetes infrastructure,R052,2
+Q4,candidate who can run our Kubernetes infrastructure,R064,0
+Q4,candidate who can run our Kubernetes infrastructure,R062,0
+Q4,candidate who can run our Kubernetes infrastructure,R095,0
+Q4,candidate who can run our Kubernetes infrastructure,R022,0
+Q4,candidate who can run our Kubernetes infrastructure,R035,0
+Q4,candidate who can run our Kubernetes infrastructure,R065,0
+Q4,candidate who can run our Kubernetes infrastructure,R068,1
+Q4,candidate who can run our Kubernetes infrastructure,R096,0
+Q4,candidate who can run our Kubernetes infrastructure,R070,1
+Q4,candidate who can run our Kubernetes infrastructure,R079,1
+Q4,candidate who can run our Kubernetes infrastructure,R026,0
+Q4,candidate who can run our Kubernetes infrastructure,R023,0
+Q4,candidate who can run our Kubernetes infrastructure,R054,2
+Q4,candidate who can run our Kubernetes infrastructure,R042,2
+Q4,candidate who can run our Kubernetes infrastructure,R038,0
+Q4,candidate who can run our Kubernetes infrastructure,R012,0
+Q4,candidate who can run our Kubernetes infrastructure,R017,0
+Q4,candidate who can run our Kubernetes infrastructure,R047,2
+Q4,candidate who can run our Kubernetes infrastructure,R075,1
+Q4,candidate who can run our Kubernetes infrastructure,R005,0
+Q4,candidate who can run our Kubernetes infrastructure,R057,0
+Q4,candidate who can run our Kubernetes infrastructure,R040,0
+Q4,candidate who can run our Kubernetes infrastructure,R006,0
+Q4,candidate who can run our Kubernetes infrastructure,R083,0
+Q4,candidate who can run our Kubernetes infrastructure,R089,0
+Q4,candidate who can run our Kubernetes infrastructure,R013,0
+Q4,candidate who can run our Kubernetes infrastructure,R081,0
+Q4,candidate who can run our Kubernetes infrastructure,R018,0
+Q4,candidate who can run our Kubernetes infrastructure,R088,0
+Q4,candidate who can run our Kubernetes infrastructure,R085,0
+Q4,candidate who can run our Kubernetes infrastructure,R093,0
+Q4,candidate who can run our Kubernetes infrastructure,R087,0
+Q4,candidate who can run our Kubernetes infrastructure,R033,0
+Q4,candidate who can run our Kubernetes infrastructure,R080,0
+Q4,candidate who can run our Kubernetes infrastructure,R025,0
+Q4,candidate who can run our Kubernetes infrastructure,R082,0
+Q4,candidate who can run our Kubernetes infrastructure,R029,0
+Q4,candidate who can run our Kubernetes infrastructure,R046,2
+Q4,candidate who can run our Kubernetes infrastructure,R078,1
+Q4,candidate who can run our Kubernetes infrastructure,R030,0
+Q4,candidate who can run our Kubernetes infrastructure,R100,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R027,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R058,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R061,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R060,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R091,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R069,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R043,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R074,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R009,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R028,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R101,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R031,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R084,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R103,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R077,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R002,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R094,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R004,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R014,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R053,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R032,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R034,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R003,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R021,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R039,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R099,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R011,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R090,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R020,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R076,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R016,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R051,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R007,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R037,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R097,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R041,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R045,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R055,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R059,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R067,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R072,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R001,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R086,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R092,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R024,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R036,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R073,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R050,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R071,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R044,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R015,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R049,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R010,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R098,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R102,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R008,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R063,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R066,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R056,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R048,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R019,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R052,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R064,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R062,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R095,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R022,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R035,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R065,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R068,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R096,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R070,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R079,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R026,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R023,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R054,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R042,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R038,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R012,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R017,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R047,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R075,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R005,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R057,2
+Q5,someone who turns messy spreadsheets into clean dashboards,R040,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R006,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R083,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R089,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R013,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R081,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R018,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R088,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R085,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R093,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R087,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R033,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R080,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R025,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R082,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R029,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R046,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R078,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R030,0
+Q5,someone who turns messy spreadsheets into clean dashboards,R100,0
+Q6,person who tests our systems for security holes,R027,0
+Q6,person who tests our systems for security holes,R058,0
+Q6,person who tests our systems for security holes,R061,0
+Q6,person who tests our systems for security holes,R060,0
+Q6,person who tests our systems for security holes,R091,0
+Q6,person who tests our systems for security holes,R069,2
+Q6,person who tests our systems for security holes,R043,1
+Q6,person who tests our systems for security holes,R074,2
+Q6,person who tests our systems for security holes,R009,0
+Q6,person who tests our systems for security holes,R028,0
+Q6,person who tests our systems for security holes,R101,0
+Q6,person who tests our systems for security holes,R031,0
+Q6,person who tests our systems for security holes,R084,0
+Q6,person who tests our systems for security holes,R103,0
+Q6,person who tests our systems for security holes,R077,2
+Q6,person who tests our systems for security holes,R002,0
+Q6,person who tests our systems for security holes,R094,0
+Q6,person who tests our systems for security holes,R004,0
+Q6,person who tests our systems for security holes,R014,0
+Q6,person who tests our systems for security holes,R053,1
+Q6,person who tests our systems for security holes,R032,0
+Q6,person who tests our systems for security holes,R034,0
+Q6,person who tests our systems for security holes,R003,0
+Q6,person who tests our systems for security holes,R021,0
+Q6,person who tests our systems for security holes,R039,0
+Q6,person who tests our systems for security holes,R099,0
+Q6,person who tests our systems for security holes,R011,0
+Q6,person who tests our systems for security holes,R090,0
+Q6,person who tests our systems for security holes,R020,0
+Q6,person who tests our systems for security holes,R076,2
+Q6,person who tests our systems for security holes,R016,0
+Q6,person who tests our systems for security holes,R051,1
+Q6,person who tests our systems for security holes,R007,0
+Q6,person who tests our systems for security holes,R037,0
+Q6,person who tests our systems for security holes,R097,0
+Q6,person who tests our systems for security holes,R041,0
+Q6,person who tests our systems for security holes,R045,1
+Q6,person who tests our systems for security holes,R055,0
+Q6,person who tests our systems for security holes,R059,0
+Q6,person who tests our systems for security holes,R067,0
+Q6,person who tests our systems for security holes,R072,2
+Q6,person who tests our systems for security holes,R001,0
+Q6,person who tests our systems for security holes,R086,0
+Q6,person who tests our systems for security holes,R092,0
+Q6,person who tests our systems for security holes,R024,0
+Q6,person who tests our systems for security holes,R036,0
+Q6,person who tests our systems for security holes,R073,2
+Q6,person who tests our systems for security holes,R050,1
+Q6,person who tests our systems for security holes,R071,2
+Q6,person who tests our systems for security holes,R044,1
+Q6,person who tests our systems for security holes,R015,0
+Q6,person who tests our systems for security holes,R049,1
+Q6,person who tests our systems for security holes,R010,0
+Q6,person who tests our systems for security holes,R098,0
+Q6,person who tests our systems for security holes,R102,0
+Q6,person who tests our systems for security holes,R008,0
+Q6,person who tests our systems for security holes,R063,0
+Q6,person who tests our systems for security holes,R066,0
+Q6,person who tests our systems for security holes,R056,0
+Q6,person who tests our systems for security holes,R048,1
+Q6,person who tests our systems for security holes,R019,0
+Q6,person who tests our systems for security holes,R052,1
+Q6,person who tests our systems for security holes,R064,0
+Q6,person who tests our systems for security holes,R062,0
+Q6,person who tests our systems for security holes,R095,0
+Q6,person who tests our systems for security holes,R022,0
+Q6,person who tests our systems for security holes,R035,0
+Q6,person who tests our systems for security holes,R065,0
+Q6,person who tests our systems for security holes,R068,2
+Q6,person who tests our systems for security holes,R096,0
+Q6,person who tests our systems for security holes,R070,2
+Q6,person who tests our systems for security holes,R079,2
+Q6,person who tests our systems for security holes,R026,0
+Q6,person who tests our systems for security holes,R023,0
+Q6,person who tests our systems for security holes,R054,1
+Q6,person who tests our systems for security holes,R042,1
+Q6,person who tests our systems for security holes,R038,0
+Q6,person who tests our systems for security holes,R012,0
+Q6,person who tests our systems for security holes,R017,0
+Q6,person who tests our systems for security holes,R047,1
+Q6,person who tests our systems for security holes,R075,2
+Q6,person who tests our systems for security holes,R005,0
+Q6,person who tests our systems for security holes,R057,0
+Q6,person who tests our systems for security holes,R040,0
+Q6,person who tests our systems for security holes,R006,0
+Q6,person who tests our systems for security holes,R083,0
+Q6,person who tests our systems for security holes,R089,0
+Q6,person who tests our systems for security holes,R013,0
+Q6,person who tests our systems for security holes,R081,0
+Q6,person who tests our systems for security holes,R018,0
+Q6,person who tests our systems for security holes,R088,0
+Q6,person who tests our systems for security holes,R085,0
+Q6,person who tests our systems for security holes,R093,0
+Q6,person who tests our systems for security holes,R087,0
+Q6,person who tests our systems for security holes,R033,0
+Q6,person who tests our systems for security holes,R080,0
+Q6,person who tests our systems for security holes,R025,0
+Q6,person who tests our systems for security holes,R082,0
+Q6,person who tests our systems for security holes,R029,0
+Q6,person who tests our systems for security holes,R046,1
+Q6,person who tests our systems for security holes,R078,2
+Q6,person who tests our systems for security holes,R030,0
+Q6,person who tests our systems for security holes,R100,0
+Q7,engineer who has built apps for phones,R027,0
+Q7,engineer who has built apps for phones,R058,0
+Q7,engineer who has built apps for phones,R061,0
+Q7,engineer who has built apps for phones,R060,0
+Q7,engineer who has built apps for phones,R091,2
+Q7,engineer who has built apps for phones,R069,0
+Q7,engineer who has built apps for phones,R043,0
+Q7,engineer who has built apps for phones,R074,0
+Q7,engineer who has built apps for phones,R009,0
+Q7,engineer who has built apps for phones,R028,0
+Q7,engineer who has built apps for phones,R101,0
+Q7,engineer who has built apps for phones,R031,0
+Q7,engineer who has built apps for phones,R084,2
+Q7,engineer who has built apps for phones,R103,0
+Q7,engineer who has built apps for phones,R077,0
+Q7,engineer who has built apps for phones,R002,0
+Q7,engineer who has built apps for phones,R094,0
+Q7,engineer who has built apps for phones,R004,0
+Q7,engineer who has built apps for phones,R014,0
+Q7,engineer who has built apps for phones,R053,0
+Q7,engineer who has built apps for phones,R032,0
+Q7,engineer who has built apps for phones,R034,0
+Q7,engineer who has built apps for phones,R003,0
+Q7,engineer who has built apps for phones,R021,0
+Q7,engineer who has built apps for phones,R039,0
+Q7,engineer who has built apps for phones,R099,0
+Q7,engineer who has built apps for phones,R011,0
+Q7,engineer who has built apps for phones,R090,2
+Q7,engineer who has built apps for phones,R020,0
+Q7,engineer who has built apps for phones,R076,0
+Q7,engineer who has built apps for phones,R016,0
+Q7,engineer who has built apps for phones,R051,0
+Q7,engineer who has built apps for phones,R007,0
+Q7,engineer who has built apps for phones,R037,0
+Q7,engineer who has built apps for phones,R097,0
+Q7,engineer who has built apps for phones,R041,0
+Q7,engineer who has built apps for phones,R045,0
+Q7,engineer who has built apps for phones,R055,0
+Q7,engineer who has built apps for phones,R059,0
+Q7,engineer who has built apps for phones,R067,0
+Q7,engineer who has built apps for phones,R072,0
+Q7,engineer who has built apps for phones,R001,0
+Q7,engineer who has built apps for phones,R086,2
+Q7,engineer who has built apps for phones,R092,0
+Q7,engineer who has built apps for phones,R024,0
+Q7,engineer who has built apps for phones,R036,0
+Q7,engineer who has built apps for phones,R073,0
+Q7,engineer who has built apps for phones,R050,0
+Q7,engineer who has built apps for phones,R071,0
+Q7,engineer who has built apps for phones,R044,0
+Q7,engineer who has built apps for phones,R015,0
+Q7,engineer who has built apps for phones,R049,0
+Q7,engineer who has built apps for phones,R010,0
+Q7,engineer who has built apps for phones,R098,0
+Q7,engineer who has built apps for phones,R102,0
+Q7,engineer who has built apps for phones,R008,0
+Q7,engineer who has built apps for phones,R063,0
+Q7,engineer who has built apps for phones,R066,0
+Q7,engineer who has built apps for phones,R056,0
+Q7,engineer who has built apps for phones,R048,0
+Q7,engineer who has built apps for phones,R019,0
+Q7,engineer who has built apps for phones,R052,0
+Q7,engineer who has built apps for phones,R064,0
+Q7,engineer who has built apps for phones,R062,0
+Q7,engineer who has built apps for phones,R095,0
+Q7,engineer who has built apps for phones,R022,0
+Q7,engineer who has built apps for phones,R035,0
+Q7,engineer who has built apps for phones,R065,0
+Q7,engineer who has built apps for phones,R068,0
+Q7,engineer who has built apps for phones,R096,0
+Q7,engineer who has built apps for phones,R070,0
+Q7,engineer who has built apps for phones,R079,0
+Q7,engineer who has built apps for phones,R026,0
+Q7,engineer who has built apps for phones,R023,0
+Q7,engineer who has built apps for phones,R054,0
+Q7,engineer who has built apps for phones,R042,0
+Q7,engineer who has built apps for phones,R038,0
+Q7,engineer who has built apps for phones,R012,0
+Q7,engineer who has built apps for phones,R017,0
+Q7,engineer who has built apps for phones,R047,0
+Q7,engineer who has built apps for phones,R075,0
+Q7,engineer who has built apps for phones,R005,0
+Q7,engineer who has built apps for phones,R057,0
+Q7,engineer who has built apps for phones,R040,0
+Q7,engineer who has built apps for phones,R006,0
+Q7,engineer who has built apps for phones,R083,2
+Q7,engineer who has built apps for phones,R089,2
+Q7,engineer who has built apps for phones,R013,0
+Q7,engineer who has built apps for phones,R081,2
+Q7,engineer who has built apps for phones,R018,0
+Q7,engineer who has built apps for phones,R088,2
+Q7,engineer who has built apps for phones,R085,2
+Q7,engineer who has built apps for phones,R093,0
+Q7,engineer who has built apps for phones,R087,2
+Q7,engineer who has built apps for phones,R033,0
+Q7,engineer who has built apps for phones,R080,2
+Q7,engineer who has built apps for phones,R025,0
+Q7,engineer who has built apps for phones,R082,2
+Q7,engineer who has built apps for phones,R029,0
+Q7,engineer who has built apps for phones,R046,0
+Q7,engineer who has built apps for phones,R078,0
+Q7,engineer who has built apps for phones,R030,0
+Q7,engineer who has built apps for phones,R100,0
+Q8,scientist who can build a similarity search system using embeddings,R027,1
+Q8,scientist who can build a similarity search system using embeddings,R058,0
+Q8,scientist who can build a similarity search system using embeddings,R061,0
+Q8,scientist who can build a similarity search system using embeddings,R060,0
+Q8,scientist who can build a similarity search system using embeddings,R091,0
+Q8,scientist who can build a similarity search system using embeddings,R069,0
+Q8,scientist who can build a similarity search system using embeddings,R043,0
+Q8,scientist who can build a similarity search system using embeddings,R074,0
+Q8,scientist who can build a similarity search system using embeddings,R009,1
+Q8,scientist who can build a similarity search system using embeddings,R028,1
+Q8,scientist who can build a similarity search system using embeddings,R101,2
+Q8,scientist who can build a similarity search system using embeddings,R031,0
+Q8,scientist who can build a similarity search system using embeddings,R084,0
+Q8,scientist who can build a similarity search system using embeddings,R103,2
+Q8,scientist who can build a similarity search system using embeddings,R077,0
+Q8,scientist who can build a similarity search system using embeddings,R002,1
+Q8,scientist who can build a similarity search system using embeddings,R094,2
+Q8,scientist who can build a similarity search system using embeddings,R004,1
+Q8,scientist who can build a similarity search system using embeddings,R014,1
+Q8,scientist who can build a similarity search system using embeddings,R053,0
+Q8,scientist who can build a similarity search system using embeddings,R032,0
+Q8,scientist who can build a similarity search system using embeddings,R034,0
+Q8,scientist who can build a similarity search system using embeddings,R003,1
+Q8,scientist who can build a similarity search system using embeddings,R021,1
+Q8,scientist who can build a similarity search system using embeddings,R039,0
+Q8,scientist who can build a similarity search system using embeddings,R099,2
+Q8,scientist who can build a similarity search system using embeddings,R011,1
+Q8,scientist who can build a similarity search system using embeddings,R090,0
+Q8,scientist who can build a similarity search system using embeddings,R020,1
+Q8,scientist who can build a similarity search system using embeddings,R076,0
+Q8,scientist who can build a similarity search system using embeddings,R016,1
+Q8,scientist who can build a similarity search system using embeddings,R051,0
+Q8,scientist who can build a similarity search system using embeddings,R007,1
+Q8,scientist who can build a similarity search system using embeddings,R037,0
+Q8,scientist who can build a similarity search system using embeddings,R097,2
+Q8,scientist who can build a similarity search system using embeddings,R041,0
+Q8,scientist who can build a similarity search system using embeddings,R045,0
+Q8,scientist who can build a similarity search system using embeddings,R055,0
+Q8,scientist who can build a similarity search system using embeddings,R059,0
+Q8,scientist who can build a similarity search system using embeddings,R067,0
+Q8,scientist who can build a similarity search system using embeddings,R072,0
+Q8,scientist who can build a similarity search system using embeddings,R001,1
+Q8,scientist who can build a similarity search system using embeddings,R086,0
+Q8,scientist who can build a similarity search system using embeddings,R092,2
+Q8,scientist who can build a similarity search system using embeddings,R024,1
+Q8,scientist who can build a similarity search system using embeddings,R036,0
+Q8,scientist who can build a similarity search system using embeddings,R073,0
+Q8,scientist who can build a similarity search system using embeddings,R050,0
+Q8,scientist who can build a similarity search system using embeddings,R071,0
+Q8,scientist who can build a similarity search system using embeddings,R044,0
+Q8,scientist who can build a similarity search system using embeddings,R015,1
+Q8,scientist who can build a similarity search system using embeddings,R049,0
+Q8,scientist who can build a similarity search system using embeddings,R010,1
+Q8,scientist who can build a similarity search system using embeddings,R098,2
+Q8,scientist who can build a similarity search system using embeddings,R102,2
+Q8,scientist who can build a similarity search system using embeddings,R008,1
+Q8,scientist who can build a similarity search system using embeddings,R063,0
+Q8,scientist who can build a similarity search system using embeddings,R066,0
+Q8,scientist who can build a similarity search system using embeddings,R056,0
+Q8,scientist who can build a similarity search system using embeddings,R048,0
+Q8,scientist who can build a similarity search system using embeddings,R019,1
+Q8,scientist who can build a similarity search system using embeddings,R052,0
+Q8,scientist who can build a similarity search system using embeddings,R064,0
+Q8,scientist who can build a similarity search system using embeddings,R062,0
+Q8,scientist who can build a similarity search system using embeddings,R095,2
+Q8,scientist who can build a similarity search system using embeddings,R022,1
+Q8,scientist who can build a similarity search system using embeddings,R035,0
+Q8,scientist who can build a similarity search system using embeddings,R065,0
+Q8,scientist who can build a similarity search system using embeddings,R068,0
+Q8,scientist who can build a similarity search system using embeddings,R096,2
+Q8,scientist who can build a similarity search system using embeddings,R070,0
+Q8,scientist who can build a similarity search system using embeddings,R079,0
+Q8,scientist who can build a similarity search system using embeddings,R026,1
+Q8,scientist who can build a similarity search system using embeddings,R023,1
+Q8,scientist who can build a similarity search system using embeddings,R054,0
+Q8,scientist who can build a similarity search system using embeddings,R042,0
+Q8,scientist who can build a similarity search system using embeddings,R038,0
+Q8,scientist who can build a similarity search system using embeddings,R012,1
+Q8,scientist who can build a similarity search system using embeddings,R017,1
+Q8,scientist who can build a similarity search system using embeddings,R047,0
+Q8,scientist who can build a similarity search system using embeddings,R075,0
+Q8,scientist who can build a similarity search system using embeddings,R005,1
+Q8,scientist who can build a similarity search system using embeddings,R057,0
+Q8,scientist who can build a similarity search system using embeddings,R040,0
+Q8,scientist who can build a similarity search system using embeddings,R006,1
+Q8,scientist who can build a similarity search system using embeddings,R083,0
+Q8,scientist who can build a similarity search system using embeddings,R089,0
+Q8,scientist who can build a similarity search system using embeddings,R013,1
+Q8,scientist who can build a similarity search system using embeddings,R081,0
+Q8,scientist who can build a similarity search system using embeddings,R018,1
+Q8,scientist who can build a similarity search system using embeddings,R088,0
+Q8,scientist who can build a similarity search system using embeddings,R085,0
+Q8,scientist who can build a similarity search system using embeddings,R093,2
+Q8,scientist who can build a similarity search system using embeddings,R087,0
+Q8,scientist who can build a similarity search system using embeddings,R033,0
+Q8,scientist who can build a similarity search system using embeddings,R080,0
+Q8,scientist who can build a similarity search system using embeddings,R025,1
+Q8,scientist who can build a similarity search system using embeddings,R082,0
+Q8,scientist who can build a similarity search system using embeddings,R029,0
+Q8,scientist who can build a similarity search system using embeddings,R046,0
+Q8,scientist who can build a similarity search system using embeddings,R078,0
+Q8,scientist who can build a similarity search system using embeddings,R030,0
+Q8,scientist who can build a similarity search system using embeddings,R100,2
+Q9,someone who has reduced how slow our mobile app crashes,R027,0
+Q9,someone who has reduced how slow our mobile app crashes,R058,0
+Q9,someone who has reduced how slow our mobile app crashes,R061,0
+Q9,someone who has reduced how slow our mobile app crashes,R060,0
+Q9,someone who has reduced how slow our mobile app crashes,R091,2
+Q9,someone who has reduced how slow our mobile app crashes,R069,0
+Q9,someone who has reduced how slow our mobile app crashes,R043,0
+Q9,someone who has reduced how slow our mobile app crashes,R074,0
+Q9,someone who has reduced how slow our mobile app crashes,R009,0
+Q9,someone who has reduced how slow our mobile app crashes,R028,0
+Q9,someone who has reduced how slow our mobile app crashes,R101,0
+Q9,someone who has reduced how slow our mobile app crashes,R031,0
+Q9,someone who has reduced how slow our mobile app crashes,R084,2
+Q9,someone who has reduced how slow our mobile app crashes,R103,0
+Q9,someone who has reduced how slow our mobile app crashes,R077,0
+Q9,someone who has reduced how slow our mobile app crashes,R002,0
+Q9,someone who has reduced how slow our mobile app crashes,R094,0
+Q9,someone who has reduced how slow our mobile app crashes,R004,0
+Q9,someone who has reduced how slow our mobile app crashes,R014,0
+Q9,someone who has reduced how slow our mobile app crashes,R053,0
+Q9,someone who has reduced how slow our mobile app crashes,R032,0
+Q9,someone who has reduced how slow our mobile app crashes,R034,0
+Q9,someone who has reduced how slow our mobile app crashes,R003,0
+Q9,someone who has reduced how slow our mobile app crashes,R021,0
+Q9,someone who has reduced how slow our mobile app crashes,R039,0
+Q9,someone who has reduced how slow our mobile app crashes,R099,0
+Q9,someone who has reduced how slow our mobile app crashes,R011,0
+Q9,someone who has reduced how slow our mobile app crashes,R090,2
+Q9,someone who has reduced how slow our mobile app crashes,R020,0
+Q9,someone who has reduced how slow our mobile app crashes,R076,0
+Q9,someone who has reduced how slow our mobile app crashes,R016,0
+Q9,someone who has reduced how slow our mobile app crashes,R051,0
+Q9,someone who has reduced how slow our mobile app crashes,R007,0
+Q9,someone who has reduced how slow our mobile app crashes,R037,0
+Q9,someone who has reduced how slow our mobile app crashes,R097,0
+Q9,someone who has reduced how slow our mobile app crashes,R041,0
+Q9,someone who has reduced how slow our mobile app crashes,R045,0
+Q9,someone who has reduced how slow our mobile app crashes,R055,0
+Q9,someone who has reduced how slow our mobile app crashes,R059,0
+Q9,someone who has reduced how slow our mobile app crashes,R067,0
+Q9,someone who has reduced how slow our mobile app crashes,R072,0
+Q9,someone who has reduced how slow our mobile app crashes,R001,0
+Q9,someone who has reduced how slow our mobile app crashes,R086,2
+Q9,someone who has reduced how slow our mobile app crashes,R092,0
+Q9,someone who has reduced how slow our mobile app crashes,R024,0
+Q9,someone who has reduced how slow our mobile app crashes,R036,0
+Q9,someone who has reduced how slow our mobile app crashes,R073,0
+Q9,someone who has reduced how slow our mobile app crashes,R050,0
+Q9,someone who has reduced how slow our mobile app crashes,R071,0
+Q9,someone who has reduced how slow our mobile app crashes,R044,0
+Q9,someone who has reduced how slow our mobile app crashes,R015,0
+Q9,someone who has reduced how slow our mobile app crashes,R049,0
+Q9,someone who has reduced how slow our mobile app crashes,R010,0
+Q9,someone who has reduced how slow our mobile app crashes,R098,0
+Q9,someone who has reduced how slow our mobile app crashes,R102,0
+Q9,someone who has reduced how slow our mobile app crashes,R008,0
+Q9,someone who has reduced how slow our mobile app crashes,R063,0
+Q9,someone who has reduced how slow our mobile app crashes,R066,0
+Q9,someone who has reduced how slow our mobile app crashes,R056,0
+Q9,someone who has reduced how slow our mobile app crashes,R048,0
+Q9,someone who has reduced how slow our mobile app crashes,R019,0
+Q9,someone who has reduced how slow our mobile app crashes,R052,0
+Q9,someone who has reduced how slow our mobile app crashes,R064,0
+Q9,someone who has reduced how slow our mobile app crashes,R062,0
+Q9,someone who has reduced how slow our mobile app crashes,R095,0
+Q9,someone who has reduced how slow our mobile app crashes,R022,0
+Q9,someone who has reduced how slow our mobile app crashes,R035,0
+Q9,someone who has reduced how slow our mobile app crashes,R065,0
+Q9,someone who has reduced how slow our mobile app crashes,R068,0
+Q9,someone who has reduced how slow our mobile app crashes,R096,0
+Q9,someone who has reduced how slow our mobile app crashes,R070,0
+Q9,someone who has reduced how slow our mobile app crashes,R079,0
+Q9,someone who has reduced how slow our mobile app crashes,R026,0
+Q9,someone who has reduced how slow our mobile app crashes,R023,0
+Q9,someone who has reduced how slow our mobile app crashes,R054,0
+Q9,someone who has reduced how slow our mobile app crashes,R042,0
+Q9,someone who has reduced how slow our mobile app crashes,R038,0
+Q9,someone who has reduced how slow our mobile app crashes,R012,0
+Q9,someone who has reduced how slow our mobile app crashes,R017,0
+Q9,someone who has reduced how slow our mobile app crashes,R047,0
+Q9,someone who has reduced how slow our mobile app crashes,R075,0
+Q9,someone who has reduced how slow our mobile app crashes,R005,0
+Q9,someone who has reduced how slow our mobile app crashes,R057,0
+Q9,someone who has reduced how slow our mobile app crashes,R040,0
+Q9,someone who has reduced how slow our mobile app crashes,R006,0
+Q9,someone who has reduced how slow our mobile app crashes,R083,2
+Q9,someone who has reduced how slow our mobile app crashes,R089,2
+Q9,someone who has reduced how slow our mobile app crashes,R013,0
+Q9,someone who has reduced how slow our mobile app crashes,R081,2
+Q9,someone who has reduced how slow our mobile app crashes,R018,0
+Q9,someone who has reduced how slow our mobile app crashes,R088,2
+Q9,someone who has reduced how slow our mobile app crashes,R085,2
+Q9,someone who has reduced how slow our mobile app crashes,R093,0
+Q9,someone who has reduced how slow our mobile app crashes,R087,2
+Q9,someone who has reduced how slow our mobile app crashes,R033,0
+Q9,someone who has reduced how slow our mobile app crashes,R080,2
+Q9,someone who has reduced how slow our mobile app crashes,R025,0
+Q9,someone who has reduced how slow our mobile app crashes,R082,2
+Q9,someone who has reduced how slow our mobile app crashes,R029,0
+Q9,someone who has reduced how slow our mobile app crashes,R046,0
+Q9,someone who has reduced how slow our mobile app crashes,R078,0
+Q9,someone who has reduced how slow our mobile app crashes,R030,0
+Q9,someone who has reduced how slow our mobile app crashes,R100,0
+Q10,candidate who owns uptime and on-call for critical services,R027,0
+Q10,candidate who owns uptime and on-call for critical services,R058,0
+Q10,candidate who owns uptime and on-call for critical services,R061,0
+Q10,candidate who owns uptime and on-call for critical services,R060,0
+Q10,candidate who owns uptime and on-call for critical services,R091,0
+Q10,candidate who owns uptime and on-call for critical services,R069,1
+Q10,candidate who owns uptime and on-call for critical services,R043,2
+Q10,candidate who owns uptime and on-call for critical services,R074,1
+Q10,candidate who owns uptime and on-call for critical services,R009,0
+Q10,candidate who owns uptime and on-call for critical services,R028,0
+Q10,candidate who owns uptime and on-call for critical services,R101,0
+Q10,candidate who owns uptime and on-call for critical services,R031,0
+Q10,candidate who owns uptime and on-call for critical services,R084,0
+Q10,candidate who owns uptime and on-call for critical services,R103,0
+Q10,candidate who owns uptime and on-call for critical services,R077,1
+Q10,candidate who owns uptime and on-call for critical services,R002,0
+Q10,candidate who owns uptime and on-call for critical services,R094,0
+Q10,candidate who owns uptime and on-call for critical services,R004,0
+Q10,candidate who owns uptime and on-call for critical services,R014,0
+Q10,candidate who owns uptime and on-call for critical services,R053,2
+Q10,candidate who owns uptime and on-call for critical services,R032,0
+Q10,candidate who owns uptime and on-call for critical services,R034,0
+Q10,candidate who owns uptime and on-call for critical services,R003,0
+Q10,candidate who owns uptime and on-call for critical services,R021,0
+Q10,candidate who owns uptime and on-call for critical services,R039,0
+Q10,candidate who owns uptime and on-call for critical services,R099,0
+Q10,candidate who owns uptime and on-call for critical services,R011,0
+Q10,candidate who owns uptime and on-call for critical services,R090,0
+Q10,candidate who owns uptime and on-call for critical services,R020,0
+Q10,candidate who owns uptime and on-call for critical services,R076,1
+Q10,candidate who owns uptime and on-call for critical services,R016,0
+Q10,candidate who owns uptime and on-call for critical services,R051,2
+Q10,candidate who owns uptime and on-call for critical services,R007,0
+Q10,candidate who owns uptime and on-call for critical services,R037,0
+Q10,candidate who owns uptime and on-call for critical services,R097,0
+Q10,candidate who owns uptime and on-call for critical services,R041,0
+Q10,candidate who owns uptime and on-call for critical services,R045,2
+Q10,candidate who owns uptime and on-call for critical services,R055,0
+Q10,candidate who owns uptime and on-call for critical services,R059,0
+Q10,candidate who owns uptime and on-call for critical services,R067,0
+Q10,candidate who owns uptime and on-call for critical services,R072,1
+Q10,candidate who owns uptime and on-call for critical services,R001,0
+Q10,candidate who owns uptime and on-call for critical services,R086,0
+Q10,candidate who owns uptime and on-call for critical services,R092,0
+Q10,candidate who owns uptime and on-call for critical services,R024,0
+Q10,candidate who owns uptime and on-call for critical services,R036,0
+Q10,candidate who owns uptime and on-call for critical services,R073,1
+Q10,candidate who owns uptime and on-call for critical services,R050,2
+Q10,candidate who owns uptime and on-call for critical services,R071,1
+Q10,candidate who owns uptime and on-call for critical services,R044,2
+Q10,candidate who owns uptime and on-call for critical services,R015,0
+Q10,candidate who owns uptime and on-call for critical services,R049,2
+Q10,candidate who owns uptime and on-call for critical services,R010,0
+Q10,candidate who owns uptime and on-call for critical services,R098,0
+Q10,candidate who owns uptime and on-call for critical services,R102,0
+Q10,candidate who owns uptime and on-call for critical services,R008,0
+Q10,candidate who owns uptime and on-call for critical services,R063,0
+Q10,candidate who owns uptime and on-call for critical services,R066,0
+Q10,candidate who owns uptime and on-call for critical services,R056,0
+Q10,candidate who owns uptime and on-call for critical services,R048,2
+Q10,candidate who owns uptime and on-call for critical services,R019,0
+Q10,candidate who owns uptime and on-call for critical services,R052,2
+Q10,candidate who owns uptime and on-call for critical services,R064,0
+Q10,candidate who owns uptime and on-call for critical services,R062,0
+Q10,candidate who owns uptime and on-call for critical services,R095,0
+Q10,candidate who owns uptime and on-call for critical services,R022,0
+Q10,candidate who owns uptime and on-call for critical services,R035,0
+Q10,candidate who owns uptime and on-call for critical services,R065,0
+Q10,candidate who owns uptime and on-call for critical services,R068,1
+Q10,candidate who owns uptime and on-call for critical services,R096,0
+Q10,candidate who owns uptime and on-call for critical services,R070,1
+Q10,candidate who owns uptime and on-call for critical services,R079,1
+Q10,candidate who owns uptime and on-call for critical services,R026,0
+Q10,candidate who owns uptime and on-call for critical services,R023,0
+Q10,candidate who owns uptime and on-call for critical services,R054,2
+Q10,candidate who owns uptime and on-call for critical services,R042,2
+Q10,candidate who owns uptime and on-call for critical services,R038,0
+Q10,candidate who owns uptime and on-call for critical services,R012,0
+Q10,candidate who owns uptime and on-call for critical services,R017,0
+Q10,candidate who owns uptime and on-call for critical services,R047,2
+Q10,candidate who owns uptime and on-call for critical services,R075,1
+Q10,candidate who owns uptime and on-call for critical services,R005,0
+Q10,candidate who owns uptime and on-call for critical services,R057,0
+Q10,candidate who owns uptime and on-call for critical services,R040,0
+Q10,candidate who owns uptime and on-call for critical services,R006,0
+Q10,candidate who owns uptime and on-call for critical services,R083,0
+Q10,candidate who owns uptime and on-call for critical services,R089,0
+Q10,candidate who owns uptime and on-call for critical services,R013,0
+Q10,candidate who owns uptime and on-call for critical services,R081,0
+Q10,candidate who owns uptime and on-call for critical services,R018,0
+Q10,candidate who owns uptime and on-call for critical services,R088,0
+Q10,candidate who owns uptime and on-call for critical services,R085,0
+Q10,candidate who owns uptime and on-call for critical services,R093,0
+Q10,candidate who owns uptime and on-call for critical services,R087,0
+Q10,candidate who owns uptime and on-call for critical services,R033,0
+Q10,candidate who owns uptime and on-call for critical services,R080,0
+Q10,candidate who owns uptime and on-call for critical services,R025,0
+Q10,candidate who owns uptime and on-call for critical services,R082,0
+Q10,candidate who owns uptime and on-call for critical services,R029,0
+Q10,candidate who owns uptime and on-call for critical services,R046,2
+Q10,candidate who owns uptime and on-call for critical services,R078,1
+Q10,candidate who owns uptime and on-call for critical services,R030,0
+Q10,candidate who owns uptime and on-call for critical services,R100,0
+Q11,specialist in large scale data movement and transformations,R027,1
+Q11,specialist in large scale data movement and transformations,R058,0
+Q11,specialist in large scale data movement and transformations,R061,0
+Q11,specialist in large scale data movement and transformations,R060,0
+Q11,specialist in large scale data movement and transformations,R091,0
+Q11,specialist in large scale data movement and transformations,R069,0
+Q11,specialist in large scale data movement and transformations,R043,0
+Q11,specialist in large scale data movement and transformations,R074,0
+Q11,specialist in large scale data movement and transformations,R009,2
+Q11,specialist in large scale data movement and transformations,R028,1
+Q11,specialist in large scale data movement and transformations,R101,1
+Q11,specialist in large scale data movement and transformations,R031,0
+Q11,specialist in large scale data movement and transformations,R084,0
+Q11,specialist in large scale data movement and transformations,R103,1
+Q11,specialist in large scale data movement and transformations,R077,0
+Q11,specialist in large scale data movement and transformations,R002,2
+Q11,specialist in large scale data movement and transformations,R094,1
+Q11,specialist in large scale data movement and transformations,R004,2
+Q11,specialist in large scale data movement and transformations,R014,2
+Q11,specialist in large scale data movement and transformations,R053,0
+Q11,specialist in large scale data movement and transformations,R032,0
+Q11,specialist in large scale data movement and transformations,R034,0
+Q11,specialist in large scale data movement and transformations,R003,2
+Q11,specialist in large scale data movement and transformations,R021,1
+Q11,specialist in large scale data movement and transformations,R039,0
+Q11,specialist in large scale data movement and transformations,R099,1
+Q11,specialist in large scale data movement and transformations,R011,2
+Q11,specialist in large scale data movement and transformations,R090,0
+Q11,specialist in large scale data movement and transformations,R020,1
+Q11,specialist in large scale data movement and transformations,R076,0
+Q11,specialist in large scale data movement and transformations,R016,1
+Q11,specialist in large scale data movement and transformations,R051,0
+Q11,specialist in large scale data movement and transformations,R007,2
+Q11,specialist in large scale data movement and transformations,R037,0
+Q11,specialist in large scale data movement and transformations,R097,1
+Q11,specialist in large scale data movement and transformations,R041,0
+Q11,specialist in large scale data movement and transformations,R045,0
+Q11,specialist in large scale data movement and transformations,R055,0
+Q11,specialist in large scale data movement and transformations,R059,0
+Q11,specialist in large scale data movement and transformations,R067,0
+Q11,specialist in large scale data movement and transformations,R072,0
+Q11,specialist in large scale data movement and transformations,R001,2
+Q11,specialist in large scale data movement and transformations,R086,0
+Q11,specialist in large scale data movement and transformations,R092,1
+Q11,specialist in large scale data movement and transformations,R024,1
+Q11,specialist in large scale data movement and transformations,R036,0
+Q11,specialist in large scale data movement and transformations,R073,0
+Q11,specialist in large scale data movement and transformations,R050,0
+Q11,specialist in large scale data movement and transformations,R071,0
+Q11,specialist in large scale data movement and transformations,R044,0
+Q11,specialist in large scale data movement and transformations,R015,1
+Q11,specialist in large scale data movement and transformations,R049,0
+Q11,specialist in large scale data movement and transformations,R010,2
+Q11,specialist in large scale data movement and transformations,R098,1
+Q11,specialist in large scale data movement and transformations,R102,1
+Q11,specialist in large scale data movement and transformations,R008,2
+Q11,specialist in large scale data movement and transformations,R063,0
+Q11,specialist in large scale data movement and transformations,R066,0
+Q11,specialist in large scale data movement and transformations,R056,0
+Q11,specialist in large scale data movement and transformations,R048,0
+Q11,specialist in large scale data movement and transformations,R019,1
+Q11,specialist in large scale data movement and transformations,R052,0
+Q11,specialist in large scale data movement and transformations,R064,0
+Q11,specialist in large scale data movement and transformations,R062,0
+Q11,specialist in large scale data movement and transformations,R095,1
+Q11,specialist in large scale data movement and transformations,R022,1
+Q11,specialist in large scale data movement and transformations,R035,0
+Q11,specialist in large scale data movement and transformations,R065,0
+Q11,specialist in large scale data movement and transformations,R068,0
+Q11,specialist in large scale data movement and transformations,R096,1
+Q11,specialist in large scale data movement and transformations,R070,0
+Q11,specialist in large scale data movement and transformations,R079,0
+Q11,specialist in large scale data movement and transformations,R026,1
+Q11,specialist in large scale data movement and transformations,R023,1
+Q11,specialist in large scale data movement and transformations,R054,0
+Q11,specialist in large scale data movement and transformations,R042,0
+Q11,specialist in large scale data movement and transformations,R038,0
+Q11,specialist in large scale data movement and transformations,R012,2
+Q11,specialist in large scale data movement and transformations,R017,1
+Q11,specialist in large scale data movement and transformations,R047,0
+Q11,specialist in large scale data movement and transformations,R075,0
+Q11,specialist in large scale data movement and transformations,R005,2
+Q11,specialist in large scale data movement and transformations,R057,0
+Q11,specialist in large scale data movement and transformations,R040,0
+Q11,specialist in large scale data movement and transformations,R006,2
+Q11,specialist in large scale data movement and transformations,R083,0
+Q11,specialist in large scale data movement and transformations,R089,0
+Q11,specialist in large scale data movement and transformations,R013,2
+Q11,specialist in large scale data movement and transformations,R081,0
+Q11,specialist in large scale data movement and transformations,R018,1
+Q11,specialist in large scale data movement and transformations,R088,0
+Q11,specialist in large scale data movement and transformations,R085,0
+Q11,specialist in large scale data movement and transformations,R093,1
+Q11,specialist in large scale data movement and transformations,R087,0
+Q11,specialist in large scale data movement and transformations,R033,0
+Q11,specialist in large scale data movement and transformations,R080,0
+Q11,specialist in large scale data movement and transformations,R025,1
+Q11,specialist in large scale data movement and transformations,R082,0
+Q11,specialist in large scale data movement and transformations,R029,0
+Q11,specialist in large scale data movement and transformations,R046,0
+Q11,specialist in large scale data movement and transformations,R078,0
+Q11,specialist in large scale data movement and transformations,R030,0
+Q11,specialist in large scale data movement and transformations,R100,1
+Q12,engineer comfortable making product UI faster and more accessible,R027,0
+Q12,engineer comfortable making product UI faster and more accessible,R058,0
+Q12,engineer comfortable making product UI faster and more accessible,R061,0
+Q12,engineer comfortable making product UI faster and more accessible,R060,0
+Q12,engineer comfortable making product UI faster and more accessible,R091,0
+Q12,engineer comfortable making product UI faster and more accessible,R069,0
+Q12,engineer comfortable making product UI faster and more accessible,R043,0
+Q12,engineer comfortable making product UI faster and more accessible,R074,0
+Q12,engineer comfortable making product UI faster and more accessible,R009,0
+Q12,engineer comfortable making product UI faster and more accessible,R028,0
+Q12,engineer comfortable making product UI faster and more accessible,R101,0
+Q12,engineer comfortable making product UI faster and more accessible,R031,2
+Q12,engineer comfortable making product UI faster and more accessible,R084,0
+Q12,engineer comfortable making product UI faster and more accessible,R103,0
+Q12,engineer comfortable making product UI faster and more accessible,R077,0
+Q12,engineer comfortable making product UI faster and more accessible,R002,0
+Q12,engineer comfortable making product UI faster and more accessible,R094,0
+Q12,engineer comfortable making product UI faster and more accessible,R004,0
+Q12,engineer comfortable making product UI faster and more accessible,R014,0
+Q12,engineer comfortable making product UI faster and more accessible,R053,0
+Q12,engineer comfortable making product UI faster and more accessible,R032,2
+Q12,engineer comfortable making product UI faster and more accessible,R034,2
+Q12,engineer comfortable making product UI faster and more accessible,R003,0
+Q12,engineer comfortable making product UI faster and more accessible,R021,0
+Q12,engineer comfortable making product UI faster and more accessible,R039,2
+Q12,engineer comfortable making product UI faster and more accessible,R099,0
+Q12,engineer comfortable making product UI faster and more accessible,R011,0
+Q12,engineer comfortable making product UI faster and more accessible,R090,0
+Q12,engineer comfortable making product UI faster and more accessible,R020,0
+Q12,engineer comfortable making product UI faster and more accessible,R076,0
+Q12,engineer comfortable making product UI faster and more accessible,R016,0
+Q12,engineer comfortable making product UI faster and more accessible,R051,0
+Q12,engineer comfortable making product UI faster and more accessible,R007,0
+Q12,engineer comfortable making product UI faster and more accessible,R037,2
+Q12,engineer comfortable making product UI faster and more accessible,R097,0
+Q12,engineer comfortable making product UI faster and more accessible,R041,2
+Q12,engineer comfortable making product UI faster and more accessible,R045,0
+Q12,engineer comfortable making product UI faster and more accessible,R055,0
+Q12,engineer comfortable making product UI faster and more accessible,R059,0
+Q12,engineer comfortable making product UI faster and more accessible,R067,0
+Q12,engineer comfortable making product UI faster and more accessible,R072,0
+Q12,engineer comfortable making product UI faster and more accessible,R001,0
+Q12,engineer comfortable making product UI faster and more accessible,R086,0
+Q12,engineer comfortable making product UI faster and more accessible,R092,0
+Q12,engineer comfortable making product UI faster and more accessible,R024,0
+Q12,engineer comfortable making product UI faster and more accessible,R036,2
+Q12,engineer comfortable making product UI faster and more accessible,R073,0
+Q12,engineer comfortable making product UI faster and more accessible,R050,0
+Q12,engineer comfortable making product UI faster and more accessible,R071,0
+Q12,engineer comfortable making product UI faster and more accessible,R044,0
+Q12,engineer comfortable making product UI faster and more accessible,R015,0
+Q12,engineer comfortable making product UI faster and more accessible,R049,0
+Q12,engineer comfortable making product UI faster and more accessible,R010,0
+Q12,engineer comfortable making product UI faster and more accessible,R098,0
+Q12,engineer comfortable making product UI faster and more accessible,R102,0
+Q12,engineer comfortable making product UI faster and more accessible,R008,0
+Q12,engineer comfortable making product UI faster and more accessible,R063,0
+Q12,engineer comfortable making product UI faster and more accessible,R066,0
+Q12,engineer comfortable making product UI faster and more accessible,R056,0
+Q12,engineer comfortable making product UI faster and more accessible,R048,0
+Q12,engineer comfortable making product UI faster and more accessible,R019,0
+Q12,engineer comfortable making product UI faster and more accessible,R052,0
+Q12,engineer comfortable making product UI faster and more accessible,R064,0
+Q12,engineer comfortable making product UI faster and more accessible,R062,0
+Q12,engineer comfortable making product UI faster and more accessible,R095,0
+Q12,engineer comfortable making product UI faster and more accessible,R022,0
+Q12,engineer comfortable making product UI faster and more accessible,R035,2
+Q12,engineer comfortable making product UI faster and more accessible,R065,0
+Q12,engineer comfortable making product UI faster and more accessible,R068,0
+Q12,engineer comfortable making product UI faster and more accessible,R096,0
+Q12,engineer comfortable making product UI faster and more accessible,R070,0
+Q12,engineer comfortable making product UI faster and more accessible,R079,0
+Q12,engineer comfortable making product UI faster and more accessible,R026,0
+Q12,engineer comfortable making product UI faster and more accessible,R023,0
+Q12,engineer comfortable making product UI faster and more accessible,R054,0
+Q12,engineer comfortable making product UI faster and more accessible,R042,0
+Q12,engineer comfortable making product UI faster and more accessible,R038,2
+Q12,engineer comfortable making product UI faster and more accessible,R012,0
+Q12,engineer comfortable making product UI faster and more accessible,R017,0
+Q12,engineer comfortable making product UI faster and more accessible,R047,0
+Q12,engineer comfortable making product UI faster and more accessible,R075,0
+Q12,engineer comfortable making product UI faster and more accessible,R005,0
+Q12,engineer comfortable making product UI faster and more accessible,R057,0
+Q12,engineer comfortable making product UI faster and more accessible,R040,2
+Q12,engineer comfortable making product UI faster and more accessible,R006,0
+Q12,engineer comfortable making product UI faster and more accessible,R083,0
+Q12,engineer comfortable making product UI faster and more accessible,R089,0
+Q12,engineer comfortable making product UI faster and more accessible,R013,0
+Q12,engineer comfortable making product UI faster and more accessible,R081,0
+Q12,engineer comfortable making product UI faster and more accessible,R018,0
+Q12,engineer comfortable making product UI faster and more accessible,R088,0
+Q12,engineer comfortable making product UI faster and more accessible,R085,0
+Q12,engineer comfortable making product UI faster and more accessible,R093,0
+Q12,engineer comfortable making product UI faster and more accessible,R087,0
+Q12,engineer comfortable making product UI faster and more accessible,R033,2
+Q12,engineer comfortable making product UI faster and more accessible,R080,0
+Q12,engineer comfortable making product UI faster and more accessible,R025,0
+Q12,engineer comfortable making product UI faster and more accessible,R082,0
+Q12,engineer comfortable making product UI faster and more accessible,R029,2
+Q12,engineer comfortable making product UI faster and more accessible,R046,0
+Q12,engineer comfortable making product UI faster and more accessible,R078,0
+Q12,engineer comfortable making product UI faster and more accessible,R030,2
+Q12,engineer comfortable making product UI faster and more accessible,R100,0
+Q13,someone who can interpret product metrics and visualize trends,R027,0
+Q13,someone who can interpret product metrics and visualize trends,R058,2
+Q13,someone who can interpret product metrics and visualize trends,R061,2
+Q13,someone who can interpret product metrics and visualize trends,R060,2
+Q13,someone who can interpret product metrics and visualize trends,R091,0
+Q13,someone who can interpret product metrics and visualize trends,R069,0
+Q13,someone who can interpret product metrics and visualize trends,R043,0
+Q13,someone who can interpret product metrics and visualize trends,R074,0
+Q13,someone who can interpret product metrics and visualize trends,R009,0
+Q13,someone who can interpret product metrics and visualize trends,R028,0
+Q13,someone who can interpret product metrics and visualize trends,R101,0
+Q13,someone who can interpret product metrics and visualize trends,R031,0
+Q13,someone who can interpret product metrics and visualize trends,R084,0
+Q13,someone who can interpret product metrics and visualize trends,R103,0
+Q13,someone who can interpret product metrics and visualize trends,R077,0
+Q13,someone who can interpret product metrics and visualize trends,R002,0
+Q13,someone who can interpret product metrics and visualize trends,R094,0
+Q13,someone who can interpret product metrics and visualize trends,R004,0
+Q13,someone who can interpret product metrics and visualize trends,R014,0
+Q13,someone who can interpret product metrics and visualize trends,R053,0
+Q13,someone who can interpret product metrics and visualize trends,R032,0
+Q13,someone who can interpret product metrics and visualize trends,R034,0
+Q13,someone who can interpret product metrics and visualize trends,R003,0
+Q13,someone who can interpret product metrics and visualize trends,R021,0
+Q13,someone who can interpret product metrics and visualize trends,R039,0
+Q13,someone who can interpret product metrics and visualize trends,R099,0
+Q13,someone who can interpret product metrics and visualize trends,R011,0
+Q13,someone who can interpret product metrics and visualize trends,R090,0
+Q13,someone who can interpret product metrics and visualize trends,R020,0
+Q13,someone who can interpret product metrics and visualize trends,R076,0
+Q13,someone who can interpret product metrics and visualize trends,R016,0
+Q13,someone who can interpret product metrics and visualize trends,R051,0
+Q13,someone who can interpret product metrics and visualize trends,R007,0
+Q13,someone who can interpret product metrics and visualize trends,R037,0
+Q13,someone who can interpret product metrics and visualize trends,R097,0
+Q13,someone who can interpret product metrics and visualize trends,R041,0
+Q13,someone who can interpret product metrics and visualize trends,R045,0
+Q13,someone who can interpret product metrics and visualize trends,R055,2
+Q13,someone who can interpret product metrics and visualize trends,R059,2
+Q13,someone who can interpret product metrics and visualize trends,R067,2
+Q13,someone who can interpret product metrics and visualize trends,R072,0
+Q13,someone who can interpret product metrics and visualize trends,R001,0
+Q13,someone who can interpret product metrics and visualize trends,R086,0
+Q13,someone who can interpret product metrics and visualize trends,R092,0
+Q13,someone who can interpret product metrics and visualize trends,R024,0
+Q13,someone who can interpret product metrics and visualize trends,R036,0
+Q13,someone who can interpret product metrics and visualize trends,R073,0
+Q13,someone who can interpret product metrics and visualize trends,R050,0
+Q13,someone who can interpret product metrics and visualize trends,R071,0
+Q13,someone who can interpret product metrics and visualize trends,R044,0
+Q13,someone who can interpret product metrics and visualize trends,R015,0
+Q13,someone who can interpret product metrics and visualize trends,R049,0
+Q13,someone who can interpret product metrics and visualize trends,R010,0
+Q13,someone who can interpret product metrics and visualize trends,R098,0
+Q13,someone who can interpret product metrics and visualize trends,R102,0
+Q13,someone who can interpret product metrics and visualize trends,R008,0
+Q13,someone who can interpret product metrics and visualize trends,R063,2
+Q13,someone who can interpret product metrics and visualize trends,R066,2
+Q13,someone who can interpret product metrics and visualize trends,R056,2
+Q13,someone who can interpret product metrics and visualize trends,R048,0
+Q13,someone who can interpret product metrics and visualize trends,R019,0
+Q13,someone who can interpret product metrics and visualize trends,R052,0
+Q13,someone who can interpret product metrics and visualize trends,R064,2
+Q13,someone who can interpret product metrics and visualize trends,R062,2
+Q13,someone who can interpret product metrics and visualize trends,R095,0
+Q13,someone who can interpret product metrics and visualize trends,R022,0
+Q13,someone who can interpret product metrics and visualize trends,R035,0
+Q13,someone who can interpret product metrics and visualize trends,R065,2
+Q13,someone who can interpret product metrics and visualize trends,R068,0
+Q13,someone who can interpret product metrics and visualize trends,R096,0
+Q13,someone who can interpret product metrics and visualize trends,R070,0
+Q13,someone who can interpret product metrics and visualize trends,R079,0
+Q13,someone who can interpret product metrics and visualize trends,R026,0
+Q13,someone who can interpret product metrics and visualize trends,R023,0
+Q13,someone who can interpret product metrics and visualize trends,R054,0
+Q13,someone who can interpret product metrics and visualize trends,R042,0
+Q13,someone who can interpret product metrics and visualize trends,R038,0
+Q13,someone who can interpret product metrics and visualize trends,R012,0
+Q13,someone who can interpret product metrics and visualize trends,R017,0
+Q13,someone who can interpret product metrics and visualize trends,R047,0
+Q13,someone who can interpret product metrics and visualize trends,R075,0
+Q13,someone who can interpret product metrics and visualize trends,R005,0
+Q13,someone who can interpret product metrics and visualize trends,R057,2
+Q13,someone who can interpret product metrics and visualize trends,R040,0
+Q13,someone who can interpret product metrics and visualize trends,R006,0
+Q13,someone who can interpret product metrics and visualize trends,R083,0
+Q13,someone who can interpret product metrics and visualize trends,R089,0
+Q13,someone who can interpret product metrics and visualize trends,R013,0
+Q13,someone who can interpret product metrics and visualize trends,R081,0
+Q13,someone who can interpret product metrics and visualize trends,R018,0
+Q13,someone who can interpret product metrics and visualize trends,R088,0
+Q13,someone who can interpret product metrics and visualize trends,R085,0
+Q13,someone who can interpret product metrics and visualize trends,R093,0
+Q13,someone who can interpret product metrics and visualize trends,R087,0
+Q13,someone who can interpret product metrics and visualize trends,R033,0
+Q13,someone who can interpret product metrics and visualize trends,R080,0
+Q13,someone who can interpret product metrics and visualize trends,R025,0
+Q13,someone who can interpret product metrics and visualize trends,R082,0
+Q13,someone who can interpret product metrics and visualize trends,R029,0
+Q13,someone who can interpret product metrics and visualize trends,R046,0
+Q13,someone who can interpret product metrics and visualize trends,R078,0
+Q13,someone who can interpret product metrics and visualize trends,R030,0
+Q13,someone who can interpret product metrics and visualize trends,R100,0
+Q14,expert in finding vulnerabilities and protecting systems,R027,0
+Q14,expert in finding vulnerabilities and protecting systems,R058,0
+Q14,expert in finding vulnerabilities and protecting systems,R061,0
+Q14,expert in finding vulnerabilities and protecting systems,R060,0
+Q14,expert in finding vulnerabilities and protecting systems,R091,0
+Q14,expert in finding vulnerabilities and protecting systems,R069,2
+Q14,expert in finding vulnerabilities and protecting systems,R043,1
+Q14,expert in finding vulnerabilities and protecting systems,R074,2
+Q14,expert in finding vulnerabilities and protecting systems,R009,0
+Q14,expert in finding vulnerabilities and protecting systems,R028,0
+Q14,expert in finding vulnerabilities and protecting systems,R101,0
+Q14,expert in finding vulnerabilities and protecting systems,R031,0
+Q14,expert in finding vulnerabilities and protecting systems,R084,0
+Q14,expert in finding vulnerabilities and protecting systems,R103,0
+Q14,expert in finding vulnerabilities and protecting systems,R077,2
+Q14,expert in finding vulnerabilities and protecting systems,R002,0
+Q14,expert in finding vulnerabilities and protecting systems,R094,0
+Q14,expert in finding vulnerabilities and protecting systems,R004,0
+Q14,expert in finding vulnerabilities and protecting systems,R014,0
+Q14,expert in finding vulnerabilities and protecting systems,R053,1
+Q14,expert in finding vulnerabilities and protecting systems,R032,0
+Q14,expert in finding vulnerabilities and protecting systems,R034,0
+Q14,expert in finding vulnerabilities and protecting systems,R003,0
+Q14,expert in finding vulnerabilities and protecting systems,R021,0
+Q14,expert in finding vulnerabilities and protecting systems,R039,0
+Q14,expert in finding vulnerabilities and protecting systems,R099,0
+Q14,expert in finding vulnerabilities and protecting systems,R011,0
+Q14,expert in finding vulnerabilities and protecting systems,R090,0
+Q14,expert in finding vulnerabilities and protecting systems,R020,0
+Q14,expert in finding vulnerabilities and protecting systems,R076,2
+Q14,expert in finding vulnerabilities and protecting systems,R016,0
+Q14,expert in finding vulnerabilities and protecting systems,R051,1
+Q14,expert in finding vulnerabilities and protecting systems,R007,0
+Q14,expert in finding vulnerabilities and protecting systems,R037,0
+Q14,expert in finding vulnerabilities and protecting systems,R097,0
+Q14,expert in finding vulnerabilities and protecting systems,R041,0
+Q14,expert in finding vulnerabilities and protecting systems,R045,1
+Q14,expert in finding vulnerabilities and protecting systems,R055,0
+Q14,expert in finding vulnerabilities and protecting systems,R059,0
+Q14,expert in finding vulnerabilities and protecting systems,R067,0
+Q14,expert in finding vulnerabilities and protecting systems,R072,2
+Q14,expert in finding vulnerabilities and protecting systems,R001,0
+Q14,expert in finding vulnerabilities and protecting systems,R086,0
+Q14,expert in finding vulnerabilities and protecting systems,R092,0
+Q14,expert in finding vulnerabilities and protecting systems,R024,0
+Q14,expert in finding vulnerabilities and protecting systems,R036,0
+Q14,expert in finding vulnerabilities and protecting systems,R073,2
+Q14,expert in finding vulnerabilities and protecting systems,R050,1
+Q14,expert in finding vulnerabilities and protecting systems,R071,2
+Q14,expert in finding vulnerabilities and protecting systems,R044,1
+Q14,expert in finding vulnerabilities and protecting systems,R015,0
+Q14,expert in finding vulnerabilities and protecting systems,R049,1
+Q14,expert in finding vulnerabilities and protecting systems,R010,0
+Q14,expert in finding vulnerabilities and protecting systems,R098,0
+Q14,expert in finding vulnerabilities and protecting systems,R102,0
+Q14,expert in finding vulnerabilities and protecting systems,R008,0
+Q14,expert in finding vulnerabilities and protecting systems,R063,0
+Q14,expert in finding vulnerabilities and protecting systems,R066,0
+Q14,expert in finding vulnerabilities and protecting systems,R056,0
+Q14,expert in finding vulnerabilities and protecting systems,R048,1
+Q14,expert in finding vulnerabilities and protecting systems,R019,0
+Q14,expert in finding vulnerabilities and protecting systems,R052,1
+Q14,expert in finding vulnerabilities and protecting systems,R064,0
+Q14,expert in finding vulnerabilities and protecting systems,R062,0
+Q14,expert in finding vulnerabilities and protecting systems,R095,0
+Q14,expert in finding vulnerabilities and protecting systems,R022,0
+Q14,expert in finding vulnerabilities and protecting systems,R035,0
+Q14,expert in finding vulnerabilities and protecting systems,R065,0
+Q14,expert in finding vulnerabilities and protecting systems,R068,2
+Q14,expert in finding vulnerabilities and protecting systems,R096,0
+Q14,expert in finding vulnerabilities and protecting systems,R070,2
+Q14,expert in finding vulnerabilities and protecting systems,R079,2
+Q14,expert in finding vulnerabilities and protecting systems,R026,0
+Q14,expert in finding vulnerabilities and protecting systems,R023,0
+Q14,expert in finding vulnerabilities and protecting systems,R054,1
+Q14,expert in finding vulnerabilities and protecting systems,R042,1
+Q14,expert in finding vulnerabilities and protecting systems,R038,0
+Q14,expert in finding vulnerabilities and protecting systems,R012,0
+Q14,expert in finding vulnerabilities and protecting systems,R017,0
+Q14,expert in finding vulnerabilities and protecting systems,R047,1
+Q14,expert in finding vulnerabilities and protecting systems,R075,2
+Q14,expert in finding vulnerabilities and protecting systems,R005,0
+Q14,expert in finding vulnerabilities and protecting systems,R057,0
+Q14,expert in finding vulnerabilities and protecting systems,R040,0
+Q14,expert in finding vulnerabilities and protecting systems,R006,0
+Q14,expert in finding vulnerabilities and protecting systems,R083,0
+Q14,expert in finding vulnerabilities and protecting systems,R089,0
+Q14,expert in finding vulnerabilities and protecting systems,R013,0
+Q14,expert in finding vulnerabilities and protecting systems,R081,0
+Q14,expert in finding vulnerabilities and protecting systems,R018,0
+Q14,expert in finding vulnerabilities and protecting systems,R088,0
+Q14,expert in finding vulnerabilities and protecting systems,R085,0
+Q14,expert in finding vulnerabilities and protecting systems,R093,0
+Q14,expert in finding vulnerabilities and protecting systems,R087,0
+Q14,expert in finding vulnerabilities and protecting systems,R033,0
+Q14,expert in finding vulnerabilities and protecting systems,R080,0
+Q14,expert in finding vulnerabilities and protecting systems,R025,0
+Q14,expert in finding vulnerabilities and protecting systems,R082,0
+Q14,expert in finding vulnerabilities and protecting systems,R029,0
+Q14,expert in finding vulnerabilities and protecting systems,R046,1
+Q14,expert in finding vulnerabilities and protecting systems,R078,2
+Q14,expert in finding vulnerabilities and protecting systems,R030,0
+Q14,expert in finding vulnerabilities and protecting systems,R100,0
+Q15,developer for smartphone and tablet applications,R027,0
+Q15,developer for smartphone and tablet applications,R058,0
+Q15,developer for smartphone and tablet applications,R061,0
+Q15,developer for smartphone and tablet applications,R060,0
+Q15,developer for smartphone and tablet applications,R091,2
+Q15,developer for smartphone and tablet applications,R069,0
+Q15,developer for smartphone and tablet applications,R043,0
+Q15,developer for smartphone and tablet applications,R074,0
+Q15,developer for smartphone and tablet applications,R009,0
+Q15,developer for smartphone and tablet applications,R028,0
+Q15,developer for smartphone and tablet applications,R101,0
+Q15,developer for smartphone and tablet applications,R031,0
+Q15,developer for smartphone and tablet applications,R084,2
+Q15,developer for smartphone and tablet applications,R103,0
+Q15,developer for smartphone and tablet applications,R077,0
+Q15,developer for smartphone and tablet applications,R002,0
+Q15,developer for smartphone and tablet applications,R094,0
+Q15,developer for smartphone and tablet applications,R004,0
+Q15,developer for smartphone and tablet applications,R014,0
+Q15,developer for smartphone and tablet applications,R053,0
+Q15,developer for smartphone and tablet applications,R032,0
+Q15,developer for smartphone and tablet applications,R034,0
+Q15,developer for smartphone and tablet applications,R003,0
+Q15,developer for smartphone and tablet applications,R021,0
+Q15,developer for smartphone and tablet applications,R039,0
+Q15,developer for smartphone and tablet applications,R099,0
+Q15,developer for smartphone and tablet applications,R011,0
+Q15,developer for smartphone and tablet applications,R090,2
+Q15,developer for smartphone and tablet applications,R020,0
+Q15,developer for smartphone and tablet applications,R076,0
+Q15,developer for smartphone and tablet applications,R016,0
+Q15,developer for smartphone and tablet applications,R051,0
+Q15,developer for smartphone and tablet applications,R007,0
+Q15,developer for smartphone and tablet applications,R037,0
+Q15,developer for smartphone and tablet applications,R097,0
+Q15,developer for smartphone and tablet applications,R041,0
+Q15,developer for smartphone and tablet applications,R045,0
+Q15,developer for smartphone and tablet applications,R055,0
+Q15,developer for smartphone and tablet applications,R059,0
+Q15,developer for smartphone and tablet applications,R067,0
+Q15,developer for smartphone and tablet applications,R072,0
+Q15,developer for smartphone and tablet applications,R001,0
+Q15,developer for smartphone and tablet applications,R086,2
+Q15,developer for smartphone and tablet applications,R092,0
+Q15,developer for smartphone and tablet applications,R024,0
+Q15,developer for smartphone and tablet applications,R036,0
+Q15,developer for smartphone and tablet applications,R073,0
+Q15,developer for smartphone and tablet applications,R050,0
+Q15,developer for smartphone and tablet applications,R071,0
+Q15,developer for smartphone and tablet applications,R044,0
+Q15,developer for smartphone and tablet applications,R015,0
+Q15,developer for smartphone and tablet applications,R049,0
+Q15,developer for smartphone and tablet applications,R010,0
+Q15,developer for smartphone and tablet applications,R098,0
+Q15,developer for smartphone and tablet applications,R102,0
+Q15,developer for smartphone and tablet applications,R008,0
+Q15,developer for smartphone and tablet applications,R063,0
+Q15,developer for smartphone and tablet applications,R066,0
+Q15,developer for smartphone and tablet applications,R056,0
+Q15,developer for smartphone and tablet applications,R048,0
+Q15,developer for smartphone and tablet applications,R019,0
+Q15,developer for smartphone and tablet applications,R052,0
+Q15,developer for smartphone and tablet applications,R064,0
+Q15,developer for smartphone and tablet applications,R062,0
+Q15,developer for smartphone and tablet applications,R095,0
+Q15,developer for smartphone and tablet applications,R022,0
+Q15,developer for smartphone and tablet applications,R035,0
+Q15,developer for smartphone and tablet applications,R065,0
+Q15,developer for smartphone and tablet applications,R068,0
+Q15,developer for smartphone and tablet applications,R096,0
+Q15,developer for smartphone and tablet applications,R070,0
+Q15,developer for smartphone and tablet applications,R079,0
+Q15,developer for smartphone and tablet applications,R026,0
+Q15,developer for smartphone and tablet applications,R023,0
+Q15,developer for smartphone and tablet applications,R054,0
+Q15,developer for smartphone and tablet applications,R042,0
+Q15,developer for smartphone and tablet applications,R038,0
+Q15,developer for smartphone and tablet applications,R012,0
+Q15,developer for smartphone and tablet applications,R017,0
+Q15,developer for smartphone and tablet applications,R047,0
+Q15,developer for smartphone and tablet applications,R075,0
+Q15,developer for smartphone and tablet applications,R005,0
+Q15,developer for smartphone and tablet applications,R057,0
+Q15,developer for smartphone and tablet applications,R040,0
+Q15,developer for smartphone and tablet applications,R006,0
+Q15,developer for smartphone and tablet applications,R083,2
+Q15,developer for smartphone and tablet applications,R089,2
+Q15,developer for smartphone and tablet applications,R013,0
+Q15,developer for smartphone and tablet applications,R081,2
+Q15,developer for smartphone and tablet applications,R018,0
+Q15,developer for smartphone and tablet applications,R088,2
+Q15,developer for smartphone and tablet applications,R085,2
+Q15,developer for smartphone and tablet applications,R093,0
+Q15,developer for smartphone and tablet applications,R087,2
+Q15,developer for smartphone and tablet applications,R033,0
+Q15,developer for smartphone and tablet applications,R080,2
+Q15,developer for smartphone and tablet applications,R025,0
+Q15,developer for smartphone and tablet applications,R082,2
+Q15,developer for smartphone and tablet applications,R029,0
+Q15,developer for smartphone and tablet applications,R046,0
+Q15,developer for smartphone and tablet applications,R078,0
+Q15,developer for smartphone and tablet applications,R030,0
+Q15,developer for smartphone and tablet applications,R100,0
+Q16,systems person who improves speed of serving models,R027,2
+Q16,systems person who improves speed of serving models,R058,0
+Q16,systems person who improves speed of serving models,R061,0
+Q16,systems person who improves speed of serving models,R060,0
+Q16,systems person who improves speed of serving models,R091,0
+Q16,systems person who improves speed of serving models,R069,0
+Q16,systems person who improves speed of serving models,R043,0
+Q16,systems person who improves speed of serving models,R074,0
+Q16,systems person who improves speed of serving models,R009,1
+Q16,systems person who improves speed of serving models,R028,2
+Q16,systems person who improves speed of serving models,R101,1
+Q16,systems person who improves speed of serving models,R031,0
+Q16,systems person who improves speed of serving models,R084,0
+Q16,systems person who improves speed of serving models,R103,1
+Q16,systems person who improves speed of serving models,R077,0
+Q16,systems person who improves speed of serving models,R002,1
+Q16,systems person who improves speed of serving models,R094,1
+Q16,systems person who improves speed of serving models,R004,1
+Q16,systems person who improves speed of serving models,R014,1
+Q16,systems person who improves speed of serving models,R053,0
+Q16,systems person who improves speed of serving models,R032,0
+Q16,systems person who improves speed of serving models,R034,0
+Q16,systems person who improves speed of serving models,R003,1
+Q16,systems person who improves speed of serving models,R021,2
+Q16,systems person who improves speed of serving models,R039,0
+Q16,systems person who improves speed of serving models,R099,1
+Q16,systems person who improves speed of serving models,R011,1
+Q16,systems person who improves speed of serving models,R090,0
+Q16,systems person who improves speed of serving models,R020,2
+Q16,systems person who improves speed of serving models,R076,0
+Q16,systems person who improves speed of serving models,R016,2
+Q16,systems person who improves speed of serving models,R051,0
+Q16,systems person who improves speed of serving models,R007,1
+Q16,systems person who improves speed of serving models,R037,0
+Q16,systems person who improves speed of serving models,R097,1
+Q16,systems person who improves speed of serving models,R041,0
+Q16,systems person who improves speed of serving models,R045,0
+Q16,systems person who improves speed of serving models,R055,0
+Q16,systems person who improves speed of serving models,R059,0
+Q16,systems person who improves speed of serving models,R067,0
+Q16,systems person who improves speed of serving models,R072,0
+Q16,systems person who improves speed of serving models,R001,1
+Q16,systems person who improves speed of serving models,R086,0
+Q16,systems person who improves speed of serving models,R092,1
+Q16,systems person who improves speed of serving models,R024,2
+Q16,systems person who improves speed of serving models,R036,0
+Q16,systems person who improves speed of serving models,R073,0
+Q16,systems person who improves speed of serving models,R050,0
+Q16,systems person who improves speed of serving models,R071,0
+Q16,systems person who improves speed of serving models,R044,0
+Q16,systems person who improves speed of serving models,R015,2
+Q16,systems person who improves speed of serving models,R049,0
+Q16,systems person who improves speed of serving models,R010,1
+Q16,systems person who improves speed of serving models,R098,1
+Q16,systems person who improves speed of serving models,R102,1
+Q16,systems person who improves speed of serving models,R008,1
+Q16,systems person who improves speed of serving models,R063,0
+Q16,systems person who improves speed of serving models,R066,0
+Q16,systems person who improves speed of serving models,R056,0
+Q16,systems person who improves speed of serving models,R048,0
+Q16,systems person who improves speed of serving models,R019,2
+Q16,systems person who improves speed of serving models,R052,0
+Q16,systems person who improves speed of serving models,R064,0
+Q16,systems person who improves speed of serving models,R062,0
+Q16,systems person who improves speed of serving models,R095,1
+Q16,systems person who improves speed of serving models,R022,2
+Q16,systems person who improves speed of serving models,R035,0
+Q16,systems person who improves speed of serving models,R065,0
+Q16,systems person who improves speed of serving models,R068,0
+Q16,systems person who improves speed of serving models,R096,1
+Q16,systems person who improves speed of serving models,R070,0
+Q16,systems person who improves speed of serving models,R079,0
+Q16,systems person who improves speed of serving models,R026,2
+Q16,systems person who improves speed of serving models,R023,2
+Q16,systems person who improves speed of serving models,R054,0
+Q16,systems person who improves speed of serving models,R042,0
+Q16,systems person who improves speed of serving models,R038,0
+Q16,systems person who improves speed of serving models,R012,1
+Q16,systems person who improves speed of serving models,R017,2
+Q16,systems person who improves speed of serving models,R047,0
+Q16,systems person who improves speed of serving models,R075,0
+Q16,systems person who improves speed of serving models,R005,1
+Q16,systems person who improves speed of serving models,R057,0
+Q16,systems person who improves speed of serving models,R040,0
+Q16,systems person who improves speed of serving models,R006,1
+Q16,systems person who improves speed of serving models,R083,0
+Q16,systems person who improves speed of serving models,R089,0
+Q16,systems person who improves speed of serving models,R013,1
+Q16,systems person who improves speed of serving models,R081,0
+Q16,systems person who improves speed of serving models,R018,2
+Q16,systems person who improves speed of serving models,R088,0
+Q16,systems person who improves speed of serving models,R085,0
+Q16,systems person who improves speed of serving models,R093,1
+Q16,systems person who improves speed of serving models,R087,0
+Q16,systems person who improves speed of serving models,R033,0
+Q16,systems person who improves speed of serving models,R080,0
+Q16,systems person who improves speed of serving models,R025,2
+Q16,systems person who improves speed of serving models,R082,0
+Q16,systems person who improves speed of serving models,R029,0
+Q16,systems person who improves speed of serving models,R046,0
+Q16,systems person who improves speed of serving models,R078,0
+Q16,systems person who improves speed of serving models,R030,0
+Q16,systems person who improves speed of serving models,R100,1
+Q17,statistician working on user retention and causal impact,R027,1
+Q17,statistician working on user retention and causal impact,R058,0
+Q17,statistician working on user retention and causal impact,R061,0
+Q17,statistician working on user retention and causal impact,R060,0
+Q17,statistician working on user retention and causal impact,R091,0
+Q17,statistician working on user retention and causal impact,R069,0
+Q17,statistician working on user retention and causal impact,R043,0
+Q17,statistician working on user retention and causal impact,R074,0
+Q17,statistician working on user retention and causal impact,R009,1
+Q17,statistician working on user retention and causal impact,R028,1
+Q17,statistician working on user retention and causal impact,R101,2
+Q17,statistician working on user retention and causal impact,R031,0
+Q17,statistician working on user retention and causal impact,R084,0
+Q17,statistician working on user retention and causal impact,R103,2
+Q17,statistician working on user retention and causal impact,R077,0
+Q17,statistician working on user retention and causal impact,R002,1
+Q17,statistician working on user retention and causal impact,R094,2
+Q17,statistician working on user retention and causal impact,R004,1
+Q17,statistician working on user retention and causal impact,R014,1
+Q17,statistician working on user retention and causal impact,R053,0
+Q17,statistician working on user retention and causal impact,R032,0
+Q17,statistician working on user retention and causal impact,R034,0
+Q17,statistician working on user retention and causal impact,R003,1
+Q17,statistician working on user retention and causal impact,R021,1
+Q17,statistician working on user retention and causal impact,R039,0
+Q17,statistician working on user retention and causal impact,R099,2
+Q17,statistician working on user retention and causal impact,R011,1
+Q17,statistician working on user retention and causal impact,R090,0
+Q17,statistician working on user retention and causal impact,R020,1
+Q17,statistician working on user retention and causal impact,R076,0
+Q17,statistician working on user retention and causal impact,R016,1
+Q17,statistician working on user retention and causal impact,R051,0
+Q17,statistician working on user retention and causal impact,R007,1
+Q17,statistician working on user retention and causal impact,R037,0
+Q17,statistician working on user retention and causal impact,R097,2
+Q17,statistician working on user retention and causal impact,R041,0
+Q17,statistician working on user retention and causal impact,R045,0
+Q17,statistician working on user retention and causal impact,R055,0
+Q17,statistician working on user retention and causal impact,R059,0
+Q17,statistician working on user retention and causal impact,R067,0
+Q17,statistician working on user retention and causal impact,R072,0
+Q17,statistician working on user retention and causal impact,R001,1
+Q17,statistician working on user retention and causal impact,R086,0
+Q17,statistician working on user retention and causal impact,R092,2
+Q17,statistician working on user retention and causal impact,R024,1
+Q17,statistician working on user retention and causal impact,R036,0
+Q17,statistician working on user retention and causal impact,R073,0
+Q17,statistician working on user retention and causal impact,R050,0
+Q17,statistician working on user retention and causal impact,R071,0
+Q17,statistician working on user retention and causal impact,R044,0
+Q17,statistician working on user retention and causal impact,R015,1
+Q17,statistician working on user retention and causal impact,R049,0
+Q17,statistician working on user retention and causal impact,R010,1
+Q17,statistician working on user retention and causal impact,R098,2
+Q17,statistician working on user retention and causal impact,R102,2
+Q17,statistician working on user retention and causal impact,R008,1
+Q17,statistician working on user retention and causal impact,R063,0
+Q17,statistician working on user retention and causal impact,R066,0
+Q17,statistician working on user retention and causal impact,R056,0
+Q17,statistician working on user retention and causal impact,R048,0
+Q17,statistician working on user retention and causal impact,R019,1
+Q17,statistician working on user retention and causal impact,R052,0
+Q17,statistician working on user retention and causal impact,R064,0
+Q17,statistician working on user retention and causal impact,R062,0
+Q17,statistician working on user retention and causal impact,R095,2
+Q17,statistician working on user retention and causal impact,R022,1
+Q17,statistician working on user retention and causal impact,R035,0
+Q17,statistician working on user retention and causal impact,R065,0
+Q17,statistician working on user retention and causal impact,R068,0
+Q17,statistician working on user retention and causal impact,R096,2
+Q17,statistician working on user retention and causal impact,R070,0
+Q17,statistician working on user retention and causal impact,R079,0
+Q17,statistician working on user retention and causal impact,R026,1
+Q17,statistician working on user retention and causal impact,R023,1
+Q17,statistician working on user retention and causal impact,R054,0
+Q17,statistician working on user retention and causal impact,R042,0
+Q17,statistician working on user retention and causal impact,R038,0
+Q17,statistician working on user retention and causal impact,R012,1
+Q17,statistician working on user retention and causal impact,R017,1
+Q17,statistician working on user retention and causal impact,R047,0
+Q17,statistician working on user retention and causal impact,R075,0
+Q17,statistician working on user retention and causal impact,R005,1
+Q17,statistician working on user retention and causal impact,R057,0
+Q17,statistician working on user retention and causal impact,R040,0
+Q17,statistician working on user retention and causal impact,R006,1
+Q17,statistician working on user retention and causal impact,R083,0
+Q17,statistician working on user retention and causal impact,R089,0
+Q17,statistician working on user retention and causal impact,R013,1
+Q17,statistician working on user retention and causal impact,R081,0
+Q17,statistician working on user retention and causal impact,R018,1
+Q17,statistician working on user retention and causal impact,R088,0
+Q17,statistician working on user retention and causal impact,R085,0
+Q17,statistician working on user retention and causal impact,R093,2
+Q17,statistician working on user retention and causal impact,R087,0
+Q17,statistician working on user retention and causal impact,R033,0
+Q17,statistician working on user retention and causal impact,R080,0
+Q17,statistician working on user retention and causal impact,R025,1
+Q17,statistician working on user retention and causal impact,R082,0
+Q17,statistician working on user retention and causal impact,R029,0
+Q17,statistician working on user retention and causal impact,R046,0
+Q17,statistician working on user retention and causal impact,R078,0
+Q17,statistician working on user retention and causal impact,R030,0
+Q17,statistician working on user retention and causal impact,R100,2
+Q18,infrastructure person automating deployments and maintaining uptime,R027,0
+Q18,infrastructure person automating deployments and maintaining uptime,R058,0
+Q18,infrastructure person automating deployments and maintaining uptime,R061,0
+Q18,infrastructure person automating deployments and maintaining uptime,R060,0
+Q18,infrastructure person automating deployments and maintaining uptime,R091,0
+Q18,infrastructure person automating deployments and maintaining uptime,R069,1
+Q18,infrastructure person automating deployments and maintaining uptime,R043,2
+Q18,infrastructure person automating deployments and maintaining uptime,R074,1
+Q18,infrastructure person automating deployments and maintaining uptime,R009,0
+Q18,infrastructure person automating deployments and maintaining uptime,R028,0
+Q18,infrastructure person automating deployments and maintaining uptime,R101,0
+Q18,infrastructure person automating deployments and maintaining uptime,R031,0
+Q18,infrastructure person automating deployments and maintaining uptime,R084,0
+Q18,infrastructure person automating deployments and maintaining uptime,R103,0
+Q18,infrastructure person automating deployments and maintaining uptime,R077,1
+Q18,infrastructure person automating deployments and maintaining uptime,R002,0
+Q18,infrastructure person automating deployments and maintaining uptime,R094,0
+Q18,infrastructure person automating deployments and maintaining uptime,R004,0
+Q18,infrastructure person automating deployments and maintaining uptime,R014,0
+Q18,infrastructure person automating deployments and maintaining uptime,R053,2
+Q18,infrastructure person automating deployments and maintaining uptime,R032,0
+Q18,infrastructure person automating deployments and maintaining uptime,R034,0
+Q18,infrastructure person automating deployments and maintaining uptime,R003,0
+Q18,infrastructure person automating deployments and maintaining uptime,R021,0
+Q18,infrastructure person automating deployments and maintaining uptime,R039,0
+Q18,infrastructure person automating deployments and maintaining uptime,R099,0
+Q18,infrastructure person automating deployments and maintaining uptime,R011,0
+Q18,infrastructure person automating deployments and maintaining uptime,R090,0
+Q18,infrastructure person automating deployments and maintaining uptime,R020,0
+Q18,infrastructure person automating deployments and maintaining uptime,R076,1
+Q18,infrastructure person automating deployments and maintaining uptime,R016,0
+Q18,infrastructure person automating deployments and maintaining uptime,R051,2
+Q18,infrastructure person automating deployments and maintaining uptime,R007,0
+Q18,infrastructure person automating deployments and maintaining uptime,R037,0
+Q18,infrastructure person automating deployments and maintaining uptime,R097,0
+Q18,infrastructure person automating deployments and maintaining uptime,R041,0
+Q18,infrastructure person automating deployments and maintaining uptime,R045,2
+Q18,infrastructure person automating deployments and maintaining uptime,R055,0
+Q18,infrastructure person automating deployments and maintaining uptime,R059,0
+Q18,infrastructure person automating deployments and maintaining uptime,R067,0
+Q18,infrastructure person automating deployments and maintaining uptime,R072,1
+Q18,infrastructure person automating deployments and maintaining uptime,R001,0
+Q18,infrastructure person automating deployments and maintaining uptime,R086,0
+Q18,infrastructure person automating deployments and maintaining uptime,R092,0
+Q18,infrastructure person automating deployments and maintaining uptime,R024,0
+Q18,infrastructure person automating deployments and maintaining uptime,R036,0
+Q18,infrastructure person automating deployments and maintaining uptime,R073,1
+Q18,infrastructure person automating deployments and maintaining uptime,R050,2
+Q18,infrastructure person automating deployments and maintaining uptime,R071,1
+Q18,infrastructure person automating deployments and maintaining uptime,R044,2
+Q18,infrastructure person automating deployments and maintaining uptime,R015,0
+Q18,infrastructure person automating deployments and maintaining uptime,R049,2
+Q18,infrastructure person automating deployments and maintaining uptime,R010,0
+Q18,infrastructure person automating deployments and maintaining uptime,R098,0
+Q18,infrastructure person automating deployments and maintaining uptime,R102,0
+Q18,infrastructure person automating deployments and maintaining uptime,R008,0
+Q18,infrastructure person automating deployments and maintaining uptime,R063,0
+Q18,infrastructure person automating deployments and maintaining uptime,R066,0
+Q18,infrastructure person automating deployments and maintaining uptime,R056,0
+Q18,infrastructure person automating deployments and maintaining uptime,R048,2
+Q18,infrastructure person automating deployments and maintaining uptime,R019,0
+Q18,infrastructure person automating deployments and maintaining uptime,R052,2
+Q18,infrastructure person automating deployments and maintaining uptime,R064,0
+Q18,infrastructure person automating deployments and maintaining uptime,R062,0
+Q18,infrastructure person automating deployments and maintaining uptime,R095,0
+Q18,infrastructure person automating deployments and maintaining uptime,R022,0
+Q18,infrastructure person automating deployments and maintaining uptime,R035,0
+Q18,infrastructure person automating deployments and maintaining uptime,R065,0
+Q18,infrastructure person automating deployments and maintaining uptime,R068,1
+Q18,infrastructure person automating deployments and maintaining uptime,R096,0
+Q18,infrastructure person automating deployments and maintaining uptime,R070,1
+Q18,infrastructure person automating deployments and maintaining uptime,R079,1
+Q18,infrastructure person automating deployments and maintaining uptime,R026,0
+Q18,infrastructure person automating deployments and maintaining uptime,R023,0
+Q18,infrastructure person automating deployments and maintaining uptime,R054,2
+Q18,infrastructure person automating deployments and maintaining uptime,R042,2
+Q18,infrastructure person automating deployments and maintaining uptime,R038,0
+Q18,infrastructure person automating deployments and maintaining uptime,R012,0
+Q18,infrastructure person automating deployments and maintaining uptime,R017,0
+Q18,infrastructure person automating deployments and maintaining uptime,R047,2
+Q18,infrastructure person automating deployments and maintaining uptime,R075,1
+Q18,infrastructure person automating deployments and maintaining uptime,R005,0
+Q18,infrastructure person automating deployments and maintaining uptime,R057,0
+Q18,infrastructure person automating deployments and maintaining uptime,R040,0
+Q18,infrastructure person automating deployments and maintaining uptime,R006,0
+Q18,infrastructure person automating deployments and maintaining uptime,R083,0
+Q18,infrastructure person automating deployments and maintaining uptime,R089,0
+Q18,infrastructure person automating deployments and maintaining uptime,R013,0
+Q18,infrastructure person automating deployments and maintaining uptime,R081,0
+Q18,infrastructure person automating deployments and maintaining uptime,R018,0
+Q18,infrastructure person automating deployments and maintaining uptime,R088,0
+Q18,infrastructure person automating deployments and maintaining uptime,R085,0
+Q18,infrastructure person automating deployments and maintaining uptime,R093,0
+Q18,infrastructure person automating deployments and maintaining uptime,R087,0
+Q18,infrastructure person automating deployments and maintaining uptime,R033,0
+Q18,infrastructure person automating deployments and maintaining uptime,R080,0
+Q18,infrastructure person automating deployments and maintaining uptime,R025,0
+Q18,infrastructure person automating deployments and maintaining uptime,R082,0
+Q18,infrastructure person automating deployments and maintaining uptime,R029,0
+Q18,infrastructure person automating deployments and maintaining uptime,R046,2
+Q18,infrastructure person automating deployments and maintaining uptime,R078,1
+Q18,infrastructure person automating deployments and maintaining uptime,R030,0
+Q18,infrastructure person automating deployments and maintaining uptime,R100,0
+Q19,professional who creates business intelligence reports,R027,0
+Q19,professional who creates business intelligence reports,R058,2
+Q19,professional who creates business intelligence reports,R061,2
+Q19,professional who creates business intelligence reports,R060,2
+Q19,professional who creates business intelligence reports,R091,0
+Q19,professional who creates business intelligence reports,R069,0
+Q19,professional who creates business intelligence reports,R043,0
+Q19,professional who creates business intelligence reports,R074,0
+Q19,professional who creates business intelligence reports,R009,0
+Q19,professional who creates business intelligence reports,R028,0
+Q19,professional who creates business intelligence reports,R101,0
+Q19,professional who creates business intelligence reports,R031,0
+Q19,professional who creates business intelligence reports,R084,0
+Q19,professional who creates business intelligence reports,R103,0
+Q19,professional who creates business intelligence reports,R077,0
+Q19,professional who creates business intelligence reports,R002,0
+Q19,professional who creates business intelligence reports,R094,0
+Q19,professional who creates business intelligence reports,R004,0
+Q19,professional who creates business intelligence reports,R014,0
+Q19,professional who creates business intelligence reports,R053,0
+Q19,professional who creates business intelligence reports,R032,0
+Q19,professional who creates business intelligence reports,R034,0
+Q19,professional who creates business intelligence reports,R003,0
+Q19,professional who creates business intelligence reports,R021,0
+Q19,professional who creates business intelligence reports,R039,0
+Q19,professional who creates business intelligence reports,R099,0
+Q19,professional who creates business intelligence reports,R011,0
+Q19,professional who creates business intelligence reports,R090,0
+Q19,professional who creates business intelligence reports,R020,0
+Q19,professional who creates business intelligence reports,R076,0
+Q19,professional who creates business intelligence reports,R016,0
+Q19,professional who creates business intelligence reports,R051,0
+Q19,professional who creates business intelligence reports,R007,0
+Q19,professional who creates business intelligence reports,R037,0
+Q19,professional who creates business intelligence reports,R097,0
+Q19,professional who creates business intelligence reports,R041,0
+Q19,professional who creates business intelligence reports,R045,0
+Q19,professional who creates business intelligence reports,R055,2
+Q19,professional who creates business intelligence reports,R059,2
+Q19,professional who creates business intelligence reports,R067,2
+Q19,professional who creates business intelligence reports,R072,0
+Q19,professional who creates business intelligence reports,R001,0
+Q19,professional who creates business intelligence reports,R086,0
+Q19,professional who creates business intelligence reports,R092,0
+Q19,professional who creates business intelligence reports,R024,0
+Q19,professional who creates business intelligence reports,R036,0
+Q19,professional who creates business intelligence reports,R073,0
+Q19,professional who creates business intelligence reports,R050,0
+Q19,professional who creates business intelligence reports,R071,0
+Q19,professional who creates business intelligence reports,R044,0
+Q19,professional who creates business intelligence reports,R015,0
+Q19,professional who creates business intelligence reports,R049,0
+Q19,professional who creates business intelligence reports,R010,0
+Q19,professional who creates business intelligence reports,R098,0
+Q19,professional who creates business intelligence reports,R102,0
+Q19,professional who creates business intelligence reports,R008,0
+Q19,professional who creates business intelligence reports,R063,2
+Q19,professional who creates business intelligence reports,R066,2
+Q19,professional who creates business intelligence reports,R056,2
+Q19,professional who creates business intelligence reports,R048,0
+Q19,professional who creates business intelligence reports,R019,0
+Q19,professional who creates business intelligence reports,R052,0
+Q19,professional who creates business intelligence reports,R064,2
+Q19,professional who creates business intelligence reports,R062,2
+Q19,professional who creates business intelligence reports,R095,0
+Q19,professional who creates business intelligence reports,R022,0
+Q19,professional who creates business intelligence reports,R035,0
+Q19,professional who creates business intelligence reports,R065,2
+Q19,professional who creates business intelligence reports,R068,0
+Q19,professional who creates business intelligence reports,R096,0
+Q19,professional who creates business intelligence reports,R070,0
+Q19,professional who creates business intelligence reports,R079,0
+Q19,professional who creates business intelligence reports,R026,0
+Q19,professional who creates business intelligence reports,R023,0
+Q19,professional who creates business intelligence reports,R054,0
+Q19,professional who creates business intelligence reports,R042,0
+Q19,professional who creates business intelligence reports,R038,0
+Q19,professional who creates business intelligence reports,R012,0
+Q19,professional who creates business intelligence reports,R017,0
+Q19,professional who creates business intelligence reports,R047,0
+Q19,professional who creates business intelligence reports,R075,0
+Q19,professional who creates business intelligence reports,R005,0
+Q19,professional who creates business intelligence reports,R057,2
+Q19,professional who creates business intelligence reports,R040,0
+Q19,professional who creates business intelligence reports,R006,0
+Q19,professional who creates business intelligence reports,R083,0
+Q19,professional who creates business intelligence reports,R089,0
+Q19,professional who creates business intelligence reports,R013,0
+Q19,professional who creates business intelligence reports,R081,0
+Q19,professional who creates business intelligence reports,R018,0
+Q19,professional who creates business intelligence reports,R088,0
+Q19,professional who creates business intelligence reports,R085,0
+Q19,professional who creates business intelligence reports,R093,0
+Q19,professional who creates business intelligence reports,R087,0
+Q19,professional who creates business intelligence reports,R033,0
+Q19,professional who creates business intelligence reports,R080,0
+Q19,professional who creates business intelligence reports,R025,0
+Q19,professional who creates business intelligence reports,R082,0
+Q19,professional who creates business intelligence reports,R029,0
+Q19,professional who creates business intelligence reports,R046,0
+Q19,professional who creates business intelligence reports,R078,0
+Q19,professional who creates business intelligence reports,R030,0
+Q19,professional who creates business intelligence reports,R100,0
+Q20,researcher creating similarity matching algorithms,R027,1
+Q20,researcher creating similarity matching algorithms,R058,0
+Q20,researcher creating similarity matching algorithms,R061,0
+Q20,researcher creating similarity matching algorithms,R060,0
+Q20,researcher creating similarity matching algorithms,R091,0
+Q20,researcher creating similarity matching algorithms,R069,0
+Q20,researcher creating similarity matching algorithms,R043,0
+Q20,researcher creating similarity matching algorithms,R074,0
+Q20,researcher creating similarity matching algorithms,R009,1
+Q20,researcher creating similarity matching algorithms,R028,1
+Q20,researcher creating similarity matching algorithms,R101,2
+Q20,researcher creating similarity matching algorithms,R031,0
+Q20,researcher creating similarity matching algorithms,R084,0
+Q20,researcher creating similarity matching algorithms,R103,2
+Q20,researcher creating similarity matching algorithms,R077,0
+Q20,researcher creating similarity matching algorithms,R002,1
+Q20,researcher creating similarity matching algorithms,R094,2
+Q20,researcher creating similarity matching algorithms,R004,1
+Q20,researcher creating similarity matching algorithms,R014,1
+Q20,researcher creating similarity matching algorithms,R053,0
+Q20,researcher creating similarity matching algorithms,R032,0
+Q20,researcher creating similarity matching algorithms,R034,0
+Q20,researcher creating similarity matching algorithms,R003,1
+Q20,researcher creating similarity matching algorithms,R021,1
+Q20,researcher creating similarity matching algorithms,R039,0
+Q20,researcher creating similarity matching algorithms,R099,2
+Q20,researcher creating similarity matching algorithms,R011,1
+Q20,researcher creating similarity matching algorithms,R090,0
+Q20,researcher creating similarity matching algorithms,R020,1
+Q20,researcher creating similarity matching algorithms,R076,0
+Q20,researcher creating similarity matching algorithms,R016,1
+Q20,researcher creating similarity matching algorithms,R051,0
+Q20,researcher creating similarity matching algorithms,R007,1
+Q20,researcher creating similarity matching algorithms,R037,0
+Q20,researcher creating similarity matching algorithms,R097,2
+Q20,researcher creating similarity matching algorithms,R041,0
+Q20,researcher creating similarity matching algorithms,R045,0
+Q20,researcher creating similarity matching algorithms,R055,0
+Q20,researcher creating similarity matching algorithms,R059,0
+Q20,researcher creating similarity matching algorithms,R067,0
+Q20,researcher creating similarity matching algorithms,R072,0
+Q20,researcher creating similarity matching algorithms,R001,1
+Q20,researcher creating similarity matching algorithms,R086,0
+Q20,researcher creating similarity matching algorithms,R092,2
+Q20,researcher creating similarity matching algorithms,R024,1
+Q20,researcher creating similarity matching algorithms,R036,0
+Q20,researcher creating similarity matching algorithms,R073,0
+Q20,researcher creating similarity matching algorithms,R050,0
+Q20,researcher creating similarity matching algorithms,R071,0
+Q20,researcher creating similarity matching algorithms,R044,0
+Q20,researcher creating similarity matching algorithms,R015,1
+Q20,researcher creating similarity matching algorithms,R049,0
+Q20,researcher creating similarity matching algorithms,R010,1
+Q20,researcher creating similarity matching algorithms,R098,2
+Q20,researcher creating similarity matching algorithms,R102,2
+Q20,researcher creating similarity matching algorithms,R008,1
+Q20,researcher creating similarity matching algorithms,R063,0
+Q20,researcher creating similarity matching algorithms,R066,0
+Q20,researcher creating similarity matching algorithms,R056,0
+Q20,researcher creating similarity matching algorithms,R048,0
+Q20,researcher creating similarity matching algorithms,R019,1
+Q20,researcher creating similarity matching algorithms,R052,0
+Q20,researcher creating similarity matching algorithms,R064,0
+Q20,researcher creating similarity matching algorithms,R062,0
+Q20,researcher creating similarity matching algorithms,R095,2
+Q20,researcher creating similarity matching algorithms,R022,1
+Q20,researcher creating similarity matching algorithms,R035,0
+Q20,researcher creating similarity matching algorithms,R065,0
+Q20,researcher creating similarity matching algorithms,R068,0
+Q20,researcher creating similarity matching algorithms,R096,2
+Q20,researcher creating similarity matching algorithms,R070,0
+Q20,researcher creating similarity matching algorithms,R079,0
+Q20,researcher creating similarity matching algorithms,R026,1
+Q20,researcher creating similarity matching algorithms,R023,1
+Q20,researcher creating similarity matching algorithms,R054,0
+Q20,researcher creating similarity matching algorithms,R042,0
+Q20,researcher creating similarity matching algorithms,R038,0
+Q20,researcher creating similarity matching algorithms,R012,1
+Q20,researcher creating similarity matching algorithms,R017,1
+Q20,researcher creating similarity matching algorithms,R047,0
+Q20,researcher creating similarity matching algorithms,R075,0
+Q20,researcher creating similarity matching algorithms,R005,1
+Q20,researcher creating similarity matching algorithms,R057,0
+Q20,researcher creating similarity matching algorithms,R040,0
+Q20,researcher creating similarity matching algorithms,R006,1
+Q20,researcher creating similarity matching algorithms,R083,0
+Q20,researcher creating similarity matching algorithms,R089,0
+Q20,researcher creating similarity matching algorithms,R013,1
+Q20,researcher creating similarity matching algorithms,R081,0
+Q20,researcher creating similarity matching algorithms,R018,1
+Q20,researcher creating similarity matching algorithms,R088,0
+Q20,researcher creating similarity matching algorithms,R085,0
+Q20,researcher creating similarity matching algorithms,R093,2
+Q20,researcher creating similarity matching algorithms,R087,0
+Q20,researcher creating similarity matching algorithms,R033,0
+Q20,researcher creating similarity matching algorithms,R080,0
+Q20,researcher creating similarity matching algorithms,R025,1
+Q20,researcher creating similarity matching algorithms,R082,0
+Q20,researcher creating similarity matching algorithms,R029,0
+Q20,researcher creating similarity matching algorithms,R046,0
+Q20,researcher creating similarity matching algorithms,R078,0
+Q20,researcher creating similarity matching algorithms,R030,0
+Q20,researcher creating similarity matching algorithms,R100,2
