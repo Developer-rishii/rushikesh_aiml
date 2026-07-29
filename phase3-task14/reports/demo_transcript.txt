@@ -1,0 +1,45 @@
+======================================================================
+STEP 1: /health before anything happens
+{
+  "status": "ok"
+}
+
+======================================================================
+STEP 2: worked example - a REAL held-out candidate, per-decision explanation
+Candidate features sent to API: {
+  "experience_years": 0.7456398011597716,
+  "skill_match_score": 41.93750535718027,
+  "test_score": 69.3326450096605,
+  "applications_count": 6,
+  "college_tier": 2,
+  "pincode_tier": 3
+}
+
+Status: 200
+Model decision: not shortlisted | probability: 0.1203
+Ground truth label was: not shortlisted
+
+Plain-English explanation:
+This candidate was not shortlisted (model confidence: 12%). - Years of experience of 0.7 worked against them. - Skill match with the role of 41.9 worked against them. - Assessment test score of 69.3 worked in their favor.
+
+======================================================================
+STEP 3: DELIBERATELY INDUCE FAILURE (model unavailable)
+{
+  "MODEL_UNAVAILABLE": true
+}
+
+STEP 4: same request again, model now unavailable
+Status: 503  (expect 503, NOT a silent 200 with a fabricated score)
+{
+  "decision": "DEFERRED_TO_HUMAN_REVIEW",
+  "degraded_mode": true,
+  "explanation": "The scoring model is currently unavailable. This application has been queued for manual review instead of being auto-scored or auto-rejected. No automated decision was made.",
+  "probability": null
+}
+
+PASS: system degrades explicitly to human review, never fabricates a decision.
+
+======================================================================
+STEP 5: restore service, confirm recovery
+Status: 200  decision: not shortlisted
+PASS: service recovered.

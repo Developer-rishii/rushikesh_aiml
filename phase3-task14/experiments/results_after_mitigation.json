@@ -1,0 +1,26 @@
+{
+  "offline_metrics": {
+    "auc": 0.7211,
+    "average_precision": 0.6455,
+    "precision@0.5": 0.6487,
+    "recall@0.5": 0.473,
+    "positive_rate": 0.297,
+    "baseline_positive_rate_majority_class": 0.5927
+  },
+  "fairness_audit": {
+    "group_a": "F",
+    "group_b": "M",
+    "n_a": 1108,
+    "n_b": 1892,
+    "selection_rate_a": 0.2735,
+    "selection_rate_b": 0.3108,
+    "demographic_parity_diff": -0.0373,
+    "demographic_parity_ratio": 0.8799,
+    "tpr_a": 0.4595,
+    "tpr_b": 0.4789,
+    "equal_opportunity_diff": -0.0194,
+    "fpr_a": 0.1802,
+    "fpr_b": 0.1731,
+    "equalized_odds_fpr_diff": 0.0071
+  }
+}
