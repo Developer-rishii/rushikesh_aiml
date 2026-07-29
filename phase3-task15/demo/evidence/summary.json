@@ -1,0 +1,227 @@
+{
+  "data_ready": {
+    "train_rows": 19800,
+    "valid_rows": 6600,
+    "post_drift_rows": 13200,
+    "drift_injected_from_day": 120
+  },
+  "baseline_bar": {
+    "metrics": {
+      "ndcg@10": 0.9027,
+      "map@10": 0.8683,
+      "precision@5": 0.0539
+    }
+  },
+  "v1_trained": {
+    "metrics": {
+      "ndcg@10": 0.9145,
+      "map@10": 0.8842,
+      "precision@5": 0.0539
+    },
+    "beats_baseline": true,
+    "fairness": {
+      "groups_compared": [
+        "M",
+        "F"
+      ],
+      "selection_rate": {
+        "M": 0.2237,
+        "F": 0.2242
+      },
+      "demographic_parity_diff": 0.0005,
+      "true_positive_rate": {
+        "M": 0.3256,
+        "F": 0.3288
+      },
+      "equal_opportunity_diff": 0.0032,
+      "pass_threshold_0_10": "True"
+    },
+    "passes_fairness": "True"
+  },
+  "online_proxy_validation": {
+    "top20pct_shortlist_rate": 0.101,
+    "overall_shortlist_rate": 0.05,
+    "lift": 2.02,
+    "note": "offline nDCG win is corroborated online: top-ranked slice has higher realized shortlist rate"
+  },
+  "drift_detected": {
+    "report": {
+      "batch": "post_drift_batch",
+      "ts": 1785321733.4714735,
+      "input_drift": {
+        "per_feature_psi": {
+          "skill_match_score": 0.0014,
+          "embedding_similarity": 2.2598,
+          "experience_years": 0.0008,
+          "location_match": 0.0,
+          "recruiter_response_rate": 2.1095,
+          "past_ctr": 0.0013
+        },
+        "max_psi_feature": "embedding_similarity",
+        "max_psi": 2.2598,
+        "status": "ALERT"
+      },
+      "performance_drift": {
+        "baseline_metric": 0.9145,
+        "current_metric": 0.8399,
+        "relative_drop": 0.0816,
+        "retrain_triggered": true
+      },
+      "retrain_triggered": true,
+      "trigger_reason": "performance drop"
+    },
+    "v1_metrics_on_post_drift": {
+      "ndcg@10": 0.8399,
+      "map@10": 0.7845,
+      "precision@5": 0.0364
+    }
+  },
+  "v2_retrained": {
+    "metrics": {
+      "ndcg@10": 0.9561,
+      "map@10": 0.9406,
+      "precision@5": 0.0339
+    },
+    "v1_on_post_drift_valid": {
+      "ndcg@10": 0.9393,
+      "map@10": 0.9178,
+      "precision@5": 0.0339
+    },
+    "v2_beats_v1": true,
+    "fairness": {
+      "groups_compared": [
+        "F",
+        "M"
+      ],
+      "selection_rate": {
+        "F": 0.2076,
+        "M": 0.2109
+      },
+      "demographic_parity_diff": 0.0033,
+      "true_positive_rate": {
+        "F": 0.3571,
+        "M": 0.3222
+      },
+      "equal_opportunity_diff": 0.0349,
+      "pass_threshold_0_10": "True"
+    },
+    "passes_fairness": "True"
+  },
+  "v2_promoted": {
+    "current_production": [
+      "v2",
+      "promote",
+      1785321737.394962,
+      "beats stale v1 on post-drift holdout, passes fairness gate"
+    ]
+  },
+  "rollback_demo": {
+    "production_before": "v2",
+    "production_after": "v1",
+    "rollback_worked": true
+  },
+  "failure_injection": {
+    "degraded_mode": true,
+    "fallback_model": "baseline_fallback",
+    "notes": "production model unavailable: simulated artifact corruption/unavailability",
+    "confirms": "serving continued (no outage) using SkillMatchBaseline fallback"
+  },
+  "final_state": {
+    "audit_trail": [
+      {
+        "version": "v1",
+        "action": "promote",
+        "ts": 1785318938.6000617,
+        "reason": "beats baseline nDCG@10 and passes fairness gate",
+        "approved_by": "pipeline_auto_gate"
+      },
+      {
+        "version": "v2",
+        "action": "promote",
+        "ts": 1785318953.1999476,
+        "reason": "beats stale v1 on post-drift holdout, passes fairness gate",
+        "approved_by": "pipeline_auto_gate+oncall_review"
+      },
+      {
+        "version": "v1",
+        "action": "rollback",
+        "ts": 1785318953.2121785,
+        "reason": "DEMO: simulate a post-deploy regression discovered in monitoring",
+        "approved_by": "oncall_demo"
+      },
+      {
+        "version": "v2",
+        "action": "promote",
+        "ts": 1785318953.2214427,
+        "reason": "rollback demo complete, restoring v2 to production",
+        "approved_by": "oncall_demo"
+      },
+      {
+        "version": "v1",
+        "action": "promote",
+        "ts": 1785321490.996903,
+        "reason": "beats baseline nDCG@10 and passes fairness gate",
+        "approved_by": "pipeline_auto_gate"
+      },
+      {
+        "version": "v2",
+        "action": "promote",
+        "ts": 1785321497.7868118,
+        "reason": "beats stale v1 on post-drift holdout, passes fairness gate",
+        "approved_by": "pipeline_auto_gate+oncall_review"
+      },
+      {
+        "version": "v1",
+        "action": "rollback",
+        "ts": 1785321497.7960546,
+        "reason": "DEMO: simulate a post-deploy regression discovered in monitoring",
+        "approved_by": "oncall_demo"
+      },
+      {
+        "version": "v2",
+        "action": "promote",
+        "ts": 1785321497.8010533,
+        "reason": "rollback demo complete, restoring v2 to production",
+        "approved_by": "oncall_demo"
+      },
+      {
+        "version": "v1",
+        "action": "promote",
+        "ts": 1785321729.3420837,
+        "reason": "beats baseline nDCG@10 and passes fairness gate",
+        "approved_by": "pipeline_auto_gate"
+      },
+      {
+        "version": "v2",
+        "action": "promote",
+        "ts": 1785321737.394962,
+        "reason": "beats stale v1 on post-drift holdout, passes fairness gate",
+        "approved_by": "pipeline_auto_gate+oncall_review"
+      },
+      {
+        "version": "v1",
+        "action": "rollback",
+        "ts": 1785321737.4027886,
+        "reason": "DEMO: simulate a post-deploy regression discovered in monitoring",
+        "approved_by": "oncall_demo"
+      },
+      {
+        "version": "v2",
+        "action": "promote",
+        "ts": 1785321737.4109418,
+        "reason": "rollback demo complete, restoring v2 to production",
+        "approved_by": "oncall_demo"
+      }
+    ],
+    "registered_versions": [
+      "v1",
+      "v2"
+    ],
+    "current_production": [
+      "v2",
+      "promote",
+      1785321737.4109418,
+      "rollback demo complete, restoring v2 to production"
+    ]
+  }
+}

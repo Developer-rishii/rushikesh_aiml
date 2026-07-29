@@ -1,0 +1,25 @@
+{
+  "batch": "post_drift_batch",
+  "ts": 1785321733.4714735,
+  "input_drift": {
+    "per_feature_psi": {
+      "skill_match_score": 0.0014,
+      "embedding_similarity": 2.2598,
+      "experience_years": 0.0008,
+      "location_match": 0.0,
+      "recruiter_response_rate": 2.1095,
+      "past_ctr": 0.0013
+    },
+    "max_psi_feature": "embedding_similarity",
+    "max_psi": 2.2598,
+    "status": "ALERT"
+  },
+  "performance_drift": {
+    "baseline_metric": 0.9145,
+    "current_metric": 0.8399,
+    "relative_drop": 0.0816,
+    "retrain_triggered": true
+  },
+  "retrain_triggered": true,
+  "trigger_reason": "performance drop"
+}
