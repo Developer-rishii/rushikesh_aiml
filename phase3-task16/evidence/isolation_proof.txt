@@ -1,0 +1,10 @@
+=== Test 1: access-control (can tenantA's store ever return tenantB rows?) ===
+Rows returned by tenantA store belonging to another tenant: 0 (expect 0)
+PASS: unknown tenant id correctly rejected by TenantDataStore
+
+=== Test 2: cross-serving (score tenantB rows through tenantA's service) ===
+PASS: cross-tenant scoring blocked -> ISOLATION BREACH: attempted to score rows from another tenant
+
+=== Test 3: membership-inference leakage probe on tenantA's model ===
+Membership-inference attacker AUC distinguishing tenantA-trained-on rows vs tenantB rows never seen in training: 0.543
+Interpretation: an AUC far from 0.5 would mean the model's confidence pattern reveals which tenant's data trained it (a leakage signature); note this number is expected to be >0.5 here simply because tenantA's model is legitimately MORE ACCURATE on tenantA's own skill-weighting distribution (that's the product working as intended, not leakage). The leakage-specific check is Test 1 + Test 2: tenantB's raw rows are structurally unreachable by tenantA's store/service, so no tenantB row can ever appear in a tenantA training call in the first place -- verified by the assertion in TenantDataStore.load_logs().

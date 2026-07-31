@@ -1,0 +1,10 @@
+{
+  "tenant_id": "tenantA",
+  "model_path": "models/tenantA_model.pkl",
+  "shortlist_threshold": 0.55,
+  "feature_weights_hint": {"python": 1.4, "ml": 1.3, "aws": 1.1},
+  "fallback_score": 0.5,
+  "fallback_mode": "global_popularity_baseline",
+  "max_ranked_results": 20,
+  "fairness_group_column": "protected_group"
+}

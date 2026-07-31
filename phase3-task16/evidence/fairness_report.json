@@ -1,0 +1,16 @@
+[
+  {
+    "tenant_id": "tenantA",
+    "shortlist_rate_group_A": 0.6985,
+    "shortlist_rate_group_B": 0.6835,
+    "demographic_parity_gap": 0.015,
+    "flag": "OK"
+  },
+  {
+    "tenant_id": "tenantB",
+    "shortlist_rate_group_A": 0.5694,
+    "shortlist_rate_group_B": 0.5676,
+    "demographic_parity_gap": 0.0017,
+    "flag": "OK"
+  }
+]

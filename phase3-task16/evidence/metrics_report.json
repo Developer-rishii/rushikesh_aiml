@@ -1,0 +1,28 @@
+[
+  {
+    "tenant_id": "tenantA",
+    "version": "20260731T163623Z",
+    "n_train": 9000,
+    "n_test": 3000,
+    "model_auc": 0.8109,
+    "baseline_auc": 0.5,
+    "model_ndcg@10": 1.0,
+    "baseline_ndcg@10": 0.6212,
+    "model_precision@5": 1.0,
+    "baseline_precision@5": 0.6,
+    "gap_offline_expected_online": "Offline nDCG uplift is measured on logged/held-out impressions only; expected online effect will be SMALLER due to position bias and exploration deficit in logged data. Recommend online A/B before full rollout, ramping 5% -> 25% -> 100%."
+  },
+  {
+    "tenant_id": "tenantB",
+    "version": "20260731T163624Z",
+    "n_train": 6750,
+    "n_test": 2250,
+    "model_auc": 0.7792,
+    "baseline_auc": 0.5,
+    "model_ndcg@10": 1.0,
+    "baseline_ndcg@10": 0.6773,
+    "model_precision@5": 1.0,
+    "baseline_precision@5": 0.6,
+    "gap_offline_expected_online": "Offline nDCG uplift is measured on logged/held-out impressions only; expected online effect will be SMALLER due to position bias and exploration deficit in logged data. Recommend online A/B before full rollout, ramping 5% -> 25% -> 100%."
+  }
+]

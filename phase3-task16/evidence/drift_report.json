@@ -1,0 +1,17 @@
+[
+  {
+    "tenant_id": "tenantA",
+    "psi": 0.0,
+    "flag": "OK"
+  },
+  {
+    "tenant_id": "tenantB",
+    "psi": 0.0,
+    "flag": "OK"
+  },
+  {
+    "tenant_id": "tenantA",
+    "psi": 2.8824,
+    "flag": "ALERT"
+  }
+]
