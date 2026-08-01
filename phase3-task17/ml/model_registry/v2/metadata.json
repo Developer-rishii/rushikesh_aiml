@@ -1,0 +1,30 @@
+{
+  "version": "v2",
+  "trained_at": "2026-08-01T12:12:44Z",
+  "features": [
+    "skill_overlap",
+    "seniority_gap",
+    "same_location",
+    "recency_days",
+    "candidate_activity"
+  ],
+  "n_train_rows": 15122,
+  "n_holdout_rows": 4878,
+  "train_seconds": 1.069,
+  "model_hash": "26ce0704acb069b4",
+  "feature_importances": {
+    "skill_overlap": 0.7267,
+    "seniority_gap": 0.1498,
+    "same_location": 0.045,
+    "recency_days": 0.0382,
+    "candidate_activity": 0.0404
+  },
+  "offline_metrics": {
+    "model_ndcg@10": 0.6758,
+    "model_precision@5": 0.9267,
+    "baseline_ndcg@10": 0.4378,
+    "baseline_precision@5": 0.7667,
+    "ndcg_lift_vs_baseline_pct": 54.37
+  },
+  "known_offline_online_gap_note": "Offline nDCG measures ranking quality on logged impressions only; it does not capture that better ranking changes WHICH candidates get impressions at all (position/selection bias). Must be confirmed with an online A/B before claiming a win."
+}
