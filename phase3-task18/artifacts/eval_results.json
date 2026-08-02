@@ -1,0 +1,23 @@
+{
+  "scoped_model": {
+    "n_train_events": 8127,
+    "n_test_events": 2727,
+    "n_test_recruiters_scored": 38,
+    "nDCG@10": 0.367,
+    "MAP": 0.4717,
+    "precision@10": 0.4842
+  },
+  "baseline_global_model": {
+    "n_train_events": 8127,
+    "n_test_events": 2727,
+    "n_test_recruiters_scored": 38,
+    "nDCG@10": 0.2825,
+    "MAP": 0.4065,
+    "precision@10": 0.3921
+  },
+  "lift_scoped_vs_baseline": {
+    "nDCG@10": 0.0845,
+    "MAP": 0.0652,
+    "precision@10": 0.0921
+  }
+}

@@ -1,0 +1,32 @@
+=== PlaceMux Task 18 — Live Demo Transcript ===
+
+Step 1: Recruiter 'rec_demo' joins org_A.
+  -> org_A personal signal top skills: [('python', 2.0), ('ml', 1.0), ('aws', 1.0)]
+  -> current_org(rec_demo) = org_A
+
+Step 2: rec_demo MOVES to org_B (e.g. changed employer).
+  -> current_org(rec_demo) = org_B
+  -> org_A signal for rec_demo AFTER move: None  (must be None)
+  -> org_B signal for rec_demo AFTER move: None  (must be None/empty -- fresh start)
+  -> VERIFIED: PASS personalization context left org_A with the recruiter
+
+Step 3: rec_demo builds NEW org_B-scoped signal.
+  -> org_B personal signal top skills: [('sales', 1.0), ('product', 1.0)]
+
+Step 4: INDUCED FAILURE -- simulate a stale event replayed under org_A after the move.
+  -> stale event accepted? False  (must be False)
+  -> org_A signal for rec_demo still: None  (must remain None)
+  -> DESIGNED DEGRADATION CONFIRMED: PASS -- system rejects the write instead of silently corrupting scope
+
+Step 5: INDUCED FAILURE -- model/store unavailable at serve time (simulated).
+  -> serving a never-seen recruiter falls back to: 'org_fallback' (graceful degradation, not a crash/None-pointer)
+
+Step 6: Offboarding.
+  -> current_org(rec_demo) after leave = None (must be None)
+  -> org_B personal signal after leave: None (must be None -- deprovisioned)
+  -> org_B AGGREGATE signal survives (collective, not personal): [('sales', 1.0), ('product', 1.0)]
+
+Audit trail (identity_lifecycle.history):
+  (0, 'rec_demo', 'join', None, 'org_A')
+  (1, 'rec_demo', 'move', 'org_A', 'org_B')
+  (2, 'rec_demo', 'leave', 'org_B', None)

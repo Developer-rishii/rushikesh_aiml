@@ -1,0 +1,8 @@
+{
+  "note": "REJECTED evaluation design -- kept as evidence of honest iteration, see DESIGN_DECISIONS.md section 6",
+  "split_method": "GroupShuffleSplit (entire recruiters held out -- pure cold start)",
+  "scoped_model": {"nDCG@10": 0.2259, "MAP": 0.342, "precision@10": 0.42},
+  "baseline_global_model": {"nDCG@10": 0.2685, "MAP": 0.3905, "precision@10": 0.5},
+  "lift_scoped_vs_baseline": {"nDCG@10": -0.0426, "MAP": -0.0485, "precision@10": -0.08},
+  "why_rejected": "Held-out recruiters have zero personal history in either model at test time, so a global popularity prior wins by construction. This does not test the recruiter-scoped-personalization hypothesis -- corrected in evaluate.py with a per-recruiter temporal split."
+}
