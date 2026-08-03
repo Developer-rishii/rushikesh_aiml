@@ -1,0 +1,4 @@
+{"ts": 1785749675.195696, "actor": "demo_admin", "tenant_id": "acme_bank", "w_skill": 0.8, "w_experience": 0.1, "w_distance": 0.1, "min_skill_overlap": 0.0, "max_distance_km": 60.0, "version": 2, "created_at": 1785749675.1666963}
+{"ts": 1785749679.3165348, "actor": "test_admin", "tenant_id": "acme_bank", "w_skill": 0.8, "w_experience": 0.1, "w_distance": 0.1, "min_skill_overlap": 0.0, "max_distance_km": 60.0, "version": 2, "created_at": 1785749679.2845342}
+{"ts": 1785751044.3105402, "actor": "demo_admin", "tenant_id": "acme_bank", "w_skill": 0.8, "w_experience": 0.1, "w_distance": 0.1, "min_skill_overlap": 0.0, "max_distance_km": 60.0, "version": 2, "created_at": 1785751044.2585232}
+{"ts": 1785751195.5424857, "actor": "demo_admin", "tenant_id": "acme_bank", "w_skill": 0.8, "w_experience": 0.1, "w_distance": 0.1, "min_skill_overlap": 0.0, "max_distance_km": 60.0, "version": 2, "created_at": 1785751195.429014}
