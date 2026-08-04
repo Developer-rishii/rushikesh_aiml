@@ -42,7 +42,7 @@ in the model card rather than presented as real customer data — the guide's
 own bar is "real (or realistic)," and honesty about which one this is
 matters more than the score.
 
-## Rubric mapping (target: 90%+)
+## Rubric mapping
 | Criterion | Weight | Where it's demonstrated |
 |---|---|---|
 | Core deliverables built, working & demoable | 50 | `run_all.py` runs Stage B/C/D end-to-end on logged data; `demo/demo_script.md` walks it live |
