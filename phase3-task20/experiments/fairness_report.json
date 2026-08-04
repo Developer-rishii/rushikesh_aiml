@@ -1,0 +1,21 @@
+{
+  "tenant": "AcmeFinServ_Pilot",
+  "k": 10,
+  "per_group": [
+    {
+      "group": "A",
+      "n": 4104,
+      "selection_rate_top10": 0.0139,
+      "equal_opportunity_rate": 0.019
+    },
+    {
+      "group": "B",
+      "n": 3433,
+      "selection_rate_top10": 0.0125,
+      "equal_opportunity_rate": 0.0465
+    }
+  ],
+  "demographic_parity_ratio_min_over_max": 0.8993,
+  "passes_4_5ths_rule": true,
+  "note": "4/5ths rule is a regulatory heuristic (min/max selection rate ratio >= 0.8), not a legal guarantee of fairness under India's DPDP or any specific hiring regulation. This audit must be re-run every retrain, not treated as a one-time sign-off (guide pitfall: 'fairness audit done once, at the end, as a formality')."
+}

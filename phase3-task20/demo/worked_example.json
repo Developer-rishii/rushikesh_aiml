@@ -1,0 +1,17 @@
+{
+  "input": {
+    "candidate_id": "C00001",
+    "candidate_skills": "communication,java,python,underwriting,sql,risk_modeling",
+    "candidate_experience_years": 12,
+    "job_id": "J003",
+    "job_title_tenant_vocab": "Quant Modeling Specialist",
+    "job_title_standard": "Data Scientist",
+    "job_required_skills": "sql,java"
+  },
+  "output": {
+    "model_score": 1.9996,
+    "skill_overlap_ratio": 1.0
+  },
+  "plain_english_reason": "Ranked because C00001 matches 2/2 required skills for 'Quant Modeling Specialist' (java, sql), with 12 years experience. Missing: none.",
+  "fallback_if_model_unavailable": "Candidate would still be shown, ranked by raw skill_overlap (0-1 fraction of required skills matched) instead of the model score, with a visible 'baseline ranking' label to the recruiter."
+}

@@ -1,0 +1,25 @@
+{
+  "baseline_offline_metrics": {
+    "nDCG@10": 0.03815659103230144,
+    "MAP@10": 0.019308716912939276,
+    "Precision@10": 0.72,
+    "n_jobs_evaluated": 10
+  },
+  "model_offline_metrics": {
+    "nDCG@10": 0.05209122202790935,
+    "MAP@10": 0.014650082520850505,
+    "Precision@10": 0.6100000000000001,
+    "n_jobs_evaluated": 10
+  },
+  "offline_gain": {
+    "nDCG@10_delta": 0.0139,
+    "MAP@10_delta": -0.0047,
+    "Precision@10_delta": -0.11
+  },
+  "online_proxy_hire_capture_at_10": {
+    "baseline": 0.3,
+    "model": 0.6,
+    "delta": 0.3
+  },
+  "offline_vs_online_gap_note": "Offline nDCG/MAP gains are reported alongside a real-outcome hire-capture proxy on the SAME held-out jobs. If the hire-capture delta is smaller or flips sign relative to the nDCG delta, the offline win should NOT be shipped without an online A/B test -- this is the exact failure mode the guide warns about ('nDCG going up offline means nothing if applications go down online')."
+}

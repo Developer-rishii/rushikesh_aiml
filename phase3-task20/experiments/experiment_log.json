@@ -1,0 +1,27 @@
+{
+  "model_version": "ranker_v1",
+  "trained_on_rows": 22463,
+  "held_out_rows": 7537,
+  "held_out_jobs": [
+    "J004",
+    "J006",
+    "J012",
+    "J015",
+    "J016",
+    "J019",
+    "J026",
+    "J027",
+    "J037",
+    "J039"
+  ],
+  "features": [
+    "skill_overlap",
+    "experience_years",
+    "n_candidate_skills",
+    "n_required_skills"
+  ],
+  "target": "clicked + 3*shortlisted + 10*hired",
+  "baseline": "skill_overlap",
+  "chosen_approach": "GradientBoostingRegressor pointwise proxy (see module docstring for rejected alternatives)",
+  "reproducible_seed": 42
+}

@@ -1,0 +1,51 @@
+{
+  "all_passed": true,
+  "results": {
+    "failure_model_missing": {
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "mode": "baseline_fallback",
+        "n_skipped_malformed_rows": 0,
+        "ranked": [
+          "C00010",
+          "C00018",
+          "C00004",
+          "C00002",
+          "C00006",
+          "C00014",
+          "C00001",
+          "C00011",
+          "C00012",
+          "C00013",
+          "C00017",
+          "C00016",
+          "C00015",
+          "C00000",
+          "C00009",
+          "C00008",
+          "C00007",
+          "C00005",
+          "C00003",
+          "C00019"
+        ]
+      }
+    },
+    "failure_malformed_row": {
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "n_ranked": 20,
+        "malformed_candidate_skill_overlap_degraded_to_zero": true
+      }
+    },
+    "failure_empty_pool": {
+      "passed": true,
+      "detail": {
+        "status": "empty",
+        "reason": "no candidates in pool for this job",
+        "ranked": []
+      }
+    }
+  }
+}
