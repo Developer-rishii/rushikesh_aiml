@@ -1,0 +1,96 @@
+{
+  "run_id": "2026-08-05 12:45:43",
+  "baseline_version": "baseline_v2",
+  "optimized_version": "optimized_v2",
+  "unit_prices_inr": {
+    "cpu_instance_hour": 6.0,
+    "gpu_instance_hour": 140.0,
+    "cpu_inferences_per_hour": 1800000,
+    "gpu_inferences_per_hour": 9000000,
+    "embedding_gpu_inferences_per_hour": 600000,
+    "storage_gb_month": 2.5
+  },
+  "baseline_eval": {
+    "ndcg_at_k": 0.5794,
+    "precision_at_k": 0.5577,
+    "n_groups": 492
+  },
+  "optimized_eval": {
+    "ndcg_at_k": 0.5722,
+    "precision_at_k": 0.5491,
+    "n_groups": 492
+  },
+  "offline_online_gap": {
+    "offline_ndcg_at_10": 0.5794,
+    "online_ctr_proxy": 0.8269
+  },
+  "train_serve_skew": {
+    "mean_abs_drift": 0.012933132531264815,
+    "max_abs_drift": 1.4647872858284405,
+    "pct_rows_stale_feature": 5.8999999999999995
+  },
+  "right_sizing": {
+    "inferences": 25000,
+    "hardware_before": "gpu",
+    "hardware_after": "cpu"
+  },
+  "caching": {
+    "total_requests": 100000,
+    "unique_pairs": 100000,
+    "cache_hits": 0,
+    "cache_hit_rate": 0.0,
+    "inferences_after_cache": 100000
+  },
+  "precompute_vs_on_demand": {
+    "n_jobs_total": 1682,
+    "n_head_jobs": 336,
+    "head_traffic_share": 0.6462,
+    "precompute_inferences_per_month": 10080,
+    "on_demand_inferences": 35381,
+    "inferences_after_precompute": 45461,
+    "max_staleness_hours": 24
+  },
+  "before_after": {
+    "baseline": {
+      "ndcg_at_10": 0.5794,
+      "serve_cost_per_1000_inr": 0.0156,
+      "cost_per_10000_shortlists_inr": 0.5585,
+      "train_cost_inr": 76.57
+    },
+    "optimized": {
+      "ndcg_at_10": 0.5722,
+      "serve_cost_per_1000_inr": 0.0033,
+      "cost_per_10000_shortlists_inr": 0.0023,
+      "train_cost_inr": 0.31
+    },
+    "ndcg_delta": -0.0072,
+    "quality_held_constant": true,
+    "serve_cost_reduction_pct": 78.85,
+    "cost_per_10000_shortlists_reduction_pct": 99.6
+  },
+  "fairness_slice": {
+    "group_0": {
+      "mean_score": 1.5922,
+      "selection_rate_top_quartile": 0.252
+    },
+    "group_1": {
+      "mean_score": 1.5962,
+      "selection_rate_top_quartile": 0.2504
+    }
+  },
+  "failure_injection": {
+    "model_available": false,
+    "fallback_rows": 499,
+    "cache_rows": 1,
+    "heuristic_rows": 499,
+    "total_rows": 500,
+    "degraded_gracefully": true
+  },
+  "definition_of_done": {
+    "cost_model_built": true,
+    "optimizations_built": true,
+    "before_after_reported": true,
+    "quality_held_constant": true,
+    "live_verification_available": true
+  }
+}
