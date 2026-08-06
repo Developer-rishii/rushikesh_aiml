@@ -1,0 +1,28 @@
+{
+  "n_test": 1200,
+  "n_positive_test": 68,
+  "baseline_rule_only": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "trained_classifier": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "feature_names": [
+    "repetition_rate",
+    "unique_ratio",
+    "has_hidden_chars",
+    "char_entropy",
+    "length"
+  ],
+  "feature_importance": {
+    "repetition_rate": 0.0088,
+    "unique_ratio": -0.0022,
+    "has_hidden_chars": 0.0037,
+    "char_entropy": -0.0021,
+    "length": 0.2357
+  }
+}

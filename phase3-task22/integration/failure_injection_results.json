@@ -1,0 +1,5 @@
+{
+  "normal_operation_pass": true,
+  "failure_degradation_pass": true,
+  "overall_pass": true
+}

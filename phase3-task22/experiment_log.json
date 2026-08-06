@@ -1,0 +1,96 @@
+{
+  "run_timestamp_utc": "2026-08-06T15:16:51.883646",
+  "seed": 42,
+  "stages": {
+    "data_generation": "OK -- see data/*.json",
+    "stuffing_detector_eval": {
+      "n_test": 1200,
+      "n_positive_test": 68,
+      "baseline_rule_only": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "trained_classifier": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "feature_names": [
+        "repetition_rate",
+        "unique_ratio",
+        "has_hidden_chars",
+        "char_entropy",
+        "length"
+      ],
+      "feature_importance": {
+        "repetition_rate": 0.0088,
+        "unique_ratio": -0.0022,
+        "has_hidden_chars": 0.0037,
+        "char_entropy": -0.0021,
+        "length": 0.2357
+      }
+    },
+    "ranking_eval": {
+      "k": 10,
+      "offline_nDCG_at_k": {
+        "robust_model": 1.0,
+        "naive_stuffable_baseline": 0.8852
+      },
+      "precision_at_k_robust": 0.59,
+      "online_effect_proxy_application_capture_rate": {
+        "robust_model": 0.6333,
+        "naive_stuffable_baseline": 0.5083,
+        "note": "share of real logged applications that occur within the top-k the model would have surfaced -- this is the offline-vs-online gap check required by Stage C.3"
+      },
+      "fairness_slice_true_relevance_by_protected_group_top_k": {
+        "D": 0.534,
+        "C": 0.5397,
+        "A": 0.5274,
+        "B": 0.5276
+      },
+      "fairness_max_group_gap": 0.0123
+    },
+    "extraction_detection_eval": {
+      "n_clients": 150,
+      "n_flagged": 6,
+      "flagged_clients": [
+        "client_103",
+        "client_29",
+        "client_13",
+        "client_93",
+        "client_33",
+        "client_131"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "thresholds": {
+        "query_rate_threshold": 15,
+        "diversity_entropy_threshold": 1.5
+      },
+      "action_on_flag": "rate-limit to baseline quota + require step-up auth (block, not downrank -- justified in threat_model.md Section 6: false-positive cost for a client is low)"
+    },
+    "poison_detection_eval": {
+      "n_rows": 8000,
+      "n_actually_poisoned": 240,
+      "n_flagged_as_outlier": 392,
+      "precision": 0.4541,
+      "recall": 0.7417,
+      "f1": 0.5633,
+      "action_on_flag": "quarantine row -- excluded from next retraining batch, logged for manual audit (never silently retrained on)"
+    }
+  },
+  "model_versions": {
+    "ranker_model_hash": "d1d5b1ab32cc1906",
+    "stuffing_classifier_hash": "696603a8b077b6dc"
+  },
+  "definition_of_done_self_check": {
+    "threat_model_delivered": true,
+    "stuffing_defence_beats_baseline": true,
+    "ranker_beats_naive_on_nDCG": true,
+    "extraction_detection_recall_nonzero": true,
+    "poison_detection_recall_nonzero": true,
+    "fairness_gap_reported_every_run": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "n_clients": 150,
+  "n_flagged": 6,
+  "flagged_clients": [
+    "client_103",
+    "client_29",
+    "client_13",
+    "client_93",
+    "client_33",
+    "client_131"
+  ],
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "thresholds": {
+    "query_rate_threshold": 15,
+    "diversity_entropy_threshold": 1.5
+  },
+  "action_on_flag": "rate-limit to baseline quota + require step-up auth (block, not downrank -- justified in threat_model.md Section 6: false-positive cost for a client is low)"
+}

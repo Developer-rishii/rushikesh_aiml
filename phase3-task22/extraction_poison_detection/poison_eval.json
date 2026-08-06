@@ -1,0 +1,9 @@
+{
+  "n_rows": 8000,
+  "n_actually_poisoned": 240,
+  "n_flagged_as_outlier": 392,
+  "precision": 0.4541,
+  "recall": 0.7417,
+  "f1": 0.5633,
+  "action_on_flag": "quarantine row -- excluded from next retraining batch, logged for manual audit (never silently retrained on)"
+}
