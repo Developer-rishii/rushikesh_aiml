@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/task24
+collecting ... collected 5 items
+
+tests/test_chaos_scenarios.py::test_all_scenarios_pass PASSED            [ 20%]
+tests/test_chaos_scenarios.py::test_model_down_pages_and_degrades PASSED [ 40%]
+tests/test_chaos_scenarios.py::test_corrupted_features_never_crash PASSED [ 60%]
+tests/test_chaos_scenarios.py::test_stale_features_trigger_degradation PASSED [ 80%]
+tests/test_chaos_scenarios.py::test_recovery_after_revive PASSED         [100%]
+
+============================== 5 passed in 1.47s ===============================

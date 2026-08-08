@@ -1,0 +1,7 @@
+{
+  "held_out_rows": 4900,
+  "held_out_jobs": 30,
+  "ndcg_at_10_model": 0.2893,
+  "ndcg_at_10_heuristic_baseline": 0.3131,
+  "lift_over_baseline_pct": -7.6
+}

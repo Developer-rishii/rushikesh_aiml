@@ -1,0 +1,14 @@
+
+=== 1) Healthy request ===
+candidate=251 job=61 -> score=0.568 mode=model reason=ok
+
+=== 2) LIVE FAILURE: killing model service ===
+candidate=251 job=61 -> score=0.603 mode=heuristic reason=model_service_down
+On-call paged: 1 event(s) -> model_service_down
+PASS: system degraded to heuristic instead of erroring.
+
+=== 3) Reviving model service ===
+candidate=251 job=61 -> score=0.568 mode=model reason=ok
+PASS: automatic recovery, no manual intervention needed.
+
+=== Demo complete ===

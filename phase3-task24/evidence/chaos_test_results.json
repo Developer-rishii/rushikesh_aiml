@@ -1,0 +1,60 @@
+{
+  "scenarios": [
+    {
+      "name": "baseline_healthy",
+      "expected_mode": "model",
+      "actual_mode": "model",
+      "reason": "ok",
+      "pass": true
+    },
+    {
+      "name": "model_service_down",
+      "expected_mode": "heuristic",
+      "actual_mode": "heuristic",
+      "reason": "model_service_down",
+      "score_returned": 0.6026411998763261,
+      "paged_on_call": true,
+      "pass": true
+    },
+    {
+      "name": "recovery_after_revive",
+      "expected_mode": "model",
+      "actual_mode": "model",
+      "reason": "ok",
+      "pass": true
+    },
+    {
+      "name": "stale_features",
+      "feature_age_days": 8.932147716773375,
+      "expected_mode": "heuristic",
+      "actual_mode": "heuristic",
+      "reason": "stale_features",
+      "paged_on_call": true,
+      "pass": true
+    },
+    {
+      "name": "corrupted_features",
+      "expected_mode": "heuristic",
+      "actual_mode": "heuristic",
+      "reason": "corrupted_or_invalid_features",
+      "score_returned": 0.24,
+      "no_nan_crash": true,
+      "paged_on_call": true,
+      "pass": true
+    },
+    {
+      "name": "corrupted_training_row_validation_gate",
+      "input": {
+        "skill_match": NaN,
+        "exp_match": 1.7,
+        "location_match": 5
+      },
+      "validate_result": false,
+      "pass": true
+    }
+  ],
+  "run_ts": 1786194413.5524576,
+  "total": 6,
+  "passed": 6,
+  "all_passed": true
+}

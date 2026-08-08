@@ -1,0 +1,3 @@
+{"ts": 1786194414.5166903, "severity": "critical", "reason": "model_service_down", "context": {"candidate_id": 251, "job_id": 61}}
+{"ts": 1786194414.5190103, "severity": "warning", "reason": "stale_features", "context": {"candidate_id": 102, "job_id": 51, "age_days": 8.93394886166685}}
+{"ts": 1786194414.5191493, "severity": "critical", "reason": "corrupted_or_invalid_features", "context": {"candidate_id": 251, "job_id": 61}}
