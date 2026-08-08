@@ -1,0 +1,30 @@
+{
+  "model_type": "lightgbm_lambdarank",
+  "trained_at": "2026-08-08T14:41:41.778562+00:00",
+  "features": [
+    "years_experience",
+    "skill_match_score",
+    "profile_completeness",
+    "seniority_level",
+    "req_skill_score",
+    "recency_feature_train"
+  ],
+  "offline_model_metrics": {
+    "nDCG@10": 0.0039,
+    "precision@10": 0.0026,
+    "MAP": 0.0104,
+    "n_jobs_evaluated": 38
+  },
+  "offline_baseline_metrics": {
+    "nDCG@10": 0.0088,
+    "precision@10": 0.0026,
+    "MAP": 0.0112,
+    "n_jobs_evaluated": 38
+  },
+  "offline_lift_nDCG10_pct": -55.68,
+  "online_proxy_apply_rate_top10_model": 0.0132,
+  "online_proxy_apply_rate_top10_baseline": 0.0132,
+  "online_proxy_caveat": "No live A/B test was run; this is a held-out behavioural proxy from logged data, NOT a claim of validated online lift. Real online validation is an explicit dependency handed off in Stage E / Section 13.",
+  "train_rows": 44819,
+  "test_rows": 15181
+}

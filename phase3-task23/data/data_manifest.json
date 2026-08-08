@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-08-08T14:41:30.205322+00:00",
+  "n_candidates": 4000,
+  "n_jobs": 150,
+  "n_impressions": 60000,
+  "dataset_sha256_16": "e25131265ba69139",
+  "provenance_note": "Synthetic logged-interaction dataset (no access to PlaceMux prod DB in this study-guide context). Statistically realistic funnel: impression->click->apply->shortlist, with an injected train/serve skew bug for detection. Calibrated to industry benchmarks: ~8% CTR, ~20% apply rate, ~15% shortlist rate. Includes a noisy validation slice (interactions_noisy.csv) with missing data, duplicate rows, and malformed timestamps to test pipeline robustness."
+}

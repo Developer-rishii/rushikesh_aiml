@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-08-08T13:53:18.323979+00:00",
+  "feature": "recency_feature",
+  "psi_buggy_serving_path": 4.6942,
+  "psi_healthy_serving_path": 0.0,
+  "verdict_buggy_path": "BLOCK DEPLOY - severe train/serve skew detected",
+  "verdict_healthy_path": "OK",
+  "note": "This demonstrates the monitor correctly catches the deliberately-injected hours-vs-days unit bug (Section 5), and does NOT false-positive on a healthy feature."
+}

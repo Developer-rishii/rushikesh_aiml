@@ -1,0 +1,90 @@
+{
+  "pipeline": [
+    {
+      "stage": "raw_logs",
+      "artifact": "data/interactions.csv",
+      "hash": "04d06a92e692f4af"
+    },
+    {
+      "stage": "training",
+      "artifact": "models/ranker.joblib",
+      "hash": "6fc13f505de5e915"
+    },
+    {
+      "stage": "evaluation",
+      "artifact": "models/eval_results.json"
+    },
+    {
+      "stage": "fairness_audit",
+      "artifact": "audit/fairness_results.json"
+    },
+    {
+      "stage": "drift_check",
+      "artifact": "audit/drift_check.json"
+    }
+  ],
+  "model_registry_versions": [
+    {
+      "model_version": "v1.0.0",
+      "model_hash_sha256_16": "939bb68fba0f9211",
+      "model_type": "lightgbm_lambdarank",
+      "trained_at": "2026-08-08T13:52:27.584570+00:00",
+      "training_dataset_hash": "e25131265ba69139",
+      "features": [
+        "years_experience",
+        "skill_match_score",
+        "profile_completeness",
+        "seniority_level",
+        "req_skill_score",
+        "recency_feature_train"
+      ],
+      "excluded_features": [
+        "protected_group (fairness-only, never a model input)"
+      ]
+    },
+    {
+      "model_version": "v1.0.0",
+      "model_hash_sha256_16": "6fc13f505de5e915",
+      "model_type": "lightgbm_lambdarank",
+      "trained_at": "2026-08-08T13:52:35.031550+00:00",
+      "training_dataset_hash": "04d06a92e692f4af",
+      "features": [
+        "years_experience",
+        "skill_match_score",
+        "profile_completeness",
+        "seniority_level",
+        "req_skill_score",
+        "recency_feature_train"
+      ],
+      "excluded_features": [
+        "protected_group (fairness-only, never a model input)"
+      ]
+    },
+    {
+      "model_version": "v1.0.0",
+      "model_hash_sha256_16": "6fc13f505de5e915",
+      "model_type": "lightgbm_lambdarank",
+      "trained_at": "2026-08-08T13:52:42.466460+00:00",
+      "training_dataset_hash": "04d06a92e692f4af",
+      "features": [
+        "years_experience",
+        "skill_match_score",
+        "profile_completeness",
+        "seniority_level",
+        "req_skill_score",
+        "recency_feature_train"
+      ],
+      "excluded_features": [
+        "protected_group (fairness-only, never a model input)"
+      ]
+    }
+  ],
+  "generated_at": "2026-08-08T13:52:45.582560+00:00",
+  "reproducibility_note": "Every artifact above is content-hashed; experiment_log.jsonl has a timestamped, appended record of every train/access/deletion event.",
+  "reproducibility_verified": {
+    "status": "PASS",
+    "detail": "Hash(es) ['6fc13f505de5e915'] reproduced across 2 independent runs with identical seeds.",
+    "distinct_data_snapshots": 2,
+    "total_training_runs": 3
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "versions": [
+    {
+      "model_version": "v1.0.0",
+      "model_hash_sha256_16": "939bb68fba0f9211",
+      "model_type": "lightgbm_lambdarank",
+      "trained_at": "2026-08-08T13:52:27.584570+00:00",
+      "training_dataset_hash": "e25131265ba69139",
+      "features": [
+        "years_experience",
+        "skill_match_score",
+        "profile_completeness",
+        "seniority_level",
+        "req_skill_score",
+        "recency_feature_train"
+      ],
+      "excluded_features": [
+        "protected_group (fairness-only, never a model input)"
+      ]
+    },
+    {
+      "model_version": "v1.0.0",
+      "model_hash_sha256_16": "6fc13f505de5e915",
+      "model_type": "lightgbm_lambdarank",
+      "trained_at": "2026-08-08T13:52:35.031550+00:00",
+      "training_dataset_hash": "04d06a92e692f4af",
+      "features": [
+        "years_experience",
+        "skill_match_score",
+        "profile_completeness",
+        "seniority_level",
+        "req_skill_score",
+        "recency_feature_train"
+      ],
+      "excluded_features": [
+        "protected_group (fairness-only, never a model input)"
+      ]
+    },
+    {
+      "model_version": "v1.0.0",
+      "model_hash_sha256_16": "6fc13f505de5e915",
+      "model_type": "lightgbm_lambdarank",
+      "trained_at": "2026-08-08T13:52:42.466460+00:00",
+      "training_dataset_hash": "04d06a92e692f4af",
+      "features": [
+        "years_experience",
+        "skill_match_score",
+        "profile_completeness",
+        "seniority_level",
+        "req_skill_score",
+        "recency_feature_train"
+      ],
+      "excluded_features": [
+        "protected_group (fairness-only, never a model input)"
+      ],
+      "deletion_flags": [
+        {
+          "candidate_id": "C00050",
+          "flagged_at": "2026-08-08T13:53:00.813204+00:00"
+        },
+        {
+          "candidate_id": "C00051",
+          "flagged_at": "2026-08-08T13:53:58.800724+00:00"
+        },
+        {
+          "candidate_id": "C00052",
+          "flagged_at": "2026-08-08T13:54:13.135878+00:00"
+        },
+        {
+          "candidate_id": "C00053",
+          "flagged_at": "2026-08-08T13:54:29.155112+00:00"
+        },
+        {
+          "candidate_id": "C00054",
+          "flagged_at": "2026-08-08T14:37:10.870839+00:00"
+        }
+      ],
+      "status": "contains-deleted-subject-data-pending-retrain"
+    },
+    {
+      "model_version": "v1.0.0",
+      "model_hash_sha256_16": "939bb68fba0f9211",
+      "model_type": "lightgbm_lambdarank",
+      "trained_at": "2026-08-08T14:41:41.778562+00:00",
+      "training_dataset_hash": "e25131265ba69139",
+      "features": [
+        "years_experience",
+        "skill_match_score",
+        "profile_completeness",
+        "seniority_level",
+        "req_skill_score",
+        "recency_feature_train"
+      ],
+      "excluded_features": [
+        "protected_group (fairness-only, never a model input)"
+      ],
+      "deletion_flags": [
+        {
+          "candidate_id": "C00050",
+          "flagged_at": "2026-08-08T14:42:05.798377+00:00"
+        }
+      ],
+      "status": "contains-deleted-subject-data-pending-retrain"
+    }
+  ]
+}
