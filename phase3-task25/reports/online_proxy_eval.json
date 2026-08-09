@@ -1,0 +1,9 @@
+{
+  "method": "Inverse Propensity Scoring (off-policy estimate, NOT a live A/B result)",
+  "propensity_clip": 0.9961,
+  "estimated_ctr_new_policy": 0.4509,
+  "observed_ctr_logged_policy": 0.4498,
+  "estimated_application_rate_new_policy": 0.2011,
+  "observed_application_rate_logged_policy": 0.2004,
+  "gap_warning": "IPS variance is high with only 20074 held-out rows; treat this as directional, not final. Real online A/B on the staged rollout (5% -> 25% -> 100%) is the source of truth and is what monitoring/ tracks live."
+}

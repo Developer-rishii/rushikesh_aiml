@@ -1,0 +1,86 @@
+[
+  {
+    "version": "v2.0",
+    "trained_at_unix": 1786194361,
+    "train_rows": 39926,
+    "test_rows": 20074,
+    "features": [
+      "skill_score",
+      "exp_years",
+      "job_seniority",
+      "job_comp_level",
+      "fit_gap"
+    ],
+    "train_seconds": 0.75,
+    "params": {
+      "objective": "lambdarank",
+      "metric": "ndcg",
+      "ndcg_eval_at": [
+        10
+      ],
+      "learning_rate": 0.08,
+      "num_leaves": 31,
+      "min_data_in_leaf": 20,
+      "verbose": -1,
+      "seed": 25
+    },
+    "data_split": "time-based day<20 train / day>=20 held-out",
+    "model_path": "registry/models/ranker_v2.0.pkl"
+  },
+  {
+    "version": "v2.0",
+    "trained_at_unix": 1786283195,
+    "train_rows": 39926,
+    "test_rows": 20074,
+    "features": [
+      "skill_score",
+      "exp_years",
+      "job_seniority",
+      "job_comp_level",
+      "fit_gap"
+    ],
+    "train_seconds": 0.24,
+    "params": {
+      "objective": "lambdarank",
+      "metric": "ndcg",
+      "ndcg_eval_at": [
+        10
+      ],
+      "learning_rate": 0.08,
+      "num_leaves": 31,
+      "min_data_in_leaf": 20,
+      "verbose": -1,
+      "seed": 25
+    },
+    "data_split": "time-based day<20 train / day>=20 held-out",
+    "model_path": "D:\\Placemux-aiml\\phase3-task25/registry/models/ranker_v2.0.pkl"
+  },
+  {
+    "version": "v2.0",
+    "trained_at_unix": 1786286093,
+    "train_rows": 39926,
+    "test_rows": 20074,
+    "features": [
+      "skill_score",
+      "exp_years",
+      "job_seniority",
+      "job_comp_level",
+      "fit_gap"
+    ],
+    "train_seconds": 0.46,
+    "params": {
+      "objective": "lambdarank",
+      "metric": "ndcg",
+      "ndcg_eval_at": [
+        10
+      ],
+      "learning_rate": 0.08,
+      "num_leaves": 31,
+      "min_data_in_leaf": 20,
+      "verbose": -1,
+      "seed": 25
+    },
+    "data_split": "time-based day<20 train / day>=20 held-out",
+    "model_path": "D:\\Placemux-aiml\\phase3-task25/registry/models/ranker_v2.0.pkl"
+  }
+]

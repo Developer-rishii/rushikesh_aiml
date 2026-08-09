@@ -1,0 +1,11 @@
+{
+  "n_requests_measured": 2000,
+  "p50_ms": 0.342,
+  "p95_ms": 0.435,
+  "p99_ms": 0.525,
+  "slo_target_p95_ms": 150,
+  "slo_met": true,
+  "reference_instance_usd_per_hour": 0.14,
+  "estimated_cost_usd_per_1000_requests": 1.3e-05,
+  "note": "single-instance, single-thread CPU inference measured on this container; production would front with batching + autoscaling, this is a conservative worst-case single-node number."
+}

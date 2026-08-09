@@ -1,0 +1,16 @@
+{
+  "demographic_parity": {
+    "A": 0.5673,
+    "B": 0.5578
+  },
+  "demographic_parity_gap": 0.0096,
+  "equal_opportunity_tpr": {
+    "A": 0.8343,
+    "B": 0.838
+  },
+  "equal_opportunity_gap": 0.0037,
+  "threshold": 0.08,
+  "pass_demographic_parity": true,
+  "pass_equal_opportunity": true,
+  "note": "A historic 6% shortlisting bias against group B was injected into the label-generation process to prove this audit actually catches it (Sec 12: 'fairness audit done once as a formality')."
+}

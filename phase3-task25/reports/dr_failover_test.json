@@ -1,0 +1,15 @@
+{
+  "scenario": "primary ranker service unavailable for 15% of requests",
+  "behavior": "system falls back to baseline popularity ranker; NO request fails or shows an empty result",
+  "quality_by_source": {
+    "fallback_baseline": {
+      "mean": 1.0125,
+      "count": 80
+    },
+    "primary_model": {
+      "mean": 1.5023809523809524,
+      "count": 420
+    }
+  },
+  "verdict": "degraded-but-bounded: fallback quality is lower than the primary model but strictly no worse than the pre-v2.0 production baseline, so a primary-model outage cannot make candidate outcomes worse than they were before this project."
+}

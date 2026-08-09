@@ -1,0 +1,8 @@
+{
+  "rollback_trigger_metric": "PSI(exp_years) vs pre-rollout training distribution",
+  "rollback_threshold": 0.25,
+  "rollback_triggered": true,
+  "rollback_triggered_on_day": 20,
+  "action_on_trigger": "freeze traffic ramp at current stage, page on-call, revert serving to previous model version within 5 min",
+  "root_cause_found": "feature 'exp_years' under-logged by serving pipeline starting day 20 (simulated real bug)"
+}

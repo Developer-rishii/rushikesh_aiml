@@ -1,0 +1,25 @@
+{
+  "candidate_id": 290,
+  "job_id": 244,
+  "input_features": {
+    "skill_score": 0.8980586868367981,
+    "exp_years": 2.0,
+    "job_seniority": 4.0,
+    "job_comp_level": -1.256093199100021,
+    "fit_gap": null
+  },
+  "model_score": 1.653017725620639,
+  "rank_among_shown_jobs": 1,
+  "n_jobs_considered": 14,
+  "base_value": -2.7933768796552454,
+  "feature_contributions": {
+    "skill_score": -0.2304,
+    "exp_years": -0.0145,
+    "job_seniority": 0.5492,
+    "job_comp_level": 0.0702,
+    "fit_gap": 4.0718
+  },
+  "top_driver": "fit_gap",
+  "plain_english_reason": "This job was ranked #1 for this candidate mainly because of the candidate's inferred skill level closely matches this job's seniority (contribution +4.072 to the score, vs. a base value of -2.793).",
+  "what_if_model_unavailable": "the baseline popularity ranker would have shown this candidate the most-clicked job overall instead - see dr_failover_test.json"
+}

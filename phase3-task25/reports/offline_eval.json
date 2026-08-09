@@ -1,0 +1,21 @@
+{
+  "model_v2.0": {
+    "nDCG_at_10": 0.953580314969306,
+    "MAP_at_10": 0.5958971741233209,
+    "Precision_at_10": 0.25658814927840295,
+    "n_queries": 2996
+  },
+  "baseline_popularity": {
+    "nDCG_at_10": 0.9097846084090558,
+    "MAP_at_10": 0.5260624218534766,
+    "Precision_at_10": 0.2565547714412868,
+    "n_queries": 2996
+  },
+  "absolute_lift": {
+    "nDCG_at_10": 0.043795706560250114,
+    "MAP_at_10": 0.06983475226984426,
+    "Precision_at_10": 3.337783711615527e-05
+  },
+  "evaluated_on": "held-out day>=20, untuned",
+  "k": 10
+}
