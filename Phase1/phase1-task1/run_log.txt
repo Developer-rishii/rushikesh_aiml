@@ -1,0 +1,11 @@
+2026-08-10 16:56:51,306 | INFO | === Stage: ingest ===
+2026-08-10 16:56:51,314 | INFO | Shape: (569, 31) | dtypes OK | missing: 0 | class balance: {1: 0.627, 0: 0.373}
+2026-08-10 16:56:51,328 | INFO | Raw data written to /home/claude/placemux-task01/data/raw.csv (569 rows, 31 cols)
+2026-08-10 16:56:51,328 | INFO | === Stage: split ===
+2026-08-10 16:56:51,334 | INFO | Split sizes -> train: 397, val: 86, test: 86 (ratios 0.70/0.15/0.15)
+2026-08-10 16:56:51,347 | INFO | Wrote train/val/test CSVs to data/
+2026-08-10 16:56:51,348 | INFO | === Stage: smoke_test ===
+2026-08-10 16:56:51,355 | INFO | Smoke-test baseline metrics: {'val_accuracy': 0.6279, 'val_f1': 0.7714}
+2026-08-10 16:56:51,356 | INFO | Saved baseline model to /home/claude/placemux-task01/experiments/models/dummy_baseline.joblib
+2026-08-10 16:56:51,356 | INFO | Logged run 'smoke_test_dummy_baseline' -> /home/claude/placemux-task01/experiments/experiment_log.csv
+2026-08-10 16:56:51,356 | INFO | Pipeline completed successfully end-to-end.

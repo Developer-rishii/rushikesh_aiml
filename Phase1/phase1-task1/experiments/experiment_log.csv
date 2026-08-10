@@ -1,0 +1,3 @@
+timestamp,run_name,param_model,param_strategy,param_seed,metric_val_accuracy,metric_val_f1
+2026-08-10T16:56:36+00:00,smoke_test_dummy_baseline,DummyClassifier,most_frequent,42,0.6279,0.7714
+2026-08-10T16:56:51+00:00,smoke_test_dummy_baseline,DummyClassifier,most_frequent,42,0.6279,0.7714
