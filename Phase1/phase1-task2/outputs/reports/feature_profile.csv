@@ -1,0 +1,33 @@
+feature,dtype,signal_type,missing_pct,n_unique,assoc_with_target,quality_flags
+pathologist_diagnosis_code,object,categorical,0.0,2,1.0,suspiciously_high_assoc_check_leakage
+worst concave points,float64,numeric,0.0,492,-0.7936,ok
+worst perimeter,float64,numeric,0.0,514,-0.7829,ok
+mean concave points,float64,numeric,0.0,542,-0.7766,ok
+worst radius,float64,numeric,0.0,457,-0.7765,ok
+mean perimeter,float64,numeric,0.0,522,-0.7426,ok
+worst area,float64,numeric,0.0,544,-0.7338,ok
+mean radius,float64,numeric,0.0,456,-0.73,ok
+mean area,float64,numeric,0.0,539,-0.709,ok
+mean concavity,float64,numeric,0.0,537,-0.6964,ok
+worst concavity,float64,numeric,0.0,539,-0.6596,ok
+mean compactness,float64,numeric,0.0,537,-0.5965,ok
+worst compactness,float64,numeric,0.0,529,-0.591,ok
+radius error,float64,numeric,0.0,540,-0.5671,ok
+perimeter error,float64,numeric,0.0,533,-0.5561,ok
+area error,float64,numeric,0.0,528,-0.5482,ok
+worst texture,float64,numeric,0.0,511,-0.4569,ok
+worst smoothness,float64,numeric,0.0,411,-0.4215,ok
+worst symmetry,float64,numeric,0.0,500,-0.4163,ok
+mean texture,float64,numeric,0.0,479,-0.4152,ok
+concave points error,float64,numeric,0.0,507,-0.408,ok
+mean smoothness,float64,numeric,0.0,474,-0.3586,ok
+mean symmetry,float64,numeric,0.0,432,-0.3305,ok
+worst fractal dimension,float64,numeric,0.0,535,-0.3239,ok
+compactness error,float64,numeric,0.0,541,-0.293,ok
+patient_record_id,int64,numeric,0.0,569,0.2836,likely_id_no_signal
+concavity error,float64,numeric,0.0,533,-0.2537,ok
+fractal dimension error,float64,numeric,0.0,545,-0.078,ok
+smoothness error,float64,numeric,0.0,547,0.067,ok
+mean fractal dimension,float64,numeric,0.0,499,0.0128,ok
+texture error,float64,numeric,0.0,519,0.0083,ok
+symmetry error,float64,numeric,0.0,498,0.0065,ok

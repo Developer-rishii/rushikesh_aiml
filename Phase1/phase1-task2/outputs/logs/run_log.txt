@@ -1,0 +1,11 @@
+=== Task 2 pipeline run | seed=42 | continuing from Task 1's raw data ===
+[1/6] Loaded Task 1 data (569 rows x 31 cols), enriched with records-system fields -> 33 cols
+[2/6] Profiled 32 candidate features.
+[3/6] Leakage check dropped 2 feature(s): ['pathologist_diagnosis_code', 'patient_record_id']
+[4/6] Class balance -> {0: 212, 1: 357} | majority baseline=62.74%
+[5/6] Split (stratified, seed=42): train=398 val=85 test=86 (fracs 0.7/0.15/0.15)
+[6/6] Baseline logistic regression (class_weight=balanced) validation metrics: {'val_pr_auc': 1.0, 'val_roc_auc': 1.0, 'val_precision': 1.0, 'val_recall': 0.9623, 'val_f1': 0.9808, 'val_accuracy': 0.9765, 'majority_baseline_accuracy': 0.6274}
+
+GO/NO-GO DECISION: GO
+  Rationale: PR-AUC=1.0 vs minority base rate 0.3726; recall=0.9623 (high recall bar because a missed malignant case is the costly error).
+  Modelling approach recommendation: binary classification on the cleaned 30-feature WDBC set, PR-AUC as primary metric, class-weighted linear model as baseline (already strong on this well-separated real dataset); escalate to a tree ensemble only if recall needs to improve further.
