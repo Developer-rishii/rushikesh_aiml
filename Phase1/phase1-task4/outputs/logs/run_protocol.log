@@ -1,0 +1,69 @@
+{
+  "seed": 42,
+  "rows": {
+    "train": 398,
+    "val": 85,
+    "test": 86
+  },
+  "feature_types": {
+    "numeric": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter",
+      "mean area",
+      "mean smoothness",
+      "mean compactness",
+      "mean concavity",
+      "mean concave points",
+      "mean symmetry",
+      "mean fractal dimension",
+      "radius error",
+      "texture error",
+      "perimeter error",
+      "area error",
+      "smoothness error",
+      "compactness error",
+      "concavity error",
+      "concave points error",
+      "symmetry error",
+      "fractal dimension error",
+      "worst radius",
+      "worst texture",
+      "worst perimeter",
+      "worst area",
+      "worst smoothness",
+      "worst compactness",
+      "worst concavity",
+      "worst concave points",
+      "worst symmetry",
+      "worst fractal dimension"
+    ],
+    "categorical": [
+      "sample_processing_site"
+    ]
+  },
+  "missing_values_in_train_before_impute": 45,
+  "rows_dropped_during_preprocessing": 0,
+  "output_shape": {
+    "train": [
+      398,
+      33
+    ],
+    "val": [
+      85,
+      33
+    ],
+    "test": [
+      86,
+      33
+    ]
+  },
+  "leakage_check": {
+    "index_overlap": 0,
+    "numeric_cols_checked": 30,
+    "scaler_matches_train_only_mean": true
+  },
+  "preprocessor_path": "/home/claude/task4_project/outputs/preprocessors/fitted_preprocessor.joblib",
+  "inference_reuse_verified": true,
+  "runtime_seconds": 0.05
+}

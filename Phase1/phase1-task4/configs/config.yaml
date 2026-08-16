@@ -1,0 +1,30 @@
+# Task 4 config — controls data paths, split, and preprocessing choices.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"   # carried over from Task 2/3
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+enrichment:
+  # The WDBC feature set (from Task 2) is all-numeric with zero missing
+  # values -- a curated benchmark. To make categorical encoding and
+  # imputation genuinely demonstrable (not hypothetical), we add one
+  # realistic categorical field and inject realistic missingness. See
+  # src/data/enrich.py for exactly what and why.
+  add_categorical_feature: true
+  inject_missing_values: true
+  missing_fraction: 0.04
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  categorical_impute_strategy: "most_frequent"
+  scale_numeric: true
+  encode_categorical: "onehot"
+
+logging:
+  preprocessor_dir: "outputs/preprocessors"
+  log_dir: "outputs/logs"
+  report_dir: "outputs/reports"
