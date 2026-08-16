@@ -1,0 +1,31 @@
+# Same skeleton, different model — proves models swap via config only.
+# Run: python -m src.harness --config configs/config_random_forest.yaml
+
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+features:
+  drop_columns: []
+  scale: true
+  impute_strategy: "median"
+
+model:
+  name: "random_forest"
+  params:
+    n_estimators: 200
+    class_weight: "balanced"
+
+evaluation:
+  primary_metric: "pr_auc"
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+
+logging:
+  experiment_log: "outputs/experiments/experiment_log.csv"
+  run_log_dir: "outputs/logs"
+  model_dir: "outputs/models"

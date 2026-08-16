@@ -1,0 +1,4 @@
+model=logreg_baseline seed=42
+split={'train': 398, 'val': 85, 'test': 86}
+metrics={'pr_auc': 1.0, 'roc_auc': 1.0, 'precision': 1.0, 'recall': 0.9623, 'f1': 0.9808, 'accuracy': 0.9765}
+runtime_seconds=0.04

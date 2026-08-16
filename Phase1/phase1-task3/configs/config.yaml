@@ -1,0 +1,35 @@
+# Task 3 config — single source of truth for paths, params, seeds.
+# Continuity with Task 1 & 2: same seed, same target, same dataset lineage.
+
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"   # carried over from Task 2's leakage-cleaned output
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+features:
+  # empty = use all non-target numeric columns; a named subset can be
+  # dropped in here later without touching any code (see features/build.py)
+  drop_columns: []
+  scale: true
+  impute_strategy: "median"
+
+model:
+  # which entry in the registry (src/models/registry.py) to run.
+  # Swap this one line to run a different model through the SAME harness.
+  name: "logreg_baseline"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+
+evaluation:
+  primary_metric: "pr_auc"
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+
+logging:
+  experiment_log: "outputs/experiments/experiment_log.csv"
+  run_log_dir: "outputs/logs"
+  model_dir: "outputs/models"
