@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "split_sizes": {
+    "train": 398,
+    "val": 85,
+    "test": 86
+  },
+  "baseline": {
+    "strategy": "most_frequent",
+    "metrics": {
+      "pr_auc": 0.6235,
+      "roc_auc": 0.5,
+      "precision": 0.6235,
+      "recall": 1.0,
+      "f1": 0.7681,
+      "accuracy": 0.6235
+    }
+  },
+  "model": {
+    "name": "logreg",
+    "metrics": {
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "precision": 1.0,
+      "recall": 0.9623,
+      "f1": 0.9808,
+      "accuracy": 0.9765
+    }
+  },
+  "primary_metric": "pr_auc",
+  "lift_over_baseline": 0.3765,
+  "beats_baseline": true,
+  "worst_errors_summary": {
+    "n_errors_inspected": 2,
+    "false_negatives": 2,
+    "false_positives": 0,
+    "mean_error_magnitude": 0.6128
+  },
+  "next_improvement_decision": "GO, but next improvement: false negatives dominate the errors \u2014 raise recall via class weighting or a lower decision threshold, since a missed positive is the costlier mistake here.",
+  "runtime_seconds": 0.09
+}

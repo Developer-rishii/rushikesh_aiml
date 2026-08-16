@@ -1,0 +1,45 @@
+# Task 5 config — controls data paths, split, preprocessing, and model choice.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+enrichment:
+  add_categorical_feature: true
+  inject_missing_values: true
+  missing_fraction: 0.04
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  categorical_impute_strategy: "most_frequent"
+  scale_numeric: true
+  encode_categorical: "onehot"
+
+baseline:
+  # Step 1: baseline metric (majority-class classifier — "dumb" on purpose)
+  strategy: "most_frequent"
+
+model:
+  # Step 2: the first real model, trained through the same harness.
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+evaluation:
+  # Step 4 pitfall guard: this is the metric optimised for and compared —
+  # chosen because the class balance (Task 2) makes accuracy misleading.
+  primary_metric: "pr_auc"
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+  worst_errors_to_inspect: 10
+
+logging:
+  experiment_log: "outputs/experiments/experiment_log.csv"
+  report_dir: "outputs/reports"
+  log_dir: "outputs/logs"
+  model_dir: "outputs/models"
