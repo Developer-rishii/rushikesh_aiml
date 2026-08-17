@@ -1,0 +1,42 @@
+# Task 7 config — controls data, engineered features, and pruning thresholds.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"   # Task 2's leakage-cleaned WDBC data
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+model:
+  # Used only to rank feature importance — same family as Tasks 5-6.
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+pruning:
+  # Step 5: prune useless/leaky features.
+  # A feature is dropped if its permutation-importance lift is at or
+  # below this (essentially zero / noise-level contribution to the
+  # validation metric).
+  min_importance_lift: 0.0005
+  # A feature is dropped outright (no debate) if its correlation with
+  # the target exceeds this — reused from Task 2's leakage-detection
+  # threshold for consistency across the project.
+  leakage_corr_threshold: 0.98
+
+evaluation:
+  primary_metric: "pr_auc"
+  n_permutation_repeats: 20
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  baseline_feature_dir: "outputs/baseline_features"
