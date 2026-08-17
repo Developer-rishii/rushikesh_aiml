@@ -1,0 +1,3 @@
+run_id,timestamp_utc,model_name,seed,train_size,val_size,test_size,primary_metric,val_pr_auc,val_roc_auc,val_precision,val_recall,val_f1,val_accuracy
+run_a,2026-08-17T04:29:25.571367+00:00,logreg,42,398,85,86,pr_auc,1.0,1.0,1.0,0.9811,0.9905,0.9882
+run_b,2026-08-17T04:29:25.596896+00:00,logreg,42,398,85,86,pr_auc,1.0,1.0,1.0,0.9811,0.9905,0.9882

@@ -1,0 +1,30 @@
+# Task 8 config — single source of truth for the entire end-to-end run.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"          # Task 2's leakage-cleaned WDBC data
+  locked_features_path: "data/locked_feature_set.json"  # Task 7's vetted feature set
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+model:
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+evaluation:
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+  primary_metric: "pr_auc"
+
+logging:
+  experiment_log: "outputs/experiments/experiment_log.csv"
+  log_dir: "outputs/logs"
+  artifact_dir: "outputs/artifacts"

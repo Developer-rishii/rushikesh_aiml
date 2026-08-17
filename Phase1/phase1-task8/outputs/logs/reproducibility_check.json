@@ -1,0 +1,20 @@
+{
+  "identical_metrics": true,
+  "run_a_metrics": {
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "precision": 1.0,
+    "recall": 0.9811,
+    "f1": 0.9905,
+    "accuracy": 0.9882
+  },
+  "run_b_metrics": {
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "precision": 1.0,
+    "recall": 0.9811,
+    "f1": 0.9905,
+    "accuracy": 0.9882
+  },
+  "differences": {}
+}
