@@ -1,0 +1,48 @@
+# Task 6 config — controls data, model, and cost-based threshold selection.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+enrichment:
+  add_categorical_feature: true
+  inject_missing_values: true
+  missing_fraction: 0.04
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  categorical_impute_strategy: "most_frequent"
+  scale_numeric: true
+  encode_categorical: "onehot"
+
+model:
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+# Cost reasoning (Step 6 / brainstorming question #1):
+# target=0 -> malignant, target=1 -> benign.
+# A false negative here means predicting "benign" (1) when the tumor is
+# actually malignant (0) -- a missed cancer diagnosis. A false positive
+# means predicting "malignant" when it's actually benign -- an
+# unnecessary follow-up biopsy. Missing a cancer is far costlier than an
+# unnecessary follow-up, so false negatives are weighted much higher.
+cost:
+  cost_false_negative: 10.0
+  cost_false_positive: 1.0
+
+evaluation:
+  metrics: ["precision", "recall", "f1", "roc_auc", "pr_auc", "accuracy"]
+  threshold_grid_step: 0.01
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  model_dir: "outputs/models"
