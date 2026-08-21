@@ -1,0 +1,44 @@
+# Task 9 config — controls data, search space, CV scheme, and scoring.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  locked_features_path: "data/locked_feature_set.json"
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+model:
+  name: "logreg"
+  # Step 1: default config — the "no tuning" baseline this task must
+  # beat on the held-out test set, not just on CV.
+  default_params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+search:
+  # Step 1: hyperparameters that matter most for LogisticRegression —
+  # regularisation strength (C) and penalty type directly control the
+  # bias/variance trade-off; solver is included only because 'l1' needs
+  # a compatible solver. max_iter/random_state are NOT searched (Step 3
+  # pitfall: "searching params that don't matter" — they don't affect
+  # the bias/variance trade-off, they're just plumbing).
+  strategy: "grid"   # grid | random
+  param_grid:
+    model__C: [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+    model__penalty: ["l1", "l2"]
+    model__solver: ["liblinear"]   # only solver supporting both l1 and l2 here
+  cv_folds: 5
+  scoring: "average_precision"     # PR-AUC — same primary metric as Tasks 5-8
+  n_random_iter: 20                # used only if strategy == "random"
+
+logging:
+  report_dir: "outputs/reports"
+  log_dir: "outputs/logs"
+  artifact_dir: "outputs/artifacts"
