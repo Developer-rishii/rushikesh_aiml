@@ -1,0 +1,50 @@
+# Task 10 config — linear baseline vs non-linear model, regularization, PDP.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  locked_features_path: "data/locked_feature_set.json"
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true   # scaling doesn't hurt trees, keeps baseline+nonlinear pipelines symmetric
+
+baseline_model:
+  # Task 9's confirmed default LogisticRegression config — the linear
+  # bar the non-linear model must clear.
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+nonlinear_model:
+  name: "gradient_boosting"
+  # Step 4: regularisation knobs kept deliberately conservative given a
+  # 398-row training set — capacity vs data (guide's own concept #4):
+  # a high-capacity, unregularised booster overfits fast on this little data.
+  search_space:
+    model__n_estimators: [50, 100]
+    model__max_depth: [1, 2, 3]
+    model__learning_rate: [0.05, 0.1]
+    model__subsample: [0.8, 1.0]
+  cv_folds: 5
+  scoring: "average_precision"
+
+evaluation:
+  primary_metric: "pr_auc"
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+  min_lift_to_keep: 0.01   # Step 6: complexity must earn at least this much validated lift
+
+pdp:
+  n_top_features: 4   # how many features to plot partial dependence for
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  artifact_dir: "outputs/artifacts"

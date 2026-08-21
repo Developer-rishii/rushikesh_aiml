@@ -1,0 +1,55 @@
+{
+  "seed": 42,
+  "split_sizes": {
+    "train": 398,
+    "val": 85,
+    "test": 86
+  },
+  "eda_note": "WDBC shape/size measurements (radius, area, concavity) are known to interact: a large-but-smooth tumor and a small-but-highly-concave tumor can carry similar risk through different mechanisms. A linear model can only add these effects; a tree ensemble can split on 'concavity high AND size moderate' style interactions the linear coefficients structurally cannot express \u2014 worth testing whether the data actually rewards that extra expressiveness.",
+  "baseline_val_metrics": {
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "precision": 1.0,
+    "recall": 0.9811,
+    "f1": 0.9905,
+    "accuracy": 0.9882
+  },
+  "nonlinear_best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 2,
+    "model__n_estimators": 100,
+    "model__subsample": 0.8
+  },
+  "nonlinear_cv_score": 0.9921,
+  "nonlinear_train_cv_gap": 0.0079,
+  "possible_overfit": false,
+  "nonlinear_val_metrics": {
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0
+  },
+  "primary_metric": "pr_auc",
+  "validated_lift": 0.0,
+  "min_lift_to_keep": 0.01,
+  "decision": "REJECT non-linear model, keep the linear baseline: validated lift +0.0000 does not clear the 0.01 threshold \u2014 the added complexity (tree ensemble, tuned hyperparameters, lost coefficient-level interpretability) is not justified by the evidence.",
+  "kept_model": "logreg_baseline",
+  "kept_model_test_metrics": {
+    "pr_auc": 0.9979,
+    "roc_auc": 0.9965,
+    "precision": 0.9815,
+    "recall": 0.9815,
+    "f1": 0.9815,
+    "accuracy": 0.9767
+  },
+  "pdp_top_features": [
+    "worst concave points",
+    "worst radius",
+    "worst perimeter",
+    "mean concave points"
+  ],
+  "pdp_plot_path": "/home/claude/task10_project/outputs/figures/partial_dependence.png",
+  "runtime_seconds": 27.32
+}
