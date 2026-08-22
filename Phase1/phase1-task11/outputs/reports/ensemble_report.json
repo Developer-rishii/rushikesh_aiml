@@ -1,0 +1,108 @@
+{
+  "seed": 42,
+  "split_sizes": {
+    "train": 398,
+    "val": 85,
+    "test": 86
+  },
+  "base_model_val_metrics": {
+    "logreg": {
+      "pr_auc": 0.8607,
+      "roc_auc": 0.7824,
+      "precision": 0.7843,
+      "recall": 0.7547,
+      "f1": 0.7692,
+      "accuracy": 0.7176
+    },
+    "gradient_boosting": {
+      "pr_auc": 0.85,
+      "roc_auc": 0.7488,
+      "precision": 0.6984,
+      "recall": 0.8302,
+      "f1": 0.7586,
+      "accuracy": 0.6706
+    },
+    "random_forest": {
+      "pr_auc": 0.8324,
+      "roc_auc": 0.7412,
+      "precision": 0.7455,
+      "recall": 0.7736,
+      "f1": 0.7593,
+      "accuracy": 0.6941
+    }
+  },
+  "best_single_model": "logreg",
+  "best_single_score": 0.8607,
+  "voting_val_metrics": {
+    "pr_auc": 0.8634,
+    "roc_auc": 0.7765,
+    "precision": 0.7963,
+    "recall": 0.8113,
+    "f1": 0.8037,
+    "accuracy": 0.7529
+  },
+  "stacking_val_metrics": {
+    "pr_auc": 0.8662,
+    "roc_auc": 0.7795,
+    "precision": 0.7833,
+    "recall": 0.8868,
+    "f1": 0.8319,
+    "accuracy": 0.7765
+  },
+  "best_ensemble_strategy": "stacking",
+  "primary_metric": "pr_auc",
+  "validated_lift": 0.0055,
+  "min_lift_to_prefer_ensemble": 0.001,
+  "diversity_check": {
+    "error_overlap": {
+      "logreg_vs_gradient_boosting": {
+        "n_wrong_a": 24,
+        "n_wrong_b": 28,
+        "n_wrong_both": 17,
+        "error_overlap_fraction": 0.4857
+      },
+      "logreg_vs_random_forest": {
+        "n_wrong_a": 24,
+        "n_wrong_b": 26,
+        "n_wrong_both": 18,
+        "error_overlap_fraction": 0.5625
+      },
+      "gradient_boosting_vs_random_forest": {
+        "n_wrong_a": 28,
+        "n_wrong_b": 26,
+        "n_wrong_both": 22,
+        "error_overlap_fraction": 0.6875
+      }
+    },
+    "verdict": {
+      "near_duplicate_pairs_flagged": {},
+      "diversity_confirmed": true
+    }
+  },
+  "latency": {
+    "best_single_model": {
+      "n_repeats": 50,
+      "n_rows_per_call": 85,
+      "mean_batch_latency_ms": 1.1797,
+      "mean_per_row_latency_ms": 0.013878
+    },
+    "best_ensemble": {
+      "n_repeats": 50,
+      "n_rows_per_call": 85,
+      "mean_batch_latency_ms": 12.2699,
+      "mean_per_row_latency_ms": 0.144352
+    },
+    "overhead_pct": 940.1
+  },
+  "decision": "PREFER ensemble (stacking): validated lift +0.0055 >= threshold 0.001, latency overhead +940.1% accepted.",
+  "kept_model": "stacking",
+  "kept_model_test_metrics": {
+    "pr_auc": 0.8681,
+    "roc_auc": 0.7888,
+    "precision": 0.75,
+    "recall": 0.8889,
+    "f1": 0.8136,
+    "accuracy": 0.7442
+  },
+  "runtime_seconds": 3.74
+}

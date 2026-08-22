@@ -1,0 +1,61 @@
+# Task 11 config — base models, ensemble strategy, diversity/latency checks.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  locked_features_path: "data/locked_feature_set.json"
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+# Step 1: a FEW DIVERSE base models — chosen deliberately for different
+# error mechanisms, not three flavors of the same algorithm:
+#   - logreg: linear decision boundary, confirmed strong in Tasks 5-9
+#   - gradient_boosting: sequential, bias-reduction, regularised as in Task 10
+#   - random_forest: bagged, high-variance trees decorrelated by bootstrap
+#     sampling + feature subsampling — a genuinely different error profile
+#     from a single boosted tree (this is what makes bagging+boosting
+#     together plausibly diverse, unlike two boosted models with different
+#     seeds, which would largely duplicate each other's mistakes).
+base_models:
+  logreg:
+    class_weight: "balanced"
+    max_iter: 2000
+    random_state: 42
+  gradient_boosting:
+    # Task 10's confirmed regularised config
+    max_depth: 2
+    learning_rate: 0.1
+    n_estimators: 100
+    subsample: 0.8
+    random_state: 42
+  random_forest:
+    n_estimators: 200
+    max_depth: 4
+    class_weight: "balanced"
+    random_state: 42
+
+ensemble:
+  # Step 2: combination strategies actually tried and compared.
+  voting_type: "soft"          # average predicted probabilities
+  stacking_cv_folds: 5          # Step: internal CV inside StackingClassifier
+                                 # so the meta-model never sees a base
+                                 # model's prediction on rows it was
+                                 # trained on -- the direct guard against
+                                 # "stacking that leaks across folds"
+  stacking_meta_model: "logreg"
+
+evaluation:
+  primary_metric: "pr_auc"
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+  min_lift_to_prefer_ensemble: 0.001
+
+logging:
+  report_dir: "outputs/reports"
+  log_dir: "outputs/logs"
+  artifact_dir: "outputs/artifacts"
