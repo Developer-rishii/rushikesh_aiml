@@ -1,0 +1,56 @@
+# Task 12 config — calibration, cost-based threshold, segments, serving.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  locked_features_path: "data/locked_feature_set.json"
+  target_col: "target"
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+model:
+  # Task 9's confirmed default config — the classifier this task
+  # calibrates, thresholds, and packages, not a new one.
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+calibration:
+  # Step 2: both methods actually tried and compared, not assumed.
+  methods: ["sigmoid", "isotonic"]   # sigmoid = Platt scaling
+  cv_folds: 5
+  n_calibration_bins: 10
+
+cost:
+  # Same clinical cost reasoning as Task 6: a missed malignancy is far
+  # costlier than an unnecessary follow-up biopsy.
+  cost_false_negative: 10.0
+  cost_false_positive: 1.0
+
+segments:
+  # Step 4: WDBC carries no demographic/protected attributes, so the
+  # domain-reasonable segment here is tumor size (mean radius tertile) —
+  # a real clinical dimension the model's stability can plausibly vary
+  # across (small tumors have less signal to work with than large ones).
+  segment_feature: "mean radius"
+  n_segments: 3
+  segment_labels: ["small", "medium", "large"]
+
+evaluation:
+  cv_folds: 5
+  primary_metric: "pr_auc"
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+  min_segment_recall: 0.7   # Step 4: flag any segment falling below this
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  serving_dir: "outputs/serving_package"

@@ -1,0 +1,95 @@
+{
+  "seed": 42,
+  "split_sizes": {
+    "train": 398,
+    "val": 85,
+    "test": 86
+  },
+  "brier_scores": {
+    "uncalibrated": 0.01176,
+    "sigmoid": 0.01929,
+    "isotonic": 0.00781
+  },
+  "selected_calibration_method": "isotonic",
+  "calibration_curve_path": "/home/claude/task12_project/outputs/figures/calibration_curve.png",
+  "threshold_selection": {
+    "cost_false_negative": 10.0,
+    "cost_false_positive": 1.0,
+    "default_threshold_0.5": {
+      "threshold": 0.5,
+      "expected_cost": 1.0
+    },
+    "recommended_threshold": {
+      "threshold": 0.37,
+      "expected_cost": 0.0,
+      "missed_malignancy": 0,
+      "unnecessary_biopsy": 0
+    }
+  },
+  "chosen_threshold": 0.37,
+  "cv_stability": {
+    "cv_folds": 5,
+    "fold_scores": [
+      1.0,
+      0.9988,
+      0.9739,
+      1.0,
+      0.996
+    ],
+    "mean": 0.9937,
+    "std": 0.01,
+    "stable": true
+  },
+  "segment_check": {
+    "segment_feature": "mean radius",
+    "segments": {
+      "small": {
+        "n": 28,
+        "recall": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0
+      },
+      "medium": {
+        "n": 28,
+        "recall": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0
+      },
+      "large": {
+        "n": 29,
+        "recall": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0
+      }
+    },
+    "flagged_low_recall_segments": [],
+    "fairness_confirmed": true
+  },
+  "operating_point": {
+    "calibration_method": "isotonic",
+    "threshold": 0.37,
+    "test_metrics": {
+      "pr_auc": 0.9983,
+      "roc_auc": 0.9971,
+      "precision": 0.9818,
+      "recall": 1.0,
+      "f1": 0.9908,
+      "accuracy": 0.9884
+    },
+    "test_confusion_matrix": {
+      "threshold": 0.37,
+      "missed_malignancy": 1,
+      "unnecessary_biopsy": 0,
+      "true_negative": 31,
+      "true_positive": 54
+    },
+    "expected_missed_malignancy_rate": 0.0116,
+    "expected_unnecessary_biopsy_rate": 0.0
+  },
+  "serving_package_paths": {
+    "model_path": "/home/claude/task12_project/outputs/serving_package/model.joblib",
+    "config_path": "/home/claude/task12_project/outputs/serving_package/serving_config.json"
+  },
+  "serving_reload_verified": true,
+  "runtime_seconds": 0.78
+}
