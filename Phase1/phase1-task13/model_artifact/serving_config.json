@@ -1,0 +1,104 @@
+{
+  "threshold": 0.37,
+  "positive_class_meaning": "1 = benign, 0 = malignant",
+  "seed": 42,
+  "model_name": "logreg",
+  "calibration_method": "isotonic",
+  "feature_names": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension",
+    "coeff_variation_area"
+  ],
+  "brier_scores": {
+    "uncalibrated": 0.01176,
+    "sigmoid": 0.01929,
+    "isotonic": 0.00781
+  },
+  "cv_stability": {
+    "cv_folds": 5,
+    "fold_scores": [
+      1.0,
+      0.9988,
+      0.9739,
+      1.0,
+      0.996
+    ],
+    "mean": 0.9937,
+    "std": 0.01,
+    "stable": true
+  },
+  "segment_check": {
+    "segment_feature": "mean radius",
+    "segments": {
+      "small": {
+        "n": 28,
+        "recall": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0
+      },
+      "medium": {
+        "n": 28,
+        "recall": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0
+      },
+      "large": {
+        "n": 29,
+        "recall": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0
+      }
+    },
+    "flagged_low_recall_segments": [],
+    "fairness_confirmed": true
+  },
+  "operating_point": {
+    "calibration_method": "isotonic",
+    "threshold": 0.37,
+    "test_metrics": {
+      "pr_auc": 0.9983,
+      "roc_auc": 0.9971,
+      "precision": 0.9818,
+      "recall": 1.0,
+      "f1": 0.9908,
+      "accuracy": 0.9884
+    },
+    "test_confusion_matrix": {
+      "threshold": 0.37,
+      "missed_malignancy": 1,
+      "unnecessary_biopsy": 0,
+      "true_negative": 31,
+      "true_positive": 54
+    },
+    "expected_missed_malignancy_rate": 0.0116,
+    "expected_unnecessary_biopsy_rate": 0.0
+  }
+}

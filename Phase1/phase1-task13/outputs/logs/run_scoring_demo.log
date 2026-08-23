@@ -1,0 +1,753 @@
+{
+  "model_version": "sha256:f27b186532ae8d4e",
+  "model_name": "logreg",
+  "calibration_method": "isotonic",
+  "threshold": 0.37,
+  "n_records_scored": 20,
+  "single_vs_batch_consistent": true,
+  "n_decisions_matching_ground_truth": 20,
+  "n_total": 20,
+  "example_single_score": {
+    "probability": 0.874929,
+    "score_meaning": "Calibrated (isotonic) probability that the tumor is BENIGN (positive class = 1). A value near 1.0 means high confidence of benign; near 0.0 means high confidence of malignant. The 'decision' field applies the operating threshold (0.37) chosen in Task 12 to minimize the real clinical cost of errors \u2014 it is NOT a plain 0.5 cutoff.",
+    "decision": 1,
+    "decision_label": "benign",
+    "threshold_used": 0.37,
+    "model_version": "sha256:f27b186532ae8d4e",
+    "model_name": "logreg",
+    "calibration_method": "isotonic"
+  },
+  "malformed_input_handling_examples": [
+    {
+      "case": "unknown field only",
+      "error": "Input validation failed for single record.",
+      "detail": {
+        "pydantic_errors": [
+          {
+            "type": "missing",
+            "loc": [
+              "mean_radius"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_texture"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_perimeter"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_area"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_smoothness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_compactness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_concavity"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_concave_points"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_symmetry"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_fractal_dimension"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "radius_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "texture_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "perimeter_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "area_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "smoothness_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "compactness_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "concavity_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "concave_points_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "symmetry_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "fractal_dimension_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_radius"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_texture"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_perimeter"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_area"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_smoothness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_compactness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_concavity"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_concave_points"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_symmetry"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_fractal_dimension"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "coeff_variation_area"
+            ],
+            "msg": "Field required",
+            "input": {
+              "not_a_real_feature": 1.0
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "extra_forbidden",
+            "loc": [
+              "not_a_real_feature"
+            ],
+            "msg": "Extra inputs are not permitted",
+            "input": 1.0,
+            "url": "https://errors.pydantic.dev/2.9/v/extra_forbidden"
+          }
+        ]
+      }
+    },
+    {
+      "case": "incomplete record",
+      "error": "Input validation failed for single record.",
+      "detail": {
+        "pydantic_errors": [
+          {
+            "type": "missing",
+            "loc": [
+              "mean_area"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_smoothness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_compactness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_concavity"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_concave_points"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_symmetry"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "mean_fractal_dimension"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "radius_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "texture_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "perimeter_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "area_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "smoothness_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "compactness_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "concavity_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "concave_points_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "symmetry_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "fractal_dimension_error"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_radius"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_texture"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_perimeter"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_area"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_smoothness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_compactness"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_concavity"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_concave_points"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_symmetry"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "worst_fractal_dimension"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          },
+          {
+            "type": "missing",
+            "loc": [
+              "coeff_variation_area"
+            ],
+            "msg": "Field required",
+            "input": {
+              "mean_radius": 12.47,
+              "mean_texture": 18.6,
+              "mean_perimeter": 81.09
+            },
+            "url": "https://errors.pydantic.dev/2.9/v/missing"
+          }
+        ]
+      }
+    }
+  ],
+  "runtime_seconds": 0.76
+}
