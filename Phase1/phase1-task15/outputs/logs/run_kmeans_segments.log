@@ -1,0 +1,171 @@
+{
+  "seed": 42,
+  "k": 2,
+  "k_justification_from_task14": {
+    "silhouette": 0.348
+  },
+  "n_rows": 569,
+  "validity": {
+    "overall_silhouette": 0.348,
+    "per_cluster_silhouette": {
+      "0": 0.1571,
+      "1": 0.4422
+    },
+    "cluster_sizes": {
+      "0": 188,
+      "1": 381
+    }
+  },
+  "shape_assumption_check": {
+    "cluster_size_ratio": 2.03,
+    "cluster_spread_ratio": 1.48,
+    "size_imbalance_flag": false,
+    "spread_imbalance_flag": false,
+    "kmeans_assumptions_reasonable": true
+  },
+  "cluster_profiles": {
+    "0": {
+      "n_members": 188,
+      "defining_features": [
+        {
+          "feature": "mean concavity",
+          "cluster_mean": 0.1803,
+          "population_mean": 0.0888,
+          "z_score": 1.148,
+          "direction": "higher"
+        },
+        {
+          "feature": "mean concave points",
+          "cluster_mean": 0.0923,
+          "population_mean": 0.0489,
+          "z_score": 1.119,
+          "direction": "higher"
+        },
+        {
+          "feature": "worst concave points",
+          "cluster_mean": 0.1873,
+          "population_mean": 0.1146,
+          "z_score": 1.106,
+          "direction": "higher"
+        },
+        {
+          "feature": "mean compactness",
+          "cluster_mean": 0.1619,
+          "population_mean": 0.1043,
+          "z_score": 1.09,
+          "direction": "higher"
+        },
+        {
+          "feature": "worst concavity",
+          "cluster_mean": 0.4959,
+          "population_mean": 0.2722,
+          "z_score": 1.072,
+          "direction": "higher"
+        }
+      ]
+    },
+    "1": {
+      "n_members": 381,
+      "defining_features": [
+        {
+          "feature": "mean concavity",
+          "cluster_mean": 0.0436,
+          "population_mean": 0.0888,
+          "z_score": -0.567,
+          "direction": "lower"
+        },
+        {
+          "feature": "mean concave points",
+          "cluster_mean": 0.0275,
+          "population_mean": 0.0489,
+          "z_score": -0.552,
+          "direction": "lower"
+        },
+        {
+          "feature": "worst concave points",
+          "cluster_mean": 0.0787,
+          "population_mean": 0.1146,
+          "z_score": -0.546,
+          "direction": "lower"
+        },
+        {
+          "feature": "mean compactness",
+          "cluster_mean": 0.0759,
+          "population_mean": 0.1043,
+          "z_score": -0.538,
+          "direction": "lower"
+        },
+        {
+          "feature": "worst concavity",
+          "cluster_mean": 0.1618,
+          "population_mean": 0.2722,
+          "z_score": -0.529,
+          "direction": "lower"
+        }
+      ]
+    }
+  },
+  "cluster_names": {
+    "0": {
+      "name": "High Shape Irregularity",
+      "based_on_feature": "mean concavity",
+      "z_score": 1.148
+    },
+    "1": {
+      "name": "Low Shape Irregularity",
+      "based_on_feature": "mean concavity",
+      "z_score": -0.567
+    }
+  },
+  "stability": {
+    "seeds_checked": [
+      1,
+      7,
+      13,
+      21,
+      99
+    ],
+    "per_seed_ari": [
+      {
+        "seed": 1,
+        "ari_vs_primary_run": 1.0
+      },
+      {
+        "seed": 7,
+        "ari_vs_primary_run": 1.0
+      },
+      {
+        "seed": 13,
+        "ari_vs_primary_run": 1.0
+      },
+      {
+        "seed": 21,
+        "ari_vs_primary_run": 1.0
+      },
+      {
+        "seed": 99,
+        "ari_vs_primary_run": 1.0
+      }
+    ],
+    "mean_ari": 1.0,
+    "min_ari": 1.0,
+    "min_acceptable_ari": 0.8,
+    "stable": true
+  },
+  "recommendations": {
+    "0": {
+      "cluster_name": "High Shape Irregularity",
+      "n_members": 188,
+      "malignant_rate_in_segment": 0.8617,
+      "recommended_action": "PRIORITY REVIEW: this segment skews malignant (86% of members) and is defined by higher mean concavity \u2014 route for expedited pathologist follow-up rather than standard-timeline review."
+    },
+    "1": {
+      "cluster_name": "Low Shape Irregularity",
+      "n_members": 381,
+      "malignant_rate_in_segment": 0.1312,
+      "recommended_action": "STANDARD MONITORING: this segment skews benign (87% of members) and is defined by lower mean concavity \u2014 appropriate for routine follow-up scheduling, not expedited review."
+    }
+  },
+  "cluster_profile_plot": "/home/claude/task15_project/outputs/figures/cluster_profiles.png",
+  "runtime_seconds": 0.41
+}

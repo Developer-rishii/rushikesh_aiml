@@ -1,0 +1,85 @@
+{
+  "seed": 42,
+  "selected_features": [
+    "mean radius",
+    "mean texture",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst texture",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "n_features_selected": 24,
+  "n_features_dropped_low_variance": 0,
+  "n_features_dropped_correlated": 6,
+  "scaling_method": "standard",
+  "pca_applied": true,
+  "pca_n_components": 7,
+  "pca_variance_retained": 0.9018,
+  "chosen_k": 2,
+  "chosen_k_silhouette": 0.348,
+  "k_selection_evidence": [
+    {
+      "k": 2,
+      "inertia": 8231.19,
+      "silhouette": 0.348
+    },
+    {
+      "k": 3,
+      "inertia": 7180.03,
+      "silhouette": 0.2887
+    },
+    {
+      "k": 4,
+      "inertia": 6471.93,
+      "silhouette": 0.1868
+    },
+    {
+      "k": 5,
+      "inertia": 5960.37,
+      "silhouette": 0.1812
+    },
+    {
+      "k": 6,
+      "inertia": 5547.44,
+      "silhouette": 0.176
+    },
+    {
+      "k": 7,
+      "inertia": 5204.21,
+      "silhouette": 0.1716
+    },
+    {
+      "k": 8,
+      "inertia": 4915.16,
+      "silhouette": 0.1688
+    }
+  ],
+  "distance_sanity_check": {
+    "chosen_k": 2,
+    "chosen_silhouette": 0.348,
+    "min_acceptable_silhouette": 0.15,
+    "silhouette_check_passed": true,
+    "max_min_distance_ratio": 36.99,
+    "distance_concentration_flagged": false,
+    "distances_meaningful": true
+  },
+  "external_reference_ari_vs_diagnosis": 0.5329
+}

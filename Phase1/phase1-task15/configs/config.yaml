@@ -1,0 +1,27 @@
+# Task 15 config — run K-Means at Task 14's locked k, profile, name, stability-check.
+seed: 42
+
+data:
+  prepared_data_path: "data/clustering_ready_data.csv"
+  locked_params_path: "data/locked_clustering_params.json"
+  raw_data_path: "data/clean_from_task2.csv"
+  target_col: "target"
+
+kmeans:
+  n_init: 10
+  # k itself is NOT set here -- it's read from Task 14's
+  # locked_clustering_params.json at runtime, so this task can never
+  # silently pick a different k than the one that was actually justified.
+
+stability:
+  seeds_to_check: [1, 7, 13, 21, 99]
+  min_acceptable_ari: 0.8
+
+profiling:
+  top_n_defining_features: 5
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  artifact_dir: "outputs/artifacts"
