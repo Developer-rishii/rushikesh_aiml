@@ -1,0 +1,53 @@
+# Task 14 config — feature selection, scaling, PCA, and k selection for clustering.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"   # Task 2's leakage-cleaned WDBC data
+  target_col: "target"                     # excluded from clustering; kept ONLY for
+                                            # the final external sanity-check (Step 5)
+
+feature_selection:
+  # Step 1: select the features that should define the segments.
+  # Clustering has no target to rank importance against, so selection here
+  # is redundancy-based, not target-based (using the target to pick
+  # clustering features would be a supervised shortcut masquerading as
+  # unsupervised prep): drop features that are near-duplicates of
+  # another already-kept feature (the WDBC mean/worst pairs for the same
+  # measurement are highly correlated by construction, e.g. mean radius
+  # vs worst radius) so no single physical property is triple-counted
+  # across mean/error/worst versions and silently dominates distance.
+  correlation_threshold: 0.95
+  drop_near_zero_variance: true
+  # Threshold is on COEFFICIENT OF VARIATION (std / |mean|), not raw
+  # variance -- raw variance would conflate small absolute scale (e.g.
+  # 'mean smoothness' ~0.05-0.16) with low information, incorrectly
+  # flagging genuinely informative small-scale features as near-constant.
+  # 0.01 means "std is less than 1% of the mean" -- genuinely near-constant.
+  variance_threshold: 0.01
+
+scaling:
+  method: "standard"   # Step 2: StandardScaler -- required before any
+                        # distance-based method, or large-unit features
+                        # (e.g. 'mean area', unit=px^2) dominate purely by scale
+
+pca:
+  # Step 3: reduce dimensionality if the selected feature count still
+  # risks the curse of dimensionality for Euclidean distance.
+  apply: true
+  variance_to_retain: 0.90   # keep enough components to retain 90% of variance
+  max_components: 10
+
+k_selection:
+  # Step 4: elbow (inertia) + silhouette, evaluated together, not just one.
+  k_range: [2, 3, 4, 5, 6, 7, 8]
+  n_init: 10
+
+sanity_check:
+  # Step 5: distances must be meaningful, not degenerate.
+  min_acceptable_silhouette: 0.15
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  prepared_data_dir: "outputs/prepared_data"
