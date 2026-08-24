@@ -1,0 +1,120 @@
+{
+  "seed": 42,
+  "n_rows": 569,
+  "cv_comparison": {
+    "cv_scheme": "StratifiedKFold",
+    "outer_folds": 5,
+    "scoring": "average_precision",
+    "per_model_results": {
+      "logreg": {
+        "fold_scores": [
+          0.9956,
+          0.9968,
+          0.9904,
+          1.0,
+          0.9992
+        ],
+        "n_folds": 5,
+        "mean": 0.9964,
+        "std": 0.0034,
+        "min": 0.9904,
+        "max": 1.0
+      },
+      "random_forest": {
+        "fold_scores": [
+          0.9994,
+          0.9887,
+          0.989,
+          0.9966,
+          0.9955
+        ],
+        "n_folds": 5,
+        "mean": 0.9938,
+        "std": 0.0043,
+        "min": 0.9887,
+        "max": 0.9994
+      },
+      "gradient_boosting": {
+        "fold_scores": [
+          0.9986,
+          0.9913,
+          0.9888,
+          0.9987,
+          0.9962
+        ],
+        "n_folds": 5,
+        "mean": 0.9947,
+        "std": 0.004,
+        "min": 0.9888,
+        "max": 0.9987
+      }
+    },
+    "stratification_check": {
+      "overall_positive_rate": 0.6274,
+      "per_fold_positive_rate": [
+        0.6228,
+        0.6228,
+        0.6316,
+        0.6316,
+        0.6283
+      ],
+      "max_deviation_from_overall": 0.0046
+    }
+  },
+  "nested_cv_for_tuned_model": {
+    "model_tuned": "logreg",
+    "param_grid": {
+      "model__C": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "nested_cv_fold_scores": [
+      0.9986,
+      0.9986,
+      0.9904,
+      0.9998,
+      0.9992
+    ],
+    "nested_cv_mean": 0.9973,
+    "nested_cv_std": 0.0035,
+    "naive_non_nested_best_score": 0.9963,
+    "optimism_gap": -0.0011,
+    "best_params_on_full_data": {
+      "model__C": 0.1
+    }
+  },
+  "selection": {
+    "all_candidates": [
+      {
+        "model": "logreg",
+        "mean": 0.9964,
+        "std": 0.0034,
+        "acceptable_variance": true
+      },
+      {
+        "model": "random_forest",
+        "mean": 0.9938,
+        "std": 0.0043,
+        "acceptable_variance": true
+      },
+      {
+        "model": "gradient_boosting",
+        "mean": 0.9947,
+        "std": 0.004,
+        "acceptable_variance": true
+      }
+    ],
+    "selected_model": "logreg",
+    "selected_mean": 0.9964,
+    "selected_std": 0.0034,
+    "selection_rule": "highest mean among models with std <= max_acceptable_std",
+    "which_model_wins_by_worst_fold": "logreg"
+  },
+  "fold_scores_plot": "/home/claude/task16_project/outputs/figures/fold_scores_comparison.png",
+  "runtime_seconds": 5.35
+}

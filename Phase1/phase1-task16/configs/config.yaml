@@ -1,0 +1,49 @@
+# Task 16 config — CV scheme, candidate models, nested CV for tuning.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  locked_features_path: "data/locked_feature_set.json"
+  target_col: "target"
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+cv:
+  # Step 1: appropriate CV scheme -- stratified because the target is
+  # imbalanced (Task 2 found ~63/37 split); a plain KFold could produce
+  # a fold with a skewed or even single-class subset by bad luck.
+  outer_folds: 5
+  inner_folds: 3
+  scoring: "average_precision"
+
+candidate_models:
+  logreg:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+  random_forest:
+    n_estimators: 200
+    max_depth: 4
+    class_weight: "balanced"
+    random_state: 42
+  gradient_boosting:
+    max_depth: 2
+    learning_rate: 0.1
+    n_estimators: 100
+    subsample: 0.8
+    random_state: 42
+
+nested_cv:
+  model_to_tune: "logreg"
+  param_grid:
+    model__C: [0.01, 0.1, 1.0, 10.0]
+
+selection:
+  max_acceptable_std: 0.03
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
