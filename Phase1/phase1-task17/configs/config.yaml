@@ -1,0 +1,39 @@
+# Task 17 config — Bayesian search space, pruning, CV, test confirmation.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  locked_features_path: "data/locked_feature_set.json"
+  target_col: "target"
+  test_frac: 0.20
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+search:
+  n_estimators_max: 300
+  max_depth: [1, 4]
+  learning_rate: [0.001, 0.3]
+  subsample: [0.5, 1.0]
+  min_samples_leaf: [1, 20]
+
+  n_trials: 25
+  cv_folds: 5
+  scoring: "average_precision"
+  early_stopping_rounds: 15
+  pruner_warmup_steps: 1
+
+baseline:
+  n_estimators: 100
+  max_depth: 2
+  learning_rate: 0.1
+  subsample: 0.8
+  min_samples_leaf: 1
+  random_state: 42
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  artifact_dir: "outputs/artifacts"

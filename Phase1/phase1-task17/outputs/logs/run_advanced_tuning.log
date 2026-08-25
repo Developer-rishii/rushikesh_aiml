@@ -1,0 +1,85 @@
+{
+  "seed": 42,
+  "split_sizes": {
+    "train": 455,
+    "test": 114
+  },
+  "search_space": {
+    "max_depth": [
+      1,
+      4
+    ],
+    "learning_rate_log_scale": [
+      0.001,
+      0.3
+    ],
+    "subsample": [
+      0.5,
+      1.0
+    ],
+    "min_samples_leaf": [
+      1,
+      20
+    ],
+    "n_estimators_ceiling": 300
+  },
+  "n_trials_requested": 25,
+  "n_trials_completed": 11,
+  "n_trials_pruned_early": 14,
+  "compute_saved_pct_via_pruning": 56.0,
+  "best_cv_score": 0.995,
+  "best_params": {
+    "max_depth": 2,
+    "learning_rate": 0.088539707252718,
+    "subsample": 0.903620901162529,
+    "min_samples_leaf": 11
+  },
+  "param_importance": {
+    "learning_rate": 0.509,
+    "max_depth": 0.1796,
+    "subsample": 0.1763,
+    "min_samples_leaf": 0.1352
+  },
+  "cv_vs_test_gap": -0.0008,
+  "possible_search_overfitting": false,
+  "test_confirmation": {
+    "primary_metric": "pr_auc",
+    "tuned_params": {
+      "max_depth": 2,
+      "learning_rate": 0.088539707252718,
+      "subsample": 0.903620901162529,
+      "min_samples_leaf": 11
+    },
+    "tuned_n_estimators_actual": 142,
+    "tuned_test_metrics": {
+      "pr_auc": 0.9958,
+      "roc_auc": 0.9927,
+      "precision": 0.9452,
+      "recall": 0.9583,
+      "f1": 0.9517,
+      "accuracy": 0.9386
+    },
+    "baseline_params": {
+      "n_estimators": 100,
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "min_samples_leaf": 1,
+      "random_state": 42
+    },
+    "baseline_n_estimators_actual": 100,
+    "baseline_test_metrics": {
+      "pr_auc": 0.9964,
+      "roc_auc": 0.9937,
+      "precision": 0.9459,
+      "recall": 0.9722,
+      "f1": 0.9589,
+      "accuracy": 0.9474
+    },
+    "test_confirmed_gain": -0.0006,
+    "gain_is_real_not_search_overfitting": false
+  },
+  "trial_log_path": "/home/claude/task17_project/outputs/reports/all_trials_log.csv",
+  "optimization_history_plot": "/home/claude/task17_project/outputs/figures/optimization_history.png",
+  "runtime_seconds": 36.32
+}
