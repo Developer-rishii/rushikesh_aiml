@@ -1,0 +1,40 @@
+# Task 18 config — text cleaning, vectorization, classifier, eval.
+seed: 42
+
+data:
+  corpus_path: "data/job_postings_corpus.csv"
+  text_col: "text"
+  label_col: "category"
+  test_frac: 0.20
+  val_frac: 0.15
+
+preprocessing:
+  lowercase: true
+  strip_punctuation: true
+  remove_stopwords: true
+  min_token_length: 2
+
+vectorization:
+  tfidf:
+    ngram_range: [1, 2]
+    max_features: 3000
+    min_df: 2
+  lsa:
+    n_components: 100
+
+classifier:
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+evaluation:
+  primary_metric: "macro_f1"
+  n_errors_to_inspect: 15
+
+logging:
+  report_dir: "outputs/reports"
+  figure_dir: "outputs/figures"
+  log_dir: "outputs/logs"
+  artifact_dir: "outputs/artifacts"

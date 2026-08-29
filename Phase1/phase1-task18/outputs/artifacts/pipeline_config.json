@@ -1,0 +1,19 @@
+{
+  "cleaning": {
+    "lowercase": true,
+    "strip_punctuation": true,
+    "remove_stopwords": true,
+    "min_token_length": 2
+  },
+  "winner": "tfidf_bow",
+  "labels": [
+    "accountant",
+    "data_scientist",
+    "graphic_designer",
+    "registered_nurse",
+    "sales_representative",
+    "software_engineer"
+  ],
+  "test_macro_f1": 1.0,
+  "seed": 42
+}

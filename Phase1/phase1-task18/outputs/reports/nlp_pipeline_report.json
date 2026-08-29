@@ -1,0 +1,166 @@
+{
+  "seed": 42,
+  "corpus_size": 600,
+  "n_categories": 6,
+  "categories": [
+    "accountant",
+    "data_scientist",
+    "graphic_designer",
+    "registered_nurse",
+    "sales_representative",
+    "software_engineer"
+  ],
+  "n_documents_dropped_empty_after_cleaning": 0,
+  "split_sizes": {
+    "train": 390,
+    "val": 90,
+    "test": 120
+  },
+  "bow_val_macro_f1": 1.0,
+  "lsa_val_macro_f1": 1.0,
+  "winner_representation": "tfidf_bow",
+  "test_evaluation": {
+    "macro_f1": 1.0,
+    "accuracy": 1.0,
+    "per_class_report": {
+      "accountant": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "data_scientist": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "graphic_designer": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "registered_nurse": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "sales_representative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "software_engineer": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "accountant",
+      "data_scientist",
+      "graphic_designer",
+      "registered_nurse",
+      "sales_representative",
+      "software_engineer"
+    ]
+  },
+  "error_inspection": {
+    "n_errors": 0,
+    "top_confused_pairs": [],
+    "note": "No misclassifications to inspect."
+  },
+  "stress_test_ambiguous_hybrids": {
+    "n_hybrid_documents": 40,
+    "macro_f1_on_ambiguous_hybrids": 0.3059,
+    "accuracy_on_ambiguous_hybrids": 0.475,
+    "confusion_summary": {
+      "n_errors": 15,
+      "top_confused_pairs": [
+        {
+          "true_label": "software_engineer",
+          "predicted_as": "data_scientist",
+          "count": 10
+        },
+        {
+          "true_label": "sales_representative",
+          "predicted_as": "accountant",
+          "count": 5
+        }
+      ],
+      "note": "Confused category pairs above share overlapping vocabulary (e.g. both may mention 'data', 'systems', or general business terms) \u2014 a genuine language-level failure mode, not a random error."
+    }
+  },
+  "package_paths": {
+    "model_path": "/home/claude/task18_project/outputs/artifacts/text_classifier_pipeline.joblib",
+    "config_path": "/home/claude/task18_project/outputs/artifacts/pipeline_config.json"
+  },
+  "package_reload_verified": true,
+  "example_prediction": {
+    "predicted_category": "data_scientist",
+    "confidence": 0.8228,
+    "all_class_probabilities": {
+      "accountant": 0.0373,
+      "data_scientist": 0.8228,
+      "graphic_designer": 0.0316,
+      "registered_nurse": 0.0306,
+      "sales_representative": 0.0346,
+      "software_engineer": 0.0431
+    }
+  },
+  "runtime_seconds": 0.23
+}
