@@ -1,0 +1,35 @@
+# Task 19 config — training, serialization, artifact metadata.
+seed: 42
+
+data:
+  raw_path: "data/clean_from_task2.csv"
+  locked_features_path: "data/locked_feature_set.json"
+  target_col: "target"
+  test_frac: 0.20
+
+preprocessing:
+  numeric_impute_strategy: "median"
+  scale_numeric: true
+
+model:
+  name: "logreg"
+  params:
+    max_iter: 2000
+    class_weight: "balanced"
+    random_state: 42
+
+evaluation:
+  metrics: ["pr_auc", "roc_auc", "precision", "recall", "f1", "accuracy"]
+
+artifact:
+  # Step 1/2: ONE bundle -- preprocessing steps live INSIDE the same
+  # sklearn Pipeline as the model (same discipline as Tasks 8-17), so
+  # "saving model but not preprocessor" is structurally impossible: there
+  # is no code path where the two are separate objects to forget one of.
+  store_dir: "outputs/artifact_store"
+  artifact_filename: "model_pipeline.joblib"
+  metadata_filename: "metadata.json"
+
+logging:
+  report_dir: "outputs/reports"
+  log_dir: "outputs/logs"
