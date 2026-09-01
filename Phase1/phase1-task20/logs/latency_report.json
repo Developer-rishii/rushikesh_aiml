@@ -1,0 +1,19 @@
+{
+  "n_requests": 300,
+  "successful": 300,
+  "server_side_inference_ms": {
+    "mean": 0.567,
+    "p50": 0.553,
+    "p95": 0.703,
+    "p99": 0.806,
+    "max": 1.41
+  },
+  "wall_clock_roundtrip_ms": {
+    "mean": 2.268,
+    "p50": 2.248,
+    "p95": 2.583,
+    "p99": 2.795,
+    "max": 5.94
+  },
+  "acceptable_for_realtime_use": true
+}

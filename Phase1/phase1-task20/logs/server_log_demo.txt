@@ -1,0 +1,13 @@
+2026-09-01 16:27:04,766 | INFO | Model loaded from /home/claude/task20/models/pipeline_latest.joblib
+ * Serving Flask app 'app'
+ * Debug mode: off
+2026-09-01 16:27:04,773 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.2.2:5000
+2026-09-01 16:27:04,773 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-01 16:27:06,601 | INFO | 127.0.0.1 - - [01/Sep/2026 16:27:06] "GET /health HTTP/1.1" 200 -
+2026-09-01 16:27:06,609 | INFO | 127.0.0.1 - - [01/Sep/2026 16:27:06] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:27:06,615 | INFO | 127.0.0.1 - - [01/Sep/2026 16:27:06] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:27:06,620 | INFO | 127.0.0.1 - - [01/Sep/2026 16:27:06] "[31m[1mPOST /predict HTTP/1.1[0m" 422 -
+2026-09-01 16:27:06,626 | INFO | 127.0.0.1 - - [01/Sep/2026 16:27:06] "[33mGET /nope HTTP/1.1[0m" 404 -

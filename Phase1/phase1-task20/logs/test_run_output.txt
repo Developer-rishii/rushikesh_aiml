@@ -1,0 +1,27 @@
+[PASS] health_check_status_200 -> 200
+[PASS] health_check_model_loaded 
+[PASS] real_sample_0_status_200 -> 200
+[PASS] real_sample_1_status_200 -> 200
+[PASS] real_sample_2_status_200 -> 200
+[PASS] real_sample_3_status_200 -> 200
+[PASS] real_sample_4_status_200 -> 200
+[PASS] real_sample_5_status_200 -> 200
+[PASS] real_sample_6_status_200 -> 200
+[PASS] real_sample_7_status_200 -> 200
+[PASS] real_sample_8_status_200 -> 200
+[PASS] real_sample_9_status_200 -> 200
+[PASS] real_sample_predictions_reasonable_accuracy -> 10/10 correct
+[PASS] latency_under_50ms_avg -> avg 1.513 ms
+[PASS] batch_500_rows_status_ok -> 200
+[PASS] batch_500_rows_all_returned -> 500
+[PASS] batch_500_rows_latency -> 204.1 ms total
+[PASS] edge_wrong_length_returns_422 -> 422
+[PASS] edge_missing_key_returns_422 -> 422
+[PASS] edge_non_numeric_returns_422 -> 422
+[PASS] edge_nan_returns_400_or_422 -> 422
+[PASS] edge_malformed_json_returns_400 -> 400
+[PASS] edge_unknown_route_returns_404 -> 404
+[PASS] edge_wrong_method_returns_405 -> 405
+
+=== SUMMARY ===
+24/24 checks passed

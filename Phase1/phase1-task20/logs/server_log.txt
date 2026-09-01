@@ -1,0 +1,27 @@
+2026-09-01 16:26:49,785 | INFO | Model loaded from /home/claude/task20/models/pipeline_latest.joblib
+ * Serving Flask app 'app'
+ * Debug mode: off
+2026-09-01 16:26:49,791 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.2.2:5000
+2026-09-01 16:26:49,791 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-01 16:26:53,120 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "GET /health HTTP/1.1" 200 -
+2026-09-01 16:26:53,131 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,134 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,139 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,142 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,145 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,148 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,150 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,161 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,164 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,167 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict HTTP/1.1" 200 -
+2026-09-01 16:26:53,378 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "POST /predict/batch HTTP/1.1" 200 -
+2026-09-01 16:26:53,383 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "[31m[1mPOST /predict HTTP/1.1[0m" 422 -
+2026-09-01 16:26:53,385 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "[31m[1mPOST /predict HTTP/1.1[0m" 422 -
+2026-09-01 16:26:53,387 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "[31m[1mPOST /predict HTTP/1.1[0m" 422 -
+2026-09-01 16:26:53,389 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "[31m[1mPOST /predict HTTP/1.1[0m" 422 -
+2026-09-01 16:26:53,391 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-09-01 16:26:53,393 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "[33mGET /nonexistent HTTP/1.1[0m" 404 -
+2026-09-01 16:26:53,395 | INFO | 127.0.0.1 - - [01/Sep/2026 16:26:53] "[31m[1mGET /predict HTTP/1.1[0m" 405 -

@@ -1,0 +1,20 @@
+=== 1. HEALTH CHECK ===
+{"feature_count_expected":30,"model_loaded":true,"model_version":"v1","status":"ok"}
+-e 
+
+=== 2. LIVE PREDICTION (real malignant-shaped sample) ===
+{"label":"malignant","latency_ms":1.294,"model_version":"v1","prediction":0,"probability_benign":0.0,"probability_malignant":1.0}
+-e 
+
+=== 3. LIVE PREDICTION (real benign-shaped sample) ===
+{"label":"benign","latency_ms":0.672,"model_version":"v1","prediction":1,"probability_benign":0.905497,"probability_malignant":0.094503}
+-e 
+
+=== 4. EDGE CASE: wrong feature count ===
+{"detail":[{"ctx":{"error":"Expected 30 features, got 3."},"input":[1,2,3],"loc":["features"],"msg":"Value error, Expected 30 features, got 3.","type":"value_error"}],"error":"validation_error"}
+-e 
+
+=== 5. EDGE CASE: unknown route ===
+{"detail":"Unknown endpoint.","error":"not_found"}
+-e 
+
